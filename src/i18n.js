@@ -1,0 +1,374 @@
+export const DEFAULT_LANGUAGE = 'en'
+
+export const LANGUAGES = [
+  { code: 'en', label: 'English', locale: 'en-GB' },
+  { code: 'fr', label: 'Français', locale: 'fr-FR' },
+  { code: 'it', label: 'Italiano', locale: 'it-IT' },
+  { code: 'es', label: 'Español', locale: 'es-ES' },
+  { code: 'hu', label: 'Magyar', locale: 'hu-HU' },
+]
+
+const translations = {
+  en: {
+    header: { home: 'Safe to Swim home', location: 'Coastal location', chooseLocation: 'Choose a UK coastal location', locate: 'Use my current location', locating: 'Finding the nearest beach…', locationFound: 'Nearest supported beach: {location}', locationDenied: 'Location access was not allowed.', locationError: 'Your location could not be found.', refresh: 'Refresh data', language: 'Language' },
+    locationPicker: { title: 'Choose a beach', subtitle: 'Search {count} UK coastal locations', searchLabel: 'Search beaches', searchPlaceholder: 'Search beach, town or area…', useLocation: 'Find the nearest beach', current: 'Selected beach', suggested: 'Popular beaches', results: '{count} results', empty: 'No beaches match this search.', refine: 'Showing the first {count} results. Refine your search to narrow it down.', selected: 'Selected', close: 'Close beach picker' },
+    explorer: {
+      eyebrow: 'UK coastal bathing waters', title: 'Explore the whole coast', count: '{count} verified coastal sites', searchLabel: 'Search coastal bathing waters', searchPlaceholder: 'Search beach, town or area…', filterLabel: 'Filter by nation', results: '{count} matching locations', empty: 'No coastal bathing waters match this search.', refine: 'Refine your search to see more results.', reset: 'Whole UK', mapLabel: 'Map of official UK coastal bathing waters', classification: 'Water quality: {value}', modelLocation: 'Model conditions available', excellent: 'Excellent', good: 'Good', sufficient: 'Sufficient', poor: 'Poor',
+      nations: { all: 'All', england: 'England', wales: 'Wales', scotland: 'Scotland', ni: 'Northern Ireland' },
+    },
+    waterQuality: {
+      eyebrow: 'Official monitoring', title: 'Bathing water quality', official: 'Official data', annual: '{year} annual classification', monitoringSite: 'Monitoring site', nearest: 'Nearest official site · {distance} km away', provider: 'Data provider', snapshot: 'Snapshot updated {date}', shortTerm: 'Short-term pollution risk', riskNormal: 'No increased risk is shown in the current official feed.', riskElevated: 'The official feed indicates an increased short-term risk.', noPrediction: 'No short-term prediction is included for this site.', afterRain: 'After heavy rain', rainAdvice: 'Water quality at this site can be affected by rainfall. Check the latest official notice before swimming.', note: 'Annual classifications describe monitored water quality, not wave, current or on-site safety. Follow current warnings and local signs.', openSource: 'Open official record',
+      shortTitle: 'Water quality', annualShort: 'Annual water quality', summaryNormal: 'No increased short-term risk shown', summaryElevated: 'Increased short-term risk shown', summaryAnnual: 'Annual official classification',
+      classes: { excellent: 'Excellent', good: 'Good', sufficient: 'Sufficient', poor: 'Poor', unclassified: 'Unclassified' },
+    },
+    safety: {
+      dangerEyebrow: 'Not recommended', dangerTitle: 'Stay on shore.', dangerDescription: 'Because of {reasons}, open-water swimming is suitable for experts only.',
+      cautionEyebrow: 'Use extra caution', cautionTitle: 'Experienced swimmers only.', cautionDescription: 'Because of {reasons}, conditions may become tiring quickly. Do not swim alone.',
+      goodEyebrow: 'Favourable conditions', goodTitle: 'It may be a good time to swim.', goodDescription: 'Wind and waves are moderate. Still check the flags on the beach.',
+      waveReason: '{value} m strong waves', gustReason: '{value} mph gusts', offshoreReason: 'offshore wind',
+      updatedAt: 'Updated at {time}', updating: 'Updating…', liveData: 'Live model data', sampleData: 'Sample data', wave: 'Wave', wind: 'Wind', gusts: 'Wind gusts',
+    },
+    weather: { clear: 'Clear sky', partlyCloudy: 'Partly cloudy', fog: 'Foggy', rain: 'Rain', drizzle: 'Drizzle', showers: 'Showers', storm: 'Thunderstorms' },
+    conditions: {
+      aria: 'Current sea conditions', waveHeight: 'Wave height', period: '{value} s period', wind: 'Wind and gusts', gusts: 'Gusts: {value} mph', from: 'From {direction}',
+      seaLevel: 'Sea level', rising: 'Sea level is rising', falling: 'Sea level is falling', waterTemperature: 'Water temperature', air: '{value}°C air', wetsuit: 'Wetsuit recommended',
+    },
+    forecast: {
+      eyebrow: 'Next hours', title: 'When might it improve?', aria: 'Hourly forecast', now: 'Now', day: 'Day', night: 'Night', high: 'High', medium: 'Medium', mild: 'Mild',
+      note: 'Even a greener time window does not replace checking the beach flags and currents.',
+    },
+    decision: {
+      eyebrow: 'Today’s swim outlook', title: 'When might it feel best?', hint: 'Select a time to see what changes', aria: 'Choose a forecast time', selectedAt: 'Forecast for {time}', reasonDetails: '{time}: {reason}',
+      levels: { good: 'Favourable', caution: 'Caution', danger: 'Avoid' }, change: { now: 'Conditions right now', better: 'Looks better than now', worse: 'More challenging than now', mixed: 'Mixed changes', stable: 'Similar to now' },
+      reasons: { good: 'Favourable because waves and gusts are low and the wind is not blowing offshore.', goodUnknown: 'Favourable because waves and gusts are low; check the wind direction on site.', caution: 'Caution because of {reasons}.', danger: 'Avoid swimming because of {reasons}.' },
+      wind: { offshore: 'Offshore wind', safe: 'Not offshore', unknown: 'Check on site' },
+    },
+    tide: {
+      eyebrow: 'Tides', title: 'Next turning points', high: 'High tide', low: 'Low tide', towardHigh: 'Rising tide', towardLow: 'Falling tide', nearTurn: 'Near turning point',
+      rising: 'Sea level is rising', falling: 'Sea level is falling', slack: 'Sea level is changing very little', currentLevel: 'Current model level', eventsAria: 'Next high and low tides', today: 'Today', tomorrow: 'Tomorrow',
+      note: '8 km model estimate; it may be inaccurate near shore and must not be used for navigation.', moreTimes: 'More tide times',
+    },
+    webcam: {
+      south: 'South camera', north: 'North camera', eyebrow: 'Live beach view', title: '{location} camera', verified: 'Verified source', selector: 'Select camera', load: 'Load live view',
+      consent: 'The player connects to the external provider only after you click.', open: 'Live camera available', external: 'This provider shows the live image on its own website.', openAction: 'Open live camera', unavailableTitle: 'No verified nearby camera', unavailable: 'We only show cameras whose location and live source we could verify.', note: 'Camera images are for information only and can go offline temporarily. Always check the beach itself.', source: 'Source: {name}', nearbySource: '{name} · {distance} km away',
+    },
+    details: { eyebrow: 'More information', title: 'Detailed conditions and maps', summary: 'Wind, temperature, safety checks and UK coast map' },
+    checklist: {
+      eyebrow: 'Before you enter', title: '3 quick checks', flagTitle: 'Check the RNLI flag', flagText: 'Never enter the water when a red flag is flying.', onSite: 'On site',
+      windTitle: 'Check the wind direction', windOffshore: 'The wind may currently be blowing offshore.', windSafe: 'The wind is not currently blowing directly offshore.', windUnknown: 'Check the local shoreline orientation and wind direction on site.', offshore: 'Offshore', okay: 'OK',
+      beachTitle: 'Check local beach hazards', beachText: 'Check the entry, exit, currents and warning signs before entering the water.', elevated: 'Elevated risk', moderate: 'Moderate', lifeguard: 'Find a lifeguarded beach',
+    },
+    notice: { unavailable: 'The live data source is unavailable, so sample data is being shown.' },
+    disclaimer: { important: 'Important:', text: 'This is model-based guidance, not an official safety clearance. Always follow the RNLI information shown on site.', data: 'Data: Open-Meteo' },
+    support: { open: 'Support Safe to Swim', title: 'Enjoying Safe to Swim?', text: 'Safe to Swim is free and independent. If it helped you plan a swim, you can optionally buy Gergely a beer.', optional: 'No pressure — the app remains free for everyone.', action: 'Buy me a beer', close: 'Close support panel' },
+    install: { open: 'Install Safe to Swim', title: 'Add Safe to Swim to your Home Screen', description: 'Open it like an app without searching for the website.', iosShare: 'In Safari, tap the Share button.', iosAdd: 'Choose Add to Home Screen.', iosConfirm: 'Tap Add in the top-right corner.', browserMenu: 'Open your browser menu.', browserInstall: 'Choose Install app or Add to Home screen.', browserConfirm: 'Confirm the installation.', done: 'Got it', close: 'Close installation guide' },
+    footer: { tagline: 'More confident decisions before entering the water.', back: 'Back to top' },
+    map: {
+      title: 'Detailed coastline map', reset: 'Full coastline', activeZones: '{count} active RNLI zones', notRecommended: 'Not recommended now', checkOnSite: 'Check conditions on site',
+      statusNote: 'Colours are based on the model and patrol hours; flags on site take priority.', layers: 'Map layers', zones: 'Swimming and patrol zones', hazards: 'Piers and {count} groynes', incidents: '2022 incident layer',
+      region: 'Interactive map of the Brighton and Hove coastline', legend: 'Legend', activeZone: 'Active RNLI zone', unguarded: 'Unpatrolled coast', physicalHazard: 'Physical hazard', modelPoint: 'Model data location', incidentShare: '2022 incident share',
+      unguardedTitle: 'Unpatrolled coastline', unguardedDetail: 'Active supervision is not guaranteed along the yellow line. Check the flags on site.',
+      patrolActive: 'Within RNLI patrol hours. Swim only between the red-and-yellow flags on site.', patrolInactive: 'Patrol is not active now; treat this as an unpatrolled section of coast.', activePost: 'active RNLI post', inactivePost: 'patrol not active now',
+      groyne: 'Groyne {number} – do not swim directly beside it', westPierDetail: 'Pier structure and local currents – do not swim near it.', palacePierDetail: 'Pier structure and local currents – do not swim under or beside it.', marina: 'Brighton Marina entrance', marinaDetail: 'Boat traffic area – not suitable for swimming.',
+      incidentTooltip: '2022: {value} of incidents – {place}', incidentDetail: '{value} share of serious and non-life-threatening incidents recorded at patrolled locations in 2022. This is not an individual accident point.',
+      modelLabel: 'Model point', modelTooltip: 'Sampling location for weather and marine model data.', modelOnly: 'This location currently shows model conditions only. Detailed lifeguard zones, hazards and official water quality are added separately as verified data becomes available.',
+      footnote: 'RNLI beach strips appear as areas only during active patrol hours; otherwise a dot marks the post. Daily flag positions may change. The incident layer is hidden by default; the red layer highlights both piers, the marina entrance and the {count} groynes currently mapped in OpenStreetMap.',
+      postsSource: 'Post map', safetySource: 'Safety source', incidentSource: 'Incident data',
+    },
+  },
+  fr: {
+    header: { home: 'Accueil Safe to Swim', location: 'Lieu côtier', chooseLocation: 'Choisir un lieu côtier au Royaume-Uni', locate: 'Utiliser ma position actuelle', locating: 'Recherche de la plage la plus proche…', locationFound: 'Plage disponible la plus proche : {location}', locationDenied: 'L’accès à la position n’a pas été autorisé.', locationError: 'Votre position n’a pas pu être déterminée.', refresh: 'Actualiser les données', language: 'Langue' },
+    locationPicker: { title: 'Choisir une plage', subtitle: 'Recherchez parmi {count} lieux côtiers britanniques', searchLabel: 'Rechercher une plage', searchPlaceholder: 'Plage, ville ou région…', useLocation: 'Trouver la plage la plus proche', current: 'Plage sélectionnée', suggested: 'Plages populaires', results: '{count} résultats', empty: 'Aucune plage ne correspond à cette recherche.', refine: 'Les {count} premiers résultats sont affichés. Précisez votre recherche.', selected: 'Sélectionnée', close: 'Fermer le sélecteur de plage' },
+    explorer: {
+      eyebrow: 'Eaux de baignade côtières', title: 'Explorez toute la côte', count: '{count} sites côtiers vérifiés', searchLabel: 'Rechercher une plage', searchPlaceholder: 'Plage, ville ou région…', filterLabel: 'Filtrer par nation', results: '{count} lieux correspondants', empty: 'Aucun lieu côtier ne correspond.', refine: 'Affinez la recherche pour afficher plus de résultats.', reset: 'Tout le Royaume-Uni', mapLabel: 'Carte des eaux de baignade côtières officielles', classification: 'Qualité de l’eau : {value}', modelLocation: 'Conditions du modèle disponibles', excellent: 'Excellent', good: 'Bon', sufficient: 'Suffisant', poor: 'Mauvais',
+      nations: { all: 'Tous', england: 'Angleterre', wales: 'Pays de Galles', scotland: 'Écosse', ni: 'Irlande du Nord' },
+    },
+    waterQuality: {
+      eyebrow: 'Surveillance officielle', title: 'Qualité de l’eau de baignade', official: 'Données officielles', annual: 'Classement annuel {year}', monitoringSite: 'Site de contrôle', nearest: 'Site officiel le plus proche · {distance} km', provider: 'Fournisseur', snapshot: 'Instantané mis à jour le {date}', shortTerm: 'Risque de pollution à court terme', riskNormal: 'Aucun risque accru dans le flux officiel actuel.', riskElevated: 'Le flux officiel indique un risque accru à court terme.', noPrediction: 'Aucune prévision à court terme n’est incluse pour ce site.', afterRain: 'Après de fortes pluies', rainAdvice: 'La pluie peut dégrader la qualité de l’eau. Consultez l’avis officiel avant de vous baigner.', note: 'Le classement annuel décrit la qualité mesurée, pas les vagues, courants ou dangers locaux. Suivez les alertes et panneaux.', openSource: 'Ouvrir la fiche officielle',
+      shortTitle: 'Qualité de l’eau', annualShort: 'Qualité annuelle de l’eau', summaryNormal: 'Aucun risque accru à court terme', summaryElevated: 'Risque accru à court terme', summaryAnnual: 'Classement officiel annuel',
+      classes: { excellent: 'Excellente', good: 'Bonne', sufficient: 'Suffisante', poor: 'Mauvaise', unclassified: 'Non classée' },
+    },
+    safety: {
+      dangerEyebrow: 'Déconseillé', dangerTitle: 'Restez sur la plage.', dangerDescription: 'En raison de {reasons}, la nage en eau libre est réservée aux experts.',
+      cautionEyebrow: 'Prudence renforcée', cautionTitle: 'Nageurs expérimentés uniquement.', cautionDescription: 'À cause de {reasons}, les conditions peuvent fatiguer rapidement. Ne nagez pas seul.',
+      goodEyebrow: 'Conditions favorables', goodTitle: 'Le moment peut être propice à la baignade.', goodDescription: 'Le vent et les vagues sont modérés. Vérifiez tout de même les drapeaux sur la plage.',
+      waveReason: 'fortes vagues de {value} m', gustReason: 'rafales de {value} mph', offshoreReason: 'vent de terre',
+      updatedAt: 'Mis à jour à {time}', updating: 'Actualisation…', liveData: 'Données de modèle en direct', sampleData: 'Données d’exemple', wave: 'Vague', wind: 'Vent', gusts: 'Rafales de vent',
+    },
+    weather: { clear: 'Ciel dégagé', partlyCloudy: 'Partiellement nuageux', fog: 'Brumeux', rain: 'Pluie', drizzle: 'Bruine', showers: 'Averses', storm: 'Orages' },
+    conditions: {
+      aria: 'Conditions marines actuelles', waveHeight: 'Hauteur des vagues', period: 'Période de {value} s', wind: 'Vent et rafales', gusts: 'Rafales : {value} mph', from: 'De {direction}',
+      seaLevel: 'Niveau de la mer', rising: 'Le niveau de la mer monte', falling: 'Le niveau de la mer baisse', waterTemperature: 'Température de l’eau', air: 'Air {value}°C', wetsuit: 'Combinaison conseillée',
+    },
+    forecast: {
+      eyebrow: 'Prochaines heures', title: 'Quand les conditions s’amélioreront-elles ?', aria: 'Prévisions heure par heure', now: 'Maintenant', day: 'Jour', night: 'Nuit', high: 'Fort', medium: 'Moyen', mild: 'Faible',
+      note: 'Même un créneau plus favorable ne remplace pas la vérification des drapeaux et des courants sur place.',
+    },
+    decision: {
+      eyebrow: 'Prévision baignade du jour', title: 'Quel serait le meilleur moment ?', hint: 'Choisissez une heure pour voir les changements', aria: 'Choisir une heure de prévision', selectedAt: 'Prévision pour {time}', reasonDetails: '{time} : {reason}',
+      levels: { good: 'Favorable', caution: 'Prudence', danger: 'À éviter' }, change: { now: 'Conditions actuelles', better: 'Mieux qu’actuellement', worse: 'Plus difficile qu’actuellement', mixed: 'Évolution mitigée', stable: 'Similaire à maintenant' },
+      reasons: { good: 'Favorable : les vagues et les rafales sont faibles, et le vent ne souffle pas vers le large.', goodUnknown: 'Favorable : les vagues et les rafales sont faibles ; vérifiez la direction du vent sur place.', caution: 'Prudence en raison de {reasons}.', danger: 'Baignade déconseillée en raison de {reasons}.' },
+      wind: { offshore: 'Vent vers le large', safe: 'Pas vers le large', unknown: 'À vérifier sur place' },
+    },
+    tide: {
+      eyebrow: 'Marées', title: 'Prochains renversements', high: 'Marée haute', low: 'Marée basse', towardHigh: 'Marée montante', towardLow: 'Marée descendante', nearTurn: 'Près du renversement',
+      rising: 'Le niveau de la mer monte', falling: 'Le niveau de la mer baisse', slack: 'Le niveau de la mer varie très peu', currentLevel: 'Niveau actuel du modèle', eventsAria: 'Prochaines marées hautes et basses', today: 'Aujourd’hui', tomorrow: 'Demain',
+      note: 'Estimation d’un modèle à 8 km ; elle peut être imprécise près du rivage et ne doit pas servir à la navigation.', moreTimes: 'Autres horaires de marée',
+    },
+    webcam: {
+      south: 'Caméra sud', north: 'Caméra nord', eyebrow: 'Vue de la plage en direct', title: 'Caméra de {location}', verified: 'Source vérifiée', selector: 'Choisir la caméra', load: 'Charger la vue en direct',
+      consent: 'Le lecteur ne se connecte au fournisseur externe qu’après votre clic.', open: 'Caméra en direct disponible', external: 'Le fournisseur affiche l’image en direct sur son propre site.', openAction: 'Ouvrir la caméra', unavailableTitle: 'Aucune caméra proche vérifiée', unavailable: 'Seules les caméras dont le lieu et la source en direct ont été vérifiés sont affichées.', note: 'Les images sont indicatives et la caméra peut être temporairement hors ligne. Vérifiez toujours la plage.', source: 'Source : {name}', nearbySource: '{name} · à {distance} km',
+    },
+    details: { eyebrow: 'Plus d’informations', title: 'Conditions et cartes détaillées', summary: 'Vent, température, contrôles de sécurité et carte du littoral' },
+    checklist: {
+      eyebrow: 'Avant d’entrer', title: '3 vérifications rapides', flagTitle: 'Vérifiez le drapeau RNLI', flagText: 'N’entrez jamais dans l’eau lorsqu’un drapeau rouge est hissé.', onSite: 'Sur place',
+      windTitle: 'Vérifiez la direction du vent', windOffshore: 'Le vent peut actuellement souffler vers le large.', windSafe: 'Le vent ne souffle pas actuellement directement vers le large.', windUnknown: 'Vérifiez sur place l’orientation du rivage et la direction du vent.', offshore: 'Vers le large', okay: 'Correct',
+      beachTitle: 'Vérifiez les dangers locaux', beachText: 'Vérifiez l’accès, la sortie, les courants et les panneaux avant d’entrer dans l’eau.', elevated: 'Risque accru', moderate: 'Modéré', lifeguard: 'Trouver une plage surveillée',
+    },
+    notice: { unavailable: 'La source de données en direct est indisponible ; des données d’exemple sont affichées.' },
+    disclaimer: { important: 'Important :', text: 'Ces informations reposent sur un modèle et ne constituent pas une autorisation officielle de baignade. Suivez toujours les indications RNLI affichées sur place.', data: 'Données : Open-Meteo' },
+    support: { open: 'Soutenir Safe to Swim', title: 'Safe to Swim vous est utile ?', text: 'Safe to Swim est gratuit et indépendant. Si l’app vous a aidé à préparer une baignade, vous pouvez offrir une bière à Gergely.', optional: 'Sans aucune obligation — l’app reste gratuite pour tout le monde.', action: 'M’offrir une bière', close: 'Fermer le panneau de soutien' },
+    install: { open: 'Installer Safe to Swim', title: 'Ajoutez Safe to Swim à l’écran d’accueil', description: 'Ouvrez-le comme une app sans rechercher le site.', iosShare: 'Dans Safari, touchez le bouton Partager.', iosAdd: 'Choisissez Sur l’écran d’accueil.', iosConfirm: 'Touchez Ajouter en haut à droite.', browserMenu: 'Ouvrez le menu du navigateur.', browserInstall: 'Choisissez Installer l’application ou Ajouter à l’écran d’accueil.', browserConfirm: 'Confirmez l’installation.', done: 'Compris', close: 'Fermer le guide d’installation' },
+    footer: { tagline: 'Des décisions plus sûres avant d’entrer dans l’eau.', back: 'Retour en haut' },
+    map: {
+      title: 'Carte détaillée du littoral', reset: 'Tout le littoral', activeZones: '{count} zones RNLI actives', notRecommended: 'Déconseillé actuellement', checkOnSite: 'Vérifier sur place',
+      statusNote: 'Les couleurs reposent sur le modèle et les horaires de patrouille ; les drapeaux sur place prévalent.', layers: 'Couches de la carte', zones: 'Zones de baignade et de surveillance', hazards: 'Jetées et {count} épis', incidents: 'Couche des incidents 2022',
+      region: 'Carte interactive du littoral de Brighton et Hove', legend: 'Légende', activeZone: 'Zone RNLI active', unguarded: 'Littoral non surveillé', physicalHazard: 'Danger physique', modelPoint: 'Emplacement des données du modèle', incidentShare: 'Part des incidents 2022',
+      unguardedTitle: 'Littoral non surveillé', unguardedDetail: 'Une surveillance active n’est pas garantie le long de la ligne jaune. Vérifiez les drapeaux sur place.',
+      patrolActive: 'Pendant les heures de patrouille RNLI. Nagez uniquement entre les drapeaux rouge et jaune sur place.', patrolInactive: 'La patrouille n’est pas active actuellement ; considérez cette section comme non surveillée.', activePost: 'poste RNLI actif', inactivePost: 'patrouille inactive actuellement',
+      groyne: 'Épi {number} – ne nagez pas juste à côté', westPierDetail: 'Structure de la jetée et courants locaux – ne nagez pas à proximité.', palacePierDetail: 'Structure de la jetée et courants locaux – ne nagez ni dessous ni à côté.', marina: 'Entrée de Brighton Marina', marinaDetail: 'Zone de trafic maritime – impropre à la baignade.',
+      incidentTooltip: '2022 : {value} des incidents – {place}', incidentDetail: '{value} des incidents graves et non mortels enregistrés sur les sites surveillés en 2022. Il ne s’agit pas d’un point d’accident individuel.',
+      modelLabel: 'Point modèle', modelTooltip: 'Lieu d’échantillonnage des données des modèles météo et marin.', modelOnly: 'Ce lieu affiche actuellement uniquement les conditions du modèle. Les zones surveillées, dangers et données officielles sur la qualité de l’eau seront ajoutés après vérification.',
+      footnote: 'Les bandes RNLI apparaissent comme des zones uniquement pendant les heures de patrouille ; sinon un point indique le poste. La position quotidienne des drapeaux peut varier. La couche des incidents est masquée par défaut ; la couche rouge met en évidence les deux jetées, l’entrée de la marina et les {count} épis actuellement cartographiés dans OpenStreetMap.',
+      postsSource: 'Carte des postes', safetySource: 'Source sécurité', incidentSource: 'Données incidents',
+    },
+  },
+  it: {
+    header: { home: 'Home Safe to Swim', location: 'Località costiera', chooseLocation: 'Scegli una località costiera del Regno Unito', locate: 'Usa la mia posizione attuale', locating: 'Ricerca della spiaggia più vicina…', locationFound: 'Spiaggia disponibile più vicina: {location}', locationDenied: 'L’accesso alla posizione non è stato consentito.', locationError: 'Non è stato possibile trovare la tua posizione.', refresh: 'Aggiorna dati', language: 'Lingua' },
+    locationPicker: { title: 'Scegli una spiaggia', subtitle: 'Cerca tra {count} località costiere del Regno Unito', searchLabel: 'Cerca spiagge', searchPlaceholder: 'Spiaggia, città o zona…', useLocation: 'Trova la spiaggia più vicina', current: 'Spiaggia selezionata', suggested: 'Spiagge popolari', results: '{count} risultati', empty: 'Nessuna spiaggia corrisponde alla ricerca.', refine: 'Sono mostrati i primi {count} risultati. Affina la ricerca.', selected: 'Selezionata', close: 'Chiudi il selettore spiaggia' },
+    explorer: {
+      eyebrow: 'Acque di balneazione costiere', title: 'Esplora tutta la costa', count: '{count} siti costieri verificati', searchLabel: 'Cerca spiagge costiere', searchPlaceholder: 'Spiaggia, città o zona…', filterLabel: 'Filtra per nazione', results: '{count} località trovate', empty: 'Nessuna località costiera corrisponde.', refine: 'Affina la ricerca per vedere più risultati.', reset: 'Tutto il Regno Unito', mapLabel: 'Mappa delle acque di balneazione costiere ufficiali', classification: 'Qualità dell’acqua: {value}', modelLocation: 'Condizioni modello disponibili', excellent: 'Eccellente', good: 'Buona', sufficient: 'Sufficiente', poor: 'Scarsa',
+      nations: { all: 'Tutte', england: 'Inghilterra', wales: 'Galles', scotland: 'Scozia', ni: 'Irlanda del Nord' },
+    },
+    waterQuality: {
+      eyebrow: 'Monitoraggio ufficiale', title: 'Qualità dell’acqua di balneazione', official: 'Dati ufficiali', annual: 'Classificazione annuale {year}', monitoringSite: 'Sito di monitoraggio', nearest: 'Sito ufficiale più vicino · {distance} km', provider: 'Fornitore dati', snapshot: 'Dati aggiornati al {date}', shortTerm: 'Rischio di inquinamento a breve termine', riskNormal: 'Il flusso ufficiale attuale non mostra un rischio maggiore.', riskElevated: 'Il flusso ufficiale indica un rischio maggiore a breve termine.', noPrediction: 'Nessuna previsione a breve termine inclusa per questo sito.', afterRain: 'Dopo piogge intense', rainAdvice: 'La pioggia può influire sulla qualità dell’acqua. Controlla l’avviso ufficiale prima di nuotare.', note: 'La classificazione annuale descrive la qualità monitorata, non onde, correnti o sicurezza locale. Segui avvisi e cartelli.', openSource: 'Apri il record ufficiale',
+      shortTitle: 'Qualità dell’acqua', annualShort: 'Qualità annuale dell’acqua', summaryNormal: 'Nessun rischio maggiore a breve termine', summaryElevated: 'Rischio maggiore a breve termine', summaryAnnual: 'Classificazione ufficiale annuale',
+      classes: { excellent: 'Eccellente', good: 'Buona', sufficient: 'Sufficiente', poor: 'Scarsa', unclassified: 'Non classificata' },
+    },
+    safety: {
+      dangerEyebrow: 'Non consigliato', dangerTitle: 'Resta a riva.', dangerDescription: 'A causa di {reasons}, il nuoto in acque libere è adatto solo agli esperti.',
+      cautionEyebrow: 'Massima prudenza', cautionTitle: 'Solo nuotatori esperti.', cautionDescription: 'A causa di {reasons}, le condizioni possono stancare rapidamente. Non nuotare da solo.',
+      goodEyebrow: 'Condizioni favorevoli', goodTitle: 'Potrebbe essere un buon momento per nuotare.', goodDescription: 'Vento e onde sono moderati. Controlla comunque le bandiere sulla spiaggia.',
+      waveReason: 'onde forti di {value} m', gustReason: 'raffiche di {value} mph', offshoreReason: 'vento da terra',
+      updatedAt: 'Aggiornato alle {time}', updating: 'Aggiornamento…', liveData: 'Dati modello in tempo reale', sampleData: 'Dati di esempio', wave: 'Onda', wind: 'Vento', gusts: 'Raffiche di vento',
+    },
+    weather: { clear: 'Cielo sereno', partlyCloudy: 'Parzialmente nuvoloso', fog: 'Foschia', rain: 'Pioggia', drizzle: 'Pioviggine', showers: 'Rovesci', storm: 'Temporali' },
+    conditions: {
+      aria: 'Condizioni marine attuali', waveHeight: 'Altezza onde', period: 'Periodo di {value} s', wind: 'Vento e raffiche', gusts: 'Raffiche: {value} mph', from: 'Da {direction}',
+      seaLevel: 'Livello del mare', rising: 'Il livello del mare sale', falling: 'Il livello del mare scende', waterTemperature: 'Temperatura dell’acqua', air: 'Aria {value}°C', wetsuit: 'Muta consigliata',
+    },
+    forecast: {
+      eyebrow: 'Prossime ore', title: 'Quando potrebbe migliorare?', aria: 'Previsioni orarie', now: 'Ora', day: 'Giorno', night: 'Notte', high: 'Forte', medium: 'Medio', mild: 'Lieve',
+      note: 'Anche una fascia oraria più favorevole non sostituisce il controllo delle bandiere e delle correnti sul posto.',
+    },
+    decision: {
+      eyebrow: 'Previsione nuoto di oggi', title: 'Quando potrebbe essere meglio?', hint: 'Scegli un orario per vedere cosa cambia', aria: 'Scegli un orario di previsione', selectedAt: 'Previsione per le {time}', reasonDetails: '{time}: {reason}',
+      levels: { good: 'Favorevole', caution: 'Cautela', danger: 'Da evitare' }, change: { now: 'Condizioni attuali', better: 'Meglio di adesso', worse: 'Più impegnativo di adesso', mixed: 'Cambiamenti contrastanti', stable: 'Simile ad adesso' },
+      reasons: { good: 'Favorevole perché onde e raffiche sono basse e il vento non soffia verso il largo.', goodUnknown: 'Favorevole perché onde e raffiche sono basse; controlla la direzione del vento sul posto.', caution: 'Cautela a causa di {reasons}.', danger: 'Nuoto sconsigliato a causa di {reasons}.' },
+      wind: { offshore: 'Vento verso il largo', safe: 'Non verso il largo', unknown: 'Controlla sul posto' },
+    },
+    tide: {
+      eyebrow: 'Maree', title: 'Prossimi cambi di marea', high: 'Alta marea', low: 'Bassa marea', towardHigh: 'Marea crescente', towardLow: 'Marea calante', nearTurn: 'Vicino al cambio',
+      rising: 'Il livello del mare sale', falling: 'Il livello del mare scende', slack: 'Il livello del mare cambia pochissimo', currentLevel: 'Livello attuale del modello', eventsAria: 'Prossime alte e basse maree', today: 'Oggi', tomorrow: 'Domani',
+      note: 'Stima di un modello a 8 km; può essere imprecisa vicino alla costa e non deve essere usata per la navigazione.', moreTimes: 'Altri orari di marea',
+    },
+    webcam: {
+      south: 'Telecamera sud', north: 'Telecamera nord', eyebrow: 'Vista spiaggia in diretta', title: 'Telecamera di {location}', verified: 'Fonte verificata', selector: 'Seleziona telecamera', load: 'Carica vista live',
+      consent: 'Il lettore si collega al fornitore esterno solo dopo il clic.', open: 'Telecamera live disponibile', external: 'Il fornitore mostra l’immagine in diretta sul proprio sito.', openAction: 'Apri la telecamera', unavailableTitle: 'Nessuna telecamera vicina verificata', unavailable: 'Mostriamo solo telecamere di cui abbiamo verificato posizione e fonte live.', note: 'Le immagini sono solo informative e la telecamera può essere temporaneamente offline. Controlla sempre la spiaggia.', source: 'Fonte: {name}', nearbySource: '{name} · a {distance} km',
+    },
+    details: { eyebrow: 'Altre informazioni', title: 'Condizioni e mappe dettagliate', summary: 'Vento, temperatura, controlli di sicurezza e mappa costiera' },
+    checklist: {
+      eyebrow: 'Prima di entrare', title: '3 controlli rapidi', flagTitle: 'Controlla la bandiera RNLI', flagText: 'Non entrare mai in acqua quando è esposta la bandiera rossa.', onSite: 'Sul posto',
+      windTitle: 'Controlla la direzione del vento', windOffshore: 'Il vento potrebbe soffiare dalla costa verso il largo.', windSafe: 'Il vento non soffia attualmente direttamente verso il largo.', windUnknown: 'Controlla sul posto l’orientamento della costa e la direzione del vento.', offshore: 'Verso il largo', okay: 'OK',
+      beachTitle: 'Controlla i pericoli locali', beachText: 'Controlla accesso, uscita, correnti e segnali prima di entrare in acqua.', elevated: 'Rischio elevato', moderate: 'Moderato', lifeguard: 'Trova una spiaggia sorvegliata',
+    },
+    notice: { unavailable: 'La fonte dati in tempo reale non è disponibile; vengono mostrati dati di esempio.' },
+    disclaimer: { important: 'Importante:', text: 'Queste indicazioni si basano su un modello e non sono un’autorizzazione ufficiale alla balneazione. Segui sempre le indicazioni RNLI presenti sul posto.', data: 'Dati: Open-Meteo' },
+    support: { open: 'Sostieni Safe to Swim', title: 'Ti è utile Safe to Swim?', text: 'Safe to Swim è gratuito e indipendente. Se ti ha aiutato a pianificare una nuotata, puoi offrire una birra a Gergely.', optional: 'Nessun obbligo: l’app rimane gratuita per tutti.', action: 'Offrimi una birra', close: 'Chiudi il pannello di supporto' },
+    install: { open: 'Installa Safe to Swim', title: 'Aggiungi Safe to Swim alla schermata Home', description: 'Aprilo come un’app senza cercare il sito.', iosShare: 'In Safari, tocca il pulsante Condividi.', iosAdd: 'Scegli Aggiungi alla schermata Home.', iosConfirm: 'Tocca Aggiungi in alto a destra.', browserMenu: 'Apri il menu del browser.', browserInstall: 'Scegli Installa app o Aggiungi alla schermata Home.', browserConfirm: 'Conferma l’installazione.', done: 'Ho capito', close: 'Chiudi la guida di installazione' },
+    footer: { tagline: 'Decisioni più consapevoli prima di entrare in acqua.', back: 'Torna su' },
+    map: {
+      title: 'Mappa dettagliata della costa', reset: 'Costa completa', activeZones: '{count} zone RNLI attive', notRecommended: 'Non consigliato ora', checkOnSite: 'Controlla sul posto',
+      statusNote: 'I colori si basano sul modello e sugli orari di pattugliamento; le bandiere sul posto hanno la precedenza.', layers: 'Livelli mappa', zones: 'Zone di nuoto e sorveglianza', hazards: 'Pontili e {count} pennelli', incidents: 'Livello incidenti 2022',
+      region: 'Mappa interattiva della costa di Brighton e Hove', legend: 'Legenda', activeZone: 'Zona RNLI attiva', unguarded: 'Costa non sorvegliata', physicalHazard: 'Pericolo fisico', modelPoint: 'Posizione dati modello', incidentShare: 'Quota incidenti 2022',
+      unguardedTitle: 'Costa non sorvegliata', unguardedDetail: 'La sorveglianza attiva non è garantita lungo la linea gialla. Controlla le bandiere sul posto.',
+      patrolActive: 'Durante l’orario di pattugliamento RNLI. Nuota solo tra le bandiere rosse e gialle sul posto.', patrolInactive: 'Il pattugliamento non è attivo ora; considera questo tratto non sorvegliato.', activePost: 'postazione RNLI attiva', inactivePost: 'pattugliamento non attivo ora',
+      groyne: 'Pennello {number} – non nuotare immediatamente accanto', westPierDetail: 'Struttura del pontile e correnti locali – non nuotare nelle vicinanze.', palacePierDetail: 'Struttura del pontile e correnti locali – non nuotare sotto o accanto.', marina: 'Ingresso di Brighton Marina', marinaDetail: 'Zona di traffico nautico – non adatta al nuoto.',
+      incidentTooltip: '2022: {value} degli incidenti – {place}', incidentDetail: 'Quota del {value} degli incidenti gravi e non mortali registrati nei siti sorvegliati nel 2022. Non è un singolo punto di incidente.',
+      modelLabel: 'Punto modello', modelTooltip: 'Posizione di campionamento dei dati dei modelli meteo e marino.', modelOnly: 'Questa località mostra attualmente solo le condizioni del modello. Zone sorvegliate, pericoli e qualità ufficiale dell’acqua verranno aggiunti dopo la verifica.',
+      footnote: 'Le fasce RNLI compaiono come aree solo durante le ore di pattugliamento attivo; altrimenti un punto indica la postazione. La posizione giornaliera delle bandiere può cambiare. Il livello incidenti è nascosto per impostazione predefinita; il livello rosso evidenzia i due pontili, l’ingresso della marina e i {count} pennelli attualmente mappati in OpenStreetMap.',
+      postsSource: 'Mappa postazioni', safetySource: 'Fonte sicurezza', incidentSource: 'Dati incidenti',
+    },
+  },
+  es: {
+    header: { home: 'Inicio de Safe to Swim', location: 'Ubicación costera', chooseLocation: 'Elige una ubicación costera del Reino Unido', locate: 'Usar mi ubicación actual', locating: 'Buscando la playa más cercana…', locationFound: 'Playa disponible más cercana: {location}', locationDenied: 'No se permitió el acceso a la ubicación.', locationError: 'No se pudo encontrar tu ubicación.', refresh: 'Actualizar datos', language: 'Idioma' },
+    locationPicker: { title: 'Elige una playa', subtitle: 'Busca entre {count} ubicaciones costeras del Reino Unido', searchLabel: 'Buscar playas', searchPlaceholder: 'Playa, ciudad o zona…', useLocation: 'Buscar la playa más cercana', current: 'Playa seleccionada', suggested: 'Playas populares', results: '{count} resultados', empty: 'No hay playas que coincidan con la búsqueda.', refine: 'Se muestran los primeros {count} resultados. Acota la búsqueda.', selected: 'Seleccionada', close: 'Cerrar selector de playa' },
+    explorer: {
+      eyebrow: 'Aguas de baño costeras', title: 'Explora toda la costa', count: '{count} sitios costeros verificados', searchLabel: 'Buscar playas costeras', searchPlaceholder: 'Playa, ciudad o zona…', filterLabel: 'Filtrar por nación', results: '{count} ubicaciones encontradas', empty: 'No hay ubicaciones costeras que coincidan.', refine: 'Acota la búsqueda para ver más resultados.', reset: 'Todo el Reino Unido', mapLabel: 'Mapa de aguas de baño costeras oficiales', classification: 'Calidad del agua: {value}', modelLocation: 'Condiciones del modelo disponibles', excellent: 'Excelente', good: 'Buena', sufficient: 'Suficiente', poor: 'Mala',
+      nations: { all: 'Todas', england: 'Inglaterra', wales: 'Gales', scotland: 'Escocia', ni: 'Irlanda del Norte' },
+    },
+    waterQuality: {
+      eyebrow: 'Control oficial', title: 'Calidad del agua de baño', official: 'Datos oficiales', annual: 'Clasificación anual {year}', monitoringSite: 'Punto de control', nearest: 'Punto oficial más cercano · {distance} km', provider: 'Proveedor de datos', snapshot: 'Datos actualizados el {date}', shortTerm: 'Riesgo de contaminación a corto plazo', riskNormal: 'El registro oficial actual no muestra un riesgo mayor.', riskElevated: 'El registro oficial indica un riesgo mayor a corto plazo.', noPrediction: 'No hay predicción a corto plazo incluida para este lugar.', afterRain: 'Después de lluvia intensa', rainAdvice: 'La lluvia puede afectar la calidad del agua. Comprueba el aviso oficial antes de nadar.', note: 'La clasificación anual describe la calidad controlada, no las olas, corrientes o seguridad local. Sigue los avisos y señales.', openSource: 'Abrir registro oficial',
+      shortTitle: 'Calidad del agua', annualShort: 'Calidad anual del agua', summaryNormal: 'Sin riesgo mayor a corto plazo', summaryElevated: 'Riesgo mayor a corto plazo', summaryAnnual: 'Clasificación oficial anual',
+      classes: { excellent: 'Excelente', good: 'Buena', sufficient: 'Suficiente', poor: 'Mala', unclassified: 'Sin clasificar' },
+    },
+    safety: {
+      dangerEyebrow: 'No recomendado', dangerTitle: 'Quédate en la orilla.', dangerDescription: 'Debido a {reasons}, la natación en aguas abiertas solo es apta para expertos.',
+      cautionEyebrow: 'Extrema la precaución', cautionTitle: 'Solo para nadadores experimentados.', cautionDescription: 'Debido a {reasons}, las condiciones pueden cansar rápidamente. No nades solo.',
+      goodEyebrow: 'Condiciones favorables', goodTitle: 'Puede ser un buen momento para nadar.', goodDescription: 'El viento y las olas son moderados. Aun así, comprueba las banderas de la playa.',
+      waveReason: 'oleaje fuerte de {value} m', gustReason: 'rachas de {value} mph', offshoreReason: 'viento de tierra',
+      updatedAt: 'Actualizado a las {time}', updating: 'Actualizando…', liveData: 'Datos del modelo en directo', sampleData: 'Datos de ejemplo', wave: 'Ola', wind: 'Viento', gusts: 'Rachas de viento',
+    },
+    weather: { clear: 'Cielo despejado', partlyCloudy: 'Parcialmente nublado', fog: 'Bruma', rain: 'Lluvia', drizzle: 'Llovizna', showers: 'Chubascos', storm: 'Tormentas' },
+    conditions: {
+      aria: 'Condiciones marinas actuales', waveHeight: 'Altura de ola', period: 'Periodo de {value} s', wind: 'Viento y rachas', gusts: 'Rachas: {value} mph', from: 'Desde {direction}',
+      seaLevel: 'Nivel del mar', rising: 'El nivel del mar sube', falling: 'El nivel del mar baja', waterTemperature: 'Temperatura del agua', air: 'Aire {value}°C', wetsuit: 'Neopreno recomendado',
+    },
+    forecast: {
+      eyebrow: 'Próximas horas', title: '¿Cuándo podría mejorar?', aria: 'Previsión por horas', now: 'Ahora', day: 'Día', night: 'Noche', high: 'Fuerte', medium: 'Medio', mild: 'Suave',
+      note: 'Ni siquiera una franja más favorable sustituye la comprobación de las banderas y las corrientes en el lugar.',
+    },
+    decision: {
+      eyebrow: 'Previsión de baño de hoy', title: '¿Cuándo podría ser mejor?', hint: 'Selecciona una hora para ver los cambios', aria: 'Seleccionar una hora de previsión', selectedAt: 'Previsión para las {time}', reasonDetails: '{time}: {reason}',
+      levels: { good: 'Favorable', caution: 'Precaución', danger: 'Evitar' }, change: { now: 'Condiciones actuales', better: 'Mejor que ahora', worse: 'Más difícil que ahora', mixed: 'Cambios mixtos', stable: 'Similar a ahora' },
+      reasons: { good: 'Favorable porque el oleaje y las rachas son bajos y el viento no sopla hacia mar adentro.', goodUnknown: 'Favorable porque el oleaje y las rachas son bajos; comprueba la dirección del viento en el lugar.', caution: 'Precaución debido a {reasons}.', danger: 'No se recomienda nadar debido a {reasons}.' },
+      wind: { offshore: 'Viento mar adentro', safe: 'No sopla mar adentro', unknown: 'Comprobar en el lugar' },
+    },
+    tide: {
+      eyebrow: 'Mareas', title: 'Próximos cambios', high: 'Pleamar', low: 'Bajamar', towardHigh: 'Marea creciente', towardLow: 'Marea descendente', nearTurn: 'Cerca del cambio',
+      rising: 'El nivel del mar sube', falling: 'El nivel del mar baja', slack: 'El nivel del mar cambia muy poco', currentLevel: 'Nivel actual del modelo', eventsAria: 'Próximas pleamares y bajamares', today: 'Hoy', tomorrow: 'Mañana',
+      note: 'Estimación de un modelo de 8 km; puede ser imprecisa cerca de la costa y no debe usarse para navegación.', moreTimes: 'Más horarios de marea',
+    },
+    webcam: {
+      south: 'Cámara sur', north: 'Cámara norte', eyebrow: 'Vista de playa en directo', title: 'Cámara de {location}', verified: 'Fuente verificada', selector: 'Seleccionar cámara', load: 'Cargar vista en directo',
+      consent: 'El reproductor solo se conecta al proveedor externo después de hacer clic.', open: 'Cámara en directo disponible', external: 'El proveedor muestra la imagen en directo en su propio sitio.', openAction: 'Abrir cámara en directo', unavailableTitle: 'No hay cámara cercana verificada', unavailable: 'Solo mostramos cámaras cuya ubicación y fuente en directo hemos podido verificar.', note: 'Las imágenes son informativas y la cámara puede desconectarse temporalmente. Comprueba siempre la playa.', source: 'Fuente: {name}', nearbySource: '{name} · a {distance} km',
+    },
+    details: { eyebrow: 'Más información', title: 'Condiciones y mapas detallados', summary: 'Viento, temperatura, controles de seguridad y mapa costero' },
+    checklist: {
+      eyebrow: 'Antes de entrar', title: '3 comprobaciones rápidas', flagTitle: 'Comprueba la bandera RNLI', flagText: 'Nunca entres en el agua si ondea una bandera roja.', onSite: 'En el lugar',
+      windTitle: 'Comprueba la dirección del viento', windOffshore: 'El viento puede estar soplando de tierra hacia el mar.', windSafe: 'El viento no sopla actualmente directamente hacia el mar.', windUnknown: 'Comprueba en el lugar la orientación de la costa y la dirección del viento.', offshore: 'Hacia el mar', okay: 'Bien',
+      beachTitle: 'Comprueba los riesgos locales', beachText: 'Comprueba el acceso, la salida, las corrientes y las señales antes de entrar al agua.', elevated: 'Riesgo elevado', moderate: 'Moderado', lifeguard: 'Encuentra una playa vigilada',
+    },
+    notice: { unavailable: 'La fuente de datos en directo no está disponible; se muestran datos de ejemplo.' },
+    disclaimer: { important: 'Importante:', text: 'Esta orientación se basa en un modelo y no es una autorización oficial de seguridad. Sigue siempre las indicaciones RNLI mostradas en el lugar.', data: 'Datos: Open-Meteo' },
+    support: { open: 'Apoya Safe to Swim', title: '¿Te resulta útil Safe to Swim?', text: 'Safe to Swim es gratis e independiente. Si te ayudó a planear un baño, puedes invitar a Gergely a una cerveza.', optional: 'Sin compromiso: la aplicación seguirá siendo gratuita para todos.', action: 'Invítame a una cerveza', close: 'Cerrar el panel de apoyo' },
+    install: { open: 'Instalar Safe to Swim', title: 'Añade Safe to Swim a la pantalla de inicio', description: 'Ábrelo como una aplicación sin buscar el sitio.', iosShare: 'En Safari, toca el botón Compartir.', iosAdd: 'Elige Añadir a pantalla de inicio.', iosConfirm: 'Toca Añadir en la esquina superior derecha.', browserMenu: 'Abre el menú del navegador.', browserInstall: 'Elige Instalar aplicación o Añadir a pantalla de inicio.', browserConfirm: 'Confirma la instalación.', done: 'Entendido', close: 'Cerrar la guía de instalación' },
+    footer: { tagline: 'Decisiones más seguras antes de entrar al agua.', back: 'Volver arriba' },
+    map: {
+      title: 'Mapa detallado de la costa', reset: 'Costa completa', activeZones: '{count} zonas RNLI activas', notRecommended: 'No recomendado ahora', checkOnSite: 'Comprueba en el lugar',
+      statusNote: 'Los colores se basan en el modelo y el horario de patrulla; las banderas del lugar tienen prioridad.', layers: 'Capas del mapa', zones: 'Zonas de baño y vigilancia', hazards: 'Muelles y {count} espigones', incidents: 'Capa de incidentes de 2022',
+      region: 'Mapa interactivo de la costa de Brighton y Hove', legend: 'Leyenda', activeZone: 'Zona RNLI activa', unguarded: 'Costa sin vigilancia', physicalHazard: 'Peligro físico', modelPoint: 'Ubicación de datos del modelo', incidentShare: 'Proporción de incidentes 2022',
+      unguardedTitle: 'Costa sin vigilancia', unguardedDetail: 'No se garantiza vigilancia activa a lo largo de la línea amarilla. Comprueba las banderas en el lugar.',
+      patrolActive: 'Durante el horario de patrulla RNLI. Nada solo entre las banderas rojas y amarillas del lugar.', patrolInactive: 'La patrulla no está activa ahora; considera este tramo como no vigilado.', activePost: 'puesto RNLI activo', inactivePost: 'patrulla inactiva ahora',
+      groyne: 'Espigón {number}: no nades justo al lado', westPierDetail: 'Estructura del muelle y corrientes locales: no nades cerca.', palacePierDetail: 'Estructura del muelle y corrientes locales: no nades debajo ni al lado.', marina: 'Entrada de Brighton Marina', marinaDetail: 'Zona de tráfico de embarcaciones: no apta para nadar.',
+      incidentTooltip: '2022: {value} de los incidentes – {place}', incidentDetail: 'Proporción del {value} de incidentes graves y no mortales registrados en lugares vigilados en 2022. No es un punto de accidente individual.',
+      modelLabel: 'Punto del modelo', modelTooltip: 'Ubicación de muestreo para datos de modelos meteorológicos y marinos.', modelOnly: 'Esta ubicación muestra por ahora solo condiciones del modelo. Las zonas vigiladas, los riesgos y la calidad oficial del agua se añadirán tras verificar los datos.',
+      footnote: 'Las franjas RNLI aparecen como áreas solo durante el horario de patrulla activo; fuera de él, un punto marca el puesto. La posición diaria de las banderas puede cambiar. La capa de incidentes está oculta por defecto; la capa roja destaca los dos muelles, la entrada de la marina y los {count} espigones cartografiados actualmente en OpenStreetMap.',
+      postsSource: 'Mapa de puestos', safetySource: 'Fuente de seguridad', incidentSource: 'Datos de incidentes',
+    },
+  },
+  hu: {
+    header: { home: 'Safe to Swim kezdőlap', location: 'Tengerparti helyszín', chooseLocation: 'Válassz egy brit tengerparti helyszínt', locate: 'Jelenlegi helyzetem használata', locating: 'Legközelebbi strand keresése…', locationFound: 'Legközelebbi támogatott strand: {location}', locationDenied: 'A helyhozzáférés nem lett engedélyezve.', locationError: 'A helyzetedet nem sikerült meghatározni.', refresh: 'Adatok frissítése', language: 'Nyelv' },
+    locationPicker: { title: 'Válassz strandot', subtitle: 'Keress {count} brit tengerparti helyszín között', searchLabel: 'Strandok keresése', searchPlaceholder: 'Strand, város vagy régió…', useLocation: 'Legközelebbi strand megkeresése', current: 'Kiválasztott strand', suggested: 'Népszerű strandok', results: '{count} találat', empty: 'Nincs a keresésnek megfelelő strand.', refine: 'Az első {count} találat látható. Pontosítsd a keresést.', selected: 'Kiválasztva', close: 'Strandválasztó bezárása' },
+    explorer: {
+      eyebrow: 'Hivatalos brit fürdőhelyek', title: 'Fedezd fel a teljes partvidéket', count: '{count} ellenőrzött tengerparti helyszín', searchLabel: 'Tengerparti fürdőhely keresése', searchPlaceholder: 'Strand, város vagy régió…', filterLabel: 'Szűrés országrész szerint', results: '{count} találat', empty: 'Nincs a keresésnek megfelelő tengerparti fürdőhely.', refine: 'Pontosítsd a keresést további találatokhoz.', reset: 'Teljes UK', mapLabel: 'Hivatalos brit tengerparti fürdőhelyek térképe', classification: 'Vízminőség: {value}', modelLocation: 'Modelladat elérhető', excellent: 'Kiváló', good: 'Jó', sufficient: 'Megfelelő', poor: 'Gyenge',
+      nations: { all: 'Mind', england: 'Anglia', wales: 'Wales', scotland: 'Skócia', ni: 'Észak-Írország' },
+    },
+    waterQuality: {
+      eyebrow: 'Hivatalos ellenőrzés', title: 'Fürdővízminőség', official: 'Hivatalos adat', annual: '{year}. évi besorolás', monitoringSite: 'Mérési hely', nearest: 'Legközelebbi hivatalos hely · {distance} km', provider: 'Adatszolgáltató', snapshot: 'Pillanatkép frissítve: {date}', shortTerm: 'Rövid távú szennyezési kockázat', riskNormal: 'A jelenlegi hivatalos adatfolyam nem jelez emelkedett kockázatot.', riskElevated: 'A hivatalos adatfolyam emelkedett rövid távú kockázatot jelez.', noPrediction: 'Ehhez a helyhez nincs rövid távú előrejelzés az adatfolyamban.', afterRain: 'Nagy eső után', rainAdvice: 'Az eső ronthatja a vízminőséget. Úszás előtt ellenőrizd a legfrissebb hivatalos figyelmeztetést.', note: 'Az éves besorolás a mért vízminőséget írja le, nem a hullámokat, áramlásokat vagy helyi veszélyeket. Kövesd az aktuális jelzéseket.', openSource: 'Hivatalos adatlap megnyitása',
+      shortTitle: 'Vízminőség', annualShort: 'Éves vízminőség', summaryNormal: 'Nincs jelzett rövid távú többletkockázat', summaryElevated: 'Fokozott rövid távú kockázat', summaryAnnual: 'Hivatalos éves minősítés',
+      classes: { excellent: 'Kiváló', good: 'Jó', sufficient: 'Megfelelő', poor: 'Gyenge', unclassified: 'Nincs besorolás' },
+    },
+    safety: {
+      dangerEyebrow: 'Nem ajánlott', dangerTitle: 'Inkább maradj a parton.', dangerDescription: 'A(z) {reasons} miatt a nyíltvízi úszás csak szakértőknek való.',
+      cautionEyebrow: 'Fokozott óvatosság', cautionTitle: 'Csak tapasztalt úszóknak.', cautionDescription: 'Légy óvatos a következő miatt: {reasons}. A körülmények gyorsan fárasztóvá válhatnak. Ne menj egyedül.',
+      goodEyebrow: 'Kedvező körülmények', goodTitle: 'Jó lehet úszni.', goodDescription: 'A szél és a hullámzás mérsékelt. Ettől függetlenül ellenőrizd a parti zászlókat.',
+      waveReason: '{value} m-es erős hullámzás', gustReason: '{value} mph széllökések', offshoreReason: 'parttól kifelé fújó szél',
+      updatedAt: '{time}-kor frissítve', updating: 'Frissítés…', liveData: 'Élő modelladat', sampleData: 'Mintaadat', wave: 'Hullám', wind: 'Szél', gusts: 'Széllökések',
+    },
+    weather: { clear: 'Tiszta ég', partlyCloudy: 'Változóan felhős', fog: 'Párás', rain: 'Eső', drizzle: 'Szitálás', showers: 'Záporok', storm: 'Zivataros' },
+    conditions: {
+      aria: 'Aktuális tengeri körülmények', waveHeight: 'Hullámmagasság', period: '{value} mp periódus', wind: 'Szél és széllökés', gusts: 'Lökések: {value} mph', from: '{direction} felől',
+      seaLevel: 'Vízszint', rising: 'A vízszint emelkedik', falling: 'A vízszint apad', waterTemperature: 'Vízhőmérséklet', air: '{value}°C levegő', wetsuit: 'Neoprén ajánlott',
+    },
+    forecast: {
+      eyebrow: 'Következő órák', title: 'Mikor lehet jobb?', aria: 'Óránkénti előrejelzés', now: 'Most', day: 'Nappal', night: 'Éjjel', high: 'Erős', medium: 'Közepes', mild: 'Enyhe',
+      note: 'A zöldebb időablak sem helyettesíti a helyszíni zászlók és az áramlás ellenőrzését.',
+    },
+    decision: {
+      eyebrow: 'Mai úszási kilátások', title: 'Mikor lehet a legjobb?', hint: 'Válassz időpontot, és nézd meg, mi változik', aria: 'Előrejelzési időpont kiválasztása', selectedAt: 'Előrejelzés erre: {time}', reasonDetails: '{time}: {reason}',
+      levels: { good: 'Kedvező', caution: 'Óvatosan', danger: 'Kerüld' }, change: { now: 'Jelenlegi körülmények', better: 'A mostaninál kedvezőbb', worse: 'A mostaninál nehezebb', mixed: 'Vegyes változás', stable: 'A mostanihoz hasonló' },
+      reasons: { good: 'Kedvező, mert a hullámzás és a széllökések alacsonyak, a szél pedig nem a parttól kifelé fúj.', goodUnknown: 'Kedvező, mert a hullámzás és a széllökések alacsonyak; a szélirányt ellenőrizd a helyszínen.', caution: 'Óvatosság oka: {reasons}.', danger: 'Az úszás nem ajánlott a következő miatt: {reasons}.' },
+      wind: { offshore: 'Parttól kifelé', safe: 'Nem kifelé fúj', unknown: 'Helyszínen' },
+    },
+    tide: {
+      eyebrow: 'Árapály', title: 'Következő fordulók', high: 'Dagály', low: 'Apály', towardHigh: 'Dagály felé', towardLow: 'Apály felé', nearTurn: 'Forduló közelében',
+      rising: 'A vízszint emelkedik', falling: 'A vízszint csökken', slack: 'A vízszint alig változik', currentLevel: 'Jelenlegi modellszint', eventsAria: 'Következő apályok és dagályok', today: 'Ma', tomorrow: 'Holnap',
+      note: '8 km-es modellbecslés; part mentén pontatlan lehet, navigációra nem használható.', moreTimes: 'További árapály-időpontok',
+    },
+    webcam: {
+      south: 'Déli kamera', north: 'Északi kamera', eyebrow: 'Élő partkép', title: '{location} kamerája', verified: 'Ellenőrzött forrás', selector: 'Kamera kiválasztása', load: 'Élő kép betöltése',
+      consent: 'A lejátszó csak kattintás után kapcsolódik a külső szolgáltatóhoz.', open: 'Elérhető élő kamera', external: 'A szolgáltató a saját oldalán mutatja az élő képet.', openAction: 'Élő kamera megnyitása', unavailableTitle: 'Nincs ellenőrzött közeli kamera', unavailable: 'Csak olyan kamerát mutatunk, amelynek helyét és élő forrását ellenőrizni tudtuk.', note: 'A kamerakép tájékoztató jellegű, és átmenetileg leállhat. Mindig ellenőrizd a partot a helyszínen is.', source: 'Forrás: {name}', nearbySource: '{name} · {distance} km-re',
+    },
+    details: { eyebrow: 'További információk', title: 'Részletes körülmények és térképek', summary: 'Szél, hőmérséklet, biztonsági ellenőrzések és UK-parttérkép' },
+    checklist: {
+      eyebrow: 'Mielőtt bemész', title: '3 gyors ellenőrzés', flagTitle: 'Nézd meg az RNLI zászlót', flagText: 'Piros zászlónál semmiképp ne menj a vízbe.', onSite: 'Helyszínen',
+      windTitle: 'Ellenőrizd a szélirányt', windOffshore: 'A szél jelenleg a parttól kifelé fújhat.', windSafe: 'A szél jelenleg nem közvetlenül offshore.', windUnknown: 'A helyszínen ellenőrizd a part tájolását és a szél irányát.', offshore: 'Offshore', okay: 'Rendben',
+      beachTitle: 'Ellenőrizd a helyi veszélyeket', beachText: 'Vízbe lépés előtt ellenőrizd a be- és kijutást, az áramlásokat és a figyelmeztető táblákat.', elevated: 'Fokozott kockázat', moderate: 'Mérsékelt', lifeguard: 'Keress felügyelt strandot',
+    },
+    notice: { unavailable: 'Az élő adatforrás most nem érhető el, ezért a felület mintaadatokat mutat.' },
+    disclaimer: { important: 'Fontos:', text: 'Ez egy időjárási modell alapján készült tájékoztató, nem hivatalos biztonsági engedély. Mindig a helyszíni RNLI-jelzések az irányadók.', data: 'Adatok: Open-Meteo' },
+    support: { open: 'A Safe to Swim támogatása', title: 'Hasznos a Safe to Swim?', text: 'A Safe to Swim ingyenes és független. Ha segített megtervezni egy úszást, opcionálisan meghívhatsz egy sörre.', optional: 'Semmi nyomás — az app mindenki számára ingyenes marad.', action: 'Meghívlak egy sörre', close: 'Támogatói panel bezárása' },
+    install: { open: 'Safe to Swim telepítése', title: 'Tedd ki a Safe to Swimet a főképernyőre', description: 'Nyisd meg úgy, mint egy appot, a weboldal keresése nélkül.', iosShare: 'A Safariban koppints a Megosztás gombra.', iosAdd: 'Válaszd a Főképernyőhöz adás lehetőséget.', iosConfirm: 'Koppints a jobb felső sarokban a Hozzáadásra.', browserMenu: 'Nyisd meg a böngésző menüjét.', browserInstall: 'Válaszd az Alkalmazás telepítése vagy Főképernyőhöz adás lehetőséget.', browserConfirm: 'Erősítsd meg a telepítést.', done: 'Értem', close: 'Telepítési útmutató bezárása' },
+    footer: { tagline: 'Magabiztosabb döntések a víz előtt.', back: 'Vissza az elejére' },
+    map: {
+      title: 'Részletes partszakasz-térkép', reset: 'Teljes partszakasz', activeZones: '{count} aktív RNLI-zóna', notRecommended: 'Most nem ajánlott', checkOnSite: 'Helyszíni ellenőrzés kell',
+      statusNote: 'A színezés modell + járőrözési idő alapján készül; a helyszíni zászló az irányadó.', layers: 'Térképrétegek', zones: 'Úszó- és felügyeleti zónák', hazards: 'Mólók és {count} hullámtörő', incidents: '2022-es incidensréteg',
+      region: 'Interaktív Brighton és Hove partszakasz-térkép', legend: 'Jelmagyarázat', activeZone: 'Aktív RNLI-zóna', unguarded: 'Nem felügyelt part', physicalHazard: 'Fizikai veszély', modelPoint: 'Modelladat helye', incidentShare: '2022-es incidensarány',
+      unguardedTitle: 'Nem felügyelt partszakasz', unguardedDetail: 'A sárga partvonalon nincs garantált aktív felügyelet. Ellenőrizd a helyszíni zászlókat.',
+      patrolActive: 'RNLI járőrözési időben. Csak a helyszíni piros-sárga zászlók között ússz.', patrolInactive: 'A járőrözés most nem aktív; kezeld nem felügyelt partszakaszként.', activePost: 'aktív RNLI-poszt', inactivePost: 'járőrözés most nem aktív',
+      groyne: 'Hullámtörő {number} – ne ússz közvetlenül mellette', westPierDetail: 'Mólószerkezet és rögzített áramlások – ne ússz a közelében.', palacePierDetail: 'Mólószerkezet és rögzített áramlások – ne ússz alá vagy mellé.', marina: 'Brighton Marina bejárata', marinaDetail: 'Hajóforgalmi terület – úszásra nem alkalmas.',
+      incidentTooltip: '2022: az incidensek {value}-a – {place}', incidentDetail: '{value} részesedés a felügyelt helyszíneken rögzített 2022-es súlyos és nem életveszélyes incidensekből. Nem egyedi baleseti pont.',
+      modelLabel: 'Modellpont', modelTooltip: 'Az időjárási és tengeri modelladatok mintavételi helye.', modelOnly: 'Ehhez a helyszínhez jelenleg csak modelladatokat mutatunk. Az ellenőrzött vízminőséget, veszélyeket és felügyelt zónákat külön adjuk hozzá.',
+      footnote: 'Az RNLI-partsávok csak aktív járőrözési időben jelennek meg területként; azon kívül a poszt helyét egy pont jelöli. A napi zászlók pontos helye változhat. Az incidensréteg alapból rejtett; a piros réteg a két mólót, a marina bejáratát és az OpenStreetMapen jelenleg feltérképezett {count} hullámtörőt emeli ki.',
+      postsSource: 'Poszttérkép', safetySource: 'Biztonsági forrás', incidentSource: 'Incidensadat',
+    },
+  },
+}
+
+const compassPoints = {
+  en: ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'],
+  fr: ['N', 'NE', 'E', 'SE', 'S', 'SO', 'O', 'NO'],
+  it: ['N', 'NE', 'E', 'SE', 'S', 'SO', 'O', 'NO'],
+  es: ['N', 'NE', 'E', 'SE', 'S', 'SO', 'O', 'NO'],
+  hu: ['É', 'ÉK', 'K', 'DK', 'D', 'DNy', 'Ny', 'ÉNy'],
+}
+
+function getValue(dictionary, key) {
+  return key.split('.').reduce((value, part) => value?.[part], dictionary)
+}
+
+export function makeTranslator(language) {
+  return (key, variables = {}) => {
+    const template = getValue(translations[language], key) ?? getValue(translations.en, key) ?? key
+    return String(template).replace(/\{(\w+)\}/g, (_, name) => variables[name] ?? `{${name}}`)
+  }
+}
+
+export function localeFor(language) {
+  return LANGUAGES.find((item) => item.code === language)?.locale ?? LANGUAGES[0].locale
+}
+
+export function compassFor(language) {
+  return compassPoints[language] ?? compassPoints.en
+}

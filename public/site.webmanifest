@@ -1,0 +1,27 @@
+{
+  "name": "Safe to Swim — UK coast",
+  "short_name": "Safe to Swim",
+  "id": "/",
+  "description": "Live marine and weather data for safer swimming decisions around the UK coast.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["weather", "health", "lifestyle"],
+  "background_color": "#f6f5ef",
+  "theme_color": "#147aa2",
+  "icons": [
+    {
+      "src": "/icons/safetoswim-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/safetoswim-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
