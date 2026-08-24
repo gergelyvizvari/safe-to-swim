@@ -87,8 +87,14 @@ const INCIDENT_POINTS = [
   { label: 'Palace Pier East', value: '17%', position: [50.8189, -0.1340] },
 ]
 
-const MODEL_POINT = [50.8159, -0.1287]
 const WATERLINE_OFFSET = 0.0005
+
+const PATROL_SEASONS = {
+  2026: {
+    main: ['05-23', '09-06'],
+    peak: ['07-18', '09-06'],
+  },
+}
 
 const TONE_STYLE = {
   good: { color: '#147aa2', fillColor: '#65acce' },
@@ -96,17 +102,18 @@ const TONE_STYLE = {
   danger: { color: '#ad3828', fillColor: '#dc604c' },
 }
 
-function patrolActive(dateString, season) {
-  const [datePart, timePart = '00:00'] = dateString.split('T')
-  const minutes = Number(timePart.slice(0, 2)) * 60 + Number(timePart.slice(3, 5))
-  const start = season === 'peak' ? '2026-07-18' : '2026-05-23'
-  return datePart >= start && datePart <= '2026-09-06' && minutes >= 600 && minutes < 1080
-}
-
-function zoneTone(zone, currentTime, safetyLevel) {
-  if (safetyLevel === 'danger') return 'danger'
-  if (safetyLevel === 'caution' || !patrolActive(currentTime, zone.season)) return 'caution'
-  return 'good'
+function patrolStatus(dateString, season) {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+  }).formatToParts(new Date(dateString)).filter((part) => part.type !== 'literal').map((part) => [part.type, part.value]))
+  const schedule = PATROL_SEASONS[Number(parts.year)]?.[season]
+  if (!schedule) return 'unknown'
+  const dateKey = `${parts.month}-${parts.day}`
+  const minutes = Number(parts.hour) * 60 + Number(parts.minute)
+  return dateKey >= schedule[0] && dateKey <= schedule[1] && minutes >= 600 && minutes < 1080
+    ? 'active'
+    : 'inactive'
 }
 
 function moveSeaward(points, offset = WATERLINE_OFFSET) {
@@ -142,16 +149,21 @@ function textPopup(title, detail) {
   return wrapper
 }
 
-export function CoastSafetyMap({ safety, current, location, t }) {
+export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const [layers, setLayers] = useState({ zones: true, hazards: true, incidents: false })
   const hasDetailedMap = location.hasDetailedMap === true
+  const resolvedModelPoint = useMemo(() => (
+    [modelPoint?.latitude, modelPoint?.longitude].every(Number.isFinite)
+      ? [modelPoint.latitude, modelPoint.longitude]
+      : null
+  ), [modelPoint])
   const activeStations = useMemo(
-    () => hasDetailedMap ? LIFEGUARD_ZONES.filter((zone) => patrolActive(current.time, zone.season)).length : 0,
+    () => hasDetailedMap ? LIFEGUARD_ZONES.filter((zone) => patrolStatus(current.time, zone.season) === 'active').length : 0,
     [current.time, hasDetailedMap],
   )
-  const overallTone = safety.level === 'danger' ? 'danger' : safety.level === 'caution' || (hasDetailedMap && activeStations === 0) ? 'caution' : 'good'
+  const overallTone = safety.level === 'danger' ? 'danger' : safety.level !== 'good' || (hasDetailedMap && activeStations === 0) ? 'caution' : 'good'
   const statusLabel = hasDetailedMap && overallTone === 'good'
     ? t('map.activeZones', { count: activeStations })
     : overallTone === 'danger' ? t('map.notRecommended') : t('map.checkOnSite')
@@ -159,11 +171,10 @@ export function CoastSafetyMap({ safety, current, location, t }) {
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return undefined
     const map = L.map(containerRef.current, {
-      minZoom: 12,
+      minZoom: 10,
       maxZoom: 18,
-      scrollWheelZoom: false,
+      scrollWheelZoom: true,
       zoomControl: true,
-      preferCanvas: true,
     })
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       maxZoom: 20,
@@ -184,9 +195,14 @@ export function CoastSafetyMap({ safety, current, location, t }) {
   useEffect(() => {
     const map = mapRef.current
     if (!map) return
-    if (hasDetailedMap) map.fitBounds(COAST_BOUNDS, { padding: [18, 18] })
-    else map.setView([location.latitude, location.longitude], 13)
-  }, [hasDetailedMap, location.latitude, location.longitude])
+    if (hasDetailedMap) {
+      const bounds = L.latLngBounds(COAST_BOUNDS.getSouthWest(), COAST_BOUNDS.getNorthEast())
+      if (resolvedModelPoint) bounds.extend(resolvedModelPoint)
+      map.fitBounds(bounds, { padding: [18, 18] })
+    } else if (resolvedModelPoint) {
+      map.fitBounds([resolvedModelPoint, [location.latitude, location.longitude]], { padding: [42, 42], maxZoom: 13 })
+    } else map.setView([location.latitude, location.longitude], 13)
+  }, [hasDetailedMap, location.latitude, location.longitude, resolvedModelPoint])
 
   useEffect(() => {
     const map = mapRef.current
@@ -201,7 +217,7 @@ export function CoastSafetyMap({ safety, current, location, t }) {
         fillOpacity: 0.14,
         weight: 2,
       }).bindPopup(textPopup(location.name, t('map.modelOnly'))).addTo(overlay)
-      L.marker([location.latitude, location.longitude], {
+      if (resolvedModelPoint) L.marker(resolvedModelPoint, {
         icon: L.divIcon({ className: 'current-map-marker', html: `<span></span><b>${t('map.modelLabel')}</b>`, iconSize: [110, 28], iconAnchor: [11, 14] }),
         zIndexOffset: 400,
       }).bindTooltip(t('map.modelTooltip')).addTo(overlay)
@@ -214,10 +230,11 @@ export function CoastSafetyMap({ safety, current, location, t }) {
         .addTo(overlay)
 
       LIFEGUARD_ZONES.forEach((zone) => {
-        const tone = zoneTone(zone, current.time, safety.level)
-        const active = patrolActive(current.time, zone.season)
+        const patrol = patrolStatus(current.time, zone.season)
+        const active = patrol === 'active'
+        const tone = active ? 'good' : 'caution'
         const style = TONE_STYLE[tone]
-        const detail = active ? t('map.patrolActive') : t('map.patrolInactive')
+        const detail = active ? t('map.patrolActive') : patrol === 'unknown' ? t('map.patrolUnknown') : t('map.patrolInactive')
         if (active) {
           L.polygon(zonePolygon(zone), {
             color: style.color,
@@ -237,7 +254,7 @@ export function CoastSafetyMap({ safety, current, location, t }) {
           fillOpacity: 1,
           weight: 2,
         })
-          .bindTooltip(`${zone.label} – ${active ? t('map.activePost') : t('map.inactivePost')}`)
+          .bindTooltip(`${zone.label} – ${active ? t('map.activePost') : patrol === 'unknown' ? t('map.unknownPost') : t('map.inactivePost')}`)
           .bindPopup(textPopup(zone.label, detail))
           .addTo(overlay)
       })
@@ -283,21 +300,26 @@ export function CoastSafetyMap({ safety, current, location, t }) {
       })
     }
 
-    L.marker(MODEL_POINT, {
+    if (resolvedModelPoint) L.marker(resolvedModelPoint, {
       icon: L.divIcon({ className: 'current-map-marker', html: `<span></span><b>${t('map.modelLabel')}</b>`, iconSize: [110, 28], iconAnchor: [11, 14] }),
       zIndexOffset: 400,
     }).bindTooltip(t('map.modelTooltip')).addTo(overlay)
 
     return () => overlay.remove()
-  }, [current.time, hasDetailedMap, layers, location.latitude, location.longitude, location.name, overallTone, safety.level, t])
+  }, [current.time, hasDetailedMap, layers, location.latitude, location.longitude, location.name, overallTone, resolvedModelPoint, safety.level, t])
 
   function toggleLayer(name) {
     setLayers((currentLayers) => ({ ...currentLayers, [name]: !currentLayers[name] }))
   }
 
   function resetMap() {
-    if (hasDetailedMap) mapRef.current?.fitBounds(COAST_BOUNDS, { padding: [18, 18] })
-    else mapRef.current?.setView([location.latitude, location.longitude], 13)
+    if (hasDetailedMap) {
+      const bounds = L.latLngBounds(COAST_BOUNDS.getSouthWest(), COAST_BOUNDS.getNorthEast())
+      if (resolvedModelPoint) bounds.extend(resolvedModelPoint)
+      mapRef.current?.fitBounds(bounds, { padding: [18, 18] })
+    } else if (resolvedModelPoint) {
+      mapRef.current?.fitBounds([resolvedModelPoint, [location.latitude, location.longitude]], { padding: [42, 42], maxZoom: 13 })
+    } else mapRef.current?.setView([location.latitude, location.longitude], 13)
   }
 
   return (
@@ -308,7 +330,7 @@ export function CoastSafetyMap({ safety, current, location, t }) {
       </div>
       <div className="map-status-row">
         <span className={`map-current-status ${overallTone}`}><i />{statusLabel}</span>
-        <span>{t('map.statusNote')}</span>
+        <span>{t(hasDetailedMap ? 'map.statusNote' : 'map.modelStatusNote')}</span>
       </div>
       {hasDetailedMap && (
         <div className="map-layer-controls" aria-label={t('map.layers')}>
@@ -324,7 +346,7 @@ export function CoastSafetyMap({ safety, current, location, t }) {
           {hasDetailedMap && <span><i className="good" />{t('map.activeZone')}</span>}
           {hasDetailedMap && <span><i className="caution" />{t('map.unguarded')}</span>}
           {hasDetailedMap && <span><i className="danger" />{t('map.physicalHazard')}</span>}
-          <span><i className="model" />{t('map.modelPoint')}</span>
+          {resolvedModelPoint && <span><i className="model" />{t('map.modelPoint')}</span>}
           {hasDetailedMap && layers.incidents && <span><i className="incident" />{t('map.incidentShare')}</span>}
         </div>
       </div>

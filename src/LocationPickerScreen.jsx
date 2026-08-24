@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import { Check, LocateFixed, MapPin, Search, Waves, X } from 'lucide-react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
+import { Check, List, LocateFixed, Map, MapPin, Search, Waves, X } from 'lucide-react'
 import { COASTAL_LOCATIONS, FEATURED_LOCATIONS } from './coastalLocations.js'
 
 const MAX_SEARCH_RESULTS = 80
+const LocationPickerMap = lazy(() => import('./LocationPickerMap.jsx'))
 
 function normalizeSearch(value) {
   return value
@@ -35,8 +36,9 @@ function LocationCard({ location, selected, onSelect, t }) {
   )
 }
 
-export function LocationPickerScreen({ location, onClose, onSelect, onUseCurrentLocation, locating, locationFeedback, t }) {
+export function LocationPickerScreen({ location, userPosition, onClose, onSelect, onUseCurrentLocation, locating, locationFeedback, locale, t }) {
   const [search, setSearch] = useState('')
+  const [view, setView] = useState('list')
   const searchRef = useRef(null)
   const previousFocusRef = useRef(null)
   const dialogRef = useRef(null)
@@ -61,7 +63,7 @@ export function LocationPickerScreen({ location, onClose, onSelect, onUseCurrent
         return
       }
       if (event.key !== 'Tab') return
-      const focusable = [...dialogRef.current.querySelectorAll('button:not(:disabled), input:not(:disabled)')]
+      const focusable = [...dialogRef.current.querySelectorAll('button:not(:disabled), input:not(:disabled), a[href], [tabindex]:not([tabindex="-1"])')]
       const first = focusable[0]
       const last = focusable.at(-1)
       if (event.shiftKey && document.activeElement === first) {
@@ -100,6 +102,15 @@ export function LocationPickerScreen({ location, onClose, onSelect, onUseCurrent
           </button>
         </header>
 
+        <div className="location-view-toggle" role="group" aria-label={t('locationPicker.viewLabel')}>
+          <button className={view === 'list' ? 'is-active' : ''} type="button" aria-pressed={view === 'list'} onClick={() => setView('list')}>
+            <List size={16} />{t('locationPicker.listView')}
+          </button>
+          <button className={view === 'map' ? 'is-active' : ''} type="button" aria-pressed={view === 'map'} onClick={() => setView('map')}>
+            <Map size={16} />{t('locationPicker.mapView')}
+          </button>
+        </div>
+
         <div className="location-search">
           <Search size={20} aria-hidden="true" />
           <label className="sr-only" htmlFor="location-search-input">{t('locationPicker.searchLabel')}</label>
@@ -122,8 +133,21 @@ export function LocationPickerScreen({ location, onClose, onSelect, onUseCurrent
           </span>
         </button>
 
-        <div className="location-screen-content">
-          {normalizedSearch ? (
+        <div className={`location-screen-content ${view === 'map' ? 'is-map' : ''}`}>
+          {view === 'map' ? (
+            <Suspense fallback={<div className="location-map-loading">{t('locationPicker.mapLoading')}</div>}>
+              <LocationPickerMap
+                key={location.id}
+                locations={normalizedSearch ? matchingLocations : COASTAL_LOCATIONS}
+                selectedLocation={location}
+                searchActive={Boolean(normalizedSearch)}
+                userPosition={userPosition}
+                onSelect={selectLocation}
+                locale={locale}
+                t={t}
+              />
+            </Suspense>
+          ) : normalizedSearch ? (
             <section aria-labelledby="location-results-title">
               <div className="location-list-heading">
                 <h2 id="location-results-title">{t('locationPicker.results', { count: matchingLocations.length })}</h2>

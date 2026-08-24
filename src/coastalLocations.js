@@ -113,7 +113,17 @@ export const FEATURED_LOCATIONS = [
   },
 ]
 
-export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_BATHING_WATERS]
+const INLAND_BATHING_WATER_IDS = new Set([
+  'sepa-366986', // Loch Morlich
+  'nrw-ukl1302-40550', // Marine Lake, Rhyl
+])
+
+export const OFFICIAL_LOCATIONS = OFFICIAL_BATHING_WATERS.map((location) => ({
+  ...location,
+  marineModelSupported: !INLAND_BATHING_WATER_IDS.has(location.id),
+}))
+
+export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_LOCATIONS]
 
 export const DEFAULT_LOCATION = COASTAL_LOCATIONS[0]
 
@@ -124,20 +134,22 @@ export function findCoastalLocation(locationId) {
 export function findNearestCoastalLocation(latitude, longitude) {
   if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return DEFAULT_LOCATION
 
-  const toRadians = (degrees) => degrees * Math.PI / 180
-  const distanceTo = (location) => {
-    const latitudeDelta = toRadians(location.latitude - latitude)
-    const longitudeDelta = toRadians(location.longitude - longitude)
-    const firstLatitude = toRadians(latitude)
-    const secondLatitude = toRadians(location.latitude)
-    const haversine = Math.sin(latitudeDelta / 2) ** 2
-      + Math.cos(firstLatitude) * Math.cos(secondLatitude) * Math.sin(longitudeDelta / 2) ** 2
-    return 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine))
-  }
-
   return COASTAL_LOCATIONS.reduce((nearest, location) => (
-    distanceTo(location) < distanceTo(nearest) ? location : nearest
+    distanceToCoastalLocation(latitude, longitude, location) < distanceToCoastalLocation(latitude, longitude, nearest) ? location : nearest
   ), DEFAULT_LOCATION)
+}
+
+export function distanceToCoastalLocation(latitude, longitude, location) {
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude) || !location) return null
+  const toRadians = (degrees) => degrees * Math.PI / 180
+  const latitudeDelta = toRadians(location.latitude - latitude)
+  const longitudeDelta = toRadians(location.longitude - longitude)
+  const firstLatitude = toRadians(latitude)
+  const secondLatitude = toRadians(location.latitude)
+  const haversine = Math.sin(latitudeDelta / 2) ** 2
+    + Math.cos(firstLatitude) * Math.cos(secondLatitude) * Math.sin(longitudeDelta / 2) ** 2
+  const angularDistance = 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine))
+  return 6371 * angularDistance
 }
 
 export function circularDistance(first, second) {

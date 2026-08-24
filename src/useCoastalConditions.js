@@ -1,5 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
+function finiteOrNull(value) {
+  return Number.isFinite(value) ? value : null
+}
+
 function buildWeatherUrl(location) {
   const url = new URL('https://api.open-meteo.com/v1/forecast')
   url.search = new URLSearchParams({
@@ -9,8 +13,9 @@ function buildWeatherUrl(location) {
     hourly: 'temperature_2m,weather_code,wind_speed_10m,wind_direction_10m,wind_gusts_10m,is_day',
     daily: 'sunrise,sunset',
     wind_speed_unit: 'mph',
-    timezone: 'Europe/London',
-    forecast_days: '2',
+    timezone: 'GMT',
+    timeformat: 'unixtime',
+    forecast_days: '3',
   }).toString()
   return url
 }
@@ -22,52 +27,48 @@ function buildMarineUrl(location) {
     longitude: location.longitude,
     current: 'wave_height,wave_direction,wave_period,sea_level_height_msl,sea_surface_temperature,ocean_current_velocity',
     hourly: 'wave_height,wave_direction,wave_period,sea_level_height_msl,sea_surface_temperature,ocean_current_velocity',
-    timezone: 'Europe/London',
-    forecast_days: '2',
+    timezone: 'GMT',
+    timeformat: 'unixtime',
+    forecast_days: '3',
   }).toString()
   return url
 }
 
 function fallbackFor(location) {
   const now = Date.now()
+  const seaBearing = Number.isFinite(location.seaBearing) ? location.seaBearing : null
   return {
     current: {
-      time: new Date(now).toISOString(), temperature: 14, feelsLike: 13, weatherCode: 3,
-      windSpeed: 12, windDirection: 240, gusts: 20, waveHeight: 0.7, waveDirection: 220,
-      wavePeriod: 6.4, seaTemperature: 15.2, seaLevel: 0.4, currentVelocity: 0.3,
+      time: new Date(now).toISOString(), temperature: null, feelsLike: null, weatherCode: null,
+      windSpeed: null, windDirection: null, gusts: null, waveHeight: null, waveDirection: null,
+      wavePeriod: null, seaTemperature: null, seaLevel: null, currentVelocity: null, seaBearing,
     },
-    forecast: Array.from({ length: 8 }, (_, offset) => ({
+    forecast: Array.from({ length: 72 }, (_, offset) => ({
       time: new Date(now + offset * 3600000).toISOString(),
-      waveHeight: Math.max(0.4, 0.7 - offset * 0.04),
-      wavePeriod: 6.4,
-      gusts: Math.max(14, 20 - offset),
-      windSpeed: Math.max(8, 12 - offset * 0.5),
-      windDirection: 240,
-      weatherCode: 3,
-      temperature: 14,
-      seaTemperature: 15.2,
-      seaLevel: 0.4 + 0.8 * Math.cos(((offset - 2) / 12.4) * Math.PI * 2),
+      waveHeight: null,
+      wavePeriod: null,
+      gusts: null,
+      windSpeed: null,
+      windDirection: null,
+      weatherCode: null,
+      temperature: null,
+      seaTemperature: null,
+      seaLevel: null,
       isDay: true,
+      seaBearing,
     })),
     daylight: {
       sunrise: new Date(new Date(now).setHours(5, 45, 0, 0)).toISOString(),
       sunset: new Date(new Date(now).setHours(20, 15, 0, 0)).toISOString(),
     },
     tides: {
-      trend: 'rising',
-      events: [
-        { offset: 2, type: 'high', height: 1.2 },
-        { offset: 8, type: 'low', height: -1.05 },
-        { offset: 14, type: 'high', height: 1.35 },
-        { offset: 20, type: 'low', height: -0.92 },
-      ].map((item) => ({ ...item, time: new Date(now + item.offset * 3600000).toISOString() })),
-      series: Array.from({ length: 25 }, (_, offset) => ({
-        time: new Date(now + offset * 3600000).toISOString(),
-        height: 0.1 + 1.2 * Math.cos(((offset - 2) / 12.4) * Math.PI * 2),
-      })),
+      trend: 'unknown',
+      events: [],
+      series: [],
     },
-    source: 'sample',
+    source: 'unavailable',
     locationId: location.id,
+    marineModelPoint: null,
   }
 }
 
@@ -79,6 +80,11 @@ function closestIndex(times, target = new Date()) {
       ? index
       : best
   ), 0)
+}
+
+function toIsoTime(value) {
+  const milliseconds = typeof value === 'number' ? value * 1000 : new Date(value).getTime()
+  return new Date(milliseconds).toISOString()
 }
 
 function getTideData(times, levels, currentIndex) {
@@ -107,11 +113,11 @@ function getTideData(times, levels, currentIndex) {
 
   const currentLevel = levels[currentIndex]
   const nextLevel = levels[Math.min(currentIndex + 1, levels.length - 1)]
-  const change = nextLevel - currentLevel
+  const change = Number.isFinite(currentLevel) && Number.isFinite(nextLevel) ? nextLevel - currentLevel : null
 
   return {
-    trend: Math.abs(change) < 0.015 ? 'slack' : change > 0 ? 'rising' : 'falling',
-    events: events.slice(0, 4),
+    trend: change === null ? 'unknown' : Math.abs(change) < 0.015 ? 'slack' : change > 0 ? 'rising' : 'falling',
+    events: events.slice(0, 6),
     series: times.slice(currentIndex, currentIndex + 25).map((time, offset) => ({
       time,
       height: levels[currentIndex + offset],
@@ -120,50 +126,67 @@ function getTideData(times, levels, currentIndex) {
 }
 
 function normalize(weather, marine, location) {
-  const weatherIndex = closestIndex(weather.hourly.time)
-  const marineIndex = closestIndex(marine.hourly.time)
-  const forecast = Array.from({ length: 8 }, (_, offset) => {
+  const weatherTimes = weather.hourly.time.map(toIsoTime)
+  const marineTimes = marine.hourly.time.map(toIsoTime)
+  const marineModelPoint = [marine.latitude, marine.longitude].every(Number.isFinite)
+    ? { latitude: marine.latitude, longitude: marine.longitude }
+    : null
+  const marineModelSupported = location.marineModelSupported !== false
+  const seaBearing = Number.isFinite(location.seaBearing) ? location.seaBearing : null
+  const weatherIndex = closestIndex(weatherTimes)
+  const marineIndex = closestIndex(marineTimes)
+  const forecastLength = Math.min(
+    72,
+    weather.hourly.time.length - weatherIndex,
+    marine.hourly.time.length - marineIndex,
+  )
+  const forecast = Array.from({ length: forecastLength }, (_, offset) => {
     const wi = Math.min(weatherIndex + offset, weather.hourly.time.length - 1)
     const mi = Math.min(marineIndex + offset, marine.hourly.time.length - 1)
     return {
-      time: weather.hourly.time[wi],
-      waveHeight: marine.hourly.wave_height[mi],
-      wavePeriod: marine.hourly.wave_period[mi],
-      gusts: weather.hourly.wind_gusts_10m[wi],
-      windSpeed: weather.hourly.wind_speed_10m[wi],
-      windDirection: weather.hourly.wind_direction_10m[wi],
-      weatherCode: weather.hourly.weather_code[wi],
-      temperature: weather.hourly.temperature_2m[wi],
-      seaTemperature: marine.hourly.sea_surface_temperature[mi],
-      seaLevel: marine.hourly.sea_level_height_msl[mi],
+      time: weatherTimes[wi],
+      waveHeight: marineModelSupported ? finiteOrNull(marine.hourly.wave_height[mi]) : null,
+      wavePeriod: marineModelSupported ? finiteOrNull(marine.hourly.wave_period[mi]) : null,
+      gusts: finiteOrNull(weather.hourly.wind_gusts_10m[wi]),
+      windSpeed: finiteOrNull(weather.hourly.wind_speed_10m[wi]),
+      windDirection: finiteOrNull(weather.hourly.wind_direction_10m[wi]),
+      weatherCode: finiteOrNull(weather.hourly.weather_code[wi]),
+      temperature: finiteOrNull(weather.hourly.temperature_2m[wi]),
+      seaTemperature: marineModelSupported ? finiteOrNull(marine.hourly.sea_surface_temperature[mi]) : null,
+      seaLevel: marineModelSupported ? finiteOrNull(marine.hourly.sea_level_height_msl[mi]) : null,
       isDay: Boolean(weather.hourly.is_day[wi]),
+      seaBearing,
     }
   })
 
   return {
     current: {
-      time: weather.current.time,
-      temperature: weather.current.temperature_2m,
-      feelsLike: weather.current.apparent_temperature,
-      weatherCode: weather.current.weather_code,
-      windSpeed: weather.current.wind_speed_10m,
-      windDirection: weather.current.wind_direction_10m,
-      gusts: weather.current.wind_gusts_10m,
-      waveHeight: marine.current.wave_height,
-      waveDirection: marine.current.wave_direction,
-      wavePeriod: marine.current.wave_period,
-      seaTemperature: marine.current.sea_surface_temperature,
-      seaLevel: marine.current.sea_level_height_msl,
-      currentVelocity: marine.current.ocean_current_velocity,
+      time: toIsoTime(weather.current.time),
+      temperature: finiteOrNull(weather.current.temperature_2m),
+      feelsLike: finiteOrNull(weather.current.apparent_temperature),
+      weatherCode: finiteOrNull(weather.current.weather_code),
+      windSpeed: finiteOrNull(weather.current.wind_speed_10m),
+      windDirection: finiteOrNull(weather.current.wind_direction_10m),
+      gusts: finiteOrNull(weather.current.wind_gusts_10m),
+      waveHeight: marineModelSupported ? finiteOrNull(marine.current.wave_height) : null,
+      waveDirection: marineModelSupported ? finiteOrNull(marine.current.wave_direction) : null,
+      wavePeriod: marineModelSupported ? finiteOrNull(marine.current.wave_period) : null,
+      seaTemperature: marineModelSupported ? finiteOrNull(marine.current.sea_surface_temperature) : null,
+      seaLevel: marineModelSupported ? finiteOrNull(marine.current.sea_level_height_msl) : null,
+      currentVelocity: marineModelSupported ? finiteOrNull(marine.current.ocean_current_velocity) : null,
+      seaBearing,
     },
     forecast,
     daylight: {
-      sunrise: weather.daily.sunrise[0],
-      sunset: weather.daily.sunset[0],
+      sunrise: toIsoTime(weather.daily.sunrise[0]),
+      sunset: toIsoTime(weather.daily.sunset[0]),
     },
-    tides: getTideData(marine.hourly.time, marine.hourly.sea_level_height_msl, marineIndex),
-    source: 'live',
+    tides: marineModelSupported
+      ? getTideData(marineTimes, marine.hourly.sea_level_height_msl, marineIndex)
+      : { trend: 'unknown', events: [], series: [] },
+    source: marineModelSupported && Number.isFinite(marine.current?.wave_height) ? 'live' : 'partial',
     locationId: location.id,
+    marineModelPoint: marineModelSupported ? marineModelPoint : null,
   }
 }
 
@@ -188,9 +211,13 @@ export function useCoastalConditions(location) {
 
   useEffect(() => {
     const controller = new AbortController()
+    const weatherRequest = fetchJson(buildWeatherUrl(location), controller.signal)
+    const marineRequest = location.marineModelSupported === false
+      ? weatherRequest.then((weather) => ({ hourly: { time: weather.hourly.time } }))
+      : fetchJson(buildMarineUrl(location), controller.signal)
     Promise.all([
-      fetchJson(buildWeatherUrl(location), controller.signal),
-      fetchJson(buildMarineUrl(location), controller.signal),
+      weatherRequest,
+      marineRequest,
     ])
       .then(([weather, marine]) => setData(normalize(weather, marine, location)))
       .catch((requestError) => {

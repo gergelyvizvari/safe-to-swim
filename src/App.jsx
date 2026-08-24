@@ -1,6 +1,5 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
 import {
-  AlertTriangle,
   ArrowDown,
   ArrowUpRight,
   ArrowUp,
@@ -18,20 +17,20 @@ import {
   MapPin,
   Play,
   RefreshCw,
-  ShieldAlert,
   Thermometer,
   Waves,
   Wind,
 } from 'lucide-react'
 import { useCoastalConditions } from './useCoastalConditions.js'
 import { compassFor, DEFAULT_LANGUAGE, LANGUAGES, localeFor, makeTranslator } from './i18n.js'
-import { findCoastalLocation, findNearestCoastalLocation, isOffshoreWind } from './coastalLocations.js'
+import { findCoastalLocation, findNearestCoastalLocation } from './coastalLocations.js'
 import { LocationPickerScreen } from './LocationPickerScreen.jsx'
 import { InstallGuide } from './InstallGuide.jsx'
 import { SupportPrompt } from './SupportPrompt.jsx'
 import { usePWAInstall } from './usePWAInstall.js'
 import { getWebcamForLocation } from './webcamSources.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
+import { compareConditions, formatNumber, formatWholeNumber, getSafety, getSafetyReadings } from './safety.js'
 
 const WaterQualityPanel = lazy(() => import('./WaterQualityPanel.jsx'))
 const UKCoastExplorer = lazy(() => import('./UKCoastExplorer.jsx').then((module) => ({ default: module.UKCoastExplorer })))
@@ -43,6 +42,7 @@ function directionLabel(degrees, language) {
 }
 
 function weatherLabel(code, t) {
+  if (!Number.isFinite(code)) return t('conditions.unavailable')
   if (code === 0) return t('weather.clear')
   if (code <= 3) return t('weather.partlyCloudy')
   if (code <= 48) return t('weather.fog')
@@ -50,77 +50,6 @@ function weatherLabel(code, t) {
   if (code <= 77) return t('weather.drizzle')
   if (code <= 82) return t('weather.showers')
   return t('weather.storm')
-}
-
-function formatNumber(value, locale, fractionDigits = 1) {
-  return new Intl.NumberFormat(locale, {
-    minimumFractionDigits: fractionDigits,
-    maximumFractionDigits: fractionDigits,
-  }).format(value)
-}
-
-function getSafetyReadings(conditions, location) {
-  return {
-    waveHeight: Math.round(conditions.waveHeight * 10) / 10,
-    gusts: Math.round(conditions.gusts),
-    windSpeed: Math.round(conditions.windSpeed),
-    offshore: isOffshoreWind(conditions.windDirection, location.seaBearing),
-  }
-}
-
-function getSafety(conditions, location, t, locale) {
-  const { waveHeight, gusts, windSpeed, offshore } = getSafetyReadings(conditions, location)
-  const formatReasons = (reasons) => new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' }).format(reasons)
-  const dangerReasons = []
-  if (waveHeight >= 1) dangerReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
-  if (gusts >= 28) dangerReasons.push(t('safety.gustReason', { value: gusts }))
-  if (offshore && windSpeed >= 12) dangerReasons.push(t('safety.offshoreReason'))
-
-  if (dangerReasons.length) {
-    const reasons = formatReasons(dangerReasons)
-    return {
-      level: 'danger', eyebrow: t('safety.dangerEyebrow'), title: t('safety.dangerTitle'),
-      description: t('safety.dangerDescription', { reasons }),
-      reason: t('decision.reasons.danger', { reasons }),
-      icon: ShieldAlert,
-    }
-  }
-  const cautionReasons = []
-  if (waveHeight >= 0.6) cautionReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
-  if (gusts >= 20) cautionReasons.push(t('safety.gustReason', { value: gusts }))
-  if (offshore) cautionReasons.push(t('safety.offshoreReason'))
-
-  if (cautionReasons.length) {
-    const reasons = formatReasons(cautionReasons)
-    return {
-      level: 'caution', eyebrow: t('safety.cautionEyebrow'), title: t('safety.cautionTitle'),
-      description: t('safety.cautionDescription', { reasons }),
-      reason: t('decision.reasons.caution', { reasons }),
-      icon: AlertTriangle,
-    }
-  }
-  return {
-    level: 'good', eyebrow: t('safety.goodEyebrow'), title: t('safety.goodTitle'),
-    description: t('safety.goodDescription'),
-    reason: t(offshore === null ? 'decision.reasons.goodUnknown' : 'decision.reasons.good'),
-    icon: Check,
-  }
-}
-
-function compareConditions(selected, current, location) {
-  const selectedReadings = getSafetyReadings(selected, location)
-  const currentReadings = getSafetyReadings(current, location)
-  const offshoreRisk = (value) => value === true ? 2 : value === null ? 1 : 0
-  const changes = [
-    selectedReadings.waveHeight - currentReadings.waveHeight,
-    selectedReadings.gusts - currentReadings.gusts,
-    offshoreRisk(selectedReadings.offshore) - offshoreRisk(currentReadings.offshore),
-  ].filter((change) => change !== 0)
-
-  if (!changes.length) return 'stable'
-  if (changes.every((change) => change > 0)) return 'worse'
-  if (changes.every((change) => change < 0)) return 'better'
-  return 'mixed'
 }
 
 function formatTime(dateString, locale, options = {}) {
@@ -145,6 +74,15 @@ function tideDayLabel(dateString, currentTime, locale, t) {
   if (eventDate === today) return t('tide.today')
   if (eventDate === tomorrow) return t('tide.tomorrow')
   return new Intl.DateTimeFormat(locale, { timeZone: 'Europe/London', weekday: 'short' }).format(new Date(dateString))
+}
+
+function tideCountdown(dateString, currentTime, t) {
+  const totalMinutes = Math.max(0, Math.ceil((new Date(dateString).getTime() - new Date(currentTime).getTime()) / 60000))
+  const hours = Math.floor(totalMinutes / 60)
+  const minutes = totalMinutes % 60
+  if (hours && minutes) return t('tide.durationHoursMinutes', { hours, minutes })
+  if (hours) return t('tide.durationHours', { hours })
+  return t('tide.durationMinutes', { minutes })
 }
 
 function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSupport, onInstall, showInstall, locating, locationFeedback, onRefresh, loading, language, onLanguageChange, t }) {
@@ -207,7 +145,7 @@ function SafetyHero({ safety, current, source, loading, language, locale, isNow,
           <span>{formatDate(current.time, locale)}</span>
           <span aria-hidden="true">•</span>
           <span>{isNow ? t('safety.updatedAt', { time: formatTime(current.time, locale) }) : t('decision.selectedAt', { time: formatTime(current.time, locale) })}</span>
-          <span className="live-dot"><i />{loading ? t('safety.updating') : source === 'live' ? t('safety.liveData') : t('safety.sampleData')}</span>
+          <span className="live-dot"><i />{loading ? t('safety.updating') : source === 'live' ? t('safety.liveData') : source === 'partial' ? t('safety.partialData') : t('safety.unavailableData')}</span>
         </div>
       </div>
       <div className="wave-visual" aria-hidden="true">
@@ -235,9 +173,9 @@ function SafetyHero({ safety, current, source, loading, language, locale, isNow,
           <div className="hero-wind-reading">
             <span className="hero-wind-compass" aria-hidden="true">
               <span className="hero-compass-north">N</span>
-              <span className="hero-wind-needle" style={{ transform: `rotate(${current.windDirection}deg)` }} />
+              {Number.isFinite(current.windDirection) && <span className="hero-wind-needle" style={{ transform: `rotate(${current.windDirection}deg)` }} />}
             </span>
-            <strong>{Math.round(current.gusts)} <small>mph</small></strong>
+            <strong>{formatWholeNumber(current.gusts)} <small>mph</small></strong>
             <span className="sr-only">{t('conditions.from', { direction: windDirection })}</span>
           </div>
         </article>
@@ -260,54 +198,111 @@ function MetricCard({ icon: Icon, label, value, unit, detail, tone, children }) 
   )
 }
 
-function ConditionsGrid({ current, forecast, language, locale, t }) {
+function ConditionsGrid({ current, forecast, language, locale, isNow, t }) {
   const windDirection = directionLabel(current.windDirection, language)
-  const isRising = forecast[1]?.seaLevel >= current.seaLevel
+  const nextPoint = forecast.find((point) => new Date(point.time).getTime() > new Date(current.time).getTime())
+  const seaLevelChange = Number.isFinite(current.seaLevel) && Number.isFinite(nextPoint?.seaLevel)
+    ? nextPoint.seaLevel - current.seaLevel
+    : null
+  const seaLevelDetail = seaLevelChange === null
+    ? t('conditions.unavailable')
+    : Math.abs(seaLevelChange) < 0.015
+      ? t('conditions.slack')
+      : seaLevelChange > 0 ? t('conditions.rising') : t('conditions.falling')
+  const roundedWaveHeight = Number.isFinite(current.waveHeight) ? Math.round(current.waveHeight * 10) / 10 : null
+  const roundedGusts = Number.isFinite(current.gusts) ? Math.round(current.gusts) : null
   return (
-    <section className="metrics-grid" aria-label={t('conditions.aria')}>
+    <section className="metrics-grid" aria-label={t(isNow ? 'conditions.aria' : 'conditions.selectedAria', { time: formatTime(current.time, locale) })}>
       <MetricCard
         icon={Waves} label={t('conditions.waveHeight')} value={formatNumber(current.waveHeight, locale)} unit="m"
-        detail={t('conditions.period', { value: formatNumber(current.wavePeriod, locale) })} tone={current.waveHeight >= 1 ? 'metric-warn' : ''}
+        detail={t('conditions.period', { value: formatNumber(current.wavePeriod, locale) })} tone={roundedWaveHeight >= 1 ? 'metric-warn' : ''}
       >
         <div className="mini-waves" aria-hidden="true"><i /><i /><i /><i /><i /></div>
       </MetricCard>
       <MetricCard
-        icon={Wind} label={t('conditions.wind')} value={Math.round(current.windSpeed)} unit="mph"
-        detail={t('conditions.gusts', { value: Math.round(current.gusts) })} tone={current.gusts >= 28 ? 'metric-warn' : ''}
+        icon={Wind} label={t('conditions.wind')} value={formatWholeNumber(current.windSpeed)} unit="mph"
+        detail={t('conditions.gusts', { value: formatWholeNumber(current.gusts) })} tone={roundedGusts >= 28 ? 'metric-warn' : ''}
       >
-        <div className="direction"><Compass size={15} style={{ transform: `rotate(${current.windDirection}deg)` }} />{t('conditions.from', { direction: windDirection })}</div>
+        <div className="direction"><Compass size={15} style={Number.isFinite(current.windDirection) ? { transform: `rotate(${current.windDirection}deg)` } : undefined} />{t('conditions.from', { direction: windDirection })}</div>
       </MetricCard>
       <MetricCard
         icon={Droplets} label={t('conditions.seaLevel')} value={formatNumber(current.seaLevel, locale)} unit="m MSL"
-        detail={isRising ? t('conditions.rising') : t('conditions.falling')}
+        detail={seaLevelDetail}
       >
         <div className="tide-line" aria-hidden="true"><span /></div>
       </MetricCard>
       <MetricCard
         icon={Thermometer} label={t('conditions.waterTemperature')} value={formatNumber(current.seaTemperature, locale)} unit="°C"
-        detail={`${t('conditions.air', { value: Math.round(current.temperature) })} · ${weatherLabel(current.weatherCode, t)}`}
+        detail={`${t('conditions.air', { value: formatWholeNumber(current.temperature) })} · ${weatherLabel(current.weatherCode, t)}`}
       >
-        <div className="temperature-note"><Info size={14} /> {t('conditions.wetsuit')}</div>
+        {Number.isFinite(current.seaTemperature) && <div className="temperature-note"><Info size={14} /> {t('conditions.wetsuit')}</div>}
       </MetricCard>
     </section>
   )
 }
 
-function SwimDecision({ current, forecast, location, source, loading, language, locale, quality, t }) {
+function londonDateKey(dateString) {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(new Date(dateString))
+}
+
+function londonHour(dateString) {
+  return Number(new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/London', hour: '2-digit', hourCycle: 'h23',
+  }).format(new Date(dateString)))
+}
+
+function buildForecastDays(current, forecast) {
   const currentTime = new Date(current.time).getTime()
-  const hours = [
-    current,
-    ...forecast.filter((hour) => new Date(hour.time).getTime() > currentTime),
-  ].slice(0, 8)
+  const uniqueHours = new Map()
+  ;[current, ...forecast]
+    .filter((hour) => new Date(hour.time).getTime() >= currentTime)
+    .forEach((hour) => uniqueHours.set(hour.time, hour))
+
+  const grouped = new Map()
+  ;[...uniqueHours.values()].forEach((hour) => {
+    const key = londonDateKey(hour.time)
+    const day = grouped.get(key) ?? []
+    day.push(hour)
+    grouped.set(key, day)
+  })
+
+  return [...grouped.entries()].slice(0, 3).map(([key, dayHours], dayIndex) => {
+    if (dayIndex === 0) return { key, hours: dayHours.slice(0, 8) }
+    const daytimeHours = dayHours.filter((hour) => {
+      const hourOfDay = londonHour(hour.time)
+      return hourOfDay >= 6 && hourOfDay <= 20 && hourOfDay % 2 === 0
+    })
+    return { key, hours: (daytimeHours.length ? daytimeHours : dayHours.filter((_, index) => index % 2 === 0)).slice(0, 8) }
+  })
+}
+
+function forecastDayLabel(day, dayIndex, locale, t) {
+  if (dayIndex === 0) return t('forecast.today')
+  if (dayIndex === 1) return t('forecast.tomorrow')
+  return new Intl.DateTimeFormat(locale, {
+    timeZone: 'Europe/London', weekday: 'short', month: 'short', day: 'numeric',
+  }).format(new Date(day.hours[0].time))
+}
+
+function SwimDecision({ current, forecast, location, source, loading, language, locale, quality, onSelectedChange, t }) {
+  const forecastDays = buildForecastDays(current, forecast)
+  const [selectedDayIndex, setSelectedDayIndex] = useState(0)
   const [selectedIndex, setSelectedIndex] = useState(0)
+  const selectedDay = forecastDays[selectedDayIndex] ?? forecastDays[0]
+  const hours = selectedDay.hours
   const selected = hours[selectedIndex]
+  const isNow = selected.time === current.time
   const safety = getSafety(selected, location, t, locale)
   const currentSafety = getSafety(current, location, t, locale)
   const selectedOffshore = getSafetyReadings(selected, location).offshore
   const windStatus = selectedOffshore === null ? 'unknown' : selectedOffshore ? 'offshore' : 'safe'
   const SelectedIcon = safety.icon
   const rank = { good: 0, caution: 1, danger: 2 }
-  const change = selectedIndex === 0
+  const change = safety.level === 'unknown' || currentSafety.level === 'unknown'
+    ? 'unknown'
+    : isNow
     ? 'now'
     : rank[safety.level] < rank[currentSafety.level]
       ? 'better'
@@ -315,9 +310,13 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
         ? 'worse'
         : compareConditions(selected, current, location)
 
+  useEffect(() => {
+    onSelectedChange(selected)
+  }, [onSelectedChange, selected])
+
   return (
     <>
-      <SafetyHero safety={safety} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={selectedIndex === 0} quality={quality} t={t} />
+      <SafetyHero safety={safety} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={isNow} quality={quality} t={t} />
       <section className="panel decision-panel" aria-labelledby="decision-title">
         <div className="section-heading decision-heading">
           <div>
@@ -325,6 +324,22 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
             <h2 id="decision-title">{t('decision.title')}</h2>
           </div>
           <span className="decision-hint">{t('decision.hint')}</span>
+        </div>
+        <div className="decision-days" role="group" aria-label={t('decision.daysAria')}>
+          {forecastDays.map((day, dayIndex) => (
+            <button
+              className={selectedDayIndex === dayIndex ? 'is-selected' : ''}
+              type="button"
+              aria-pressed={selectedDayIndex === dayIndex}
+              onClick={() => {
+                setSelectedDayIndex(dayIndex)
+                setSelectedIndex(0)
+              }}
+              key={day.key}
+            >
+              {forecastDayLabel(day, dayIndex, locale, t)}
+            </button>
+          ))}
         </div>
         <div className="decision-times" role="group" aria-label={t('decision.aria')}>
           {hours.map((hour, index) => {
@@ -337,7 +352,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
                 onClick={() => setSelectedIndex(index)}
                 key={`${hour.time}-${index}`}
               >
-                <span>{index === 0 ? t('forecast.now') : formatTime(hour.time, locale)}</span>
+                <span>{hour.time === current.time ? t('forecast.now') : formatTime(hour.time, locale)}</span>
                 <strong><i />{t(`decision.levels.${hourSafety.level}`)}</strong>
               </button>
             )
@@ -348,13 +363,13 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
           <div>
             <strong>{t(`decision.change.${change}`)}</strong>
             <span>{t('decision.reasonDetails', {
-              time: selectedIndex === 0 ? t('forecast.now') : formatTime(selected.time, locale),
+              time: isNow ? t('forecast.now') : formatTime(selected.time, locale),
               reason: safety.reason,
             })}</span>
           </div>
           <div className="decision-readings" aria-hidden="true">
             <span><Waves size={15} />{formatNumber(selected.waveHeight, locale)} m</span>
-            <span><Wind size={15} />{Math.round(selected.gusts)} mph</span>
+            <span><Wind size={15} />{formatWholeNumber(selected.gusts)} mph</span>
             <span><Compass size={15} />{t(`decision.wind.${windStatus}`)}</span>
           </div>
         </div>
@@ -364,8 +379,9 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
   )
 }
 
-function DetailedConditions({ data, location, language, locale, t, safety, onLocationChange }) {
+function DetailedConditions({ data, selected, location, language, locale, t, safety, onLocationChange }) {
   const [hasOpened, setHasOpened] = useState(false)
+  const isNow = selected.time === data.current.time
   return (
     <details className="details-disclosure" onToggle={(event) => event.currentTarget.open && setHasOpened(true)}>
       <summary>
@@ -377,10 +393,10 @@ function DetailedConditions({ data, location, language, locale, t, safety, onLoc
         <ChevronDown size={20} aria-hidden="true" />
       </summary>
       {hasOpened && <div className="details-content">
-        <ConditionsGrid current={data.current} forecast={data.forecast} language={language} locale={locale} t={t} />
-        <SafetyChecklist current={data.current} location={location} t={t} />
+        <ConditionsGrid current={selected} forecast={data.forecast} language={language} locale={locale} isNow={isNow} t={t} />
+        <SafetyChecklist current={selected} location={location} t={t} />
         <Suspense fallback={null}><UKCoastExplorer selectedLocation={location} onSelect={onLocationChange} t={t} /></Suspense>
-        <Suspense fallback={null}><CoastSafetyMap safety={safety} current={data.current} location={location} t={t} /></Suspense>
+        <Suspense fallback={null}><CoastSafetyMap safety={safety} current={selected} modelPoint={data.marineModelPoint} location={location} t={t} /></Suspense>
       </div>}
     </details>
   )
@@ -430,12 +446,25 @@ function TideCurve({ tides, t }) {
 }
 
 function TidePanel({ tides, current, locale, t }) {
+  const [now, setNow] = useState(() => Date.now())
+
+  useEffect(() => {
+    const updateClock = () => setNow(Date.now())
+    const interval = window.setInterval(updateClock, 60000)
+    return () => window.clearInterval(interval)
+  }, [])
+
   const trend = tides.trend === 'rising'
     ? { label: t('tide.towardHigh'), detail: t('tide.rising'), icon: ArrowUp }
     : tides.trend === 'falling'
       ? { label: t('tide.towardLow'), detail: t('tide.falling'), icon: ArrowDown }
-      : { label: t('tide.nearTurn'), detail: t('tide.slack'), icon: Waves }
+      : tides.trend === 'slack'
+        ? { label: t('tide.nearTurn'), detail: t('tide.slack'), icon: Waves }
+        : { label: t('tide.unavailable'), detail: t('tide.unavailable'), icon: Info }
   const TrendIcon = trend.icon
+  const upcomingEvents = tides.events.filter((event) => new Date(event.time).getTime() > now)
+  const nextEvent = upcomingEvents[0]
+  const NextEventIcon = nextEvent?.type === 'high' ? ArrowUp : ArrowDown
   const renderEvent = (event) => {
     const isHigh = event.type === 'high'
     const EventIcon = isHigh ? ArrowUp : ArrowDown
@@ -443,7 +472,7 @@ function TidePanel({ tides, current, locale, t }) {
       <article className={`tide-event ${event.type}`} key={`${event.type}-${event.time}`}>
         <span className={`tide-event-icon ${event.type}`}><EventIcon size={14} /></span>
         <div>
-          <span>{tideDayLabel(event.time, current.time, locale, t)} · {isHigh ? t('tide.high') : t('tide.low')}</span>
+          <span>{tideDayLabel(event.time, now, locale, t)} · {isHigh ? t('tide.high') : t('tide.low')}</span>
           <strong>{formatTime(event.time, locale)}</strong>
         </div>
         <small>{formatNumber(event.height, locale, 2)} m</small>
@@ -457,20 +486,33 @@ function TidePanel({ tides, current, locale, t }) {
         <div><span className="eyebrow">{t('tide.eyebrow')}</span><h2 id="tide-title">{t('tide.title')}</h2></div>
         <span className={`tide-trend ${tides.trend}`}><TrendIcon size={15} />{trend.label}</span>
       </div>
+      {nextEvent && (
+        <div className={`tide-next-turn ${nextEvent.type}`}>
+          <span className="tide-next-turn-icon"><NextEventIcon size={18} /></span>
+          <div>
+            <span>{trend.detail}</span>
+            <strong>{t('tide.nextTurnSummary', {
+              event: t(nextEvent.type === 'high' ? 'tide.high' : 'tide.low'),
+              duration: tideCountdown(nextEvent.time, now, t),
+            })}</strong>
+            <small>{tideDayLabel(nextEvent.time, now, locale, t)} · {formatTime(nextEvent.time, locale)}</small>
+          </div>
+        </div>
+      )}
       <div className="tide-primary-events" aria-label={t('tide.eventsAria')}>
-        {tides.events.slice(0, 2).map(renderEvent)}
+        {upcomingEvents.slice(0, 2).map(renderEvent)}
       </div>
       <TideCurve tides={tides} t={t} />
       <div className="tide-current-compact">
         <Droplets size={15} />
-        <span>{trend.detail}</span>
+        <span>{t('tide.modelLevel')}</span>
         <strong>{formatNumber(current.seaLevel, locale, 2)} m MSL</strong>
       </div>
-      {tides.events.length > 2 && <details className="tide-more">
+      {upcomingEvents.length > 2 && <details className="tide-more">
         <summary>{t('tide.moreTimes')} <ChevronDown size={16} /></summary>
-        <div className="tide-more-events">{tides.events.slice(2).map(renderEvent)}</div>
+        <div className="tide-more-events">{upcomingEvents.slice(2).map(renderEvent)}</div>
       </details>}
-      <div className="panel-note"><Info size={15} /> {t('tide.note')}</div>
+      {tides.trend !== 'unknown' && <div className="panel-note"><Info size={15} /> {t('tide.note')}</div>}
     </section>
   )
 }
@@ -488,7 +530,7 @@ function WebcamPanel({ location, locale, t }) {
   return (
     <section className="panel webcam-panel" aria-labelledby="webcam-title">
       <div className="section-heading webcam-heading">
-        <div><span className="eyebrow">{t('webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: location.name })}</h2></div>
+        <div><span className="eyebrow">{t('webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: webcam?.name ?? location.name })}</h2></div>
         {webcam && <span className="camera-live"><i />{t('webcam.verified')}</span>}
       </div>
       {webcam?.streams && <div className="camera-tabs" role="group" aria-label={t('webcam.selector')}>
@@ -548,16 +590,21 @@ function WebcamPanel({ location, locale, t }) {
 }
 
 function SafetyChecklist({ current, location, t }) {
-  const offshore = isOffshoreWind(current.windDirection, location.seaBearing)
+  const offshore = getSafetyReadings(current, location).offshore
   const windCheck = offshore === null
     ? { text: t('checklist.windUnknown'), status: 'on-site', label: t('checklist.onSite') }
     : offshore
       ? { text: t('checklist.windOffshore'), status: 'bad', label: t('checklist.offshore') }
       : { text: t('checklist.windSafe'), status: 'good', label: t('checklist.okay') }
+  const waveCheck = !Number.isFinite(current.waveHeight)
+    ? { status: 'on-site', label: t('checklist.unavailable') }
+    : current.waveHeight >= 0.8
+      ? { status: 'bad', label: t('checklist.elevated') }
+      : { status: 'good', label: t('checklist.moderate') }
   const checks = [
     { icon: Flag, title: t('checklist.flagTitle'), text: t('checklist.flagText'), status: 'on-site', label: t('checklist.onSite') },
     { icon: Wind, title: t('checklist.windTitle'), ...windCheck },
-    { icon: Waves, title: t('checklist.beachTitle'), text: t('checklist.beachText'), status: current.waveHeight >= 0.8 ? 'bad' : 'good', label: current.waveHeight >= 0.8 ? t('checklist.elevated') : t('checklist.moderate') },
+    { icon: Waves, title: t('checklist.beachTitle'), text: t('checklist.beachText'), ...waveCheck },
   ]
 
   return (
@@ -601,16 +648,23 @@ export default function App() {
   const [locationId, setLocationId] = useState(() => window.localStorage.getItem('safe-to-swim-location') ?? 'brighton')
   const [geolocationStatus, setGeolocationStatus] = useState('idle')
   const [locatedName, setLocatedName] = useState('')
+  const [userPosition, setUserPosition] = useState(null)
   const [locationPickerOpen, setLocationPickerOpen] = useState(false)
   const [supportOpen, setSupportOpen] = useState(false)
   const [installGuideOpen, setInstallGuideOpen] = useState(false)
+  const [selectedSnapshot, setSelectedSnapshot] = useState(null)
   const { installed, installReady, isIOS, requestInstall } = usePWAInstall()
   const location = findCoastalLocation(locationId)
   const { data, loading, error, refresh } = useCoastalConditions(location)
   const locale = localeFor(language)
   const t = useMemo(() => makeTranslator(language), [language])
-  const safety = getSafety(data.current, location, t, locale)
+  const selectionKey = `${location.id}-${data.current.time}`
+  const selectedConditions = selectedSnapshot?.key === selectionKey ? selectedSnapshot.conditions : data.current
+  const safety = getSafety(selectedConditions, location, t, locale)
   const waterQuality = getWaterQualityForLocation(location)
+  const handleSelectedChange = useCallback((conditions) => {
+    setSelectedSnapshot({ key: selectionKey, conditions })
+  }, [selectionKey])
   const locating = geolocationStatus === 'locating'
   const locationFeedback = geolocationStatus === 'found'
     ? t('header.locationFound', { location: locatedName })
@@ -630,6 +684,7 @@ export default function App() {
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
         const nearestLocation = findNearestCoastalLocation(coords.latitude, coords.longitude)
+        setUserPosition({ latitude: coords.latitude, longitude: coords.longitude })
         setLocationId(nearestLocation.id)
         setLocatedName(nearestLocation.name)
         setGeolocationStatus('found')
@@ -679,11 +734,13 @@ export default function App() {
       {locationPickerOpen && (
         <LocationPickerScreen
           location={location}
+          userPosition={userPosition}
           onClose={() => setLocationPickerOpen(false)}
           onSelect={setLocationId}
           onUseCurrentLocation={useCurrentLocation}
           locating={locating}
           locationFeedback={locationFeedback}
+          locale={locale}
           t={t}
         />
       )}
@@ -691,13 +748,13 @@ export default function App() {
       {installGuideOpen && <InstallGuide isIOS={isIOS} onClose={() => setInstallGuideOpen(false)} t={t} />}
       <main>
         <DataNotice error={error} t={t} />
-        <SwimDecision key={`${location.id}-${data.current.time}`} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} t={t} />
+        <SwimDecision key={selectionKey} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} onSelectedChange={handleSelectedChange} t={t} />
         <Suspense fallback={null}><WaterQualityPanel location={location} locale={locale} t={t} /></Suspense>
         <div className="live-grid">
           <TidePanel tides={data.tides} current={data.current} locale={locale} t={t} />
           <WebcamPanel key={location.id} location={location} locale={locale} t={t} />
         </div>
-        <DetailedConditions data={data} location={location} language={language} locale={locale} t={t} safety={safety} onLocationChange={setLocationId} />
+        <DetailedConditions data={data} selected={selectedConditions} location={location} language={language} locale={locale} t={t} safety={safety} onLocationChange={setLocationId} />
         <section className="disclaimer">
           <div><Info size={18} /><p><strong>{t('disclaimer.important')}</strong> {t('disclaimer.text')}</p></div>
           <a href="https://open-meteo.com/" target="_blank" rel="noreferrer">{t('disclaimer.data')} <ArrowUpRight size={14} /></a>

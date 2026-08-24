@@ -27,7 +27,7 @@ function safePopup(location, t) {
 export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
-  const lastFocusedIdRef = useRef(selectedLocation.id)
+  const lastFocusedIdRef = useRef(null)
   const [query, setQuery] = useState('')
   const [nation, setNation] = useState('All')
 
@@ -46,9 +46,8 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
     const map = L.map(containerRef.current, {
       minZoom: 5,
       maxZoom: 15,
-      scrollWheelZoom: false,
+      scrollWheelZoom: true,
       zoomControl: true,
-      preferCanvas: true,
     })
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       maxZoom: 20,
@@ -62,6 +61,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
     return () => {
       map.remove()
       mapRef.current = null
+      lastFocusedIdRef.current = null
     }
   }, [])
 
@@ -70,8 +70,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
     if (!map) return undefined
     const markers = L.layerGroup().addTo(map)
 
-    filteredLocations.forEach((location) => {
-      const isSelected = location.id === selectedLocation.id
+    const addLocationMarker = (location, isSelected) => {
       const color = CLASSIFICATION_COLORS[location.classification] ?? CLASSIFICATION_COLORS.Unclassified
       L.circleMarker([location.latitude, location.longitude], {
         radius: isSelected ? 8 : 4.5,
@@ -80,14 +79,22 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
         fillOpacity: isSelected ? 1 : 0.72,
         weight: isSelected ? 3 : 1,
       })
-        .bindTooltip(`${location.name} · ${location.classification}`, { direction: 'top', sticky: true })
+        .bindTooltip(`${location.name} · ${location.classification ?? t('explorer.modelLocation')}`, { direction: 'top', sticky: true })
         .bindPopup(safePopup(location, t))
         .on('click', () => onSelect(location.id))
         .addTo(markers)
+    }
+
+    filteredLocations.forEach((location) => {
+      addLocationMarker(location, location.id === selectedLocation.id)
     })
 
+    if (!filteredLocations.some((location) => location.id === selectedLocation.id)) {
+      addLocationMarker(selectedLocation, true)
+    }
+
     return () => markers.remove()
-  }, [filteredLocations, onSelect, selectedLocation.id, t])
+  }, [filteredLocations, onSelect, selectedLocation, t])
 
   useEffect(() => {
     if (lastFocusedIdRef.current === selectedLocation.id) return
@@ -149,6 +156,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
           <div className="uk-map-canvas" ref={containerRef} role="region" aria-label={t('explorer.mapLabel')} />
           <button className="uk-map-reset" type="button" onClick={resetMap}><LocateFixed size={15} />{t('explorer.reset')}</button>
           <div className="uk-map-legend">
+            <span><i className="selected" />{t('explorer.selectedLocation')}</span>
             <span><i className="excellent" />{t('explorer.excellent')}</span>
             <span><i className="good" />{t('explorer.good')}</span>
             <span><i className="sufficient" />{t('explorer.sufficient')}</span>
