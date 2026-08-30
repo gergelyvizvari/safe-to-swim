@@ -123,7 +123,7 @@ function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSu
         <button className="icon-button support-trigger" type="button" onClick={onOpenSupport} aria-label={t('support.open')} title={t('support.open')}>
           <Beer size={17} />
         </button>
-        <button className="icon-button refresh-button" type="button" onClick={onRefresh} aria-label={t('header.refresh')}>
+        <button className="icon-button refresh-button" type="button" onClick={onRefresh} disabled={loading} aria-label={t('header.refresh')} title={t('header.refresh')}>
           <RefreshCw size={18} className={loading ? 'spinning' : ''} />
         </button>
       </div>

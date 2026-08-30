@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
+const AUTO_REFRESH_INTERVAL_MS = 5 * 60 * 1000
+
 function finiteOrNull(value) {
   return Number.isFinite(value) ? value : null
 }
@@ -231,6 +233,11 @@ export function useCoastalConditions(location) {
       })
     return () => controller.abort()
   }, [location, refreshKey])
+
+  useEffect(() => {
+    const interval = window.setInterval(refresh, AUTO_REFRESH_INTERVAL_MS)
+    return () => window.clearInterval(interval)
+  }, [refresh])
 
   const isCurrentLocation = data.locationId === location.id
   return useMemo(() => ({
