@@ -1,3 +1,5 @@
+import { outlookMessages } from './outlookMessages.js'
+
 export const DEFAULT_LANGUAGE = 'en'
 
 export const LANGUAGES = [
@@ -23,9 +25,9 @@ const translations = {
     },
     safety: {
       unknownEyebrow: 'Data unavailable', unknownTitle: 'Check conditions on site.', unknownDescription: 'The marine model has no reliable data for this location and time, so no swim rating is shown.',
-      dangerEyebrow: 'Not recommended', dangerTitle: 'Stay on shore.', dangerDescription: 'Because of {reasons}, open-water swimming is suitable for experts only.',
+      dangerEyebrow: 'Not recommended', dangerTitle: 'Stay on shore.', dangerDescription: 'Because of {reasons}, swimming is not recommended. Follow local warnings.',
       cautionEyebrow: 'Use extra caution', cautionTitle: 'Experienced swimmers only.', cautionDescription: 'Because of {reasons}, conditions may become tiring quickly. Do not swim alone.',
-      goodEyebrow: 'Favourable conditions', goodTitle: 'It may be a good time to swim.', goodDescription: 'Wind and waves are moderate. Still check the flags on the beach.',
+      goodEyebrow: 'Favourable conditions', goodTitle: 'Wind and waves look favourable.', goodDescription: 'Wind and waves are moderate. Still check the flags on the beach.',
       waveReason: '{value} m strong waves', gustReason: '{value} mph gusts', offshoreReason: 'offshore wind',
       updatedAt: 'Updated at {time}', updating: 'Updating…', liveData: 'Live model data', partialData: 'Partial model data', unavailableData: 'Live data unavailable', sampleData: 'Sample data', wave: 'Wave', wind: 'Wind', gusts: 'Wind gusts',
     },
@@ -47,7 +49,7 @@ const translations = {
     tide: {
       eyebrow: 'Tides', title: 'Next turning points', high: 'High tide', low: 'Low tide', towardHigh: 'Rising tide', towardLow: 'Falling tide', nearTurn: 'Near turning point',
       rising: 'Sea level is rising', falling: 'Sea level is falling', slack: 'Sea level is changing very little', unavailable: 'Tide data unavailable', currentLevel: 'Current model level', modelLevel: 'Technical model level', eventsAria: 'Next high and low tides', today: 'Today', tomorrow: 'Tomorrow', nextTurnSummary: '{event} in {duration}', durationHoursMinutes: '{hours} hr {minutes} min', durationHours: '{hours} hr', durationMinutes: '{minutes} min',
-      note: '8 km model estimate; it may be inaccurate near shore and must not be used for navigation.', moreTimes: 'More tide times',
+      note: 'Open-Meteo · Turning times estimated from hourly sea levels on an 8 km model grid. Coastal accuracy is limited; not for navigation.', moreTimes: 'More tide times',
     },
     webcam: {
       south: 'South camera', north: 'North camera', eyebrow: 'Live beach view', title: '{location} camera', verified: 'Verified source', selector: 'Select camera', load: 'Load live view',
@@ -91,9 +93,9 @@ const translations = {
     },
     safety: {
       unknownEyebrow: 'Données indisponibles', unknownTitle: 'Vérifiez les conditions sur place.', unknownDescription: 'Le modèle marin ne fournit pas de données fiables pour ce lieu et cette heure ; aucune évaluation de baignade n’est affichée.',
-      dangerEyebrow: 'Déconseillé', dangerTitle: 'Restez sur la plage.', dangerDescription: 'En raison de {reasons}, la nage en eau libre est réservée aux experts.',
+      dangerEyebrow: 'Déconseillé', dangerTitle: 'Restez sur la plage.', dangerDescription: 'En raison de {reasons}, la baignade est déconseillée. Respectez les avertissements locaux.',
       cautionEyebrow: 'Prudence renforcée', cautionTitle: 'Nageurs expérimentés uniquement.', cautionDescription: 'À cause de {reasons}, les conditions peuvent fatiguer rapidement. Ne nagez pas seul.',
-      goodEyebrow: 'Conditions favorables', goodTitle: 'Le moment peut être propice à la baignade.', goodDescription: 'Le vent et les vagues sont modérés. Vérifiez tout de même les drapeaux sur la plage.',
+      goodEyebrow: 'Conditions favorables', goodTitle: 'Vent et vagues favorables.', goodDescription: 'Le vent et les vagues sont modérés. Vérifiez tout de même les drapeaux sur la plage.',
       waveReason: 'fortes vagues de {value} m', gustReason: 'rafales de {value} mph', offshoreReason: 'vent de terre',
       updatedAt: 'Mis à jour à {time}', updating: 'Actualisation…', liveData: 'Données de modèle en direct', partialData: 'Données de modèle partielles', unavailableData: 'Données en direct indisponibles', sampleData: 'Données d’exemple', wave: 'Vague', wind: 'Vent', gusts: 'Rafales de vent',
     },
@@ -159,9 +161,9 @@ const translations = {
     },
     safety: {
       unknownEyebrow: 'Dati non disponibili', unknownTitle: 'Controlla le condizioni sul posto.', unknownDescription: 'Il modello marino non dispone di dati affidabili per questa località e questo orario, quindi non viene mostrata una valutazione.',
-      dangerEyebrow: 'Non consigliato', dangerTitle: 'Resta a riva.', dangerDescription: 'A causa di {reasons}, il nuoto in acque libere è adatto solo agli esperti.',
+      dangerEyebrow: 'Non consigliato', dangerTitle: 'Resta a riva.', dangerDescription: 'A causa di {reasons}, il nuoto è sconsigliato. Segui gli avvisi locali.',
       cautionEyebrow: 'Massima prudenza', cautionTitle: 'Solo nuotatori esperti.', cautionDescription: 'A causa di {reasons}, le condizioni possono stancare rapidamente. Non nuotare da solo.',
-      goodEyebrow: 'Condizioni favorevoli', goodTitle: 'Potrebbe essere un buon momento per nuotare.', goodDescription: 'Vento e onde sono moderati. Controlla comunque le bandiere sulla spiaggia.',
+      goodEyebrow: 'Condizioni favorevoli', goodTitle: 'Vento e onde favorevoli.', goodDescription: 'Vento e onde sono moderati. Controlla comunque le bandiere sulla spiaggia.',
       waveReason: 'onde forti di {value} m', gustReason: 'raffiche di {value} mph', offshoreReason: 'vento da terra',
       updatedAt: 'Aggiornato alle {time}', updating: 'Aggiornamento…', liveData: 'Dati modello in tempo reale', partialData: 'Dati modello parziali', unavailableData: 'Dati in tempo reale non disponibili', sampleData: 'Dati di esempio', wave: 'Onda', wind: 'Vento', gusts: 'Raffiche di vento',
     },
@@ -227,9 +229,9 @@ const translations = {
     },
     safety: {
       unknownEyebrow: 'Datos no disponibles', unknownTitle: 'Comprueba las condiciones en el lugar.', unknownDescription: 'El modelo marino no ofrece datos fiables para este lugar y esta hora, por lo que no se muestra una valoración.',
-      dangerEyebrow: 'No recomendado', dangerTitle: 'Quédate en la orilla.', dangerDescription: 'Debido a {reasons}, la natación en aguas abiertas solo es apta para expertos.',
+      dangerEyebrow: 'No recomendado', dangerTitle: 'Quédate en la orilla.', dangerDescription: 'Debido a {reasons}, no se recomienda nadar. Sigue los avisos locales.',
       cautionEyebrow: 'Extrema la precaución', cautionTitle: 'Solo para nadadores experimentados.', cautionDescription: 'Debido a {reasons}, las condiciones pueden cansar rápidamente. No nades solo.',
-      goodEyebrow: 'Condiciones favorables', goodTitle: 'Puede ser un buen momento para nadar.', goodDescription: 'El viento y las olas son moderados. Aun así, comprueba las banderas de la playa.',
+      goodEyebrow: 'Condiciones favorables', goodTitle: 'Viento y olas favorables.', goodDescription: 'El viento y las olas son moderados. Aun así, comprueba las banderas de la playa.',
       waveReason: 'oleaje fuerte de {value} m', gustReason: 'rachas de {value} mph', offshoreReason: 'viento de tierra',
       updatedAt: 'Actualizado a las {time}', updating: 'Actualizando…', liveData: 'Datos del modelo en directo', partialData: 'Datos parciales del modelo', unavailableData: 'Datos en directo no disponibles', sampleData: 'Datos de ejemplo', wave: 'Ola', wind: 'Viento', gusts: 'Rachas de viento',
     },
@@ -295,9 +297,9 @@ const translations = {
     },
     safety: {
       unknownEyebrow: 'Nincs megbízható adat', unknownTitle: 'Ellenőrizd a körülményeket a helyszínen.', unknownDescription: 'Ehhez a helyhez és időponthoz nincs megbízható tengeri modelladat, ezért nem jelenítünk meg úszási minősítést.',
-      dangerEyebrow: 'Nem ajánlott', dangerTitle: 'Inkább maradj a parton.', dangerDescription: 'A(z) {reasons} miatt a nyíltvízi úszás csak szakértőknek való.',
+      dangerEyebrow: 'Nem ajánlott', dangerTitle: 'Inkább maradj a parton.', dangerDescription: 'A(z) {reasons} miatt az úszás nem ajánlott. Kövesd a helyszíni figyelmeztetéseket.',
       cautionEyebrow: 'Fokozott óvatosság', cautionTitle: 'Csak tapasztalt úszóknak.', cautionDescription: 'Légy óvatos a következő miatt: {reasons}. A körülmények gyorsan fárasztóvá válhatnak. Ne menj egyedül.',
-      goodEyebrow: 'Kedvező körülmények', goodTitle: 'Jó lehet úszni.', goodDescription: 'A szél és a hullámzás mérsékelt. Ettől függetlenül ellenőrizd a parti zászlókat.',
+      goodEyebrow: 'Kedvező körülmények', goodTitle: 'Kedvező szél és hullámzás.', goodDescription: 'A szél és a hullámzás mérsékelt. Ettől függetlenül ellenőrizd a parti zászlókat.',
       waveReason: '{value} m-es erős hullámzás', gustReason: '{value} mph széllökések', offshoreReason: 'parttól kifelé fújó szél',
       updatedAt: '{time}-kor frissítve', updating: 'Frissítés…', liveData: 'Élő modelladat', partialData: 'Részleges modelladat', unavailableData: 'Az élő adat nem érhető el', sampleData: 'Mintaadat', wave: 'Hullám', wind: 'Szél', gusts: 'Széllökések',
     },
@@ -319,7 +321,7 @@ const translations = {
     tide: {
       eyebrow: 'Árapály', title: 'Következő fordulók', high: 'Dagály', low: 'Apály', towardHigh: 'Dagály felé', towardLow: 'Apály felé', nearTurn: 'Forduló közelében',
       rising: 'A vízszint emelkedik', falling: 'A vízszint csökken', slack: 'A vízszint alig változik', unavailable: 'Nincs árapályadat', currentLevel: 'Jelenlegi modellszint', modelLevel: 'Technikai modellszint', eventsAria: 'Következő apályok és dagályok', today: 'Ma', tomorrow: 'Holnap', nextTurnSummary: '{event} {duration} múlva', durationHoursMinutes: '{hours} óra {minutes} perc', durationHours: '{hours} óra', durationMinutes: '{minutes} perc',
-      note: '8 km-es modellbecslés; part mentén pontatlan lehet, navigációra nem használható.', moreTimes: 'További árapály-időpontok',
+      note: 'Open-Meteo · Órás vízszintadatokból becsült fordulópontok, 8 km-es modellrácson. Part mentén korlátozott pontosságú; navigációra nem használható.', moreTimes: 'További árapály-időpontok',
     },
     webcam: {
       south: 'Déli kamera', north: 'Északi kamera', eyebrow: 'Élő partkép', title: '{location} kamerája', verified: 'Ellenőrzött forrás', selector: 'Kamera kiválasztása', load: 'Élő kép betöltése',
@@ -350,6 +352,39 @@ const translations = {
     },
   },
 }
+
+for (const language of LANGUAGES) translations[language.code].outlook = outlookMessages[language.code]
+
+const tideInteractions = {
+  en: { selected: 'Selected forecast', hint: 'Select or drag along the curve, or choose a tide card. Use arrow keys when the chart is focused.', choose: 'Explore tide forecast', reset: 'Back to start', current: 'Current estimated level' },
+  hu: { selected: 'Kiválasztott előrejelzés', hint: 'Kattints vagy húzd az ujjad a görbén, vagy válassz időpontkártyát. A kijelölt grafikon nyílbillentyűkkel is léptethető.', choose: 'Árapály-előrejelzés böngészése', reset: 'Vissza az elejére', current: 'Becsült vízszint most' },
+  fr: { selected: 'Prévision sélectionnée', hint: 'Sélectionnez ou faites glisser sur la courbe, ou choisissez une carte. Utilisez les flèches lorsque le graphique est sélectionné.', choose: 'Explorer les prévisions de marée', reset: 'Retour au début', current: 'Niveau actuel estimé' },
+  it: { selected: 'Previsione selezionata', hint: 'Seleziona o trascina sulla curva, oppure scegli una scheda. Usa i tasti freccia quando il grafico è selezionato.', choose: 'Esplora le previsioni di marea', reset: 'Torna all’inizio', current: 'Livello attuale stimato' },
+  es: { selected: 'Pronóstico seleccionado', hint: 'Selecciona o arrastra sobre la curva, o elige una tarjeta. Usa las flechas cuando el gráfico tenga el foco.', choose: 'Explorar el pronóstico de mareas', reset: 'Volver al inicio', current: 'Nivel actual estimado' },
+}
+for (const language of LANGUAGES) translations[language.code].tide.interactive = tideInteractions[language.code]
+
+const timelineMessages = {
+  hu: { eyebrow: 'Körülmények óráról órára', title: 'Nézd meg, hogyan változik', metric: 'Diagram adatainak kiválasztása', temperature: 'Hőmérséklet', water: 'Víz', air: 'Levegő', wind: 'Szél', gusts: 'Széllökések', tide: 'Árapály', hint: 'Húzd végig az ujjad vagy kattints a görbén: a fenti összefoglaló is a kiválasztott időpontot mutatja. Nyílbillentyűkkel is léptethető.', choose: 'Körülmények időpontjának kiválasztása', night: 'Árnyékolt sáv: éjszaka', model: 'Modell-előrejelzés · helyi idő' },
+  en: { eyebrow: 'Conditions by the hour', title: 'See how conditions change', metric: 'Choose chart data', temperature: 'Temperature', water: 'Water', air: 'Air', wind: 'Wind', gusts: 'Gusts', tide: 'Tide', hint: 'Drag or select the curve to update the summary above. You can also use the arrow keys.', choose: 'Choose a conditions forecast time', night: 'Shaded area: night', model: 'Model forecast · local time' },
+  fr: { eyebrow: 'Conditions heure par heure', title: 'Suivez l’évolution des conditions', metric: 'Choisir les données du graphique', temperature: 'Température', water: 'Eau', air: 'Air', wind: 'Vent', gusts: 'Rafales', tide: 'Marée', hint: 'Faites glisser ou sélectionnez la courbe pour actualiser le résumé. Les touches fléchées fonctionnent aussi.', choose: 'Choisir un horaire de prévision', night: 'Zone ombrée : nuit', model: 'Prévision du modèle · heure locale' },
+  it: { eyebrow: 'Condizioni ora per ora', title: 'Scopri come cambiano le condizioni', metric: 'Scegli i dati del grafico', temperature: 'Temperatura', water: 'Acqua', air: 'Aria', wind: 'Vento', gusts: 'Raffiche', tide: 'Marea', hint: 'Trascina o seleziona la curva per aggiornare il riepilogo. Puoi usare anche i tasti freccia.', choose: 'Scegli un orario di previsione', night: 'Area ombreggiata: notte', model: 'Previsione del modello · ora locale' },
+  es: { eyebrow: 'Condiciones hora a hora', title: 'Mira cómo cambian las condiciones', metric: 'Elegir datos del gráfico', temperature: 'Temperatura', water: 'Agua', air: 'Aire', wind: 'Viento', gusts: 'Rachas', tide: 'Marea', hint: 'Arrastra o selecciona la curva para actualizar el resumen. También puedes usar las teclas de flecha.', choose: 'Elegir una hora del pronóstico', night: 'Área sombreada: noche', model: 'Pronóstico del modelo · hora local' },
+}
+for (const language of LANGUAGES) translations[language.code].timeline = timelineMessages[language.code]
+
+const sceneMessages = {
+  hu: { nightLabel: "Éjszakai úszás", nightTitle: "Sötétben fokozott óvatosság szükséges.", nightText: "Sötétben nehezebb tájékozódni és észrevenni a bajba jutott úszót. Válassz inkább nappali időpontot.", scales: 'Jelmagyarázat és skálák', previousHour: 'Előző időpont', nextHour: 'Következő időpont', unifiedHint: 'Húzd a jelölőt a tájon, vagy válassz órát alul. Az idősáv oldalra görgethető; a fenti összefoglaló követi a választást.', separateScales: 'Külön skálák · becsült vízszint' },
+  en: { nightLabel: "Night swimming", nightTitle: "Take extra care after dark.", nightText: "In darkness it is harder to navigate and spot a swimmer in difficulty. Choose a daylight swim instead.", scales: 'Legend and scales', previousHour: 'Previous time', nextHour: 'Next time', unifiedHint: 'Drag across the scene or choose an hour below. Scroll the timeline sideways; the summary above follows your selection.', separateScales: 'Separate scales · estimated sea level' },
+  fr: { nightLabel: "Baignade nocturne", nightTitle: "Prudence renforcée après la tombée de la nuit.", nightText: "Dans le noir, il est plus difficile de se repérer et de voir un nageur en difficulté. Privilégiez une baignade de jour.", scales: 'Légende et échelles', previousHour: 'Horaire précédent', nextHour: 'Horaire suivant', unifiedHint: 'Faites glisser sur le paysage ou choisissez une heure. La frise défile horizontalement et le résumé suit votre sélection.', separateScales: 'Échelles distinctes · niveau marin estimé' },
+  it: { nightLabel: "Nuoto notturno", nightTitle: "Serve maggiore cautela dopo il tramonto.", nightText: "Al buio è più difficile orientarsi e vedere un nuotatore in difficoltà. Preferisci un orario diurno.", scales: 'Legenda e scale', previousHour: 'Orario precedente', nextHour: 'Orario successivo', unifiedHint: 'Trascina sul paesaggio o scegli un’ora. Scorri la sequenza lateralmente; il riepilogo segue la selezione.', separateScales: 'Scale separate · livello marino stimato' },
+  es: { nightLabel: "Natación nocturna", nightTitle: "Extrema la precaución al anochecer.", nightText: "En la oscuridad es más difícil orientarse y ver a un nadador en apuros. Elige un horario diurno.", scales: 'Leyenda y escalas', previousHour: 'Hora anterior', nextHour: 'Hora siguiente', unifiedHint: 'Arrastra sobre el paisaje o elige una hora. Desplaza la línea temporal lateralmente; el resumen sigue tu selección.', separateScales: 'Escalas separadas · nivel del mar estimado' },
+}
+for (const language of LANGUAGES) Object.assign(translations[language.code].timeline, sceneMessages[language.code])
+
+
+const conditionMessages = {"hu": {"light": "Gyenge", "moderate": "Mérsékelt", "strong": "Erős", "offshore": "Parttól kifelé", "onshore": "Part felé", "alongshore": "Part mentén", "unknownDirection": "Irány nem ismert", "mildGusts": "Enyhe lökések", "livelyGusts": "Élénk lökések", "strongGusts": "Erős lökések", "rising": "Emelkedik", "falling": "Csökken", "steady": "Alig változik", "unknown": "Nem ismert", "high": "Dagály", "low": "Apály", "details": "Részletek és jelmagyarázat"}, "en": {"light": "Light", "moderate": "Moderate", "strong": "Strong", "offshore": "Blowing offshore", "onshore": "Blowing onshore", "alongshore": "Along the shore", "unknownDirection": "Direction unknown", "mildGusts": "Mild gusts", "livelyGusts": "Lively gusts", "strongGusts": "Strong gusts", "rising": "Rising", "falling": "Falling", "steady": "Little change", "unknown": "Unknown", "high": "High tide", "low": "Low tide", "details": "Details and legend"}, "fr": {"light": "Faible", "moderate": "Modéré", "strong": "Fort", "offshore": "Vers le large", "onshore": "Vers la côte", "alongshore": "Le long de la côte", "unknownDirection": "Direction inconnue", "mildGusts": "Faibles rafales", "livelyGusts": "Rafales soutenues", "strongGusts": "Fortes rafales", "rising": "Montante", "falling": "Descendante", "steady": "Peu de changement", "unknown": "Inconnu", "high": "Marée haute", "low": "Marée basse", "details": "Détails et légende"}, "it": {"light": "Debole", "moderate": "Moderato", "strong": "Forte", "offshore": "Verso il largo", "onshore": "Verso la costa", "alongshore": "Lungo la costa", "unknownDirection": "Direzione sconosciuta", "mildGusts": "Raffiche lievi", "livelyGusts": "Raffiche sostenute", "strongGusts": "Raffiche forti", "rising": "Sale", "falling": "Scende", "steady": "Poco variabile", "unknown": "Sconosciuto", "high": "Alta marea", "low": "Bassa marea", "details": "Dettagli e legenda"}, "es": {"light": "Suave", "moderate": "Moderado", "strong": "Fuerte", "offshore": "Hacia mar abierto", "onshore": "Hacia la costa", "alongshore": "Paralelo a la costa", "unknownDirection": "Dirección desconocida", "mildGusts": "Rachas suaves", "livelyGusts": "Rachas intensas", "strongGusts": "Rachas fuertes", "rising": "Sube", "falling": "Baja", "steady": "Poco cambio", "unknown": "Desconocido", "high": "Pleamar", "low": "Bajamar", "details": "Detalles y leyenda"}}
+for (const language of LANGUAGES) Object.assign(translations[language.code].conditions, conditionMessages[language.code])
 
 const compassPoints = {
   en: ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'],

@@ -1,4 +1,5 @@
 import { AlertTriangle, Check, CircleHelp, ShieldAlert } from 'lucide-react'
+import { getWaterQualityForLocation } from './waterQuality.js'
 import { isOffshoreWind } from './coastalLocations.js'
 
 export function formatNumber(value, locale, fractionDigits = 1) {
@@ -23,16 +24,11 @@ export function getSafetyReadings(conditions, location) {
   }
 }
 
-export function getSafety(conditions, location, t, locale) {
+export function getSafety(conditions, location, t, locale, { source, quality = getWaterQualityForLocation(location) } = {}) {
+  const special = (level, key) => ({ level, eyebrow: t(`outlook.${key}Label`), title: t(`outlook.${key}Title`), description: t(`outlook.${key}Text`), reason: t(`outlook.${key}Text`), icon: level === 'unknown' ? CircleHelp : AlertTriangle })
+  if (source === 'stale') return special('unknown', 'stale')
+  const waterConcern = quality?.site.classification === 'Poor' || (quality?.site.riskLevel && quality.site.riskLevel.toLowerCase() !== 'normal')
   const { waveHeight, gusts, windSpeed, offshore } = getSafetyReadings(conditions, location)
-  if (!Number.isFinite(waveHeight) || !Number.isFinite(gusts)) {
-    return {
-      level: 'unknown', eyebrow: t('safety.unknownEyebrow'), title: t('safety.unknownTitle'),
-      description: t('safety.unknownDescription'),
-      reason: t('decision.reasons.unknown'),
-      icon: CircleHelp,
-    }
-  }
   const formatReasons = (reasons) => new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' }).format(reasons)
   const dangerReasons = []
   if (waveHeight >= 1) dangerReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
@@ -49,6 +45,15 @@ export function getSafety(conditions, location, t, locale) {
     }
   }
 
+  if (waterConcern) return special('caution', 'water')
+  if (!Number.isFinite(waveHeight) || !Number.isFinite(gusts)) {
+    return {
+      level: 'unknown', eyebrow: t('safety.unknownEyebrow'), title: t('safety.unknownTitle'),
+      description: t('safety.unknownDescription'),
+      reason: t('decision.reasons.unknown'),
+      icon: CircleHelp,
+    }
+  }
   const cautionReasons = []
   if (waveHeight >= 0.6) cautionReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
   if (gusts >= 20) cautionReasons.push(t('safety.gustReason', { value: gusts }))
@@ -63,6 +68,9 @@ export function getSafety(conditions, location, t, locale) {
       icon: AlertTriangle,
     }
   }
+
+  if (offshore === null || !Number.isFinite(windSpeed)) return special('unknown', 'wind')
+
 
   return {
     level: 'good', eyebrow: t('safety.goodEyebrow'), title: t('safety.goodTitle'),

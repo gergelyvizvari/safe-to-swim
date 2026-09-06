@@ -1,23 +1,19 @@
 import { AlertTriangle, ArrowUpRight, ChevronDown, CloudRain, Database, Droplets, MapPin } from 'lucide-react'
 import { CATALOG_UPDATED_ON } from './bathingWaters.generated.js'
-import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
+import { classificationTone, getWaterQualityForLocation, getOfficialWaterUrl } from './waterQuality.js'
 
 const SOURCE_META = {
   ea: {
     provider: 'Environment Agency',
-    sourceUrl: (site) => `https://environment.data.gov.uk/bwq/profiles/?_search=${encodeURIComponent(site.name)}`,
   },
   nrw: {
     provider: 'Natural Resources Wales',
-    sourceUrl: (site) => `https://environment.data.gov.uk/wales/bathing-waters/profiles/?_search=${encodeURIComponent(site.name)}`,
   },
   sepa: {
     provider: 'SEPA',
-    sourceUrl: (site) => `https://bathingwaters.sepa.org.uk/locations-and-results/results/?location=${site.id.replace('sepa-', '')}`,
   },
   daera: {
     provider: 'DAERA',
-    sourceUrl: () => 'https://www.daera-ni.gov.uk/articles/about-bathing-water-quality',
   },
 }
 
@@ -30,24 +26,18 @@ export default function WaterQualityPanel({ location, locale, t }) {
   const tone = classificationTone(site.classification)
   const formattedDistance = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(distance)
   const snapshotDate = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${CATALOG_UPDATED_ON}T12:00:00Z`))
-  const summaryKey = site.riskLevel?.toLowerCase() === 'normal'
-    ? 'summaryNormal'
-    : site.riskLevel
-      ? 'summaryElevated'
-      : 'summaryAnnual'
 
   return (
     <section className={`panel water-quality-panel ${tone}`} aria-labelledby="water-quality-title">
       <details className="quality-disclosure">
         <summary>
-          <span className="quality-summary-icon"><Droplets size={21} /></span>
           <div>
             <span className="eyebrow">{t('waterQuality.eyebrow')}</span>
-            <h2 id="water-quality-title">{t('waterQuality.title')}</h2>
+            <h2 id="water-quality-title">{t('waterQuality.title')}<Droplets size={21} aria-hidden="true" /></h2>
           </div>
           <div className="quality-summary-result">
             <strong>{t(`waterQuality.classes.${tone}`)}</strong>
-            <span>{t(`waterQuality.${summaryKey}`)}</span>
+            <span>{t('outlook.snapshot', { date: snapshotDate })}</span>
           </div>
           <span className="official-data"><Database size={14} />{t('waterQuality.official')}</span>
           <ChevronDown className="quality-chevron" size={20} aria-hidden="true" />
@@ -69,7 +59,7 @@ export default function WaterQualityPanel({ location, locale, t }) {
               {site.riskLevel ? (
                 <div className={`quality-notice risk-${site.riskLevel.toLowerCase()}`}>
                   <AlertTriangle size={17} />
-                  <span><strong>{t('waterQuality.shortTerm')}</strong>{site.riskLevel.toLowerCase() === 'normal' ? t('waterQuality.riskNormal') : t('waterQuality.riskElevated')}</span>
+                  <span><strong>{t('waterQuality.shortTerm')}</strong>{site.riskLevel.toLowerCase() === 'normal' ? t('outlook.normal') : t('outlook.elevated')}</span>
                 </div>
               ) : (
                 <div className="quality-notice neutral"><Database size={17} /><span><strong>{t('waterQuality.shortTerm')}</strong>{t('waterQuality.noPrediction')}</span></div>
@@ -79,7 +69,7 @@ export default function WaterQualityPanel({ location, locale, t }) {
           </div>
           <div className="water-quality-footer">
             <p>{t('waterQuality.note')}</p>
-            <a href={source.sourceUrl(site)} target="_blank" rel="noreferrer">{t('waterQuality.openSource')} <ArrowUpRight size={14} /></a>
+            <a href={getOfficialWaterUrl(site)} target="_blank" rel="noreferrer">{t('waterQuality.openSource')} <ArrowUpRight size={14} /></a>
           </div>
         </div>
       </details>

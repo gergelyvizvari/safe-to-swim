@@ -1,5 +1,6 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
 import {
+  AlertTriangle,
   ArrowDown,
   ArrowUpRight,
   ArrowUp,
@@ -31,6 +32,9 @@ import { usePWAInstall } from './usePWAInstall.js'
 import { getWebcamForLocation } from './webcamSources.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
 import { compareConditions, formatNumber, formatWholeNumber, getSafety, getSafetyReadings } from './safety.js'
+import TideCurve from './TideCurve.jsx'
+import SwimAssessment from './SwimAssessment.jsx'
+import { findCalmestWindow } from './swimOutlook.js'
 
 const WaterQualityPanel = lazy(() => import('./WaterQualityPanel.jsx'))
 const UKCoastExplorer = lazy(() => import('./UKCoastExplorer.jsx').then((module) => ({ default: module.UKCoastExplorer })))
@@ -141,11 +145,12 @@ function SafetyHero({ safety, current, source, loading, language, locale, isNow,
         <div className="status-pill"><StatusIcon size={16} />{safety.eyebrow}</div>
         <h1 id="safety-title">{safety.title}</h1>
         <p>{safety.description}</p>
+        {current.isDay === false && <div className="hero-night-warning" role="note"><AlertTriangle size={16} aria-hidden="true" /><span><strong>{t('timeline.nightLabel')}</strong> · {t('timeline.nightTitle')}</span></div>}
         <div className="hero-meta">
           <span>{formatDate(current.time, locale)}</span>
           <span aria-hidden="true">•</span>
-          <span>{isNow ? t('safety.updatedAt', { time: formatTime(current.time, locale) }) : t('decision.selectedAt', { time: formatTime(current.time, locale) })}</span>
-          <span className="live-dot"><i />{loading ? t('safety.updating') : source === 'live' ? t('safety.liveData') : source === 'partial' ? t('safety.partialData') : t('safety.unavailableData')}</span>
+          <span>{isNow ? t('outlook.model', { time: formatTime(current.time, locale) }) : t('decision.selectedAt', { time: formatTime(current.time, locale) })}</span>
+          <span className="live-dot"><i />{loading ? t('safety.updating') : source === 'stale' ? t('outlook.staleLabel') : source === 'live' ? t('safety.liveData') : source === 'partial' ? t('safety.partialData') : t('safety.unavailableData')}</span>
         </div>
       </div>
       <div className="wave-visual" aria-hidden="true">
@@ -253,7 +258,7 @@ function londonHour(dateString) {
   }).format(new Date(dateString)))
 }
 
-function buildForecastDays(current, forecast) {
+function buildForecastDays(current, forecast, recommendedTime, selectedTime) {
   const currentTime = new Date(current.time).getTime()
   const uniqueHours = new Map()
   ;[current, ...forecast]
@@ -268,13 +273,17 @@ function buildForecastDays(current, forecast) {
     grouped.set(key, day)
   })
 
-  return [...grouped.entries()].slice(0, 3).map(([key, dayHours], dayIndex) => {
-    if (dayIndex === 0) return { key, hours: dayHours.slice(0, 8) }
+  return [...grouped.entries()].map(([key, dayHours], dayIndex) => {
     const daytimeHours = dayHours.filter((hour) => {
       const hourOfDay = londonHour(hour.time)
       return hourOfDay >= 6 && hourOfDay <= 20 && hourOfDay % 2 === 0
     })
-    return { key, hours: (daytimeHours.length ? daytimeHours : dayHours.filter((_, index) => index % 2 === 0)).slice(0, 8) }
+    const visible = dayIndex === 0 ? dayHours.slice(0, 8) : (daytimeHours.length ? daytimeHours : dayHours.filter((_, index) => index % 2 === 0)).slice(0, 8)
+    for (const time of [recommendedTime, selectedTime]) {
+      const extra = dayHours.find((hour) => hour.time === time)
+      if (extra && !visible.includes(extra)) visible.push(extra)
+    }
+    return { key, hours: visible.sort((a, b) => Date.parse(a.time) - Date.parse(b.time)) }
   })
 }
 
@@ -287,15 +296,22 @@ function forecastDayLabel(day, dayIndex, locale, t) {
 }
 
 function SwimDecision({ current, forecast, location, source, loading, language, locale, quality, onSelectedChange, t }) {
-  const forecastDays = buildForecastDays(current, forecast)
-  const [selectedDayIndex, setSelectedDayIndex] = useState(0)
-  const [selectedIndex, setSelectedIndex] = useState(0)
+  const [now, setNow] = useState(() => Date.now())
+  useEffect(() => {
+    const timer = window.setInterval(() => setNow(Date.now()), 60000)
+    return () => window.clearInterval(timer)
+  }, [])
+  const bestWindow = findCalmestWindow(forecast, location, { now, source, quality })
+  const [selectedTime, setSelectedTime] = useState(current.time)
+  const forecastDays = buildForecastDays(current, forecast, bestWindow?.start.time, selectedTime)
+  const selectedDayIndex = Math.max(0, forecastDays.findIndex((day) => day.key === londonDateKey(selectedTime)))
   const selectedDay = forecastDays[selectedDayIndex] ?? forecastDays[0]
   const hours = selectedDay.hours
+  const selectedIndex = Math.max(0, hours.findIndex((hour) => hour.time === selectedTime))
   const selected = hours[selectedIndex]
   const isNow = selected.time === current.time
-  const safety = getSafety(selected, location, t, locale)
-  const currentSafety = getSafety(current, location, t, locale)
+  const safety = getSafety(selected, location, t, locale, { source, quality })
+  const currentSafety = getSafety(current, location, t, locale, { source, quality })
   const selectedOffshore = getSafetyReadings(selected, location).offshore
   const windStatus = selectedOffshore === null ? 'unknown' : selectedOffshore ? 'offshore' : 'safe'
   const SelectedIcon = safety.icon
@@ -317,6 +333,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
   return (
     <>
       <SafetyHero safety={safety} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={isNow} quality={quality} t={t} />
+      <SwimAssessment current={selected} location={location} quality={quality} source={source} locale={locale} t={t} />
       <section className="panel decision-panel" aria-labelledby="decision-title">
         <div className="section-heading decision-heading">
           <div>
@@ -325,6 +342,19 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
           </div>
           <span className="decision-hint">{t('decision.hint')}</span>
         </div>
+        <div className="outlook-window" aria-live="polite">
+          <div>
+            <span className="eyebrow">{t('outlook.title')}</span>
+            {loading ? <p>{t('outlook.loading')}</p> : bestWindow ? <>
+              <h3>{formatDate(bestWindow.start.time, locale)} · {formatTime(bestWindow.start.time, locale)}–{formatTime(bestWindow.end.time, locale)}</h3>
+              <p>{t('outlook.reason', { wave: formatNumber(bestWindow.wave, locale), gusts: Math.ceil(bestWindow.gusts) })}</p>
+            </> : <p>{t(source === 'stale' ? 'outlook.staleText' : 'outlook.empty')}</p>}
+            <small>{t('outlook.scope')}</small>
+          </div>
+          {!loading && bestWindow && <button type="button" onClick={() => {
+            setSelectedTime(bestWindow.start.time)
+          }}>{t('outlook.view')} <ArrowUpRight size={16} /></button>}
+        </div>
         <div className="decision-days" role="group" aria-label={t('decision.daysAria')}>
           {forecastDays.map((day, dayIndex) => (
             <button
@@ -332,8 +362,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
               type="button"
               aria-pressed={selectedDayIndex === dayIndex}
               onClick={() => {
-                setSelectedDayIndex(dayIndex)
-                setSelectedIndex(0)
+                setSelectedTime(day.hours[0].time)
               }}
               key={day.key}
             >
@@ -343,13 +372,13 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
         </div>
         <div className="decision-times" role="group" aria-label={t('decision.aria')}>
           {hours.map((hour, index) => {
-            const hourSafety = getSafety(hour, location, t, locale)
+            const hourSafety = getSafety(hour, location, t, locale, { source, quality })
             return (
               <button
                 className={`decision-time ${hourSafety.level} ${selectedIndex === index ? 'is-selected' : ''}`}
                 type="button"
                 aria-pressed={selectedIndex === index}
-                onClick={() => setSelectedIndex(index)}
+                onClick={() => setSelectedTime(hour.time)}
                 key={`${hour.time}-${index}`}
               >
                 <span>{hour.time === current.time ? t('forecast.now') : formatTime(hour.time, locale)}</span>
@@ -402,50 +431,8 @@ function DetailedConditions({ data, selected, location, language, locale, t, saf
   )
 }
 
-function TideCurve({ tides, t }) {
-  if (!tides.series?.length) return null
-  const width = 560
-  const height = 138
-  const paddingX = 18
-  const paddingY = 19
-  const levels = tides.series.map((point) => point.height)
-  const minimum = Math.min(...levels)
-  const maximum = Math.max(...levels)
-  const range = Math.max(maximum - minimum, 0.1)
-  const startTime = new Date(tides.series[0].time).getTime()
-  const endTime = new Date(tides.series.at(-1).time).getTime()
-  const xForTime = (time) => paddingX + ((new Date(time).getTime() - startTime) / Math.max(endTime - startTime, 1)) * (width - paddingX * 2)
-  const yForHeight = (level) => paddingY + ((maximum - level) / range) * (height - paddingY * 2)
-  const points = tides.series.map((point) => [xForTime(point.time), yForHeight(point.height)])
-  const linePath = points.map(([x, y], index) => `${index === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ')
-  const areaPath = `${linePath} L${points.at(-1)[0]} ${height} L${points[0][0]} ${height} Z`
-
-  return (
-    <div className="tide-curve" aria-hidden="true">
-      <span className="tide-scale high">{t('tide.high')}</span>
-      <span className="tide-scale low">{t('tide.low')}</span>
-      <svg viewBox={`0 0 ${width} ${height}`}>
-        <defs>
-          <linearGradient id="tide-area" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="#4aa6c8" stopOpacity=".3" />
-            <stop offset="1" stopColor="#4aa6c8" stopOpacity=".02" />
-          </linearGradient>
-        </defs>
-        <path className="tide-area" d={areaPath} />
-        <path className="tide-path" d={linePath} />
-        {tides.events.map((event) => {
-          const x = xForTime(event.time)
-          const y = yForHeight(event.height)
-          if (x < paddingX || x > width - paddingX) return null
-          return <g key={`${event.type}-${event.time}`}><line className="tide-guide" x1={x} x2={x} y1={y} y2={height} /><circle className={`tide-dot ${event.type}`} cx={x} cy={y} r="5" /></g>
-        })}
-        <circle className="tide-now-dot" cx={points[0][0]} cy={points[0][1]} r="6" />
-      </svg>
-    </div>
-  )
-}
-
 function TidePanel({ tides, current, locale, t }) {
+  const [selectedTime, setSelectedTime] = useState(null)
   const [now, setNow] = useState(() => Date.now())
 
   useEffect(() => {
@@ -469,14 +456,16 @@ function TidePanel({ tides, current, locale, t }) {
     const isHigh = event.type === 'high'
     const EventIcon = isHigh ? ArrowUp : ArrowDown
     return (
-      <article className={`tide-event ${event.type}`} key={`${event.type}-${event.time}`}>
+      <button type="button" className={`tide-event ${event.type}`} key={`${event.type}-${event.time}`}
+        aria-pressed={selectedTime === event.time} onClick={() => setSelectedTime(event.time)}
+        disabled={!tides.series.some((point) => point.time === event.time)}>
         <span className={`tide-event-icon ${event.type}`}><EventIcon size={14} /></span>
         <div>
           <span>{tideDayLabel(event.time, now, locale, t)} · {isHigh ? t('tide.high') : t('tide.low')}</span>
-          <strong>{formatTime(event.time, locale)}</strong>
+          <strong>≈ {formatTime(event.time, locale)}</strong>
         </div>
         <small>{formatNumber(event.height, locale, 2)} m</small>
-      </article>
+      </button>
     )
   }
 
@@ -487,25 +476,28 @@ function TidePanel({ tides, current, locale, t }) {
         <span className={`tide-trend ${tides.trend}`}><TrendIcon size={15} />{trend.label}</span>
       </div>
       {nextEvent && (
-        <div className={`tide-next-turn ${nextEvent.type}`}>
+        <button type="button" className={`tide-next-turn ${nextEvent.type}`}
+          aria-pressed={selectedTime === nextEvent.time}
+          disabled={!tides.series.some((point) => point.time === nextEvent.time)}
+          onClick={() => setSelectedTime(nextEvent.time)}>
           <span className="tide-next-turn-icon"><NextEventIcon size={18} /></span>
           <div>
             <span>{trend.detail}</span>
-            <strong>{t('tide.nextTurnSummary', {
+            <strong>≈ {t('tide.nextTurnSummary', {
               event: t(nextEvent.type === 'high' ? 'tide.high' : 'tide.low'),
               duration: tideCountdown(nextEvent.time, now, t),
             })}</strong>
             <small>{tideDayLabel(nextEvent.time, now, locale, t)} · {formatTime(nextEvent.time, locale)}</small>
           </div>
-        </div>
+        </button>
       )}
       <div className="tide-primary-events" aria-label={t('tide.eventsAria')}>
         {upcomingEvents.slice(0, 2).map(renderEvent)}
       </div>
-      <TideCurve tides={tides} t={t} />
+      <TideCurve tides={tides} selectedTime={selectedTime} onSelect={setSelectedTime} locale={locale} t={t} />
       <div className="tide-current-compact">
         <Droplets size={15} />
-        <span>{t('tide.modelLevel')}</span>
+        <span>{t('tide.interactive.current')} · {formatTime(current.time, locale)}</span>
         <strong>{formatNumber(current.seaLevel, locale, 2)} m MSL</strong>
       </div>
       {upcomingEvents.length > 2 && <details className="tide-more">
@@ -631,11 +623,11 @@ function SafetyChecklist({ current, location, t }) {
   )
 }
 
-function DataNotice({ error, t }) {
-  if (!error) return null
+function DataNotice({ error, source, t }) {
+  if (!error && source !== 'stale') return null
   return (
     <div className="data-notice" role="status">
-      <Info size={16} /> {t('notice.unavailable')}
+      <Info size={16} /> {t(source === 'stale' ? 'outlook.staleText' : source === 'partial' ? 'outlook.partial' : 'notice.unavailable')}
     </div>
   )
 }
@@ -660,7 +652,7 @@ export default function App() {
   const t = useMemo(() => makeTranslator(language), [language])
   const selectionKey = `${location.id}-${data.current.time}`
   const selectedConditions = selectedSnapshot?.key === selectionKey ? selectedSnapshot.conditions : data.current
-  const safety = getSafety(selectedConditions, location, t, locale)
+  const safety = getSafety(selectedConditions, location, t, locale, { source: data.source })
   const waterQuality = getWaterQualityForLocation(location)
   const handleSelectedChange = useCallback((conditions) => {
     setSelectedSnapshot({ key: selectionKey, conditions })
@@ -747,11 +739,11 @@ export default function App() {
       {supportOpen && <SupportPrompt onClose={() => setSupportOpen(false)} t={t} />}
       {installGuideOpen && <InstallGuide isIOS={isIOS} onClose={() => setInstallGuideOpen(false)} t={t} />}
       <main>
-        <DataNotice error={error} t={t} />
+        <DataNotice error={error} source={data.source} t={t} />
         <SwimDecision key={selectionKey} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} onSelectedChange={handleSelectedChange} t={t} />
         <Suspense fallback={null}><WaterQualityPanel location={location} locale={locale} t={t} /></Suspense>
         <div className="live-grid">
-          <TidePanel tides={data.tides} current={data.current} locale={locale} t={t} />
+          <TidePanel key={location.id} tides={data.tides} current={data.current} locale={locale} t={t} />
           <WebcamPanel key={location.id} location={location} locale={locale} t={t} />
         </div>
         <DetailedConditions data={data} selected={selectedConditions} location={location} language={language} locale={locale} t={t} safety={safety} onLocationChange={setLocationId} />

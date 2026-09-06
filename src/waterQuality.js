@@ -29,3 +29,10 @@ export function classificationTone(classification) {
   if (classification === 'Excellent') return 'excellent'
   return 'unclassified'
 }
+
+export function getOfficialWaterUrl(site) {
+  if (site.source === 'ea') return `https://environment.data.gov.uk/bwq/profiles/?_search=${encodeURIComponent(site.name)}`
+  if (site.source === 'nrw') return `https://environment.data.gov.uk/wales/bathing-waters/profiles/?_search=${encodeURIComponent(site.name)}`
+  if (site.source === 'sepa') return `https://bathingwaters.sepa.org.uk/locations-and-results/results/?location=${site.id.replace('sepa-', '')}`
+  return 'https://www.daera-ni.gov.uk/articles/about-bathing-water-quality'
+}
