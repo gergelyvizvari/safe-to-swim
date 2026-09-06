@@ -176,10 +176,9 @@ export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
       scrollWheelZoom: true,
       zoomControl: true,
     })
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 20,
-      subdomains: 'abcd',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map)
     L.control.scale({ imperial: false, position: 'bottomleft' }).addTo(map)
     map.fitBounds(COAST_BOUNDS, { padding: [18, 18] })
