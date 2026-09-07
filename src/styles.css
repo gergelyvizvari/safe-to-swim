@@ -912,3 +912,26 @@ button.tide-next-turn:focus-visible { outline: 3px solid var(--ocean); outline-o
 .hero-night-warning svg { flex-shrink: 0; margin-top: 1px; }
 
 .quality-disclosure h2 > svg { flex-shrink: 0; color: var(--ocean); }
+
+.balaton-panel { padding: 28px; }
+.balaton-panel .section-heading button, .balaton-forecast button { min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); color: var(--ocean); cursor: pointer; font: inherit; }
+.balaton-panel button:focus-visible, .balaton-panel summary:focus-visible, .balaton-panel a:focus-visible { outline: 3px solid var(--ocean); outline-offset: 3px; }
+.balaton-panel button:disabled { opacity: .5; cursor: wait; }
+.balaton-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.balaton-cards article { padding: 16px; border: 1px solid var(--line); border-radius: 14px; min-width: 0; }
+.balaton-panel h3 { margin: 0 0 14px; font-size: 16px; }
+.balaton-panel p { font-size: 12px; line-height: 1.6; }
+.balaton-panel a { display: inline-flex; align-items: center; gap: 4px; color: var(--ocean); font-size: 12px; }
+.balaton-basins, .balaton-stations { display: grid; gap: 10px; margin: 0; font-size: 12px; }
+.balaton-basins > div, .balaton-stations > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+.balaton-stations dd { margin: 0; font-weight: 700; }
+.balaton-alert, .balaton-old { color: #943e22; }
+.balaton-old { display: block; }
+.balaton-wind, .balaton-forecast { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); }
+.balaton-panel summary { cursor: pointer; padding: 10px 0; font-size: 14px; font-weight: 700; }
+.balaton-table, .balaton-frame { overflow-x: auto; }
+.balaton-table table { width: 100%; font-size: 12px; border-collapse: collapse; }
+.balaton-table th, .balaton-table td { padding: 9px; border-bottom: 1px solid var(--line); text-align: left; }
+.balaton-frame iframe { display: block; width: 720px; height: 650px; border: 0; background: white; }
+.balaton-forecast > a { margin: 12px; }
+@media (max-width: 800px) { .balaton-cards { grid-template-columns: 1fr; } .balaton-panel { padding: 20px 16px; } }

@@ -1,3 +1,4 @@
+import { isBalaton, BALATON_SOURCES } from './balaton.js'
 import { COASTAL_LOCATIONS } from './coastalLocations.js'
 
 const OFFICIAL_SITES = COASTAL_LOCATIONS.filter((site) => site.source)
@@ -33,6 +34,7 @@ export function classificationTone(classification) {
 }
 
 export function getOfficialWaterUrl(site) {
+  if (isBalaton(site)) return BALATON_SOURCES.quality
   if (site.source === 'eea') return 'https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025'
   if (site.source === 'ea') return `https://environment.data.gov.uk/bwq/profiles/?_search=${encodeURIComponent(site.name)}`
   if (site.source === 'nrw') return `https://environment.data.gov.uk/wales/bathing-waters/profiles/?_search=${encodeURIComponent(site.name)}`

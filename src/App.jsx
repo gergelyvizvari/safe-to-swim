@@ -22,6 +22,7 @@ import {
   Waves,
   Wind,
 } from 'lucide-react'
+import { isBalaton } from './balaton.js'
 import { useCoastalConditions } from './useCoastalConditions.js'
 import { compassFor, DEFAULT_LANGUAGE, LANGUAGES, localeFor, makeTranslator } from './i18n.js'
 import { findCoastalLocation, findNearestCoastalLocation } from './coastalLocations.js'
@@ -36,6 +37,7 @@ import TideCurve from './TideCurve.jsx'
 import SwimAssessment from './SwimAssessment.jsx'
 import { findCalmestWindow } from './swimOutlook.js'
 
+const BalatonPanel = lazy(() => import('./BalatonPanel.jsx'))
 const WaterQualityPanel = lazy(() => import('./WaterQualityPanel.jsx'))
 const UKCoastExplorer = lazy(() => import('./UKCoastExplorer.jsx').then((module) => ({ default: module.UKCoastExplorer })))
 const CoastSafetyMap = lazy(() => import('./CoastSafetyMap.jsx').then((module) => ({ default: module.CoastSafetyMap })))
@@ -301,7 +303,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
     const timer = window.setInterval(() => setNow(Date.now()), 60000)
     return () => window.clearInterval(timer)
   }, [])
-  const inland = location.marineModelSupported === false
+  const inland = location.waterType === 'lake' || location.marineModelSupported === false
   const bestWindow = findCalmestWindow(forecast, location, { now, source, quality })
   const [selectedTime, setSelectedTime] = useState(current.time)
   const forecastDays = buildForecastDays(current, forecast, bestWindow?.start.time, selectedTime)
@@ -410,7 +412,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
 }
 
 function DetailedConditions({ data, selected, location, language, locale, t, safety, onLocationChange }) {
-  const inland = location.marineModelSupported === false
+  const inland = location.waterType === 'lake' || location.marineModelSupported === false
   const [hasOpened, setHasOpened] = useState(false)
   const isNow = selected.time === data.current.time
   return (
@@ -743,11 +745,12 @@ export default function App() {
       <main>
         <DataNotice error={error} source={data.source} t={t} />
         <p className="panel-note">{t('locationPicker.timeZone', { zone: Intl.DateTimeFormat().resolvedOptions().timeZone })}</p>
+        {isBalaton(location) && <Suspense fallback={null}><BalatonPanel key={location.id} location={location} language={language} locale={locale} /></Suspense>}
         <SwimDecision key={selectionKey} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} onSelectedChange={handleSelectedChange} t={t} />
         <Suspense fallback={null}><WaterQualityPanel location={location} locale={locale} t={t} /></Suspense>
         <div className="live-grid">
-          {location.marineModelSupported !== false && <TidePanel key={location.id} tides={data.tides} current={data.current} locale={locale} t={t} />}
-          <WebcamPanel key={location.id} location={location} locale={locale} t={t} />
+          {location.waterType !== 'lake' && location.marineModelSupported !== false && <TidePanel key={`tides-${location.id}`} tides={data.tides} current={data.current} locale={locale} t={t} />}
+          <WebcamPanel key={`webcam-${location.id}`} location={location} locale={locale} t={t} />
         </div>
         <DetailedConditions data={data} selected={selectedConditions} location={location} language={language} locale={locale} t={t} safety={safety} onLocationChange={setLocationId} />
         <section className="disclaimer">
