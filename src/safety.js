@@ -17,10 +17,10 @@ export function formatWholeNumber(value) {
 export function getSafetyReadings(conditions, location) {
   const seaBearing = Number.isFinite(location.seaBearing) ? location.seaBearing : conditions.seaBearing
   return {
-    waveHeight: Number.isFinite(conditions.waveHeight) ? Math.round(conditions.waveHeight * 10) / 10 : null,
+    waveHeight: location.marineModelSupported !== false && Number.isFinite(conditions.waveHeight) ? Math.round(conditions.waveHeight * 10) / 10 : null,
     gusts: Number.isFinite(conditions.gusts) ? Math.round(conditions.gusts) : null,
     windSpeed: Number.isFinite(conditions.windSpeed) ? Math.round(conditions.windSpeed) : null,
-    offshore: isOffshoreWind(conditions.windDirection, seaBearing),
+    offshore: location.marineModelSupported === false ? null : isOffshoreWind(conditions.windDirection, seaBearing),
   }
 }
 
@@ -46,6 +46,7 @@ export function getSafety(conditions, location, t, locale, { source, quality = g
   }
 
   if (waterConcern) return special('caution', 'water')
+  if (location.marineModelSupported === false) return { level: 'unknown', eyebrow: t('lake.label'), title: t('lake.title'), description: t('lake.description'), reason: t('lake.description'), icon: CircleHelp }
   if (!Number.isFinite(waveHeight) || !Number.isFinite(gusts)) {
     return {
       level: 'unknown', eyebrow: t('safety.unknownEyebrow'), title: t('safety.unknownTitle'),

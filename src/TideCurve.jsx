@@ -29,7 +29,7 @@ export default function TideCurve({ tides, selectedTime, onSelect, locale, t }) 
   const y = (level) => padding + (maximum - level + (maximum === minimum ? 0.05 : 0)) / range * (height - padding * 2)
   const line = smoothTidePath(visible.map((point) => ({ x: x(point.time), y: y(point.height) })))
   const timeLabel = (time, date = false) => new Intl.DateTimeFormat(locale, {
-    timeZone: 'Europe/London', ...(date ? { weekday: 'short', day: 'numeric', month: 'short' } : {}), hour: '2-digit', minute: '2-digit',
+    ...(date ? { weekday: 'short', day: 'numeric', month: 'short' } : {}), hour: '2-digit', minute: '2-digit',
   }).format(new Date(time))
   const number = (value) => new Intl.NumberFormat(locale, { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(value)
   const event = tides.events.find((item) => item.time === selected.time)

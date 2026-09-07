@@ -1,5 +1,7 @@
 import { COASTAL_LOCATIONS } from './coastalLocations.js'
 
+const OFFICIAL_SITES = COASTAL_LOCATIONS.filter((site) => site.source)
+
 function distanceInKilometres(first, second) {
   const radius = 6371
   const toRadians = (degrees) => degrees * Math.PI / 180
@@ -14,8 +16,8 @@ function distanceInKilometres(first, second) {
 
 export function getWaterQualityForLocation(location) {
   if (location.source) return { site: location, distance: 0 }
-  const officialSites = COASTAL_LOCATIONS.filter((site) => site.source)
-  const nearest = officialSites.reduce((best, site) => {
+  const nearest = OFFICIAL_SITES.reduce((best, site) => {
+    if ((site.waterType ?? 'coastal') !== (location.waterType ?? 'coastal')) return best
     const distance = distanceInKilometres(location, site)
     return !best || distance < best.distance ? { site, distance } : best
   }, null)
@@ -31,6 +33,7 @@ export function classificationTone(classification) {
 }
 
 export function getOfficialWaterUrl(site) {
+  if (site.source === 'eea') return 'https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025'
   if (site.source === 'ea') return `https://environment.data.gov.uk/bwq/profiles/?_search=${encodeURIComponent(site.name)}`
   if (site.source === 'nrw') return `https://environment.data.gov.uk/wales/bathing-waters/profiles/?_search=${encodeURIComponent(site.name)}`
   if (site.source === 'sepa') return `https://bathingwaters.sepa.org.uk/locations-and-results/results/?location=${site.id.replace('sepa-', '')}`

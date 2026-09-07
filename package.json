@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "data:refresh:europe": "node scripts/generate-european-bathing-waters.mjs",
     "data:refresh": "node scripts/generate-bathing-waters.mjs",
     "lint": "eslint .",
     "preview": "vite preview",

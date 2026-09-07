@@ -3,8 +3,8 @@ import L from 'leaflet'
 import { LocateFixed, MapPin, Search } from 'lucide-react'
 import { COASTAL_LOCATIONS } from './coastalLocations.js'
 
-const UK_BOUNDS = L.latLngBounds([49.55, -8.65], [59.15, 2.1])
-const NATIONS = ['All', 'England', 'Wales', 'Scotland', 'Northern Ireland']
+const EUROPE_BOUNDS = L.latLngBounds([27, -32], [71.5, 45])
+const NATIONS = ['All', ...new Set(COASTAL_LOCATIONS.map((location) => location.nation))].sort((a, b) => a === 'All' ? -1 : b === 'All' ? 1 : a.localeCompare(b))
 
 const CLASSIFICATION_COLORS = {
   Excellent: '#147aa2',
@@ -44,16 +44,17 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return undefined
     const map = L.map(containerRef.current, {
-      minZoom: 5,
+      minZoom: 3,
       maxZoom: 15,
       scrollWheelZoom: true,
+      preferCanvas: true,
       zoomControl: true,
     })
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map)
-    map.fitBounds(UK_BOUNDS, { padding: [12, 12] })
+    map.fitBounds(EUROPE_BOUNDS, { padding: [12, 12] })
     mapRef.current = map
     requestAnimationFrame(() => map.invalidateSize())
 
@@ -112,7 +113,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
   }
 
   function resetMap() {
-    mapRef.current?.fitBounds(UK_BOUNDS, { padding: [12, 12] })
+    mapRef.current?.fitBounds(EUROPE_BOUNDS, { padding: [12, 12] })
   }
 
   return (
@@ -134,7 +135,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
           <div className="nation-filters" role="group" aria-label={t('explorer.filterLabel')}>
             {NATIONS.map((item) => (
               <button className={nation === item ? 'is-active' : ''} type="button" aria-pressed={nation === item} onClick={() => setNation(item)} key={item}>
-                {t(`explorer.nations.${item === 'Northern Ireland' ? 'ni' : item.toLowerCase()}`)}
+                {item === 'All' ? t('explorer.nations.all') : item}
               </button>
             ))}
           </div>
@@ -143,7 +144,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
             {filteredLocations.slice(0, 10).map((location) => (
               <button className={location.id === selectedLocation.id ? 'is-selected' : ''} type="button" onClick={() => selectLocation(location)} key={location.id}>
                 <span className="result-pin"><MapPin size={15} /></span>
-                <span><strong>{location.name}</strong><small>{location.area} · {location.nation}</small></span>
+                <span><strong>{location.name}</strong><small>{location.area !== location.nation ? `${location.area} · ` : ''}{location.nation}</small></span>
                 <i className={`classification-dot ${location.classification?.toLowerCase()}`} title={location.classification} />
               </button>
             ))}

@@ -7,7 +7,7 @@ import { useCoastalConditions } from './useCoastalConditions.js'
 import { formatNumber, formatWholeNumber, getSafety } from './safety.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
 
-const UK_BOUNDS = L.latLngBounds([49.55, -8.65], [59.15, 2.1])
+const EUROPE_BOUNDS = L.latLngBounds([27, -32], [71.5, 45])
 
 function qualityToneForLocation(location) {
   const quality = getWaterQualityForLocation(location)
@@ -63,7 +63,7 @@ function clusterVisibleLocations(map, locations, expandedLocationIds) {
 
 function MapSelectionCard({ location, selected, userPosition, onSelect, locale, t }) {
   const { data, loading, error } = useCoastalConditions(location)
-  const hasLivePreview = !loading && !error && data.source === 'live'
+  const hasLivePreview = !loading && !error && (data.source === 'live' || (location.marineModelSupported === false && data.source === 'partial'))
   const safety = hasLivePreview ? getSafety(data.current, location, t, locale) : null
   const SafetyIcon = safety?.icon
   const qualityTone = qualityToneForLocation(location)
@@ -78,7 +78,7 @@ function MapSelectionCard({ location, selected, userPosition, onSelect, locale, 
         <span className="location-map-selection-copy">
           <strong>{location.name}</strong>
           <small>
-            {location.area} · {location.nation}
+            {location.area !== location.nation ? `${location.area} · ` : ''}{location.nation}
             {Number.isFinite(distance) && <> · {t('locationPicker.distanceAway', { distance: formatNumber(distance, locale) })}</>}
           </small>
         </span>
@@ -93,7 +93,7 @@ function MapSelectionCard({ location, selected, userPosition, onSelect, locale, 
       </div>
 
       <div className="location-map-readings" aria-label={t('locationPicker.previewAria')}>
-        <span><Waves size={15} /><small>{t('safety.wave')}</small><strong>{hasLivePreview ? `${formatNumber(data.current.waveHeight, locale)} m` : '—'}</strong></span>
+        <span><Waves size={15} /><small>{t(location.marineModelSupported === false ? 'lake.air' : 'safety.wave')}</small><strong>{hasLivePreview ? location.marineModelSupported === false ? `${formatNumber(data.current.temperature, locale)} °C` : `${formatNumber(data.current.waveHeight, locale)} m` : '—'}</strong></span>
         <span><Wind size={15} /><small>{t('safety.gusts')}</small><strong>{hasLivePreview ? `${formatWholeNumber(data.current.gusts)} mph` : '—'}</strong></span>
         <span className={qualityTone}><Droplets size={15} /><small>{t('waterQuality.annualShort')}</small><strong>{t(`waterQuality.classes.${qualityTone}`)}</strong></span>
       </div>
@@ -122,7 +122,7 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return undefined
     const map = L.map(containerRef.current, {
-      minZoom: 5,
+      minZoom: 3,
       maxZoom: 15,
       scrollWheelZoom: true,
       zoomControl: true,
@@ -131,7 +131,7 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map)
-    map.fitBounds(UK_BOUNDS, { padding: [12, 12] })
+    map.fitBounds(EUROPE_BOUNDS, { padding: [12, 12] })
     mapRef.current = map
     requestAnimationFrame(() => map.invalidateSize())
 
@@ -181,9 +181,10 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
         })
           .bindTooltip(clusterLabel, { direction: 'top' })
           .on('click', () => {
-            setExpandedLocationIds((currentIds) => [
-              ...new Set([...currentIds, ...group.map((location) => location.id)]),
-            ])
+            const targetZoom = map.getBoundsZoom(bounds, false, L.point(84, 84))
+            if (targetZoom >= map.getMaxZoom()) {
+              setExpandedLocationIds(group.map((location) => location.id))
+            }
             map.fitBounds(bounds, { padding: [42, 42], maxZoom: map.getMaxZoom(), animate: false })
           })
           .on('add', ({ target }) => target.getElement()?.setAttribute('aria-label', clusterLabel))
@@ -209,7 +210,7 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
 
   const resetMap = () => {
     setExpandedLocationIds([])
-    mapRef.current?.fitBounds(UK_BOUNDS, { padding: [12, 12] })
+    mapRef.current?.fitBounds(EUROPE_BOUNDS, { padding: [12, 12] })
   }
 
   return (

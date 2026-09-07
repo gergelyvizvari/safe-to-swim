@@ -1,3 +1,4 @@
+import { EUROPEAN_BATHING_WATERS } from './europeanBathingWaters.generated.js'
 import { OFFICIAL_BATHING_WATERS } from './bathingWaters.generated.js'
 
 export const FEATURED_LOCATIONS = [
@@ -120,10 +121,11 @@ const INLAND_BATHING_WATER_IDS = new Set([
 
 export const OFFICIAL_LOCATIONS = OFFICIAL_BATHING_WATERS.map((location) => ({
   ...location,
+  waterType: INLAND_BATHING_WATER_IDS.has(location.id) ? 'lake' : 'coastal',
   marineModelSupported: !INLAND_BATHING_WATER_IDS.has(location.id),
 }))
 
-export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_LOCATIONS]
+export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_LOCATIONS, ...EUROPEAN_BATHING_WATERS]
 
 export const DEFAULT_LOCATION = COASTAL_LOCATIONS[0]
 

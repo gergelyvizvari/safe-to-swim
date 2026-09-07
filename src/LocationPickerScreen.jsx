@@ -28,7 +28,7 @@ function LocationCard({ location, selected, onSelect, t }) {
       <span className="location-card-waves" aria-hidden="true"><Waves size={76} strokeWidth={1.2} /></span>
       <span className="location-card-copy">
         <strong>{location.name}</strong>
-        <span>{location.area} · {location.nation}</span>
+        <span>{location.area !== location.nation ? `${location.area} · ` : ''}{location.nation} · {t(`lake.${location.waterType ?? 'coastal'}`)}</span>
       </span>
       <span className="location-card-pin" aria-hidden="true"><MapPin size={18} /></span>
       {selected && <span className="location-card-selected"><Check size={14} /> {t('locationPicker.selected')}</span>}
@@ -38,15 +38,16 @@ function LocationCard({ location, selected, onSelect, t }) {
 
 export function LocationPickerScreen({ location, userPosition, onClose, onSelect, onUseCurrentLocation, locating, locationFeedback, locale, t }) {
   const [search, setSearch] = useState('')
+  const [waterType, setWaterType] = useState('all')
   const [view, setView] = useState('list')
   const searchRef = useRef(null)
   const previousFocusRef = useRef(null)
   const dialogRef = useRef(null)
   const normalizedSearch = normalizeSearch(search)
   const matchingLocations = useMemo(() => {
-    if (!normalizedSearch) return []
-    return COASTAL_LOCATIONS.filter((item) => normalizeSearch(`${item.name} ${item.area} ${item.nation}`).includes(normalizedSearch))
-  }, [normalizedSearch])
+    return COASTAL_LOCATIONS.filter((item) => (waterType === 'all' || (item.waterType ?? 'coastal') === waterType)
+      && normalizeSearch(`${item.name} ${item.area} ${item.nation}`).includes(normalizedSearch))
+  }, [normalizedSearch, waterType])
   const visibleResults = matchingLocations.slice(0, MAX_SEARCH_RESULTS)
   const suggestedLocations = FEATURED_LOCATIONS.filter((item) => item.id !== location.id)
 
@@ -111,6 +112,9 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
           </button>
         </div>
 
+        <div className="nation-filters" role="group" aria-label={t('lake.filter')}>
+          {['all', 'coastal', 'lake'].map((type) => <button key={type} type="button" className={waterType === type ? 'is-active' : ''} aria-pressed={waterType === type} onClick={() => setWaterType(type)}>{t(`lake.${type}`)}</button>)}
+        </div>
         <div className="location-search">
           <Search size={20} aria-hidden="true" />
           <label className="sr-only" htmlFor="location-search-input">{t('locationPicker.searchLabel')}</label>
@@ -138,16 +142,16 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
             <Suspense fallback={<div className="location-map-loading">{t('locationPicker.mapLoading')}</div>}>
               <LocationPickerMap
                 key={location.id}
-                locations={normalizedSearch ? matchingLocations : COASTAL_LOCATIONS}
+                locations={matchingLocations}
                 selectedLocation={location}
-                searchActive={Boolean(normalizedSearch)}
+                searchActive={Boolean(normalizedSearch) || waterType !== 'all'}
                 userPosition={userPosition}
                 onSelect={selectLocation}
                 locale={locale}
                 t={t}
               />
             </Suspense>
-          ) : normalizedSearch ? (
+          ) : normalizedSearch || waterType !== 'all' ? (
             <section aria-labelledby="location-results-title">
               <div className="location-list-heading">
                 <h2 id="location-results-title">{t('locationPicker.results', { count: matchingLocations.length })}</h2>

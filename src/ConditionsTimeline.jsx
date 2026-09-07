@@ -5,7 +5,7 @@ import { conditionLabels } from './conditionLabels.js'
 import { getSafety } from './safety.js'
 import { smoothTidePath } from './tideCurvePath.js'
 
-const dayFormatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit' })
+const dayFormatter = new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' })
 const dayKey = (time) => dayFormatter.format(new Date(time))
 const metrics = [
   { key: 'temperature', label: 'air', unit: '°C', color: '#a56732', top: 68, bottom: 124 },
@@ -77,8 +77,8 @@ export default function ConditionsTimeline({ location, quality, current, forecas
     return { time: first.time, surface, path: `${surface} L${right},${height} L${left},${height} Z` }
   })
   const number = (value, key) => Number.isFinite(value) ? new Intl.NumberFormat(locale, { maximumFractionDigits: key === 'seaLevel' ? 2 : 1 }).format(value) : '—'
-  const time = (value, full = false) => new Intl.DateTimeFormat(locale, { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', ...(full ? { weekday: 'short', month: 'short', day: 'numeric' } : {}) }).format(new Date(value))
-  const date = (key) => new Intl.DateTimeFormat(locale, { timeZone: 'Europe/London', weekday: 'short', month: 'short', day: 'numeric' }).format(new Date(timeline.find((point) => dayKey(point.time) === key).time))
+  const time = (value, full = false) => new Intl.DateTimeFormat(locale, { hour: '2-digit', minute: '2-digit', ...(full ? { weekday: 'short', month: 'short', day: 'numeric' } : {}) }).format(new Date(value))
+  const date = (key) => new Intl.DateTimeFormat(locale, { weekday: 'short', month: 'short', day: 'numeric' }).format(new Date(timeline.find((point) => dayKey(point.time) === key).time))
   const step = (offset) => onSelect(timeline[Math.max(0, Math.min(timeline.length - 1, index + offset))].time)
   const choosePointer = (event) => {
     const rect = event.currentTarget.getBoundingClientRect()
@@ -164,7 +164,7 @@ export default function ConditionsTimeline({ location, quality, current, forecas
             </svg>
           </div>
           <div className="scene-hours" role="group" aria-label={t('decision.aria')} style={{ height: 48 }}>
-            {visible.map((point) => <button type="button" key={point.time} aria-label={`${time(point.time)}, ${assessment(point).title}`} title={`${time(point.time)} · ${assessment(point).title} — ${assessment(point).reason}`} aria-pressed={selected.time === point.time} className={point === visible[0] || point === visible.at(-1) || selected.time === point.time || new Date(point.time).getUTCMinutes() !== 0 || Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', hour: '2-digit', hourCycle: 'h23' }).format(new Date(point.time))) % 3 === 0 ? 'is-labelled' : 'is-tick'} style={{ left: x(point.time) }} onClick={() => onSelect(point.time)}>{time(point.time)}</button>)}
+            {visible.map((point) => <button type="button" key={point.time} aria-label={`${time(point.time)}, ${assessment(point).title}`} title={`${time(point.time)} · ${assessment(point).title} — ${assessment(point).reason}`} aria-pressed={selected.time === point.time} className={point === visible[0] || point === visible.at(-1) || selected.time === point.time || new Date(point.time).getUTCMinutes() !== 0 || Number(new Intl.DateTimeFormat('en-GB', { hour: '2-digit', hourCycle: 'h23' }).format(new Date(point.time))) % 3 === 0 ? 'is-labelled' : 'is-tick'} style={{ left: x(point.time) }} onClick={() => onSelect(point.time)}>{time(point.time)}</button>)}
           </div>
         </div>
       </div>

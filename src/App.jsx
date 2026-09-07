@@ -58,26 +58,26 @@ function weatherLabel(code, t) {
 
 function formatTime(dateString, locale, options = {}) {
   return new Intl.DateTimeFormat(locale, {
-    timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', ...options,
+    hour: '2-digit', minute: '2-digit', ...options,
   }).format(new Date(dateString))
 }
 
 function formatDate(dateString, locale) {
   return new Intl.DateTimeFormat(locale, {
-    timeZone: 'Europe/London', weekday: 'long', month: 'long', day: 'numeric',
+    weekday: 'long', month: 'long', day: 'numeric',
   }).format(new Date(dateString))
 }
 
 function tideDayLabel(dateString, currentTime, locale, t) {
   const formatter = new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit',
+    year: 'numeric', month: '2-digit', day: '2-digit',
   })
   const eventDate = formatter.format(new Date(dateString))
   const today = formatter.format(new Date(currentTime))
   const tomorrow = formatter.format(new Date(new Date(currentTime).getTime() + 86400000))
   if (eventDate === today) return t('tide.today')
   if (eventDate === tomorrow) return t('tide.tomorrow')
-  return new Intl.DateTimeFormat(locale, { timeZone: 'Europe/London', weekday: 'short' }).format(new Date(dateString))
+  return new Intl.DateTimeFormat(locale, { weekday: 'short' }).format(new Date(dateString))
 }
 
 function tideCountdown(dateString, currentTime, t) {
@@ -135,7 +135,7 @@ function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSu
   )
 }
 
-function SafetyHero({ safety, current, source, loading, language, locale, isNow, quality, t }) {
+function SafetyHero({ inland, safety, current, source, loading, language, locale, isNow, quality, t }) {
   const StatusIcon = safety.icon
   const qualityTone = quality ? classificationTone(quality.site.classification) : 'unclassified'
   const windDirection = directionLabel(current.windDirection, language)
@@ -162,16 +162,16 @@ function SafetyHero({ safety, current, source, loading, language, locale, isNow,
       </div>
       <div className="hero-sea-facts">
         <article className="hero-sea-fact hero-sea-temperature">
-          <span>{t('conditions.waterTemperature')}</span>
-          <strong>{formatNumber(current.seaTemperature, locale)} <small>°C</small></strong>
+          <span>{t(inland ? 'lake.air' : 'conditions.waterTemperature')}</span>
+          <strong>{formatNumber(inland ? current.temperature : current.seaTemperature, locale)} <small>°C</small></strong>
         </article>
         <article className={`hero-sea-fact hero-water-quality ${qualityTone}`}>
           <span>{t('waterQuality.annualShort')}</span>
           <strong>{t(`waterQuality.classes.${qualityTone}`)}</strong>
         </article>
         <article className="hero-sea-fact hero-reading">
-          <span>{t('safety.wave')}</span>
-          <strong>{formatNumber(current.waveHeight, locale)} <small>m</small></strong>
+          <span>{t(inland ? 'conditions.wind' : 'safety.wave')}</span>
+          <strong>{formatNumber(inland ? current.windSpeed : current.waveHeight, locale)} <small>{inland ? 'mph' : 'm'}</small></strong>
         </article>
         <article className="hero-sea-fact hero-wind-fact">
           <span>{t('safety.gusts')}</span>
@@ -246,15 +246,15 @@ function ConditionsGrid({ current, forecast, language, locale, isNow, t }) {
   )
 }
 
-function londonDateKey(dateString) {
+function localDateKey(dateString) {
   return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit',
+    year: 'numeric', month: '2-digit', day: '2-digit',
   }).format(new Date(dateString))
 }
 
-function londonHour(dateString) {
+function localHour(dateString) {
   return Number(new Intl.DateTimeFormat('en-GB', {
-    timeZone: 'Europe/London', hour: '2-digit', hourCycle: 'h23',
+    hour: '2-digit', hourCycle: 'h23',
   }).format(new Date(dateString)))
 }
 
@@ -267,7 +267,7 @@ function buildForecastDays(current, forecast, recommendedTime, selectedTime) {
 
   const grouped = new Map()
   ;[...uniqueHours.values()].forEach((hour) => {
-    const key = londonDateKey(hour.time)
+    const key = localDateKey(hour.time)
     const day = grouped.get(key) ?? []
     day.push(hour)
     grouped.set(key, day)
@@ -275,7 +275,7 @@ function buildForecastDays(current, forecast, recommendedTime, selectedTime) {
 
   return [...grouped.entries()].map(([key, dayHours], dayIndex) => {
     const daytimeHours = dayHours.filter((hour) => {
-      const hourOfDay = londonHour(hour.time)
+      const hourOfDay = localHour(hour.time)
       return hourOfDay >= 6 && hourOfDay <= 20 && hourOfDay % 2 === 0
     })
     const visible = dayIndex === 0 ? dayHours.slice(0, 8) : (daytimeHours.length ? daytimeHours : dayHours.filter((_, index) => index % 2 === 0)).slice(0, 8)
@@ -291,7 +291,7 @@ function forecastDayLabel(day, dayIndex, locale, t) {
   if (dayIndex === 0) return t('forecast.today')
   if (dayIndex === 1) return t('forecast.tomorrow')
   return new Intl.DateTimeFormat(locale, {
-    timeZone: 'Europe/London', weekday: 'short', month: 'short', day: 'numeric',
+    weekday: 'short', month: 'short', day: 'numeric',
   }).format(new Date(day.hours[0].time))
 }
 
@@ -301,10 +301,11 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
     const timer = window.setInterval(() => setNow(Date.now()), 60000)
     return () => window.clearInterval(timer)
   }, [])
+  const inland = location.marineModelSupported === false
   const bestWindow = findCalmestWindow(forecast, location, { now, source, quality })
   const [selectedTime, setSelectedTime] = useState(current.time)
   const forecastDays = buildForecastDays(current, forecast, bestWindow?.start.time, selectedTime)
-  const selectedDayIndex = Math.max(0, forecastDays.findIndex((day) => day.key === londonDateKey(selectedTime)))
+  const selectedDayIndex = Math.max(0, forecastDays.findIndex((day) => day.key === localDateKey(selectedTime)))
   const selectedDay = forecastDays[selectedDayIndex] ?? forecastDays[0]
   const hours = selectedDay.hours
   const selectedIndex = Math.max(0, hours.findIndex((hour) => hour.time === selectedTime))
@@ -332,17 +333,17 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
 
   return (
     <>
-      <SafetyHero safety={safety} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={isNow} quality={quality} t={t} />
+      <SafetyHero inland={inland} safety={safety} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={isNow} quality={quality} t={t} />
       <SwimAssessment current={selected} location={location} quality={quality} source={source} locale={locale} t={t} />
       <section className="panel decision-panel" aria-labelledby="decision-title">
         <div className="section-heading decision-heading">
           <div>
-            <span className="eyebrow">{t('decision.eyebrow')}</span>
-            <h2 id="decision-title">{t('decision.title')}</h2>
+            <span className="eyebrow">{t(inland ? 'lake.label' : 'decision.eyebrow')}</span>
+            <h2 id="decision-title">{t(inland ? 'lake.forecast' : 'decision.title')}</h2>
           </div>
           <span className="decision-hint">{t('decision.hint')}</span>
         </div>
-        <div className="outlook-window" aria-live="polite">
+        {!inland && <div className="outlook-window" aria-live="polite">
           <div>
             <span className="eyebrow">{t('outlook.title')}</span>
             {loading ? <p>{t('outlook.loading')}</p> : bestWindow ? <>
@@ -354,7 +355,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
           {!loading && bestWindow && <button type="button" onClick={() => {
             setSelectedTime(bestWindow.start.time)
           }}>{t('outlook.view')} <ArrowUpRight size={16} /></button>}
-        </div>
+        </div>}
         <div className="decision-days" role="group" aria-label={t('decision.daysAria')}>
           {forecastDays.map((day, dayIndex) => (
             <button
@@ -382,7 +383,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
                 key={`${hour.time}-${index}`}
               >
                 <span>{hour.time === current.time ? t('forecast.now') : formatTime(hour.time, locale)}</span>
-                <strong><i />{t(`decision.levels.${hourSafety.level}`)}</strong>
+                <strong>{inland ? `${formatNumber(hour.temperature, locale)} °C` : <><i />{t(`decision.levels.${hourSafety.level}`)}</>}</strong>
               </button>
             )
           })}
@@ -397,18 +398,19 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
             })}</span>
           </div>
           <div className="decision-readings" aria-hidden="true">
-            <span><Waves size={15} />{formatNumber(selected.waveHeight, locale)} m</span>
+            {!inland && <span><Waves size={15} />{formatNumber(selected.waveHeight, locale)} m</span>}
             <span><Wind size={15} />{formatWholeNumber(selected.gusts)} mph</span>
-            <span><Compass size={15} />{t(`decision.wind.${windStatus}`)}</span>
+            {!inland && <span><Compass size={15} />{t(`decision.wind.${windStatus}`)}</span>}
           </div>
         </div>
-        <div className="forecast-footnote"><Info size={15} /> {t('forecast.note')}</div>
+        {!inland && <div className="forecast-footnote"><Info size={15} /> {t('forecast.note')}</div>}
       </section>
     </>
   )
 }
 
 function DetailedConditions({ data, selected, location, language, locale, t, safety, onLocationChange }) {
+  const inland = location.marineModelSupported === false
   const [hasOpened, setHasOpened] = useState(false)
   const isNow = selected.time === data.current.time
   return (
@@ -422,10 +424,10 @@ function DetailedConditions({ data, selected, location, language, locale, t, saf
         <ChevronDown size={20} aria-hidden="true" />
       </summary>
       {hasOpened && <div className="details-content">
-        <ConditionsGrid current={selected} forecast={data.forecast} language={language} locale={locale} isNow={isNow} t={t} />
-        <SafetyChecklist current={selected} location={location} t={t} />
+        {!inland && <ConditionsGrid current={selected} forecast={data.forecast} language={language} locale={locale} isNow={isNow} t={t} />}
+        {!inland && <SafetyChecklist current={selected} location={location} t={t} />}
         <Suspense fallback={null}><UKCoastExplorer selectedLocation={location} onSelect={onLocationChange} t={t} /></Suspense>
-        <Suspense fallback={null}><CoastSafetyMap safety={safety} current={selected} modelPoint={data.marineModelPoint} location={location} t={t} /></Suspense>
+        {!inland && <Suspense fallback={null}><CoastSafetyMap safety={safety} current={selected} modelPoint={data.marineModelPoint} location={location} t={t} /></Suspense>}
       </div>}
     </details>
   )
@@ -740,10 +742,11 @@ export default function App() {
       {installGuideOpen && <InstallGuide isIOS={isIOS} onClose={() => setInstallGuideOpen(false)} t={t} />}
       <main>
         <DataNotice error={error} source={data.source} t={t} />
+        <p className="panel-note">{t('locationPicker.timeZone', { zone: Intl.DateTimeFormat().resolvedOptions().timeZone })}</p>
         <SwimDecision key={selectionKey} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} onSelectedChange={handleSelectedChange} t={t} />
         <Suspense fallback={null}><WaterQualityPanel location={location} locale={locale} t={t} /></Suspense>
         <div className="live-grid">
-          <TidePanel key={location.id} tides={data.tides} current={data.current} locale={locale} t={t} />
+          {location.marineModelSupported !== false && <TidePanel key={location.id} tides={data.tides} current={data.current} locale={locale} t={t} />}
           <WebcamPanel key={location.id} location={location} locale={locale} t={t} />
         </div>
         <DetailedConditions data={data} selected={selectedConditions} location={location} language={language} locale={locale} t={t} safety={safety} onLocationChange={setLocationId} />

@@ -3,6 +3,7 @@ import { CATALOG_UPDATED_ON } from './bathingWaters.generated.js'
 import { classificationTone, getWaterQualityForLocation, getOfficialWaterUrl } from './waterQuality.js'
 
 const SOURCE_META = {
+  eea: { provider: 'European Environment Agency (EEA)' },
   ea: {
     provider: 'Environment Agency',
   },
@@ -25,7 +26,7 @@ export default function WaterQualityPanel({ location, locale, t }) {
   const source = SOURCE_META[site.source]
   const tone = classificationTone(site.classification)
   const formattedDistance = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(distance)
-  const snapshotDate = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${CATALOG_UPDATED_ON}T12:00:00Z`))
+  const snapshotDate = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${site.catalogUpdatedOn ?? CATALOG_UPDATED_ON}T12:00:00Z`))
 
   return (
     <section className={`panel water-quality-panel ${tone}`} aria-labelledby="water-quality-title">
