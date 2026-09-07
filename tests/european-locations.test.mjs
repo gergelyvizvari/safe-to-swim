@@ -46,6 +46,17 @@ test('lake sites are searchable and retain water type and source data', () => {
     assert.equal(getWaterQualityForLocation(site).site, site)
   }
 })
+test('Loch Ness is discoverable under both names and uses lake data handling', () => {
+  const site = findCoastalLocation('sepa-200305')
+  assert.match(site.name, /Loch Ness/)
+  assert.match(site.name, /Dores/)
+  assert.equal(site.waterType, 'lake')
+  assert.equal(site.marineModelSupported, false)
+  assert.equal(getWaterQualityForLocation(site).site, site)
+  assert.match(getOfficialWaterUrl(site), /location=200305/)
+  assert.equal(normalize({ current: { time: 1788782400 }, hourly: { time: [] } }, null, site).current.waveHeight, null)
+})
+
 test('lake normalization discards even accidentally supplied marine data and never recommends a swim', () => {
   const lake = EUROPEAN_BATHING_WATERS.find(site => site.waterType === 'lake' && site.classification === 'Excellent')
   const time = Math.floor(Date.now() / 1000)
