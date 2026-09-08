@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-08",
+  "status": "completed-research-only",
+  "baseCommit": "902d86e",
+  "screenedLocations": 15,
+  "providerScreenedOnly": 10,
+  "liveIdentityMatches": 5,
+  "newlyIntegratedLocations": 0,
+  "providersProbed": 2,
+  "notes": "No runtime or UI changes; Sweden endpoint timed out; England live metadata fetched. Do not count documentation candidates as new coverage.",
+  "locations": [
+    "eea-SE0441290000000676",
+    "eea-SE0441282000000414",
+    "eea-SE0110138000002104A",
+    "eea-SE0110126000004055",
+    "eea-SE0822582000003209",
+    "eea-SE0A21490000003594",
+    "eea-SE0940980000000239",
+    "eea-SE0110180000001851",
+    "eea-SE0110180000001850",
+    "eea-SE0110160000001445",
+    "ea-ukc2102-03600",
+    "ea-ukc2102-03700",
+    "ea-ukc2102-03800",
+    "ea-ukc2102-03900",
+    "ea-ukc2101-04000"
+  ]
+}

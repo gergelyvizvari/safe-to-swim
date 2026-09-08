@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "lastRun": "2026-09-08",
+  "nextCountry": "France",
+  "entries": [
+    {
+      "locationId": "eea-SE0441290000000676",
+      "name": "Åhusbryggans badplats",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0441290000000676",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0441282000000414",
+      "name": "ÅLABODARNA",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0441282000000414",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0110138000002104A",
+      "name": "Albybadet",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0110138000002104A",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0110126000004055",
+      "name": "ALBYSJÖN, FLOTTSBROBADET",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0110126000004055",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0822582000003209",
+      "name": "ALDERSJÖN",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0822582000003209",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0A21490000003594",
+      "name": "ALMENÄS BADPLATS, ÖRESJÖ",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0A21490000003594",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0940980000000239",
+      "name": "ÅMINNE",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0940980000000239",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0110180000001851",
+      "name": "Ängbybadet Ö, Mälaren",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0110180000001851",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0110180000001850",
+      "name": "Ängbybadet V, Mälaren",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0110180000001850",
+      "identityVerified": false
+    },
+    {
+      "locationId": "eea-SE0110160000001445",
+      "name": "ÄNGSHOLMSBADET",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "hav-sweden",
+      "status": "failed",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Provider documentation screened; individual station match NOT verified.",
+      "reason": "Production GET timed out after 30 seconds, no HTTP response. This is a reachability failure from this runner, not proof of a global outage. No credentials required according to OpenAPI. No integration enabled.",
+      "identityCandidate": "SE0110160000001445",
+      "identityVerified": false
+    },
+    {
+      "locationId": "ea-ukc2102-03600",
+      "name": "Spittal",
+      "country": "England",
+      "waterType": "coastal",
+      "provider": "ea-england",
+      "status": "candidate",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Matched official identifier and sampling coordinates in successful live collection response.",
+      "identityVerified": true,
+      "reason": "Live metadata confirms risk prediction and latest sample links. Not yet integrated: resolve timezone of unzoned expiresAt, fetch and validate linked sample assessments, and implement live freshness-aware adapter/UI before enabling.",
+      "evidence": {
+        "officialId": "ukc2102-03600",
+        "latitude": 55.756856682381226,
+        "longitude": -1.988831300159957,
+        "riskPrediction": {
+          "_about": "http://environment.data.gov.uk/data/bathing-water-quality/stp-risk-prediction/point/03600/date/20260908-084102",
+          "expiresAt": {
+            "_value": "2026-09-09T08:29:00",
+            "_datatype": "dateTime"
+          },
+          "riskLevel": {
+            "_about": "http://environment.data.gov.uk/def/bwq-stp/normal",
+            "name": {
+              "_value": "normal",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          }
+        },
+        "latestSampleAssessment": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/03600/date/20260901/time/101200/recordDate/20260901"
+      }
+    },
+    {
+      "locationId": "ea-ukc2102-03700",
+      "name": "Bamburgh Castle",
+      "country": "England",
+      "waterType": "coastal",
+      "provider": "ea-england",
+      "status": "candidate",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Matched official identifier and sampling coordinates in successful live collection response.",
+      "identityVerified": true,
+      "reason": "Live metadata confirms risk prediction and latest sample links. Not yet integrated: resolve timezone of unzoned expiresAt, fetch and validate linked sample assessments, and implement live freshness-aware adapter/UI before enabling.",
+      "evidence": {
+        "officialId": "ukc2102-03700",
+        "latitude": 55.610951487599735,
+        "longitude": -1.707902922897897,
+        "riskPrediction": {
+          "_about": "http://environment.data.gov.uk/data/bathing-water-quality/stp-risk-prediction/point/03700/date/20260908-084102",
+          "expiresAt": {
+            "_value": "2026-09-09T08:29:00",
+            "_datatype": "dateTime"
+          },
+          "riskLevel": {
+            "_about": "http://environment.data.gov.uk/def/bwq-stp/normal",
+            "name": {
+              "_value": "normal",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          }
+        },
+        "latestSampleAssessment": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/03700/date/20260901/time/105600/recordDate/20260901"
+      }
+    },
+    {
+      "locationId": "ea-ukc2102-03800",
+      "name": "Seahouses North",
+      "country": "England",
+      "waterType": "coastal",
+      "provider": "ea-england",
+      "status": "candidate",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Matched official identifier and sampling coordinates in successful live collection response.",
+      "identityVerified": true,
+      "reason": "Live metadata confirms risk prediction and latest sample links. Not yet integrated: resolve timezone of unzoned expiresAt, fetch and validate linked sample assessments, and implement live freshness-aware adapter/UI before enabling.",
+      "evidence": {
+        "officialId": "ukc2102-03800",
+        "latitude": 55.59018054023254,
+        "longitude": -1.666807530612919,
+        "riskPrediction": {
+          "_about": "http://environment.data.gov.uk/data/bathing-water-quality/stp-risk-prediction/point/03800/date/20260908-084102",
+          "expiresAt": {
+            "_value": "2026-09-09T08:29:00",
+            "_datatype": "dateTime"
+          },
+          "riskLevel": {
+            "_about": "http://environment.data.gov.uk/def/bwq-stp/normal",
+            "name": {
+              "_value": "normal",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          }
+        },
+        "latestSampleAssessment": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/03800/date/20260901/time/111300/recordDate/20260901"
+      }
+    },
+    {
+      "locationId": "ea-ukc2102-03900",
+      "name": "Beadnell",
+      "country": "England",
+      "waterType": "coastal",
+      "provider": "ea-england",
+      "status": "candidate",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Matched official identifier and sampling coordinates in successful live collection response.",
+      "identityVerified": true,
+      "reason": "Live metadata confirms risk prediction and latest sample links. Not yet integrated: resolve timezone of unzoned expiresAt, fetch and validate linked sample assessments, and implement live freshness-aware adapter/UI before enabling.",
+      "evidence": {
+        "officialId": "ukc2102-03900",
+        "latitude": 55.548750892712384,
+        "longitude": -1.632288132669377,
+        "riskPrediction": {
+          "_about": "http://environment.data.gov.uk/data/bathing-water-quality/stp-risk-prediction/point/03900/date/20260908-084102",
+          "expiresAt": {
+            "_value": "2026-09-09T08:29:00",
+            "_datatype": "dateTime"
+          },
+          "riskLevel": {
+            "_about": "http://environment.data.gov.uk/def/bwq-stp/normal",
+            "name": {
+              "_value": "normal",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          }
+        },
+        "latestSampleAssessment": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/03900/date/20260901/time/113500/recordDate/20260901"
+      }
+    },
+    {
+      "locationId": "ea-ukc2101-04000",
+      "name": "Low Newton",
+      "country": "England",
+      "waterType": "coastal",
+      "provider": "ea-england",
+      "status": "candidate",
+      "checkedAt": "2026-09-08",
+      "nextReviewAt": "2026-10-08",
+      "scope": "Matched official identifier and sampling coordinates in successful live collection response.",
+      "identityVerified": true,
+      "reason": "Live metadata confirms risk prediction and latest sample links. Not yet integrated: resolve timezone of unzoned expiresAt, fetch and validate linked sample assessments, and implement live freshness-aware adapter/UI before enabling.",
+      "evidence": {
+        "officialId": "ukc2101-04000",
+        "latitude": 55.513207709216196,
+        "longitude": -1.615516489199073,
+        "riskPrediction": {
+          "_about": "http://environment.data.gov.uk/data/bathing-water-quality/stp-risk-prediction/point/04000/date/20260908-084102",
+          "expiresAt": {
+            "_value": "2026-09-09T08:29:00",
+            "_datatype": "dateTime"
+          },
+          "riskLevel": {
+            "_about": "http://environment.data.gov.uk/def/bwq-stp/normal",
+            "name": {
+              "_value": "normal",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          }
+        },
+        "latestSampleAssessment": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/04000/date/20260901/time/120200/recordDate/20260901"
+      }
+    }
+  ]
+}
