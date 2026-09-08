@@ -22,9 +22,12 @@ export function useCoastalConditions(location) {
     let cancelled = false
     const controller = new AbortController()
     const timeout = window.setTimeout(() => controller.abort(), 15000)
+    const weatherTarget = location.sources?.find(source => source.type === 'weather' && source.adapter === 'open_meteo_weather')
+    const marineTarget = location.sources?.find(source => source.type === 'marine' && source.adapter === 'open_meteo_marine')
+    const modelPoint = target => Number.isFinite(target?.latitude) && Number.isFinite(target?.longitude) ? target : location
     Promise.allSettled([
-      fetchJson(buildWeatherUrl(location), controller.signal),
-      location.marineModelSupported === false ? Promise.resolve(null) : fetchJson(buildMarineUrl(location), controller.signal),
+      location.sources && !weatherTarget ? Promise.resolve(null) : fetchJson(buildWeatherUrl(modelPoint(weatherTarget)), controller.signal),
+      location.marineModelSupported === false || location.sources && !marineTarget ? Promise.resolve(null) : fetchJson(buildMarineUrl(modelPoint(marineTarget)), controller.signal),
     ]).then(([weather, marine]) => {
       if (cancelled) return
       const weatherData = weather.status === 'fulfilled' ? weather.value : null

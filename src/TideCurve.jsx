@@ -55,9 +55,9 @@ export default function TideCurve({ tides, selectedTime, onSelect, locale, t }) 
           aria-label={t('tide.interactive.choose')} aria-valuemin={0} aria-valuemax={series.length - 1} aria-valuenow={selectedIndex}
           aria-valuetext={`${timeLabel(selected.time, true)}, ${number(selected.height)} m MSL`}
           onKeyDown={(event) => {
-            setKeyboardFocus(true)
             const next = { ArrowRight: selectedIndex + 1, ArrowUp: selectedIndex + 1, ArrowLeft: selectedIndex - 1, ArrowDown: selectedIndex - 1, Home: 0, End: series.length - 1 }[event.key]
             if (next === undefined) return
+            setKeyboardFocus(true)
             event.preventDefault()
             onSelect(series[Math.max(0, Math.min(series.length - 1, next))].time)
           }}>
@@ -71,6 +71,7 @@ export default function TideCurve({ tides, selectedTime, onSelect, locale, t }) 
             {tides.events.filter((item) => Date.parse(item.time) >= start && Date.parse(item.time) <= end).map((item) => <circle key={item.time} className={`tide-dot ${item.type}`} cx={x(item.time)} cy={y(item.height)} r="4" vectorEffect="non-scaling-stroke" />)}
             <line className="tide-selection-line" x1={x(selected.time)} x2={x(selected.time)} y1={0} y2={height} />
             <circle className="tide-selected-dot" cx={x(selected.time)} cy={y(selected.height)} r="5" vectorEffect="non-scaling-stroke" />
+            {keyboardFocus && <circle className="tide-focus-ring" cx={x(selected.time)} cy={y(selected.height)} r="9" vectorEffect="non-scaling-stroke" />}
           </svg>
           <div className="tide-x-labels" aria-hidden="true">{[visible[0], visible[Math.floor((visible.length - 1) / 2)], visible.at(-1)].map((point, index) => <span key={index}>{timeLabel(point.time, index !== 1)}</span>)}</div>
         </div>

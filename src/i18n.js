@@ -1,4 +1,7 @@
+import { contactMessages } from './contactMessages.js'
 import { outlookMessages } from './outlookMessages.js'
+import { windMessages } from './windMessages.js'
+import { lakeDecisionMessages } from './lakeMessages.js'
 
 export const DEFAULT_LANGUAGE = 'en'
 
@@ -21,7 +24,7 @@ const translations = {
     waterQuality: {
       eyebrow: 'Official monitoring', title: 'Bathing water quality', official: 'Official data', annual: '{year} annual classification', monitoringSite: 'Monitoring site', nearest: 'Nearest official site · {distance} km away', provider: 'Data provider', snapshot: 'Snapshot updated {date}', shortTerm: 'Short-term pollution risk', riskNormal: 'No increased risk is shown in the current official feed.', riskElevated: 'The official feed indicates an increased short-term risk.', noPrediction: 'No short-term prediction is included for this site.', afterRain: 'After heavy rain', rainAdvice: 'Water quality at this site can be affected by rainfall. Check the latest official notice before swimming.', note: 'Annual classifications describe monitored water quality, not wave, current or on-site safety. Follow current warnings and local signs.', openSource: 'Open official record',
       shortTitle: 'Water quality', annualShort: 'Annual water quality', summaryNormal: 'No increased short-term risk shown', summaryElevated: 'Increased short-term risk shown', summaryAnnual: 'Annual official classification',
-      classes: { excellent: 'Excellent', good: 'Good', sufficient: 'Sufficient', poor: 'Poor', unclassified: 'Unclassified' },
+      classes: { closed: 'Closed', satisfactory: 'Satisfactory', excellent: 'Excellent', good: 'Good', sufficient: 'Sufficient', poor: 'Poor', unclassified: 'Unclassified' },
     },
     safety: {
       unknownEyebrow: 'Data unavailable', unknownTitle: 'Check conditions on site.', unknownDescription: 'The marine model has no reliable data for this location and time, so no swim rating is shown.',
@@ -65,7 +68,7 @@ const translations = {
     disclaimer: { important: 'Important:', text: 'This is model-based guidance, not an official safety clearance. Always follow the local lifeguard information shown on site.', data: 'Data: Open-Meteo' },
     support: { open: 'Support Safe to Swim', title: 'Enjoying Safe to Swim?', text: 'Safe to Swim is free and independent. If it helped you plan a swim, you can optionally buy Gergely a beer.', optional: 'No pressure — the app remains free for everyone.', action: 'Buy me a beer', close: 'Close support panel' },
     install: { open: 'Install Safe to Swim', title: 'Add Safe to Swim to your Home Screen', description: 'Open it like an app without searching for the website.', iosShare: 'In Safari, tap the Share button.', iosAdd: 'Choose Add to Home Screen.', iosConfirm: 'Tap Add in the top-right corner.', browserMenu: 'Open your browser menu.', browserInstall: 'Choose Install app or Add to Home screen.', browserConfirm: 'Confirm the installation.', done: 'Got it', close: 'Close installation guide' },
-    footer: { tagline: 'More confident decisions before entering the water.', back: 'Back to top' },
+    footer: { tagline: 'More confident decisions before entering the water.', contact: 'Contact me', back: 'Back to top' },
     map: {
       title: 'Detailed coastline map', reset: 'Full coastline', activeZones: '{count} active RNLI zones', notRecommended: 'Not recommended for this time', checkOnSite: 'Check conditions on site',
       statusNote: 'Zone colours show patrol status; current model risk is shown above, and flags on site take priority.', modelStatusNote: 'The circle shows current model risk; check conditions on site.', layers: 'Map layers', zones: 'Swimming and patrol zones', hazards: 'Piers and {count} groynes', incidents: '2022 incident layer',
@@ -89,7 +92,7 @@ const translations = {
     waterQuality: {
       eyebrow: 'Surveillance officielle', title: 'Qualité de l’eau de baignade', official: 'Données officielles', annual: 'Classement annuel {year}', monitoringSite: 'Site de contrôle', nearest: 'Site officiel le plus proche · {distance} km', provider: 'Fournisseur', snapshot: 'Instantané mis à jour le {date}', shortTerm: 'Risque de pollution à court terme', riskNormal: 'Aucun risque accru dans le flux officiel actuel.', riskElevated: 'Le flux officiel indique un risque accru à court terme.', noPrediction: 'Aucune prévision à court terme n’est incluse pour ce site.', afterRain: 'Après de fortes pluies', rainAdvice: 'La pluie peut dégrader la qualité de l’eau. Consultez l’avis officiel avant de vous baigner.', note: 'Le classement annuel décrit la qualité mesurée, pas les vagues, courants ou dangers locaux. Suivez les alertes et panneaux.', openSource: 'Ouvrir la fiche officielle',
       shortTitle: 'Qualité de l’eau', annualShort: 'Qualité annuelle de l’eau', summaryNormal: 'Aucun risque accru à court terme', summaryElevated: 'Risque accru à court terme', summaryAnnual: 'Classement officiel annuel',
-      classes: { excellent: 'Excellente', good: 'Bonne', sufficient: 'Suffisante', poor: 'Mauvaise', unclassified: 'Non classée' },
+      classes: { closed: 'Fermée', satisfactory: 'Satisfaisante', excellent: 'Excellente', good: 'Bonne', sufficient: 'Suffisante', poor: 'Mauvaise', unclassified: 'Non classée' },
     },
     safety: {
       unknownEyebrow: 'Données indisponibles', unknownTitle: 'Vérifiez les conditions sur place.', unknownDescription: 'Le modèle marin ne fournit pas de données fiables pour ce lieu et cette heure ; aucune évaluation de baignade n’est affichée.',
@@ -133,7 +136,7 @@ const translations = {
     disclaimer: { important: 'Important :', text: 'Ces informations reposent sur un modèle et ne constituent pas une autorisation officielle de baignade. Suivez toujours les indications des sauveteurs affichées sur place.', data: 'Données : Open-Meteo' },
     support: { open: 'Soutenir Safe to Swim', title: 'Safe to Swim vous est utile ?', text: 'Safe to Swim est gratuit et indépendant. Si l’app vous a aidé à préparer une baignade, vous pouvez offrir une bière à Gergely.', optional: 'Sans aucune obligation — l’app reste gratuite pour tout le monde.', action: 'M’offrir une bière', close: 'Fermer le panneau de soutien' },
     install: { open: 'Installer Safe to Swim', title: 'Ajoutez Safe to Swim à l’écran d’accueil', description: 'Ouvrez-le comme une app sans rechercher le site.', iosShare: 'Dans Safari, touchez le bouton Partager.', iosAdd: 'Choisissez Sur l’écran d’accueil.', iosConfirm: 'Touchez Ajouter en haut à droite.', browserMenu: 'Ouvrez le menu du navigateur.', browserInstall: 'Choisissez Installer l’application ou Ajouter à l’écran d’accueil.', browserConfirm: 'Confirmez l’installation.', done: 'Compris', close: 'Fermer le guide d’installation' },
-    footer: { tagline: 'Des décisions plus sûres avant d’entrer dans l’eau.', back: 'Retour en haut' },
+    footer: { tagline: 'Des décisions plus sûres avant d’entrer dans l’eau.', contact: 'Me contacter', back: 'Retour en haut' },
     map: {
       title: 'Carte détaillée du littoral', reset: 'Tout le littoral', activeZones: '{count} zones RNLI actives', notRecommended: 'Déconseillé pour cette heure', checkOnSite: 'Vérifier sur place',
       statusNote: 'La couleur des zones indique l’état de la surveillance ; le risque du modèle est affiché ci-dessus et les drapeaux sur place prévalent.', modelStatusNote: 'Le cercle indique le risque actuel du modèle ; vérifiez les conditions sur place.', layers: 'Couches de la carte', zones: 'Zones de baignade et de surveillance', hazards: 'Jetées et {count} épis', incidents: 'Couche des incidents 2022',
@@ -157,7 +160,7 @@ const translations = {
     waterQuality: {
       eyebrow: 'Monitoraggio ufficiale', title: 'Qualità dell’acqua di balneazione', official: 'Dati ufficiali', annual: 'Classificazione annuale {year}', monitoringSite: 'Sito di monitoraggio', nearest: 'Sito ufficiale più vicino · {distance} km', provider: 'Fornitore dati', snapshot: 'Dati aggiornati al {date}', shortTerm: 'Rischio di inquinamento a breve termine', riskNormal: 'Il flusso ufficiale attuale non mostra un rischio maggiore.', riskElevated: 'Il flusso ufficiale indica un rischio maggiore a breve termine.', noPrediction: 'Nessuna previsione a breve termine inclusa per questo sito.', afterRain: 'Dopo piogge intense', rainAdvice: 'La pioggia può influire sulla qualità dell’acqua. Controlla l’avviso ufficiale prima di nuotare.', note: 'La classificazione annuale descrive la qualità monitorata, non onde, correnti o sicurezza locale. Segui avvisi e cartelli.', openSource: 'Apri il record ufficiale',
       shortTitle: 'Qualità dell’acqua', annualShort: 'Qualità annuale dell’acqua', summaryNormal: 'Nessun rischio maggiore a breve termine', summaryElevated: 'Rischio maggiore a breve termine', summaryAnnual: 'Classificazione ufficiale annuale',
-      classes: { excellent: 'Eccellente', good: 'Buona', sufficient: 'Sufficiente', poor: 'Scarsa', unclassified: 'Non classificata' },
+      classes: { closed: 'Chiusa', satisfactory: 'Soddisfacente', excellent: 'Eccellente', good: 'Buona', sufficient: 'Sufficiente', poor: 'Scarsa', unclassified: 'Non classificata' },
     },
     safety: {
       unknownEyebrow: 'Dati non disponibili', unknownTitle: 'Controlla le condizioni sul posto.', unknownDescription: 'Il modello marino non dispone di dati affidabili per questa località e questo orario, quindi non viene mostrata una valutazione.',
@@ -201,7 +204,7 @@ const translations = {
     disclaimer: { important: 'Importante:', text: 'Queste indicazioni si basano su un modello e non sono un’autorizzazione ufficiale alla balneazione. Segui sempre le indicazioni presenti sul posto.', data: 'Dati: Open-Meteo' },
     support: { open: 'Sostieni Safe to Swim', title: 'Ti è utile Safe to Swim?', text: 'Safe to Swim è gratuito e indipendente. Se ti ha aiutato a pianificare una nuotata, puoi offrire una birra a Gergely.', optional: 'Nessun obbligo: l’app rimane gratuita per tutti.', action: 'Offrimi una birra', close: 'Chiudi il pannello di supporto' },
     install: { open: 'Installa Safe to Swim', title: 'Aggiungi Safe to Swim alla schermata Home', description: 'Aprilo come un’app senza cercare il sito.', iosShare: 'In Safari, tocca il pulsante Condividi.', iosAdd: 'Scegli Aggiungi alla schermata Home.', iosConfirm: 'Tocca Aggiungi in alto a destra.', browserMenu: 'Apri il menu del browser.', browserInstall: 'Scegli Installa app o Aggiungi alla schermata Home.', browserConfirm: 'Conferma l’installazione.', done: 'Ho capito', close: 'Chiudi la guida di installazione' },
-    footer: { tagline: 'Decisioni più consapevoli prima di entrare in acqua.', back: 'Torna su' },
+    footer: { tagline: 'Decisioni più consapevoli prima di entrare in acqua.', contact: 'Contattami', back: 'Torna su' },
     map: {
       title: 'Mappa dettagliata della costa', reset: 'Costa completa', activeZones: '{count} zone RNLI attive', notRecommended: 'Non consigliato per questo orario', checkOnSite: 'Controlla sul posto',
       statusNote: 'I colori delle zone indicano lo stato del pattugliamento; il rischio del modello è mostrato sopra e le bandiere sul posto hanno la precedenza.', modelStatusNote: 'Il cerchio mostra il rischio attuale del modello; controlla le condizioni sul posto.', layers: 'Livelli mappa', zones: 'Zone di nuoto e sorveglianza', hazards: 'Pontili e {count} pennelli', incidents: 'Livello incidenti 2022',
@@ -225,7 +228,7 @@ const translations = {
     waterQuality: {
       eyebrow: 'Control oficial', title: 'Calidad del agua de baño', official: 'Datos oficiales', annual: 'Clasificación anual {year}', monitoringSite: 'Punto de control', nearest: 'Punto oficial más cercano · {distance} km', provider: 'Proveedor de datos', snapshot: 'Datos actualizados el {date}', shortTerm: 'Riesgo de contaminación a corto plazo', riskNormal: 'El registro oficial actual no muestra un riesgo mayor.', riskElevated: 'El registro oficial indica un riesgo mayor a corto plazo.', noPrediction: 'No hay predicción a corto plazo incluida para este lugar.', afterRain: 'Después de lluvia intensa', rainAdvice: 'La lluvia puede afectar la calidad del agua. Comprueba el aviso oficial antes de nadar.', note: 'La clasificación anual describe la calidad controlada, no las olas, corrientes o seguridad local. Sigue los avisos y señales.', openSource: 'Abrir registro oficial',
       shortTitle: 'Calidad del agua', annualShort: 'Calidad anual del agua', summaryNormal: 'Sin riesgo mayor a corto plazo', summaryElevated: 'Riesgo mayor a corto plazo', summaryAnnual: 'Clasificación oficial anual',
-      classes: { excellent: 'Excelente', good: 'Buena', sufficient: 'Suficiente', poor: 'Mala', unclassified: 'Sin clasificar' },
+      classes: { closed: 'Cerrada', satisfactory: 'Satisfactoria', excellent: 'Excelente', good: 'Buena', sufficient: 'Suficiente', poor: 'Mala', unclassified: 'Sin clasificar' },
     },
     safety: {
       unknownEyebrow: 'Datos no disponibles', unknownTitle: 'Comprueba las condiciones en el lugar.', unknownDescription: 'El modelo marino no ofrece datos fiables para este lugar y esta hora, por lo que no se muestra una valoración.',
@@ -269,7 +272,7 @@ const translations = {
     disclaimer: { important: 'Importante:', text: 'Esta orientación se basa en un modelo y no es una autorización oficial de seguridad. Sigue siempre las indicaciones mostradas en el lugar.', data: 'Datos: Open-Meteo' },
     support: { open: 'Apoya Safe to Swim', title: '¿Te resulta útil Safe to Swim?', text: 'Safe to Swim es gratis e independiente. Si te ayudó a planear un baño, puedes invitar a Gergely a una cerveza.', optional: 'Sin compromiso: la aplicación seguirá siendo gratuita para todos.', action: 'Invítame a una cerveza', close: 'Cerrar el panel de apoyo' },
     install: { open: 'Instalar Safe to Swim', title: 'Añade Safe to Swim a la pantalla de inicio', description: 'Ábrelo como una aplicación sin buscar el sitio.', iosShare: 'En Safari, toca el botón Compartir.', iosAdd: 'Elige Añadir a pantalla de inicio.', iosConfirm: 'Toca Añadir en la esquina superior derecha.', browserMenu: 'Abre el menú del navegador.', browserInstall: 'Elige Instalar aplicación o Añadir a pantalla de inicio.', browserConfirm: 'Confirma la instalación.', done: 'Entendido', close: 'Cerrar la guía de instalación' },
-    footer: { tagline: 'Decisiones más seguras antes de entrar al agua.', back: 'Volver arriba' },
+    footer: { tagline: 'Decisiones más seguras antes de entrar al agua.', contact: 'Escríbeme', back: 'Volver arriba' },
     map: {
       title: 'Mapa detallado de la costa', reset: 'Costa completa', activeZones: '{count} zonas RNLI activas', notRecommended: 'No recomendado para esta hora', checkOnSite: 'Comprueba en el lugar',
       statusNote: 'Los colores de las zonas indican el estado de vigilancia; el riesgo del modelo aparece arriba y las banderas del lugar tienen prioridad.', modelStatusNote: 'El círculo muestra el riesgo actual del modelo; comprueba las condiciones en el lugar.', layers: 'Capas del mapa', zones: 'Zonas de baño y vigilancia', hazards: 'Muelles y {count} espigones', incidents: 'Capa de incidentes de 2022',
@@ -293,7 +296,7 @@ const translations = {
     waterQuality: {
       eyebrow: 'Hivatalos ellenőrzés', title: 'Fürdővízminőség', official: 'Hivatalos adat', annual: '{year}. évi besorolás', monitoringSite: 'Mérési hely', nearest: 'Legközelebbi hivatalos hely · {distance} km', provider: 'Adatszolgáltató', snapshot: 'Pillanatkép frissítve: {date}', shortTerm: 'Rövid távú szennyezési kockázat', riskNormal: 'A jelenlegi hivatalos adatfolyam nem jelez emelkedett kockázatot.', riskElevated: 'A hivatalos adatfolyam emelkedett rövid távú kockázatot jelez.', noPrediction: 'Ehhez a helyhez nincs rövid távú előrejelzés az adatfolyamban.', afterRain: 'Nagy eső után', rainAdvice: 'Az eső ronthatja a vízminőséget. Úszás előtt ellenőrizd a legfrissebb hivatalos figyelmeztetést.', note: 'Az éves besorolás a mért vízminőséget írja le, nem a hullámokat, áramlásokat vagy helyi veszélyeket. Kövesd az aktuális jelzéseket.', openSource: 'Hivatalos adatlap megnyitása',
       shortTitle: 'Vízminőség', annualShort: 'Éves vízminőség', summaryNormal: 'Nincs jelzett rövid távú többletkockázat', summaryElevated: 'Fokozott rövid távú kockázat', summaryAnnual: 'Hivatalos éves minősítés',
-      classes: { excellent: 'Kiváló', good: 'Jó', sufficient: 'Megfelelő', poor: 'Gyenge', unclassified: 'Nincs besorolás' },
+      classes: { closed: 'Lezárva', satisfactory: 'Kielégítő', excellent: 'Kiváló', good: 'Jó', sufficient: 'Megfelelő', poor: 'Gyenge', unclassified: 'Nincs besorolás' },
     },
     safety: {
       unknownEyebrow: 'Nincs megbízható adat', unknownTitle: 'Ellenőrizd a körülményeket a helyszínen.', unknownDescription: 'Ehhez a helyhez és időponthoz nincs megbízható tengeri modelladat, ezért nem jelenítünk meg úszási minősítést.',
@@ -337,7 +340,7 @@ const translations = {
     disclaimer: { important: 'Fontos:', text: 'Ez egy időjárási modell alapján készült tájékoztató, nem hivatalos biztonsági engedély. Mindig a helyszíni vízimentői jelzések az irányadók.', data: 'Adatok: Open-Meteo' },
     support: { open: 'A Safe to Swim támogatása', title: 'Hasznos a Safe to Swim?', text: 'A Safe to Swim ingyenes és független. Ha segített megtervezni egy úszást, opcionálisan meghívhatsz egy sörre.', optional: 'Semmi nyomás — az app mindenki számára ingyenes marad.', action: 'Meghívlak egy sörre', close: 'Támogatói panel bezárása' },
     install: { open: 'Safe to Swim telepítése', title: 'Tedd ki a Safe to Swimet a főképernyőre', description: 'Nyisd meg úgy, mint egy appot, a weboldal keresése nélkül.', iosShare: 'A Safariban koppints a Megosztás gombra.', iosAdd: 'Válaszd a Főképernyőhöz adás lehetőséget.', iosConfirm: 'Koppints a jobb felső sarokban a Hozzáadásra.', browserMenu: 'Nyisd meg a böngésző menüjét.', browserInstall: 'Válaszd az Alkalmazás telepítése vagy Főképernyőhöz adás lehetőséget.', browserConfirm: 'Erősítsd meg a telepítést.', done: 'Értem', close: 'Telepítési útmutató bezárása' },
-    footer: { tagline: 'Magabiztosabb döntések a víz előtt.', back: 'Vissza az elejére' },
+    footer: { tagline: 'Magabiztosabb döntések a víz előtt.', contact: 'Írj nekem', back: 'Vissza az elejére' },
     map: {
       title: 'Részletes partszakasz-térkép', reset: 'Teljes partszakasz', activeZones: '{count} aktív RNLI-zóna', notRecommended: 'Erre az időpontra nem ajánlott', checkOnSite: 'Helyszíni ellenőrzés kell',
       statusNote: 'A zónaszínek a járőrözési állapotot mutatják; az aktuális modellkockázat felül látható, a helyszíni zászló az irányadó.', modelStatusNote: 'A kör az aktuális modellkockázatot mutatja; ellenőrizd a körülményeket a helyszínen.', layers: 'Térképrétegek', zones: 'Úszó- és felügyeleti zónák', hazards: 'Mólók és {count} hullámtörő', incidents: '2022-es incidensréteg',
@@ -354,6 +357,9 @@ const translations = {
 }
 
 for (const language of LANGUAGES) translations[language.code].outlook = outlookMessages[language.code]
+for (const language of LANGUAGES) translations[language.code].contact = contactMessages[language.code]
+for (const language of LANGUAGES) translations[language.code].windAdvice = windMessages[language.code]
+for (const language of LANGUAGES) translations[language.code].lakeDecision = lakeDecisionMessages[language.code]
 
 const tideInteractions = {
   en: { selected: 'Selected forecast', hint: 'Select or drag along the curve, or choose a tide card. Use arrow keys when the chart is focused.', choose: 'Explore tide forecast', reset: 'Back to start', current: 'Current estimated level' },

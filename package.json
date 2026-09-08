@@ -10,7 +10,8 @@
     "data:refresh": "node scripts/generate-bathing-waters.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "data:import": "node scripts/import-catalogue.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

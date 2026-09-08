@@ -1,7 +1,4 @@
-import { isBalaton, BALATON_SOURCES } from './balaton.js'
-import { COASTAL_LOCATIONS } from './coastalLocations.js'
 
-const OFFICIAL_SITES = COASTAL_LOCATIONS.filter((site) => site.source)
 
 function distanceInKilometres(first, second) {
   const radius = 6371
@@ -15,9 +12,10 @@ function distanceInKilometres(first, second) {
   return radius * 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine))
 }
 
-export function getWaterQualityForLocation(location) {
+export function getWaterQualityForLocation(location, catalogue = []) {
+  if (location.waterQuality !== undefined) return location.waterQuality
   if (location.source) return { site: location, distance: 0 }
-  const nearest = OFFICIAL_SITES.reduce((best, site) => {
+  const nearest = catalogue.filter(site => site.source).reduce((best, site) => {
     if ((site.waterType ?? 'coastal') !== (location.waterType ?? 'coastal')) return best
     const distance = distanceInKilometres(location, site)
     return !best || distance < best.distance ? { site, distance } : best
@@ -26,6 +24,8 @@ export function getWaterQualityForLocation(location) {
 }
 
 export function classificationTone(classification) {
+  if (classification === 'Closed') return 'closed'
+  if (classification === 'Satisfactory') return 'satisfactory'
   if (classification === 'Poor') return 'poor'
   if (classification === 'Sufficient') return 'sufficient'
   if (classification === 'Good') return 'good'
@@ -34,7 +34,7 @@ export function classificationTone(classification) {
 }
 
 export function getOfficialWaterUrl(site) {
-  if (isBalaton(site)) return BALATON_SOURCES.quality
+  if (site.officialWaterUrl) return site.officialWaterUrl
   if (site.source === 'eea') return 'https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025'
   if (site.source === 'ea') return `https://environment.data.gov.uk/bwq/profiles/?_search=${encodeURIComponent(site.name)}`
   if (site.source === 'nrw') return `https://environment.data.gov.uk/wales/bathing-waters/profiles/?_search=${encodeURIComponent(site.name)}`

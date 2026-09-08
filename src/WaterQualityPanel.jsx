@@ -1,5 +1,5 @@
 import { AlertTriangle, ArrowUpRight, ChevronDown, CloudRain, Database, Droplets, MapPin } from 'lucide-react'
-import { CATALOG_UPDATED_ON } from './bathingWaters.generated.js'
+import { CATALOG_UPDATED_ON } from './catalogMetadata.js'
 import { classificationTone, getWaterQualityForLocation, getOfficialWaterUrl } from './waterQuality.js'
 
 const SOURCE_META = {
@@ -23,7 +23,7 @@ export default function WaterQualityPanel({ location, locale, t }) {
   if (!quality) return null
 
   const { site, distance } = quality
-  const source = SOURCE_META[site.source]
+  const source = SOURCE_META[site.source] ?? { provider: site.source }
   const tone = classificationTone(site.classification)
   const formattedDistance = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(distance)
   const snapshotDate = new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${site.catalogUpdatedOn ?? CATALOG_UPDATED_ON}T12:00:00Z`))

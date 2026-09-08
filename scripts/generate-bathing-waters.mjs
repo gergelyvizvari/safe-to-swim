@@ -137,6 +137,7 @@ const header = `// Generated from official UK bathing-water sources by scripts/g
 const generatedOn = new Date().toISOString().slice(0, 10)
 const moduleBody = `export const CATALOG_UPDATED_ON = '${generatedOn}'\n\nconst ROWS = ${JSON.stringify(rows)}\n\nexport const OFFICIAL_BATHING_WATERS = ROWS.map(([id, name, area, nation, latitude, longitude, classification, classificationYear, riskLevel, heavyRainRisk, source]) => ({\n  id, name, area, nation, latitude, longitude, seaBearing: null, classification, classificationYear, riskLevel, heavyRainRisk, source,\n}))\n`
 await writeFile(new URL('../src/bathingWaters.generated.js', import.meta.url), header + moduleBody)
+await writeFile(new URL('../src/catalogMetadata.js', import.meta.url), `export const CATALOG_UPDATED_ON = '${generatedOn}'\n`)
 
 const counts = Object.groupBy(locations, (location) => location.nation)
 console.log(Object.fromEntries(Object.entries(counts).map(([nation, items]) => [nation, items.length])))

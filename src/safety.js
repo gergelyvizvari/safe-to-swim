@@ -1,6 +1,10 @@
 import { AlertTriangle, Check, CircleHelp, ShieldAlert } from 'lucide-react'
 import { getWaterQualityForLocation } from './waterQuality.js'
-import { isOffshoreWind } from './coastalLocations.js'
+import { isOffshoreWind, shoreWindDirection } from './locationUtils.js'
+import { assessLake } from './lakeAssessment.js'
+
+// Product warning thresholds in mph, not universal swimming safety limits.
+export const WIND_THRESHOLDS = { offshore: 12, gustCaution: 20, gustDanger: 28 }
 
 export function formatNumber(value, locale, fractionDigits = 1) {
   if (!Number.isFinite(value)) return '—'
@@ -24,16 +28,26 @@ export function getSafetyReadings(conditions, location) {
   }
 }
 
-export function getSafety(conditions, location, t, locale, { source, quality = getWaterQualityForLocation(location) } = {}) {
+export function getSafety(conditions, location, t, locale, { source, quality = getWaterQualityForLocation(location), observations, now, isNow = true } = {}) {
+  if (location.waterType === 'lake' || location.marineModelSupported === false) {
+    const wind = getWindAssessment(conditions, location, source)
+    const evidence = assessLake(conditions, location, { source, quality, observations, now, isNow, wind, thresholds: WIND_THRESHOLDS })
+    const known = [...evidence.reasons, ...evidence.known].map(key => t(`lakeDecision.${key}`))
+    const description = wind.availability !== 'unavailable' ? `${windDataLabel(wind, t)}: ${formatWindReadings(wind, t, locale)}.` : windDataLabel(wind, t)
+    const action = t(`lakeDecision.${evidence.key}Action`)
+    return { level: evidence.level, eyebrow: t('lakeDecision.label'), title: t(`lakeDecision.${evidence.key}`), description,
+      reason: `${t(`lakeDecision.${evidence.key}`)} ${evidence.reasons.map(key => t(`lakeDecision.${key}`)).join(' ')} ${description}`, action, known, gaps: evidence.gaps.map(key => t(`lakeDecision.${key}`)),
+      icon: evidence.level === 'danger' ? ShieldAlert : evidence.level === 'caution' ? AlertTriangle : CircleHelp }
+  }
   const special = (level, key) => ({ level, eyebrow: t(`outlook.${key}Label`), title: t(`outlook.${key}Title`), description: t(`outlook.${key}Text`), reason: t(`outlook.${key}Text`), icon: level === 'unknown' ? CircleHelp : AlertTriangle })
-  if (source === 'stale') return special('unknown', 'stale')
-  const waterConcern = quality?.site.classification === 'Poor' || (quality?.site.riskLevel && quality.site.riskLevel.toLowerCase() !== 'normal')
+  if (source === 'stale' || source === 'unavailable') return special('unknown', 'stale')
+  const waterConcern = ['Poor', 'Closed'].includes(quality?.site.classification) || (quality?.site.riskLevel && quality.site.riskLevel.toLowerCase() !== 'normal')
   const { waveHeight, gusts, windSpeed, offshore } = getSafetyReadings(conditions, location)
   const formatReasons = (reasons) => new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' }).format(reasons)
   const dangerReasons = []
   if (waveHeight >= 1) dangerReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
-  if (gusts >= 28) dangerReasons.push(t('safety.gustReason', { value: gusts }))
-  if (offshore && windSpeed >= 12) dangerReasons.push(t('safety.offshoreReason'))
+  if (gusts >= WIND_THRESHOLDS.gustDanger) dangerReasons.push(t('safety.gustReason', { value: gusts }))
+  if (offshore && windSpeed >= WIND_THRESHOLDS.offshore) dangerReasons.push(t('safety.offshoreReason'))
 
   if (dangerReasons.length) {
     const reasons = formatReasons(dangerReasons)
@@ -46,7 +60,6 @@ export function getSafety(conditions, location, t, locale, { source, quality = g
   }
 
   if (waterConcern) return special('caution', 'water')
-  if (location.marineModelSupported === false) return { level: 'unknown', eyebrow: t('lake.label'), title: t('lake.title'), description: t('lake.description'), reason: t('lake.description'), icon: CircleHelp }
   if (!Number.isFinite(waveHeight) || !Number.isFinite(gusts)) {
     return {
       level: 'unknown', eyebrow: t('safety.unknownEyebrow'), title: t('safety.unknownTitle'),
@@ -57,7 +70,7 @@ export function getSafety(conditions, location, t, locale, { source, quality = g
   }
   const cautionReasons = []
   if (waveHeight >= 0.6) cautionReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
-  if (gusts >= 20) cautionReasons.push(t('safety.gustReason', { value: gusts }))
+  if (gusts >= WIND_THRESHOLDS.gustCaution) cautionReasons.push(t('safety.gustReason', { value: gusts }))
   if (offshore) cautionReasons.push(t('safety.offshoreReason'))
 
   if (cautionReasons.length) {
@@ -70,7 +83,11 @@ export function getSafety(conditions, location, t, locale, { source, quality = g
     }
   }
 
-  if (offshore === null || !Number.isFinite(windSpeed)) return special('unknown', 'wind')
+  if (offshore === null || !Number.isFinite(windSpeed)) {
+    const wind = getWindAssessment(conditions, location, source)
+    const description = `${formatWindReadings(wind, t, locale)}. ${t(`windAdvice.${wind.missing}`)}`
+    return { ...special('unknown', 'wind'), title: t('windAdvice.incompleteTitle'), description, reason: description }
+  }
 
 
   return {
@@ -79,6 +96,62 @@ export function getSafety(conditions, location, t, locale, { source, quality = g
     reason: t(offshore === null ? 'decision.reasons.goodUnknown' : 'decision.reasons.good'),
     icon: Check,
   }
+}
+
+export function getWindAssessment(conditions, location, source) {
+  const readings = getSafetyReadings(conditions, location)
+  // Data availability and assessment completeness are independent. In
+  // particular, absent shoreline metadata must not hide a valid wind forecast.
+  const windSpeed = source === 'unavailable' ? null : readings.windSpeed
+  const gusts = source === 'unavailable' ? null : readings.gusts
+  const windDirection = source !== 'unavailable' && Number.isFinite(conditions.windDirection) ? conditions.windDirection : null
+  const { offshore } = readings
+  const bearing = Number.isFinite(location.seaBearing) ? location.seaBearing : conditions.seaBearing
+  const shoreKnown = location.marineModelSupported !== false && Number.isFinite(bearing)
+  const missingFields = [
+    ...(!Number.isFinite(windSpeed) ? ['windSpeed'] : []),
+    ...(!Number.isFinite(gusts) ? ['gusts'] : []),
+    ...(!Number.isFinite(windDirection) ? ['windDirection'] : []),
+    ...(!shoreKnown ? ['shoreOrientation'] : []),
+  ]
+  const measurementCount = [windSpeed, gusts, windDirection].filter(Number.isFinite).length
+  const availability = !measurementCount ? 'unavailable' : source === 'stale' ? 'stale' : measurementCount === 3 ? 'available' : 'partial'
+  const stale = availability === 'stale'
+  const unavailable = availability === 'unavailable'
+  const direction = stale || unavailable || !shoreKnown ? 'unknownDirection' : shoreWindDirection(windDirection, bearing)
+  const missing = missingFields.includes('windSpeed') || missingFields.includes('gusts') ? 'missingSpeed'
+    : missingFields.includes('windDirection') ? 'missingDirection' : missingFields.includes('shoreOrientation') ? 'missingShore' : null
+  const level = stale || unavailable ? 'unknown' : gusts >= WIND_THRESHOLDS.gustDanger || (offshore && windSpeed >= WIND_THRESHOLDS.offshore) ? 'danger'
+    : gusts >= WIND_THRESHOLDS.gustCaution || offshore ? 'caution' : missing ? 'unknown' : 'low'
+  const effect = unavailable ? 'noDataHelp' : stale ? 'stale' : gusts >= WIND_THRESHOLDS.gustDanger ? 'dangerGusts'
+    : offshore && windSpeed >= WIND_THRESHOLDS.offshore ? 'dangerOffshore'
+    : gusts >= WIND_THRESHOLDS.gustCaution ? 'cautionGusts' : missing ?? (offshore ? 'offshore' : 'belowThreshold')
+  return { windSpeed, gusts, windDirection, direction, level, effect, missing, missingFields, availability, stale }
+}
+
+export function windDataLabel(wind, t, loading = false) {
+  return t(`windAdvice.data.${loading && wind.availability === 'unavailable' ? 'loading' : wind.availability}`)
+}
+
+export function windRiskLabel(wind, t) {
+  if (wind.stale || wind.availability === 'unavailable') return t('windAdvice.notAssessed')
+  return wind.level === 'unknown' ? t('windAdvice.partialAssessment')
+    : wind.level === 'low' ? t('windAdvice.belowWarning') : t(`outlook.${wind.level}`)
+}
+
+export function windMissingLabel(wind, t, locale) {
+  const fields = new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' })
+    .format(wind.missingFields.map(field => t(`windAdvice.fields.${field}`)))
+  return fields ? t('windAdvice.missingFields', { fields }) : ''
+}
+
+export function formatWindSpeed(mph, locale) {
+  if (!Number.isFinite(mph)) return '—'
+  return `${formatWholeNumber(mph)} mph / ${formatNumber(mph * 1.609344, locale, 0)} km/h`
+}
+
+export function formatWindReadings(wind, t, locale) {
+  return t('windAdvice.readings', { speed: formatWindSpeed(wind.windSpeed, locale), gusts: formatWindSpeed(wind.gusts, locale) })
 }
 
 export function compareConditions(selected, current, location) {

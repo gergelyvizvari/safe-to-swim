@@ -1,9 +1,8 @@
-import { circularDistance, isOffshoreWind } from './coastalLocations.js'
+import { shoreWindDirection } from './locationUtils.js'
 
 export function conditionLabels(point, location, timeline) {
   const bearing = Number.isFinite(location.seaBearing) ? location.seaBearing : point.seaBearing
-  const offshore = isOffshoreWind(point.windDirection, bearing)
-  const direction = offshore === null ? 'unknownDirection' : offshore ? 'offshore' : circularDistance(point.windDirection, bearing) <= 55 ? 'onshore' : 'alongshore'
+  const direction = shoreWindDirection(point.windDirection, bearing)
   const strength = !Number.isFinite(point.windSpeed) ? 'unknown' : point.windSpeed < 8 ? 'light' : point.windSpeed < 20 ? 'moderate' : 'strong'
   const gusts = !Number.isFinite(point.gusts) ? 'unknown' : point.gusts >= 28 ? 'strongGusts' : point.gusts >= 20 ? 'livelyGusts' : 'mildGusts'
   const index = timeline.findIndex((sample) => sample.time === point.time)

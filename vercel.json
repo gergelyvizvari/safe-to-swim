@@ -1,5 +1,19 @@
 {
   "functions": {
-    "api/balaton.js": { "maxDuration": 20 }
+    "api/balaton.js": {
+      "maxDuration": 20
+    },
+    "api/catalogue.js": {
+      "maxDuration": 30
+    },
+    "api/observations.js": {
+      "maxDuration": 30
+    },
+    "api/source-checks.js": {
+      "maxDuration": 60
+    },
+    "api/contact.js": {
+      "maxDuration": 20
+    }
   }
 }

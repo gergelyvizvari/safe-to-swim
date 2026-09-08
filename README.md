@@ -22,11 +22,11 @@ All forecast and tide times are displayed in the viewer's device time zone, show
 - `npm run data:refresh` refreshes the existing UK catalogue.
 - `npm run data:refresh:europe` refreshes the EEA catalogue. It pages through the official service, validates responses and replaces the generated file only after a complete download. Updating the classification season requires updating the endpoint and year in the generator together.
 
-Both catalogues are bundled, so beach search does not depend on a live catalogue service. Forecasts still require network access.
+The frontend queries a catalogue API. Configure Supabase for the database catalogue; without configuration the API reads the checked-in catalogues on the server. See [database setup and source operations](docs/supabase-setup.md). Search and forecasts require network access.
 
 ## Balaton official observations
 
-Balaton sites have a separate panel for NNGYK's latest water sample, HungaroMet water-temperature stations, measured wind/gusts, and the western/central/eastern basin storm signals. Official wind and wave forecast maps load on demand in their original Hungarian interface, including the provider's validity selector. The existing Open-Meteo forecast remains separate; station readings are not interpolated to beaches or copied into future forecast hours.
+Sites with connected official sources have a shared observations panel for NNGYK's latest water sample, HungaroMet water-temperature stations, measured wind/gusts, and the western/central/eastern basin storm signals. Official wind and wave forecast maps load on demand in their original Hungarian interface, including the provider's validity selector. The existing Open-Meteo forecast remains separate; station readings are not interpolated to beaches or copied into future forecast hours.
 
 `GET /api/balaton?location=<catalogue ID>` runs as a Vercel Node function. Vite development and preview use the same handler. A plain static-file deployment cannot supply this API: use Vercel with the `api/` and `server/` directories included, or serve the handler on your own Node backend. No API key is required. Outbound HTTPS access to `www.nnk.gov.hu`, `www.met.hu` and `mobil.met.hu` is required.
 
@@ -43,3 +43,11 @@ Sources:
 - https://www.met.hu/idojaras/tavaink/balaton/hullammagassag/
 
 The parsers depend on these public pages' structure. Sanitized HTML fixture tests cover missing values, source schema changes, date handling, station identity and independent source outages. If a layout changes, the affected source fails closed and its official link remains available.
+
+## Contact form
+
+The footer opens a translated contact form. `POST /api/contact` forwards messages to `vizvari.gergely@gmail.com` through Resend, with the visitor's address as Reply-To. The recipient is fixed on the server.
+
+Set `RESEND_API_KEY` and `RESEND_FROM_EMAIL` in `.env.local` for development and in the Vercel project's environment variables for deployment. Restart Vite after editing environment files. `RESEND_FROM_EMAIL` must be a sender on a domain verified in Resend, for example `Safe to Swim <hello@your-domain.com>`. Resend's `onboarding@resend.dev` test sender can only send to the Resend account owner's registered address. Neither variable should have a `VITE_` prefix. `.env.supabase.local` is not loaded by the default Vite development mode.
+
+The handler uses bounded JSON input, server validation, a honeypot, a 10-second provider timeout, and Resend idempotency keys for retries. It includes a best-effort limit of five attempts per IP per ten minutes in each running instance; configure deployment-wide edge rate limiting if abuse requires a shared limit. Provider acceptance is shown as successful submission, not confirmed inbox delivery. Missing configuration or a provider failure preserves the form text and shows an error. The API tests mock Resend and do not send real email.

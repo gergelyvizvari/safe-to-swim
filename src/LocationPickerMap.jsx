@@ -1,11 +1,14 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Check, Droplets, LocateFixed, MapPin, Navigation, Waves, Wind } from 'lucide-react'
-import { distanceToCoastalLocation } from './coastalLocations.js'
+import { distanceToCoastalLocation } from './locationUtils.js'
 import { useCoastalConditions } from './useCoastalConditions.js'
 import { formatNumber, formatWholeNumber, getSafety } from './safety.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
+
+import { useCatalogue } from './useCatalogue.js'
+import { catalogueMessages } from './catalogueMessages.js'
 
 const EUROPE_BOUNDS = L.latLngBounds([27, -32], [71.5, 45])
 
@@ -106,18 +109,17 @@ function MapSelectionCard({ location, selected, userPosition, onSelect, locale, 
   )
 }
 
-export default function LocationPickerMap({ locations, selectedLocation, searchActive, userPosition, onSelect, locale, t }) {
+export default function LocationPickerMap({ query = '', waterType = 'all', country = '', selectedLocation, userPosition, onSelect, locale, t }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const [activeLocationId, setActiveLocationId] = useState(selectedLocation.id)
   const [expandedLocationIds, setExpandedLocationIds] = useState([])
-  const visibleActiveLocationId = locations.some((location) => location.id === activeLocationId)
-    ? activeLocationId
-    : locations[0]?.id ?? null
-  const activeLocation = useMemo(
-    () => locations.find((location) => location.id === visibleActiveLocationId) ?? null,
-    [locations, visibleActiveLocationId],
-  )
+  const [bounds, setBounds] = useState({ west: -32, south: 27, east: 45, north: 72 })
+  const result = useCatalogue({ q: query, kind: waterType, country, limit: 500, ...bounds })
+  const locations = result.items
+  const activeLocation = locations.find(item => item.id === activeLocationId) ?? null
+  const visibleActiveLocationId = activeLocation?.id
+  const copy = catalogueMessages(locale.split('-')[0])
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return undefined
@@ -133,6 +135,12 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
     }).addTo(map)
     map.fitBounds(EUROPE_BOUNDS, { padding: [12, 12] })
     mapRef.current = map
+    const updateBounds = () => {
+      const b = map.getBounds()
+      setBounds({ west: Math.max(-180,b.getWest()), east: Math.min(180,b.getEast()), south: Math.max(-90,b.getSouth()), north: Math.min(90,b.getNorth()) })
+    }
+    map.on('moveend', updateBounds)
+    updateBounds()
     requestAnimationFrame(() => map.invalidateSize())
 
     return () => {
@@ -202,11 +210,8 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
   }, [expandedLocationIds, locations, t, visibleActiveLocationId])
 
   useEffect(() => {
-    const map = mapRef.current
-    if (!map || !searchActive || !locations.length) return
-    const bounds = L.latLngBounds(locations.map((location) => [location.latitude, location.longitude]))
-    map.fitBounds(bounds, { padding: [42, 42], maxZoom: 11, animate: false })
-  }, [locations, searchActive])
+    mapRef.current?.fitBounds(EUROPE_BOUNDS, { padding: [12, 12], animate: false })
+  }, [query, waterType, country])
 
   const resetMap = () => {
     setExpandedLocationIds([])
@@ -219,6 +224,7 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
       <button className="location-map-reset" type="button" onClick={resetMap}>
         <LocateFixed size={15} />{t('locationPicker.resetMap')}
       </button>
+      {(result.loading || result.error || result.total > locations.length) && <p className="catalogue-map-status" role="status">{result.loading ? copy.loading : result.error ? copy.error : copy.zoom}</p>}
       {activeLocation ? (
         <MapSelectionCard
           key={activeLocation.id}
@@ -229,9 +235,9 @@ export default function LocationPickerMap({ locations, selectedLocation, searchA
           locale={locale}
           t={t}
         />
-      ) : (
+      ) : !result.loading && locations.length === 0 ? (
         <div className="location-map-empty">{t('locationPicker.mapEmpty')}</div>
-      )}
+      ) : null}
     </div>
   )
 }

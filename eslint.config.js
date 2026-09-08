@@ -15,7 +15,7 @@ export default [
     },
   },
   {
-    files: ['scripts/**/*.mjs'],
+    files: ['scripts/**/*.mjs', 'server/**/*.js', 'api/**/*.js', 'vite.config.js'],
     languageOptions: { globals: globals.node },
   },
   { ...reactHooks.configs.flat['recommended-latest'], files: ['**/*.{js,jsx}'] },
