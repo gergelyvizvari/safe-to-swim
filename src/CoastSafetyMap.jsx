@@ -1,3 +1,4 @@
+import { locationDisplayName } from './locationNames.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
@@ -149,11 +150,13 @@ function textPopup(title, detail) {
   return wrapper
 }
 
-export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
+export function CoastSafetyMap({ safety, current, modelPoint, location, language = 'en', t }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const [layers, setLayers] = useState({ zones: true, hazards: true, incidents: false })
-  const hasDetailedMap = location.hasDetailedMap === true
+  const inland = location.waterType === 'lake' || location.marineModelSupported === false
+  const hasDetailedMap = !inland && location.hasDetailedMap === true
+  const title = t(inland ? 'map.locationTitle' : 'map.title')
   const resolvedModelPoint = useMemo(() => (
     [modelPoint?.latitude, modelPoint?.longitude].every(Number.isFinite)
       ? [modelPoint.latitude, modelPoint.longitude]
@@ -183,9 +186,11 @@ export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
     L.control.scale({ imperial: false, position: 'bottomleft' }).addTo(map)
     map.fitBounds(COAST_BOUNDS, { padding: [18, 18] })
     mapRef.current = map
-    requestAnimationFrame(() => map.invalidateSize())
+    const resize = new ResizeObserver(() => map.invalidateSize({ pan: false }))
+    resize.observe(containerRef.current)
 
     return () => {
+      resize.disconnect()
       map.remove()
       mapRef.current = null
     }
@@ -209,6 +214,11 @@ export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
     const overlay = L.layerGroup().addTo(map)
 
     if (!hasDetailedMap) {
+      L.marker([location.latitude, location.longitude], {
+        icon: L.divIcon({ className: 'location-picker-map-marker is-active', html: '<span></span>', iconSize: [24, 24], iconAnchor: [12, 12] }),
+        title: locationDisplayName(location, language), alt: locationDisplayName(location, language),
+      }).bindTooltip(() => { const label = document.createElement('span'); label.textContent = locationDisplayName(location, language); return label }).addTo(overlay)
+      if (inland) return () => overlay.remove()
       L.circle([location.latitude, location.longitude], {
         radius: 700,
         color: TONE_STYLE[overallTone].color,
@@ -305,7 +315,7 @@ export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
     }).bindTooltip(t('map.modelTooltip')).addTo(overlay)
 
     return () => overlay.remove()
-  }, [current.time, hasDetailedMap, layers, location.latitude, location.longitude, location.name, overallTone, resolvedModelPoint, safety.level, t])
+  }, [current.time, inland, hasDetailedMap, layers, location, language, overallTone, resolvedModelPoint, safety.level, t])
 
   function toggleLayer(name) {
     setLayers((currentLayers) => ({ ...currentLayers, [name]: !currentLayers[name] }))
@@ -324,13 +334,13 @@ export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
   return (
     <section className="panel coast-map-panel" aria-labelledby="coast-map-title">
       <div className="section-heading map-heading">
-        <div><span className="eyebrow">{hasDetailedMap ? 'Hove Lagoon → Brighton Marina' : `${location.area} · ${location.nation}`}</span><h2 id="coast-map-title">{t('map.title')}</h2></div>
-        <button className="map-reset-button" type="button" onClick={resetMap}><LocateFixed size={15} />{t('map.reset')}</button>
+        <div><span className="eyebrow">{hasDetailedMap ? 'Hove Lagoon → Brighton Marina' : [location.area, location.nation].filter((value, index, values) => value && values.indexOf(value) === index).join(' · ')}</span><h2 id="coast-map-title">{title}</h2></div>
+        <button className="map-reset-button" type="button" onClick={resetMap}><LocateFixed size={15} />{t(inland ? 'map.centerLocation' : 'map.reset')}</button>
       </div>
-      <div className="map-status-row">
+      {!inland && <div className="map-status-row">
         <span className={`map-current-status ${overallTone}`}><i />{statusLabel}</span>
         <span>{t(hasDetailedMap ? 'map.statusNote' : 'map.modelStatusNote')}</span>
-      </div>
+      </div>}
       {hasDetailedMap && (
         <div className="map-layer-controls" aria-label={t('map.layers')}>
           <button className={layers.zones ? 'is-active zones' : ''} type="button" aria-pressed={layers.zones} onClick={() => toggleLayer('zones')}><Flag size={14} />{t('map.zones')}</button>
@@ -339,19 +349,19 @@ export function CoastSafetyMap({ safety, current, modelPoint, location, t }) {
         </div>
       )}
       <div className="coast-map-frame">
-        <div className="coast-map-canvas" ref={containerRef} role="region" aria-label={`${location.name} — ${t('map.title')}`} />
-        <div className="map-legend" aria-label={t('map.legend')}>
+        <div className="coast-map-canvas" ref={containerRef} role="region" aria-label={`${locationDisplayName(location, language)} — ${title}`} />
+        {!inland && <div className="map-legend" aria-label={t('map.legend')}>
           <strong>{t('map.legend')}</strong>
           {hasDetailedMap && <span><i className="good" />{t('map.activeZone')}</span>}
           {hasDetailedMap && <span><i className="caution" />{t('map.unguarded')}</span>}
           {hasDetailedMap && <span><i className="danger" />{t('map.physicalHazard')}</span>}
           {resolvedModelPoint && <span><i className="model" />{t('map.modelPoint')}</span>}
           {hasDetailedMap && layers.incidents && <span><i className="incident" />{t('map.incidentShare')}</span>}
-        </div>
+        </div>}
       </div>
       <div className="map-footnote">
         <Info size={15} />
-        <span>{hasDetailedMap ? t('map.footnote', { count: GROYNES.length }) : t('map.modelOnly')}</span>
+        <span>{inland ? locationDisplayName(location, language) : hasDetailedMap ? t('map.footnote', { count: GROYNES.length }) : t('map.modelOnly')}</span>
         {hasDetailedMap && (
           <span className="map-source-links">
             <a href="https://www.brighton-hove.gov.uk/libraries-leisure-and-arts/seafront/lifeguard-posts-map" target="_blank" rel="noreferrer">{t('map.postsSource')} <ArrowUpRight size={14} /></a>

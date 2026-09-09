@@ -1,8 +1,8 @@
+import { locationSearchScore } from '../src/locationSearch.js'
 import { hasDatabase, database, rpc } from './supabase.js'
 import { initialBindings, publicBindings } from './sourceRegistry.js'
 import { distanceToCoastalLocation } from '../src/locationUtils.js'
 
-const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
 const localCatalogue = () => import('../src/coastalLocations.js')
 
 export function parseSearch(params) {
@@ -28,18 +28,20 @@ export function parseSearch(params) {
 }
 
 export async function searchCatalogue(options) {
-  if (hasDatabase()) return rpc('search_locations', options)
+  if (hasDatabase() && !options.query) return rpc('search_locations', options)
   const { COASTAL_LOCATIONS, FEATURED_LOCATIONS } = await localCatalogue()
   const featured = new Set(FEATURED_LOCATIONS.map(l => l.id))
-  const items = COASTAL_LOCATIONS.filter(l => (options.kind === 'all' || (l.waterType ?? 'coastal') === options.kind)
+  const catalogue = hasDatabase() ? await getMapCatalogue() : COASTAL_LOCATIONS
+  const scores = new Map()
+  const items = catalogue.filter(l => (options.kind === 'all' || (l.waterType ?? 'coastal') === options.kind)
     && (!options.country || l.nation === options.country)
     && (!options.featured_only || featured.has(l.id))
-    && normalize(`${l.name} ${l.area} ${l.nation}`).includes(normalize(options.query))
+    && (scores.set(l.id, locationSearchScore(l, options.query)), Number.isFinite(scores.get(l.id)))
     && (options.west === null || l.longitude >= options.west && l.longitude <= options.east && l.latitude >= options.south && l.latitude <= options.north))
   items.sort((a,b) => options.near_lat !== null
     ? distanceToCoastalLocation(options.near_lat,options.near_lon,a) - distanceToCoastalLocation(options.near_lat,options.near_lon,b)
-    : Number(featured.has(b.id)) - Number(featured.has(a.id)) || a.name.localeCompare(b.name) || a.id.localeCompare(b.id))
-  return { total: items.length, items: items.slice(options.page_offset, options.page_offset + options.page_size), nations: [...new Set(COASTAL_LOCATIONS.map(l => l.nation))].sort() }
+    : scores.get(a.id) - scores.get(b.id) || Number(featured.has(b.id)) - Number(featured.has(a.id)) || a.name.localeCompare(b.name) || a.id.localeCompare(b.id))
+  return { total: items.length, items: items.slice(options.page_offset, options.page_offset + options.page_size), nations: [...new Set(catalogue.map(l => l.nation))].sort() }
 }
 
 export async function getLocation(id) {
@@ -70,4 +72,31 @@ export async function getBindings(id) {
   const { COASTAL_LOCATIONS } = await localCatalogue()
   const location = COASTAL_LOCATIONS.find(l => l.id === id)
   return location ? initialBindings(location) : []
+}
+
+let mapIndex
+let mapIndexExpires = 0
+export async function getMapCatalogue() {
+  if (!mapIndex || Date.now() > mapIndexExpires) {
+    mapIndexExpires = Date.now() + 300000
+    mapIndex = (async () => {
+      let items
+      if (hasDatabase()) {
+        items = []
+        // Keyset pagination avoids the search endpoint's 500-location cap.
+        let lastId = ''
+        while (true) {
+          const rows = await database(`locations?active=eq.true&select=id,name,area,nation,latitude,longitude,water_type,nameRecord:metadata->nameRecord&order=id&limit=1000${lastId ? `&id=gt.${encodeURIComponent(lastId)}` : ''}`)
+          items.push(...rows.map(({ water_type, ...row }) => ({ ...row, waterType: water_type })))
+          if (!rows.length) break
+          lastId = rows.at(-1).id
+        }
+      } else {
+        const { COASTAL_LOCATIONS } = await localCatalogue()
+        items = COASTAL_LOCATIONS.map(({ id, name, area, nation, latitude, longitude, waterType }) => ({ id, name, area, nation, latitude, longitude, waterType }))
+      }
+      return items
+    })().catch(error => { mapIndex = null; throw error })
+  }
+  return mapIndex
 }

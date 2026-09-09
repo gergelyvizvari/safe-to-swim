@@ -1,3 +1,4 @@
+import { locationDisplayName } from './locationNames.js'
 import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import { Check, List, LocateFixed, Map, MapPin, Search, Waves, X } from 'lucide-react'
 import { useCatalogue } from './useCatalogue.js'
@@ -10,7 +11,7 @@ function cardTone(location) {
   return [...location.id].reduce((total, character) => total + character.charCodeAt(0), 0) % 6
 }
 
-function LocationCard({ location, selected, onSelect, t, interactive = true }) {
+function LocationCard({ location, selected, onSelect, t, locale, interactive = true }) {
   const Card = interactive ? 'button' : 'div'
   return (
     <Card
@@ -21,7 +22,7 @@ function LocationCard({ location, selected, onSelect, t, interactive = true }) {
     >
       <span className="location-card-waves" aria-hidden="true"><Waves size={76} strokeWidth={1.2} /></span>
       <span className="location-card-copy">
-        <strong>{location.name}</strong>
+        <strong>{locationDisplayName(location, locale)}</strong>
         <span>{location.area !== location.nation ? `${location.area} · ` : ''}{location.nation} · {t(`lake.${location.waterType ?? 'coastal'}`)}</span>
       </span>
       <span className="location-card-pin" aria-hidden="true"><MapPin size={18} /></span>
@@ -157,7 +158,7 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
               {result.loading ? <p role="status">{copy.loading}</p> : result.error ? <p role="alert">{copy.error}</p> : visibleResults.length ? (
                 <div className="location-card-grid">
                   {visibleResults.map((item) => (
-                    <LocationCard key={item.id} location={item} selected={item.id === location.id} onSelect={selectLocation} t={t} />
+                    <LocationCard key={item.id} location={item} selected={item.id === location.id} onSelect={selectLocation} t={t} locale={locale} />
                   ))}
                 </div>
               ) : <p className="location-empty">{t('locationPicker.empty')}</p>}
@@ -171,7 +172,7 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
               <section aria-labelledby="selected-location-title">
                 <div className="location-list-heading"><h2 id="selected-location-title">{t('locationPicker.current')}</h2></div>
                 <div className="location-card-grid location-current-grid">
-                  <LocationCard location={location} selected interactive={false} t={t} />
+                  <LocationCard location={location} selected interactive={false} t={t} locale={locale} />
                 </div>
               </section>
               <section aria-labelledby="suggested-locations-title">
@@ -180,7 +181,7 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
                   {suggested.error && <p role="alert">{copy.error}</p>}
                   {suggested.loading && <p role="status">{copy.loading}</p>}
                   {suggestedLocations.map((item) => (
-                    <LocationCard key={item.id} location={item} selected={false} onSelect={selectLocation} t={t} />
+                    <LocationCard key={item.id} location={item} selected={false} onSelect={selectLocation} t={t} locale={locale} />
                   ))}
                 </div>
               </section>

@@ -1,4 +1,6 @@
-import { useEffect, useRef, useState } from 'react'
+import { useWeatherAlerts } from './useWeatherAlerts.js'
+import { locationDisplayName } from './locationNames.js'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { Check, Droplets, LocateFixed, MapPin, Navigation, Waves, Wind } from 'lucide-react'
@@ -7,7 +9,8 @@ import { useCoastalConditions } from './useCoastalConditions.js'
 import { formatNumber, formatWholeNumber, getSafety } from './safety.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
 
-import { useCatalogue } from './useCatalogue.js'
+import { loadMapCatalogue, filterMapLocations } from './mapCatalogue.js'
+import { catalogueRequest } from './catalogueClient.js'
 import { catalogueMessages } from './catalogueMessages.js'
 
 const EUROPE_BOUNDS = L.latLngBounds([27, -32], [71.5, 45])
@@ -66,8 +69,9 @@ function clusterVisibleLocations(map, locations, expandedLocationIds) {
 
 function MapSelectionCard({ location, selected, userPosition, onSelect, locale, t }) {
   const { data, loading, error } = useCoastalConditions(location)
+  const weatherAlerts = useWeatherAlerts(location, locale.split('-')[0])
   const hasLivePreview = !loading && !error && (data.source === 'live' || (location.marineModelSupported === false && data.source === 'partial'))
-  const safety = hasLivePreview ? getSafety(data.current, location, t, locale) : null
+  const safety = hasLivePreview ? getSafety(data.current, location, t, locale, { weatherAlerts }) : null
   const SafetyIcon = safety?.icon
   const qualityTone = qualityToneForLocation(location)
   const distance = userPosition
@@ -79,7 +83,7 @@ function MapSelectionCard({ location, selected, userPosition, onSelect, locale, 
       <div className="location-map-selection-heading">
         <span className="location-map-selection-pin"><MapPin size={18} /></span>
         <span className="location-map-selection-copy">
-          <strong>{location.name}</strong>
+          <strong>{locationDisplayName(location, locale)}</strong>
           <small>
             {location.area !== location.nation ? `${location.area} · ` : ''}{location.nation}
             {Number.isFinite(distance) && <> · {t('locationPicker.distanceAway', { distance: formatNumber(distance, locale) })}</>}
@@ -114,11 +118,27 @@ export default function LocationPickerMap({ query = '', waterType = 'all', count
   const mapRef = useRef(null)
   const [activeLocationId, setActiveLocationId] = useState(selectedLocation.id)
   const [expandedLocationIds, setExpandedLocationIds] = useState([])
-  const [bounds, setBounds] = useState({ west: -32, south: 27, east: 45, north: 72 })
-  const result = useCatalogue({ q: query, kind: waterType, country, limit: 500, ...bounds })
-  const locations = result.items
-  const activeLocation = locations.find(item => item.id === activeLocationId) ?? null
-  const visibleActiveLocationId = activeLocation?.id
+  const [index, setIndex] = useState({ items: [], loading: true, error: false })
+  const [preview, setPreview] = useState(null)
+  const locations = useMemo(() => filterMapLocations(index.items, query, country, waterType), [index.items, query, country, waterType])
+  const activeLocation = preview?.id === activeLocationId && locations.some(item => item.id === activeLocationId) ? preview : null
+  const visibleActiveLocationId = activeLocationId
+  const result = index
+
+  useEffect(() => {
+    let cancelled = false
+    loadMapCatalogue().then(items => { if (!cancelled) setIndex({ items, loading: false, error: false }) })
+      .catch(() => { if (!cancelled) setIndex({ items: [], loading: false, error: true }) })
+    return () => { cancelled = true }
+  }, [])
+
+  useEffect(() => {
+    if (!activeLocationId) return
+    const controller = new AbortController()
+    catalogueRequest({ id: activeLocationId }, controller.signal).then(setPreview).catch(() => {})
+    return () => controller.abort()
+  }, [activeLocationId])
+
   const copy = catalogueMessages(locale.split('-')[0])
 
   useEffect(() => {
@@ -135,15 +155,11 @@ export default function LocationPickerMap({ query = '', waterType = 'all', count
     }).addTo(map)
     map.fitBounds(EUROPE_BOUNDS, { padding: [12, 12] })
     mapRef.current = map
-    const updateBounds = () => {
-      const b = map.getBounds()
-      setBounds({ west: Math.max(-180,b.getWest()), east: Math.min(180,b.getEast()), south: Math.max(-90,b.getSouth()), north: Math.min(90,b.getNorth()) })
-    }
-    map.on('moveend', updateBounds)
-    updateBounds()
-    requestAnimationFrame(() => map.invalidateSize())
+    const resize = new ResizeObserver(() => map.invalidateSize({ pan: false }))
+    resize.observe(containerRef.current)
 
     return () => {
+      resize.disconnect()
       map.remove()
       mapRef.current = null
     }
@@ -166,10 +182,10 @@ export default function LocationPickerMap({ query = '', waterType = 'all', count
             icon: markerIcon(location, active),
             keyboard: true,
             riseOnHover: true,
-            title: location.name,
-            alt: location.name,
+            title: locationDisplayName(location, locale),
+            alt: locationDisplayName(location, locale),
           })
-            .bindTooltip(location.name, { direction: 'top', sticky: true })
+            .bindTooltip(() => { const label = document.createElement('span'); label.textContent = locationDisplayName(location, locale); return label }, { direction: 'top', sticky: true })
             .on('click', () => {
               setActiveLocationId(location.id)
               map.panTo([location.latitude, location.longitude])
@@ -202,16 +218,23 @@ export default function LocationPickerMap({ query = '', waterType = 'all', count
     }
 
     renderMarkers()
-    map.on('zoomend moveend', renderMarkers)
+    map.on('moveend', renderMarkers)
     return () => {
-      map.off('zoomend moveend', renderMarkers)
+      map.off('moveend', renderMarkers)
       markerLayer.remove()
     }
-  }, [expandedLocationIds, locations, t, visibleActiveLocationId])
+  }, [expandedLocationIds, locations, t, locale, visibleActiveLocationId])
 
   useEffect(() => {
-    mapRef.current?.fitBounds(EUROPE_BOUNDS, { padding: [12, 12], animate: false })
-  }, [query, waterType, country])
+    if (!locations.length) return
+    const target = query || country || waterType !== 'all'
+      ? L.latLngBounds(locations.map(item => [item.latitude, item.longitude])) : EUROPE_BOUNDS
+    const map = mapRef.current
+    const fit = () => map?.fitBounds(target, { padding: [32, 32], maxZoom: 12, animate: false })
+    fit()
+    map?.on('resize', fit)
+    return () => { map?.off('resize', fit) }
+  }, [locations, query, waterType, country])
 
   const resetMap = () => {
     setExpandedLocationIds([])
@@ -224,7 +247,7 @@ export default function LocationPickerMap({ query = '', waterType = 'all', count
       <button className="location-map-reset" type="button" onClick={resetMap}>
         <LocateFixed size={15} />{t('locationPicker.resetMap')}
       </button>
-      {(result.loading || result.error || result.total > locations.length) && <p className="catalogue-map-status" role="status">{result.loading ? copy.loading : result.error ? copy.error : copy.zoom}</p>}
+      {(result.loading || result.error) && <p className="catalogue-map-status" role="status">{result.loading ? copy.loading : copy.error}</p>}
       {activeLocation ? (
         <MapSelectionCard
           key={activeLocation.id}

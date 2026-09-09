@@ -18,7 +18,7 @@ const translations = {
     header: { home: 'Safe to Swim home', location: 'Coastal location', chooseLocation: 'Choose a European bathing site', locate: 'Use my current location', locating: 'Finding the nearest beach…', locationFound: 'Nearest supported beach: {location}', locationDenied: 'Location access was not allowed.', locationError: 'Your location could not be found.', refresh: 'Refresh data', language: 'Language' },
     locationPicker: { timeZone: 'Times in your time zone: {zone}', title: 'Choose a beach', subtitle: 'Search {count} European bathing sites', searchLabel: 'Search beaches', searchPlaceholder: 'Search beach, town or area…', useLocation: 'Find the nearest beach', current: 'Selected beach', suggested: 'Popular beaches', results: '{count} results', empty: 'No beaches match this search.', refine: 'Showing the first {count} results. Refine your search to narrow it down.', selected: 'Selected', close: 'Close beach picker', viewLabel: 'Choose beach view', listView: 'List', mapView: 'Map', mapAria: 'Map of European bathing sites', mapLoading: 'Loading map…', mapEmpty: 'No beaches match this search.', resetMap: 'Europe', selectMapLocation: 'Select beach', clusterLabel: '{count} beaches — zoom in', previewLoading: 'Loading conditions…', previewUnavailable: 'Preview unavailable', previewAria: 'Beach condition preview', distanceAway: '{distance} km away' },
     explorer: {
-      eyebrow: 'European bathing waters', title: 'Explore the whole coast', count: '{count} official bathing sites', searchLabel: 'Search bathing sites', searchPlaceholder: 'Search beach, town or area…', filterLabel: 'Filter by nation', results: '{count} matching locations', empty: 'No bathing sites match this search.', refine: 'Refine your search to see more results.', reset: 'Europe', mapLabel: 'Map of official European bathing waters', classification: 'Water quality: {value}', modelLocation: 'Model conditions available', selectedLocation: 'Selected location', excellent: 'Excellent', good: 'Good', sufficient: 'Sufficient', poor: 'Poor',
+      eyebrow: 'European bathing waters', title: 'Find a beach or lake', count: '{count} official bathing sites', searchLabel: 'Search bathing sites', searchPlaceholder: 'Search beach, town or area…', filterLabel: 'Filter by nation', results: '{count} matching locations', empty: 'No bathing sites match this search.', refine: 'Refine your search to see more results.', reset: 'Europe', mapLabel: 'Map of official European bathing waters', classification: 'Water quality: {value}', modelLocation: 'Model conditions available', selectedLocation: 'Selected location', excellent: 'Excellent', good: 'Good', sufficient: 'Sufficient', poor: 'Poor',
       nations: { all: 'All', england: 'England', wales: 'Wales', scotland: 'Scotland', ni: 'Northern Ireland' },
     },
     waterQuality: {
@@ -55,8 +55,9 @@ const translations = {
       note: 'Open-Meteo · Turning times estimated from hourly sea levels on an 8 km model grid. Coastal accuracy is limited; not for navigation.', moreTimes: 'More tide times',
     },
     webcam: {
+      verifiedOn: 'Listing verified: {date}',
       south: 'South camera', north: 'North camera', eyebrow: 'Live beach view', title: '{location} camera', verified: 'Verified source', selector: 'Select camera', load: 'Load live view',
-      consent: 'The player connects to the external provider only after you click.', open: 'Live camera available', external: 'This provider shows the live image on its own website.', openAction: 'Open live camera', unavailableTitle: 'No verified nearby camera', unavailable: 'We only show cameras whose location and live source we could verify.', note: 'Camera images are for information only and can go offline temporarily. Always check the beach itself.', source: 'Source: {name}', nearbySource: '{name} · {distance} km away',
+      consent: 'The player connects to the external provider only after you click.', open: 'Camera on the provider’s website', external: 'This provider shows the live image on its own website.', openAction: 'Open live camera', unavailableTitle: 'No verified nearby camera', unavailable: 'We only show cameras whose location and live source we could verify.', note: 'Camera images are for information only and can go offline temporarily. Always check the beach itself.', source: 'Source: {name}', nearbySource: '{name} · {distance} km away',
     },
     details: { eyebrow: 'More information', title: 'Detailed conditions and maps', summary: 'Wind, temperature, safety checks and European coast map' },
     checklist: {
@@ -70,6 +71,7 @@ const translations = {
     install: { open: 'Install Safe to Swim', title: 'Add Safe to Swim to your Home Screen', description: 'Open it like an app without searching for the website.', iosShare: 'In Safari, tap the Share button.', iosAdd: 'Choose Add to Home Screen.', iosConfirm: 'Tap Add in the top-right corner.', browserMenu: 'Open your browser menu.', browserInstall: 'Choose Install app or Add to Home screen.', browserConfirm: 'Confirm the installation.', done: 'Got it', close: 'Close installation guide' },
     footer: { tagline: 'More confident decisions before entering the water.', contact: 'Contact me', back: 'Back to top' },
     map: {
+      locationTitle: 'Location map', centerLocation: 'Centre on location',
       title: 'Detailed coastline map', reset: 'Full coastline', activeZones: '{count} active RNLI zones', notRecommended: 'Not recommended for this time', checkOnSite: 'Check conditions on site',
       statusNote: 'Zone colours show patrol status; current model risk is shown above, and flags on site take priority.', modelStatusNote: 'The circle shows current model risk; check conditions on site.', layers: 'Map layers', zones: 'Swimming and patrol zones', hazards: 'Piers and {count} groynes', incidents: '2022 incident layer',
       region: 'Interactive map of the Brighton and Hove coastline', legend: 'Legend', activeZone: 'Active RNLI zone', unguarded: 'Unpatrolled coast', physicalHazard: 'Physical hazard', modelPoint: 'Marine model location', incidentShare: '2022 incident share',
@@ -123,8 +125,9 @@ const translations = {
       note: 'Estimation d’un modèle à 8 km ; elle peut être imprécise près du rivage et ne doit pas servir à la navigation.', moreTimes: 'Autres horaires de marée',
     },
     webcam: {
+      verifiedOn: 'Référence vérifiée : {date}',
       south: 'Caméra sud', north: 'Caméra nord', eyebrow: 'Vue de la plage en direct', title: 'Caméra de {location}', verified: 'Source vérifiée', selector: 'Choisir la caméra', load: 'Charger la vue en direct',
-      consent: 'Le lecteur ne se connecte au fournisseur externe qu’après votre clic.', open: 'Caméra en direct disponible', external: 'Le fournisseur affiche l’image en direct sur son propre site.', openAction: 'Ouvrir la caméra', unavailableTitle: 'Aucune caméra proche vérifiée', unavailable: 'Seules les caméras dont le lieu et la source en direct ont été vérifiés sont affichées.', note: 'Les images sont indicatives et la caméra peut être temporairement hors ligne. Vérifiez toujours la plage.', source: 'Source : {name}', nearbySource: '{name} · à {distance} km',
+      consent: 'Le lecteur ne se connecte au fournisseur externe qu’après votre clic.', open: 'Caméra sur le site du fournisseur', external: 'Le fournisseur affiche l’image en direct sur son propre site.', openAction: 'Ouvrir la caméra', unavailableTitle: 'Aucune caméra proche vérifiée', unavailable: 'Seules les caméras dont le lieu et la source en direct ont été vérifiés sont affichées.', note: 'Les images sont indicatives et la caméra peut être temporairement hors ligne. Vérifiez toujours la plage.', source: 'Source : {name}', nearbySource: '{name} · à {distance} km',
     },
     details: { eyebrow: 'Plus d’informations', title: 'Conditions et cartes détaillées', summary: 'Vent, température, contrôles de sécurité et carte du littoral' },
     checklist: {
@@ -138,6 +141,7 @@ const translations = {
     install: { open: 'Installer Safe to Swim', title: 'Ajoutez Safe to Swim à l’écran d’accueil', description: 'Ouvrez-le comme une app sans rechercher le site.', iosShare: 'Dans Safari, touchez le bouton Partager.', iosAdd: 'Choisissez Sur l’écran d’accueil.', iosConfirm: 'Touchez Ajouter en haut à droite.', browserMenu: 'Ouvrez le menu du navigateur.', browserInstall: 'Choisissez Installer l’application ou Ajouter à l’écran d’accueil.', browserConfirm: 'Confirmez l’installation.', done: 'Compris', close: 'Fermer le guide d’installation' },
     footer: { tagline: 'Des décisions plus sûres avant d’entrer dans l’eau.', contact: 'Me contacter', back: 'Retour en haut' },
     map: {
+      locationTitle: 'Carte du lieu', centerLocation: 'Recentrer',
       title: 'Carte détaillée du littoral', reset: 'Tout le littoral', activeZones: '{count} zones RNLI actives', notRecommended: 'Déconseillé pour cette heure', checkOnSite: 'Vérifier sur place',
       statusNote: 'La couleur des zones indique l’état de la surveillance ; le risque du modèle est affiché ci-dessus et les drapeaux sur place prévalent.', modelStatusNote: 'Le cercle indique le risque actuel du modèle ; vérifiez les conditions sur place.', layers: 'Couches de la carte', zones: 'Zones de baignade et de surveillance', hazards: 'Jetées et {count} épis', incidents: 'Couche des incidents 2022',
       region: 'Carte interactive du littoral de Brighton et Hove', legend: 'Légende', activeZone: 'Zone RNLI active', unguarded: 'Littoral non surveillé', physicalHazard: 'Danger physique', modelPoint: 'Emplacement du modèle marin', incidentShare: 'Part des incidents 2022',
@@ -191,8 +195,9 @@ const translations = {
       note: 'Stima di un modello a 8 km; può essere imprecisa vicino alla costa e non deve essere usata per la navigazione.', moreTimes: 'Altri orari di marea',
     },
     webcam: {
+      verifiedOn: 'Fonte verificata: {date}',
       south: 'Telecamera sud', north: 'Telecamera nord', eyebrow: 'Vista spiaggia in diretta', title: 'Telecamera di {location}', verified: 'Fonte verificata', selector: 'Seleziona telecamera', load: 'Carica vista live',
-      consent: 'Il lettore si collega al fornitore esterno solo dopo il clic.', open: 'Telecamera live disponibile', external: 'Il fornitore mostra l’immagine in diretta sul proprio sito.', openAction: 'Apri la telecamera', unavailableTitle: 'Nessuna telecamera vicina verificata', unavailable: 'Mostriamo solo telecamere di cui abbiamo verificato posizione e fonte live.', note: 'Le immagini sono solo informative e la telecamera può essere temporaneamente offline. Controlla sempre la spiaggia.', source: 'Fonte: {name}', nearbySource: '{name} · a {distance} km',
+      consent: 'Il lettore si collega al fornitore esterno solo dopo il clic.', open: 'Telecamera sul sito del fornitore', external: 'Il fornitore mostra l’immagine in diretta sul proprio sito.', openAction: 'Apri la telecamera', unavailableTitle: 'Nessuna telecamera vicina verificata', unavailable: 'Mostriamo solo telecamere di cui abbiamo verificato posizione e fonte live.', note: 'Le immagini sono solo informative e la telecamera può essere temporaneamente offline. Controlla sempre la spiaggia.', source: 'Fonte: {name}', nearbySource: '{name} · a {distance} km',
     },
     details: { eyebrow: 'Altre informazioni', title: 'Condizioni e mappe dettagliate', summary: 'Vento, temperatura, controlli di sicurezza e mappa costiera' },
     checklist: {
@@ -206,6 +211,7 @@ const translations = {
     install: { open: 'Installa Safe to Swim', title: 'Aggiungi Safe to Swim alla schermata Home', description: 'Aprilo come un’app senza cercare il sito.', iosShare: 'In Safari, tocca il pulsante Condividi.', iosAdd: 'Scegli Aggiungi alla schermata Home.', iosConfirm: 'Tocca Aggiungi in alto a destra.', browserMenu: 'Apri il menu del browser.', browserInstall: 'Scegli Installa app o Aggiungi alla schermata Home.', browserConfirm: 'Conferma l’installazione.', done: 'Ho capito', close: 'Chiudi la guida di installazione' },
     footer: { tagline: 'Decisioni più consapevoli prima di entrare in acqua.', contact: 'Contattami', back: 'Torna su' },
     map: {
+      locationTitle: 'Mappa del luogo', centerLocation: 'Centra sul luogo',
       title: 'Mappa dettagliata della costa', reset: 'Costa completa', activeZones: '{count} zone RNLI attive', notRecommended: 'Non consigliato per questo orario', checkOnSite: 'Controlla sul posto',
       statusNote: 'I colori delle zone indicano lo stato del pattugliamento; il rischio del modello è mostrato sopra e le bandiere sul posto hanno la precedenza.', modelStatusNote: 'Il cerchio mostra il rischio attuale del modello; controlla le condizioni sul posto.', layers: 'Livelli mappa', zones: 'Zone di nuoto e sorveglianza', hazards: 'Pontili e {count} pennelli', incidents: 'Livello incidenti 2022',
       region: 'Mappa interattiva della costa di Brighton e Hove', legend: 'Legenda', activeZone: 'Zona RNLI attiva', unguarded: 'Costa non sorvegliata', physicalHazard: 'Pericolo fisico', modelPoint: 'Posizione del modello marino', incidentShare: 'Quota incidenti 2022',
@@ -259,8 +265,9 @@ const translations = {
       note: 'Estimación de un modelo de 8 km; puede ser imprecisa cerca de la costa y no debe usarse para navegación.', moreTimes: 'Más horarios de marea',
     },
     webcam: {
+      verifiedOn: 'Referencia verificada: {date}',
       south: 'Cámara sur', north: 'Cámara norte', eyebrow: 'Vista de playa en directo', title: 'Cámara de {location}', verified: 'Fuente verificada', selector: 'Seleccionar cámara', load: 'Cargar vista en directo',
-      consent: 'El reproductor solo se conecta al proveedor externo después de hacer clic.', open: 'Cámara en directo disponible', external: 'El proveedor muestra la imagen en directo en su propio sitio.', openAction: 'Abrir cámara en directo', unavailableTitle: 'No hay cámara cercana verificada', unavailable: 'Solo mostramos cámaras cuya ubicación y fuente en directo hemos podido verificar.', note: 'Las imágenes son informativas y la cámara puede desconectarse temporalmente. Comprueba siempre la playa.', source: 'Fuente: {name}', nearbySource: '{name} · a {distance} km',
+      consent: 'El reproductor solo se conecta al proveedor externo después de hacer clic.', open: 'Cámara en la web del proveedor', external: 'El proveedor muestra la imagen en directo en su propio sitio.', openAction: 'Abrir cámara en directo', unavailableTitle: 'No hay cámara cercana verificada', unavailable: 'Solo mostramos cámaras cuya ubicación y fuente en directo hemos podido verificar.', note: 'Las imágenes son informativas y la cámara puede desconectarse temporalmente. Comprueba siempre la playa.', source: 'Fuente: {name}', nearbySource: '{name} · a {distance} km',
     },
     details: { eyebrow: 'Más información', title: 'Condiciones y mapas detallados', summary: 'Viento, temperatura, controles de seguridad y mapa costero' },
     checklist: {
@@ -274,6 +281,7 @@ const translations = {
     install: { open: 'Instalar Safe to Swim', title: 'Añade Safe to Swim a la pantalla de inicio', description: 'Ábrelo como una aplicación sin buscar el sitio.', iosShare: 'En Safari, toca el botón Compartir.', iosAdd: 'Elige Añadir a pantalla de inicio.', iosConfirm: 'Toca Añadir en la esquina superior derecha.', browserMenu: 'Abre el menú del navegador.', browserInstall: 'Elige Instalar aplicación o Añadir a pantalla de inicio.', browserConfirm: 'Confirma la instalación.', done: 'Entendido', close: 'Cerrar la guía de instalación' },
     footer: { tagline: 'Decisiones más seguras antes de entrar al agua.', contact: 'Escríbeme', back: 'Volver arriba' },
     map: {
+      locationTitle: 'Mapa del lugar', centerLocation: 'Centrar ubicación',
       title: 'Mapa detallado de la costa', reset: 'Costa completa', activeZones: '{count} zonas RNLI activas', notRecommended: 'No recomendado para esta hora', checkOnSite: 'Comprueba en el lugar',
       statusNote: 'Los colores de las zonas indican el estado de vigilancia; el riesgo del modelo aparece arriba y las banderas del lugar tienen prioridad.', modelStatusNote: 'El círculo muestra el riesgo actual del modelo; comprueba las condiciones en el lugar.', layers: 'Capas del mapa', zones: 'Zonas de baño y vigilancia', hazards: 'Muelles y {count} espigones', incidents: 'Capa de incidentes de 2022',
       region: 'Mapa interactivo de la costa de Brighton y Hove', legend: 'Leyenda', activeZone: 'Zona RNLI activa', unguarded: 'Costa sin vigilancia', physicalHazard: 'Peligro físico', modelPoint: 'Ubicación del modelo marino', incidentShare: 'Proporción de incidentes 2022',
@@ -290,7 +298,7 @@ const translations = {
     header: { home: 'Safe to Swim kezdőlap', location: 'Tengerparti helyszín', chooseLocation: 'Válassz egy európai fürdőhelyet', locate: 'Jelenlegi helyzetem használata', locating: 'Legközelebbi strand keresése…', locationFound: 'Legközelebbi támogatott strand: {location}', locationDenied: 'A helyhozzáférés nem lett engedélyezve.', locationError: 'A helyzetedet nem sikerült meghatározni.', refresh: 'Adatok frissítése', language: 'Nyelv' },
     locationPicker: { timeZone: 'Időpontok a saját időzónádban: {zone}', title: 'Válassz strandot', subtitle: 'Keress {count} európai fürdőhely között', searchLabel: 'Strandok keresése', searchPlaceholder: 'Strand, város vagy régió…', useLocation: 'Legközelebbi strand megkeresése', current: 'Kiválasztott strand', suggested: 'Népszerű strandok', results: '{count} találat', empty: 'Nincs a keresésnek megfelelő strand.', refine: 'Az első {count} találat látható. Pontosítsd a keresést.', selected: 'Kiválasztva', close: 'Strandválasztó bezárása', viewLabel: 'Strandnézet kiválasztása', listView: 'Lista', mapView: 'Térkép', mapAria: 'Európai fürdőhelyek térképe', mapLoading: 'Térkép betöltése…', mapEmpty: 'Nincs a keresésnek megfelelő strand.', resetMap: 'Teljes Európa', selectMapLocation: 'Strand kiválasztása', clusterLabel: '{count} strand — nagyíts rá', previewLoading: 'Körülmények betöltése…', previewUnavailable: 'Előnézet nem érhető el', previewAria: 'Strandkörülmények előnézete', distanceAway: '{distance} km-re' },
     explorer: {
-      eyebrow: 'Hivatalos európai fürdőhelyek', title: 'Fedezd fel a teljes partvidéket', count: '{count} hivatalos fürdőhely', searchLabel: 'Fürdőhely keresése', searchPlaceholder: 'Strand, város vagy régió…', filterLabel: 'Szűrés ország szerint', results: '{count} találat', empty: 'Nincs a keresésnek megfelelő fürdőhely.', refine: 'Pontosítsd a keresést további találatokhoz.', reset: 'Teljes Európa', mapLabel: 'Hivatalos európai fürdőhelyek térképe', classification: 'Vízminőség: {value}', modelLocation: 'Modelladat elérhető', selectedLocation: 'Kiválasztott hely', excellent: 'Kiváló', good: 'Jó', sufficient: 'Megfelelő', poor: 'Gyenge',
+      eyebrow: 'Hivatalos európai fürdőhelyek', title: 'Keress strandot vagy tavat', count: '{count} hivatalos fürdőhely', searchLabel: 'Fürdőhely keresése', searchPlaceholder: 'Strand, város vagy régió…', filterLabel: 'Szűrés ország szerint', results: '{count} találat', empty: 'Nincs a keresésnek megfelelő fürdőhely.', refine: 'Pontosítsd a keresést további találatokhoz.', reset: 'Teljes Európa', mapLabel: 'Hivatalos európai fürdőhelyek térképe', classification: 'Vízminőség: {value}', modelLocation: 'Modelladat elérhető', selectedLocation: 'Kiválasztott hely', excellent: 'Kiváló', good: 'Jó', sufficient: 'Megfelelő', poor: 'Gyenge',
       nations: { all: 'Mind', england: 'Anglia', wales: 'Wales', scotland: 'Skócia', ni: 'Észak-Írország' },
     },
     waterQuality: {
@@ -327,8 +335,9 @@ const translations = {
       note: 'Open-Meteo · Órás vízszintadatokból becsült fordulópontok, 8 km-es modellrácson. Part mentén korlátozott pontosságú; navigációra nem használható.', moreTimes: 'További árapály-időpontok',
     },
     webcam: {
+      verifiedOn: 'Forrás ellenőrizve: {date}',
       south: 'Déli kamera', north: 'Északi kamera', eyebrow: 'Élő partkép', title: '{location} kamerája', verified: 'Ellenőrzött forrás', selector: 'Kamera kiválasztása', load: 'Élő kép betöltése',
-      consent: 'A lejátszó csak kattintás után kapcsolódik a külső szolgáltatóhoz.', open: 'Elérhető élő kamera', external: 'A szolgáltató a saját oldalán mutatja az élő képet.', openAction: 'Élő kamera megnyitása', unavailableTitle: 'Nincs ellenőrzött közeli kamera', unavailable: 'Csak olyan kamerát mutatunk, amelynek helyét és élő forrását ellenőrizni tudtuk.', note: 'A kamerakép tájékoztató jellegű, és átmenetileg leállhat. Mindig ellenőrizd a partot a helyszínen is.', source: 'Forrás: {name}', nearbySource: '{name} · {distance} km-re',
+      consent: 'A lejátszó csak kattintás után kapcsolódik a külső szolgáltatóhoz.', open: 'Kamera a szolgáltató oldalán', external: 'A szolgáltató a saját oldalán mutatja az élő képet.', openAction: 'Élő kamera megnyitása', unavailableTitle: 'Nincs ellenőrzött közeli kamera', unavailable: 'Csak olyan kamerát mutatunk, amelynek helyét és élő forrását ellenőrizni tudtuk.', note: 'A kamerakép tájékoztató jellegű, és átmenetileg leállhat. Mindig ellenőrizd a partot a helyszínen is.', source: 'Forrás: {name}', nearbySource: '{name} · {distance} km-re',
     },
     details: { eyebrow: 'További információk', title: 'Részletes körülmények és térképek', summary: 'Szél, hőmérséklet, biztonsági ellenőrzések és Európa parttérképe' },
     checklist: {
@@ -342,6 +351,7 @@ const translations = {
     install: { open: 'Safe to Swim telepítése', title: 'Tedd ki a Safe to Swimet a főképernyőre', description: 'Nyisd meg úgy, mint egy appot, a weboldal keresése nélkül.', iosShare: 'A Safariban koppints a Megosztás gombra.', iosAdd: 'Válaszd a Főképernyőhöz adás lehetőséget.', iosConfirm: 'Koppints a jobb felső sarokban a Hozzáadásra.', browserMenu: 'Nyisd meg a böngésző menüjét.', browserInstall: 'Válaszd az Alkalmazás telepítése vagy Főképernyőhöz adás lehetőséget.', browserConfirm: 'Erősítsd meg a telepítést.', done: 'Értem', close: 'Telepítési útmutató bezárása' },
     footer: { tagline: 'Magabiztosabb döntések a víz előtt.', contact: 'Írj nekem', back: 'Vissza az elejére' },
     map: {
+      locationTitle: 'A hely térképe', centerLocation: 'Vissza a helyszínhez',
       title: 'Részletes partszakasz-térkép', reset: 'Teljes partszakasz', activeZones: '{count} aktív RNLI-zóna', notRecommended: 'Erre az időpontra nem ajánlott', checkOnSite: 'Helyszíni ellenőrzés kell',
       statusNote: 'A zónaszínek a járőrözési állapotot mutatják; az aktuális modellkockázat felül látható, a helyszíni zászló az irányadó.', modelStatusNote: 'A kör az aktuális modellkockázatot mutatja; ellenőrizd a körülményeket a helyszínen.', layers: 'Térképrétegek', zones: 'Úszó- és felügyeleti zónák', hazards: 'Mólók és {count} hullámtörő', incidents: '2022-es incidensréteg',
       region: 'Interaktív Brighton és Hove partszakasz-térkép', legend: 'Jelmagyarázat', activeZone: 'Aktív RNLI-zóna', unguarded: 'Nem felügyelt part', physicalHazard: 'Fizikai veszély', modelPoint: 'Tengeri modell helye', incidentShare: '2022-es incidensarány',
@@ -357,6 +367,14 @@ const translations = {
 }
 
 for (const language of LANGUAGES) translations[language.code].outlook = outlookMessages[language.code]
+const noWaterForecast = {
+  en: 'No water temperature forecast',
+  fr: 'Pas de prévision de température de l’eau',
+  it: 'Previsione della temperatura dell’acqua non disponibile',
+  es: 'Sin previsión de temperatura del agua',
+  hu: 'Nincs vízhőmérséklet-előrejelzés',
+}
+for (const language of LANGUAGES) translations[language.code].conditions.noWaterForecast = noWaterForecast[language.code]
 for (const language of LANGUAGES) translations[language.code].contact = contactMessages[language.code]
 for (const language of LANGUAGES) translations[language.code].windAdvice = windMessages[language.code]
 for (const language of LANGUAGES) translations[language.code].lakeDecision = lakeDecisionMessages[language.code]

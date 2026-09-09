@@ -14,6 +14,9 @@
     },
     "api/contact.js": {
       "maxDuration": 20
+    },
+    "api/weather-alerts.js": {
+      "maxDuration": 30
     }
   }
 }

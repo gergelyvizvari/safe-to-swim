@@ -104,7 +104,7 @@ a { color: inherit; }
 .location-card-tone-5 { background: linear-gradient(135deg, #0f526e, #217da3); }
 .location-card::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(105deg, rgba(7,35,50,.22), transparent 62%); }
 .location-card-copy { position: relative; z-index: 2; min-width: 0; display: flex; flex-direction: column; gap: 5px; }
-.location-card-copy strong { overflow: hidden; font-family: var(--font-display); font-size: 23px; line-height: 1.05; font-weight: 700; letter-spacing: -.035em; text-overflow: ellipsis; white-space: nowrap; }
+.location-card-copy strong { overflow-wrap: anywhere; font-family: var(--font-display); font-size: 23px; line-height: 1.05; font-weight: 700; letter-spacing: -.035em; white-space: normal; }
 .location-card-copy > span { color: rgba(255,255,255,.78); font-size: 11px; }
 .location-card-pin { position: relative; z-index: 2; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: rgba(255,255,255,.15); }
 .location-card-selected { position: relative; z-index: 2; grid-column: 1 / -1; width: max-content; display: inline-flex; align-items: center; gap: 5px; padding: 5px 9px; border: 1px solid rgba(255,255,255,.28); border-radius: 999px; background: rgba(5,42,58,.25); font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
@@ -137,7 +137,7 @@ a { color: inherit; }
 .location-map-selection-heading { grid-column: 1 / -1; min-width: 0; display: grid; grid-template-columns: 38px minmax(0, 1fr) auto; align-items: center; gap: 10px; }
 .location-map-selection-pin { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 12px; color: white; background: var(--ocean); }
 .location-map-selection-copy { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
-.location-map-selection-copy strong, .location-map-selection-copy small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.location-map-selection-copy strong, .location-map-selection-copy small { overflow-wrap: anywhere; white-space: normal; }
 .location-map-selection-copy strong { font-family: var(--font-display); font-size: 16px; letter-spacing: -.025em; }
 .location-map-selection-copy small { color: var(--muted); font-size: 9px; }
 .location-map-safety { min-height: 28px; padding: 0 9px; display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; color: var(--ocean-dark); background: var(--mint); font-size: 9px; font-weight: 850; white-space: nowrap; }
@@ -180,19 +180,19 @@ main { max-width: 1240px; margin: 0 auto; padding: 12px 24px 72px; }
 .wave-visual svg { width: 100%; height: 100%; }
 .wave-visual path { stroke: rgba(255,255,255,.36); stroke-width: 2; }
 .hero-sea-facts { --hero-value-size: 37px; --hero-quality-size: 27px; position: relative; z-index: 2; width: 100%; margin-top: 32px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; color: white; }
-.hero-sea-fact { min-width: 0; min-height: 126px; margin: 0; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; gap: 14px; border: 1px solid rgba(255,255,255,.24); border-radius: 18px; background: rgba(255,255,255,.08); box-shadow: inset 0 1px 0 rgba(255,255,255,.05); backdrop-filter: blur(6px); }
+.hero-sea-fact { min-width: 0; min-height: 126px; margin: 0; padding: 18px; display: grid; grid-template-rows: subgrid; grid-row: span 3; gap: 14px; border: 1px solid rgba(255,255,255,.24); border-radius: 18px; background: rgba(255,255,255,.08); box-shadow: inset 0 1px 0 rgba(255,255,255,.05); backdrop-filter: blur(6px); }
 .hero-sea-fact > span { color: rgba(255,255,255,.68); font-size: 10px; line-height: 1.2; font-weight: 720; text-transform: uppercase; letter-spacing: .1em; }
 .hero-sea-fact > strong, .hero-wind-reading > strong { min-height: var(--hero-value-size); display: inline-flex; align-items: flex-end; color: white; font-family: var(--font-display); font-size: var(--hero-value-size); line-height: 1; font-weight: 650; letter-spacing: -.045em; }
 .hero-sea-fact small { margin-left: 4px; font-family: var(--font-app); font-size: 13px; font-weight: 650; letter-spacing: 0; }
 .hero-water-quality strong { font-size: var(--hero-quality-size); line-height: 1.05; letter-spacing: -.035em; }
-.hero-wind-reading { min-width: 0; display: flex; align-items: center; gap: 11px; }
+.hero-wind-reading { min-width: 0; display: flex; align-items: flex-end; gap: 11px; }
 .hero-wind-compass { position: relative; width: 46px; height: 46px; flex: 0 0 auto; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.38); border-radius: 50%; color: white; background: rgba(255,255,255,.1); box-shadow: inset 0 0 0 3px rgba(255,255,255,.04); }
 .hero-compass-north { position: absolute; top: 2px; left: 50%; z-index: 2; color: rgba(255,255,255,.88); font-size: 7px; line-height: 1; font-weight: 850; transform: translateX(-50%); }
 .hero-wind-needle { position: relative; width: 18px; height: 27px; background: #bfeafb; clip-path: polygon(50% 0, 100% 56%, 66% 48%, 66% 100%, 34% 100%, 34% 48%, 0 56%); filter: drop-shadow(0 1px 3px rgba(5,50,69,.45)); transform-origin: center; transition: transform .35s ease; }
 .hero-wind-compass::after { content: ''; position: absolute; top: 50%; left: 50%; width: 5px; height: 5px; border: 1px solid rgba(255,255,255,.8); border-radius: 50%; background: var(--ocean-dark); transform: translate(-50%, -50%); }
 .hero-wind-reading > strong { min-height: auto; font-size: 31px; }
 .hero-wind-reading small { font-size: 12px; }
-.hero-wind-status { color: rgba(255,255,255,.85); font-size: 11px; line-height: 1.4; }
+.hero-temperature-detail, .hero-wind-status { color: rgba(255,255,255,.85); font-size: 11px; line-height: 1.4; }
 
 .decision-panel { margin-top: 14px; padding: 24px 28px; }
 .decision-heading { align-items: center; margin-bottom: 16px; }
@@ -372,7 +372,7 @@ main { max-width: 1240px; margin: 0 auto; padding: 12px 24px 72px; }
 .uk-explorer { margin: 14px 0 32px; padding: 28px; }
 .uk-explorer-heading { align-items: center; margin-bottom: 18px; }
 .location-count { min-height: 32px; padding: 0 11px; display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; color: var(--ocean); background: var(--mint); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
-.uk-explorer-grid { display: grid; grid-template-columns: minmax(290px, .72fr) minmax(0, 1.5fr); gap: 16px; }
+.uk-explorer-grid { display: grid; align-items: start; grid-template-columns: minmax(290px, .72fr) minmax(0, 1.5fr); gap: 16px; }
 .beach-finder { min-width: 0; padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: #f8f9f5; }
 .beach-search { min-height: 46px; padding: 0 13px; display: flex; align-items: center; gap: 9px; border: 1px solid #cfd7d1; border-radius: 12px; color: var(--ocean); background: white; }
 .beach-search:focus-within { border-color: var(--ocean); outline: 3px solid rgba(var(--ocean-rgb),.16); }
@@ -385,14 +385,14 @@ main { max-width: 1240px; margin: 0 auto; padding: 12px 24px 72px; }
 .nation-filters button:focus-visible, .beach-results button:focus-visible, .uk-map-reset:focus-visible { outline: 3px solid rgba(var(--ocean-rgb),.28); outline-offset: 2px; }
 .beach-results-meta { margin: 15px 2px 7px; color: var(--muted); font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; }
 .beach-results { display: flex; flex-direction: column; gap: 5px; }
-.beach-results button { width: 100%; min-height: 48px; padding: 7px 9px; display: grid; grid-template-columns: 30px minmax(0, 1fr) 10px; align-items: center; gap: 9px; border: 1px solid transparent; border-radius: 10px; color: var(--ink); background: transparent; cursor: pointer; text-align: left; }
+.beach-results button { flex-shrink: 0; width: 100%; min-height: 48px; padding: 7px 9px; display: grid; grid-template-columns: 30px minmax(0, 1fr) 10px; align-items: center; gap: 9px; border: 1px solid transparent; border-radius: 10px; color: var(--ink); background: transparent; cursor: pointer; text-align: left; }
 .beach-results button:hover { border-color: var(--line); background: white; }
 .beach-results button.is-selected { border-color: var(--ocean-line); background: var(--ocean-soft); }
 .result-pin { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 9px; color: var(--ocean); background: #e5f0f5; }
 .beach-results button > span:nth-child(2) { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
 .beach-results strong, .beach-results small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.beach-results strong { font-size: 11px; }
-.beach-results small { color: var(--muted); font-size: 9px; }
+.beach-results strong { font-size: 13px; white-space: normal; overflow-wrap: anywhere; line-height: 1.35; }
+.beach-results small { color: var(--muted); font-size: 11px; white-space: normal; line-height: 1.4; }
 .classification-dot { width: 8px; height: 8px; border-radius: 50%; background: #77817e; }
 .classification-dot.excellent { background: var(--ocean); }
 .classification-dot.good { background: #5b96ad; }
@@ -955,7 +955,7 @@ button.tide-next-turn:focus-visible { outline: 3px solid var(--ocean); outline-o
 
 .quality-disclosure h2 > svg { flex-shrink: 0; color: var(--ocean); }
 
-.balaton-panel { padding: 28px; }
+.balaton-panel { margin-top: 14px; padding: 28px; }
 .balaton-panel .section-heading button, .balaton-forecast button { min-height: 44px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); color: var(--ocean); cursor: pointer; font: inherit; }
 .balaton-panel button:focus-visible, .balaton-panel summary:focus-visible, .balaton-panel a:focus-visible { outline: 3px solid var(--ocean); outline-offset: 3px; }
 .balaton-panel button:disabled { opacity: .5; cursor: wait; }
@@ -1006,3 +1006,50 @@ footer a:focus-visible { outline: 3px solid var(--ocean); outline-offset: 4px; b
 .contact-form .contact-error { padding: 12px; border-radius: 10px; color: var(--danger-dark); background: var(--danger-soft); }
 .contact-form .install-done { margin: 0; display: flex; align-items: center; justify-content: center; gap: 8px; }
 .contact-form :disabled { opacity: .65; cursor: wait; }
+
+/* Give the explorer a real map canvas, independent of the results column. */
+.uk-explorer .location-map-view { min-height: 0; box-shadow: none; }
+.uk-explorer .location-picker-map { height: clamp(360px, 55vh, 620px); flex-basis: clamp(360px, 55vh, 620px); }
+.uk-explorer .beach-results { max-height: 420px; overflow-y: auto; }
+.uk-explorer .beach-results-meta { font-size: 11px; text-transform: none; letter-spacing: 0; }
+@media (max-width: 760px) {
+  .uk-explorer .beach-results { max-height: 240px; }
+}
+
+.live-grid > .coast-map-panel { min-width: 0; margin-top: 0; }
+.live-grid > .coast-map-panel .map-heading { flex-wrap: wrap; }
+.live-grid > .coast-map-panel .coast-map-canvas { height: 420px; }
+
+.hero-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.weather-alert-chip { display: inline-flex; align-items: center; gap: 8px; max-width: 100%; min-height: 40px; padding: 8px 12px; border: 1px solid #c58a00; border-radius: 999px; background: #fff3c4; color: #533900; font: inherit; font-size: 13px; font-weight: 700; text-align: left; cursor: pointer; }
+.weather-alert-chip svg { flex-shrink: 0; }
+.weather-alert-chip.level-3 { background: #ffe1bb; border-color: #bf5900; }
+.weather-alert-chip.level-4 { background: #ffe0da; border-color: #b53224; color: #721e16; }
+.weather-alert-chip.level-stale, .weather-alert-chip.level-0 { background: var(--paper); border-color: var(--line); color: var(--ink); }
+.weather-alert-chip:focus-visible { outline: 3px solid white; outline-offset: 3px; }
+.weather-alert-count { padding: 1px 6px; border-radius: 999px; background: rgba(0,0,0,.08); }
+.weather-alerts { width: min(760px, 100%); max-height: 90dvh; overflow-y: auto; }
+.weather-alerts h2 { padding-right: 32px; }
+.weather-alerts > .panel-note, .weather-alert-source { margin-top: 16px; }
+.weather-alerts h2 { display: flex; align-items: center; gap: 10px; font-size: 20px; }
+.weather-warning { margin-top: 12px; padding: 14px 16px; border-left: 5px solid #c58a00; border-radius: 10px; background: #fff3c4; color: #533900; }
+.weather-warning.level-3 { background: #ffe1bb; border-color: #bf5900; }
+.weather-warning.level-4 { background: #ffe0da; border-color: #b53224; color: #721e16; }
+.weather-warning.level-stale { background: var(--paper); border-color: var(--muted); color: var(--muted); }
+.weather-warning p { margin: 6px 0; font-size: 13px; line-height: 1.5; }
+.weather-warning summary { cursor: pointer; font-size: 13px; }
+.weather-alert-source { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 12px; }
+.weather-alert-source a { color: var(--ocean); }
+
+.webcam-panel.is-empty { align-self: start; }
+.webcam-panel.is-empty h2 { margin: 8px 0; font-size: 20px; }
+.webcam-selector { display: grid; gap: 6px; margin-bottom: 14px; color: var(--muted); font-size: 12px; }
+.webcam-selector select { width: 100%; min-width: 0; min-height: 42px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); color: var(--ink); font: inherit; }
+
+.weather-alert-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 12px; }
+
+.hero-selected-time { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 16px; color: white; font-size: 14px; font-weight: 700; }
+.hero-now-chip { min-height: 40px; padding: 8px 14px; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; background: rgba(255,255,255,.15); color: white; font: inherit; cursor: pointer; }
+.hero-now-chip:focus-visible { outline: 3px solid white; outline-offset: 3px; }
+
+.hero-sea-fact > strong, .hero-sea-fact > .hero-wind-reading { align-self: end; }

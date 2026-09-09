@@ -1,5 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
+import weatherAlertsHandler from './api/weather-alerts.js'
 import contactHandler from './api/contact.js'
 import balatonHandler from './api/balaton.js'
 
@@ -9,7 +10,7 @@ import sourceChecksHandler from './api/source-checks.js'
 
 function balatonApi() {
   const configure = (server) => {
-    for (const [route, handler] of Object.entries({ '/api/contact': contactHandler, '/api/balaton': balatonHandler, '/api/catalogue': catalogueHandler, '/api/observations': observationsHandler, '/api/source-checks': sourceChecksHandler })) server.middlewares.use(route, (req, res) => {
+    for (const [route, handler] of Object.entries({ '/api/weather-alerts': weatherAlertsHandler, '/api/contact': contactHandler, '/api/balaton': balatonHandler, '/api/catalogue': catalogueHandler, '/api/observations': observationsHandler, '/api/source-checks': sourceChecksHandler })) server.middlewares.use(route, (req, res) => {
       res.status = (code) => { res.statusCode = code; return res }
       res.json = (data) => {
         res.setHeader('Content-Type', 'application/json')

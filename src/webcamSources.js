@@ -1,3 +1,5 @@
+import { BALATON_WEBCAMS } from './balatonWebcams.generated.js'
+import { isBalaton } from './balaton.js'
 const BRIGHTON_STREAMS = [
   {
     id: 'south',
@@ -12,6 +14,7 @@ const BRIGHTON_STREAMS = [
 ]
 
 export const VERIFIED_WEBCAMS = [
+  ...BALATON_WEBCAMS,
   {
     id: 'brighton-i360', name: 'Brighton i360', latitude: 50.8211, longitude: -0.1495,
     sourceName: 'Brighton CCTV', pageUrl: 'https://www.brightoncctv.co.uk/i360-cams', streams: BRIGHTON_STREAMS,
@@ -70,12 +73,13 @@ function distanceInKm(first, second) {
   return radius * 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine))
 }
 
+export function getWebcamsForLocation(location, maximumDistanceKm = 20) {
+  if (!location) return []
+  return VERIFIED_WEBCAMS.filter(webcam => !webcam.waterBodyId || webcam.waterBodyId === 'balaton' && (location.waterBodyId === 'balaton' || isBalaton(location)))
+    .map(webcam => ({ ...webcam, distance: distanceInKm(location, webcam) }))
+    .filter(webcam => webcam.distance <= maximumDistanceKm)
+    .sort((first, second) => first.distance - second.distance)
+}
 export function getWebcamForLocation(location, maximumDistanceKm = 20) {
-  if (!location) return null
-
-  const nearest = VERIFIED_WEBCAMS
-    .map((webcam) => ({ ...webcam, distance: distanceInKm(location, webcam) }))
-    .sort((first, second) => first.distance - second.distance)[0]
-
-  return nearest && nearest.distance <= maximumDistanceKm ? nearest : null
+  return getWebcamsForLocation(location, maximumDistanceKm)[0] ?? null
 }

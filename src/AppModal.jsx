@@ -24,7 +24,7 @@ export function AppModal({ children, className = '', closeLabel, onClose, titleI
         return
       }
       if (event.key !== 'Tab') return
-      const focusable = [...dialogRef.current.querySelectorAll('button:not(:disabled), a[href], input:not(:disabled), textarea:not(:disabled), select:not(:disabled), [tabindex]')].filter((element) => element.tabIndex >= 0 && element.getClientRects().length)
+      const focusable = [...dialogRef.current.querySelectorAll('button:not(:disabled), a[href], input:not(:disabled), textarea:not(:disabled), select:not(:disabled), summary, [tabindex]')].filter((element) => element.tabIndex >= 0 && element.getClientRects().length)
       const first = focusable[0]
       const last = focusable.at(-1)
       if (event.shiftKey && document.activeElement === first) {

@@ -1,3 +1,4 @@
+import { activeWeatherWarning, weatherAlertMessages } from './weatherAlertMessages.js'
 import { AlertTriangle, Check, CircleHelp, ShieldAlert } from 'lucide-react'
 import { getWaterQualityForLocation } from './waterQuality.js'
 import { isOffshoreWind, shoreWindDirection } from './locationUtils.js'
@@ -28,7 +29,19 @@ export function getSafetyReadings(conditions, location) {
   }
 }
 
-export function getSafety(conditions, location, t, locale, { source, quality = getWaterQualityForLocation(location), observations, now, isNow = true } = {}) {
+export function getSafety(conditions, location, t, locale, options = {}) {
+  const result = baseSafety(conditions, location, t, locale, options)
+  const now = options.now ?? Date.now()
+  const warning = options.weatherAlerts?.locationId === location.id ? activeWeatherWarning(options.weatherAlerts, options.isNow === false ? conditions.time : now, now) : null
+  if (!warning) return result
+  const copy = weatherAlertMessages(locale)
+  const level = warning.hazard === 3 || warning.level >= 3 ? 'danger' : 'caution'
+  if (result.level === 'danger' && level !== 'danger') return result
+  return { ...result, level, eyebrow: copy.title, title: copy[level], description: warning.event,
+    reason: warning.event, action: copy.action, known: [warning.event], icon: level === 'danger' ? ShieldAlert : AlertTriangle }
+}
+
+function baseSafety(conditions, location, t, locale, { source, quality = getWaterQualityForLocation(location), observations, now, isNow = true } = {}) {
   if (location.waterType === 'lake' || location.marineModelSupported === false) {
     const wind = getWindAssessment(conditions, location, source)
     const evidence = assessLake(conditions, location, { source, quality, observations, now, isNow, wind, thresholds: WIND_THRESHOLDS })

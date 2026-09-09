@@ -1,3 +1,9 @@
+import { observedWaterTemperature } from './observedWaterTemperature.js'
+import { balatonMessages } from './balatonMessages.js'
+import { weatherAlertMessages } from './weatherAlertMessages.js'
+import { useWeatherAlerts } from './useWeatherAlerts.js'
+import WeatherAlertsPanel from './WeatherAlertsPanel.jsx'
+import { locationDisplayName } from './locationNames.js'
 import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
 import {
   AlertTriangle,
@@ -31,7 +37,7 @@ import { InstallGuide } from './InstallGuide.jsx'
 import { ContactForm } from './ContactForm.jsx'
 import { SupportPrompt } from './SupportPrompt.jsx'
 import { usePWAInstall } from './usePWAInstall.js'
-import { getWebcamForLocation } from './webcamSources.js'
+import { getWebcamsForLocation } from './webcamSources.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
 import { compareConditions, formatNumber, formatWholeNumber, getSafety, getWindAssessment, formatWindReadings, windDataLabel, windRiskLabel, windMissingLabel } from './safety.js'
 import TideCurve from './TideCurve.jsx'
@@ -102,7 +108,7 @@ function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSu
       <div className="header-actions">
         <button className="location-picker" type="button" onClick={onOpenLocationPicker} aria-label={t('header.chooseLocation')}>
           <MapPin size={17} />
-          <span className="location-picker-label">{location.name}</span>
+          <span className="location-picker-label">{locationDisplayName(location, language)}</span>
         </button>
         <button
           className={`icon-button geolocation-button ${locating ? 'locating' : ''}`}
@@ -138,14 +144,20 @@ function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSu
   )
 }
 
-function SafetyHero({ inland, safety, wind, current, source, loading, language, locale, isNow, quality, t }) {
+function SafetyHero({ inland, safety, wind, current, source, loading, language, locale, isNow, quality, weatherAlerts, now, onNow, location, observations, t }) {
+  const measuredWater = isNow || !Number.isFinite(current.seaTemperature) ? observedWaterTemperature(location, observations, now) : null
+  const observationCopy = balatonMessages(language)
   const StatusIcon = safety.icon
   const qualityTone = quality ? classificationTone(quality.site.classification) : 'unclassified'
   const windDirection = directionLabel(wind.windDirection, language)
   return (
     <section className={`safety-hero ${safety.level}`} aria-labelledby="safety-title">
       <div className="hero-content">
-        <div className="status-pill"><StatusIcon size={16} />{safety.eyebrow}</div>
+        <div className="hero-selected-time">
+          <span>{isNow ? `${t('forecast.now')} · ` : ''}{formatDate(isNow ? now : current.time, locale)} · {formatTime(isNow ? now : current.time, locale)}</span>
+          {!isNow && <button type="button" className="hero-now-chip" onClick={onNow}>{t('forecast.now')}</button>}
+        </div>
+        <div className="hero-chips">{safety.eyebrow !== weatherAlertMessages(language).title && <div className="status-pill"><StatusIcon size={16} />{safety.eyebrow}</div>}<WeatherAlertsPanel state={weatherAlerts} language={language} locale={locale} selectedTime={current.time} isNow={isNow} /></div>
         <h1 id="safety-title">{safety.title}</h1>
         <p>{safety.description}</p>
         {inland && safety.action && <div className="lake-evidence">
@@ -170,8 +182,18 @@ function SafetyHero({ inland, safety, wind, current, source, loading, language, 
       </div>
       <div className="hero-sea-facts">
         <article className="hero-sea-fact hero-sea-temperature">
-          <span>{t(inland ? 'lake.air' : 'conditions.waterTemperature')}</span>
-          <strong>{formatNumber(inland ? current.temperature : current.seaTemperature, locale)} <small>°C</small></strong>
+          <span>{measuredWater ? observationCopy.observedTemperature : t('conditions.waterTemperature')}</span>
+          <strong>{measuredWater ? formatNumber(measuredWater.temperature, locale) : formatNumber(current.seaTemperature, locale)}{(measuredWater || Number.isFinite(current.seaTemperature)) && <small>°C</small>}</strong>
+          <div className="hero-temperature-detail">
+            {measuredWater ? <>
+              {measuredWater.regional && <div>{observationCopy.regionalAverage}</div>}
+              {!isNow && <div>{observationCopy.latestNotForecast}</div>}
+              <div>{measuredWater.stations.map(station => station.station).join(' · ')}</div>
+              <div><a href={measuredWater.url} target="_blank" rel="noreferrer">{measuredWater.provider}</a> · {observationCopy.published}: {formatDate(measuredWater.publishedAt, locale)} · {formatTime(measuredWater.publishedAt, locale)}</div>
+              <details><summary>{observationCopy.temperature}</summary>{observationCopy.stationNote}</details>
+            </> : !Number.isFinite(current.seaTemperature) && <div>{t('conditions.noWaterForecast')}</div>}
+            <div>{t('conditions.air', { value: formatNumber(current.temperature, locale) })}</div>
+          </div>
         </article>
         <article className={`hero-sea-fact hero-water-quality ${qualityTone}`}>
           <span>{t('waterQuality.annualShort')}</span>
@@ -304,14 +326,14 @@ function forecastDayLabel(day, dayIndex, locale, t) {
   }).format(new Date(day.hours[0].time))
 }
 
-function SwimDecision({ current, forecast, location, source, loading, language, locale, quality, observations, onSelectedChange, t }) {
+function SwimDecision({ current, forecast, location, source, loading, language, locale, quality, observations, weatherAlerts, onSelectedChange, t }) {
   const [now, setNow] = useState(() => Date.now())
   useEffect(() => {
     const timer = window.setInterval(() => setNow(Date.now()), 60000)
     return () => window.clearInterval(timer)
   }, [])
   const inland = location.waterType === 'lake' || location.marineModelSupported === false
-  const bestWindow = findCalmestWindow(forecast, location, { now, source, quality })
+  const bestWindow = findCalmestWindow(forecast, location, { now, source, quality, weatherAlerts })
   const [selectedTime, setSelectedTime] = useState(current.time)
   const forecastDays = buildForecastDays(current, forecast, bestWindow?.start.time, selectedTime)
   const selectedDayIndex = Math.max(0, forecastDays.findIndex((day) => day.key === localDateKey(selectedTime)))
@@ -320,8 +342,8 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
   const selectedIndex = Math.max(0, hours.findIndex((hour) => hour.time === selectedTime))
   const selected = hours[selectedIndex]
   const isNow = selected.time === current.time
-  const safety = getSafety(selected, location, t, locale, { source, quality, observations, now, isNow })
-  const currentSafety = getSafety(current, location, t, locale, { source, quality, observations, now })
+  const safety = getSafety(selected, location, t, locale, { source, quality, observations, weatherAlerts, now, isNow })
+  const currentSafety = getSafety(current, location, t, locale, { source, quality, observations, weatherAlerts, now })
   const wind = getWindAssessment(selected, location, source)
   const SelectedIcon = safety.icon
   const rank = { good: 0, caution: 1, danger: 2 }
@@ -341,7 +363,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
 
   return (
     <>
-      <SafetyHero inland={inland} safety={safety} wind={wind} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={isNow} quality={quality} t={t} />
+      <SafetyHero inland={inland} safety={safety} wind={wind} current={selected} source={source} loading={loading} language={language} locale={locale} isNow={isNow} quality={quality} weatherAlerts={weatherAlerts} now={now} onNow={() => setSelectedTime(current.time)} location={location} observations={observations} t={t} />
       <SwimAssessment current={selected} wind={wind} loading={loading} location={location} quality={quality} source={source} language={language} locale={locale} t={t} />
       <section className="panel decision-panel" aria-labelledby="decision-title">
         <div className="section-heading decision-heading">
@@ -381,7 +403,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
         </div>
         <div className="decision-times" role="group" aria-label={t('decision.aria')}>
           {hours.map((hour, index) => {
-            const hourSafety = getSafety(hour, location, t, locale, { source, quality, observations, now, isNow: hour.time === current.time })
+            const hourSafety = getSafety(hour, location, t, locale, { source, quality, observations, weatherAlerts, now, isNow: hour.time === current.time })
             return (
               <button
                 className={`decision-time ${hourSafety.level} ${selectedIndex === index ? 'is-selected' : ''}`}
@@ -417,7 +439,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
   )
 }
 
-function DetailedConditions({ data, selected, location, language, locale, t, safety, onLocationChange }) {
+function DetailedConditions({ data, selected, location, language, locale, t, onLocationChange }) {
   const inland = location.waterType === 'lake' || location.marineModelSupported === false
   const [hasOpened, setHasOpened] = useState(false)
   const isNow = selected.time === data.current.time
@@ -435,7 +457,6 @@ function DetailedConditions({ data, selected, location, language, locale, t, saf
         {!inland && <ConditionsGrid current={selected} forecast={data.forecast} language={language} locale={locale} isNow={isNow} t={t} />}
         {!inland && <SafetyChecklist current={selected} location={location} source={data.source} locale={locale} t={t} />}
         <Suspense fallback={null}><UKCoastExplorer selectedLocation={location} onSelect={onLocationChange} t={t} /></Suspense>
-        {!inland && <Suspense fallback={null}><CoastSafetyMap safety={safety} current={selected} modelPoint={data.marineModelPoint} location={location} t={t} /></Suspense>}
       </div>}
     </details>
   )
@@ -520,21 +541,34 @@ function TidePanel({ tides, current, locale, t }) {
 }
 
 function WebcamPanel({ location, locale, t }) {
-  const webcam = getWebcamForLocation(location)
+  const nearbyWebcams = getWebcamsForLocation(location)
+  const [webcamId, setWebcamId] = useState(nearbyWebcams[0]?.id)
+  const webcam = nearbyWebcams.find(item => item.id === webcamId) ?? nearbyWebcams[0]
   const [activeCamera, setActiveCamera] = useState(webcam?.streams?.[0]?.id ?? null)
   const [isLoaded, setIsLoaded] = useState(false)
-  const camera = webcam?.streams?.find((stream) => stream.id === activeCamera)
+  const camera = webcam?.streams?.find((stream) => stream.id === activeCamera) ?? webcam?.streams?.[0]
 
   const distance = webcam?.distance > 1
     ? new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(webcam.distance)
     : null
 
+  if (!webcam) return <section className="panel webcam-panel is-empty" aria-labelledby="webcam-title">
+    <span className="eyebrow">{t('webcam.eyebrow')}</span>
+    <h2 id="webcam-title">{t('webcam.unavailableTitle')}</h2>
+    <p className="panel-note">{t('webcam.unavailable')}</p>
+  </section>
+
   return (
     <section className="panel webcam-panel" aria-labelledby="webcam-title">
       <div className="section-heading webcam-heading">
-        <div><span className="eyebrow">{t('webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: webcam?.name ?? location.name })}</h2></div>
+        <div><span className="eyebrow">{t('webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: webcam?.name ?? locationDisplayName(location, locale) })}</h2></div>
         {webcam && <span className="camera-live"><i />{t('webcam.verified')}</span>}
       </div>
+      {nearbyWebcams.length > 1 && <label className="webcam-selector"><span>{t('webcam.selector')}</span>
+        <select value={webcam.id} onChange={event => { setWebcamId(event.target.value); setActiveCamera(null); setIsLoaded(false) }}>
+          {nearbyWebcams.map(item => <option key={item.id} value={item.id}>{item.name} · {new Intl.NumberFormat(locale,{maximumFractionDigits:1}).format(item.distance)} km</option>)}
+        </select>
+      </label>}
       {webcam?.streams && <div className="camera-tabs" role="group" aria-label={t('webcam.selector')}>
         {webcam.streams.map((item) => (
           <button
@@ -580,7 +614,7 @@ function WebcamPanel({ location, locale, t }) {
         )}
       </div>
       <div className="camera-source">
-        <span>{t('webcam.note')}</span>
+        <span>{t('webcam.note')}{webcam.verifiedOn && <><br />{t('webcam.verifiedOn', { date: new Intl.DateTimeFormat(locale,{dateStyle:'medium'}).format(new Date(`${webcam.verifiedOn}T12:00:00Z`)) })}</>}</span>
         {webcam && <a href={webcam.pageUrl} target="_blank" rel="noreferrer">
           {distance
             ? t('webcam.nearbySource', { name: webcam.name, distance })
@@ -658,11 +692,13 @@ export default function App({ location, onSelectLocation: setLocationId }) {
   const { installed, installReady, isIOS, requestInstall } = usePWAInstall()
   const { data, loading, error, refresh } = useCoastalConditions(location)
   const observations = useObservations(location)
+  const weatherAlerts = useWeatherAlerts(location, language)
   const locale = localeFor(language)
   const t = useMemo(() => makeTranslator(language), [language])
   const selectionKey = `${location.id}-${data.current.time}`
   const selectedConditions = selectedSnapshot?.key === selectionKey ? selectedSnapshot.conditions : data.current
-  const safety = getSafety(selectedConditions, location, t, locale, { source: data.source, observations, now: observations.now, isNow: selectedConditions.time === data.current.time })
+  const hasTides = location.waterType !== 'lake' && location.marineModelSupported !== false
+  const safety = getSafety(selectedConditions, location, t, locale, { source: data.source, observations, weatherAlerts, now: observations.now, isNow: selectedConditions.time === data.current.time })
   const waterQuality = getWaterQualityForLocation(location)
   const handleSelectedChange = useCallback((conditions) => {
     setSelectedSnapshot({ key: selectionKey, conditions })
@@ -717,8 +753,8 @@ export default function App({ location, onSelectLocation: setLocationId }) {
 
   useEffect(() => {
     window.localStorage.setItem('safe-to-swim-location', location.id)
-    document.title = `Safe to Swim — ${location.name}`
-  }, [location])
+    document.title = `Safe to Swim — ${locationDisplayName(location, language)}`
+  }, [location, language])
 
   return (
     <div className="app-shell" id="top">
@@ -756,14 +792,16 @@ export default function App({ location, onSelectLocation: setLocationId }) {
       <main>
         <DataNotice error={error} source={data.source} t={t} />
         <p className="panel-note">{t('locationPicker.timeZone', { zone: Intl.DateTimeFormat().resolvedOptions().timeZone })}</p>
-        <SwimDecision key={selectionKey} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} observations={observations} onSelectedChange={handleSelectedChange} t={t} />
+        <SwimDecision key={selectionKey} current={data.current} forecast={data.forecast} location={location} source={data.source} loading={loading} language={language} locale={locale} quality={waterQuality} observations={observations} weatherAlerts={weatherAlerts} onSelectedChange={handleSelectedChange} t={t} />
         {observations.enabled && <Suspense fallback={null}><ObservationsPanel observations={observations} language={language} locale={locale} /></Suspense>}
         <Suspense fallback={null}><WaterQualityPanel location={location} locale={locale} t={t} /></Suspense>
         <div className="live-grid">
-          {location.waterType !== 'lake' && location.marineModelSupported !== false && <TidePanel key={`tides-${location.id}`} tides={data.tides} current={data.current} locale={locale} t={t} />}
+          {hasTides && <TidePanel key={`tides-${location.id}`} tides={data.tides} current={data.current} locale={locale} t={t} />}
           <WebcamPanel key={`webcam-${location.id}`} location={location} locale={locale} t={t} />
+          {!hasTides && <Suspense fallback={null}><CoastSafetyMap safety={safety} current={selectedConditions} location={location} language={language} t={t} /></Suspense>}
         </div>
-        <DetailedConditions data={data} selected={selectedConditions} location={location} language={language} locale={locale} t={t} safety={safety} onLocationChange={setLocationId} />
+        {hasTides && <Suspense fallback={null}><CoastSafetyMap safety={safety} current={selectedConditions} modelPoint={data.marineModelPoint} location={location} language={language} t={t} /></Suspense>}
+        <DetailedConditions data={data} selected={selectedConditions} location={location} language={language} locale={locale} t={t} onLocationChange={setLocationId} />
         <section className="disclaimer">
           <div><Info size={18} /><p><strong>{t('disclaimer.important')}</strong> {t('disclaimer.text')}</p></div>
           <a href="https://open-meteo.com/" target="_blank" rel="noreferrer">{t('disclaimer.data')} <ArrowUpRight size={14} /></a>
