@@ -13,8 +13,7 @@ export function UKCoastExplorer({ selectedLocation, onSelect, t }) {
   const result = useCatalogue({ q: query, country, kind: waterType, limit: 10, offset })
   const locale = document.documentElement.lang || 'en'
   const copy = catalogueMessages(locale)
-  return <section className="panel uk-explorer" aria-labelledby="uk-explorer-title">
-    <div className="section-heading"><div><span className="eyebrow">{t('explorer.eyebrow')}</span><h2 id="uk-explorer-title">{t('explorer.title')}</h2></div></div>
+  return <section className="uk-explorer" aria-label={t('explorer.title')}>
     <div className="uk-explorer-grid"><div className="beach-finder">
       <label className="beach-search"><span className="sr-only">{t('explorer.searchLabel')}</span><input type="search" value={query} onChange={event => { setQuery(event.target.value); setOffset(0) }} placeholder={t('explorer.searchPlaceholder')} /></label>
       <label className="catalogue-country"><span className="sr-only">{copy.country}</span><select value={country} onChange={event => { setCountry(event.target.value); setOffset(0) }}><option value="">{copy.country}</option>{result.nations.map(n => <option key={n}>{n}</option>)}</select></label>

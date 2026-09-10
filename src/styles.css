@@ -369,11 +369,11 @@ main { max-width: 1240px; margin: 0 auto; padding: 12px 24px 72px; }
 .tide-more[open] summary svg { transform: rotate(180deg); }
 .tide-more-events { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
 
-.uk-explorer { margin: 14px 0 32px; padding: 28px; }
+.uk-explorer { min-width: 0; padding: 22px 0 0; }
 .uk-explorer-heading { align-items: center; margin-bottom: 18px; }
 .location-count { min-height: 32px; padding: 0 11px; display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; color: var(--ocean); background: var(--mint); font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }
 .uk-explorer-grid { display: grid; align-items: start; grid-template-columns: minmax(290px, .72fr) minmax(0, 1.5fr); gap: 16px; }
-.beach-finder { min-width: 0; padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: #f8f9f5; }
+.beach-finder { min-width: 0; }
 .beach-search { min-height: 46px; padding: 0 13px; display: flex; align-items: center; gap: 9px; border: 1px solid #cfd7d1; border-radius: 12px; color: var(--ocean); background: white; }
 .beach-search:focus-within { border-color: var(--ocean); outline: 3px solid rgba(var(--ocean-rgb),.16); }
 .beach-search input { width: 100%; border: 0; outline: 0; color: var(--ink); background: transparent; font-size: 13px; }
@@ -477,10 +477,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 12px 24px 72px; }
 .details-disclosure > summary > span { color: var(--muted); font-size: 10px; line-height: 1.45; }
 .details-disclosure > summary > svg { color: var(--ocean); transition: transform .2s; }
 .details-disclosure[open] > summary > svg { transform: rotate(180deg); }
-.details-content { padding: 0 14px 14px; border-top: 1px solid var(--line); }
+.details-content { padding: 0 22px 22px; border-top: 1px solid var(--line); }
 .details-content .metrics-grid { margin: 14px 0; }
 .details-content .checklist-panel { margin-bottom: 14px; }
-.details-content .uk-explorer { margin: 0 0 14px; }
 .details-content .coast-map-panel { margin-top: 0; }
 
 .coast-map-panel { margin-top: 14px; padding: 28px; }
@@ -676,7 +675,6 @@ footer a { display: flex; align-items: center; gap: 5px; text-decoration: none; 
   .tide-event:nth-child(2) { border-right: 0; }
   .tide-event:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .coast-map-panel { padding: 22px 17px; }
-  .uk-explorer { margin-bottom: 22px; padding: 22px 17px; }
   .water-quality-panel { margin: 10px 0 0; padding: 0; }
   .quality-disclosure > summary { min-height: 104px; padding: 22px 17px; grid-template-columns: minmax(0, 1fr) 20px; gap: 10px; }
   .quality-summary-icon { width: 38px; height: 38px; }
@@ -692,7 +690,6 @@ footer a { display: flex; align-items: center; gap: 5px; text-decoration: none; 
   .water-quality-footer { align-items: flex-start; flex-direction: column; gap: 10px; }
   .uk-explorer-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
   .location-count { white-space: normal; }
-  .beach-finder { padding: 12px; }
   .nation-filters { flex-wrap: nowrap; margin-right: -12px; padding-right: 12px; overflow-x: auto; }
   .nation-filters button { flex: 0 0 auto; }
   .beach-results { display: flex; }
@@ -716,7 +713,7 @@ footer a { display: flex; align-items: center; gap: 5px; text-decoration: none; 
   .details-disclosure > summary > span { grid-column: 1; }
   .details-disclosure > summary > svg { grid-column: 2; grid-row: 1 / span 2; }
   .details-disclosure > summary strong { font-size: 23px; }
-  .details-content { padding: 0 8px 8px; }
+  .details-content { padding: 0 17px 17px; }
   .disclaimer { padding: 17px; flex-direction: column; align-items: flex-start; }
   footer { margin: 0 12px; padding: 23px 4px 32px; flex-wrap: wrap; }
   footer p { width: 100%; order: 3; }

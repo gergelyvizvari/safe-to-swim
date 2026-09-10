@@ -46,7 +46,7 @@ export function importSql(tables) {
   return statements.join('\n')
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const tables = buildImport()
   const output = process.argv[2] ?? '/tmp/safe-to-swim-catalogue.sql'
   await writeFile(output, importSql(tables))

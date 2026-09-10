@@ -117,6 +117,7 @@ export const FEATURED_LOCATIONS = [
 const INLAND_BATHING_WATER_IDS = new Set([
   'sepa-200305', // Dores, Loch Ness
   'sepa-366986', // Loch Morlich
+  'sepa-125079', // Luss Bay, Loch Lomond
   'nrw-ukl1302-40550', // Marine Lake, Rhyl
 ])
 
@@ -124,8 +125,8 @@ export const OFFICIAL_LOCATIONS = OFFICIAL_BATHING_WATERS.map((location) => ({
   ...location,
   // SEPA lists this Loch Ness bathing site only as Dores.
   name: location.id === 'sepa-200305' ? 'Loch Ness – Dores' : location.name,
-  waterType: INLAND_BATHING_WATER_IDS.has(location.id) ? 'lake' : 'coastal',
-  marineModelSupported: !INLAND_BATHING_WATER_IDS.has(location.id),
+  waterType: INLAND_BATHING_WATER_IDS.has(location.id) ? 'lake' : (location.waterType ?? 'coastal'),
+  marineModelSupported: location.waterType !== 'lake' && !INLAND_BATHING_WATER_IDS.has(location.id),
 }))
 
 export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_LOCATIONS, ...EUROPEAN_BATHING_WATERS]
