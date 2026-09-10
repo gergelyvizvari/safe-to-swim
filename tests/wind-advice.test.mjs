@@ -132,9 +132,10 @@ test('all supported languages explain the wind without missing keys or placehold
       assert.doesNotMatch(t(`windAdvice.${key}`, { speed: '5', gusts: '8', value: '12', caution: '20', danger: '28', fields: 'test' }), /windAdvice\.|\{\w+\}|\[object Object\]/)
     }
     const safety = getSafety(calm, {}, t, locale, { quality: null })
-    assert.equal(safety.level, 'unknown')
-    assert.match(safety.description, /mph.*km\/h/)
-    assert.ok(safety.description.includes(t('windAdvice.missingShore')))
+    assert.equal(safety.level, 'caution')
+    assert.match(safety.description, /mph/)
+    assert.equal(safety.note, t('outlook.limitedNote'))
+    assert.doesNotMatch(`${safety.title} ${safety.description} ${safety.note}`, /outlook\.|\{\w+\}/)
   }
   assert.equal(formatWindSpeed(null, 'en-GB'), '—')
   assert.equal(formatWindSpeed(12, 'en-GB'), '12 mph / 19 km/h')

@@ -96,8 +96,17 @@ function baseSafety(conditions, location, t, locale, { source, quality = getWate
     }
   }
 
+  // Missing shoreline metadata limits the interpretation, not the available
+  // measurements. Keep a useful outlook without promoting it to a good rating.
+  const wind = getWindAssessment(conditions, location, source)
+  if (wind.missingFields.length === 1 && wind.missing === 'missingShore') {
+    const description = t('outlook.limitedText', { wave: formatNumber(waveHeight, locale), speed: windSpeed, gusts })
+    const note = t('outlook.limitedNote')
+    return { level: 'caution', eyebrow: t('outlook.limitedLabel'), title: t('outlook.limitedTitle'),
+      description, note, reason: `${description} ${note}`, icon: AlertTriangle }
+  }
+
   if (offshore === null || !Number.isFinite(windSpeed)) {
-    const wind = getWindAssessment(conditions, location, source)
     const description = `${formatWindReadings(wind, t, locale)}. ${t(`windAdvice.${wind.missing}`)}`
     return { ...special('unknown', 'wind'), title: t('windAdvice.incompleteTitle'), description, reason: description }
   }

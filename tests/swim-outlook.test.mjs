@@ -122,3 +122,28 @@ test('current daylight is normalized for the hero, with a bounded hourly fallbac
   assert.equal(normalize(input, marine, location).current.isDay, null)
   assert.equal(normalize(null, marine, location).current.isDay, null)
 })
+
+test('missing shoreline metadata preserves a measured outlook with a separate limitation', () => {
+  const place = { ...location, seaBearing: null }
+  const point = { ...calm, waveHeight: 0.4, gusts: 15, windSpeed: 9 }
+  const assess = (patch = {}, extra = {}) => getSafety({ ...point, ...patch }, place, t, 'en-GB', { ...options, ...extra })
+  const result = assess()
+  assert.equal(result.level, 'caution')
+  assert.equal(result.title, 'Low waves, modest gusts.')
+  assert.match(result.description, /0\.4 m.*9 mph.*15 mph/)
+  assert.match(result.note, /Shoreline orientation/)
+  assert.ok(result.reason.includes(result.note))
+  assert.equal(assess({ windDirection: null }).level, 'unknown')
+  assert.equal(assess({ windSpeed: null }).level, 'unknown')
+  assert.equal(assess({ gusts: null }).level, 'unknown')
+  assert.equal(assess({ waveHeight: null }).level, 'unknown')
+  assert.equal(assess({}, { source: 'stale' }).level, 'unknown')
+  assert.equal(assess({}, { source: 'unavailable' }).level, 'unknown')
+  assert.equal(assess({ waveHeight: 1 }).level, 'danger')
+  assert.equal(assess({ gusts: 28 }).level, 'danger')
+  assert.equal(assess({ waveHeight: 0.6 }).title, t('safety.cautionTitle'))
+  assert.equal(assess({ gusts: 20 }).title, t('safety.cautionTitle'))
+  assert.equal(assess({}, { quality: { site: { classification: 'Poor' } } }).title, t('outlook.waterTitle'))
+  assert.equal(assess({ seaBearing: 180 }).level, 'good')
+  assert.equal(findCalmestWindow(hours, place, options), null)
+})

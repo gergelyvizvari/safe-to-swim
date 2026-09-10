@@ -160,6 +160,7 @@ function SafetyHero({ inland, safety, wind, current, source, loading, language, 
         <div className="hero-chips">{safety.eyebrow !== weatherAlertMessages(language).title && <div className="status-pill"><StatusIcon size={16} />{safety.eyebrow}</div>}<WeatherAlertsPanel state={weatherAlerts} language={language} locale={locale} selectedTime={current.time} isNow={isNow} /></div>
         <h1 id="safety-title">{safety.title}</h1>
         <p>{safety.description}</p>
+        {safety.note && <div className="hero-night-warning" role="note"><Info size={16} aria-hidden="true" /><span>{safety.note}</span></div>}
         {inland && safety.action && <div className="lake-evidence">
           {safety.known.length > 0 && <><strong>{t('lakeDecision.knownLabel')}</strong><ul>{safety.known.map(item => <li key={item}>{item}</li>)}</ul></>}
           <p className="lake-action">{safety.action}</p>
