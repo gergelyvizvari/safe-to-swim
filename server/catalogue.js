@@ -86,14 +86,14 @@ export async function getMapCatalogue() {
         // Keyset pagination avoids the search endpoint's 500-location cap.
         let lastId = ''
         while (true) {
-          const rows = await database(`locations?active=eq.true&select=id,name,area,nation,latitude,longitude,water_type,nameRecord:metadata->nameRecord&order=id&limit=1000${lastId ? `&id=gt.${encodeURIComponent(lastId)}` : ''}`)
+          const rows = await database(`locations?active=eq.true&select=id,name,area,nation,latitude,longitude,water_type,nameRecord:metadata->nameRecord,seaBearing:metadata->seaBearing,shoreOrientation:metadata->shoreOrientation&order=id&limit=1000${lastId ? `&id=gt.${encodeURIComponent(lastId)}` : ''}`)
           items.push(...rows.map(({ water_type, ...row }) => ({ ...row, waterType: water_type })))
           if (!rows.length) break
           lastId = rows.at(-1).id
         }
       } else {
         const { COASTAL_LOCATIONS } = await localCatalogue()
-        items = COASTAL_LOCATIONS.map(({ id, name, area, nation, latitude, longitude, waterType }) => ({ id, name, area, nation, latitude, longitude, waterType }))
+        items = COASTAL_LOCATIONS.map(({ id, name, area, nation, latitude, longitude, waterType, seaBearing, shoreOrientation }) => ({ id, name, area, nation, latitude, longitude, waterType, seaBearing, shoreOrientation }))
       }
       return items
     })().catch(error => { mapIndex = null; throw error })

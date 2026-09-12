@@ -1,3 +1,4 @@
+import { withShoreOrientation } from './shoreOrientations.js'
 import { EUROPEAN_BATHING_WATERS } from './europeanBathingWaters.generated.js'
 import { OFFICIAL_BATHING_WATERS } from './bathingWaters.generated.js'
 
@@ -129,7 +130,7 @@ export const OFFICIAL_LOCATIONS = OFFICIAL_BATHING_WATERS.map((location) => ({
   marineModelSupported: location.waterType !== 'lake' && !INLAND_BATHING_WATER_IDS.has(location.id),
 }))
 
-export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_LOCATIONS, ...EUROPEAN_BATHING_WATERS]
+export const COASTAL_LOCATIONS = [...FEATURED_LOCATIONS, ...OFFICIAL_LOCATIONS, ...EUROPEAN_BATHING_WATERS].map(location => withShoreOrientation(location))
 
 export const DEFAULT_LOCATION = COASTAL_LOCATIONS[0]
 

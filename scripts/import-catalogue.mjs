@@ -37,7 +37,7 @@ export function importSql(tables) {
     const columns = Object.keys(rows[0])
     for (let offset = 0; offset < rows.length; offset += 300) {
       // Recordset omits generated/default fields; existing curated assignments are preserved.
-      const updates = table === 'locations' ? `on conflict (id) do update set name=excluded.name,nation=excluded.nation,area=excluded.area,latitude=excluded.latitude,longitude=excluded.longitude,metadata=excluded.metadata || case when locations.metadata->'nameRecord' is not null and locations.metadata->'nameRecord' <> 'null'::jsonb then jsonb_build_object('nameRecord',locations.metadata->'nameRecord') else '{}'::jsonb end,updated_at=now()`
+      const updates = table === 'locations' ? `on conflict (id) do update set name=excluded.name,nation=excluded.nation,area=excluded.area,latitude=excluded.latitude,longitude=excluded.longitude,metadata=excluded.metadata || case when locations.metadata->'nameRecord' is not null and locations.metadata->'nameRecord' <> 'null'::jsonb then jsonb_build_object('nameRecord',locations.metadata->'nameRecord') else '{}'::jsonb end || case when jsonb_typeof(locations.metadata->'seaBearing') = 'number' then jsonb_build_object('seaBearing',locations.metadata->'seaBearing','shoreOrientation',locations.metadata->'shoreOrientation') else '{}'::jsonb end,updated_at=now()`
         : table === 'annual_classifications' ? 'on conflict (location_id,source_id,year) do update set classification=excluded.classification,imported_at=now()' : 'on conflict do nothing'
       statements.push(`insert into public.${table} (${columns.join(',')}) select ${columns.map(c => `r.${c}`).join(',')} from jsonb_populate_recordset(null::public.${table}, ${quote(rows.slice(offset,offset+300))}) r ${updates};`)
     }

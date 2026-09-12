@@ -1,5 +1,6 @@
 export const outlookMessages = {
   en: {
+    shoreEstimate: "Estimated direction from shore to water: {bearing}° · checked {date}.", shoreData: "Shoreline data",
     limitedLabel: "Wind and wave outlook", limitedTitle: "Low waves, modest gusts.", limitedText: "Waves {wave} m · wind {speed} mph · gusts {gusts} mph.", limitedNote: "Shoreline orientation is not mapped here. Check locally whether the wind blows out to sea.",
     title: 'Calmest two-hour window', empty: 'No suitable two-hour daylight window found in the available forecast.', loading: 'Checking the forecast…', view: 'View this time', reason: 'Up to {wave} m waves · {gusts} mph gusts · no offshore wind indicated', scope: 'Wind and wave outlook only. Check water quality, local currents and beach flags before entering.',
     staleLabel: 'Data needs refreshing', staleTitle: 'Check the latest conditions.', staleText: 'Fresh conditions are unavailable. Any retained readings are from the last successful update; no recommendation is made.',
@@ -9,6 +10,7 @@ export const outlookMessages = {
     snapshot: 'Saved official record · {date}', waterUnknown: 'Current water quality is not confirmed.', waterCheck: 'Check the latest official record', nearby: 'Monitoring site: {name} · {distance} km away', normal: 'No increased risk in the saved record; this is not a live clearance.', elevated: 'Increased risk in the saved record; check the latest notice.', partial: 'One data source is unavailable. Only the available readings are shown.', model: 'Model time: {time}',
   },
   hu: {
+    shoreEstimate: "Becsült irány a partról a víz felé: {bearing}° · ellenőrizve: {date}.", shoreData: "Parttájolási adatok",
     limitedLabel: "Szél- és hullámhelyzet", limitedTitle: "Alacsony hullámok, mérsékelt széllökések.", limitedText: "Hullámzás: {wave} m · szél: {speed} mph · széllökés: {gusts} mph.", limitedNote: "Ehhez a helyhez nincs rögzítve a part tájolása. A helyszínen ellenőrizd, hogy a szél a nyílt víz felé fúj-e.",
     title: 'A legnyugodtabb kétórás időszak', empty: 'Az elérhető előrejelzésben nincs megfelelő kétórás, nappali időszak.', loading: 'Előrejelzés ellenőrzése…', view: 'Időpont megtekintése', reason: 'Legfeljebb {wave} m hullám · {gusts} mph széllökés · nincs jelzett kifelé fújó szél', scope: 'Csak a szél és a hullámzás alapján. Indulás előtt ellenőrizd a vízminőséget, a helyi áramlásokat és a parti zászlókat.',
     staleLabel: 'Frissítés szükséges', staleTitle: 'Ellenőrizd a friss körülményeket.', staleText: 'Friss adatok nem érhetők el. A megőrzött értékek az utolsó sikeres frissítésből származnak; ajánlást nem adunk.',
@@ -18,6 +20,7 @@ export const outlookMessages = {
     snapshot: 'Mentett hivatalos adat · {date}', waterUnknown: 'A jelenlegi vízminőség nincs megerősítve.', waterCheck: 'Ellenőrizd a friss hivatalos adatot', nearby: 'Mérési hely: {name} · {distance} km távolság', normal: 'A mentett adatban nincs fokozott kockázat; ez nem aktuális engedély az úszásra.', elevated: 'A mentett adat fokozott kockázatot jelez; ellenőrizd a friss figyelmeztetést.', partial: 'Az egyik adatforrás nem elérhető. Csak a rendelkezésre álló értékeket mutatjuk.', model: 'Modell időpontja: {time}',
   },
   fr: {
+    shoreEstimate: "Direction estimée du rivage vers l’eau : {bearing}° · vérifiée le {date}.", shoreData: "Données du rivage",
     limitedLabel: "Vent et vagues", limitedTitle: "Vagues faibles, rafales modérées.", limitedText: "Vagues : {wave} m · vent : {speed} mph · rafales : {gusts} mph.", limitedNote: "L’orientation du rivage n’est pas renseignée ici. Vérifiez sur place si le vent souffle vers le large.",
     title: 'Les deux heures les plus calmes', empty: 'Aucune période diurne de deux heures adaptée dans les prévisions disponibles.', loading: 'Vérification des prévisions…', view: 'Voir cet horaire', reason: 'Vagues jusqu’à {wave} m · rafales de {gusts} mph · aucun vent vers le large indiqué', scope: 'Prévisions de vent et de vagues uniquement. Vérifiez la qualité de l’eau, les courants locaux et les drapeaux avant de vous baigner.',
     staleLabel: 'Actualisation nécessaire', staleTitle: 'Vérifiez les dernières conditions.', staleText: 'Les données récentes sont indisponibles. Les valeurs conservées proviennent de la dernière mise à jour réussie ; aucune recommandation n’est proposée.',
@@ -27,6 +30,7 @@ export const outlookMessages = {
     snapshot: 'Relevé officiel enregistré · {date}', waterUnknown: 'La qualité actuelle de l’eau n’est pas confirmée.', waterCheck: 'Consultez le dernier relevé officiel', nearby: 'Site de mesure : {name} · à {distance} km', normal: 'Aucun risque accru dans le relevé enregistré ; cela ne confirme pas les conditions actuelles.', elevated: 'Risque accru dans le relevé enregistré ; consultez le dernier avis.', partial: 'Une source est indisponible. Seules les données disponibles sont affichées.', model: 'Heure du modèle : {time}',
   },
   it: {
+    shoreEstimate: "Direzione stimata dalla riva verso l’acqua: {bearing}° · verificata il {date}.", shoreData: "Dati della riva",
     limitedLabel: "Vento e onde", limitedTitle: "Onde basse, raffiche moderate.", limitedText: "Onde: {wave} m · vento: {speed} mph · raffiche: {gusts} mph.", limitedNote: "L’orientamento della riva non è registrato qui. Verifica sul posto se il vento soffia verso il largo.",
     title: 'Le due ore più calme', empty: 'Nessun intervallo diurno di due ore adatto nelle previsioni disponibili.', loading: 'Verifica delle previsioni…', view: 'Vedi questo orario', reason: 'Onde fino a {wave} m · raffiche di {gusts} mph · nessun vento verso il largo indicato', scope: 'Previsioni solo di vento e onde. Controlla qualità dell’acqua, correnti locali e bandiere prima di entrare.',
     staleLabel: 'Aggiornamento necessario', staleTitle: 'Controlla le ultime condizioni.', staleText: 'I dati aggiornati non sono disponibili. I valori conservati risalgono all’ultimo aggiornamento riuscito; non viene fornita alcuna raccomandazione.',
@@ -36,6 +40,7 @@ export const outlookMessages = {
     snapshot: 'Dato ufficiale salvato · {date}', waterUnknown: 'La qualità attuale dell’acqua non è confermata.', waterCheck: 'Controlla il dato ufficiale aggiornato', nearby: 'Sito di monitoraggio: {name} · a {distance} km', normal: 'Nessun rischio elevato nel dato salvato; non è una conferma delle condizioni attuali.', elevated: 'Rischio elevato nel dato salvato; controlla l’ultimo avviso.', partial: 'Una fonte non è disponibile. Sono mostrati solo i dati disponibili.', model: 'Ora del modello: {time}',
   },
   es: {
+    shoreEstimate: "Dirección estimada de la orilla al agua: {bearing}° · verificada el {date}.", shoreData: "Datos de la orilla",
     limitedLabel: "Viento y oleaje", limitedTitle: "Olas bajas, rachas moderadas.", limitedText: "Olas: {wave} m · viento: {speed} mph · rachas: {gusts} mph.", limitedNote: "La orientación de esta orilla no está registrada. Comprueba en el lugar si el viento sopla hacia mar abierto.",
     title: 'Las dos horas más tranquilas', empty: 'No hay un intervalo diurno adecuado de dos horas en el pronóstico disponible.', loading: 'Comprobando el pronóstico…', view: 'Ver este horario', reason: 'Olas de hasta {wave} m · rachas de {gusts} mph · sin viento hacia mar abierto indicado', scope: 'Solo pronóstico de viento y olas. Comprueba la calidad del agua, las corrientes locales y las banderas antes de entrar.',
     staleLabel: 'Actualización necesaria', staleTitle: 'Comprueba las últimas condiciones.', staleText: 'No hay datos recientes disponibles. Los valores conservados son de la última actualización correcta; no se ofrece ninguna recomendación.',

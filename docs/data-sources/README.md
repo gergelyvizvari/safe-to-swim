@@ -33,3 +33,32 @@ Only report a site as integrated once its adapter is used in the application and
 - `expiresAt` is returned without a UTC offset in the inspected records. Do not parse it using the server/browser's implicit timezone; resolve the provider's timestamp convention first. Store observed source strings unchanged in this audit.
 - Latest sample links were discovered but their payloads have not yet been fetched/validated. Freshness, sample units and exact sample status semantics remain unverified.
 - This read required no credentials. Rate limits and redistribution requirements must still be checked in the publisher's documentation before deployment of a new adapter. Do not treat existing static catalogue values as fresh warnings.
+
+## 2026-09-12 outcome
+
+15 new Spanish sites reviewed, plus completion of the preceding 15 Italian
+shoreline records. **30 orientations integrated locally, 0 applied in production;
+0 new dynamic adapters or verified live cameras.** The source evidence and
+per-location IDs are in `runs/2026-09-12.json`. The registry also preserves the
+pending France research from local commit `2f37035` so it is not repeated.
+
+The OSM-derived bearings have source/version/method/date provenance and a public
+ODbL dataset. Local catalogue and database API propagation are tested. Apply
+`supabase/imports/20260912_shore-orientations.sql` only to the configured project
+after the accompanying attribution UI is deployed. It fills missing metadata
+only, checks location identity/coordinates/type, and is safe to rerun. Existing
+orientations and their provenance survive the full catalogue import.
+
+Arpae supplied 15 exact identities; general reuse terms are CC BY-NC-SA, so no
+new production adapter is enabled. PlatgesCat supplied 253 beach records and
+14 detailed beaches for 15 selected EEA points. Its historical and current-season
+sample arrays differ: do not treat the latest historical row as a current sample.
+The retained Barceloneta current-season sample is dated 31 August 2026, with
+Europe/Madrid timezone metadata. Listing update times are not measurement times.
+Meteocat's public offshore XML is reachable, but region forecasts are not local
+beach observations; timezone and reuse validation remain.
+
+Verification: `npm test`, `npm run lint`, `npm run build`,
+`node scripts/verify-shore-orientations.mjs`. The standalone PostgreSQL regression
+check is `node scripts/check-shore-import.mjs`, against an **empty disposable local**
+`sts_shore_test` database on port 55439. It is never pointed at Supabase.

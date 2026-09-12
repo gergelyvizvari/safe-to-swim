@@ -1,0 +1,676 @@
+{
+  "date": "2026-09-12",
+  "baseCommit": "8812a82fdf9c684042789ff2db0e08ac9ee5ed66",
+  "continuedBatch": "2026-09-11 Italy, previously uncommitted; counted separately",
+  "counts": {
+    "newLocationsReviewed": 15,
+    "continuedLocations": 15,
+    "apiAdaptersIntegrated": 0,
+    "newBearingsDetermined": 15,
+    "continuedBearingsCompleted": 15,
+    "bearingsIntegratedLocally": 30,
+    "bearingsAppliedToProduction": 0,
+    "camerasVerifiedLive": 0,
+    "camerasIntegrated": 0
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "originEvidence": "GitHub repository homepage from public API, checked 2026-09-12",
+    "cataloguePages": [
+      {
+        "kind": "lake",
+        "total": 6235,
+        "count": 30
+      },
+      {
+        "kind": "coastal",
+        "total": 14878,
+        "count": 30
+      }
+    ],
+    "italyDetailsVerified": 15,
+    "spainDetailsVerified": 15,
+    "perSiteForecasts": {
+      "italyWeather": 15,
+      "italyMarine": 15,
+      "spainWeather": 15,
+      "spainMarine": 15
+    },
+    "sourceStateCheckedAt": "2026-09-12T13:49:53.965Z",
+    "scheduler": "Fresh check times advance relative to the preceding run; no manual source-checks call made. Storm payload at 11:46Z was correctly stale at 13:49Z; other observation checks continued.",
+    "databaseImport": "Prepared only: SQL access not configured. Metadata columns already exist; no new schema dependency.",
+    "publication": "No push or deployment in this run; previous main-push approval blocker unchanged. Local commit to be recorded in final."
+  },
+  "providers": [
+    {
+      "id": "arpae-balneazione",
+      "documentation": "https://www.arpae.it/it/temi-ambientali/balneazione",
+      "endpoint": "https://apps.arpae.it/REST/balneazione",
+      "identityProbe": {
+        "checkedAt": "2026-09-11T08:18:27.747Z",
+        "records": 100,
+        "matches": [
+          {
+            "locationId": "eea-IT008099002004",
+            "sourceId": "IT008099002004",
+            "coordinates": [
+              12.7383,
+              43.9687
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 07:46:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099002001",
+            "sourceId": "IT008099002001",
+            "coordinates": [
+              12.7456,
+              43.9691
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 31 Aug 2026 08:06:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099002005",
+            "sourceId": "IT008099002005",
+            "coordinates": [
+              12.7327,
+              43.9703
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 31 Aug 2026 08:14:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099002003",
+            "sourceId": "IT008099002003",
+            "coordinates": [
+              12.7269,
+              43.9718
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 07:55:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099002002",
+            "sourceId": "IT008099002002",
+            "coordinates": [
+              12.7252,
+              43.9724
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:00:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099005003",
+            "sourceId": "IT008099005003",
+            "coordinates": [
+              12.7181,
+              43.9739
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:04:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099005004",
+            "sourceId": "IT008099005004",
+            "coordinates": [
+              12.7065,
+              43.9788
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:13:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099005002",
+            "sourceId": "IT008099005002",
+            "coordinates": [
+              12.6982,
+              43.9835
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:19:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099005001",
+            "sourceId": "IT008099005001",
+            "coordinates": [
+              12.6904,
+              43.9872
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:25:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099013008",
+            "sourceId": "IT008099013008",
+            "coordinates": [
+              12.6821,
+              43.9924
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:31:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099013007",
+            "sourceId": "IT008099013007",
+            "coordinates": [
+              12.6741,
+              43.9976
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:38:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099013006",
+            "sourceId": "IT008099013006",
+            "coordinates": [
+              12.6591,
+              44.0074
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:46:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099013005",
+            "sourceId": "IT008099013005",
+            "coordinates": [
+              12.6567,
+              44.0086
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:48:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099013004",
+            "sourceId": "IT008099013004",
+            "coordinates": [
+              12.6497,
+              44.0136
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 08:54:00 GMT"
+          },
+          {
+            "locationId": "eea-IT008099013003",
+            "sourceId": "IT008099013003",
+            "coordinates": [
+              12.6389,
+              44.0212
+            ],
+            "coordinateMatch": true,
+            "latestSampleAt": "Mon, 17 Aug 2026 09:01:00 GMT"
+          }
+        ]
+      },
+      "reuseTerms": "https://www.arpae.it/it/note-legali-e-copyright",
+      "status": "candidate, no runtime use"
+    },
+    {
+      "id": "aca-platgescat",
+      "documentation": "https://aca.gencat.cat/ca/laigua/estat-del-medi-hidric/qualitat-de-les-aiguees-de-bany",
+      "endpoint": "https://aplicacions.aca.gencat.cat/platgescat2/agencia-catalana-del-agua-backend/web/app.php/api/front/ca",
+      "detailPattern": "playadetalle/{beachId}/ca",
+      "identityProbe": {
+        "checkedAt": "2026-09-12T14:01:00.307Z",
+        "listRecords": 253,
+        "detailRequests": 14,
+        "matches": [
+          {
+            "locationId": "eea-ES511M0892722",
+            "sourceBeachId": 312,
+            "sourceBeachName": "Platja de les Marines",
+            "municipality": "Gavà",
+            "candidateStation": {
+              "id": "08089D1",
+              "nombrepunto": "C. Sitges",
+              "coordenadax": 2.0050878968709,
+              "coordenaday": 41.264337932872,
+              "distanceMetres": 4
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-17 11:05:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0892477",
+            "sourceBeachId": 163,
+            "sourceBeachName": "Platja de Gavà",
+            "municipality": "Gavà",
+            "candidateStation": {
+              "id": "08089C2",
+              "nombrepunto": "Av. del Mar",
+              "coordenadax": 2.0199046987666,
+              "coordenaday": 41.26581617619,
+              "distanceMetres": 2
+            },
+            "otherStationCount": 1,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-17 11:20:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0892475",
+            "sourceBeachId": 163,
+            "sourceBeachName": "Platja de Gavà",
+            "municipality": "Gavà",
+            "candidateStation": {
+              "id": "08089C1",
+              "nombrepunto": "C. Blanes",
+              "coordenadax": 2.0267180740211,
+              "coordenaday": 41.266846806474,
+              "distanceMetres": 5
+            },
+            "otherStationCount": 1,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-18 08:19:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0892476",
+            "sourceBeachId": 237,
+            "sourceBeachName": "Platja de l'Estany",
+            "municipality": "Gavà",
+            "candidateStation": {
+              "id": "08089B1",
+              "nombrepunto": "C. Llançà (càmping 3 Estrelles)",
+              "coordenadax": 2.0427818633591,
+              "coordenaday": 41.269665774965,
+              "distanceMetres": 27
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-18 08:38:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M3012474",
+            "sourceBeachId": 287,
+            "sourceBeachName": "Platja de la Murtra - la Pineda",
+            "municipality": "Viladecans",
+            "candidateStation": {
+              "id": "08301C1",
+              "nombrepunto": "NE estany Murtra",
+              "coordenadax": 2.0471764642239,
+              "coordenaday": 41.270413836178,
+              "distanceMetres": 32
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-18 08:54:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M3012473",
+            "sourceBeachId": 162,
+            "sourceBeachName": "Platja del Remolar- Pineda de Cal Francès",
+            "municipality": "Viladecans",
+            "candidateStation": {
+              "id": "08301B1",
+              "nombrepunto": "NE riera de Sant Climent",
+              "coordenadax": 2.0662013319061,
+              "coordenaday": 41.275028516373,
+              "distanceMetres": 3
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-18 09:31:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M169667",
+            "sourceBeachId": 282,
+            "sourceBeachName": "Platja del Prat (Can Camins)",
+            "municipality": "El Prat de Llobregat",
+            "candidateStation": {
+              "id": "08169B1",
+              "nombrepunto": "Nord edifici CRAM",
+              "coordenadax": 2.0948052460075,
+              "coordenaday": 41.283111659945,
+              "distanceMetres": 1
+            },
+            "otherStationCount": 1,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 10:50:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0192471",
+            "sourceBeachId": 160,
+            "sourceBeachName": "Platja de Sant Sebastià",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019L1",
+              "nombrepunto": "Club Natació Barcelona",
+              "coordenadax": 2.1896979659343,
+              "coordenaday": 41.372327471678,
+              "distanceMetres": 3
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 07:25:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0192472",
+            "sourceBeachId": 159,
+            "sourceBeachName": "Platja de Sant Miquel",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019K1",
+              "nombrepunto": "Sud monument Barceloneta",
+              "coordenadax": 2.1913832829702,
+              "coordenaday": 41.376248597736,
+              "distanceMetres": 6
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-17 11:05:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0192383",
+            "sourceBeachId": 158,
+            "sourceBeachName": "Platja de la Barceloneta",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019I1",
+              "nombrepunto": "Sud C. Andrea Dòria",
+              "coordenadax": 2.1943075589302,
+              "coordenaday": 41.380574709835,
+              "distanceMetres": 27
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 07:45:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "latestCurrentSeasonSampleAt": {
+              "date": "2026-08-31 13:15:39.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M0192382",
+            "sourceBeachId": 157,
+            "sourceBeachName": "Platja del Somorrostro",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019E1",
+              "nombrepunto": "Nord hospital del Mar",
+              "coordenadax": 2.1955923334171,
+              "coordenaday": 41.383069775747,
+              "distanceMetres": 106
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 07:53:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M019635",
+            "sourceBeachId": 156,
+            "sourceBeachName": "Platja de la Nova Icària",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019D1",
+              "nombrepunto": "mig platja",
+              "coordenadax": 2.2024385871148,
+              "coordenaday": 41.390467569537,
+              "distanceMetres": 19
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 08:05:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M019631",
+            "sourceBeachId": 155,
+            "sourceBeachName": "Platja del Bogatell",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019C1",
+              "nombrepunto": "mig platja",
+              "coordenadax": 2.2066404017632,
+              "coordenaday": 41.394117638021,
+              "distanceMetres": 52
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-18 12:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M019630",
+            "sourceBeachId": 154,
+            "sourceBeachName": "Platja de la Mar Bella",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019B1",
+              "nombrepunto": "Accés poliesportiu",
+              "coordenadax": 2.211889092231,
+              "coordenaday": 41.39828815496,
+              "distanceMetres": 102
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 08:30:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          },
+          {
+            "locationId": "eea-ES511M019634",
+            "sourceBeachId": 153,
+            "sourceBeachName": "Platja de la Nova Mar Bella",
+            "municipality": "Barcelona",
+            "candidateStation": {
+              "id": "08019A1",
+              "nombrepunto": "mig platja",
+              "coordenadax": 2.2152314154427,
+              "coordenaday": 41.401868963879,
+              "distanceMetres": 10
+            },
+            "otherStationCount": 0,
+            "identityStatus": "beach-name-and-local-coordinates-reviewed; EEA-to-ACA-station-code-crosswalk-not-publisher-confirmed",
+            "notice": "S'han detectat espècies de meduses a l'aigua.",
+            "listingTimestamp": [
+              "2026-09-12 15:51:50"
+            ],
+            "latestHistoricalSampleAt": {
+              "date": "2025-09-15 08:43:00.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/Madrid"
+            },
+            "currentSeasonScope": "Only beach 158 current-season array was retained and inspected; other detail probes inspected historical tablaAnalisis. Do not mistake historical maxima or listing modification time for current sample time."
+          }
+        ]
+      },
+      "status": "candidate; sample units, reuse terms, rate limits and warning validity still need verification",
+      "semantics": "tablaAnalisis is historical; tablaAnalisisTemporadaCurso contains current-year samples. fechadato includes Europe/Madrid; fecha_mod is not a sample time. Sampled temperature is not present-day temperature. Jellyfish notices are not algal measurements."
+    },
+    {
+      "id": "meteocat-marine",
+      "documentation": "https://www.meteo.cat/wpweb/serveis/dades-obertes/",
+      "endpoint": "https://static-m.meteo.cat/content/opendata/maritim_mar_endins.xml",
+      "probe": {
+        "status": 200,
+        "creationTimeRaw": "2026-09-12 07:10:00",
+        "regions": [
+          {
+            "id": "BT",
+            "name": "Baix Llobregat",
+            "forecastCount": 11
+          },
+          {
+            "id": "BR",
+            "name": "Barcelonès",
+            "forecastCount": 11
+          }
+        ]
+      },
+      "scope": "Offshore comarca forecast, not beach observations. Wave heights in m and wind force ranges km/h; timezone convention unresolved.",
+      "access": "Public XML tested without key. Separate Meteocat REST requires API key; no account created.",
+      "status": "candidate; not mapped to beaches as local measurements"
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "oasis-cattolica",
+      "operator": "Oasis Cattolica",
+      "page": "https://www.oasiscattolica.com/it/oasis-webcam-cattolica.php",
+      "searchScopeLocationIds": [
+        "eea-IT008099002004",
+        "eea-IT008099002001",
+        "eea-IT008099002005",
+        "eea-IT008099002003",
+        "eea-IT008099002002"
+      ],
+      "coordinates": null,
+      "fieldOfViewEvidence": null,
+      "checkedAt": "2026-09-12",
+      "type": "image page",
+      "status": "unavailable",
+      "freshness": "Broken image in browser; no live frame verified",
+      "embedding": "unverified",
+      "nextReviewAt": "2026-10-12"
+    },
+    {
+      "cameraId": "skyline-barceloneta",
+      "operator": "SkylineWebcams",
+      "page": "https://www.skylinewebcams.com/en/webcam/espana/cataluna/barcelona/playa-barceloneta.html",
+      "searchScopeLocationIds": [
+        "eea-ES511M0192383"
+      ],
+      "coordinates": null,
+      "fieldOfViewEvidence": "Provider labels view along Passeig del Mare Nostrum; exact EEA sample point visibility not established.",
+      "checkedAt": "2026-09-12",
+      "type": "provider page",
+      "status": "unavailable",
+      "freshness": "Preview explicitly OFFLINE; no live playback. Consent/supporter prompt after declining advertising.",
+      "embedding": "not enabled",
+      "nextReviewAt": "2026-10-12"
+    }
+  ],
+  "remainingCameraSearch": "Municipality/operator searches for Gavà, Viladecans, El Prat and remaining Barcelona shores found no verified live camera covering the exact selected beaches. Nearby Badalona camera excluded from this batch. Italy Misano/Riccione candidates remain unverified; no proximity-only bindings.",
+  "verification": [
+    "npm test: 96 tests passed",
+    "npm run lint",
+    "npm run build",
+    "PostgreSQL disposable DB: existing 0-degree bearing/provenance/name retained across null and replacement imports; coordinate/type guards; idempotent missing-only update",
+    "Reproduced all 30 bearings from versioned OSM geometries",
+    "Browser desktop and 390x844 mobile: Cattolica 12-degree provenance readable and linked; missing shore message absent with complete winds"
+  ],
+  "nextCountry": "Portugal"
+}

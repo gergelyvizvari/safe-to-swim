@@ -661,6 +661,12 @@ function SafetyChecklist({ current, location, source, locale, t }) {
           )
         })}
       </div>
+      {Number.isFinite(location.seaBearing) && location.shoreOrientation?.source === 'OpenStreetMap contributors' && <p className="panel-note">
+        <span>{t('outlook.shoreEstimate', { bearing: location.seaBearing, date: location.shoreOrientation.checkedAt })}{' '}
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap contributors · ODbL</a>{' · '}
+          <a href="/data/shore-orientations.json">{t('outlook.shoreData')}</a>
+        </span>
+      </p>}
       <a className="lifeguard-link" href={location.rnliUrl ?? 'https://rnli.org/find-my-nearest/lifeguarded-beaches'} target="_blank" rel="noreferrer">
         {t('checklist.lifeguard')} <ArrowUpRight size={16} />
       </a>

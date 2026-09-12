@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-09-08",
-  "nextCountry": "France",
+  "lastRun": "2026-09-12",
+  "nextCountry": "Portugal",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -312,6 +312,1189 @@
         },
         "latestSampleAssessment": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/04000/date/20260901/time/120200/recordDate/20260901"
       }
+    },
+    {
+      "locationId": "eea-FRM022B183M02B230",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRM022B183M02B230",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=02B002212&isite=02B002212&dptddass=02B&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:18.114Z",
+        "sourceSiteId": "02B002212",
+        "sourceName": "ALBO",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-08-27",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRM022B303M02B058",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRM022B303M02B058",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=02B002274&isite=02B002274&dptddass=02B&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:18.603Z",
+        "sourceSiteId": "02B002274",
+        "sourceName": "ALISTRO",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-09-03",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRJ1334324M034020",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRJ1334324M034020",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=034003156&isite=034003156&dptddass=034&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:19.058Z",
+        "sourceSiteId": "034003156",
+        "sourceName": "ALLEE DE GAULLE",
+        "sampleCount": 10,
+        "latestSample": {
+          "sampledOn": "2026-08-31",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 46,
+            "qualifier": "=",
+            "unit": "/100mL",
+            "raw": "46"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": "fr-valras-tourism",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRK2438006D038300",
+      "provider": "sise-france",
+      "status": "not_found",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Official source and camera searches performed; no individually validated sample endpoint found.",
+      "identityVerified": false,
+      "evidence": {
+        "reason": "No verified SISE ID; do not derive it from an EEA ID."
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "No new observation or camera enabled. Regional/model providers only screened; no site-level coverage demonstrated."
+    },
+    {
+      "locationId": "eea-FRE1262025M062130",
+      "provider": "sise-france",
+      "status": "not_found",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Official source and camera searches performed; no individually validated sample endpoint found.",
+      "identityVerified": false,
+      "evidence": {
+        "reason": "No verified SISE ID; do not derive it from an EEA ID."
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "No new observation or camera enabled. Regional/model providers only screened; no site-level coverage demonstrated."
+    },
+    {
+      "locationId": "eea-FRH0229030M029189",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRH0229030M029189",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=029001837&isite=029001837&dptddass=029&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:19.340Z",
+        "sourceSiteId": "029001837",
+        "sourceName": "AN AMIED",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-09-03",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": "fr-cleder-amiets-east",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRH0122349M022507",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRH0122349M022507",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=022001362&isite=022001362&dptddass=022&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:19.554Z",
+        "sourceSiteId": "022001362",
+        "sourceName": "AN AOD VRAZ",
+        "sampleCount": 13,
+        "latestSample": {
+          "sampledOn": "2026-09-03",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 30,
+            "qualifier": "=",
+            "unit": "/100mL",
+            "raw": "30"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRL0583069M083264",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRL0583069M083264",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=083002574&isite=083002574&dptddass=083&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:19.763Z",
+        "sourceSiteId": "083002574",
+        "sourceName": "ANCIENNE AUBERGE",
+        "sampleCount": 9,
+        "latestSample": {
+          "sampledOn": "2026-08-24",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "=",
+            "unit": "/100mL",
+            "raw": "15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRL0583122D083100",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRL0583122D083100",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=083002225&isite=083002225&dptddass=083&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:19.961Z",
+        "sourceSiteId": "083002225",
+        "sourceName": "ANCIENNE ROUTE DES SALLES",
+        "sampleCount": 5,
+        "latestSample": {
+          "sampledOn": "2026-08-31",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "=",
+            "unit": "/100mL",
+            "raw": "15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": "fr-aiguines-sainte-croix",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRH0229101M029316",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRH0229101M029316",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=029001759&isite=029001759&dptddass=029&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:20.160Z",
+        "sourceSiteId": "029001759",
+        "sourceName": "ANGES",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-09-04",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "=",
+            "unit": "/100mL",
+            "raw": "15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": "fr-landeda-semaphore",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRM022B077M02B093",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRM022B077M02B093",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=02B002276&isite=02B002276&dptddass=02B&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:20.373Z",
+        "sourceSiteId": "02B002276",
+        "sourceName": "ANGHIONE",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-08-31",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRK2874010D074212",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRK2874010D074212",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=074003345&isite=074003345&dptddass=074&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:20.578Z",
+        "sourceSiteId": "074003345",
+        "sourceName": "ANNECY IMPERIAL",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-08-26",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": "fr-annecy-albigny-panorama",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRK2874010D074320",
+      "provider": "sise-france",
+      "status": "candidate",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Live SISE sample tables parsed with matching SISE ID and exact source name; EEA crosswalk not verified.",
+      "identityVerified": false,
+      "evidence": {
+        "locationId": "eea-FRK2874010D074320",
+        "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?site=074003346&isite=074003346&dptddass=074&annee=2026&plv=all",
+        "checkedAt": "2026-09-10T08:08:20.774Z",
+        "sourceSiteId": "074003346",
+        "sourceName": "ANNECY LES MARQUISATS",
+        "sampleCount": 7,
+        "latestSample": {
+          "sampledOn": "2026-08-26",
+          "datePrecision": "day",
+          "enterococci": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          },
+          "ecoli": {
+            "value": 15,
+            "qualifier": "<",
+            "unit": "/100mL",
+            "raw": "<15"
+          }
+        },
+        "sourceIdentityVerified": true,
+        "catalogueIdentityVerified": false
+      },
+      "cameraCandidateId": "fr-annecy-albigny-panorama",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "Candidate only: verify EEA-to-SISE coordinates/official crosswalk, reuse terms and rate limits; then shared collection, normalized API/UI and idempotent DB bindings."
+    },
+    {
+      "locationId": "eea-FRK2874010D074220",
+      "provider": "sise-france",
+      "status": "not_found",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Official source and camera searches performed; no individually validated sample endpoint found.",
+      "identityVerified": false,
+      "evidence": {
+        "reason": "No verified SISE ID; do not derive it from an EEA ID."
+      },
+      "cameraCandidateId": "fr-annecy-albigny-panorama",
+      "cameraSearch": {
+        "status": "candidate",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "No new observation or camera enabled. Regional/model providers only screened; no site-level coverage demonstrated."
+    },
+    {
+      "locationId": "eea-FRD1250215M050320",
+      "provider": "sise-france",
+      "status": "not_found",
+      "checkedAt": "2026-09-10",
+      "nextReviewAt": "2026-10-10",
+      "scope": "Official source and camera searches performed; no individually validated sample endpoint found.",
+      "identityVerified": false,
+      "evidence": {
+        "reason": "No verified SISE ID; do not derive it from an EEA ID."
+      },
+      "cameraCandidateId": null,
+      "cameraSearch": {
+        "status": "not_found",
+        "scope": "Public web search for site/camera; absence of result does not prove no camera exists."
+      },
+      "reason": "No new observation or camera enabled. Regional/model providers only screened; no site-level coverage demonstrated."
+    },
+    {
+      "locationId": "eea-IT008099002004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099002004",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 12,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099002001",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099002001",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 358,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099002005",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099002005",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 18,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099002003",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099002003",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 22,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099002002",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099002002",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 16,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099005003",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099005003",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 358,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099005004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099005004",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 27,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099005002",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099005002",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 8,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099005001",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099005001",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 20,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099013008",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099013008",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 39,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099013007",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099013007",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 46,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099013006",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099013006",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 46,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099013005",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099013005",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 41,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099013004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099013004",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 46,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-IT008099013003",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "arpae-balneazione",
+      "status": "candidate",
+      "checkedAt": "2026-09-11",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": true,
+      "scope": "Exact Arpae ID and coordinates verified.",
+      "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
+      "sourceTargetCandidate": "IT008099013003",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 35,
+        "checkedAt": "2026-09-11",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0892722",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08089D1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 176,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0892477",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08089C2",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 170,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0892475",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08089C1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 169,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0892476",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08089B1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 166,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M3012474",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08301C1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 168,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M3012473",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08301B1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 162,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M169667",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08169B1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 156,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0192471",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019L1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 102,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0192472",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019K1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 124,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0192383",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019I1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 130,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M0192382",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019E1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 133,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M019635",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019D1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 136,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M019631",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019C1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 123,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M019630",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019B1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 134,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-ES511M019634",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "aca-platgescat",
+      "status": "candidate",
+      "checkedAt": "2026-09-12",
+      "nextReviewAt": "2026-10-12",
+      "identityVerified": false,
+      "scope": "Named beach and local control point reviewed; station-code crosswalk remains a candidate.",
+      "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
+      "sourceTargetCandidate": "08019A1",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 125,
+        "checkedAt": "2026-09-12",
+        "record": "public/data/shore-orientations.json",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-12.json"
     }
   ]
 }
