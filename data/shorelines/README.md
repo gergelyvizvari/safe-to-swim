@@ -27,3 +27,11 @@ Fifteen new orientations: fourteen local normals, one reviewed beach chord at
 Remolar across a small indentation. The EEA coordinates sometimes sit just
 landward of the OSM high-water line; water-side verification uses the directed
 coastline convention and the north-up local plot, not the sample point's side.
+
+2026-09-13 Portugal snapshot query:
+`[out:json][timeout:25];way["natural"="coastline"](38.56,-9.26,38.66,-9.18);out meta geom;`
+Fifteen local beach normals reviewed in north-up plots. Atlantic water is on the
+western/right side; northern groynes do not replace the nearby beach tangent.
+All 15 records feed the existing catalogue overlay and detail/map API tests.
+`supabase/imports/20260913_shore-orientations.sql` contains only today's 15
+conditional updates; do not count the preceding 30 as newly processed.

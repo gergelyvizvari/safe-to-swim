@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-09-12",
-  "nextCountry": "Portugal",
+  "lastRun": "2026-09-13",
+  "nextCountry": "Croatia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -1495,6 +1495,321 @@
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
+    },
+    {
+      "locationId": "eea-PTCX7L",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCX7L",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 246,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCN2K",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCN2K",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 255,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCV7J",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCV7J",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 253,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCT3K",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCT3K",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 255,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCT9D",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCT9D",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 247,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCH8T",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCH8T",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 253,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCF3U",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCF3U",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 246,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "candidate",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCV2T",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCV2T",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 246,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCX3J",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCX3J",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 237,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCH3V",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCH3V",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 242,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "candidate",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCN9J",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCN9J",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 237,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCF7X",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCF7X",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 240,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCX3N",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCX3N",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 239,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCJ8N",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCJ8N",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 242,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-PTCK2H",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "apa-sniamb",
+      "status": "candidate",
+      "checkedAt": "2026-09-13",
+      "nextReviewAt": "2026-10-13",
+      "identityVerified": true,
+      "sourceTargetCandidate": "PTCK2H",
+      "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
+      "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 237,
+        "checkedAt": "2026-09-13",
+        "productionApplied": false
+      },
+      "cameraStatus": "candidate",
+      "evidence": "runs/2026-09-13.json"
     }
   ]
 }

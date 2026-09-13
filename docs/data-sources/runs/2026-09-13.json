@@ -1,0 +1,708 @@
+{
+  "date": "2026-09-13",
+  "baseCommit": "bd56377",
+  "originMain": "8812a82fdf9c684042789ff2db0e08ac9ee5ed66",
+  "counts": {
+    "newLocationsReviewed": 15,
+    "officialWaterIdentitiesVerified": 15,
+    "apiAdaptersIntegrated": 0,
+    "newBearingsDetermined": 15,
+    "newBearingsIntegratedLocally": 15,
+    "cumulativeLocalBearings": 45,
+    "newBearingsAppliedToProduction": 0,
+    "camerasPlaying": 1,
+    "camerasVerifiedLiveAndLocated": 0,
+    "camerasIntegrated": 0
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "originEvidence": "Current GitHub repository homepage via public API",
+    "cataloguePages": [
+      {
+        "kind": "lake",
+        "total": 6235,
+        "count": 30
+      },
+      {
+        "kind": "coastal",
+        "total": 14878,
+        "count": 30
+      }
+    ],
+    "detailsAndObservationsVerified": 15,
+    "perSiteForecasts": {
+      "weatherValid": 15,
+      "marineValid": 15
+    },
+    "checkedAt": "2026-09-13T08:08:27.276Z",
+    "sourceHealth": {
+      "checkedAt": "2026-09-13T08:03:57.629Z",
+      "states": [
+        {
+          "source_id": "open-meteo-marine",
+          "status": "healthy",
+          "checked_at": "2026-09-13T07:58:01.552+00:00",
+          "published_at": "2026-09-13T07:45:00+00:00",
+          "next_check_at": "2026-09-13T08:03:03.15+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "model_canary"
+        },
+        {
+          "source_id": "official-quality",
+          "status": "healthy",
+          "checked_at": "2026-09-12T15:29:01.333+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-13T15:29:05.922+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "observations"
+        },
+        {
+          "source_id": "official-waveForecast",
+          "status": "healthy",
+          "checked_at": "2026-09-13T07:08:00.794+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-13T08:08:02.199+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "link_reachability"
+        },
+        {
+          "source_id": "open-meteo-weather",
+          "status": "healthy",
+          "checked_at": "2026-09-13T08:01:02.822+00:00",
+          "published_at": "2026-09-13T08:00:00+00:00",
+          "next_check_at": "2026-09-13T08:06:03.894+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "model_canary"
+        },
+        {
+          "source_id": "official-windForecast",
+          "status": "healthy",
+          "checked_at": "2026-09-13T07:11:00.877+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-13T08:11:02.05+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "link_reachability"
+        },
+        {
+          "source_id": "official-temperature",
+          "status": "healthy",
+          "checked_at": "2026-09-13T08:02:00.833+00:00",
+          "published_at": "2026-09-13T07:40:00+00:00",
+          "next_check_at": "2026-09-13T08:03:02.916+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "observations"
+        },
+        {
+          "source_id": "eea",
+          "status": "healthy",
+          "checked_at": "2026-09-08T15:25:47.375+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-15T15:25:47.63+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "link_reachability"
+        },
+        {
+          "source_id": "daera",
+          "status": "healthy",
+          "checked_at": "2026-09-08T15:25:47.376+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-15T15:25:47.639+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "link_reachability"
+        },
+        {
+          "source_id": "ea",
+          "status": "healthy",
+          "checked_at": "2026-09-08T15:25:47.376+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-15T15:25:47.634+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "link_reachability"
+        },
+        {
+          "source_id": "nrw",
+          "status": "healthy",
+          "checked_at": "2026-09-08T15:25:47.376+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-15T15:25:47.654+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "link_reachability"
+        },
+        {
+          "source_id": "sepa",
+          "status": "unavailable",
+          "checked_at": "2026-09-08T15:25:47.376+00:00",
+          "published_at": null,
+          "next_check_at": "2026-09-15T15:25:47.694+00:00",
+          "consecutive_failures": 1,
+          "check_kind": null
+        },
+        {
+          "source_id": "official-storm",
+          "status": "stale",
+          "checked_at": "2026-09-13T07:58:01.555+00:00",
+          "published_at": "2026-09-12T16:24:00+00:00",
+          "next_check_at": "2026-09-13T07:59:03.245+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "observations"
+        },
+        {
+          "source_id": "official-wind",
+          "status": "healthy",
+          "checked_at": "2026-09-13T08:03:00.746+00:00",
+          "published_at": "2026-09-13T07:56:00+00:00",
+          "next_check_at": "2026-09-13T08:04:02.671+00:00",
+          "consecutive_failures": 0,
+          "check_kind": "observations"
+        }
+      ]
+    },
+    "scheduler": "Check times advance relative to previous run; no manual source-checks invocation. Storm publication remains stale while collection continues. SEPA retry is not due until September 15.",
+    "databaseImport": "Prepared, not applied; only server REST credentials are configured. No schema or permission changes.",
+    "publication": "Local work only; no push/deploy in this run."
+  },
+  "providers": [
+    {
+      "id": "apa-sniamb",
+      "documentation": "https://praias.apambiente.pt/",
+      "endpoint": "https://sniambgeoogc.apambiente.pt/getogc/rest/services/SNIAmb/Praias/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=json",
+      "recordsReturned": 761,
+      "pagination": "761 records, below reported 2000 maximum, no exceededTransferLimit.",
+      "semantics": "Beach/concession features can share an EEA bathing-water ID. Annual class and untimestamped status text are not fresh samples. No observation units or sample time verified.",
+      "licence": "Layer copyright/description blank; not evidence of an open reuse licence.",
+      "sampleProbe": {
+        "url": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCX7L&ano=2026",
+        "httpStatus": 403,
+        "result": "No bypass or repeated site-by-site requests."
+      },
+      "status": "candidate"
+    },
+    {
+      "id": "ipma-oceanography",
+      "documentation": "https://api.ipma.pt/",
+      "endpoint": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
+      "forecastDate": "2026-09-13",
+      "candidateTarget": 1111026,
+      "candidateLabel": "Lisboa, costa",
+      "candidateCoordinates": {
+        "latitude": 38.65,
+        "longitude": -9.31
+      },
+      "variables": "Daily wave-height bounds in metres, period bounds in seconds, SST bounds in Celsius, predominant direction; model forecasts, not shore measurements.",
+      "warningEndpoint": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+      "warningProbe": {
+        "httpStatus": 200,
+        "records": 217
+      },
+      "mapping": "No nearest-point substitution: regional offshore model coverage needs explicit review. Do not assign Lisboa district warnings to Almada solely from the maritime-point label.",
+      "access": "Public read without key; publisher asks for notification email (none sent). Reuse terms restrict profit-making uses; no new runtime integration enabled.",
+      "status": "candidate"
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-PTCX7L",
+      "sourceTargetId": "PTCX7L",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000462,
+          "beachName": "Fonte da Telha Centro",
+          "beachCoordinates": {
+            "x": -9.195818999999972,
+            "y": 38.571828999080104
+          },
+          "category": 1
+        },
+        {
+          "objectId": 100000464,
+          "beachName": "Fonte da Telha Sul",
+          "beachCoordinates": {
+            "x": -9.192106999999965,
+            "y": 38.56297699908018
+          },
+          "category": 1
+        },
+        {
+          "objectId": 100000461,
+          "beachName": "Fonte da Telha Norte",
+          "beachCoordinates": {
+            "x": -9.20004499999993,
+            "y": 38.57908099908004
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCX7L&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 246,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCN2K",
+      "sourceTargetId": "PTCN2K",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000459,
+          "beachName": "Nova Vaga",
+          "beachCoordinates": {
+            "x": -9.209364999999934,
+            "y": 38.597732999079945
+          },
+          "category": 1
+        },
+        {
+          "objectId": 100000460,
+          "beachName": "Bela Vista",
+          "beachCoordinates": {
+            "x": -9.208353999999929,
+            "y": 38.59582299907994
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCN2K&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 255,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCV7J",
+      "sourceTargetId": "PTCV7J",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000458,
+          "beachName": "Infante",
+          "beachCoordinates": {
+            "x": -9.210424999999928,
+            "y": 38.599692999079934
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCV7J&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 253,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCT3K",
+      "sourceTargetId": "PTCT3K",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000457,
+          "beachName": "Sereia",
+          "beachCoordinates": {
+            "x": -9.210948999999971,
+            "y": 38.601364999079905
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCT3K&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 255,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCT9D",
+      "sourceTargetId": "PTCT9D",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000456,
+          "beachName": "Morena",
+          "beachCoordinates": {
+            "x": -9.212007999999969,
+            "y": 38.60299699907992
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCT9D&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 247,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCH8T",
+      "sourceTargetId": "PTCH8T",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000455,
+          "beachName": "Rei",
+          "beachCoordinates": {
+            "x": -9.213358999999969,
+            "y": 38.60607299907986
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCH8T&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 253,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCF3U",
+      "sourceTargetId": "PTCF3U",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000453,
+          "beachName": "Cabana do Pescador",
+          "beachCoordinates": {
+            "x": -9.215055999999947,
+            "y": 38.60882299907984
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCF3U&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 246,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": [
+        "https://beachcam.meo.pt/iframe_player.html?cam=bccabanadopescador"
+      ]
+    },
+    {
+      "locationId": "eea-PTCV2T",
+      "sourceTargetId": "PTCV2T",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000451,
+          "beachName": "Castelo (Almada)",
+          "beachCoordinates": {
+            "x": -9.217213999999958,
+            "y": 38.61292099907981
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCV2T&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 246,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCX3J",
+      "sourceTargetId": "PTCX3J",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000450,
+          "beachName": "Rainha (Almada)",
+          "beachCoordinates": {
+            "x": -9.219392999999968,
+            "y": 38.615553999079786
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCX3J&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 237,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCH3V",
+      "sourceTargetId": "PTCH3V",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000449,
+          "beachName": "Riviera",
+          "beachCoordinates": {
+            "x": -9.22171499999996,
+            "y": 38.61871599907979
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCH3V&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 242,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": [
+        "https://beachcam.meo.pt/iframe_player.html?cam=riviera"
+      ]
+    },
+    {
+      "locationId": "eea-PTCN9J",
+      "sourceTargetId": "PTCN9J",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000448,
+          "beachName": "Mata",
+          "beachCoordinates": {
+            "x": -9.224472999999932,
+            "y": 38.623109999079745
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCN9J&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 237,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCF7X",
+      "sourceTargetId": "PTCF7X",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000447,
+          "beachName": "Saúde",
+          "beachCoordinates": {
+            "x": -9.229036999999948,
+            "y": 38.62897699907974
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCF7X&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 240,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCX3N",
+      "sourceTargetId": "PTCX3N",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000445,
+          "beachName": "Praia Nova",
+          "beachCoordinates": {
+            "x": -9.235298999999939,
+            "y": 38.63737799907966
+          },
+          "category": 1
+        },
+        {
+          "objectId": 100000446,
+          "beachName": "Nova Praia",
+          "beachCoordinates": {
+            "x": -9.232062999999926,
+            "y": 38.63352099907964
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCX3N&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 239,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCJ8N",
+      "sourceTargetId": "PTCJ8N",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000444,
+          "beachName": "Dragão Vermelho",
+          "beachCoordinates": {
+            "x": -9.237651999999969,
+            "y": 38.6395779990796
+          },
+          "category": 1
+        },
+        {
+          "objectId": 100000443,
+          "beachName": "Tarquinio - Paraíso",
+          "beachCoordinates": {
+            "x": -9.238948999999934,
+            "y": 38.64174899907963
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCJ8N&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 242,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": []
+    },
+    {
+      "locationId": "eea-PTCK2H",
+      "sourceTargetId": "PTCK2H",
+      "identityVerified": true,
+      "sourceBeachRecords": [
+        {
+          "objectId": 100000442,
+          "beachName": "CDS",
+          "beachCoordinates": {
+            "x": -9.241751999999964,
+            "y": 38.6447669990796
+          },
+          "category": 1
+        },
+        {
+          "objectId": 100000440,
+          "beachName": "St. António",
+          "beachCoordinates": {
+            "x": -9.243740999999945,
+            "y": 38.64740799907956
+          },
+          "category": 1
+        }
+      ],
+      "sampleUrl": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCK2H&ano=2026",
+      "sampleStatus": "Provider sample-page probe failed with HTTP 403; not retried for each shared-service site. No sample or freshness validated.",
+      "orientation": {
+        "seaBearing": 237,
+        "status": "integrated-locally",
+        "productionApplied": false,
+        "source": "public/data/shore-orientations.json"
+      },
+      "cameraCandidates": [
+        "https://beachcam.meo.pt/iframe_player.html?cam=costacaparicacds"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "meo-bccabanadopescador",
+      "locationId": "eea-PTCF3U",
+      "operator": "MEO Beachcam",
+      "name": "Cabana do Pescador",
+      "sourceUrl": "https://beachcam.meo.pt/iframe_player.html?cam=bccabanadopescador",
+      "assignmentEvidence": "https://sniambgeoogc.apambiente.pt/getogc/rest/services/SNIAmb/Praias/MapServer/0 exact codigo_agua_balnear record links this player",
+      "coordinates": null,
+      "fieldOfViewEvidence": null,
+      "type": "embedded-provider-player",
+      "checkedAt": "2026-09-13",
+      "playbackVerified": false,
+      "liveFreshnessVerified": false,
+      "captureTimestamp": null,
+      "status": "unavailable",
+      "reason": "Browser player reports Unable to play media.",
+      "embedding": "Provider embed works for Riviera; reuse terms unverified; not embedded in application.",
+      "nextReviewAt": "2026-10-13"
+    },
+    {
+      "cameraId": "meo-riviera",
+      "locationId": "eea-PTCH3V",
+      "operator": "MEO Beachcam",
+      "name": "Riviera",
+      "sourceUrl": "https://beachcam.meo.pt/iframe_player.html?cam=riviera",
+      "assignmentEvidence": "https://sniambgeoogc.apambiente.pt/getogc/rest/services/SNIAmb/Praias/MapServer/0 exact codigo_agua_balnear record links this player",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Beach and sea visible; exact surveyed point visibility and camera position unresolved.",
+      "type": "embedded-provider-player",
+      "checkedAt": "2026-09-13",
+      "playbackVerified": true,
+      "liveFreshnessVerified": false,
+      "captureTimestamp": null,
+      "status": "candidate",
+      "reason": "Video visibly shows beach and ocean and advances from 51.68s to 172.18s, unpaused, readyState 4. No capture timestamp or independently verified camera position.",
+      "embedding": "Provider embed works for Riviera; reuse terms unverified; not embedded in application.",
+      "nextReviewAt": "2026-10-13"
+    },
+    {
+      "cameraId": "meo-costacaparicacds",
+      "locationId": "eea-PTCK2H",
+      "operator": "MEO Beachcam",
+      "name": "CDS",
+      "sourceUrl": "https://beachcam.meo.pt/iframe_player.html?cam=costacaparicacds",
+      "assignmentEvidence": "https://sniambgeoogc.apambiente.pt/getogc/rest/services/SNIAmb/Praias/MapServer/0 exact codigo_agua_balnear record links this player",
+      "coordinates": null,
+      "fieldOfViewEvidence": null,
+      "type": "embedded-provider-player",
+      "checkedAt": "2026-09-13",
+      "playbackVerified": false,
+      "liveFreshnessVerified": false,
+      "captureTimestamp": null,
+      "status": "unavailable",
+      "reason": "Browser player reports Unable to play media.",
+      "embedding": "Provider embed works for Riviera; reuse terms unverified; not embedded in application.",
+      "nextReviewAt": "2026-10-13"
+    }
+  ],
+  "remainingCameraScope": "Shared operator search and all 15 APA records screened; only three explicit publisher camera assignments. Other search candidates lack exact camera location/FOV evidence.",
+  "validation": [
+    "npm test: 96 passed",
+    "npm run lint passed",
+    "npm run build passed",
+    "All 45 OSM bearings reproduced from versioned snapshots",
+    "Today SQL tested in disposable local PostgreSQL: 11 fills plus 4 guarded cases (manual north/provenance, changed coordinates, lake, inactive), metadata preserved, rerun unchanged",
+    "Browser: Fonte da Telha shows 246-degree OSM estimate checked 2026-09-13; offshore wind recognized; missing shoreline message absent."
+  ],
+  "nextCountry": "Croatia"
+}

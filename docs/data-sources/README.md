@@ -62,3 +62,22 @@ Verification: `npm test`, `npm run lint`, `npm run build`,
 `node scripts/verify-shore-orientations.mjs`. The standalone PostgreSQL regression
 check is `node scripts/check-shore-import.mjs`, against an **empty disposable local**
 `sts_shore_test` database on port 55439. It is never pointed at Supabase.
+
+## 2026-09-13 outcome
+
+15 Portuguese bathing-water identities verified against the official APA ArcGIS
+collection, and 15 new OSM-derived orientations integrated locally (45 cumulative).
+Production additions remain zero. The new SQL import is prepared, not applied.
+No new adapter or live camera was enabled.
+
+APA returns 761 beach/concession records; several share one bathing-water code.
+The official sample-detail link returned 403, and was not retried for every beach.
+The untimestamped water-status description is not a recent bacterial measurement.
+IPMA's daily offshore forecast and warnings are reachable; spatial coverage and
+reuse conditions still need resolution before enabling an adapter.
+
+Three cameras are directly referenced by the corresponding APA records. Riviera
+played beach video, but capture time and exact camera position remain unknown;
+Cabana do Pescador and CDS reported playback errors. None is counted as a verified
+live-camera integration. See `runs/2026-09-13.json` for per-location evidence and
+review dates. Tests, lint, build and the new SQL's local PostgreSQL regression pass.

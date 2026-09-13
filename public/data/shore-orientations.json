@@ -1089,6 +1089,546 @@
         ],
         "reviewNote": "North-up local coastline plot reviewed: water to right (east/south), land to left. Catalogue shore points may lie slightly landward of the mapped high-water line; this offset does not reverse the coast normal. Remolar uses the local beach chord across a short shoreline indentation, not the indentation side. No currents or hazards inferred."
       }
+    },
+    {
+      "locationId": "eea-PTCX7L",
+      "latitude": 38.57143,
+      "longitude": -9.19748,
+      "seaBearing": 246,
+      "shoreOrientation": {
+        "distanceMetres": 84,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 55,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.571738337497,
+          "longitude": -9.1965990619492
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCN2K",
+      "latitude": 38.59562,
+      "longitude": -9.20886,
+      "seaBearing": 255,
+      "shoreOrientation": {
+        "distanceMetres": 55,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 41,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.5957489474467,
+          "longitude": -9.208253530120338
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCV7J",
+      "latitude": 38.59969,
+      "longitude": -9.21043,
+      "seaBearing": 253,
+      "shoreOrientation": {
+        "distanceMetres": 52,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 38,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.59982881131308,
+          "longitude": -9.209854796552479
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCT3K",
+      "latitude": 38.60137,
+      "longitude": -9.21095,
+      "seaBearing": 255,
+      "shoreOrientation": {
+        "distanceMetres": 42,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 36,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.60146340392976,
+          "longitude": -9.210481386018706
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCT9D",
+      "latitude": 38.603,
+      "longitude": -9.21201,
+      "seaBearing": 247,
+      "shoreOrientation": {
+        "distanceMetres": 74,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 34,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.603256659962334,
+          "longitude": -9.21123107330703
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCH8T",
+      "latitude": 38.60607,
+      "longitude": -9.21336,
+      "seaBearing": 253,
+      "shoreOrientation": {
+        "distanceMetres": 51,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 31,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.60620704486817,
+          "longitude": -9.212799337352068
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCF3U",
+      "latitude": 38.60882,
+      "longitude": -9.21506,
+      "seaBearing": 246,
+      "shoreOrientation": {
+        "distanceMetres": 84,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 28,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.60912400541394,
+          "longitude": -9.2141822548424
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCV2T",
+      "latitude": 38.61292,
+      "longitude": -9.21721,
+      "seaBearing": 246,
+      "shoreOrientation": {
+        "distanceMetres": 66,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 23,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.61313582668959,
+          "longitude": -9.21649994649019
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCX3J",
+      "latitude": 38.61555,
+      "longitude": -9.21939,
+      "seaBearing": 237,
+      "shoreOrientation": {
+        "distanceMetres": 96,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.61603608084616,
+          "longitude": -9.21847280243619
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCH3V",
+      "latitude": 38.61872,
+      "longitude": -9.22171,
+      "seaBearing": 242,
+      "shoreOrientation": {
+        "distanceMetres": 106,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 16,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.61916015147609,
+          "longitude": -9.220633764876936
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCN9J",
+      "latitude": 38.62311,
+      "longitude": -9.22447,
+      "seaBearing": 237,
+      "shoreOrientation": {
+        "distanceMetres": 82,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 13,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.62349617932416,
+          "longitude": -9.22366072132974
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCF7X",
+      "latitude": 38.62898,
+      "longitude": -9.22904,
+      "seaBearing": 240,
+      "shoreOrientation": {
+        "distanceMetres": 67,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464421
+        ],
+        "nearestSegment": 7,
+        "nearestWayId": 157464421,
+        "shorePoint": {
+          "latitude": 38.629286003800686,
+          "longitude": -9.228377416389705
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464421,
+            "version": 17
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCX3N",
+      "latitude": 38.63724,
+      "longitude": -9.23586,
+      "seaBearing": 239,
+      "shoreOrientation": {
+        "distanceMetres": 33,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464314
+        ],
+        "nearestSegment": 89,
+        "nearestWayId": 157464314,
+        "shorePoint": {
+          "latitude": 38.63739330120679,
+          "longitude": -9.235530806517502
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464314,
+            "version": 12
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCJ8N",
+      "latitude": 38.64141,
+      "longitude": -9.23944,
+      "seaBearing": 242,
+      "shoreOrientation": {
+        "distanceMetres": 42,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464314
+        ],
+        "nearestSegment": 68,
+        "nearestWayId": 157464314,
+        "shorePoint": {
+          "latitude": 38.64159571676166,
+          "longitude": -9.239020330938187
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464314,
+            "version": 12
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-PTCK2H",
+      "latitude": 38.64538,
+      "longitude": -9.24231,
+      "seaBearing": 237,
+      "shoreOrientation": {
+        "distanceMetres": 10,
+        "radiusMetres": 60,
+        "wayIds": [
+          157464314
+        ],
+        "nearestSegment": 53,
+        "nearestWayId": 157464314,
+        "shorePoint": {
+          "latitude": 38.6453243241994,
+          "longitude": -9.242402493545425
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-13",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-13T08:03:04Z",
+        "snapshotFile": "2026-09-13-osm.json",
+        "wayVersions": [
+          {
+            "id": 157464314,
+            "version": 12
+          }
+        ],
+        "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
+      }
     }
   ]
 }
