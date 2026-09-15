@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-09-13",
-  "nextCountry": "Croatia",
+  "lastRun": "2026-09-15",
+  "nextCountry": "Greece",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -1810,6 +1810,547 @@
       },
       "cameraStatus": "candidate",
       "evidence": "runs/2026-09-13.json"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2040",
+      "name": "Hotel Lav",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2040,
+        "name": "Hotel Lav",
+        "latitude": 43.49264061,
+        "longitude": 16.5366426,
+        "sampleTimeRaw": "31.08.2026. 05:35",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2040,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2040&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2040,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 05:35:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2172",
+      "name": "Le Meridien Lav",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2172,
+        "name": "Le Meridien Lav",
+        "latitude": 43.49317874,
+        "longitude": 16.53660422,
+        "sampleTimeRaw": "31.08.2026. 05:40",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2172,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2172&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2172,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 05:40:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2041",
+      "name": "Uvala Strožanac",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2041,
+        "name": "Uvala Strožanac",
+        "latitude": 43.49904668,
+        "longitude": 16.53401194,
+        "sampleTimeRaw": "31.08.2026. 05:25",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2041,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2041&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2041,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 05:25:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2055",
+      "name": "Slatine",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2055,
+        "name": "Slatine",
+        "latitude": 43.49977185,
+        "longitude": 16.33913755,
+        "sampleTimeRaw": "02.09.2026. 07:55",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2046",
+      "name": "Firule",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2046,
+        "name": "Firule",
+        "latitude": 43.50028549,
+        "longitude": 16.4535284,
+        "sampleTimeRaw": "31.08.2026. 07:00",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2046,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2046&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2046,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 07:00:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2049",
+      "name": "Bačvice - zapad",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2049,
+        "name": "Bačvice - zapad",
+        "latitude": 43.50060139,
+        "longitude": 16.4460667,
+        "sampleTimeRaw": "31.08.2026. 07:30",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2049,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2049&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2050,
+        "sampleCount": 8,
+        "identityVerified": false,
+        "sampleTimeRaw": "2026-08-31 07:30:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2047",
+      "name": "Bačvice - istok",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2047,
+        "name": "Bačvice - istok",
+        "latitude": 43.50081249,
+        "longitude": 16.44924606,
+        "sampleTimeRaw": "31.08.2026. 07:10",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2047,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2047&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2050,
+        "sampleCount": 8,
+        "identityVerified": false,
+        "sampleTimeRaw": "2026-08-31 07:10:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2177",
+      "name": "Radisson Blu Resort",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "not-found",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": false,
+      "catalogueEvidence": null,
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No matching name, coordinates or provider ID in the 2026 official catalogue; do not substitute a nearby site.",
+      "detailProbe": {},
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2161",
+      "name": "Duilovo",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2161,
+        "name": "Duilovo",
+        "latitude": 43.50139837,
+        "longitude": 16.49398685,
+        "sampleTimeRaw": "31.08.2026. 06:00",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2044",
+      "name": "Žnjan - zapad",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2044,
+        "name": "Žnjan - zapad",
+        "latitude": 43.50142792,
+        "longitude": 16.47602472,
+        "sampleTimeRaw": "31.08.2026. 06:30",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2044,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2044&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2043,
+        "sampleCount": 8,
+        "identityVerified": false,
+        "sampleTimeRaw": "2026-08-31 06:30:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2043",
+      "name": "Žnjan - istok",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2043,
+        "name": "Žnjan - istok",
+        "latitude": 43.50147023,
+        "longitude": 16.48093356,
+        "sampleTimeRaw": "31.08.2026. 06:10",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2045",
+      "name": "Hotel Split",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2045,
+        "name": "Hotel Split",
+        "latitude": 43.50150468,
+        "longitude": 16.47063133,
+        "sampleTimeRaw": "31.08.2026. 06:40",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2045,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2045&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2045,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 06:40:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2162",
+      "name": "Trstenik-Radoševac",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2162,
+        "name": "Trstenik-Radoševac",
+        "latitude": 43.50163183,
+        "longitude": 16.46632791,
+        "sampleTimeRaw": "31.08.2026. 06:50",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2022",
+      "name": "Žnjan (Hotel Fanat)",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2022,
+        "name": "Žnjan (Hotel Fanat)",
+        "latitude": 43.50201637,
+        "longitude": 16.47862646,
+        "sampleTimeRaw": "31.08.2026. 06:20",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2050",
+      "name": "Bačvice - ulaz",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2050,
+        "name": "Bačvice - ulaz",
+        "latitude": 43.50224067,
+        "longitude": 16.44769358,
+        "sampleTimeRaw": "31.08.2026. 07:20",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
     }
   ]
 }

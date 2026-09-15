@@ -81,3 +81,23 @@ played beach video, but capture time and exact camera position remain unknown;
 Cabana do Pescador and CDS reported playback errors. None is counted as a verified
 live-camera integration. See `runs/2026-09-13.json` for per-location evidence and
 review dates. Tests, lint, build and the new SQL's local PostgreSQL regression pass.
+
+## 2026-09-15 outcome
+
+Completed the unfinished 15-site Croatian selection: 14 exact official catalogue
+identities, no new production coverage, dynamic adapters, orientations or live cameras.
+The 2026 IZOR catalogue returns 1,168 records. Radisson Blu Resort is absent.
+Detail access is intermittent (6 of 14 requests returned 403); several sites share
+a profile ID, which must not be treated as a sample-station ID without validation.
+Samples are dated August 31 or September 2, not current swimming clearance.
+
+DHMZ offers a reusable XML source under Croatia’s Open Licence. The sea-temperature
+XML contains today’s Split value, but station coordinates and timezone still need
+verification. CAP warnings have explicit offsets; regional coverage remains to map.
+Bačvice and the officially linked Žnjan construction camera both display Offline.
+Overpass returned 406 for both request formats, leaving geometry retrieval blocked.
+
+The production collector is advancing; storm publication is correctly stale.
+SEPA’s existing weekly retry is due later today, not at this morning’s check.
+96 tests, lint and build pass. See `runs/2026-09-15.json` for exact evidence,
+identifiers, per-source limitations and October 15 review dates. No SQL was applied.

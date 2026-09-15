@@ -1,0 +1,1519 @@
+{
+  "date": "2026-09-15",
+  "scope": "Completion of the unfinished September 14 Croatian selection; not counted twice.",
+  "counts": {
+    "reviewed": 15,
+    "officialCatalogueIdentities": 14,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "newOrientationsDetermined": 0,
+    "newOrientationsIntegrated": 0,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2040",
+      "name": "Hotel Lav",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2040,
+        "name": "Hotel Lav",
+        "latitude": 43.49264061,
+        "longitude": 16.5366426,
+        "sampleTimeRaw": "31.08.2026. 05:35",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2040,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2040&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2040,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 05:35:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2172",
+      "name": "Le Meridien Lav",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2172,
+        "name": "Le Meridien Lav",
+        "latitude": 43.49317874,
+        "longitude": 16.53660422,
+        "sampleTimeRaw": "31.08.2026. 05:40",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2172,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2172&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2172,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 05:40:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2041",
+      "name": "Uvala Strožanac",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2041,
+        "name": "Uvala Strožanac",
+        "latitude": 43.49904668,
+        "longitude": 16.53401194,
+        "sampleTimeRaw": "31.08.2026. 05:25",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2041,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2041&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2041,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 05:25:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2055",
+      "name": "Slatine",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2055,
+        "name": "Slatine",
+        "latitude": 43.49977185,
+        "longitude": 16.33913755,
+        "sampleTimeRaw": "02.09.2026. 07:55",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2046",
+      "name": "Firule",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2046,
+        "name": "Firule",
+        "latitude": 43.50028549,
+        "longitude": 16.4535284,
+        "sampleTimeRaw": "31.08.2026. 07:00",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2046,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2046&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2046,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 07:00:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2049",
+      "name": "Bačvice - zapad",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2049,
+        "name": "Bačvice - zapad",
+        "latitude": 43.50060139,
+        "longitude": 16.4460667,
+        "sampleTimeRaw": "31.08.2026. 07:30",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2049,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2049&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2050,
+        "sampleCount": 8,
+        "identityVerified": false,
+        "sampleTimeRaw": "2026-08-31 07:30:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2047",
+      "name": "Bačvice - istok",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2047,
+        "name": "Bačvice - istok",
+        "latitude": 43.50081249,
+        "longitude": 16.44924606,
+        "sampleTimeRaw": "31.08.2026. 07:10",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2047,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2047&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2050,
+        "sampleCount": 8,
+        "identityVerified": false,
+        "sampleTimeRaw": "2026-08-31 07:10:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2177",
+      "name": "Radisson Blu Resort",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "not-found",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": false,
+      "catalogueEvidence": null,
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No matching name, coordinates or provider ID in the 2026 official catalogue; do not substitute a nearby site.",
+      "detailProbe": {},
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2161",
+      "name": "Duilovo",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2161,
+        "name": "Duilovo",
+        "latitude": 43.50139837,
+        "longitude": 16.49398685,
+        "sampleTimeRaw": "31.08.2026. 06:00",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2044",
+      "name": "Žnjan - zapad",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2044,
+        "name": "Žnjan - zapad",
+        "latitude": 43.50142792,
+        "longitude": 16.47602472,
+        "sampleTimeRaw": "31.08.2026. 06:30",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2044,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2044&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2043,
+        "sampleCount": 8,
+        "identityVerified": false,
+        "sampleTimeRaw": "2026-08-31 06:30:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2043",
+      "name": "Žnjan - istok",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2043,
+        "name": "Žnjan - istok",
+        "latitude": 43.50147023,
+        "longitude": 16.48093356,
+        "sampleTimeRaw": "31.08.2026. 06:10",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2045",
+      "name": "Hotel Split",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2045,
+        "name": "Hotel Split",
+        "latitude": 43.50150468,
+        "longitude": 16.47063133,
+        "sampleTimeRaw": "31.08.2026. 06:40",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "externalId": 2045,
+        "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=2045&p_god=2026&p_usif=&p_jezik=en",
+        "profileId": 2045,
+        "sampleCount": 8,
+        "identityVerified": true,
+        "sampleTimeRaw": "2026-08-31 06:40:00"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2162",
+      "name": "Trstenik-Radoševac",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2162,
+        "name": "Trstenik-Radoševac",
+        "latitude": 43.50163183,
+        "longitude": 16.46632791,
+        "sampleTimeRaw": "31.08.2026. 06:50",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2022",
+      "name": "Žnjan (Hotel Fanat)",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2022,
+        "name": "Žnjan (Hotel Fanat)",
+        "latitude": 43.50201637,
+        "longitude": 16.47862646,
+        "sampleTimeRaw": "31.08.2026. 06:20",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR4-2050",
+      "name": "Bačvice - ulaz",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "izor-croatia",
+      "status": "candidate",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15",
+      "identityVerified": true,
+      "catalogueEvidence": {
+        "externalId": 2050,
+        "name": "Bačvice - ulaz",
+        "latitude": 43.50224067,
+        "longitude": 16.44769358,
+        "sampleTimeRaw": "31.08.2026. 07:20",
+        "match": "Exact coordinates and name; external ID independently confirmed by returned catalogue"
+      },
+      "sourceUrl": "https://vrtlac.izor.hr/kakvoca/",
+      "reason": "No adapter enabled: reuse terms, timestamp timezone, code semantics and stable detail access unresolved.",
+      "detailProbe": {
+        "error": "HTTP 403"
+      },
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Public Overpass GET and POST both returned HTTP 406; no geometry downloaded or reviewed. Geometry is not declared inherently indeterminate.",
+        "nextReviewAt": "2026-10-15"
+      },
+      "webcam": {
+        "status": "not-verified",
+        "nextReviewAt": "2026-10-15",
+        "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    }
+  ],
+  "productionCheck": {
+    "checkedAt": "2026-09-15T08:02:40.535Z",
+    "origin": "https://safe-to-swim.vercel.app",
+    "pages": [
+      {
+        "kind": "lake",
+        "total": 6235,
+        "count": 30
+      },
+      {
+        "kind": "coastal",
+        "total": 14878,
+        "count": 30
+      }
+    ],
+    "checks": [
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2040",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2172",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2041",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2055",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2046",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2049",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2047",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2177",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2161",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2044",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2043",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2045",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2162",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2022",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-HRBWC-COAST-HR4-2050",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      }
+    ],
+    "forecasts": {
+      "weather": [
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2040",
+          "latitude": 43.5,
+          "longitude": 16.539999,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 5.2,
+            "wind_direction_10m": 25,
+            "wind_gusts_10m": 9
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2172",
+          "latitude": 43.5,
+          "longitude": 16.539999,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 5.2,
+            "wind_direction_10m": 25,
+            "wind_gusts_10m": 9
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2041",
+          "latitude": 43.5,
+          "longitude": 16.539999,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 5.2,
+            "wind_direction_10m": 25,
+            "wind_gusts_10m": 9
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2055",
+          "latitude": 43.5,
+          "longitude": 16.339998,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 15.3,
+            "wind_direction_10m": 56,
+            "wind_gusts_10m": 25.9
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2046",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2049",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2047",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2177",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2161",
+          "latitude": 43.52,
+          "longitude": 16.499998,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 12.6,
+            "wind_direction_10m": 37,
+            "wind_gusts_10m": 20.9
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2044",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2043",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2045",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2162",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2022",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2050",
+          "latitude": 43.5,
+          "longitude": 16.46,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wind_speed_10m": 10.2,
+            "wind_direction_10m": 39,
+            "wind_gusts_10m": 15.8
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°",
+            "wind_gusts_10m": "km/h"
+          },
+          "valid": true
+        }
+      ],
+      "marine": [
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2040",
+          "latitude": 43.458336,
+          "longitude": 16.541672,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.1,
+            "wave_direction": 322,
+            "sea_surface_temperature": 26.5
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2172",
+          "latitude": 43.458336,
+          "longitude": 16.541672,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.1,
+            "wave_direction": 322,
+            "sea_surface_temperature": 26.5
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2041",
+          "latitude": 43.458336,
+          "longitude": 16.541672,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.1,
+            "wave_direction": 322,
+            "sea_surface_temperature": 26.5
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2055",
+          "latitude": 43.458336,
+          "longitude": 16.375015,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.18,
+            "wave_direction": 355,
+            "sea_surface_temperature": 26.2
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2046",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2049",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2047",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2177",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2161",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2044",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2043",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2045",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2162",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2022",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR4-2050",
+          "latitude": 43.458336,
+          "longitude": 16.458344,
+          "current": {
+            "time": 1789459200,
+            "interval": 900,
+            "wave_height": 0.16,
+            "wave_direction": 5,
+            "sea_surface_temperature": 26.4
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m",
+            "wave_direction": "°",
+            "sea_surface_temperature": "°C"
+          },
+          "valid": true
+        }
+      ]
+    }
+  },
+  "sourceState": {
+    "checkedAt": "2026-09-15T08:01:22.403Z",
+    "states": [
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-14T15:31:00.449+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T15:31:04.479+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-15T07:11:00.55+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T08:11:01.403+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-15T07:21:00.358+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T08:21:00.999+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-15T07:59:00.451+00:00",
+        "published_at": "2026-09-15T07:45:00+00:00",
+        "next_check_at": "2026-09-15T08:04:01.248+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-15T08:00:00.509+00:00",
+        "published_at": "2026-09-15T06:31:00+00:00",
+        "next_check_at": "2026-09-15T08:01:01.486+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-15T08:01:00.316+00:00",
+        "published_at": "2026-09-15T08:00:00+00:00",
+        "next_check_at": "2026-09-15T08:06:01.058+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-08T15:25:47.375+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T15:25:47.63+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-08T15:25:47.376+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T15:25:47.639+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "ea",
+        "status": "healthy",
+        "checked_at": "2026-09-08T15:25:47.376+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T15:25:47.634+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "nrw",
+        "status": "healthy",
+        "checked_at": "2026-09-08T15:25:47.376+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T15:25:47.654+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-08T15:25:47.376+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-15T15:25:47.694+00:00",
+        "consecutive_failures": 1,
+        "check_kind": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "stale",
+        "checked_at": "2026-09-15T08:00:00.51+00:00",
+        "published_at": "2026-09-15T00:28:00+00:00",
+        "next_check_at": "2026-09-15T08:01:01.157+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-15T08:00:00.509+00:00",
+        "published_at": "2026-09-15T07:56:00+00:00",
+        "next_check_at": "2026-09-15T08:01:01.659+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      }
+    ]
+  },
+  "providers": {
+    "izor": {
+      "catalogueUrl": "https://vrtlac.izor.hr/ords/kakvoca/kakvoce_sve_json?p_jezik=en&p_god=2026&p_usif=&p_ciklus=",
+      "records": 1168,
+      "details": "14 requests: 8 JSON successes, 6 HTTP 403. Earlier independent 2050 request succeeded. Do not retry denied requests. profil.id can identify a shared beach profile (2049/2047 -> 2050, 2044 -> 2043); it is NOT proven to identify the sample station. Resolve semantics before matching. Samples are in isp; historical annual/multiyear summaries in povg/povk must stay separate. No stable public API contract, rate limits or reuse license verified."
+    },
+    "dhmz": {
+      "documentation": "https://www.meteo.hr/proizvodi.php?param=xml_korisnici&section=podaci",
+      "license": "https://data.gov.hr/otvorena-dozvola/",
+      "temperatureUrl": "https://vrijeme.hr/more_n.xml",
+      "evidence": "15.09.2026, Split row 24.0 at column 08. XML carries station names but no coordinates or timezone; no per-beach binding. Blank Termin is missing, never zero. Mljet-Malo jezero must not be assumed to be open Adriatic sea.",
+      "capUrl": "https://meteo.hr/upozorenja/cap_hr_today.xml",
+      "capSent": "2026-09-15T07:56:32+02:00",
+      "capStatus": "Actual; regional mapping and warning coverage unresolved, no local all-clear inferred."
+    }
+  },
+  "cameras": [
+    {
+      "id": "hr-bacvice-zbirac",
+      "operator": "Whatsupcams / Caffe bar Žbirac, listed by LiveCamCroatia",
+      "url": "https://www.livecamcroatia.com/en/camera/split-bacvice-beach",
+      "latitude": 43.50258,
+      "longitude": 16.447202,
+      "locationIds": [
+        "eea-HRBWC-COAST-HR4-2049",
+        "eea-HRBWC-COAST-HR4-2047",
+        "eea-HRBWC-COAST-HR4-2050"
+      ],
+      "status": "offline",
+      "type": "link",
+      "freshness": "unavailable",
+      "fieldOfView": "Publisher describes Bačvice; current image not verified",
+      "embedding": "not verified; no stream URL retained",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15"
+    },
+    {
+      "id": "hr-znjan-construction",
+      "operator": "Žnjan d.o.o. / LiveCamCroatia",
+      "url": "https://www.livecamcroatia.com/en/camera/split-construction-site-znjan-renovation-and-new-sports-facilities",
+      "officialReference": "https://znjan.hr/radovi-na-znjanskom-platou-u-punom-zamahu/",
+      "latitude": 43.5029,
+      "longitude": 16.4793,
+      "locationIds": [
+        "eea-HRBWC-COAST-HR4-2044",
+        "eea-HRBWC-COAST-HR4-2043",
+        "eea-HRBWC-COAST-HR4-2022"
+      ],
+      "status": "offline",
+      "type": "link",
+      "freshness": "unavailable",
+      "fieldOfView": "Construction camera; selected beach coverage not established",
+      "embedding": "not verified",
+      "checkedAt": "2026-09-15",
+      "nextReviewAt": "2026-10-15"
+    }
+  ],
+  "validation": {
+    "tests": "96 passed",
+    "lint": "passed",
+    "build": "passed",
+    "sql": "No SQL changes",
+    "ui": "No UI changes",
+    "publicApi": "30 unique lake + 30 unique coastal list records; 15 details and observation identities; 15 weather and 15 marine model responses valid. Model timestamps are validity times, not measurement times."
+  },
+  "publication": "Local research only; no push or production changes."
+}
