@@ -1,3 +1,4 @@
+import { formatStationWind, windUnit } from './windUnits.js'
 import { useEffect, useState } from 'react'
 import { ArrowUpRight, RefreshCw } from 'lucide-react'
 import { BALATON_SOURCES, isObservationStale } from './balaton.js'
@@ -73,7 +74,7 @@ export default function BalatonPanel({ location, language, locale }) {
     </div>
     <details className="balaton-wind"><summary>{copy.wind} · HungaroMet</summary>
       {stamp(data?.wind, 30 * 60000)}
-      {data?.wind?.stations ? <div className="balaton-table"><table><thead><tr><th>{copy.wind}</th><th>km/h</th><th>{copy.gusts} · km/h</th></tr></thead><tbody>{data.wind.stations.map(item => <tr key={item.station}><th scope="row">{item.station}</th><td>{number(item.windKmh)}</td><td>{number(item.gustKmh)}</td></tr>)}</tbody></table></div> : <p>{state.loading ? copy.loading : copy.unavailable}</p>}
+      {data?.wind?.stations ? <div className="balaton-table"><table><thead><tr><th>{copy.wind}</th><th>{windUnit(locale)}</th><th>{copy.gusts} · {windUnit(locale)}</th></tr></thead><tbody>{data.wind.stations.map(item => <tr key={item.station}><th scope="row">{item.station}</th><td>{formatStationWind(item.windKmh, locale).replace(` ${windUnit(locale)}`, '')}</td><td>{formatStationWind(item.gustKmh, locale).replace(` ${windUnit(locale)}`, '')}</td></tr>)}</tbody></table></div> : <p>{state.loading ? copy.loading : copy.unavailable}</p>}
       <p className="panel-note">{copy.stationNote}</p><SourceLink url={BALATON_SOURCES.wind} label={copy.open} />
     </details>
     <Forecast kind="windForecast" copy={copy} /><Forecast kind="waveForecast" copy={copy} />

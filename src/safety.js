@@ -1,3 +1,5 @@
+import { formatWindSpeed } from './windUnits.js'
+export { formatWindSpeed } from './windUnits.js'
 import { activeWeatherWarning, weatherAlertMessages } from './weatherAlertMessages.js'
 import { AlertTriangle, Check, CircleHelp, ShieldAlert } from 'lucide-react'
 import { getWaterQualityForLocation } from './waterQuality.js'
@@ -59,7 +61,7 @@ function baseSafety(conditions, location, t, locale, { source, quality = getWate
   const formatReasons = (reasons) => new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' }).format(reasons)
   const dangerReasons = []
   if (waveHeight >= 1) dangerReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
-  if (gusts >= WIND_THRESHOLDS.gustDanger) dangerReasons.push(t('safety.gustReason', { value: gusts }))
+  if (gusts >= WIND_THRESHOLDS.gustDanger) dangerReasons.push(t('safety.gustReason', { value: formatWindSpeed(gusts, locale) }))
   if (offshore && windSpeed >= WIND_THRESHOLDS.offshore) dangerReasons.push(t('safety.offshoreReason'))
 
   if (dangerReasons.length) {
@@ -83,7 +85,7 @@ function baseSafety(conditions, location, t, locale, { source, quality = getWate
   }
   const cautionReasons = []
   if (waveHeight >= 0.6) cautionReasons.push(t('safety.waveReason', { value: formatNumber(waveHeight, locale) }))
-  if (gusts >= WIND_THRESHOLDS.gustCaution) cautionReasons.push(t('safety.gustReason', { value: gusts }))
+  if (gusts >= WIND_THRESHOLDS.gustCaution) cautionReasons.push(t('safety.gustReason', { value: formatWindSpeed(gusts, locale) }))
   if (offshore) cautionReasons.push(t('safety.offshoreReason'))
 
   if (cautionReasons.length) {
@@ -100,7 +102,7 @@ function baseSafety(conditions, location, t, locale, { source, quality = getWate
   // measurements. Keep a useful outlook without promoting it to a good rating.
   const wind = getWindAssessment(conditions, location, source)
   if (wind.missingFields.length === 1 && wind.missing === 'missingShore') {
-    const description = t('outlook.limitedText', { wave: formatNumber(waveHeight, locale), speed: windSpeed, gusts })
+    const description = t('outlook.limitedText', { wave: formatNumber(waveHeight, locale), speed: formatWindSpeed(windSpeed, locale), gusts: formatWindSpeed(gusts, locale) })
     const note = t('outlook.limitedNote')
     return { level: 'caution', eyebrow: t('outlook.limitedLabel'), title: t('outlook.limitedTitle'),
       description, note, reason: `${description} ${note}`, icon: AlertTriangle }
@@ -165,11 +167,6 @@ export function windMissingLabel(wind, t, locale) {
   const fields = new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' })
     .format(wind.missingFields.map(field => t(`windAdvice.fields.${field}`)))
   return fields ? t('windAdvice.missingFields', { fields }) : ''
-}
-
-export function formatWindSpeed(mph, locale) {
-  if (!Number.isFinite(mph)) return '—'
-  return `${formatWholeNumber(mph)} mph / ${formatNumber(mph * 1.609344, locale, 0)} km/h`
 }
 
 export function formatWindReadings(wind, t, locale) {

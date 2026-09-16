@@ -1,3 +1,4 @@
+import { loadLanguage } from '../src/languagePacks.js'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { getSafety } from '../src/safety.js'
@@ -5,6 +6,8 @@ import { findCalmestWindow } from '../src/swimOutlook.js'
 import { normalize, fallbackFor, retainAfterFailure, isDataStale } from '../src/coastalData.js'
 import { makeTranslator, LANGUAGES } from '../src/i18n.js'
 import { outlookMessages } from '../src/outlookMessages.js'
+
+await Promise.all(LANGUAGES.map(({ code }) => loadLanguage(code)))
 
 const location = { id: 'test', seaBearing: 180, latitude: 0, longitude: 0 }
 const calm = { waveHeight: 0.2, gusts: 8, windSpeed: 5, windDirection: 180, isDay: true }

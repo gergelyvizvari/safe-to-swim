@@ -1,3 +1,4 @@
+import { formatWindSpeed } from './windUnits.js'
 import { useWeatherAlerts } from './useWeatherAlerts.js'
 import { locationDisplayName } from './locationNames.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -6,7 +7,7 @@ import 'leaflet/dist/leaflet.css'
 import { Check, Droplets, LocateFixed, MapPin, Navigation, Waves, Wind } from 'lucide-react'
 import { distanceToCoastalLocation } from './locationUtils.js'
 import { useCoastalConditions } from './useCoastalConditions.js'
-import { formatNumber, formatWholeNumber, getSafety } from './safety.js'
+import { formatNumber, getSafety } from './safety.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
 
 import { loadMapCatalogue, filterMapLocations } from './mapCatalogue.js'
@@ -101,7 +102,7 @@ function MapSelectionCard({ location, selected, userPosition, onSelect, locale, 
 
       <div className="location-map-readings" aria-label={t('locationPicker.previewAria')}>
         <span><Waves size={15} /><small>{t(location.marineModelSupported === false ? 'lake.air' : 'safety.wave')}</small><strong>{hasLivePreview ? location.marineModelSupported === false ? `${formatNumber(data.current.temperature, locale)} °C` : `${formatNumber(data.current.waveHeight, locale)} m` : '—'}</strong></span>
-        <span><Wind size={15} /><small>{t('safety.gusts')}</small><strong>{hasLivePreview ? `${formatWholeNumber(data.current.gusts)} mph` : '—'}</strong></span>
+        <span><Wind size={15} /><small>{t('safety.gusts')}</small><strong>{hasLivePreview ? formatWindSpeed(data.current.gusts, locale) : '—'}</strong></span>
         <span className={qualityTone}><Droplets size={15} /><small>{t('waterQuality.annualShort')}</small><strong>{t(`waterQuality.classes.${qualityTone}`)}</strong></span>
       </div>
 

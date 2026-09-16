@@ -1,7 +1,8 @@
+import { formatWindValue, windUnit } from './windUnits.js'
 import { ArrowUpRight, ChevronDown, Compass, Droplets, Info, Waves } from 'lucide-react'
 import { CATALOG_UPDATED_ON } from './catalogMetadata.js'
 import { classificationTone, getOfficialWaterUrl } from './waterQuality.js'
-import { formatNumber, formatWholeNumber, formatWindSpeed, getSafetyReadings, windDataLabel, windRiskLabel, windMissingLabel, WIND_THRESHOLDS } from './safety.js'
+import { formatNumber, formatWindSpeed, getSafetyReadings, windDataLabel, windRiskLabel, windMissingLabel, WIND_THRESHOLDS } from './safety.js'
 import { compassFor } from './i18n.js'
 
 export default function SwimAssessment({ current, wind, loading, location, quality, source, language, locale, t }) {
@@ -29,8 +30,7 @@ export default function SwimAssessment({ current, wind, loading, location, quali
         <header className="assessment-heading"><span className="assessment-icon"><Compass size={19} aria-hidden="true" /></span><h3>{t('outlook.wind')}</h3>{(!loading || hasWindData) && <span className="assessment-meta">{windDataLabel(wind, t, loading)}</span>}</header>
         {hasWindData && <dl className="assessment-metrics assessment-wind-metrics">
           {[[t('outlook.wind'), wind.windSpeed], [t('safety.gusts'), wind.gusts]].map(([label, value]) => <div key={label}>
-            <dt>{label}</dt><dd>{formatWholeNumber(value)} <span>mph</span></dd>
-            <dd className="assessment-metric-secondary">{formatNumber(Number.isFinite(value) ? value * 1.609344 : null, locale, 0)} km/h</dd>
+            <dt>{label}</dt><dd>{formatWindValue(value, locale)} <span>{windUnit(locale)}</span></dd>
           </div>)}
         </dl>}
         {from && <p className="assessment-direction">{from}{wind.direction !== 'unknownDirection' && <> · {t(`conditions.${wind.direction}`)}</>}</p>}

@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "node --test tests/*.test.mjs",
-    "data:import": "node scripts/import-catalogue.mjs"
+    "data:import": "node scripts/import-catalogue.mjs",
+    "check:translations": "node scripts/check-translations.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

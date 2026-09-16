@@ -1,8 +1,11 @@
+import { loadLanguage } from '../src/languagePacks.js'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { getSafety } from '../src/safety.js'
 import { LANGUAGES, makeTranslator } from '../src/i18n.js'
 import { lakeDecisionMessages } from '../src/lakeMessages.js'
+
+await Promise.all(LANGUAGES.map(({ code }) => loadLanguage(code)))
 
 const now = Date.parse('2026-09-08T18:00:00Z')
 const calm = { time: new Date(now).toISOString(), windSpeed: 4, gusts: 8, weatherCode: 0, windDirection: 90 }

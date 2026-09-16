@@ -1,3 +1,4 @@
+import { formatWindSpeed, formatWindValue, windUnit } from './windUnits.js'
 import { observedWaterTemperature } from './observedWaterTemperature.js'
 import { balatonMessages } from './balatonMessages.js'
 import { weatherAlertMessages } from './weatherAlertMessages.js'
@@ -31,7 +32,7 @@ import {
 import { catalogueRequest } from './catalogueClient.js'
 import { useCoastalConditions } from './useCoastalConditions.js'
 import { useObservations } from './useObservations.js'
-import { compassFor, DEFAULT_LANGUAGE, LANGUAGES, localeFor, makeTranslator } from './i18n.js'
+import { compassFor, LANGUAGES, localeFor, makeTranslator } from './i18n.js'
 import { LocationPickerScreen } from './LocationPickerScreen.jsx'
 import { InstallGuide } from './InstallGuide.jsx'
 import { ContactForm } from './ContactForm.jsx'
@@ -98,7 +99,7 @@ function tideCountdown(dateString, currentTime, t) {
   return t('tide.durationMinutes', { minutes })
 }
 
-function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSupport, onInstall, showInstall, locating, locationFeedback, onRefresh, loading, language, onLanguageChange, t }) {
+function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSupport, onInstall, showInstall, locating, locationFeedback, onRefresh, loading, language, onLanguageChange, languageLoading, t }) {
   return (
     <header className="site-header">
       <a className="brand" href="#top" aria-label={t('header.home')}>
@@ -124,8 +125,8 @@ function Header({ location, onOpenLocationPicker, onUseCurrentLocation, onOpenSu
         <span className="sr-only" id="location-feedback" aria-live="polite">{locationFeedback}</span>
         <label className="language-picker">
           <Languages size={16} aria-hidden="true" />
-          <select value={language} onChange={(event) => onLanguageChange(event.target.value)} aria-label={t('header.language')}>
-            {LANGUAGES.map((item) => <option value={item.code} key={item.code}>{item.code.toUpperCase()} · {item.label}</option>)}
+          <select value={language} disabled={languageLoading} aria-busy={languageLoading} onChange={(event) => onLanguageChange(event.target.value)} aria-label={t('header.language')}>
+            {[...LANGUAGES].sort((a, b) => a.label.localeCompare(b.label, localeFor(language))).map((item) => <option lang={item.code} value={item.code} key={item.code}>{item.code.toUpperCase()} · {item.label}</option>)}
           </select>
         </label>
         {showInstall && (
@@ -202,7 +203,7 @@ function SafetyHero({ inland, safety, wind, current, source, loading, language, 
         </article>
         <article className="hero-sea-fact hero-reading">
           <span>{t(inland ? 'conditions.wind' : 'safety.wave')}</span>
-          <strong>{formatNumber(inland ? wind.windSpeed : current.waveHeight, locale, inland ? 0 : 1)} <small>{inland ? 'mph' : 'm'}</small></strong>
+          <strong>{inland ? formatWindValue(wind.windSpeed, locale) : formatNumber(current.waveHeight, locale)} <small>{inland ? windUnit(locale) : 'm'}</small></strong>
         </article>
         <article className="hero-sea-fact hero-wind-fact">
           <span>{t('safety.gusts')}</span>
@@ -211,7 +212,7 @@ function SafetyHero({ inland, safety, wind, current, source, loading, language, 
               <span className="hero-compass-north">N</span>
               {Number.isFinite(wind.windDirection) && <span className="hero-wind-needle" style={{ transform: `rotate(${wind.windDirection}deg)` }} />}
             </span>
-            <strong>{formatWholeNumber(wind.gusts)} <small>mph</small></strong>
+            <strong>{formatWindValue(wind.gusts, locale)} <small>{windUnit(locale)}</small></strong>
             <span className="sr-only">{t('conditions.from', { direction: windDirection })}</span>
           </div>
           <div className="hero-wind-status">{windDataLabel(wind, t, loading)}</div>
@@ -257,8 +258,8 @@ function ConditionsGrid({ current, forecast, language, locale, isNow, t }) {
         <div className="mini-waves" aria-hidden="true"><i /><i /><i /><i /><i /></div>
       </MetricCard>
       <MetricCard
-        icon={Wind} label={t('conditions.wind')} value={formatWholeNumber(current.windSpeed)} unit="mph"
-        detail={t('conditions.gusts', { value: formatWholeNumber(current.gusts) })} tone={roundedGusts >= 28 ? 'metric-warn' : ''}
+        icon={Wind} label={t('conditions.wind')} value={formatWindValue(current.windSpeed, locale)} unit={windUnit(locale)}
+        detail={t('conditions.gusts', { value: formatWindSpeed(current.gusts, locale) })} tone={roundedGusts >= 28 ? 'metric-warn' : ''}
       >
         <div className="direction"><Compass size={15} style={Number.isFinite(current.windDirection) ? { transform: `rotate(${current.windDirection}deg)` } : undefined} />{t('conditions.from', { direction: windDirection })}</div>
       </MetricCard>
@@ -379,7 +380,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
             <span className="eyebrow">{t('outlook.title')}</span>
             {loading ? <p>{t('outlook.loading')}</p> : bestWindow ? <>
               <h3>{formatDate(bestWindow.start.time, locale)} · {formatTime(bestWindow.start.time, locale)}–{formatTime(bestWindow.end.time, locale)}</h3>
-              <p>{t('outlook.reason', { wave: formatNumber(bestWindow.wave, locale), gusts: Math.ceil(bestWindow.gusts) })}</p>
+              <p>{t('outlook.reason', { wave: formatNumber(bestWindow.wave, locale), gusts: formatWindSpeed(Math.ceil(bestWindow.gusts), locale) })}</p>
             </> : <p>{t(source === 'stale' ? 'outlook.staleText' : 'outlook.empty')}</p>}
             <small>{t('outlook.scope')}</small>
           </div>
@@ -430,7 +431,7 @@ function SwimDecision({ current, forecast, location, source, loading, language, 
           </div>
           <div className="decision-readings" aria-hidden="true">
             {!inland && <span><Waves size={15} />{formatNumber(selected.waveHeight, locale)} m</span>}
-            <span><Wind size={15} />{formatWholeNumber(wind.gusts)} mph</span>
+            <span><Wind size={15} />{formatWindSpeed(wind.gusts, locale)}</span>
             {!inland && <span><Compass size={15} />{t(wind.direction === 'unknownDirection' ? 'windAdvice.unknownShore' : `conditions.${wind.direction}`)}</span>}
           </div>
         </div>
@@ -683,11 +684,7 @@ function DataNotice({ error, source, t }) {
   )
 }
 
-export default function App({ location, onSelectLocation: setLocationId }) {
-  const [language, setLanguage] = useState(() => {
-    const savedLanguage = window.localStorage.getItem('safe-to-swim-language')
-    return LANGUAGES.some((item) => item.code === savedLanguage) ? savedLanguage : DEFAULT_LANGUAGE
-  })
+export default function App({ location, onSelectLocation: setLocationId, language, onLanguageChange, languageLoading }) {
   const [geolocationStatus, setGeolocationStatus] = useState('idle')
   const [locatedName, setLocatedName] = useState('')
   const [userPosition, setUserPosition] = useState(null)
@@ -777,7 +774,8 @@ export default function App({ location, onSelectLocation: setLocationId }) {
         onRefresh={() => { refresh(); if (observations.enabled) observations.refresh() }}
         loading={loading}
         language={language}
-        onLanguageChange={setLanguage}
+        onLanguageChange={onLanguageChange}
+        languageLoading={languageLoading}
         t={t}
       />
       {locationPickerOpen && (

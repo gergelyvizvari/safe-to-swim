@@ -1,3 +1,4 @@
+import { windDisplayValue, windUnit } from './windUnits.js'
 import { useEffect, useId, useRef, useState } from 'react'
 import { ArrowDown, ArrowRight, ArrowUp, ChevronLeft, ChevronRight, Moon, Sun, Thermometer, Waves, Wind } from 'lucide-react'
 import { buildConditionsTimeline, conditionsWindow, metricSegments } from './conditionsTimeline.js'
@@ -7,7 +8,7 @@ import { smoothTidePath } from './tideCurvePath.js'
 
 const dayFormatter = new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' })
 const dayKey = (time) => dayFormatter.format(new Date(time))
-const metrics = [
+const baseMetrics = [
   { key: 'temperature', label: 'air', unit: '°C', color: '#a56732', top: 68, bottom: 124 },
   { key: 'windSpeed', label: 'wind', unit: 'mph', color: '#486778', top: 80, bottom: 114 },
   { key: 'gusts', label: 'gusts', unit: 'mph', color: '#486778', top: 80, bottom: 114, dashed: true },
@@ -15,9 +16,12 @@ const metrics = [
   { key: 'seaTemperature', label: 'water', unit: '°C', color: '#85bfcf', top: 370, bottom: 416 },
 ]
 
-const plottedMetrics = metrics.filter(({ key }) => key === 'windSpeed' || key === 'seaLevel')
+
 
 export default function ConditionsTimeline({ location, quality, current, forecast, selectedTime, onSelect, locale, source, loading, t }) {
+  const metrics = baseMetrics.map(metric => metric.unit === 'mph' ? { ...metric, unit: windUnit(locale) } : metric)
+  const plottedMetrics = metrics.filter(({ key }) => key === 'windSpeed' || key === 'seaLevel')
+  const displayValue = (value, key) => ['windSpeed', 'gusts'].includes(key) ? windDisplayValue(value, locale) : value
   const id = useId()
   const [keyboardFocus, setKeyboardFocus] = useState(false)
   const [viewport, setViewport] = useState(700)
@@ -51,13 +55,13 @@ export default function ConditionsTimeline({ location, quality, current, forecas
   }, [selectedX, viewport, day])
   const bounds = (key) => {
     const keys = key === 'temperature' || key === 'seaTemperature' ? ['temperature', 'seaTemperature'] : key === 'gusts' || key === 'windSpeed' ? ['windSpeed', 'gusts'] : ['seaLevel']
-    const values = plotPoints.flatMap((point) => keys.map((field) => point[field])).filter(Number.isFinite)
+    const values = plotPoints.flatMap((point) => keys.map((field) => displayValue(point[field], field))).filter(Number.isFinite)
     const min = keys.includes('windSpeed') ? 0 : values.length ? Math.floor(Math.min(...values)) : 0
     return { min, max: Math.max(min + 1, values.length ? Math.ceil(Math.max(...values)) : 1), available: values.length > 0 }
   }
   const y = (value, metric) => {
     const { min, max } = bounds(metric.key)
-    return metric.bottom - (value - min) / (max - min) * (metric.bottom - metric.top)
+    return metric.bottom - (displayValue(value, metric.key) - min) / (max - min) * (metric.bottom - metric.top)
   }
   const tideMetric = metrics.find((metric) => metric.key === 'seaLevel')
   const waterAreas = metricSegments(plotPoints, 'seaLevel').map((segment) => {
@@ -76,7 +80,7 @@ export default function ConditionsTimeline({ location, quality, current, forecas
     const surface = `M${left},${leftY} ${curve.replace(/^M/, 'L')} L${right},${rightY}`
     return { time: first.time, surface, path: `${surface} L${right},${height} L${left},${height} Z` }
   })
-  const number = (value, key) => Number.isFinite(value) ? new Intl.NumberFormat(locale, { maximumFractionDigits: key === 'seaLevel' ? 2 : 1 }).format(value) : '—'
+  const number = (value, key) => Number.isFinite(value) ? new Intl.NumberFormat(locale, { maximumFractionDigits: key === 'seaLevel' ? 2 : 1 }).format(displayValue(value, key)) : '—'
   const time = (value, full = false) => new Intl.DateTimeFormat(locale, { hour: '2-digit', minute: '2-digit', ...(full ? { weekday: 'short', month: 'short', day: 'numeric' } : {}) }).format(new Date(value))
   const date = (key) => new Intl.DateTimeFormat(locale, { weekday: 'short', month: 'short', day: 'numeric' }).format(new Date(timeline.find((point) => dayKey(point.time) === key).time))
   const step = (offset) => onSelect(timeline[Math.max(0, Math.min(timeline.length - 1, index + offset))].time)

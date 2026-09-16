@@ -1,3 +1,4 @@
+import { formatStationWind } from './windUnits.js'
 import { ArrowUpRight, RefreshCw } from 'lucide-react'
 import { balatonMessages } from './balatonMessages.js'
 import { catalogueMessages } from './catalogueMessages.js'
@@ -21,7 +22,7 @@ export default function ObservationsPanel({ observations: state, language, local
         {item.status === 'unmatched' && <p>{copy.unmatched}</p>}
         {item.sample && <><strong className={item.sample.result === 'fail' ? 'balaton-alert' : ''}>{copy[item.sample.result ?? 'unknown']}</strong><p>{item.sample.name}</p><p>{copy.sampled}: {item.sample.sampledOn ?? '—'}</p><p className="panel-note">{copy.sampleNote}</p></>}
         {item.basins && <><div className="balaton-basins">{item.basins.map(basin => <div key={basin.basin} className={!stale && basin.level > 0 ? 'balaton-alert' : ''}><span>{copy[basin.basin] ?? basin.basin}</span><strong>{copy[Number.isInteger(basin.level) ? `level${basin.level}` : 'unknown']}</strong></div>)}</div><p className="panel-note">{copy.stormNote}</p></>}
-        {item.stations && <><details open={item.stations.length <= 3}><summary>{copy[item.type]} · {item.stations.length}</summary><dl className="balaton-stations">{item.stations.map(station => <div key={station.station}><dt>{station.station}</dt><dd>{item.type === 'temperature' ? `${number(station.temperature)} °C` : `${number(station.windKmh)} km/h · ${copy.gusts}: ${number(station.gustKmh)} km/h`}</dd></div>)}</dl></details><p className="panel-note">{copy.stationNote}</p></>}
+        {item.stations && <><details open={item.stations.length <= 3}><summary>{copy[item.type]} · {item.stations.length}</summary><dl className="balaton-stations">{item.stations.map(station => <div key={station.station}><dt>{station.station}</dt><dd>{item.type === 'temperature' ? `${number(station.temperature)} °C` : `${formatStationWind(station.windKmh, locale)} · ${copy.gusts}: ${formatStationWind(station.gustKmh, locale)}`}</dd></div>)}</dl></details><p className="panel-note">{copy.stationNote}</p></>}
         {item.publishedAt && item.type !== 'quality' && <p className="panel-note">{copy.published}: {date(item.publishedAt)}</p>}
         {stale && item.status !== 'unavailable' && item.status !== 'unmatched' && <p className="balaton-old">{copy.stale}</p>}
         {item.checkedAt && <p className="panel-note">{copy.checked}: {date(item.checkedAt)}</p>}

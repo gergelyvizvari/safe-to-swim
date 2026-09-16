@@ -1,9 +1,12 @@
+import { loadLanguage } from '../src/languagePacks.js'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { formatWindReadings, formatWindSpeed, getSafety, getWindAssessment, windDataLabel, windRiskLabel, windMissingLabel } from '../src/safety.js'
 import { shoreWindDirection } from '../src/locationUtils.js'
 import { LANGUAGES, makeTranslator } from '../src/i18n.js'
 import { windMessages } from '../src/windMessages.js'
+
+await Promise.all(LANGUAGES.map(({ code }) => loadLanguage(code)))
 
 const location = { seaBearing: 180 }
 const calm = { windDirection: 180, windSpeed: 5, gusts: 8, waveHeight: 0.2 }
@@ -133,13 +136,13 @@ test('all supported languages explain the wind without missing keys or placehold
     }
     const safety = getSafety(calm, {}, t, locale, { quality: null })
     assert.equal(safety.level, 'caution')
-    assert.match(safety.description, /mph/)
+    assert.ok(safety.description.includes(code === 'en' ? 'mph' : 'km/h'))
     assert.equal(safety.note, t('outlook.limitedNote'))
     assert.doesNotMatch(`${safety.title} ${safety.description} ${safety.note}`, /outlook\.|\{\w+\}/)
   }
   assert.equal(formatWindSpeed(null, 'en-GB'), '—')
-  assert.equal(formatWindSpeed(12, 'en-GB'), '12 mph / 19 km/h')
-  assert.equal(formatWindSpeed(20, 'en-GB'), '20 mph / 32 km/h')
-  assert.equal(formatWindSpeed(28, 'en-GB'), '28 mph / 45 km/h')
+  assert.equal(formatWindSpeed(12, 'en-GB'), '12 mph')
+  assert.equal(formatWindSpeed(20, 'en-GB'), '20 mph')
+  assert.equal(formatWindSpeed(28, 'en-GB'), '28 mph')
   assert.match(formatWindReadings(assess({ windSpeed: null }), makeTranslator('en'), 'en-GB'), /Wind —/)
 })
