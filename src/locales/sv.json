@@ -9,7 +9,8 @@
     "locationDenied": "Åtkomst till din plats tilläts inte.",
     "locationError": "Din plats kunde inte hittas.",
     "refresh": "Uppdatera data",
-    "language": "Språk"
+    "language": "Språk",
+    "more": "Mer"
   },
   "locationPicker": {
     "timeZone": "Tider i din tidszon: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Havsnivån ändras mycket lite",
     "unavailable": "Data saknas",
     "waterTemperature": "Vattentemperatur",
-    "air": "Luft {value}°C",
+    "air": "Luft {value}{unit}",
     "wetsuit": "Våtdräkt rekommenderas",
     "noWaterForecast": "Ingen prognos för vattentemperatur",
     "light": "Svag",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Laddar språk…",
     "error": "Språket kunde inte laddas. Kontrollera anslutningen och försök igen."
+  },
+  "units": {
+    "title": "Måttenheter",
+    "auto": "Följ språket"
+  },
+  "favourites": {
+    "title": "Favoriter",
+    "add": "Lägg till {name} som favorit",
+    "remove": "Ta bort {name} från favoriter",
+    "empty": "Inga favoriter ännu. Spara en badplats med stjärnknappen.",
+    "saveFailed": "Favoriterna kunde inte sparas i den här webbläsaren. Ändringarna behålls bara under den här sessionen."
   }
 }

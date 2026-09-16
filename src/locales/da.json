@@ -9,7 +9,8 @@
     "locationDenied": "Adgang til positionen blev ikke tilladt.",
     "locationError": "Din position kunne ikke findes.",
     "refresh": "Opdater data",
-    "language": "Sprog"
+    "language": "Sprog",
+    "more": "Mere"
   },
   "locationPicker": {
     "timeZone": "Tider i din tidszone: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Havniveauet ændrer sig meget lidt",
     "unavailable": "Data utilgængelige",
     "waterTemperature": "Vandtemperatur",
-    "air": "Luft {value}°C",
+    "air": "Luft {value}{unit}",
     "wetsuit": "Våddragt anbefales",
     "noWaterForecast": "Ingen prognose for vandtemperatur",
     "light": "Svag",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Indlæser sprog…",
     "error": "Sproget kunne ikke indlæses. Tjek forbindelsen, og prøv igen."
+  },
+  "units": {
+    "title": "Måleenheder",
+    "auto": "Følg sproget"
+  },
+  "favourites": {
+    "title": "Favoritter",
+    "add": "Tilføj {name} som favorit",
+    "remove": "Fjern {name} fra favoritter",
+    "empty": "Ingen favoritter endnu. Gem et badested med stjerneknappen.",
+    "saveFailed": "Favoritterne kunne ikke gemmes i denne browser. Ændringerne bevares kun i denne session."
   }
 }

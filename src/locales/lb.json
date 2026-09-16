@@ -9,7 +9,8 @@
     "locationDenied": "Den Zougang zum Standuert gouf net erlaabt.",
     "locationError": "Däi Standuert konnt net fonnt ginn.",
     "refresh": "Daten aktualiséieren",
-    "language": "Sprooch"
+    "language": "Sprooch",
+    "more": "Méi"
   },
   "locationPicker": {
     "timeZone": "Zäiten an denger Zäitzon: {zone}",
@@ -147,7 +148,7 @@
     "slack": "De Mieresspigel ännert sech nëmme wéineg",
     "unavailable": "Daten net disponibel",
     "waterTemperature": "Waassertemperatur",
-    "air": "Loft {value}°C",
+    "air": "Loft {value}{unit}",
     "wetsuit": "Neoprenkostüm recommandéiert",
     "noWaterForecast": "Keng Waassertemperaturprognos",
     "light": "Schwaach",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Sprooch gëtt gelueden…",
     "error": "Dës Sprooch konnt net geluede ginn. Kontrolléier d'Verbindung a probéier nach eng Kéier."
+  },
+  "units": {
+    "title": "Moosseenheeten",
+    "auto": "No der Sprooch"
+  },
+  "favourites": {
+    "title": "Favoritten",
+    "add": "{name} bei d’Favoritte bäisetzen",
+    "remove": "{name} aus de Favoritten ewechhuelen",
+    "empty": "Nach keng Favoritten. Späicher eng Buedplaz mam Stäreknäppchen.",
+    "saveFailed": "D’Favoritte konnten an dësem Browser net gespäichert ginn. Ännerunge bleiwen nëmme fir dës Sëtzung erhalen."
   }
 }

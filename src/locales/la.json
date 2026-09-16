@@ -9,7 +9,8 @@
     "locationDenied": "Accessus ad locum non permissus est.",
     "locationError": "Locus tuus inveniri non potuit.",
     "refresh": "Renova data",
-    "language": "Lingua"
+    "language": "Lingua",
+    "more": "Plura"
   },
   "locationPicker": {
     "timeZone": "Horae in zona tua temporali: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Altitudo maris vix mutatur",
     "unavailable": "Data desunt",
     "waterTemperature": "Temperatura aquae",
-    "air": "Aer {value}°C",
+    "air": "Aer {value}{unit}",
     "wetsuit": "Vestis neoprenica commendatur",
     "noWaterForecast": "Praedictio temperaturae aquae deest",
     "light": "Levis",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Lingua oneratur…",
     "error": "Haec lingua onerari non potuit. Conexionem inspice et iterum tenta."
+  },
+  "units": {
+    "title": "Unitates mensurae",
+    "auto": "Secundum linguam"
+  },
+  "favourites": {
+    "title": "Loca dilecta",
+    "add": "Adde {name} locis dilectis",
+    "remove": "Remove {name} e locis dilectis",
+    "empty": "Nulla loca dilecta adhuc. Locum natandi per bullam stellae serva.",
+    "saveFailed": "Loca dilecta in hoc navigatro servari non potuerunt. Mutationes tantum per hanc sessionem manent."
   }
 }

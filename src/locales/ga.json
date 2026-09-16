@@ -9,7 +9,8 @@
     "locationDenied": "Níor ceadaíodh rochtain ar an suíomh.",
     "locationError": "Níorbh fhéidir do shuíomh a aimsiú.",
     "refresh": "Athnuaigh sonraí",
-    "language": "Teanga"
+    "language": "Teanga",
+    "more": "Tuilleadh"
   },
   "locationPicker": {
     "timeZone": "Amanna i do chrios ama: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Is beag athrú ar leibhéal na farraige",
     "unavailable": "Sonraí gan fáil",
     "waterTemperature": "Teocht an uisce",
-    "air": "Aer {value}°C",
+    "air": "Aer {value}{unit}",
     "wetsuit": "Culaith fhliuch molta",
     "noWaterForecast": "Níl réamhaisnéis teochta uisce",
     "light": "Lag",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Teanga á lódáil…",
     "error": "Níorbh fhéidir an teanga seo a lódáil. Seiceáil do cheangal agus bain triail eile as."
+  },
+  "units": {
+    "title": "Aonaid tomhais",
+    "auto": "De réir na teanga"
+  },
+  "favourites": {
+    "title": "Ceanáin",
+    "add": "Cuir {name} leis na ceanáin",
+    "remove": "Bain {name} de na ceanáin",
+    "empty": "Níl aon cheanáin fós. Sábháil láthair snámha leis an gcnaipe réalta.",
+    "saveFailed": "Níorbh fhéidir na ceanáin a stóráil sa bhrabhsálaí seo. Ní choinnítear na hathruithe ach don seisiún seo."
   }
 }

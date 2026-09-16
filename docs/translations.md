@@ -15,7 +15,7 @@ and Russia, Belarus, Kazakhstan and the Holy See.
 
 Complete packs cover all 44 languages / written standards in the catalogue. The active list is exported as
 `LANGUAGES` from `src/languages.js`; the validator checks every active pack.
-Each pack contains 544 translated strings, including safety and missing-data messages.
+Each pack contains 552 translated strings, including safety and missing-data messages.
 
 The original five translations retain their existing text. Additional translations
 were written directly in this workspace, without an external translation service.
@@ -44,7 +44,11 @@ language is loaded before the app renders. Existing PWA caching can retain a pac
 after it has been fetched, but an unvisited language needs a connection.
 
 `loadLanguage(code)` must complete before rendering a newly added language.
-Unknown or unsupported tags resolve to English. Wind uses km/h outside English;
-model inputs and risk thresholds remain in mph. `localeFor` supplies date/number
+Unknown or unsupported tags resolve to English. Wind defaults to mph in English and km/h in other languages; temperature defaults
+to Celsius in every currently supported language. The Units dialog offers independent
+wind (km/h, mph) and temperature (°C, °F) overrides. “Follow language” resumes the
+language default. Explicit choices persist across reloads and language changes in
+`safe-to-swim-units`; invalid or missing stored values use the language defaults.
+Model inputs and risk thresholds remain in mph and Celsius. `localeFor` supplies date/number
 formatting; browsers may fall back to their default locale for unsupported Intl
 locales (for example Latin). Provider alerts accept the same active language catalogue as the UI.

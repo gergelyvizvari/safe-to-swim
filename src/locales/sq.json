@@ -9,7 +9,8 @@
     "locationDenied": "Qasja te vendndodhja nuk u lejua.",
     "locationError": "Vendndodhja jote nuk u gjet.",
     "refresh": "Rifresko të dhënat",
-    "language": "Gjuha"
+    "language": "Gjuha",
+    "more": "Më shumë"
   },
   "locationPicker": {
     "timeZone": "Orët sipas zonës sate kohore: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Niveli i detit ndryshon shumë pak",
     "unavailable": "Të dhënat mungojnë",
     "waterTemperature": "Temperatura e ujit",
-    "air": "Ajri {value}°C",
+    "air": "Ajri {value}{unit}",
     "wetsuit": "Rekomandohet kostum neopreni",
     "noWaterForecast": "Nuk ka parashikim të temperaturës së ujit",
     "light": "E lehtë",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Po ngarkohet gjuha…",
     "error": "Kjo gjuhë nuk u ngarkua. Kontrollo lidhjen dhe provo sërish."
+  },
+  "units": {
+    "title": "Njësitë matëse",
+    "auto": "Sipas gjuhës"
+  },
+  "favourites": {
+    "title": "Të preferuarat",
+    "add": "Shto {name} te të preferuarat",
+    "remove": "Hiq {name} nga të preferuarat",
+    "empty": "Ende nuk ka vende të preferuara. Ruaj një vend larjeje me butonin e yllit.",
+    "saveFailed": "Të preferuarat nuk mund të ruheshin në këtë shfletues. Ndryshimet mbeten vetëm gjatë këtij sesioni."
   }
 }

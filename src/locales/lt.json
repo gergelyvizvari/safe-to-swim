@@ -9,7 +9,8 @@
     "locationDenied": "Prieiga prie vietos nebuvo leista.",
     "locationError": "Nepavyko nustatyti tavo vietos.",
     "refresh": "Atnaujinti duomenis",
-    "language": "Kalba"
+    "language": "Kalba",
+    "more": "Daugiau"
   },
   "locationPicker": {
     "timeZone": "Laikas tavo laiko juostoje: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Jūros lygis keičiasi labai mažai",
     "unavailable": "Duomenys nepasiekiami",
     "waterTemperature": "Vandens temperatūra",
-    "air": "Oras {value}°C",
+    "air": "Oras {value}{unit}",
     "wetsuit": "Rekomenduojamas hidrokostiumas",
     "noWaterForecast": "Nėra vandens temperatūros prognozės",
     "light": "Silpnas",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Įkeliama kalba…",
     "error": "Šios kalbos nepavyko įkelti. Patikrink ryšį ir bandyk dar kartą."
+  },
+  "units": {
+    "title": "Matavimo vienetai",
+    "auto": "Pagal kalbą"
+  },
+  "favourites": {
+    "title": "Mėgstamiausios",
+    "add": "Pridėti {name} prie mėgstamiausių",
+    "remove": "Pašalinti {name} iš mėgstamiausių",
+    "empty": "Mėgstamiausių vietų dar nėra. Išsaugok maudyklą žvaigždutės mygtuku.",
+    "saveFailed": "Šioje naršyklėje nepavyko išsaugoti mėgstamiausių vietų. Pakeitimai išliks tik šio seanso metu."
   }
 }

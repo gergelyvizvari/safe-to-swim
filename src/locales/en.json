@@ -9,7 +9,8 @@
     "locationDenied": "Location access was not allowed.",
     "locationError": "Your location could not be found.",
     "refresh": "Refresh data",
-    "language": "Language"
+    "language": "Language",
+    "more": "More"
   },
   "locationPicker": {
     "timeZone": "Times in your time zone: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Sea level is changing very little",
     "unavailable": "Data unavailable",
     "waterTemperature": "Water temperature",
-    "air": "{value}°C air",
+    "air": "{value}{unit} air",
     "wetsuit": "Wetsuit recommended",
     "noWaterForecast": "No water temperature forecast",
     "light": "Light",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Loading language…",
     "error": "This language could not be loaded. Check your connection and try again."
+  },
+  "units": {
+    "title": "Units",
+    "auto": "Follow language"
+  },
+  "favourites": {
+    "title": "Favourites",
+    "add": "Add {name} to favourites",
+    "remove": "Remove {name} from favourites",
+    "empty": "No favourites yet. Save a bathing site with its star button.",
+    "saveFailed": "Your favourites could not be saved in this browser. Changes are kept only for this session."
   }
 }

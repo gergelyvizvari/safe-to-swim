@@ -1,4 +1,4 @@
-import { formatStationWind, windUnit } from './windUnits.js'
+import { useUnitFormatting } from './UnitPreferencesContext.js'
 import { useEffect, useState } from 'react'
 import { ArrowUpRight, RefreshCw } from 'lucide-react'
 import { BALATON_SOURCES, isObservationStale } from './balaton.js'
@@ -20,6 +20,7 @@ function Forecast({ kind, copy }) {
 }
 
 export default function BalatonPanel({ location, language, locale }) {
+  const { formatStationWind, windUnit, formatTemperature } = useUnitFormatting()
   const copy = balatonMessages(language)
   const [state, setState] = useState({ data: null, loading: true, error: false })
   const [refresh, setRefresh] = useState(0)
@@ -41,7 +42,6 @@ export default function BalatonPanel({ location, language, locale }) {
   }, [])
   const data = state.data?.locationId === location.id ? state.data : null
   const date = (value, dateOnly = false) => Number.isFinite(Date.parse(value)) ? new Intl.DateTimeFormat(locale, { dateStyle: 'medium', ...(dateOnly ? { timeZone: 'UTC' } : { timeStyle: 'short' }) }).format(new Date(value)) : '—'
-  const number = value => Number.isFinite(value) ? new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(value) : '—'
   const stamp = (source, maxAge) => source?.publishedAt && <p className="panel-note">{copy.published}: {date(source.publishedAt)}{isObservationStale(source.publishedAt, maxAge, now) && <strong className="balaton-old">{copy.stale}</strong>}</p>
   const sample = data?.quality?.sample
   const stormOld = isObservationStale(data?.storm?.publishedAt, 2 * 3600000, now)
@@ -67,7 +67,7 @@ export default function BalatonPanel({ location, language, locale }) {
         <p className="panel-note">{copy.sampleNote}</p><SourceLink url={BALATON_SOURCES.quality} label={copy.open} />
       </article>
       <article><h3>{copy.temperature}</h3>
-        <dl className="balaton-stations">{(data?.temperature?.stations ?? []).map(item => <div key={item.station}><dt>{item.station}</dt><dd>{number(item.temperature)} °C</dd></div>)}</dl>
+        <dl className="balaton-stations">{(data?.temperature?.stations ?? []).map(item => <div key={item.station}><dt>{item.station}</dt><dd>{formatTemperature(item.temperature, locale)}</dd></div>)}</dl>
         {!data?.temperature?.stations && !state.loading && <p>{copy.unavailable}</p>}
         {stamp(data?.temperature, 36 * 3600000)}<p className="panel-note">{copy.stationNote}</p><SourceLink url={BALATON_SOURCES.temperature} label={copy.open} />
       </article>

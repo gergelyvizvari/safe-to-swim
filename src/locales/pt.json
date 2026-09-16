@@ -9,7 +9,8 @@
     "locationDenied": "O acesso à localização não foi permitido.",
     "locationError": "Não foi possível determinar a tua localização.",
     "refresh": "Atualizar dados",
-    "language": "Idioma"
+    "language": "Idioma",
+    "more": "Mais"
   },
   "locationPicker": {
     "timeZone": "Horas no teu fuso horário: {zone}",
@@ -147,7 +148,7 @@
     "slack": "O nível do mar varia muito pouco",
     "unavailable": "Dados indisponíveis",
     "waterTemperature": "Temperatura da água",
-    "air": "Ar a {value}°C",
+    "air": "Ar a {value}{unit}",
     "wetsuit": "Fato de neoprene recomendado",
     "noWaterForecast": "Sem previsão da temperatura da água",
     "light": "Fraco",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "A carregar idioma…",
     "error": "Não foi possível carregar este idioma. Verifica a ligação e tenta novamente."
+  },
+  "units": {
+    "title": "Unidades",
+    "auto": "Conforme o idioma"
+  },
+  "favourites": {
+    "title": "Favoritos",
+    "add": "Adicionar {name} aos favoritos",
+    "remove": "Remover {name} dos favoritos",
+    "empty": "Ainda não há favoritos. Guarda uma zona balnear com o botão de estrela.",
+    "saveFailed": "Não foi possível guardar os favoritos neste navegador. As alterações mantêm-se apenas nesta sessão."
   }
 }

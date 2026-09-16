@@ -1,9 +1,8 @@
-import { windDisplayValue, windUnit } from './windUnits.js'
+import { useUnitFormatting } from './UnitPreferencesContext.js'
 import { useEffect, useId, useRef, useState } from 'react'
 import { ArrowDown, ArrowRight, ArrowUp, ChevronLeft, ChevronRight, Moon, Sun, Thermometer, Waves, Wind } from 'lucide-react'
 import { buildConditionsTimeline, conditionsWindow, metricSegments } from './conditionsTimeline.js'
 import { conditionLabels } from './conditionLabels.js'
-import { getSafety } from './safety.js'
 import { smoothTidePath } from './tideCurvePath.js'
 
 const dayFormatter = new Intl.DateTimeFormat('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' })
@@ -19,9 +18,10 @@ const baseMetrics = [
 
 
 export default function ConditionsTimeline({ location, quality, current, forecast, selectedTime, onSelect, locale, source, loading, t }) {
-  const metrics = baseMetrics.map(metric => metric.unit === 'mph' ? { ...metric, unit: windUnit(locale) } : metric)
+  const { windDisplayValue, windUnit, getSafety, temperatureDisplayValue, temperatureUnit } = useUnitFormatting()
+  const metrics = baseMetrics.map(metric => metric.unit === 'mph' ? { ...metric, unit: windUnit(locale) } : metric.unit === '°C' ? { ...metric, unit: temperatureUnit } : metric)
   const plottedMetrics = metrics.filter(({ key }) => key === 'windSpeed' || key === 'seaLevel')
-  const displayValue = (value, key) => ['windSpeed', 'gusts'].includes(key) ? windDisplayValue(value, locale) : value
+  const displayValue = (value, key) => ['windSpeed', 'gusts'].includes(key) ? windDisplayValue(value, locale) : ['temperature', 'seaTemperature'].includes(key) ? temperatureDisplayValue(value) : value
   const id = useId()
   const [keyboardFocus, setKeyboardFocus] = useState(false)
   const [viewport, setViewport] = useState(700)

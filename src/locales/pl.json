@@ -9,7 +9,8 @@
     "locationDenied": "Nie udzielono dostępu do lokalizacji.",
     "locationError": "Nie udało się ustalić Twojej lokalizacji.",
     "refresh": "Odśwież dane",
-    "language": "Język"
+    "language": "Język",
+    "more": "Więcej"
   },
   "locationPicker": {
     "timeZone": "Godziny w Twojej strefie czasowej: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Poziom morza zmienia się nieznacznie",
     "unavailable": "Dane niedostępne",
     "waterTemperature": "Temperatura wody",
-    "air": "Powietrze {value}°C",
+    "air": "Powietrze {value}{unit}",
     "wetsuit": "Zalecana pianka",
     "noWaterForecast": "Brak prognozy temperatury wody",
     "light": "Słaby",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Wczytywanie języka…",
     "error": "Nie udało się wczytać tego języka. Sprawdź połączenie i spróbuj ponownie."
+  },
+  "units": {
+    "title": "Jednostki",
+    "auto": "Według języka"
+  },
+  "favourites": {
+    "title": "Ulubione",
+    "add": "Dodaj {name} do ulubionych",
+    "remove": "Usuń {name} z ulubionych",
+    "empty": "Nie masz jeszcze ulubionych miejsc. Zapisz kąpielisko przyciskiem z gwiazdką.",
+    "saveFailed": "Nie udało się zapisać ulubionych w tej przeglądarce. Zmiany pozostają tylko w tej sesji."
   }
 }

@@ -9,7 +9,8 @@
     "locationDenied": "L'access a la posiziun n'è betg vegnì permess.",
     "locationError": "Tia posiziun n'ha betg pudì vegnir chattada.",
     "refresh": "Actualisar las datas",
-    "language": "Lingua"
+    "language": "Lingua",
+    "more": "Dapli"
   },
   "locationPicker": {
     "timeZone": "Uras en tia zona d'urari: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Il nivel da la mar sa mida fitg pauc",
     "unavailable": "Datas betg disponiblas",
     "waterTemperature": "Temperatura da l'aua",
-    "air": "Ajer {value}°C",
+    "air": "Ajer {value}{unit}",
     "wetsuit": "Vestgì da neopren recumandà",
     "noWaterForecast": "Nagina prognosa da la temperatura da l'aua",
     "light": "Flaivel",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Chargiar la lingua…",
     "error": "Questa lingua n'ha betg pudì vegnir chargiada. Controllescha la connexiun ed emprova puspè."
+  },
+  "units": {
+    "title": "Unitads da mesira",
+    "auto": "Tenor la lingua"
+  },
+  "favourites": {
+    "title": "Favurits",
+    "add": "Agiuntar {name} als favurits",
+    "remove": "Allontanar {name} dals favurits",
+    "empty": "Anc nagins favurits. Memorisescha in lieu da far bogn cun il buttun da staila.",
+    "saveFailed": "Ils favurits n’han betg pudì vegnir memorisads en quest navigatur. Las midadas restan mo per questa sessiun."
   }
 }

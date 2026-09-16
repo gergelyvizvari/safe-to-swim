@@ -9,7 +9,8 @@
     "locationDenied": "Pristup lokaciji nije dopušten.",
     "locationError": "Tvoju lokaciju nije moguće odrediti.",
     "refresh": "Osvježi podatke",
-    "language": "Jezik"
+    "language": "Jezik",
+    "more": "Više"
   },
   "locationPicker": {
     "timeZone": "Vrijeme u tvojoj vremenskoj zoni: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Razina mora vrlo se malo mijenja",
     "unavailable": "Podaci nisu dostupni",
     "waterTemperature": "Temperatura vode",
-    "air": "Zrak {value}°C",
+    "air": "Zrak {value}{unit}",
     "wetsuit": "Preporučuje se neoprensko odijelo",
     "noWaterForecast": "Nema prognoze temperature vode",
     "light": "Slab",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Učitavanje jezika…",
     "error": "Ovaj jezik nije moguće učitati. Provjeri vezu i pokušaj ponovo."
+  },
+  "units": {
+    "title": "Mjerne jedinice",
+    "auto": "Prema jeziku"
+  },
+  "favourites": {
+    "title": "Favoriti",
+    "add": "Dodaj {name} u favorite",
+    "remove": "Ukloni {name} iz favorita",
+    "empty": "Još nema favorita. Sačuvaj kupalište dugmetom sa zvjezdicom.",
+    "saveFailed": "Favoriti se nisu mogli sačuvati u ovom pregledniku. Promjene ostaju samo tokom ove sesije."
   }
 }

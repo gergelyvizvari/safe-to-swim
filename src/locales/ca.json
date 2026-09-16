@@ -9,7 +9,8 @@
     "locationDenied": "No s'ha permès l'accés a la ubicació.",
     "locationError": "No s'ha pogut trobar la teva ubicació.",
     "refresh": "Actualitza les dades",
-    "language": "Llengua"
+    "language": "Llengua",
+    "more": "Més"
   },
   "locationPicker": {
     "timeZone": "Hores en el teu fus horari: {zone}",
@@ -147,7 +148,7 @@
     "slack": "El nivell del mar varia molt poc",
     "unavailable": "Dades no disponibles",
     "waterTemperature": "Temperatura de l'aigua",
-    "air": "Aire {value}°C",
+    "air": "Aire {value}{unit}",
     "wetsuit": "Es recomana vestit de neoprè",
     "noWaterForecast": "Sense previsió de temperatura de l'aigua",
     "light": "Fluix",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Carregant la llengua…",
     "error": "No s'ha pogut carregar aquesta llengua. Comprova la connexió i torna-ho a provar."
+  },
+  "units": {
+    "title": "Unitats",
+    "auto": "Segons la llengua"
+  },
+  "favourites": {
+    "title": "Preferits",
+    "add": "Afegeix {name} als preferits",
+    "remove": "Elimina {name} dels preferits",
+    "empty": "Encara no hi ha preferits. Desa un lloc de bany amb el botó d’estrella.",
+    "saveFailed": "No s’han pogut desar els preferits en aquest navegador. Els canvis només es conserven durant aquesta sessió."
   }
 }

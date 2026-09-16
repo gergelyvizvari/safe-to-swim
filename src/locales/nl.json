@@ -9,7 +9,8 @@
     "locationDenied": "Toegang tot je locatie is niet toegestaan.",
     "locationError": "Je locatie kon niet worden bepaald.",
     "refresh": "Gegevens vernieuwen",
-    "language": "Taal"
+    "language": "Taal",
+    "more": "Meer"
   },
   "locationPicker": {
     "timeZone": "Tijden in jouw tijdzone: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Het zeeniveau verandert nauwelijks",
     "unavailable": "Gegevens niet beschikbaar",
     "waterTemperature": "Watertemperatuur",
-    "air": "Lucht {value}°C",
+    "air": "Lucht {value}{unit}",
     "wetsuit": "Wetsuit aanbevolen",
     "noWaterForecast": "Geen verwachting voor de watertemperatuur",
     "light": "Zwak",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Taal laden…",
     "error": "Deze taal kon niet worden geladen. Controleer je verbinding en probeer het opnieuw."
+  },
+  "units": {
+    "title": "Eenheden",
+    "auto": "Volgens de taal"
+  },
+  "favourites": {
+    "title": "Favorieten",
+    "add": "{name} toevoegen aan favorieten",
+    "remove": "{name} verwijderen uit favorieten",
+    "empty": "Nog geen favorieten. Bewaar een zwemlocatie met de sterknop.",
+    "saveFailed": "De favorieten konden niet in deze browser worden opgeslagen. Wijzigingen blijven alleen tijdens deze sessie bewaard."
   }
 }

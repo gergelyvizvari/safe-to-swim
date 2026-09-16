@@ -9,7 +9,8 @@
     "locationDenied": "Accesul la poziție nu a fost permis.",
     "locationError": "Poziția ta nu a putut fi determinată.",
     "refresh": "Actualizează datele",
-    "language": "Limbă"
+    "language": "Limbă",
+    "more": "Mai multe"
   },
   "locationPicker": {
     "timeZone": "Orele sunt în fusul tău orar: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Nivelul mării se schimbă foarte puțin",
     "unavailable": "Date indisponibile",
     "waterTemperature": "Temperatura apei",
-    "air": "Aer {value}°C",
+    "air": "Aer {value}{unit}",
     "wetsuit": "Costum de neopren recomandat",
     "noWaterForecast": "Fără prognoza temperaturii apei",
     "light": "Slab",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Se încarcă limba…",
     "error": "Această limbă nu a putut fi încărcată. Verifică conexiunea și încearcă din nou."
+  },
+  "units": {
+    "title": "Unități de măsură",
+    "auto": "După limbă"
+  },
+  "favourites": {
+    "title": "Favorite",
+    "add": "Adaugă {name} la favorite",
+    "remove": "Elimină {name} din favorite",
+    "empty": "Nu ai încă favorite. Salvează un loc de scăldat cu butonul stea.",
+    "saveFailed": "Favoritele nu au putut fi salvate în acest browser. Modificările se păstrează doar pentru această sesiune."
   }
 }

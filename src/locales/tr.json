@@ -9,7 +9,8 @@
     "locationDenied": "Konum erişimine izin verilmedi.",
     "locationError": "Konumun belirlenemedi.",
     "refresh": "Verileri yenile",
-    "language": "Dil"
+    "language": "Dil",
+    "more": "Diğer"
   },
   "locationPicker": {
     "timeZone": "Saatler senin saat diliminde: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Deniz seviyesi çok az değişiyor",
     "unavailable": "Veriler kullanılamıyor",
     "waterTemperature": "Su sıcaklığı",
-    "air": "Hava {value}°C",
+    "air": "Hava {value}{unit}",
     "wetsuit": "Dalış elbisesi önerilir",
     "noWaterForecast": "Su sıcaklığı tahmini yok",
     "light": "Hafif",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Dil yükleniyor…",
     "error": "Bu dil yüklenemedi. Bağlantını kontrol et ve tekrar dene."
+  },
+  "units": {
+    "title": "Ölçü birimleri",
+    "auto": "Dile göre"
+  },
+  "favourites": {
+    "title": "Favoriler",
+    "add": "{name} konumunu favorilere ekle",
+    "remove": "{name} konumunu favorilerden kaldır",
+    "empty": "Henüz favori yok. Yıldız düğmesiyle bir yüzme yeri kaydet.",
+    "saveFailed": "Favoriler bu tarayıcıda kaydedilemedi. Değişiklikler yalnızca bu oturum boyunca korunur."
   }
 }

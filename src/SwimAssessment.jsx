@@ -1,11 +1,12 @@
-import { formatWindValue, windUnit } from './windUnits.js'
+import { useUnitFormatting } from './UnitPreferencesContext.js'
 import { ArrowUpRight, ChevronDown, Compass, Droplets, Info, Waves } from 'lucide-react'
 import { CATALOG_UPDATED_ON } from './catalogMetadata.js'
 import { classificationTone, getOfficialWaterUrl } from './waterQuality.js'
-import { formatNumber, formatWindSpeed, getSafetyReadings, windDataLabel, windRiskLabel, windMissingLabel, WIND_THRESHOLDS } from './safety.js'
+import { formatNumber, getSafetyReadings, windDataLabel, windRiskLabel, windMissingLabel, WIND_THRESHOLDS } from './safety.js'
 import { compassFor } from './i18n.js'
 
 export default function SwimAssessment({ current, wind, loading, location, quality, source, language, locale, t }) {
+  const { formatWindValue, windUnit, formatWindSpeed } = useUnitFormatting()
   const { waveHeight } = getSafetyReadings(current, location)
   const stale = source === 'stale' || source === 'unavailable'
   const wave = stale || !Number.isFinite(waveHeight) ? 'unknown' : waveHeight >= 1 ? 'danger' : waveHeight >= 0.6 ? 'caution' : 'low'

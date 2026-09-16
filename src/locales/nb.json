@@ -9,7 +9,8 @@
     "locationDenied": "Tilgang til posisjonen ble ikke tillatt.",
     "locationError": "Posisjonen din kunne ikke finnes.",
     "refresh": "Oppdater data",
-    "language": "Språk"
+    "language": "Språk",
+    "more": "Mer"
   },
   "locationPicker": {
     "timeZone": "Tidspunkter i din tidssone: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Havnivået endrer seg svært lite",
     "unavailable": "Data utilgjengelige",
     "waterTemperature": "Vanntemperatur",
-    "air": "Luft {value}°C",
+    "air": "Luft {value}{unit}",
     "wetsuit": "Våtdrakt anbefales",
     "noWaterForecast": "Ingen prognose for vanntemperatur",
     "light": "Svak",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Laster språk…",
     "error": "Dette språket kunne ikke lastes. Sjekk forbindelsen og prøv igjen."
+  },
+  "units": {
+    "title": "Måleenheter",
+    "auto": "Følg språket"
+  },
+  "favourites": {
+    "title": "Favoritter",
+    "add": "Legg til {name} som favoritt",
+    "remove": "Fjern {name} fra favoritter",
+    "empty": "Ingen favoritter ennå. Lagre en badeplass med stjerneknappen.",
+    "saveFailed": "Favorittene kunne ikke lagres i denne nettleseren. Endringer beholdes bare i denne økten."
   }
 }

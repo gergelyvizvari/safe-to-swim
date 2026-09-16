@@ -9,7 +9,8 @@
     "locationDenied": "A helyhozzáférés nem lett engedélyezve.",
     "locationError": "A helyzetedet nem sikerült meghatározni.",
     "refresh": "Adatok frissítése",
-    "language": "Nyelv"
+    "language": "Nyelv",
+    "more": "Továbbiak"
   },
   "locationPicker": {
     "timeZone": "Időpontok a saját időzónádban: {zone}",
@@ -147,7 +148,7 @@
     "slack": "A vízszint alig változik",
     "unavailable": "Nincs adat",
     "waterTemperature": "Vízhőmérséklet",
-    "air": "{value}°C levegő",
+    "air": "{value}{unit} levegő",
     "wetsuit": "Neoprén ajánlott",
     "noWaterForecast": "Nincs vízhőmérséklet-előrejelzés",
     "light": "Gyenge",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Nyelv betöltése…",
     "error": "A nyelv nem tölthető be. Ellenőrizd az internetkapcsolatot, és próbáld újra."
+  },
+  "units": {
+    "title": "Mértékegységek",
+    "auto": "Nyelv szerinti"
+  },
+  "favourites": {
+    "title": "Kedvencek",
+    "add": "{name} mentése a kedvencekhez",
+    "remove": "{name} eltávolítása a kedvencekből",
+    "empty": "Még nincs kedvenc fürdőhelyed. A csillaggombbal menthetsz el egy helyet.",
+    "saveFailed": "A kedvenceket nem sikerült menteni ebben a böngészőben. A változások csak ebben a munkamenetben maradnak meg."
   }
 }

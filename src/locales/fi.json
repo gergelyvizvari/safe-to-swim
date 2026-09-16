@@ -9,7 +9,8 @@
     "locationDenied": "Sijainnin käyttöä ei sallittu.",
     "locationError": "Sijaintiasi ei voitu määrittää.",
     "refresh": "Päivitä tiedot",
-    "language": "Kieli"
+    "language": "Kieli",
+    "more": "Lisää"
   },
   "locationPicker": {
     "timeZone": "Ajat aikavyöhykkeelläsi: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Merenpinta muuttuu hyvin vähän",
     "unavailable": "Tietoja ei saatavilla",
     "waterTemperature": "Veden lämpötila",
-    "air": "Ilma {value}°C",
+    "air": "Ilma {value}{unit}",
     "wetsuit": "Märkäpukua suositellaan",
     "noWaterForecast": "Ei veden lämpötilaennustetta",
     "light": "Heikko",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Ladataan kieltä…",
     "error": "Kieltä ei voitu ladata. Tarkista yhteys ja yritä uudelleen."
+  },
+  "units": {
+    "title": "Mittayksiköt",
+    "auto": "Kielen mukaan"
+  },
+  "favourites": {
+    "title": "Suosikit",
+    "add": "Lisää {name} suosikkeihin",
+    "remove": "Poista {name} suosikeista",
+    "empty": "Ei vielä suosikkeja. Tallenna uimapaikka tähtipainikkeella.",
+    "saveFailed": "Suosikkeja ei voitu tallentaa tähän selaimeen. Muutokset säilyvät vain tämän istunnon ajan."
   }
 }

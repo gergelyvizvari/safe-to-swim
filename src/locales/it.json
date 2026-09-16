@@ -9,7 +9,8 @@
     "locationDenied": "L’accesso alla posizione non è stato consentito.",
     "locationError": "Non è stato possibile trovare la tua posizione.",
     "refresh": "Aggiorna dati",
-    "language": "Lingua"
+    "language": "Lingua",
+    "more": "Altro"
   },
   "locationPicker": {
     "timeZone": "Orari nel tuo fuso: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Il livello del mare cambia pochissimo",
     "unavailable": "Dati non disponibili",
     "waterTemperature": "Temperatura dell’acqua",
-    "air": "Aria {value}°C",
+    "air": "Aria {value}{unit}",
     "wetsuit": "Muta consigliata",
     "noWaterForecast": "Previsione della temperatura dell’acqua non disponibile",
     "light": "Debole",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Caricamento della lingua…",
     "error": "Impossibile caricare questa lingua. Controlla la connessione e riprova."
+  },
+  "units": {
+    "title": "Unità di misura",
+    "auto": "In base alla lingua"
+  },
+  "favourites": {
+    "title": "Preferiti",
+    "add": "Aggiungi {name} ai preferiti",
+    "remove": "Rimuovi {name} dai preferiti",
+    "empty": "Nessun preferito. Salva un luogo di balneazione con il pulsante a stella.",
+    "saveFailed": "Impossibile salvare i preferiti in questo browser. Le modifiche restano solo per questa sessione."
   }
 }

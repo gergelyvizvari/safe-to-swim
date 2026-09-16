@@ -1,6 +1,9 @@
+import FavouriteButton from './FavouriteButton.jsx'
+import { useFavourites } from './FavouritesContext.js'
+import { filterFavourites } from './favourites.js'
 import { locationDisplayName } from './locationNames.js'
 import { lazy, Suspense, useEffect, useRef, useState } from 'react'
-import { Check, List, LocateFixed, Map, MapPin, Search, Waves, X } from 'lucide-react'
+import { Check, List, LocateFixed, Map, Star, Search, Waves, X } from 'lucide-react'
 import { useCatalogue } from './useCatalogue.js'
 import { catalogueMessages } from './catalogueMessages.js'
 
@@ -14,7 +17,7 @@ function cardTone(location) {
 function LocationCard({ location, selected, onSelect, t, locale, interactive = true }) {
   const Card = interactive ? 'button' : 'div'
   return (
-    <Card
+    <div className="location-card-wrapper"><Card
       className={`location-card location-card-tone-${cardTone(location)} ${selected ? 'is-selected' : ''}${interactive ? '' : ' location-card-static'}`}
       type={interactive ? 'button' : undefined}
       onClick={interactive ? () => onSelect(location.id) : undefined}
@@ -25,16 +28,18 @@ function LocationCard({ location, selected, onSelect, t, locale, interactive = t
         <strong>{locationDisplayName(location, locale)}</strong>
         <span>{location.area !== location.nation ? `${location.area} · ` : ''}{location.nation} · {t(`lake.${location.waterType ?? 'coastal'}`)}</span>
       </span>
-      <span className="location-card-pin" aria-hidden="true"><MapPin size={18} /></span>
       {selected && <span className="location-card-selected"><Check size={14} /> {t('locationPicker.selected')}</span>}
-    </Card>
+    </Card><FavouriteButton className="location-card-favourite" location={location} locale={locale} t={t} /></div>
   )
 }
 
 export function LocationPickerScreen({ location, userPosition, onClose, onSelect, onUseCurrentLocation, locating, locationFeedback, locale, t }) {
+  const { favourites, saveFailed } = useFavourites()
   const [search, setSearch] = useState('')
   const [waterType, setWaterType] = useState('all')
   const [view, setView] = useState('list')
+  const onCloseRef = useRef(onClose)
+  useEffect(() => { onCloseRef.current = onClose }, [onClose])
   const searchRef = useRef(null)
   const previousFocusRef = useRef(null)
   const dialogRef = useRef(null)
@@ -44,6 +49,8 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
   const copy = catalogueMessages(locale.split('-')[0])
   const result = useCatalogue({ q: search, kind: waterType, country, offset, limit: MAX_SEARCH_RESULTS })
   const suggested = useCatalogue({ featured: true, limit: 12 })
+  const savedResults = filterFavourites(favourites, { search, waterType, country })
+  const nations = [...new Set([...result.nations, ...favourites.map(item => item.nation).filter(Boolean)])].sort()
   const visibleResults = result.items
   const suggestedLocations = suggested.items.filter(item => item.id !== location.id)
 
@@ -56,7 +63,7 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
         event.preventDefault()
-        onClose()
+        onCloseRef.current()
         return
       }
       if (event.key !== 'Tab') return
@@ -78,7 +85,7 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
       document.removeEventListener('keydown', handleKeyDown)
       previousFocusRef.current?.focus()
     }
-  }, [onClose])
+  }, [])
 
   const selectLocation = (locationId) => {
     onSelect(locationId)
@@ -106,12 +113,16 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
           <button className={view === 'map' ? 'is-active' : ''} type="button" aria-pressed={view === 'map'} onClick={() => setView('map')}>
             <Map size={16} />{t('locationPicker.mapView')}
           </button>
+          <button className={view === 'favourites' ? 'is-active' : ''} type="button" aria-pressed={view === 'favourites'} onClick={() => setView('favourites')}>
+            <Star size={16} />{t('favourites.title')} ({favourites.length})
+          </button>
         </div>
 
         <div className="nation-filters" role="group" aria-label={t('lake.filter')}>
           {['all', 'coastal', 'lake'].map((type) => <button key={type} type="button" className={waterType === type ? 'is-active' : ''} aria-pressed={waterType === type} onClick={() => { setWaterType(type); setOffset(0) }}>{t(`lake.${type}`)}</button>)}
         </div>
-        <label className="catalogue-country"><span className="sr-only">{copy.country}</span><select value={country} onChange={event => { setCountry(event.target.value); setOffset(0) }}><option value="">{copy.country}</option>{result.nations.map(nation => <option key={nation} value={nation}>{nation}</option>)}</select></label>
+        <div className="location-search-controls">
+        <label className="catalogue-country"><span className="sr-only">{copy.country}</span><select value={country} onChange={event => { setCountry(event.target.value); setOffset(0) }}><option value="">{copy.country}</option>{nations.map(nation => <option key={nation} value={nation}>{nation}</option>)}</select></label>
         <div className="location-search">
           <Search size={20} aria-hidden="true" />
           <label className="sr-only" htmlFor="location-search-input">{t('locationPicker.searchLabel')}</label>
@@ -130,12 +141,21 @@ export function LocationPickerScreen({ location, userPosition, onClose, onSelect
           <span><LocateFixed size={21} /></span>
           <span>
             <strong>{locating ? t('header.locating') : t('locationPicker.useLocation')}</strong>
-            {locationFeedback && <small role="status">{locationFeedback}</small>}
           </span>
         </button>
+        {locationFeedback && <p className="location-search-feedback" role="status">{locationFeedback}</p>}
+
+        </div>
 
         <div className={`location-screen-content ${view === 'map' ? 'is-map' : ''}`}>
-          {view === 'map' ? (
+          {saveFailed && <p className="panel-note" role="status">{t('favourites.saveFailed')}</p>}
+          {view === 'favourites' ? (
+            <section aria-labelledby="favourite-locations-title">
+              <div className="location-list-heading"><h2 id="favourite-locations-title">{t('favourites.title')}</h2></div>
+              {savedResults.length ? <div className="location-card-grid">{savedResults.map(item => <LocationCard key={item.id} location={item} selected={item.id === location.id} onSelect={selectLocation} t={t} locale={locale} />)}</div>
+                : <p className="location-empty">{t(favourites.length ? 'locationPicker.empty' : 'favourites.empty')}</p>}
+            </section>
+          ) : view === 'map' ? (
             <Suspense fallback={<div className="location-map-loading">{t('locationPicker.mapLoading')}</div>}>
               <LocationPickerMap
                 key={location.id}

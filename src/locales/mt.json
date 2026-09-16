@@ -9,7 +9,8 @@
     "locationDenied": "L-aċċess għall-post ma ġiex permess.",
     "locationError": "Ma setax jinstab il-post tiegħek.",
     "refresh": "Aġġorna d-data",
-    "language": "Lingwa"
+    "language": "Lingwa",
+    "more": "Aktar"
   },
   "locationPicker": {
     "timeZone": "Ħinijiet fiż-żona tal-ħin tiegħek: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Il-livell tal-baħar qed jinbidel ftit li xejn",
     "unavailable": "Data mhux disponibbli",
     "waterTemperature": "Temperatura tal-ilma",
-    "air": "Arja {value}°C",
+    "air": "Arja {value}{unit}",
     "wetsuit": "Libsa tan-neoprene rakkomandata",
     "noWaterForecast": "Ebda tbassir tat-temperatura tal-ilma",
     "light": "Ħafif",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Qed titgħabba l-lingwa…",
     "error": "Din il-lingwa ma setgħetx titgħabba. Iċċekkja l-konnessjoni u erġa' pprova."
+  },
+  "units": {
+    "title": "Unitajiet tal-kejl",
+    "auto": "Skont il-lingwa"
+  },
+  "favourites": {
+    "title": "Favoriti",
+    "add": "Żid {name} mal-favoriti",
+    "remove": "Neħħi {name} mill-favoriti",
+    "empty": "Għad m’hemmx favoriti. Issejvja post għall-għawm bil-buttuna tal-istilla.",
+    "saveFailed": "Il-favoriti ma setgħux jiġu ssejvjati f’dan il-brawżer. Il-bidliet jinżammu biss għal din is-sessjoni."
   }
 }

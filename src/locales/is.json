@@ -9,7 +9,8 @@
     "locationDenied": "Aðgangur að staðsetningu var ekki leyfður.",
     "locationError": "Ekki tókst að finna staðsetninguna þína.",
     "refresh": "Uppfæra gögn",
-    "language": "Tungumál"
+    "language": "Tungumál",
+    "more": "Meira"
   },
   "locationPicker": {
     "timeZone": "Tímar í þínu tímabelti: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Sjávarstaða breytist lítið",
     "unavailable": "Gögn ekki tiltæk",
     "waterTemperature": "Vatnshiti",
-    "air": "Loft {value}°C",
+    "air": "Loft {value}{unit}",
     "wetsuit": "Mælt með blautbúningi",
     "noWaterForecast": "Engin vatnshitaspá",
     "light": "Hægur",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Hleð tungumáli…",
     "error": "Ekki tókst að hlaða þessu tungumáli. Athugaðu tenginguna og reyndu aftur."
+  },
+  "units": {
+    "title": "Mælieiningar",
+    "auto": "Samkvæmt tungumáli"
+  },
+  "favourites": {
+    "title": "Uppáhald",
+    "add": "Bæta {name} við uppáhald",
+    "remove": "Fjarlægja {name} úr uppáhaldi",
+    "empty": "Engir uppáhaldsstaðir enn. Vistaðu baðstað með stjörnuhnappinum.",
+    "saveFailed": "Ekki tókst að vista uppáhaldsstaði í þessum vafra. Breytingar varðveitast aðeins í þessari lotu."
   }
 }

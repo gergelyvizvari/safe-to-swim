@@ -9,7 +9,8 @@
     "locationDenied": "Piekļuve atrašanās vietai netika atļauta.",
     "locationError": "Tavu atrašanās vietu neizdevās noteikt.",
     "refresh": "Atjaunināt datus",
-    "language": "Valoda"
+    "language": "Valoda",
+    "more": "Vairāk"
   },
   "locationPicker": {
     "timeZone": "Laiki tavā laika joslā: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Jūras līmenis mainās ļoti maz",
     "unavailable": "Dati nav pieejami",
     "waterTemperature": "Ūdens temperatūra",
-    "air": "Gaiss {value}°C",
+    "air": "Gaiss {value}{unit}",
     "wetsuit": "Ieteicams hidrotērps",
     "noWaterForecast": "Nav ūdens temperatūras prognozes",
     "light": "Vājš",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Ielādē valodu…",
     "error": "Šo valodu neizdevās ielādēt. Pārbaudi savienojumu un mēģini vēlreiz."
+  },
+  "units": {
+    "title": "Mērvienības",
+    "auto": "Atbilstoši valodai"
+  },
+  "favourites": {
+    "title": "Izlase",
+    "add": "Pievienot {name} izlasei",
+    "remove": "Noņemt {name} no izlases",
+    "empty": "Izlasē vēl nav vietu. Saglabā peldvietu ar zvaigznītes pogu.",
+    "saveFailed": "Izlasi neizdevās saglabāt šajā pārlūkā. Izmaiņas saglabāsies tikai šajā sesijā."
   }
 }

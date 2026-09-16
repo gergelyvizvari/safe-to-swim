@@ -9,7 +9,8 @@
     "locationDenied": "Přístup k poloze nebyl povolen.",
     "locationError": "Vaši polohu se nepodařilo zjistit.",
     "refresh": "Obnovit data",
-    "language": "Jazyk"
+    "language": "Jazyk",
+    "more": "Další"
   },
   "locationPicker": {
     "timeZone": "Časy ve vašem časovém pásmu: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Hladina moře se téměř nemění",
     "unavailable": "Data nejsou dostupná",
     "waterTemperature": "Teplota vody",
-    "air": "Vzduch {value}°C",
+    "air": "Vzduch {value}{unit}",
     "wetsuit": "Doporučen neopren",
     "noWaterForecast": "Bez předpovědi teploty vody",
     "light": "Slabý",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Načítám jazyk…",
     "error": "Tento jazyk se nepodařilo načíst. Zkontrolujte připojení a zkuste to znovu."
+  },
+  "units": {
+    "title": "Jednotky",
+    "auto": "Podle jazyka"
+  },
+  "favourites": {
+    "title": "Oblíbené",
+    "add": "Přidat {name} do oblíbených",
+    "remove": "Odebrat {name} z oblíbených",
+    "empty": "Zatím nemáte oblíbená místa. Uložte koupaliště tlačítkem s hvězdičkou.",
+    "saveFailed": "Oblíbené se nepodařilo uložit v tomto prohlížeči. Změny zůstanou zachovány pouze v této relaci."
   }
 }

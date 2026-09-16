@@ -9,7 +9,8 @@
     "locationDenied": "L’accès à la position n’a pas été autorisé.",
     "locationError": "Votre position n’a pas pu être déterminée.",
     "refresh": "Actualiser les données",
-    "language": "Langue"
+    "language": "Langue",
+    "more": "Plus"
   },
   "locationPicker": {
     "timeZone": "Heures dans votre fuseau : {zone}",
@@ -147,7 +148,7 @@
     "slack": "Le niveau de la mer varie très peu",
     "unavailable": "Données indisponibles",
     "waterTemperature": "Température de l’eau",
-    "air": "Air {value}°C",
+    "air": "Air {value}{unit}",
     "wetsuit": "Combinaison conseillée",
     "noWaterForecast": "Pas de prévision de température de l’eau",
     "light": "Faible",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Chargement de la langue…",
     "error": "Impossible de charger cette langue. Vérifiez votre connexion et réessayez."
+  },
+  "units": {
+    "title": "Unités",
+    "auto": "Selon la langue"
+  },
+  "favourites": {
+    "title": "Favoris",
+    "add": "Ajouter {name} aux favoris",
+    "remove": "Retirer {name} des favoris",
+    "empty": "Aucun favori. Enregistrez un lieu de baignade avec son bouton étoile.",
+    "saveFailed": "Impossible d’enregistrer les favoris dans ce navigateur. Les changements sont conservés uniquement pour cette session."
   }
 }

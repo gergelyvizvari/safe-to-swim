@@ -9,7 +9,8 @@
     "locationDenied": "Məkana girişə icazə verilmədi.",
     "locationError": "Məkanını müəyyən etmək mümkün olmadı.",
     "refresh": "Məlumatları yenilə",
-    "language": "Dil"
+    "language": "Dil",
+    "more": "Daha çox"
   },
   "locationPicker": {
     "timeZone": "Vaxtlar sənin saat qurşağındadır: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Dəniz səviyyəsi çox az dəyişir",
     "unavailable": "Məlumatlar əlçatan deyil",
     "waterTemperature": "Suyun temperaturu",
-    "air": "Hava {value}°C",
+    "air": "Hava {value}{unit}",
     "wetsuit": "Hidrokostyum tövsiyə edilir",
     "noWaterForecast": "Su temperaturu proqnozu yoxdur",
     "light": "Zəif",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Dil yüklənir…",
     "error": "Bu dil yüklənə bilmədi. Bağlantını yoxla və yenidən cəhd et."
+  },
+  "units": {
+    "title": "Ölçü vahidləri",
+    "auto": "Dilə görə"
+  },
+  "favourites": {
+    "title": "Sevimlilər",
+    "add": "{name} məkanını sevimlilərə əlavə et",
+    "remove": "{name} məkanını sevimlilərdən sil",
+    "empty": "Hələ sevimli məkan yoxdur. Ulduz düyməsi ilə çimmə yerini yadda saxla.",
+    "saveFailed": "Sevimlilər bu brauzerdə saxlanıla bilmədi. Dəyişikliklər yalnız bu sessiya ərzində qalır."
   }
 }

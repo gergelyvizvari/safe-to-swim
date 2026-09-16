@@ -9,7 +9,8 @@
     "locationDenied": "Dostop do lokacije ni bil dovoljen.",
     "locationError": "Tvoje lokacije ni bilo mogoče določiti.",
     "refresh": "Osveži podatke",
-    "language": "Jezik"
+    "language": "Jezik",
+    "more": "Več"
   },
   "locationPicker": {
     "timeZone": "Časi v tvojem časovnem pasu: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Morska gladina se zelo malo spreminja",
     "unavailable": "Podatki niso na voljo",
     "waterTemperature": "Temperatura vode",
-    "air": "Zrak {value}°C",
+    "air": "Zrak {value}{unit}",
     "wetsuit": "Priporočljiva neoprenska obleka",
     "noWaterForecast": "Ni napovedi temperature vode",
     "light": "Šibek",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Nalaganje jezika…",
     "error": "Tega jezika ni bilo mogoče naložiti. Preveri povezavo in poskusi znova."
+  },
+  "units": {
+    "title": "Merske enote",
+    "auto": "Glede na jezik"
+  },
+  "favourites": {
+    "title": "Priljubljeno",
+    "add": "Dodaj {name} med priljubljene",
+    "remove": "Odstrani {name} iz priljubljenih",
+    "empty": "Še ni priljubljenih mest. Kopališče shrani z gumbom z zvezdico.",
+    "saveFailed": "Priljubljenih mest ni bilo mogoče shraniti v tem brskalniku. Spremembe se ohranijo samo v tej seji."
   }
 }

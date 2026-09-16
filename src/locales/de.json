@@ -9,7 +9,8 @@
     "locationDenied": "Der Standortzugriff wurde nicht erlaubt.",
     "locationError": "Dein Standort konnte nicht ermittelt werden.",
     "refresh": "Daten aktualisieren",
-    "language": "Sprache"
+    "language": "Sprache",
+    "more": "Mehr"
   },
   "locationPicker": {
     "timeZone": "Zeiten in deiner Zeitzone: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Der Meeresspiegel verändert sich kaum",
     "unavailable": "Daten nicht verfügbar",
     "waterTemperature": "Wassertemperatur",
-    "air": "{value}°C Luft",
+    "air": "{value}{unit} Luft",
     "wetsuit": "Neoprenanzug empfohlen",
     "noWaterForecast": "Keine Wassertemperaturvorhersage",
     "light": "Leicht",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Sprache wird geladen…",
     "error": "Diese Sprache konnte nicht geladen werden. Prüfe deine Internetverbindung und versuche es erneut."
+  },
+  "units": {
+    "title": "Maßeinheiten",
+    "auto": "Nach Sprache"
+  },
+  "favourites": {
+    "title": "Favoriten",
+    "add": "{name} zu Favoriten hinzufügen",
+    "remove": "{name} aus Favoriten entfernen",
+    "empty": "Noch keine Favoriten. Speichere eine Badestelle mit der Stern-Schaltfläche.",
+    "saveFailed": "Die Favoriten konnten in diesem Browser nicht gespeichert werden. Änderungen bleiben nur für diese Sitzung erhalten."
   }
 }

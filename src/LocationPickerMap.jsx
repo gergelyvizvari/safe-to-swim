@@ -1,4 +1,5 @@
-import { formatWindSpeed } from './windUnits.js'
+import { clusterMapLocations, visibleMapClusters } from './mapClustering.js'
+import { useUnitFormatting } from './UnitPreferencesContext.js'
 import { useWeatherAlerts } from './useWeatherAlerts.js'
 import { locationDisplayName } from './locationNames.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -7,7 +8,7 @@ import 'leaflet/dist/leaflet.css'
 import { Check, Droplets, LocateFixed, MapPin, Navigation, Waves, Wind } from 'lucide-react'
 import { distanceToCoastalLocation } from './locationUtils.js'
 import { useCoastalConditions } from './useCoastalConditions.js'
-import { formatNumber, getSafety } from './safety.js'
+import { formatNumber } from './safety.js'
 import { classificationTone, getWaterQualityForLocation } from './waterQuality.js'
 
 import { loadMapCatalogue, filterMapLocations } from './mapCatalogue.js'
@@ -41,34 +42,8 @@ function clusterIcon(count) {
   })
 }
 
-function clusterVisibleLocations(map, locations, expandedLocationIds) {
-  const visibleBounds = map.getBounds().pad(0.18)
-  const visibleLocations = locations.filter((location) => (
-    visibleBounds.contains([location.latitude, location.longitude])
-  ))
-
-  if (map.getZoom() >= map.getMaxZoom()) return visibleLocations.map((location) => [location])
-
-  const expandedIds = new Set(expandedLocationIds)
-  const cellSize = map.getZoom() <= 6 ? 68 : map.getZoom() <= 8 ? 58 : 48
-  const groups = new Map()
-
-  visibleLocations.forEach((location) => {
-    if (expandedIds.has(location.id)) {
-      groups.set(`expanded:${location.id}`, [location])
-      return
-    }
-    const point = map.latLngToContainerPoint([location.latitude, location.longitude])
-    const key = `${Math.floor(point.x / cellSize)}:${Math.floor(point.y / cellSize)}`
-    const group = groups.get(key) ?? []
-    group.push(location)
-    groups.set(key, group)
-  })
-
-  return [...groups.values()]
-}
-
 function MapSelectionCard({ location, selected, userPosition, onSelect, locale, t }) {
+  const { getSafety, formatWindSpeed, formatTemperature } = useUnitFormatting()
   const { data, loading, error } = useCoastalConditions(location)
   const weatherAlerts = useWeatherAlerts(location, locale.split('-')[0])
   const hasLivePreview = !loading && !error && (data.source === 'live' || (location.marineModelSupported === false && data.source === 'partial'))
@@ -101,7 +76,7 @@ function MapSelectionCard({ location, selected, userPosition, onSelect, locale, 
       </div>
 
       <div className="location-map-readings" aria-label={t('locationPicker.previewAria')}>
-        <span><Waves size={15} /><small>{t(location.marineModelSupported === false ? 'lake.air' : 'safety.wave')}</small><strong>{hasLivePreview ? location.marineModelSupported === false ? `${formatNumber(data.current.temperature, locale)} °C` : `${formatNumber(data.current.waveHeight, locale)} m` : '—'}</strong></span>
+        <span><Waves size={15} /><small>{t(location.marineModelSupported === false ? 'lake.air' : 'safety.wave')}</small><strong>{hasLivePreview ? location.marineModelSupported === false ? formatTemperature(data.current.temperature, locale) : `${formatNumber(data.current.waveHeight, locale)} m` : '—'}</strong></span>
         <span><Wind size={15} /><small>{t('safety.gusts')}</small><strong>{hasLivePreview ? formatWindSpeed(data.current.gusts, locale) : '—'}</strong></span>
         <span className={qualityTone}><Droplets size={15} /><small>{t('waterQuality.annualShort')}</small><strong>{t(`waterQuality.classes.${qualityTone}`)}</strong></span>
       </div>
@@ -171,9 +146,15 @@ export default function LocationPickerMap({ query = '', waterType = 'all', count
     if (!map) return undefined
     const markerLayer = L.layerGroup().addTo(map)
 
+    let clusterZoom
+    let clusters
     const renderMarkers = () => {
       markerLayer.clearLayers()
-      const groups = clusterVisibleLocations(map, locations, expandedLocationIds)
+      if (clusterZoom !== map.getZoom()) {
+        clusterZoom = map.getZoom()
+        clusters = clusterMapLocations(map, locations, expandedLocationIds)
+      }
+      const groups = visibleMapClusters(map, clusters)
 
       groups.forEach((group) => {
         if (group.length === 1) {

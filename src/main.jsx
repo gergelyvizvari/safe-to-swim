@@ -1,3 +1,5 @@
+import FavouritesProvider from './FavouritesProvider.jsx'
+import UnitPreferencesProvider from './UnitPreferencesProvider.jsx'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Analytics } from '@vercel/analytics/react'
@@ -27,7 +29,7 @@ async function startApp() {
 
   createRoot(document.getElementById('root')).render(
     <StrictMode>
-      <App />
+      <FavouritesProvider><UnitPreferencesProvider><App /></UnitPreferencesProvider></FavouritesProvider>
       <Analytics />
     </StrictMode>,
   )

@@ -9,7 +9,8 @@
     "locationDenied": "Asukohale juurdepääsu ei lubatud.",
     "locationError": "Sinu asukohta ei õnnestunud leida.",
     "refresh": "Värskenda andmeid",
-    "language": "Keel"
+    "language": "Keel",
+    "more": "Veel"
   },
   "locationPicker": {
     "timeZone": "Ajad sinu ajavööndis: {zone}",
@@ -147,7 +148,7 @@
     "slack": "Meretase muutub väga vähe",
     "unavailable": "Andmed pole saadaval",
     "waterTemperature": "Veetemperatuur",
-    "air": "Õhk {value}°C",
+    "air": "Õhk {value}{unit}",
     "wetsuit": "Soovitatav on kalipso",
     "noWaterForecast": "Veetemperatuuri prognoosi pole",
     "light": "Nõrk",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Keele laadimine…",
     "error": "Seda keelt ei saanud laadida. Kontrolli ühendust ja proovi uuesti."
+  },
+  "units": {
+    "title": "Mõõtühikud",
+    "auto": "Keele järgi"
+  },
+  "favourites": {
+    "title": "Lemmikud",
+    "add": "Lisa {name} lemmikutesse",
+    "remove": "Eemalda {name} lemmikutest",
+    "empty": "Lemmikuid veel pole. Salvesta supluskoht tähenupuga.",
+    "saveFailed": "Lemmikuid ei saanud sellesse brauserisse salvestada. Muudatused säilivad ainult selle seansi jooksul."
   }
 }

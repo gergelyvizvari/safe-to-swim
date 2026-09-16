@@ -9,7 +9,8 @@
     "locationDenied": "No se permitió el acceso a la ubicación.",
     "locationError": "No se pudo encontrar tu ubicación.",
     "refresh": "Actualizar datos",
-    "language": "Idioma"
+    "language": "Idioma",
+    "more": "Más"
   },
   "locationPicker": {
     "timeZone": "Horas en tu zona horaria: {zone}",
@@ -147,7 +148,7 @@
     "slack": "El nivel del mar cambia muy poco",
     "unavailable": "Datos no disponibles",
     "waterTemperature": "Temperatura del agua",
-    "air": "Aire {value}°C",
+    "air": "Aire {value}{unit}",
     "wetsuit": "Neopreno recomendado",
     "noWaterForecast": "Sin previsión de temperatura del agua",
     "light": "Suave",
@@ -622,5 +623,16 @@
   "language": {
     "loading": "Cargando idioma…",
     "error": "No se pudo cargar este idioma. Comprueba la conexión e inténtalo de nuevo."
+  },
+  "units": {
+    "title": "Unidades",
+    "auto": "Según el idioma"
+  },
+  "favourites": {
+    "title": "Favoritos",
+    "add": "Añadir {name} a favoritos",
+    "remove": "Quitar {name} de favoritos",
+    "empty": "Aún no hay favoritos. Guarda un lugar de baño con su botón de estrella.",
+    "saveFailed": "No se pudieron guardar los favoritos en este navegador. Los cambios se conservan solo durante esta sesión."
   }
 }
