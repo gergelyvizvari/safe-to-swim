@@ -101,3 +101,25 @@ The production collector is advancing; storm publication is correctly stale.
 SEPA’s existing weekly retry is due later today, not at this morning’s check.
 96 tests, lint and build pass. See `runs/2026-09-15.json` for exact evidence,
 identifiers, per-source limitations and October 15 review dates. No SQL was applied.
+
+## 2026-09-16 outcome
+
+15 Attica coastal sites reviewed; 15 new estimated orientations integrated locally
+(60 cumulative), with a missing-only SQL import prepared. No new dynamic source
+or verified live camera was enabled; production database additions remain zero.
+Eight orientations use local weighted normals and seven use individually reviewed
+beach chords around bays/headlands. Versioned OSM geometry permits reproduction.
+
+The Greek bathing-water registry home page is accessible, but its search returned
+503 and its map timed out. POSEIDON documentation and a real platforms request
+confirm OAuth2 authorization is required (401). No credentials requested from the
+provider. HNMS marine bulletins are a regional candidate, not a local safety signal.
+Meteocam Anavyssos reports a playback error; WatermanVision has no stream connected.
+
+Production API pagination, 15 details/observation identities and 15 weather/marine
+model responses pass. The collector is advancing. EA and NRW weekly link checks
+failed once, but direct reads now recover; SEPA has two recorded failures. These
+are reachability checks, not fresh water-quality observations.
+
+96 tests, lint, build, 60-bearing reproduction and local PostgreSQL import regression
+pass. See `runs/2026-09-16.json` for evidence and October 16 re-review dates.

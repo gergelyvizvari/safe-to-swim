@@ -1629,6 +1629,525 @@
         ],
         "reviewNote": "North-up local shoreline plot reviewed at each EEA point: Atlantic water west/southwest on the directed coast right; land east/northeast on the left. Groynes at the three northern sites lie outside the selected local beach window. Catalogue points can be slightly landward of the mapped high-water line; this does not reverse the normal. Estimated orientation, not a current or hazard measurement."
       }
+    },
+    {
+      "locationId": "eea-ELBW069219035101",
+      "latitude": 37.654,
+      "longitude": 24.0247,
+      "seaBearing": 255,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          32475449
+        ],
+        "nearestSegment": 136,
+        "nearestWayId": 32475449,
+        "shorePoint": {
+          "latitude": 37.65400363384018,
+          "longitude": 24.02471517310258
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32475449,
+            "version": 27
+          }
+        ],
+        "reviewNote": "Local bay eastern shore, water west/southwest. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219038101",
+      "latitude": 37.6616,
+      "longitude": 23.9972,
+      "seaBearing": 184,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          32479005
+        ],
+        "nearestSegment": 64,
+        "nearestWayId": 32479005,
+        "shorePoint": {
+          "latitude": 37.66159118007423,
+          "longitude": 23.99720060947427
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32479005,
+            "version": 12
+          }
+        ],
+        "reviewNote": "Straight south-facing beach. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219041101",
+      "latitude": 37.6628,
+      "longitude": 23.9901,
+      "seaBearing": 183,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          32479005
+        ],
+        "nearestSegment": 24,
+        "nearestWayId": 32479005,
+        "shorePoint": {
+          "latitude": 37.662810491153934,
+          "longitude": 23.990101410510842
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32479005,
+            "version": 12
+          }
+        ],
+        "reviewNote": "Central south-facing beach; corner east excluded. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219147101",
+      "latitude": 37.6664,
+      "longitude": 23.9718,
+      "seaBearing": 213,
+      "shoreOrientation": {
+        "distanceMetres": 18,
+        "radiusMetres": 60,
+        "wayIds": [
+          154700899
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 154700899,
+        "shorePoint": {
+          "latitude": 37.66654339155759,
+          "longitude": 23.971891734303643
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 154700899,
+            "version": 14
+          }
+        ],
+        "reviewNote": "Curving beach, water southwest. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225144101",
+      "latitude": 37.6804,
+      "longitude": 23.9416,
+      "seaBearing": 241,
+      "shoreOrientation": {
+        "wayIds": [
+          32478382
+        ],
+        "reviewedVertexIndices": [
+          37,
+          40
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 80,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32478382,
+            "version": 24
+          }
+        ],
+        "reviewNote": "Eastern side of small bay; chord spans the beach between rocky corners. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225143101",
+      "latitude": 37.6815,
+      "longitude": 23.9412,
+      "seaBearing": 259,
+      "shoreOrientation": {
+        "wayIds": [
+          32478382
+        ],
+        "reviewedVertexIndices": [
+          20,
+          23
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 85,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32478382,
+            "version": 24
+          }
+        ],
+        "reviewNote": "Eastern bay shore; chord excludes rocky inlet at its northern end. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225113101",
+      "latitude": 37.7034,
+      "longitude": 23.9393,
+      "seaBearing": 249,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          602242574
+        ],
+        "nearestSegment": 183,
+        "nearestWayId": 602242574,
+        "shorePoint": {
+          "latitude": 37.70340199605308,
+          "longitude": 23.939306998599445
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 602242574,
+            "version": 8
+          }
+        ],
+        "reviewNote": "West-facing beach; local window between rocky margins. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225108101",
+      "latitude": 37.7152,
+      "longitude": 23.9457,
+      "seaBearing": 258,
+      "shoreOrientation": {
+        "wayIds": [
+          602242574
+        ],
+        "reviewedVertexIndices": [
+          88,
+          90
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 48,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 602242574,
+            "version": 8
+          }
+        ],
+        "reviewNote": "Short west-facing beach arc; chord excludes quay/corners north and south. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225114101",
+      "latitude": 37.7167,
+      "longitude": 23.9455,
+      "seaBearing": 255,
+      "shoreOrientation": {
+        "wayIds": [
+          602242574
+        ],
+        "reviewedVertexIndices": [
+          50,
+          56
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 64,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 602242574,
+            "version": 8
+          }
+        ],
+        "reviewNote": "West-facing local beach; nearby harbour geometry excluded. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225104101",
+      "latitude": 37.7181,
+      "longitude": 23.9222,
+      "seaBearing": 224,
+      "shoreOrientation": {
+        "wayIds": [
+          32479343
+        ],
+        "reviewedVertexIndices": [
+          254,
+          256
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 96,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32479343,
+            "version": 19
+          }
+        ],
+        "reviewNote": "Southwest-facing beach flank; opposite peninsula shore excluded. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225106101",
+      "latitude": 37.7184,
+      "longitude": 23.9169,
+      "seaBearing": 147,
+      "shoreOrientation": {
+        "wayIds": [
+          32479343
+        ],
+        "reviewedVertexIndices": [
+          227,
+          229
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 67,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32479343,
+            "version": 19
+          }
+        ],
+        "reviewNote": "Southeast-facing flank of the small peninsula; use the local shore, not the opposing western bay. Catalogue point is slightly landward of this mapped shoreline. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225115101",
+      "latitude": 37.725,
+      "longitude": 23.9404,
+      "seaBearing": 201,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          32483882
+        ],
+        "nearestSegment": 87,
+        "nearestWayId": 32483882,
+        "shorePoint": {
+          "latitude": 37.72495803535942,
+          "longitude": 23.940365725648515
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32483882,
+            "version": 20
+          }
+        ],
+        "reviewNote": "South/southwest-facing central beach. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225109101",
+      "latitude": 37.7276,
+      "longitude": 23.9074,
+      "seaBearing": 244,
+      "shoreOrientation": {
+        "distanceMetres": 10,
+        "radiusMetres": 60,
+        "wayIds": [
+          32479343
+        ],
+        "nearestSegment": 75,
+        "nearestWayId": 32479343,
+        "shorePoint": {
+          "latitude": 37.727556810249844,
+          "longitude": 23.907302046064533
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32479343,
+            "version": 19
+          }
+        ],
+        "reviewNote": "West/southwest-facing beach; catalogue point landward of mapped coastline. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225107101",
+      "latitude": 37.7315,
+      "longitude": 23.9043,
+      "seaBearing": 233,
+      "shoreOrientation": {
+        "wayIds": [
+          32479343
+        ],
+        "reviewedVertexIndices": [
+          18,
+          19
+        ],
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "precision": "estimated",
+        "chordLengthMetres": 39,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 32479343,
+            "version": 19
+          }
+        ],
+        "reviewNote": "Southwest-facing local cove flank; sharp headland immediately north is excluded. Catalogue point is slightly landward of mapped shoreline. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225116101",
+      "latitude": 37.7357,
+      "longitude": 23.9047,
+      "seaBearing": 300,
+      "shoreOrientation": {
+        "distanceMetres": 3,
+        "radiusMetres": 60,
+        "wayIds": [
+          710516624
+        ],
+        "nearestSegment": 79,
+        "nearestWayId": 710516624,
+        "shorePoint": {
+          "latitude": 37.73568941981571,
+          "longitude": 23.904725945568988
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-16",
+        "reviewed": true,
+        "estimated": true,
+        "retrievedAt": "2026-09-16T08:06:08.054Z",
+        "snapshotFile": "2026-09-16-osm.json",
+        "wayVersions": [
+          {
+            "id": 710516624,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Northwest-facing flank of curved beach; not a generic west-coast bearing. North-up local geometry reviewed with directed water-right normals. Small landward catalogue offsets do not reverse the normal; this is an estimated orientation, not a current or hazard measurement."
+      }
     }
   ]
 }

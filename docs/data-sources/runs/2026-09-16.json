@@ -1,0 +1,433 @@
+{
+  "date": "2026-09-16",
+  "counts": {
+    "reviewed": 15,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsIntegratedLocally": 15,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "locationIds": [
+    "eea-ELBW069219035101",
+    "eea-ELBW069219038101",
+    "eea-ELBW069219041101",
+    "eea-ELBW069219147101",
+    "eea-ELBW069225144101",
+    "eea-ELBW069225143101",
+    "eea-ELBW069225113101",
+    "eea-ELBW069225108101",
+    "eea-ELBW069225114101",
+    "eea-ELBW069225104101",
+    "eea-ELBW069225106101",
+    "eea-ELBW069225115101",
+    "eea-ELBW069225109101",
+    "eea-ELBW069225107101",
+    "eea-ELBW069225116101"
+  ],
+  "providers": [
+    {
+      "id": "greece-bathing-profiles",
+      "url": "https://bathingwaterprofiles.gr/en",
+      "searchUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "status": "HTTP 503 on search; 20-second map timeout. Home page accessible. No current samples downloaded.",
+      "coverage": "Publisher describes microbiological samples and visual pollution observations. Annual assessments are four-year summaries, not current safety clearance.",
+      "identity": "Search-index evidence contains Sounio and Charakas codes, but no live coordinate/sample identity verified.",
+      "reuse": "API contract, rate limits and reuse conditions unresolved."
+    },
+    {
+      "id": "hcmr-poseidon",
+      "documentation": "https://api.poseidon.hcmr.gr/swagger/",
+      "schema": "https://api.poseidon.hcmr.gr/swagger/?format=openapi",
+      "probe": "https://api.poseidon.hcmr.gr/api/platforms/",
+      "httpStatus": 401,
+      "authentication": "OAuth2 credentials issued by provider; no account created or message sent.",
+      "coverage": "Observational platforms, not forecast API. No station locations, measurement timestamps, units or beach bindings confirmed."
+    },
+    {
+      "id": "hnms-marine",
+      "url": "https://www.emy.gr/en/marine",
+      "status": "Official regional bulletin candidate; no machine-readable warning adapter verified.",
+      "coverage": "Saronikos region listed. Regional forecasts cannot imply beach-specific clearance; cached search bulletin is not current evidence.",
+      "reuse": "Not validated; all-rights-reserved footer."
+    }
+  ],
+  "geometry": {
+    "source": "https://api.openstreetmap.org/api/0.6/map.json?bbox=23.900,37.649,24.029,37.740",
+    "fallbackReason": "Private.coffee Overpass timed out after 45 seconds; main Overpass returned 504. One bounded OSM map download succeeded.",
+    "snapshot": "data/shorelines/2026-09-16-osm.json",
+    "normalization": "Only directed coastline ways retained; geometry reconstructed from referenced nodes. No coordinates synthesized. Source way versions retained. Retrieved timestamp is not an Overpass database timestamp.",
+    "methods": {
+      "automaticLocalNormals": 8,
+      "manuallyReviewedLocalChords": 7
+    },
+    "review": "Each beach reviewed in north-up local geometry plots. Bay/headland sides handled individually. Estimated integer bearings do not claim degree-level precision.",
+    "license": "ODbL-1.0; OpenStreetMap contributors",
+    "database": "Prepared missing-only transaction; no production SQL access available. DB remains authoritative."
+  },
+  "cameras": [
+    {
+      "id": "gr-meteocam-mc192",
+      "operator": "Meteocam / Cybex SA; hosted by Castus Beach Bar",
+      "url": "https://www.meteocam.gr/index.php?id=mc192",
+      "latitude": 37.7258,
+      "longitude": 23.9377,
+      "coordinateEvidence": "Operator embedded map query xlat/xlon",
+      "candidateLocationIds": [
+        "eea-ELBW069225113101",
+        "eea-ELBW069225108101",
+        "eea-ELBW069225114101",
+        "eea-ELBW069225104101",
+        "eea-ELBW069225106101",
+        "eea-ELBW069225115101",
+        "eea-ELBW069225109101",
+        "eea-ELBW069225107101",
+        "eea-ELBW069225116101"
+      ],
+      "status": "playback-error",
+      "freshness": "unknown",
+      "type": "link",
+      "embedding": "Not validated; no tokenized stream retained",
+      "fieldOfView": "Publisher says Anavyssos beach; no functioning image to establish specific sampled-shore visibility.",
+      "evidence": "Browser player: Unable to play media. Separate timelapse is not a live feed.",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16"
+    },
+    {
+      "id": "gr-watermanvision-anavyssos",
+      "operator": "WatermanVision / TestraTech",
+      "url": "https://watermanvision.gr/",
+      "latitude": null,
+      "longitude": null,
+      "candidateLocationIds": [
+        "eea-ELBW069225113101",
+        "eea-ELBW069225108101",
+        "eea-ELBW069225114101",
+        "eea-ELBW069225104101",
+        "eea-ELBW069225106101",
+        "eea-ELBW069225115101",
+        "eea-ELBW069225109101",
+        "eea-ELBW069225107101",
+        "eea-ELBW069225116101"
+      ],
+      "status": "source-pending",
+      "freshness": "unavailable",
+      "type": "link",
+      "embedding": "not applicable",
+      "fieldOfView": "No connected camera",
+      "evidence": "Publisher page explicitly says awaiting stream URL; not counted as live.",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16"
+    }
+  ],
+  "productionChecks": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-09-16T08:03:40.347Z",
+    "pages": [
+      {
+        "kind": "lake",
+        "total": 6235,
+        "count": 30
+      },
+      {
+        "kind": "coastal",
+        "total": 14878,
+        "count": 30
+      }
+    ],
+    "details": [
+      {
+        "locationId": "eea-ELBW069219035101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069219038101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069219041101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069219147101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225144101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225143101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225113101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225108101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225114101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225104101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225106101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225115101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225109101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225107101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      },
+      {
+        "locationId": "eea-ELBW069225116101",
+        "bearing": null,
+        "sourceTypes": [
+          "annual_quality",
+          "marine",
+          "weather"
+        ],
+        "observations": 0
+      }
+    ],
+    "forecastValid": {
+      "weather": 15,
+      "marine": 15
+    },
+    "forecastNote": "One batched per-site check for weather and marine; finite values and identities validated. Model valid times are not observed measurement times."
+  },
+  "collector": {
+    "checkedAt": "2026-09-16T08:02:54.319Z",
+    "states": [
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:03.208+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:32:00.648+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-16T15:32:04.705+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-16T07:58:00.346+00:00",
+        "published_at": "2026-09-16T07:45:00+00:00",
+        "next_check_at": "2026-09-16T08:03:00.579+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-16T07:35:00.693+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-16T08:35:01.912+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-16T08:01:00.533+00:00",
+        "published_at": "2026-09-16T08:00:00+00:00",
+        "next_check_at": "2026-09-16T08:06:01.149+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-16T08:01:00.534+00:00",
+        "published_at": "2026-09-16T06:30:00+00:00",
+        "next_check_at": "2026-09-16T08:02:01.469+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-16T07:45:00.49+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-16T08:45:01.146+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "nrw",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.336+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:01.92+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.338+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.192+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "ea",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.223+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.337+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.22+00:00",
+        "consecutive_failures": 2,
+        "check_kind": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "stale",
+        "checked_at": "2026-09-16T08:02:00.304+00:00",
+        "published_at": "2026-09-15T17:08:00+00:00",
+        "next_check_at": "2026-09-16T08:03:00.937+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-16T08:01:00.535+00:00",
+        "published_at": "2026-09-16T07:56:00+00:00",
+        "next_check_at": "2026-09-16T08:02:02.133+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      }
+    ],
+    "interpretation": "Minute-level observation refresh advancing. Storm publication remains stale. Weekly EA/NRW checks failed once, SEPA twice. Independent reads of EA/NRW now return HTTP200 and correct bathing-water pages; no retry schedule altered and no source-checks mutation triggered."
+  },
+  "validation": {
+    "tests": "96 passed",
+    "lint": "passed",
+    "build": "passed",
+    "geometry": "60 cumulative bearings reproduced against versioned snapshots",
+    "postgres": "15-row regression: 11 missing fields filled; manual north bearing, moved point, lake and inactive rows protected; unrelated metadata and timestamps preserved on rerun. RLS/schema unchanged.",
+    "browser": "Local Sounio selection: shore-relative wind assessment shown after forecast loads; detailed panel displays estimated 255 degrees, 2026-09-16, OSM/ODbL attribution and public dataset link."
+  },
+  "publication": {
+    "databaseImportApplied": false,
+    "code": "Prepared for origin/main; commit deployment status checked after push."
+  }
+}

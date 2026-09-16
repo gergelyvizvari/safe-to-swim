@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-09-15",
-  "nextCountry": "Greece",
+  "lastRun": "2026-09-16",
+  "nextCountry": "Germany",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -2350,6 +2350,396 @@
         "status": "not-verified",
         "nextReviewAt": "2026-10-15",
         "reason": "No verified live camera with matching waterbody and field of view; shared Bačvice and Žnjan candidates offline."
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219035101",
+      "name": "SOUNIO",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 255,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": null,
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219038101",
+      "name": "LEGRAINA ANATOLIKA",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 184,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": null,
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219041101",
+      "name": "LEGRAINA DYTIKA",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 183,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": null,
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069219147101",
+      "name": "CHARAKAS",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 213,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": null,
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225144101",
+      "name": "ORMOS KATAFYGI 2",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 241,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": null,
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225143101",
+      "name": "ORMOS KATAFYGI 1",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 259,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": null,
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225113101",
+      "name": "THYMARI",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 249,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225108101",
+      "name": "PALAIA FOKAIA",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 258,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225114101",
+      "name": "AKROGIALI",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 255,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225104101",
+      "name": "AGIOS NIKOLAOS",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 224,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225106101",
+      "name": "ANAVYSSOS",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 147,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225115101",
+      "name": "KOKKINA",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 201,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225109101",
+      "name": "MAVRO LITHARI - EDEN",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 244,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225107101",
+      "name": "NAFTIKOS OMILOS ANAVYSSOU",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 233,
+        "method": "manually-reviewed-local-coastline-chord-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
+      }
+    },
+    {
+      "locationId": "eea-ELBW069225116101",
+      "name": "MAVRO LITHARI",
+      "country": "Greece",
+      "waterType": "coastal",
+      "provider": "greece-bathing-profiles / HCMR POSEIDON",
+      "status": "candidate",
+      "checkedAt": "2026-09-16",
+      "nextReviewAt": "2026-10-16",
+      "identityVerified": false,
+      "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
+      "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 300,
+        "method": "length-weighted-local-coastline-right-normal",
+        "import": "supabase/imports/20260916_shore-orientations.sql",
+        "productionApplied": false
+      },
+      "webcam": {
+        "status": "not-verified",
+        "cameraCandidateId": "gr-meteocam-mc192",
+        "reason": "Anavyssos candidate failed playback and local field of view could not be verified; southern site searches yielded no verified operator camera. Proximity does not justify assigning a camera.",
+        "nextReviewAt": "2026-10-16"
       }
     }
   ]

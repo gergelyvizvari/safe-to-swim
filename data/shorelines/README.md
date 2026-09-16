@@ -35,3 +35,13 @@ western/right side; northern groynes do not replace the nearby beach tangent.
 All 15 records feed the existing catalogue overlay and detail/map API tests.
 `supabase/imports/20260913_shore-orientations.sql` contains only today's 15
 conditional updates; do not count the preceding 30 as newly processed.
+
+2026-09-16 Greece snapshot: one OSM API map download,
+`https://api.openstreetmap.org/api/0.6/map.json?bbox=23.900,37.649,24.029,37.740`.
+Coastline ways only, reconstructed from their referenced nodes; way versions and
+retrieval date retained. The map API does not supply an Overpass base timestamp.
+Eight local normals and seven manually reviewed chords cover the 15 Attica sites.
+Review each bay independently: Anavyssos faces southeast here; Mavro Lithari faces
+northwest. Do not extrapolate a generic south/west direction along this coast.
+The derived public dataset and source snapshot remain under ODbL. Apply the new
+`supabase/imports/20260916_shore-orientations.sql` only to the configured database.
