@@ -588,7 +588,7 @@
     "close": "Lukk",
     "chipUnavailable": "Varselstatus ikke bekreftet",
     "chipNone": "Ingen varsler utstedt",
-    "title": "Værvarsler",
+    "title": "Farevarsler for vær",
     "loading": "Sjekker varsler…",
     "unavailable": "Den nyeste varselstatusen kunne ikke bekreftes.",
     "stale": "Utdaterte varseldata — sjekk den offisielle kilden.",
@@ -600,7 +600,7 @@
     "source": "Offisielt varsel",
     "scope": "Regionalt værvarsel; sjekk innsjøens stormsignaler separat.",
     "details": "Detaljer og instrukser",
-    "danger": "Værvarsel: hold deg ute av vannet.",
+    "danger": "Farevarsel for vær: hold deg ute av vannet.",
     "caution": "Et regionalt værvarsel gjelder.",
     "action": "Sjekk det offisielle varselet og signalene på stedet.",
     "levels": {

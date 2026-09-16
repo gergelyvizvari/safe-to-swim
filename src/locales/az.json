@@ -469,7 +469,7 @@
   },
   "lakeDecision": {
     "unresolved": "Əvvəlki xəbərdarlıq yenilənməlidir.",
-    "unresolvedAction": "Girməzdən əvvəl əvvəlki mənfi siqnalın hələ qüvvədə olduğunu yoxla. Uğursuz yenilənmə təhlükənin keçdiyini bildirmir.",
+    "unresolvedAction": "Suya girməzdən əvvəl əvvəlki mənfi siqnalın hələ qüvvədə olub-olmadığını yoxla. Uğursuz yenilənmə təhlükənin keçdiyini bildirmir.",
     "previousConcern": "Əvvəlki əlaqəli hesabatda mənfi siqnal var idi; cari qüvvəsi təsdiqlənməyib.",
     "stationWind": "Əlaqəli rəsmi stansiya daha güclü külək bildirir. Bu, stansiya ölçməsidir, giriş nöqtəndə təsdiqlənmiş ölçmə deyil.",
     "label": "Göldə üzmə · məlumatlar və məhdudiyyətlər",

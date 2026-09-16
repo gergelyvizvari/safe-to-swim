@@ -600,7 +600,7 @@
     "source": "Officiell varning",
     "scope": "Regional vädervarning; kontrollera sjöns stormsignaler separat.",
     "details": "Detaljer och anvisningar",
-    "danger": "Vädervarning: stanna ur vattnet.",
+    "danger": "Vädervarning: håll dig borta från vattnet.",
     "caution": "En regional vädervarning gäller.",
     "action": "Kontrollera den officiella varningen och signalerna på plats.",
     "levels": {
