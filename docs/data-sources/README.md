@@ -123,3 +123,28 @@ are reachability checks, not fresh water-quality observations.
 
 96 tests, lint, build, 60-bearing reproduction and local PostgreSQL import regression
 pass. See `runs/2026-09-16.json` for evidence and October 16 re-review dates.
+
+## 2026-09-17 outcome
+
+15 Berlin lake sites reviewed; all 15 matched by exact EU ID in the official
+WFS, then by shared official article ID to LAGeSo CSV station codes. **0 new
+production integrations, 0 verified/integrated live cameras, 0 new orientations.**
+This run rotates back to lakes; next country is the Netherlands.
+
+The shared CSV returned 39 records with dated measurements and textual advice.
+Selected samples are September 8–10, not current temperatures. A critical parser
+case was found outside the selected batch: Grunewaldturm contains numeric zeros
+while its accompanying note says sampling was impossible. Treating these as
+measurements would be incorrect. Less-than values, case-sensitive advice columns,
+per-site dates and day precision must survive normalization. Exact identities
+do not erase sampling distance: two points differ by roughly 490/740 metres.
+
+The DWD Atom feed is reachable and current, but regional CAP coverage and
+cancellation semantics are not yet mapped. The Müggelsee operator camera reports
+“Invalid player id”; no nearby camera from another lake was substituted.
+
+The configured database and production catalogue/observation identities were
+checked. Collection continues; weekly link-check failures remain unchanged.
+111 tests, lint and build pass. No runtime, schema, assignments or schedule changed.
+See `runs/2026-09-17.json` for exact source links, station identities, remaining
+adapter requirements, source evidence and October 17 re-review dates.

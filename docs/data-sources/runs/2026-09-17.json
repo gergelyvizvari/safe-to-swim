@@ -1,0 +1,1452 @@
+{
+  "date": "2026-09-17",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "preparedDatabaseImports": 0,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsIntegratedLocally": 0,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "selection": "Germany rotation, 15 lake sites from configured Supabase catalogue; previous four batches were coastal. No new catalogue rows. Orientation work deferred for this lake batch; no sea bearings inferred from regional lake profiles.",
+  "locationIds": [
+    "eea-DEBE_PR_0019",
+    "eea-DEBE_PR_0024",
+    "eea-DEBE_PR_0031",
+    "eea-DEBE_PR_0020",
+    "eea-DEBE_PR_0021",
+    "eea-DEBE_PR_0005",
+    "eea-DEBE_PR_0023",
+    "eea-DEBE_PR_0022",
+    "eea-DEBE_PR_0003",
+    "eea-DEBE_PR_0010",
+    "eea-DEBE_PR_0001",
+    "eea-DEBE_PR_0013",
+    "eea-DEBE_PR_0004",
+    "eea-DEBE_PR_0002",
+    "eea-DEBE_PR_0016"
+  ],
+  "locations": [
+    {
+      "locationId": "eea-DEBE_PR_0019",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B920",
+      "externalId": "B920",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0019",
+        "bathingwat": "DEBE_PR_0019",
+        "sharedArticleId": "artikel.344334",
+        "wfsCoordinates": [
+          13.28405588,
+          52.56919876
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344334.php",
+      "samplingCoordinates": {
+        "latitude": 52.569786,
+        "longitude": 13.284889
+      },
+      "catalogueDistanceMetresApprox": 124,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,9",
+      "eColiRaw": "30",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0024",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B930",
+      "externalId": "B930",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0024",
+        "bathingwat": "DEBE_PR_0024",
+        "sharedArticleId": "artikel.468922",
+        "wfsCoordinates": [
+          13.28217495,
+          52.49411972
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.468922.php",
+      "samplingCoordinates": {
+        "latitude": 52.494533,
+        "longitude": 13.281842
+      },
+      "catalogueDistanceMetresApprox": 38,
+      "sampleDateRaw": "10.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "18,8",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0031",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B925",
+      "externalId": "B925",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0031",
+        "bathingwat": "DEBE_PR_0031",
+        "sharedArticleId": "artikel.344335",
+        "wfsCoordinates": [
+          13.21293067,
+          52.60043768
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344335.php",
+      "samplingCoordinates": {
+        "latitude": 52.60045,
+        "longitude": 13.212969
+      },
+      "catalogueDistanceMetresApprox": 88,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,5",
+      "eColiRaw": "<15",
+      "enterococciRaw": "15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0020",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B961",
+      "externalId": "B961",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0020",
+        "bathingwat": "DEBE_PR_0020",
+        "sharedArticleId": "artikel.344340",
+        "wfsCoordinates": [
+          13.11871206,
+          52.4717879
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344340.php",
+      "samplingCoordinates": {
+        "latitude": 52.471755,
+        "longitude": 13.118568
+      },
+      "catalogueDistanceMetresApprox": 36,
+      "sampleDateRaw": "10.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,4",
+      "eColiRaw": "15",
+      "enterococciRaw": "15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0021",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B962",
+      "externalId": "B962",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0021",
+        "bathingwat": "DEBE_PR_0021",
+        "sharedArticleId": "artikel.344338",
+        "wfsCoordinates": [
+          13.11338251,
+          52.45904276
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344338.php",
+      "samplingCoordinates": {
+        "latitude": 52.460362,
+        "longitude": 13.114633
+      },
+      "catalogueDistanceMetresApprox": 157,
+      "sampleDateRaw": "10.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "18,9",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0005",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B112",
+      "externalId": "B112",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0005",
+        "bathingwat": "DEBE_PR_0005",
+        "sharedArticleId": "artikel.344328",
+        "wfsCoordinates": [
+          13.67733744,
+          52.42804652
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344328.php",
+      "samplingCoordinates": {
+        "latitude": 52.428217,
+        "longitude": 13.677621
+      },
+      "catalogueDistanceMetresApprox": 77,
+      "sampleDateRaw": "08.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,5",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0023",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B950",
+      "externalId": "B950",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0023",
+        "bathingwat": "DEBE_PR_0023",
+        "sharedArticleId": "artikel.344355",
+        "wfsCoordinates": [
+          13.23160733,
+          52.45217046
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344355.php",
+      "samplingCoordinates": {
+        "latitude": 52.45219,
+        "longitude": 13.232416
+      },
+      "catalogueDistanceMetresApprox": 499,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,9",
+      "eColiRaw": "15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0022",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B955",
+      "externalId": "B955",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0022",
+        "bathingwat": "DEBE_PR_0022",
+        "sharedArticleId": "artikel.344356",
+        "wfsCoordinates": [
+          13.2085056,
+          52.44121296
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344356.php",
+      "samplingCoordinates": {
+        "latitude": 52.443358,
+        "longitude": 13.217128
+      },
+      "catalogueDistanceMetresApprox": 748,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,7",
+      "eColiRaw": "<15",
+      "enterococciRaw": "15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0003",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B118",
+      "externalId": "B118",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0003",
+        "bathingwat": "DEBE_PR_0003",
+        "sharedArticleId": "artikel.344322",
+        "wfsCoordinates": [
+          13.63069241,
+          52.44583455
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344322.php",
+      "samplingCoordinates": {
+        "latitude": 52.445836,
+        "longitude": 13.630692
+      },
+      "catalogueDistanceMetresApprox": 137,
+      "sampleDateRaw": "08.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,3",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "Erhöhte Blaualgendichte in gut sichtbaren Oberfächenblüten oder Algenteppichen",
+      "additionalAdviceRaw": "Blaualgenmassenentwicklungen im Hoch- und Spätsommer möglich",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "failed",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0010",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B910",
+      "externalId": "B910",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0010",
+        "bathingwat": "DEBE_PR_0010",
+        "sharedArticleId": "artikel.344318",
+        "wfsCoordinates": [
+          13.46561302,
+          52.55395234
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344318.php",
+      "samplingCoordinates": {
+        "latitude": 52.553957,
+        "longitude": 13.465588
+      },
+      "catalogueDistanceMetresApprox": 37,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "20,1",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0001",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B922",
+      "externalId": "B922",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0001",
+        "bathingwat": "DEBE_PR_0001",
+        "sharedArticleId": "artikel.344352",
+        "wfsCoordinates": [
+          13.27465606,
+          52.54385953
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344352.php",
+      "samplingCoordinates": {
+        "latitude": 52.543708,
+        "longitude": 13.274666
+      },
+      "catalogueDistanceMetresApprox": 83,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,2",
+      "eColiRaw": "30",
+      "enterococciRaw": "30",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0013",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B926",
+      "externalId": "B926",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0013",
+        "bathingwat": "DEBE_PR_0013",
+        "sharedArticleId": "artikel.344336",
+        "wfsCoordinates": [
+          13.3344178,
+          52.61854806
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344336.php",
+      "samplingCoordinates": {
+        "latitude": 52.61795,
+        "longitude": 13.336049
+      },
+      "catalogueDistanceMetresApprox": 75,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,7",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0004",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B116",
+      "externalId": "B116",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0004",
+        "bathingwat": "DEBE_PR_0004",
+        "sharedArticleId": "artikel.344329",
+        "wfsCoordinates": [
+          13.67562932,
+          52.44485641
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344329.php",
+      "samplingCoordinates": {
+        "latitude": 52.444719,
+        "longitude": 13.675901
+      },
+      "catalogueDistanceMetresApprox": 303,
+      "sampleDateRaw": "08.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,6",
+      "eColiRaw": "<15",
+      "enterococciRaw": "<15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "Erhöhte Blaualgendichte in Bereichen mit gut sichtbaren Oberflächenblüten (Schlieren)",
+      "additionalAdviceRaw": "Vermehrt Blaualgen vorhanden. Die gemessenen Blaualgen-Toxinkonzentrationen liegen weit unter den UBA-Leitwerten.",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "failed",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0002",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B911",
+      "externalId": "B911",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0002",
+        "bathingwat": "DEBE_PR_0002",
+        "sharedArticleId": "artikel.347246",
+        "wfsCoordinates": [
+          13.48464206,
+          52.54914801
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.347246.php",
+      "samplingCoordinates": {
+        "latitude": 52.549596,
+        "longitude": 13.484255
+      },
+      "catalogueDistanceMetresApprox": 67,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "19,8",
+      "eColiRaw": "15",
+      "enterococciRaw": "15",
+      "cyanobacteriaRaw": "<300",
+      "warningRaw": "keine",
+      "additionalAdviceRaw": "keine",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0016",
+      "sourceId": "berlin-lageso",
+      "sourceTargetId": "berlin-lageso:B915",
+      "externalId": "B915",
+      "identity": {
+        "wfsFeatureId": "aa_badestellen.DEBE_PR_0016",
+        "bathingwat": "DEBE_PR_0016",
+        "sharedArticleId": "artikel.344353",
+        "wfsCoordinates": [
+          13.32850392,
+          52.54320953
+        ],
+        "method": "Exact EU bathing-water ID to WFS, exact official article ID to CSV; no nearest-station binding."
+      },
+      "sourcePage": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344353.php",
+      "samplingCoordinates": {
+        "latitude": 52.543601,
+        "longitude": 13.32923
+      },
+      "catalogueDistanceMetresApprox": 33,
+      "sampleDateRaw": "09.09.2026",
+      "sampleDatePrecision": "day",
+      "temperatureRaw": "20",
+      "eColiRaw": "213",
+      "enterococciRaw": "144",
+      "cyanobacteriaRaw": "",
+      "warningRaw": "Geringe Sichttiefen durch Blaualgenmassenentwicklungen (Wasserrettung erschwert)",
+      "additionalAdviceRaw": "Vermehrt Blaualgen vorhanden.",
+      "status": "candidate",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "cameraStatus": "not-found",
+      "orientationStatus": "not-assessed-lake-batch"
+    }
+  ],
+  "providers": [
+    {
+      "id": "berlin-lageso",
+      "documentation": "https://daten.berlin.de/datensaetze/liste-der-badestellen-opendata-1568631",
+      "url": "https://data.lageso.de/baden/0_letzte/letzte.csv",
+      "httpStatus": 200,
+      "rows": 39,
+      "sha256": "aaec1db25f4d43723449039e0dd0ca35211f86c1f566810150cf02e315c7684a",
+      "authentication": "No credentials required for successful GET.",
+      "reuse": "Publisher declares CC-BY; attribution Landesamt für Gesundheit und Soziales. Exact license version not specified by this CSV record.",
+      "rateLimits": "No published quota verified; one shared CSV fetch, never one fetch per site.",
+      "coverage": "Dated site sampling, temperature, E. coli, enterococci, cyanobacteria field and textual advice; not continuous measurements. Numeric advice fields and forecasts are separate from samples.",
+      "freshness": "All selected samples September 8–10, 2026; season May 15–September 15. Retrieval time is not sample time. No exact time or timezone offset in Dat.",
+      "schemaHazards": [
+        "Decimal commas; semicolon CSV with quoted links.",
+        "Preserve less-than comparators: <15 is not 15 and not zero.",
+        "Farb_ID and FARB_ID are different columns; do not case-fold headers.",
+        "Grunewaldturm B330 has Temp=0, Eco=0, Ente=0 while Weitere_Hinweise explicitly says construction prevented sampling; do not report these as observed zeros.",
+        "Profil is a regional grouping: Kleiner Müggelsee appears under Großer Müggelsee. Do not use Profil alone to establish same water body."
+      ],
+      "activationPrerequisites": [
+        "Define/test missing-observation semantics and every displayed advice code; do not derive safe swimming from bacterial values alone.",
+        "Carry day precision and per-site sample dates through normalization/API/UI; source-wide newest date cannot freshen older samples.",
+        "Keep station position and catalogue distance visible; Schlachtensee sample differs by about 740 m, Krumme Lanke about 490 m. Identity is exact but sample is not at the catalogue point.",
+        "Add shared collector and schema-compatible transactional bindings only after adapter and UI freshness tests; no unused source row inserted."
+      ]
+    },
+    {
+      "id": "berlin-bathing-wfs",
+      "documentation": "https://daten.berlin.de/datensaetze/badegewasserqualitat-wfs-6ba85d36",
+      "schema": "https://gdi.berlin.de/data/badegewaesser/docs/Datenformatbeschreibung_Badegewaesser.pdf",
+      "url": "https://gdi.berlin.de/services/wfs/badegewaesser?service=WFS&version=2.0.0&request=GetFeature&typeNames=badegewaesser:aa_badestellen&outputFormat=application/json&srsName=EPSG:4326",
+      "httpStatus": 200,
+      "features": 39,
+      "reuse": "CC BY 4.0; Geoportal Berlin / Badegewässerqualität.",
+      "identity": "All 15 EU identifiers matched bathingwat exactly; official article IDs join WFS link and CSV BadestelleLink even though path prefixes differ. Coordinates checked separately; no nearest-only integration.",
+      "scope": "Annual EU rating and waterbody characteristics; no sample timestamp in WFS; not current clearance."
+    },
+    {
+      "id": "dwd-cap",
+      "documentation": "https://www.dwd.de/DE/leistungen/opendata/help/warnungen/dwd_warnings_products_overview_en_pdf.pdf?__blob=publicationFile&v=4",
+      "url": "https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml",
+      "httpStatus": 200,
+      "feedUpdated": "2026-09-17T08:05:00Z",
+      "entries": 5,
+      "scope": "Real public Atom feed parsed; first warning concerns Flensburg–Fehmarn, not Berlin. No selected-lake storm assignment verified. CAP area mapping, cancellations/updates, expiry and full reuse/rate terms need validation.",
+      "status": "candidate"
+    }
+  ],
+  "cameraSearch": {
+    "queries": [
+      "Berlin Müggelsee Wannsee Tegeler See Webcam Segelclub live",
+      "Berlin Schlachtensee Krumme Lanke Orankesee Plötzensee webcam",
+      "Flughafensee Halensee Heiligensee Groß Glienicker See Jungfernheide Lübars Weissensee webcam"
+    ],
+    "otherSites": "No usable operator camera identified for the remaining selected lakes. This is a bounded search result, not proof that no camera exists. Tegeler See/Wannsee cameras excluded as different water bodies. Kleiner Müggelsee is not substituted with Großer Müggelsee."
+  },
+  "cameras": [
+    {
+      "id": "de-alle-an-deck-mueggelsee",
+      "operator": "Surf & Segelschule Müggelsee / Alle an Deck",
+      "url": "https://alle-an-deck.de/live-webcam-mueggelsee/",
+      "candidateLocationIds": [
+        "eea-DEBE_PR_0004",
+        "eea-DEBE_PR_0003"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "locationEvidence": "Operator address Fürstenwalder Damm 850, Berlin; east shore of Großer Müggelsee. Exact coordinates not verified.",
+      "fieldOfView": "Operator describes panning over Großer Müggelsee from its east shore. Selected beach visibility not verified.",
+      "type": "link",
+      "freshness": "unavailable",
+      "embedding": "Not verified; public player displays Invalid player id / PlayerID incorrect or not known.",
+      "status": "failed",
+      "checkedAt": "2026-09-17",
+      "nextReviewAt": "2026-10-17",
+      "integration": "None; no stream URL or unverified lake substitution committed."
+    }
+  ],
+  "detailPageProbes": [
+    {
+      "locationId": "eea-DEBE_PR_0019",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344334.php",
+      "status": 200,
+      "euCodes": [],
+      "relevant": []
+    },
+    {
+      "locationId": "eea-DEBE_PR_0024",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.468922.php",
+      "status": 200,
+      "euCodes": [],
+      "relevant": []
+    },
+    {
+      "locationId": "eea-DEBE_PR_0031",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344335.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0020",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344340.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0021",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344338.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0005",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344328.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0023",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344355.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0022",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344356.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0003",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344322.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0010",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344318.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0001",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344352.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0013",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344336.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0004",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344329.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0002",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.347246.php",
+      "error": "HTTPError"
+    },
+    {
+      "locationId": "eea-DEBE_PR_0016",
+      "url": "https://www.berlin.de/lageso/gesundheit/gesundheitsschutz/badegewaesser/badestellen/artikel.344353.php",
+      "error": "HTTPError"
+    }
+  ],
+  "productionChecks": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-09-17T08:02:05.243Z",
+    "vercelDeploymentId": "dpl_EMburo4hKv5mydih4GeKtwKbwFsm",
+    "vercelState": "READY; production alias verified via project CLI",
+    "pages": [
+      {
+        "kind": "lake",
+        "offset": 0,
+        "status": 200,
+        "total": 6235,
+        "ids": [
+          "eea-NLBW33_2411",
+          "eea-NLBW07_HGL01",
+          "eea-NLBW25_590102",
+          "eea-NLBW33_2401",
+          "eea-NLBW12_187201",
+          "eea-NLBW12_086001",
+          "eea-NLBW33_2404",
+          "eea-NLBW13_RO420",
+          "eea-NLBW27_245675",
+          "eea-NLBW25_120031",
+          "eea-NLBW25_120003",
+          "eea-NLBW39_S_1120",
+          "eea-NLBW59_5LOOM10",
+          "eea-FRL0205121D005050",
+          "eea-IT012058070001"
+        ]
+      },
+      {
+        "kind": "lake",
+        "offset": 15,
+        "status": 200,
+        "total": 6235,
+        "ids": [
+          "eea-IT012058005002",
+          "eea-IT012058022001",
+          "eea-IT012056013001",
+          "eea-IT012058070002",
+          "eea-IT012058091003",
+          "eea-IT012058091001",
+          "eea-IT012058013005",
+          "eea-IT012058013003",
+          "eea-IT012058013011",
+          "eea-IT012058013007",
+          "eea-IT012058013009",
+          "eea-IT012058013015",
+          "eea-IT012058005007",
+          "eea-IT012058091002",
+          "eea-IT012058013004"
+        ]
+      },
+      {
+        "kind": "coastal",
+        "offset": 0,
+        "status": 200,
+        "total": 14878,
+        "ids": [
+          "aberdeen",
+          "blackpool",
+          "bournemouth",
+          "brighton",
+          "fistral",
+          "llandudno-north",
+          "portobello",
+          "portrush-east",
+          "scarborough-south",
+          "st-andrews-west",
+          "tenby-north",
+          "whitley-bay",
+          "eea-NLBW95_SGRAVZDBSD",
+          "eea-IT007008054003",
+          "eea-IT016071060033"
+        ]
+      },
+      {
+        "kind": "coastal",
+        "offset": 15,
+        "status": 200,
+        "total": 14878,
+        "ids": [
+          "eea-IT016071031013",
+          "eea-IT016071060034",
+          "eea-IT018079116001",
+          "eea-IT018101013017",
+          "eea-IT018079039002",
+          "eea-IT018078061001",
+          "eea-IT018079008002",
+          "eea-IT018102027003",
+          "eea-IT018079008001",
+          "eea-IT008039014015",
+          "eea-IT016071064007",
+          "eea-IT019084033010",
+          "eea-IT019084032006",
+          "eea-IT019084028007",
+          "eea-IT019082053022"
+        ]
+      }
+    ],
+    "details": [
+      {
+        "locationId": "eea-DEBE_PR_0019",
+        "detailId": "eea-DEBE_PR_0019",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0019",
+            "label": "FLUGHAFENSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0019",
+            "label": "FLUGHAFENSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.5705,
+            "longitude": 13.2863,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0019",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0024",
+        "detailId": "eea-DEBE_PR_0024",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0024",
+            "label": "FREIBAD HALENSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0024",
+            "label": "FREIBAD HALENSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4942,
+            "longitude": 13.2817,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0024",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0031",
+        "detailId": "eea-DEBE_PR_0031",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0031",
+            "label": "FREIBAD HEILIGENSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0031",
+            "label": "FREIBAD HEILIGENSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.6007,
+            "longitude": 13.2142,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0031",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0020",
+        "detailId": "eea-DEBE_PR_0020",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0020",
+            "label": "GROSS GLIENICKER SEE NOERDLICH",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0020",
+            "label": "GROSS GLIENICKER SEE NOERDLICH",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4719,
+            "longitude": 13.1181,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0020",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0021",
+        "detailId": "eea-DEBE_PR_0021",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0021",
+            "label": "GROSS GLIENICKER SEE SUEDLICH",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0021",
+            "label": "GROSS GLIENICKER SEE SUEDLICH",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4593,
+            "longitude": 13.1131,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0021",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0005",
+        "detailId": "eea-DEBE_PR_0005",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0005",
+            "label": "KLEINER MUEGGELSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0005",
+            "label": "KLEINER MUEGGELSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4288,
+            "longitude": 13.677,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0005",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0023",
+        "detailId": "eea-DEBE_PR_0023",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0023",
+            "label": "KRUMME LANKE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0023",
+            "label": "KRUMME LANKE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4549,
+            "longitude": 13.2383,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0023",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0022",
+        "detailId": "eea-DEBE_PR_0022",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0022",
+            "label": "SCHLACHTENSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0022",
+            "label": "SCHLACHTENSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4446,
+            "longitude": 13.228,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0022",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0003",
+        "detailId": "eea-DEBE_PR_0003",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0003",
+            "label": "SEEBAD FRIEDRICHSHAGEN",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0003",
+            "label": "SEEBAD FRIEDRICHSHAGEN",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4448,
+            "longitude": 13.6318,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0003",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0010",
+        "detailId": "eea-DEBE_PR_0010",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0010",
+            "label": "SEEBADEANSTALT WEISSENSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0010",
+            "label": "SEEBADEANSTALT WEISSENSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.5538,
+            "longitude": 13.4651,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0010",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0001",
+        "detailId": "eea-DEBE_PR_0001",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0001",
+            "label": "STRANDBAD JUNGFERNHEIDE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0001",
+            "label": "STRANDBAD JUNGFERNHEIDE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.544,
+            "longitude": 13.2758,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0001",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0013",
+        "detailId": "eea-DEBE_PR_0013",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0013",
+            "label": "STRANDBAD LUEBARS",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0013",
+            "label": "STRANDBAD LUEBARS",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.6174,
+            "longitude": 13.3354,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0013",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0004",
+        "detailId": "eea-DEBE_PR_0004",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0004",
+            "label": "STRANDBAD MUEGGELSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0004",
+            "label": "STRANDBAD MUEGGELSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.4431,
+            "longitude": 13.6723,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0004",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0002",
+        "detailId": "eea-DEBE_PR_0002",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0002",
+            "label": "STRANDBAD ORANKESEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0002",
+            "label": "STRANDBAD ORANKESEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.5491,
+            "longitude": 13.4837,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0002",
+        "observationCount": 0
+      },
+      {
+        "locationId": "eea-DEBE_PR_0016",
+        "detailId": "eea-DEBE_PR_0016",
+        "waterType": "lake",
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-DEBE_PR_0016",
+            "label": "STRANDBAD PLOETZENSEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-DEBE_PR_0016",
+            "label": "STRANDBAD PLOETZENSEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.5438,
+            "longitude": 13.3296,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observationId": "eea-DEBE_PR_0016",
+        "observationCount": 0
+      }
+    ],
+    "database": "Configured Supabase REST catalogue and source_state readable. API code present on origin/main. Selected production details/observations agree with database identities and bindings. No DB writes or migrations applied.",
+    "scheduler": "Minute-level source checks advance since yesterday. Direct cron.job/Vault inspection not performed; collector activity is evidence of running updates, not proof of scheduler configuration. No extra source-checks request or duplicate schedule created."
+  },
+  "collector": {
+    "states": [
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:03.208+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-17T07:58:00.466+00:00",
+        "published_at": "2026-09-17T07:45:00+00:00",
+        "next_check_at": "2026-09-17T08:03:01.231+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-17T07:59:00.291+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-17T08:59:00.942+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-17T07:08:00.356+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-17T08:08:01.056+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-16T15:33:00.51+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-17T15:33:05.081+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-17T08:01:01.03+00:00",
+        "published_at": "2026-09-17T08:00:00+00:00",
+        "next_check_at": "2026-09-17T08:06:01.306+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-17T08:02:00.714+00:00",
+        "published_at": "2026-09-17T07:40:00+00:00",
+        "next_check_at": "2026-09-17T08:03:01.622+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "nrw",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.336+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:01.92+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.338+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.192+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "ea",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.223+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.337+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.22+00:00",
+        "consecutive_failures": 2,
+        "check_kind": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "stale",
+        "checked_at": "2026-09-17T08:02:00.714+00:00",
+        "published_at": "2026-09-17T05:48:00+00:00",
+        "next_check_at": "2026-09-17T08:03:01.387+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-17T08:01:01.03+00:00",
+        "published_at": "2026-09-17T07:56:00+00:00",
+        "next_check_at": "2026-09-17T08:02:02.295+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      }
+    ],
+    "interpretation": "Observations and model canaries advance. Storm publication remains correctly stale. EA/NRW/SEPA weekly reachability failures unchanged and next due September 22; not newly reported. Reachability is not water-quality evidence."
+  },
+  "validation": {
+    "tests": "111 passed",
+    "lint": "passed",
+    "build": "passed; output directed to /tmp/sts-build17",
+    "research": "15 unique previously unreviewed IDs; exact WFS/article/CSV joins; all 15 production detail and observations identities validated.",
+    "ui": "No app UI changed. Operator camera attempted in browser and failed."
+  },
+  "publication": {
+    "databaseImportApplied": false,
+    "runtimeChanged": false
+  }
+}
