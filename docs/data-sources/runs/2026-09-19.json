@@ -1,0 +1,1993 @@
+{
+  "date": "2026-09-19",
+  "selection": "Completes the interrupted September 18 Netherlands research, which was not committed or counted. Same 15 previously unregistered sites, no overlapping active run; no second batch claimed.",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "preparedDatabaseImports": 15,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsIntegratedLocally": 15,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "cameraCandidates": 11,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "locationIds": [
+    "eea-NLBW95_HOEKVHLBSD",
+    "eea-NLBW95_SGRAVZDBSD",
+    "eea-NLBW95_TERHDBSD",
+    "eea-NLBW95_KIJKDBSD",
+    "eea-NLBW95_SCHEVNGZD",
+    "eea-NLBW95_SCHEVNGBSD",
+    "eea-NLBW95_SCHEVNGZTPBS",
+    "eea-NLBW95_WASSNSSBSD",
+    "eea-NLBW95_KATWZBSD",
+    "eea-NLBW95_KATWNBSD",
+    "eea-NLBW95_NOORDWBSD",
+    "eea-NLBW95_NOORDWKHBSD",
+    "eea-NLBW95_ZANDVBSD",
+    "eea-NLBW95_BLOEMDAZBSD",
+    "eea-NLBW95_KENNMBSD"
+  ],
+  "locations": [
+    {
+      "locationId": "eea-NLBW95_HOEKVHLBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_HOEKVHLBSD",
+      "officialName": "HOEK VAN HOLLAND",
+      "officialCoordinates": {
+        "x": 4.103168529057856,
+        "y": 51.989620525861035
+      },
+      "catalogueDistanceMetresApprox": 425,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 316,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_SGRAVZDBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_SGRAVZDBSD",
+      "officialName": "S-GRAVENZANDE",
+      "officialCoordinates": {
+        "x": 4.151963580528065,
+        "y": 52.02284458323149
+      },
+      "catalogueDistanceMetresApprox": 1560,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 310,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_TERHDBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_TERHDBSD",
+      "officialName": "MONSTER TER HEIJDE",
+      "officialCoordinates": {
+        "x": 4.1621583154080515,
+        "y": 52.03069249527712
+      },
+      "catalogueDistanceMetresApprox": 444,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 306,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_KIJKDBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_KIJKDBSD",
+      "officialName": "DEN HAAG KIJKDUIN",
+      "officialCoordinates": {
+        "x": 4.218652415550233,
+        "y": 52.070859289915546
+      },
+      "catalogueDistanceMetresApprox": 55,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 312,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_SCHEVNGZD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_SCHEVNGZD",
+      "officialName": "SCHEVENINGEN ZUIDERSTRAND",
+      "officialCoordinates": {
+        "x": 4.2469167425425765,
+        "y": 52.091654977460465
+      },
+      "catalogueDistanceMetresApprox": 47,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 308,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_SCHEVNGBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_SCHEVNGBSD",
+      "officialName": "SCHEVENINGEN NOORDERSTRAND",
+      "officialCoordinates": {
+        "x": 4.273328610235167,
+        "y": 52.111263357145916
+      },
+      "catalogueDistanceMetresApprox": 317,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 315,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_SCHEVNGZTPBS",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_SCHEVNGZTPBS",
+      "officialName": "SCHEVENINGEN ZWARTE PAD",
+      "officialCoordinates": {
+        "x": 4.2934880872035155,
+        "y": 52.12268803528675
+      },
+      "catalogueDistanceMetresApprox": 51,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 312,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_WASSNSSBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_WASSNSSBSD",
+      "officialName": "WASSENAARSE SLAG",
+      "officialCoordinates": {
+        "x": 4.346715908935199,
+        "y": 52.16343868836186
+      },
+      "catalogueDistanceMetresApprox": 155,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 307,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_KATWZBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_KATWZBSD",
+      "officialName": "KATWIJK AAN ZEE BOULEVARD ZUID",
+      "officialCoordinates": {
+        "x": 4.390459040291954,
+        "y": 52.2054509099264
+      },
+      "catalogueDistanceMetresApprox": 501,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 298,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_KATWNBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_KATWNBSD",
+      "officialName": "KATWIJK AAN ZEE BOULEVARD NOORD",
+      "officialCoordinates": {
+        "x": 4.3989461040198385,
+        "y": 52.213953378115676
+      },
+      "catalogueDistanceMetresApprox": 370,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 304,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_NOORDWBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_NOORDWBSD",
+      "officialName": "NOORDWIJK AAN ZEE BOULEVARD",
+      "officialCoordinates": {
+        "x": 4.4248683872498695,
+        "y": 52.243415523068585
+      },
+      "catalogueDistanceMetresApprox": 236,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 300,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_NOORDWKHBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_NOORDWKHBSD",
+      "officialName": "NOORDWIJK AAN ZEE",
+      "officialCoordinates": {
+        "x": 4.454418039003737,
+        "y": 52.27761010126912
+      },
+      "catalogueDistanceMetresApprox": 640,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 300,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_ZANDVBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_ZANDVBSD",
+      "officialName": "ZANDVOORT",
+      "officialCoordinates": {
+        "x": 4.522264513216069,
+        "y": 52.374010694800184
+      },
+      "catalogueDistanceMetresApprox": 1015,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 291,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_BLOEMDAZBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_BLOEMDAZBSD",
+      "officialName": "BLOEMENDAAL",
+      "officialCoordinates": {
+        "x": 4.544408607824889,
+        "y": 52.40652702430003
+      },
+      "catalogueDistanceMetresApprox": 1481,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 285,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    },
+    {
+      "locationId": "eea-NLBW95_KENNMBSD",
+      "sourceId": "rws-bathing-catalogue",
+      "externalId": "NLBW95_KENNMBSD",
+      "officialName": "KENNEMERSTRAND",
+      "officialCoordinates": {
+        "x": 4.552744750412136,
+        "y": 52.45548007427301
+      },
+      "catalogueDistanceMetresApprox": 608,
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-19",
+      "evidenceRetrievedAt": "2026-09-18",
+      "nextReviewAt": "2026-10-19",
+      "seaBearing": 257,
+      "shoreStatus": "prepared-database-import",
+      "reason": "Exact official bathing-water ID match; catalogue is annual identity evidence, not fresh samples. Shore orientation integrated into local API only until guarded SQL is applied."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "nl-royal",
+      "locationIds": [
+        "eea-NLBW95_HOEKVHLBSD"
+      ],
+      "operator": "Beachclub Royal",
+      "sourcePage": "https://beachclubroyal.nl/strandcam/",
+      "coordinates": {
+        "latitude": 51.9885905,
+        "longitude": 4.1071429
+      },
+      "coordinatesStatus": "operator-premises-not-camera-mount",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Browser JW player played beach/surf view; operator map link establishes premises coordinates. No capture timestamp visible; exact bathing sampling point not proven in view. Nearby North Sea shore only; not propagated to neighbouring sites.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-vlugtenburg",
+      "locationIds": [
+        "eea-NLBW95_SGRAVZDBSD"
+      ],
+      "operator": "Dutch Surf Academy",
+      "sourcePage": "https://dutchsurfacademy.nl/webcam/",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Operator identifies Vlugtenburg beach; exact FOV, coordinates and freshness unverified.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-terheijde-search",
+      "locationIds": [
+        "eea-NLBW95_TERHDBSD"
+      ],
+      "operator": "Kust Zeil Vereniging Monster / Strandweer candidate",
+      "sourcePage": null,
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Search found secondary references to a club camera; no primary player verified. No neighbouring-camera substitution.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-kijkduin",
+      "locationIds": [
+        "eea-NLBW95_KIJKDBSD"
+      ],
+      "operator": "Den Haag tourism / Strandweer",
+      "sourcePage": "https://denhaag.com/nl/webcams-den-haag",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Tourism camera listing; exact current FOV and freshness unverified.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-scheveningen-zeezicht",
+      "locationIds": [
+        "eea-NLBW95_SCHEVNGZD",
+        "eea-NLBW95_SCHEVNGBSD",
+        "eea-NLBW95_SCHEVNGZTPBS"
+      ],
+      "operator": "Zeezicht",
+      "sourcePage": "https://www.zeezicht.nl/webcam-scheveningen-pier",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Operator page describes pier view. Candidate only for research: southern beach and Zwarte Pad are NOT assumed visible.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-wassenaar",
+      "locationIds": [
+        "eea-NLBW95_WASSNSSBSD"
+      ],
+      "operator": "Wassenaarse Slag Live",
+      "sourcePage": "https://wassenaarseslaglive.nl/",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Source now shows Domain reserved; unavailable, not replaced with another beach.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "failed",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-katwijk-cees",
+      "locationIds": [
+        "eea-NLBW95_KATWZBSD",
+        "eea-NLBW95_KATWNBSD"
+      ],
+      "operator": "Webcam Cees Katwijk",
+      "sourcePage": "https://webcamceeskatwijk.nl/",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "NKV identifies operator; rotating camera FOV, coordinates and live freshness not verified for either bathing site.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-noordwijk-zvn",
+      "locationIds": [
+        "eea-NLBW95_NOORDWBSD",
+        "eea-NLBW95_NOORDWKHBSD"
+      ],
+      "operator": "Zeesport Vereniging Noordwijk",
+      "sourcePage": "https://www.zvnoordwijk.nl/webcams",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Tourism links operator; old /webcams/beachcamera returned 404 on September 18, current index exposes RTSP frames. No verified time or FOV; northern site not presumed visible.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-zandvoort-list",
+      "locationIds": [
+        "eea-NLBW95_ZANDVBSD"
+      ],
+      "operator": "Zandvoort.com",
+      "sourcePage": "https://www.zandvoort.com/index.php/category/webcams/",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Tourism camera list discovered; individual operator/coordinates/live picture not verified.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-bloemendaal-mifune",
+      "locationIds": [
+        "eea-NLBW95_BLOEMDAZBSD"
+      ],
+      "operator": "Mifune Watersports",
+      "sourcePage": "https://mifune.nl/en/webcam/",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Operator identifies Bloemendaal beach; exact camera coordinates and timestamp not verified.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    },
+    {
+      "cameraId": "nl-ijmuiden-tourism",
+      "locationIds": [
+        "eea-NLBW95_KENNMBSD"
+      ],
+      "operator": "IJmuiden tourism",
+      "sourcePage": "https://www.ijmuiden.nl/webcams/",
+      "coordinates": null,
+      "coordinatesStatus": "unverified",
+      "waterBody": "North Sea (candidate; FOV match required)",
+      "fieldOfViewEvidence": "Tourism lists cameras including harbour areas; Kennemerstrand FOV not verified. Harbour image not bound to beach.",
+      "checkedAt": "2026-09-19",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "not-authorized-or-verified; retain source-page candidate",
+      "status": "candidate",
+      "nextReviewAt": "2026-10-19",
+      "integrated": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "rws-bathing-catalogue",
+      "documentation": "https://geo.rijkswaterstaat.nl/arcgis/rest/services/GDR/zwemwateronderzoek/MapServer",
+      "readProbe": "https://geo.rijkswaterstaat.nl/arcgis/rest/services/GDR/zwemwateronderzoek/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json",
+      "retrievedAt": "2026-09-18",
+      "status": "candidate",
+      "result": "15 exact bwid_code matches. Fields through eu2023; not fresh microbiology or algae advice. FeatureServer alternative returned JSON error code 500; MapServer works. Existing 2025 annual classifications preserved.",
+      "auth": "public",
+      "rateLimits": "not established; one shared catalogue read"
+    },
+    {
+      "id": "rws-waterdata",
+      "documentation": "https://rijkswaterstaatdata.nl/waterdata/",
+      "readProbe": "https://ddapi20-waterwebservices.rijkswaterstaat.nl/ONLINEWAARNEMINGENSERVICES/OphalenLaatsteWaarnemingen",
+      "method": "POST read-only JSON",
+      "retrievedAt": "2026-09-18",
+      "request": {
+        "LocatieLijst": [
+          {
+            "Code": "hoekvanholland"
+          }
+        ],
+        "AquoPlusWaarnemingMetadataLijst": [
+          {
+            "AquoMetadata": {
+              "Compartiment": {
+                "Code": "OW"
+              },
+              "Grootheid": {
+                "Code": "T"
+              }
+            },
+            "WaarnemingMetadata": {
+              "OpdrachtgevendeInstantieLijst": [
+                "RIKZMON_TEMP"
+              ]
+            }
+          }
+        ]
+      },
+      "result": "Successful JSON, 9 temperature series; newest returned sample 2023-12-31. Station at 51.976899,4.119827 is Nieuwe Waterweg riverbank, not the bathing beach. No assignment.",
+      "status": "candidate",
+      "license": "CC0 subject to provider exceptions",
+      "auth": "public",
+      "units": "degrees Celsius",
+      "kind": "station observations with quality/status metadata; historical result",
+      "limits": "Fair use; latest endpoint 50000 series per request. Latest means per metadata combination, not necessarily recent."
+    },
+    {
+      "id": "zwemwater-advice",
+      "documentation": "https://www.zwemwater.nl/data-en-api/",
+      "status": "candidate",
+      "result": "Page updated July 3 offers July measures dataset. Historical advice must not be presented as current safety; multiple overlapping measures and site/subsite scope need handling. Current microbiology/algae API not verified.",
+      "license": "Page permits reuse for seasonal reporting; continuous API/embedding terms not established"
+    },
+    {
+      "id": "knmi-warnings",
+      "documentation": "https://developer.dataplatform.knmi.nl/open-data-api",
+      "status": "candidate",
+      "result": "Documented file API with authorization; maritime warnings candidate. No configured KNMI credential used, no account created, no live warning/area match claimed.",
+      "limits": "Registered 1000 requests/hour; anonymous shared 3000/hour. No polling implemented."
+    }
+  ],
+  "production": {
+    "checkedAt": "2026-09-19T09:26:26.773Z",
+    "origin": "https://safe-to-swim.vercel.app",
+    "pages": [
+      {
+        "kind": "lake",
+        "offset": 0,
+        "total": 6235,
+        "ids": [
+          "eea-NLBW33_2411",
+          "eea-NLBW07_HGL01",
+          "eea-NLBW25_590102",
+          "eea-NLBW33_2401",
+          "eea-NLBW12_187201",
+          "eea-NLBW12_086001",
+          "eea-NLBW33_2404",
+          "eea-NLBW13_RO420",
+          "eea-NLBW27_245675",
+          "eea-NLBW25_120031",
+          "eea-NLBW25_120003",
+          "eea-NLBW39_S_1120",
+          "eea-NLBW59_5LOOM10",
+          "eea-FRL0205121D005050",
+          "eea-IT012058070001"
+        ]
+      },
+      {
+        "kind": "lake",
+        "offset": 15,
+        "total": 6235,
+        "ids": [
+          "eea-IT012058005002",
+          "eea-IT012058022001",
+          "eea-IT012056013001",
+          "eea-IT012058070002",
+          "eea-IT012058091003",
+          "eea-IT012058091001",
+          "eea-IT012058013005",
+          "eea-IT012058013003",
+          "eea-IT012058013011",
+          "eea-IT012058013007",
+          "eea-IT012058013009",
+          "eea-IT012058013015",
+          "eea-IT012058005007",
+          "eea-IT012058091002",
+          "eea-IT012058013004"
+        ]
+      },
+      {
+        "kind": "coastal",
+        "offset": 0,
+        "total": 14878,
+        "ids": [
+          "aberdeen",
+          "blackpool",
+          "bournemouth",
+          "brighton",
+          "fistral",
+          "llandudno-north",
+          "portobello",
+          "portrush-east",
+          "scarborough-south",
+          "st-andrews-west",
+          "tenby-north",
+          "whitley-bay",
+          "eea-NLBW95_SGRAVZDBSD",
+          "eea-IT007008054003",
+          "eea-IT016071060033"
+        ]
+      },
+      {
+        "kind": "coastal",
+        "offset": 15,
+        "total": 14878,
+        "ids": [
+          "eea-IT016071031013",
+          "eea-IT016071060034",
+          "eea-IT018079116001",
+          "eea-IT018101013017",
+          "eea-IT018079039002",
+          "eea-IT018078061001",
+          "eea-IT018079008002",
+          "eea-IT018102027003",
+          "eea-IT018079008001",
+          "eea-IT008039014015",
+          "eea-IT016071064007",
+          "eea-IT019084033010",
+          "eea-IT019084032006",
+          "eea-IT019084028007",
+          "eea-IT019082053022"
+        ]
+      }
+    ],
+    "sites": [
+      {
+        "locationId": "eea-NLBW95_HOEKVHLBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_HOEKVHLBSD",
+            "label": "HOEK VAN HOLLAND",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_HOEKVHLBSD",
+            "label": "HOEK VAN HOLLAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 51.99151,
+            "longitude": 4.10856,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_HOEKVHLBSD",
+            "label": "HOEK VAN HOLLAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 51.99151,
+            "longitude": 4.10856,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 19,
+          "wave": 1.24,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            51.958336,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_SGRAVZDBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_SGRAVZDBSD",
+            "label": "'S-GRAVENZANDE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_SGRAVZDBSD",
+            "label": "'S-GRAVENZANDE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.01179,
+            "longitude": 4.13797,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_SGRAVZDBSD",
+            "label": "'S-GRAVENZANDE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.01179,
+            "longitude": 4.13797,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 16.6,
+          "wave": 1.74,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.041664,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_TERHDBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_TERHDBSD",
+            "label": "MONSTER TER HEIJDE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_TERHDBSD",
+            "label": "MONSTER TER HEIJDE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.03321,
+            "longitude": 4.16718,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_TERHDBSD",
+            "label": "MONSTER TER HEIJDE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.03321,
+            "longitude": 4.16718,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 18.8,
+          "wave": 1.74,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.041664,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_KIJKDBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_KIJKDBSD",
+            "label": "DEN HAAG KIJKDUIN",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_KIJKDBSD",
+            "label": "DEN HAAG KIJKDUIN",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.07067,
+            "longitude": 4.21939,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_KIJKDBSD",
+            "label": "DEN HAAG KIJKDUIN",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.07067,
+            "longitude": 4.21939,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 17,
+          "wave": 1.74,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.041664,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_SCHEVNGZD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_SCHEVNGZD",
+            "label": "SCHEVENINGEN ZUIDERSTRAND",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_SCHEVNGZD",
+            "label": "SCHEVENINGEN ZUIDERSTRAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.09135,
+            "longitude": 4.24645,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_SCHEVNGZD",
+            "label": "SCHEVENINGEN ZUIDERSTRAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.09135,
+            "longitude": 4.24645,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 17,
+          "wave": 1.96,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.125008,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_SCHEVNGBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_SCHEVNGBSD",
+            "label": "SCHEVENINGEN NOORDERSTRAND",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_SCHEVNGBSD",
+            "label": "SCHEVENINGEN NOORDERSTRAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.1089,
+            "longitude": 4.27073,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_SCHEVNGBSD",
+            "label": "SCHEVENINGEN NOORDERSTRAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.1089,
+            "longitude": 4.27073,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 17.4,
+          "wave": 1.96,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.125008,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_SCHEVNGZTPBS",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_SCHEVNGZTPBS",
+            "label": "SCHEVENINGEN ZWARTE PAD",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_SCHEVNGZTPBS",
+            "label": "SCHEVENINGEN ZWARTE PAD",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.12264,
+            "longitude": 4.29275,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_SCHEVNGZTPBS",
+            "label": "SCHEVENINGEN ZWARTE PAD",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.12264,
+            "longitude": 4.29275,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 14.3,
+          "wave": 1.96,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.125008,
+            4.1250153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_WASSNSSBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_WASSNSSBSD",
+            "label": "WASSENAARSE SLAG",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_WASSNSSBSD",
+            "label": "WASSENAARSE SLAG",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.16243,
+            "longitude": 4.34515,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_WASSNSSBSD",
+            "label": "WASSENAARSE SLAG",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.16243,
+            "longitude": 4.34515,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 17.7,
+          "wave": 2.02,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.125008,
+            4.3750153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_KATWZBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_KATWZBSD",
+            "label": "KATWIJK AAN ZEE BOULEVARD ZUID",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_KATWZBSD",
+            "label": "KATWIJK AAN ZEE BOULEVARD ZUID",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.20128,
+            "longitude": 4.38772,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_KATWZBSD",
+            "label": "KATWIJK AAN ZEE BOULEVARD ZUID",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.20128,
+            "longitude": 4.38772,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 20.6,
+          "wave": 2.2,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.208336,
+            4.3750153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_KATWNBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_KATWNBSD",
+            "label": "KATWIJK AAN ZEE BOULEVARD NOORD",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_KATWNBSD",
+            "label": "KATWIJK AAN ZEE BOULEVARD NOORD",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.2166,
+            "longitude": 4.40223,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_KATWNBSD",
+            "label": "KATWIJK AAN ZEE BOULEVARD NOORD",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.2166,
+            "longitude": 4.40223,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 16.3,
+          "wave": 2.2,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.208336,
+            4.3750153
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_NOORDWBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_NOORDWBSD",
+            "label": "NOORDWIJK AAN ZEE BOULEVARD",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_NOORDWBSD",
+            "label": "NOORDWIJK AAN ZEE BOULEVARD",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.245,
+            "longitude": 4.42716,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_NOORDWBSD",
+            "label": "NOORDWIJK AAN ZEE BOULEVARD",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.245,
+            "longitude": 4.42716,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 19.7,
+          "wave": 2.2,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.208336,
+            4.4583435
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_NOORDWKHBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_NOORDWKHBSD",
+            "label": "NOORDWIJK AAN ZEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_NOORDWKHBSD",
+            "label": "NOORDWIJK AAN ZEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.28257,
+            "longitude": 4.45918,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_NOORDWKHBSD",
+            "label": "NOORDWIJK AAN ZEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.28257,
+            "longitude": 4.45918,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 17,
+          "wave": 2.46,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.291664,
+            4.4583435
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_ZANDVBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_ZANDVBSD",
+            "label": "ZANDVOORT AAN ZEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_ZANDVBSD",
+            "label": "ZANDVOORT AAN ZEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.36524,
+            "longitude": 4.5182,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_ZANDVBSD",
+            "label": "ZANDVOORT AAN ZEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.36524,
+            "longitude": 4.5182,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 20.4,
+          "wave": 1.52,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.375008,
+            4.5416718
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_BLOEMDAZBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_BLOEMDAZBSD",
+            "label": "BLOEMENDAAL AAN ZEE",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_BLOEMDAZBSD",
+            "label": "BLOEMENDAAL AAN ZEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.41891,
+            "longitude": 4.55238,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_BLOEMDAZBSD",
+            "label": "BLOEMENDAAL AAN ZEE",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.41891,
+            "longitude": 4.55238,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 19.7,
+          "wave": 2.4,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.458336,
+            4.5416718
+          ]
+        }
+      },
+      {
+        "locationId": "eea-NLBW95_KENNMBSD",
+        "seaBearing": null,
+        "sources": [
+          {
+            "type": "annual_quality",
+            "targetId": "eea:eea-NLBW95_KENNMBSD",
+            "label": "KENNEMERSTRAND",
+            "coverage": "site",
+            "provider": "EEA",
+            "url": "https://www.eea.europa.eu/en/analysis/maps-and-charts/state-of-bathing-waters-in-2025",
+            "adapter": "annual_catalogue",
+            "refreshSeconds": 604800,
+            "staleSeconds": 34560000
+          },
+          {
+            "type": "marine",
+            "targetId": "open-meteo-marine:eea-NLBW95_KENNMBSD",
+            "label": "KENNEMERSTRAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo Marine",
+            "url": "https://marine-api.open-meteo.com/v1/marine",
+            "adapter": "open_meteo_marine",
+            "latitude": 52.45096,
+            "longitude": 4.55778,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          },
+          {
+            "type": "weather",
+            "targetId": "open-meteo-weather:eea-NLBW95_KENNMBSD",
+            "label": "KENNEMERSTRAND",
+            "coverage": "model_point",
+            "provider": "Open-Meteo",
+            "url": "https://api.open-meteo.com/v1/forecast",
+            "adapter": "open_meteo_weather",
+            "latitude": 52.45096,
+            "longitude": 4.55778,
+            "refreshSeconds": 300,
+            "staleSeconds": 1800
+          }
+        ],
+        "observations": [],
+        "model": {
+          "weatherTime": 1789809300,
+          "marineTime": 1789809300,
+          "wind": 21.3,
+          "wave": 2.5,
+          "units": [
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "is_day": "",
+              "temperature_2m": "°C",
+              "apparent_temperature": "°C",
+              "weather_code": "wmo code",
+              "wind_speed_10m": "mp/h",
+              "wind_direction_10m": "°",
+              "wind_gusts_10m": "mp/h"
+            },
+            {
+              "time": "unixtime",
+              "interval": "seconds",
+              "wave_height": "m",
+              "wave_direction": "°",
+              "wave_period": "s",
+              "sea_level_height_msl": "m",
+              "sea_surface_temperature": "°C",
+              "ocean_current_velocity": "km/h"
+            }
+          ],
+          "marinePoint": [
+            52.458336,
+            4.5416718
+          ]
+        }
+      }
+    ]
+  },
+  "collector": {
+    "states": [
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:03.208+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-18T15:35:00.776+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-19T15:35:05.089+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-19T07:43:00.478+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-19T08:43:01.131+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-19T08:11:00.529+00:00",
+        "published_at": "2026-09-19T08:00:00+00:00",
+        "next_check_at": "2026-09-19T08:16:01.263+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-19T08:13:00.698+00:00",
+        "published_at": "2026-09-19T08:00:00+00:00",
+        "next_check_at": "2026-09-19T08:18:01.499+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-19T07:55:00.62+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-19T08:55:01.323+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-19T08:13:00.699+00:00",
+        "published_at": "2026-09-19T07:40:00+00:00",
+        "next_check_at": "2026-09-19T08:14:01.669+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "nrw",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.336+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:01.92+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.338+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.192+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "ea",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.223+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.337+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.22+00:00",
+        "consecutive_failures": 2,
+        "check_kind": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "stale",
+        "checked_at": "2026-09-19T08:13:00.701+00:00",
+        "published_at": "2026-09-18T17:48:00+00:00",
+        "next_check_at": "2026-09-19T08:14:01.518+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-19T08:13:00.7+00:00",
+        "published_at": "2026-09-19T08:06:00+00:00",
+        "next_check_at": "2026-09-19T08:14:01.85+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      }
+    ],
+    "interpretation": "Minute-level observations and model canaries advance. Storm publication remains stale; weekly EA/NRW/SEPA failures unchanged, next due September 22. No manual source-checks call or duplicate scheduler. Direct cron configuration unverified."
+  },
+  "database": {
+    "status": "prepared-not-applied",
+    "reason": "Configured REST project readable; direct configured PostgreSQL host still fails DNS. Existing barrier, no new alert. No guessed pooler or alternate project. No schema change.",
+    "importFile": "supabase/imports/20260919_shore-orientations.sql",
+    "permissions": "Existing RLS and service-role-only privileges preserved; import changes no grants."
+  },
+  "validation": {
+    "tests": "111 passed",
+    "lint": "passed",
+    "build": "passed",
+    "shorelines": "75 bearings reproduced; all 15 local plots reviewed, landward offsets explicitly documented.",
+    "sql": "Disposable local PostgreSQL: 11 fills, 4 guarded rows, idempotent metadata/timestamps. Full import preserves manual north=0 and provenance.",
+    "ui": "Local browser Hoek van Holland: wind assessment shows Along the shore, missing shore-orientation note absent. Production remains unchanged until SQL application. No UI code or camera bindings changed."
+  },
+  "publication": {
+    "databaseImportApplied": false
+  }
+}

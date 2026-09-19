@@ -148,3 +148,29 @@ checked. Collection continues; weekly link-check failures remain unchanged.
 111 tests, lint and build pass. No runtime, schema, assignments or schedule changed.
 See `runs/2026-09-17.json` for exact source links, station identities, remaining
 adapter requirements, source evidence and October 17 re-review dates.
+
+## 2026-09-19 — Netherlands, 15 coastal sites
+
+Completed the interrupted September 18 batch (not previously committed or counted).
+[Run evidence](runs/2026-09-19.json): 15 exact Rijkswaterstaat bathing-water IDs,
+15 reviewed OSM shoreline bearings, 15 valid per-site wind/wave model probes.
+The local catalogue/API includes the bearings; the guarded transactional
+`supabase/imports/20260919_shore-orientations.sql` remains **prepared, not applied**.
+Production coverage added: **0**. No new schema or runtime adapter is required.
+
+The RWS MapServer catalogue establishes identity, not current microbiology. The
+new Waterdata API returned historical temperature series at the Hoek van Holland
+river station; it is not assigned to the North Sea beach. July Zwemwater measures
+are not current warnings. KNMI warning files remain an unbound candidate.
+
+Camera search covered these same 15 sites: 11 candidate groups, **0 fully verified
+live cameras, 0 integrated**. Royal's player showed the beach, but capture time and
+exact bathing-site FOV remain unverified. Wassenaar's former source is now a
+reserved domain. Other operator/tourism links remain candidates. Review dates
+are October 19; no neighbouring camera was automatically substituted.
+
+Validation: 111 tests, lint/build, all 75 shoreline bearings reproduced, actual
+PostgreSQL idempotence/curated-value preservation checks, local browser wind
+assessment. Four production lake/coastal pages and 15 details/observations checked.
+Source collection advances; unchanged weekly failures are not new incidents.
+Next country: Denmark.

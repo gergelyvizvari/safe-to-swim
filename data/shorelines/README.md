@@ -45,3 +45,11 @@ Review each bay independently: Anavyssos faces southeast here; Mavro Lithari fac
 northwest. Do not extrapolate a generic south/west direction along this coast.
 The derived public dataset and source snapshot remain under ODbL. Apply the new
 `supabase/imports/20260916_shore-orientations.sql` only to the configured database.
+
+2026-09-18 Netherlands snapshot, reviewed and integrated locally September 19:
+15 bounded OSM API map extracts; exact request URLs are retained in the snapshot.
+Only coastline ways and their node-derived geometry are retained. Fifteen local
+normals point into the North Sea (NW to W, WSW at curved Kennemerstrand).
+Catalogue offsets as far as 102 m landward were reviewed against the same beach;
+these are not offshore station bindings. Each record retains way versions,
+retrieval time, method and review date. The database import remains prepared.
