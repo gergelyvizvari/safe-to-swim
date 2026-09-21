@@ -1,0 +1,1302 @@
+{
+  "date": "2026-09-21",
+  "status": "completed-research",
+  "selection": "Completes the interrupted September 20 Danish batch after the user-approved read-only Supabase retry succeeded. Fifteen previously unregistered active lake sites in Silkeborg Kommune, selected from the configured database. No duplicate September 20 count.",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "temperatureEndpointsProbed": 5,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "preparedDatabaseImports": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsIntegratedLocally": 0,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "cameraCandidates": 2,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "locationIds": [
+    "eea-DKBW1033",
+    "eea-DKBW1021",
+    "eea-DKBW1034",
+    "eea-DKBW234",
+    "eea-DKBW1035",
+    "eea-DKBW1024",
+    "eea-DKBW1938",
+    "eea-DKBW1018",
+    "eea-DKBW1026",
+    "eea-DKBW1023",
+    "eea-DKBW1462",
+    "eea-DKBW1660",
+    "eea-DKBW1019",
+    "eea-DKBW1020",
+    "eea-DKBW1017"
+  ],
+  "locations": [
+    {
+      "locationId": "eea-DKBW1033",
+      "name": "BRYRUP SØBAD",
+      "externalId": "DKBW1033",
+      "waterType": "lake",
+      "waterbody": "Bryrup Langsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-bryrup-soebad-i-bryrup-langsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.02024,
+        "longitude": 9.51687
+      },
+      "officialCoordinates": {
+        "x": 532219,
+        "y": 6208453,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.8,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.7,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": {
+        "endpoint": "https://tmsensordata.azurewebsites.net/api/bryruplangsoevandtemp",
+        "status": "stale",
+        "scope": "Publisher describes the named bathing place; exact sensor coordinates not verified."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1021",
+      "name": "DE SMÅ FISK",
+      "externalId": "DKBW1021",
+      "waterType": "lake",
+      "waterbody": "Brassø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-de-smaa-fisk-og-sejs-ladeplads",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.14391,
+        "longitude": 9.58966
+      },
+      "officialCoordinates": {
+        "x": 536639,
+        "y": 6222290,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 8,
+        "enterococciRaw": "30",
+        "ecoliRaw": "15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.7,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": {
+        "endpoint": "https://tmsensordata.azurewebsites.net/api/desmaafisksoevandtemp",
+        "status": "stale",
+        "scope": "Publisher describes the named bathing place; exact sensor coordinates not verified."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1034",
+      "name": "GJESSØ",
+      "externalId": "DKBW1034",
+      "waterType": "lake",
+      "waterbody": "Gjessø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-gjessoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.11449,
+        "longitude": 9.49497
+      },
+      "officialCoordinates": {
+        "x": 530779,
+        "y": 6218933,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 6.9,
+        "enterococciRaw": "15",
+        "ecoliRaw": "46",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 20.6,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW234",
+      "name": "HINGE SØ",
+      "externalId": "DKBW234",
+      "waterType": "lake",
+      "waterbody": "Hinge Sø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-hinge-soebad-i-hinge-soe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.25764,
+        "longitude": 9.4881
+      },
+      "officialCoordinates": {
+        "x": 530239,
+        "y": 6234862,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 8.1,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.6,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1035",
+      "name": "HUNDSØ",
+      "externalId": "DKBW1035",
+      "waterType": "lake",
+      "waterbody": "Hundsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-hundsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.04062,
+        "longitude": 9.54186
+      },
+      "officialCoordinates": {
+        "x": 533759,
+        "y": 6210733,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.7,
+        "enterococciRaw": "15",
+        "ecoliRaw": "15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 14.9,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1024",
+      "name": "LUDVIGSLYST",
+      "externalId": "DKBW1024",
+      "waterType": "lake",
+      "waterbody": "Julsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-ludvigslyst-julsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.12908,
+        "longitude": 9.64381
+      },
+      "officialCoordinates": {
+        "x": 540019,
+        "y": 6220633,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.9,
+        "enterococciRaw": "15",
+        "ecoliRaw": "45",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.9,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1938",
+      "name": "LYNGSØ",
+      "externalId": "DKBW1938",
+      "waterType": "lake",
+      "waterbody": "Lyngsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-lyngsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.15884,
+        "longitude": 9.5474
+      },
+      "officialCoordinates": {
+        "x": 534000,
+        "y": 6223894,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 8,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 20.9,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1018",
+      "name": "ØSTRE SØBAD",
+      "externalId": "DKBW1018",
+      "waterType": "lake",
+      "waterbody": "Almindsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-almindsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.14911,
+        "longitude": 9.55401
+      },
+      "officialCoordinates": {
+        "x": 534419,
+        "y": 6222813,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.6,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 20.4,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": {
+        "endpoint": "https://tmsensordata.azurewebsites.net/api/almindsoevandtemp",
+        "status": "stale",
+        "scope": "Mid-lake sensor, not either bathing shore; no exact sensor coordinates verified."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1026",
+      "name": "SCHOUBYS SØ",
+      "externalId": "DKBW1026",
+      "waterType": "lake",
+      "waterbody": "Schoubyes Sø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-schoubyes-soe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.16695,
+        "longitude": 9.61675
+      },
+      "officialCoordinates": {
+        "x": 538299,
+        "y": 6224832,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.2,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 20.2,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1023",
+      "name": "SEJS LADEPLADS",
+      "externalId": "DKBW1023",
+      "waterType": "lake",
+      "waterbody": "Borresø / Brassø boundary",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-de-smaa-fisk-og-sejs-ladeplads",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.13885,
+        "longitude": 9.5957
+      },
+      "officialCoordinates": {
+        "x": 537019,
+        "y": 6221693,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 8.1,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.7,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21",
+      "identityNote": "Municipal profile explicitly places Sejs Ladeplads at the transition between Borresø and Brassø; quality table labels it v.Brassø, beach list uses Borresø. Do not merge the two waterbodies."
+    },
+    {
+      "locationId": "eea-DKBW1462",
+      "name": "SILKEBORG SØCAMPING",
+      "externalId": "DKBW1462",
+      "waterType": "lake",
+      "waterbody": "Silkeborg Langsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-silkeborg-soecamping-ved-silkeborg-langsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.17145,
+        "longitude": 9.5772
+      },
+      "officialCoordinates": {
+        "x": 535839,
+        "y": 6225312,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 8,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "30",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.8,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1660",
+      "name": "SØLYSTPARKEN",
+      "externalId": "DKBW1660",
+      "waterType": "lake",
+      "waterbody": "Silkeborg Langsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-soelystparken-i-silkeborg-langsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.17587,
+        "longitude": 9.53397
+      },
+      "officialCoordinates": {
+        "x": 533151,
+        "y": 6225782,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 8.1,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.6,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": {
+        "endpoint": "https://tmsensordata.azurewebsites.net/api/langsoevandtemp",
+        "status": "stale",
+        "scope": "Publisher describes the named bathing place; exact sensor coordinates not verified."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1019",
+      "name": "THORSØBADET",
+      "externalId": "DKBW1019",
+      "waterType": "lake",
+      "waterbody": "Thorsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-thorsoebadet-og-vesterlund-i-thorsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.12843,
+        "longitude": 9.55725
+      },
+      "officialCoordinates": {
+        "x": 534639,
+        "y": 6220513,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-17",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.8,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 18.9,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": {
+        "endpoint": "https://tmsensordata.azurewebsites.net/api/thorsoevandtemp",
+        "status": "stale",
+        "scope": "Publisher describes the named bathing place; exact sensor coordinates not verified."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1020",
+      "name": "VESTERLUND",
+      "externalId": "DKBW1020",
+      "waterType": "lake",
+      "waterbody": "Thorsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-thorsoebadet-og-vesterlund-i-thorsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.12815,
+        "longitude": 9.53859
+      },
+      "officialCoordinates": {
+        "x": 533479,
+        "y": 6220473,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.2,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 20.5,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": null,
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "locationId": "eea-DKBW1017",
+      "name": "VESTRE SØBAD",
+      "externalId": "DKBW1017",
+      "waterType": "lake",
+      "waterbody": "Almindsø",
+      "identityVerified": true,
+      "identityEvidence": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer/badevandsprofil-for-almindsoe",
+      "identityMethod": "Exact municipal DKBW number matched to configured database officialId; names and waterbody reviewed.",
+      "catalogueCoordinates": {
+        "latitude": 56.15202,
+        "longitude": 9.5431
+      },
+      "officialCoordinates": {
+        "x": 533739,
+        "y": 6223132,
+        "crs": "Published as UTM; zone/datum not explicitly stated. Raw only; no coordinate replacement or distance claim."
+      },
+      "historicalSample": {
+        "sourceUrl": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+        "sampledOn": "2026-08-15",
+        "datePrecision": "day",
+        "timezone": "Europe/Copenhagen",
+        "pH": 7.6,
+        "enterococciRaw": "<15",
+        "ecoliRaw": "<15",
+        "bacteriaUnit": "cfu/100 ml",
+        "temperatureC": 20.1,
+        "status": "stale",
+        "note": "Manually reviewed Power BI table. No invented time-of-day; <15 remains censored, not zero. Not imported as a current observation or annual classification."
+      },
+      "temperatureCandidate": {
+        "endpoint": "https://tmsensordata.azurewebsites.net/api/almindsoevandtemp",
+        "status": "stale",
+        "scope": "Mid-lake sensor, not either bathing shore; no exact sensor coordinates verified."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable-to-sea-bearing",
+        "determined": false,
+        "integrated": false,
+        "note": "Lake batch: no marine-model or seaBearing assignment. Local lake wind/fetch orientation remains unknown."
+      },
+      "camera": {
+        "status": "no-verified-source",
+        "verified": false,
+        "integrated": false,
+        "reason": "Municipal profiles and grouped camera searches yielded no verified operator, exact-site field of view and fresh capture together."
+      },
+      "checkedAt": "2026-09-21",
+      "nextReviewAt": "2026-10-21"
+    }
+  ],
+  "sources": [
+    {
+      "id": "silkeborg-bathing-profiles",
+      "provider": "Silkeborg Kommune",
+      "url": "https://silkeborg.dk/outdoor/badesteder/badevandsprofiler-for-badesoeer",
+      "format": "Public HTML profiles",
+      "coverage": "Twelve profiles establish all fifteen exact DKBW identities.",
+      "status": "identity-verified",
+      "scope": "Long-term profiles and historical classification language, not current warning observations.",
+      "access": "Normal browser reads succeeded. Direct HTML GETs of thirteen municipal list/beach pages returned 403 from this runner; not proof of a global outage. No bypass attempted.",
+      "reuse": "No redistribution licence for profile text established; only identifiers, short factual summaries and links retained."
+    },
+    {
+      "id": "silkeborg-seasonal-quality",
+      "provider": "Silkeborg Kommune",
+      "url": "https://silkeborg.dk/borger/natur-og-miljoe/badevandskvalitet",
+      "format": "Embedded public Power BI table",
+      "status": "candidate",
+      "coverage": "18 table rows; 15 matched by names to exact-ID municipal profiles. Ans Søbred, Laven and Søgade are outside this batch.",
+      "dataTypes": [
+        "sample_temperature",
+        "pH",
+        "E. coli",
+        "intestinal_enterococci"
+      ],
+      "freshness": "Latest selected samples 2026-08-15 or 2026-08-17; seasonal June-August monitoring, not current temperature/safety.",
+      "limits": "Bacterial classification excludes cyanobacteria. No stable documented unattended API, reuse terms or rate contract verified. No internal Power BI query API reverse-engineered.",
+      "normalization": "Keep sample date separate from fetch time, preserve <15 qualifiers. The Udmærket label must not overwrite the catalogue annual_classifications. No static sample imported as fresh.",
+      "nextStep": "Use an official published export/API when available, with date precision, censoring and advice semantics tested. A current warning must be distinct from seasonal microbiology.",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "id": "silkeborg-lorawan-temperatures",
+      "provider": "Silkeborg Kommune via OS2opendatadk",
+      "url": "https://www.opendata.dk/silkeborg-kommune/badevandstemperaturer-for-soerne-i-silkeborg-kommune",
+      "status": "stale",
+      "format": "JSON array of TimeStampLocal, Location, Temperature strings",
+      "license": "Creative Commons CC0 1.0 Universal, displayed for each resource by the publisher.",
+      "authentication": "Five documented public GET endpoints returned 200 without credentials.",
+      "coverage": "Catalogue lists six lake resources. Five relevant resources probed once; Tange Sø omitted because outside this batch. Sensors at Bryrup Søbad, De Små Fisk, Virklund Søbad and Søsportens Hus are place candidates. Almindsø sensor is mid-lake at the deepest point. No station is assigned to another beach merely because it shares a lake.",
+      "units": "Water temperature at 0.5 m depth; published temperatures interpreted as degrees Celsius, require explicit unit convention confirmation before adapter activation.",
+      "frequency": "Publisher says continuous; actual latest results are January/March 2024. HTTP success is not evidence of fresh measurements.",
+      "rateLimits": "At most 5000 data points per call documented; request-rate limit not documented. Only latest-value GETs used.",
+      "timestampCaveat": "Field named TimeStampLocal contains a Z suffix. Preserve raw timestamps; resolve local/UTC naming conflict before normalization. It cannot change the stale result: all samples are over two years old.",
+      "apiProbes": [
+        {
+          "url": "https://tmsensordata.azurewebsites.net/api/almindsoevandtemp",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "records": [
+            {
+              "TimeStampLocal": "2024-01-25T17:00:57.157Z",
+              "Location": "Almindsø",
+              "Temperature": "3.72"
+            }
+          ],
+          "freshness": "stale",
+          "checkedAt": "2026-09-21T09:45:47.365Z"
+        },
+        {
+          "url": "https://tmsensordata.azurewebsites.net/api/bryruplangsoevandtemp",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "records": [
+            {
+              "TimeStampLocal": "2024-03-21T13:46:13.293Z",
+              "Location": "Bryrup Langsø",
+              "Temperature": "7.10"
+            }
+          ],
+          "freshness": "stale",
+          "checkedAt": "2026-09-21T09:45:47.365Z"
+        },
+        {
+          "url": "https://tmsensordata.azurewebsites.net/api/thorsoevandtemp",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "records": [
+            {
+              "TimeStampLocal": "2024-03-21T12:58:47.880Z",
+              "Location": "Thorsø",
+              "Temperature": "7.31"
+            }
+          ],
+          "freshness": "stale",
+          "checkedAt": "2026-09-21T09:45:47.365Z"
+        },
+        {
+          "url": "https://tmsensordata.azurewebsites.net/api/desmaafisksoevandtemp",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "records": [
+            {
+              "TimeStampLocal": "2024-03-21T12:41:38.413Z",
+              "Location": "De Små Fisk",
+              "Temperature": "6.15"
+            }
+          ],
+          "freshness": "stale",
+          "checkedAt": "2026-09-21T09:45:47.365Z"
+        },
+        {
+          "url": "https://tmsensordata.azurewebsites.net/api/langsoevandtemp",
+          "status": 200,
+          "contentType": "application/json; charset=utf-8",
+          "records": [
+            {
+              "TimeStampLocal": "2024-03-21T13:44:40.640Z",
+              "Location": "Langsø",
+              "Temperature": "7.70"
+            }
+          ],
+          "freshness": "stale",
+          "checkedAt": "2026-09-21T09:45:47.365Z"
+        }
+      ],
+      "nextStep": "Recheck for resumed data or an officially documented replacement. Do not schedule daily retries of unchanged stale endpoints. If restored, use shared collector adapter and station targets, explicit freshness/unknown states and tests; do not add per-location UI logic.",
+      "nextReviewAt": "2026-10-21"
+    },
+    {
+      "id": "silkeborg-temperature-service-change",
+      "provider": "Silkeborg Kommune / local bathing club",
+      "url": "https://silkeborg.dk/nyheder/fra-app-til-hjemmeside-saadan-tjekker-du-fremover-temperaturen-paa-badevandet",
+      "corroborationUrl": "https://almind-wellet.dk/vandtemperaturen/",
+      "additionalUrl": "https://www.denblaatap.dk/vandtemperaturen-i-almindsoe/",
+      "status": "candidate",
+      "finding": "Municipal announcement says Water Web Tools app closed December 17, 2025 and directs users to the municipal beach page. Current Almind-Wellet page says the municipality no longer offers realtime measurement. Den blå tap page contains an iframe but no readable current value/date in the inspected browser. No replacement API verified. Site header clock is not an observation timestamp."
+    },
+    {
+      "id": "dmi-ocean-observations",
+      "provider": "DMI",
+      "url": "https://www.dmi.dk/friedata/dokumentation/apis/oceanographic-observation-and-tidewater-api",
+      "api": "https://opendataapi.dmi.dk/v2/oceanObs/collections/station/items?limit=1000",
+      "status": "not-applicable",
+      "httpStatus": 200,
+      "features": 201,
+      "nextPage": {
+        "offset": 201,
+        "httpStatus": 200,
+        "features": 0
+      },
+      "scope": "Complete station listing screened. No returned station in lon 9.3–9.8 / lat 55.9–56.4 around the selected lakes. Ocean/tide observations are not lake observations; no nearest marine station substitution. This is not a claim about every DMI dataset.",
+      "weather": "Existing per-site Open-Meteo weather model passed for all 15. No new DMI wind or warning mapping enabled."
+    }
+  ],
+  "cameraResearch": {
+    "checkedAt": "2026-09-21",
+    "nextReviewAt": "2026-10-21",
+    "scope": "All 15 selected locations covered by municipal profile review plus grouped searches for their lakes, beaches and local camping/bathing operators. No claim that a camera cannot exist; only none verified in this bounded search.",
+    "queries": [
+      "Silkeborg Almindsø Thorsø webcam live",
+      "Silkeborg Søcamping Julsø Bryrup Hinge Gjessø webcam",
+      "webcam Silkeborg live",
+      "webcam Hundsø OR Lyngsø OR Schoubyes OR Sølystparken OR De Små Fisk OR Sejs"
+    ],
+    "candidates": [
+      {
+        "id": "dk-silkeborg-pictimo-48941",
+        "sourceUrl": "https://www.pictimo.com/denmark/silkeborg/48941/webcam-ip-camera-silkeborg",
+        "operator": null,
+        "locationIds": [],
+        "coordinates": null,
+        "waterbody": null,
+        "fieldOfView": "unknown",
+        "freshness": "unverified",
+        "embedStatus": "not-tested",
+        "status": "unverified",
+        "reason": "Generic city/IP-camera listing; no exact bathing-site match or operator provenance. No raw IP camera request made.",
+        "nextReviewAt": "2026-10-21"
+      },
+      {
+        "id": "dk-silkeborg-weathercloud-d0898602988",
+        "sourceUrl": "https://app.weathercloud.net/d0898602988",
+        "operator": "Vejret i Silkeborg profile; camera operator not verified",
+        "locationIds": [],
+        "coordinates": {
+          "latitude": 56.182778,
+          "longitude": 9.506944,
+          "scope": "Weather-station profile, not established camera coordinates"
+        },
+        "waterbody": null,
+        "fieldOfView": "unknown",
+        "freshness": "unverified",
+        "embedStatus": "not-tested",
+        "status": "unverified",
+        "reason": "Profile mentions a webcam; weather-station coordinates cannot establish a lake-facing camera or selected bathing-site coverage.",
+        "nextReviewAt": "2026-10-21"
+      }
+    ],
+    "rejected": [
+      {
+        "id": "dk-silkeborg-seacamp-film",
+        "sourceUrl": "https://seacamp.dk/en/overview/",
+        "locationIds": [
+          "eea-DKBW1462"
+        ],
+        "operator": "Silkeborg Sø Camping & Feriehuse",
+        "status": "not-live",
+        "reason": "Operator describes a drone film shot July 2015 and an interactive tour. No live camera identified; campsite address coordinates are not camera coordinates."
+      },
+      {
+        "id": "dk-silkeborg-route15-road",
+        "sourceUrl": "https://www.webcam-netzwerk.de/webcam/Denmark/Silkeborg/27172.html",
+        "locationIds": [],
+        "status": "wrong-field-of-view",
+        "reason": "Directory describes Route 15 traffic junction facing Aarhus, not a bathing site. Not promoted to primary operator evidence."
+      }
+    ],
+    "otherOperatorPage": "https://www.bryrupcamping.dk/",
+    "otherOperatorResult": "Search result describes camping/pool facilities; direct web read asks for browser verification. No claim of live lake-camera access, no challenge bypass."
+  },
+  "production": {
+    "checkedAt": "2026-09-21T09:46:44.100Z",
+    "pages": [
+      {
+        "kind": "lake",
+        "offset": 0,
+        "count": 15,
+        "total": 6235
+      },
+      {
+        "kind": "lake",
+        "offset": 15,
+        "count": 15,
+        "total": 6235
+      },
+      {
+        "kind": "coastal",
+        "offset": 0,
+        "count": 15,
+        "total": 14878
+      },
+      {
+        "kind": "coastal",
+        "offset": 15,
+        "count": 15,
+        "total": 14878
+      }
+    ],
+    "checks": [
+      {
+        "locationId": "eea-DKBW1033",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1021",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1034",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW234",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1035",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1024",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1938",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1018",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1026",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1023",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1462",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1660",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1019",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1020",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      },
+      {
+        "locationId": "eea-DKBW1017",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": false,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-21T09:45:00.000Z"
+      }
+    ]
+  },
+  "collector": {
+    "checkedAt": "2026-09-21T09:35:44.297Z",
+    "sourceStates": [
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:03.208+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-20T15:37:00.54+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-21T15:37:04.594+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-21T09:34:00.887+00:00",
+        "published_at": "2026-09-21T07:40:00+00:00",
+        "next_check_at": "2026-09-21T09:35:01.909+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-21T08:43:00.614+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-21T09:43:01.47+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-21T09:31:01.502+00:00",
+        "published_at": "2026-09-21T09:30:00+00:00",
+        "next_check_at": "2026-09-21T09:36:02.426+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "nrw",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.336+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:01.92+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.338+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.192+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "ea",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.223+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-21T09:32:00.5+00:00",
+        "published_at": "2026-09-21T09:30:00+00:00",
+        "next_check_at": "2026-09-21T09:37:01.269+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-21T09:32:00.501+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-21T10:32:01.598+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.337+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.22+00:00",
+        "consecutive_failures": 2,
+        "check_kind": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "healthy",
+        "checked_at": "2026-09-21T09:35:00.351+00:00",
+        "published_at": "2026-09-21T08:32:00+00:00",
+        "next_check_at": "2026-09-21T09:36:01.042+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-21T09:35:00.351+00:00",
+        "published_at": "2026-09-21T09:26:00+00:00",
+        "next_check_at": "2026-09-21T09:36:01.988+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      }
+    ],
+    "interpretation": "Recent temperature, wind, storm and model-canary checks observed. Existing EA/NRW one failure and SEPA two failures unchanged; weekly retries due September 22. No manual collector invocation or new scheduler. Activity does not establish cron configuration."
+  },
+  "database": {
+    "status": "read-only-verified",
+    "activeDanishLakeCount": 123,
+    "writes": 0,
+    "importFile": null,
+    "reason": "User-authorized retry succeeded; earlier approval transport error is resolved. No new viable dynamic source requires a migration. Existing SQL DNS issue was not re-probed."
+  },
+  "validation": {
+    "tests": "111 passed",
+    "lint": "passed",
+    "build": "passed",
+    "production": "4 lake/coastal pagination pages, 15 exact location/observation identities and 15 valid weather responses. All 15 report marineModelSupported=false and 0 dynamic observation items; this is existing coverage, not a new integration.",
+    "research": "15 unique new registry IDs, 15 exact profile IDs and historical sample rows; 5 actual stale JSON API responses; 201 DMI stations plus empty final page.",
+    "runtime": "No runtime, schema, source binding, schedule, camera or safety-rating change."
+  },
+  "publication": {
+    "databaseImportApplied": false
+  },
+  "nextCountry": "Norway"
+}

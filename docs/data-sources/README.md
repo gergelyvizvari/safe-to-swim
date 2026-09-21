@@ -174,3 +174,32 @@ PostgreSQL idempotence/curated-value preservation checks, local browser wind
 assessment. Four production lake/coastal pages and 15 details/observations checked.
 Source collection advances; unchanged weekly failures are not new incidents.
 Next country: Denmark.
+
+## 2026-09-21 — Denmark, 15 lake sites
+
+Completed the interrupted September 20 batch after the authorized Supabase read
+succeeded. [Run evidence](runs/2026-09-21.json): **15 exact municipal DKBW IDs
+verified; 0 new dynamic integrations or production coverage; 0 live cameras;
+0 shoreline bearings.** This lake batch has no marine-model assignments.
+
+Silkeborg's twelve official profiles identify all fifteen sites. The municipal
+Power BI table provides bacterial results and sample temperatures, last sampled
+August 15–17. These are historical observations; classification excludes algae.
+Sejs Ladeplads sits at the Borresø/Brassø boundary, explaining differing labels.
+
+Five actual JSON temperature endpoints are published under CC0 in the municipal
+Open Data DK dataset. All return HTTP 200, but their latest observations are from
+January or March **2024**. The mid-lake Almindsø sensor is not a shore measurement;
+TimeStampLocal/Z semantics also require clarification before a future adapter.
+The closed Water Web Tools app and stale data are documented, with October 21
+review dates. No stale measurements were imported as live values. DMI's complete
+201-station ocean catalogue has no station in the selected lake area.
+
+Camera research found two unbound city/weather candidates, with no verified
+operator + exact bathing-site field of view + capture freshness. A camping drone
+film and road camera were rejected. No nearby camera was assigned by distance.
+
+Four production catalogue pages, all fifteen details/observation identities and
+weather models pass; all lake marine flags remain false. The existing collector
+is advancing. 111 tests, lint and build pass. No database writes or runtime
+changes. Research registry now has 150 entries; next country: Norway.
