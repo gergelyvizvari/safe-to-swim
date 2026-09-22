@@ -3225,6 +3225,453 @@
         "reviewNote": "North-up local geometry reviewed: OSM land-left/water-right convention; adjacent bays and piers inspected. High-water shoreline estimate, not a measured current.",
         "snapshotFile": "2026-09-22-osm.json"
       }
+    },
+    {
+      "locationId": "ea-ukj2407-15450",
+      "latitude": 50.80529,
+      "longitude": -0.41537,
+      "seaBearing": 179,
+      "shoreOrientation": {
+        "distanceMetres": 36,
+        "radiusMetres": 60,
+        "wayIds": [
+          37055156
+        ],
+        "nearestSegment": 16,
+        "nearestWayId": 37055156,
+        "shorePoint": {
+          "latitude": 50.80496726193859,
+          "longitude": -0.4153612816106103
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 37055156,
+            "version": 5
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2407-15400",
+      "latitude": 50.8072599355086,
+      "longitude": -0.384825087481915,
+      "seaBearing": 166,
+      "shoreOrientation": {
+        "distanceMetres": 47,
+        "radiusMetres": 60,
+        "wayIds": [
+          37055156
+        ],
+        "nearestSegment": 30,
+        "nearestWayId": 37055156,
+        "shorePoint": {
+          "latitude": 50.80684756267741,
+          "longitude": -0.3846670824642214
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 37055156,
+            "version": 5
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2407-15350",
+      "latitude": 50.81068,
+      "longitude": -0.36086,
+      "seaBearing": 162,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          3353249
+        ],
+        "nearestSegment": 35,
+        "nearestWayId": 3353249,
+        "shorePoint": {
+          "latitude": 50.81073959677295,
+          "longitude": -0.3608907619614767
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 3353249,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2401-15300",
+      "latitude": 50.8198627567146,
+      "longitude": -0.321921858737898,
+      "seaBearing": 163,
+      "shoreOrientation": {
+        "wayIds": [
+          908473647
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 908473647,
+            "index": 0
+          },
+          {
+            "wayId": 908473647,
+            "index": 30
+          }
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 908473647,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement. Chord follows the beach across small groyne outlines, not individual groyne sides or harbour walls.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2401-15200",
+      "latitude": 50.826579680509,
+      "longitude": -0.271301418312344,
+      "seaBearing": 182,
+      "shoreOrientation": {
+        "distanceMetres": 13,
+        "radiusMetres": 60,
+        "wayIds": [
+          908473648
+        ],
+        "nearestSegment": 145,
+        "nearestWayId": 908473648,
+        "shorePoint": {
+          "latitude": 50.826693247323036,
+          "longitude": -0.27129361041568767
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 908473648,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2401-15100",
+      "latitude": 50.8287342537324,
+      "longitude": -0.235579708150519,
+      "seaBearing": 183,
+      "shoreOrientation": {
+        "wayIds": [
+          908544773
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 908544773,
+            "index": 100
+          },
+          {
+            "wayId": 908544773,
+            "index": 120
+          }
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 908544773,
+            "version": 5
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement. Chord follows the beach across small groyne outlines, not individual groyne sides or harbour walls.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2100-15000",
+      "latitude": 50.8232116729512,
+      "longitude": -0.166684558773012,
+      "seaBearing": 191,
+      "shoreOrientation": {
+        "wayIds": [
+          767602006,
+          767602011
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 767602006,
+            "index": 110
+          },
+          {
+            "wayId": 767602011,
+            "index": 10
+          }
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 767602006,
+            "version": 1
+          },
+          {
+            "id": 767602011,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement. Chord follows the beach across small groyne outlines, not individual groyne sides or harbour walls.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2100-14950",
+      "latitude": 50.820256346936,
+      "longitude": -0.145844809909213,
+      "seaBearing": 195,
+      "shoreOrientation": {
+        "distanceMetres": 38,
+        "radiusMetres": 60,
+        "wayIds": [
+          767602005
+        ],
+        "nearestSegment": 75,
+        "nearestWayId": 767602005,
+        "shorePoint": {
+          "latitude": 50.81992901319711,
+          "longitude": -0.1459898985559869
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 767602005,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2100-14900",
+      "latitude": 50.8159468673663,
+      "longitude": -0.122123261573308,
+      "seaBearing": 201,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          767601993
+        ],
+        "nearestSegment": 14,
+        "nearestWayId": 767601993,
+        "shorePoint": {
+          "latitude": 50.81595693541461,
+          "longitude": -0.12211709289771651
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 767601993,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2100-14850",
+      "latitude": 50.80179,
+      "longitude": -0.05673,
+      "seaBearing": 199,
+      "shoreOrientation": {
+        "wayIds": [
+          767601994
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 767601994,
+            "index": 80
+          },
+          {
+            "wayId": 767601994,
+            "index": 110
+          }
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 767601994,
+            "version": 5
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement. Chord follows the beach across small groyne outlines, not individual groyne sides or harbour walls.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2100-14800",
+      "latitude": 50.7993083149004,
+      "longitude": -0.041673206528577,
+      "seaBearing": 190,
+      "shoreOrientation": {
+        "wayIds": [
+          767602013
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 767602013,
+            "index": 30
+          },
+          {
+            "wayId": 767602013,
+            "index": 60
+          }
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 767602013,
+            "version": 4
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement. Chord follows the beach across small groyne outlines, not individual groyne sides or harbour walls.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
+    },
+    {
+      "locationId": "ea-ukj2203-14600",
+      "latitude": 50.7713013924233,
+      "longitude": 0.09501500163392,
+      "seaBearing": 217,
+      "shoreOrientation": {
+        "distanceMetres": 28,
+        "radiusMetres": 60,
+        "wayIds": [
+          767639146
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 767639146,
+        "shorePoint": {
+          "latitude": 50.77110114151496,
+          "longitude": 0.09477685604419729
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-22",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-22T13:35:55.671Z",
+        "wayVersions": [
+          {
+            "id": 767639146,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up directed geometry reviewed: water south/southwest, OSM water-right. Catalogue point may be landward of high-water line; same local beach reviewed. Estimated beach normal, not a current measurement.",
+        "snapshotFile": "2026-09-22-brighton-osm.json"
+      }
     }
   ]
 }

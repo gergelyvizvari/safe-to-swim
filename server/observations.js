@@ -2,15 +2,16 @@ import { getBindings } from './catalogue.js'
 import { loadSource } from './balatonSources.js'
 import { database, hasDatabase } from './supabase.js'
 import { isObservationStale } from '../src/balaton.js'
-import { SOURCES } from './sourceRegistry.js'
+import { loadEaSamples } from './eaSamples.js'
+import { SOURCES, sourceLink } from './sourceRegistry.js'
 
-const parserKeys = { hungaromet_temperature: 'temperature', hungaromet_wind: 'wind', hungaromet_storm: 'storm', nngyk_quality: 'quality' }
+const parserKeys = { hungaromet_temperature: 'temperature', hungaromet_wind: 'wind', hungaromet_storm: 'storm', nngyk_quality: 'quality', ea_samples: 'eaSamples' }
 
 export function extractObservation(binding, state, now = Date.now()) {
   const { target, data_type: type } = binding
   const source = target.source
   const result = { type, targetId: target.id, label: target.label, coverage: target.coverage_type,
-    provider: source.name, url: source.url, staleSeconds: source.stale_seconds,
+    provider: source.name, url: sourceLink(source, target), staleSeconds: source.stale_seconds,
     checkedAt: state?.checked_at ?? null, publishedAt: state?.payload?.publishedAt ?? null,
     status: state?.status ?? 'unavailable' }
   if (source.adapter === 'external_map') return { ...result, status: 'available', format: 'link' }
@@ -18,9 +19,9 @@ export function extractObservation(binding, state, now = Date.now()) {
   const payload = state.payload
   if (type === 'quality') {
     const identity = target.config
-    const matches = (payload.sites ?? []).filter(site => site.name === identity.name && Math.abs(site.latitude - identity.latitude) < 0.0001 && Math.abs(site.longitude - identity.longitude) < 0.0001)
+    const matches = (payload.sites ?? []).filter(site => (source.adapter === 'ea_samples' ? site.id === target.external_id : site.name === identity.name) && Math.abs(site.latitude - identity.latitude) < 0.0001 && Math.abs(site.longitude - identity.longitude) < 0.0001)
     result.sample = matches.length === 1 ? matches[0] : null
-    result.publishedAt = result.sample?.sampledOn ?? null
+    result.publishedAt = result.sample?.publishedAt ?? result.sample?.sampledOn ?? null
     if (!result.sample) result.status = 'unmatched'
   } else if (type === 'storm') {
     result.basins = target.coverage_type === 'basin' ? payload.basins?.filter(b => b.basin === target.external_id) : payload.basins
@@ -43,7 +44,7 @@ export async function getObservations(id) {
       const rows = await database(`source_state?source_id=eq.${encodeURIComponent(source.id)}&limit=1`)
       states.set(source.id, rows[0])
     } else {
-      try { const payload = await loadSource(parserKeys[source.adapter]); states.set(source.id, { status: 'healthy', checked_at: payload.fetchedAt, payload }) }
+      try { const payload = await (source.adapter === 'ea_samples' ? loadEaSamples() : loadSource(parserKeys[source.adapter])); states.set(source.id, { status: 'healthy', checked_at: payload.fetchedAt, payload }) }
       catch { states.set(source.id, { status: 'unavailable' }) }
     }
   }))
@@ -56,5 +57,5 @@ export async function collectSource(source) {
   // An adapter is tied to a verified provider endpoint; changing a URL requires
   // updating and testing the adapter, rather than silently relabelling its data.
   if (source.url !== SOURCES.find(item => item.adapter === source.adapter)?.url) throw new Error('Source endpoint changed')
-  return loadSource(key)
+  return source.adapter === 'ea_samples' ? loadEaSamples() : loadSource(key)
 }

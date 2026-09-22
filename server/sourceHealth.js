@@ -4,7 +4,7 @@ import { SOURCES } from './sourceRegistry.js'
 export async function checkSource(source) {
   const configured = SOURCES.find(item => item.id === source.id)
   if (!configured || configured.url !== source.url || configured.adapter !== source.adapter) throw new Error('Unverified source configuration')
-  if (source.adapter.startsWith('hungaromet_') || source.adapter === 'nngyk_quality') {
+  if (source.adapter.startsWith('hungaromet_') || source.adapter === 'nngyk_quality' || source.adapter === 'ea_samples') {
     return { payload: await collectSource(source), check_kind: 'observations' }
   }
   const url = new URL(source.url)

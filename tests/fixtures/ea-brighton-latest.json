@@ -1,0 +1,1006 @@
+{
+  "format": "linked-data-api",
+  "version": "0.2",
+  "result": {
+    "_about": "https://environment.data.gov.uk/doc/bathing-water-quality/in-season/latest.json?_pageSize=1000&min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7",
+    "definition": "https://environment.data.gov.uk/meta/doc/bathing-water-quality/in-season/latest.json?min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7",
+    "extendedMetadataVersion": "https://environment.data.gov.uk/doc/bathing-water-quality/in-season/latest.json?_pageSize=1000&min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7&_metadata=all",
+    "first": "https://environment.data.gov.uk/doc/bathing-water-quality/in-season/latest.json?_pageSize=1000&_page=0&min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7",
+    "isPartOf": {
+      "_about": "https://environment.data.gov.uk/doc/bathing-water-quality/in-season/latest.json?min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7",
+      "definition": "https://environment.data.gov.uk/meta/doc/bathing-water-quality/in-season/latest.json?min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7",
+      "hasPart": "https://environment.data.gov.uk/doc/bathing-water-quality/in-season/latest.json?_pageSize=1000&min-bwq_samplingPoint.long=-0.6&max-bwq_samplingPoint.lat=50.9&max-bwq_samplingPoint.long=0.2&min-bwq_samplingPoint.lat=50.7",
+      "type": [
+        "http://purl.org/linked-data/api/vocab#ListEndpoint"
+      ]
+    },
+    "items": [
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14600/date/20260910/time/120900/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2203-14600",
+          "eubwidNotation": "ukj2203-14600",
+          "name": {
+            "_value": "Seaford",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/14600",
+          "easting": 547820,
+          "lat": 50.771301392423304,
+          "long": 0.09501500163392,
+          "name": {
+            "_value": "Sampling point at Seaford",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 98950,
+          "samplePointNotation": "14600"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 91,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "label": [
+          {
+            "_value": "Seaford sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T12:09:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T12:09:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000041",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14700/date/20140515/time/120100/recordDate/20140515",
+        "abnormalWeatherException": false,
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2203-14700",
+          "eubwidNotation": "ukj2203-14700",
+          "name": {
+            "_value": "Newhaven",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/14700",
+          "easting": 544830,
+          "lat": 50.781419179299654,
+          "long": 0.053050898533324,
+          "name": {
+            "_value": "Sampling point at Newhaven",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 99992,
+          "samplePointNotation": "14700"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "label": [
+          {
+            "_value": "Newhaven sample assessment for 2014-W20",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleClassification": {
+          "_about": "http://environment.data.gov.uk/def/bwq-cc-2012/C",
+          "complianceCodeNotation": "C",
+          "name": {
+            "_value": "Closed",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2014-05-15T12:01:00",
+          "inXSDDateTime": {
+            "_value": "2014-05-15T12:01:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2014-W20",
+          "label": [
+            {
+              "_value": "British Week:2014-W20",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/in-season-ea_bw_sample_update_20140522_post2012part3-20140522-131011-51.csv#line=000003",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14800/date/20260910/time/124400/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2100-14800",
+          "eubwidNotation": "ukj2100-14800",
+          "name": {
+            "_value": "Saltdean",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/14800",
+          "easting": 538100,
+          "lat": 50.79930831490036,
+          "long": -0.041673206528577,
+          "name": {
+            "_value": "Sampling point at Saltdean",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 101800,
+          "samplePointNotation": "14800"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Saltdean sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T12:44:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T12:44:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000023",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14850/date/20260910/time/131000/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2100-14850",
+          "eubwidNotation": "ukj2100-14850",
+          "name": {
+            "_value": "Rottingdean Beach",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/14850",
+          "easting": 537032,
+          "lat": 50.80179,
+          "long": -0.05673,
+          "name": {
+            "_value": "Sampling point at Rottingdean Beach",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 102048,
+          "samplePointNotation": "14850"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Rottingdean Beach sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T13:10:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T13:10:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000007",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14900/date/20260910/time/133500/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2100-14900",
+          "eubwidNotation": "ukj2100-14900",
+          "name": {
+            "_value": "Brighton Kemptown",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/14900",
+          "easting": 532384,
+          "lat": 50.81594686736635,
+          "long": -0.122123261573308,
+          "name": {
+            "_value": "Sampling point at Brighton Kemptown",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 103503,
+          "samplePointNotation": "14900"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Brighton Kemptown sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T13:35:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T13:35:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000030",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14950/date/20260910/time/135400/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2100-14950",
+          "eubwidNotation": "ukj2100-14950",
+          "name": {
+            "_value": "Brighton Central",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/14950",
+          "easting": 530701,
+          "lat": 50.82025634693602,
+          "long": -0.145844809909213,
+          "name": {
+            "_value": "Sampling point at Brighton Central",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 103940,
+          "samplePointNotation": "14950"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Brighton Central sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T13:54:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T13:54:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000028",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15000/date/20260910/time/140900/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2100-15000",
+          "eubwidNotation": "ukj2100-15000",
+          "name": {
+            "_value": "Hove",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15000",
+          "easting": 529225,
+          "lat": 50.823211672951224,
+          "long": -0.166684558773012,
+          "name": {
+            "_value": "Sampling point at Hove",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 104232,
+          "samplePointNotation": "15000"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Hove sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T14:09:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T14:09:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000065",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15100/date/20260910/time/144400/recordDate/20260910",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2401-15100",
+          "eubwidNotation": "ukj2401-15100",
+          "name": {
+            "_value": "Southwick",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15100",
+          "easting": 524358,
+          "lat": 50.82873425373243,
+          "long": -0.235579708150519,
+          "name": {
+            "_value": "Sampling point at Southwick",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 104728,
+          "samplePointNotation": "15100"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Southwick sample assessment for 2026-W37",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-10T14:44:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-10T14:44:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W37",
+          "label": [
+            {
+              "_value": "British Week:2026-W37",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260915_1.csv#row=000019",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15200/date/20260914/time/143300/recordDate/20260914",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2401-15200",
+          "eubwidNotation": "ukj2401-15200",
+          "name": {
+            "_value": "Shoreham Beach",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15200",
+          "easting": 521848,
+          "lat": 50.82657968050896,
+          "long": -0.271301418312344,
+          "name": {
+            "_value": "Sampling point at Shoreham Beach",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 104429,
+          "samplePointNotation": "15200"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 10,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "label": [
+          {
+            "_value": "Shoreham Beach sample assessment for 2026-W38",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-14T14:33:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-14T14:33:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W38",
+          "label": [
+            {
+              "_value": "British Week:2026-W38",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260919_1.csv#row=000033",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15300/date/20260914/time/134700/recordDate/20260914",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2401-15300",
+          "eubwidNotation": "ukj2401-15300",
+          "name": {
+            "_value": "Lancing, Beach Green",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15300",
+          "easting": 518300,
+          "lat": 50.819862756714556,
+          "long": -0.321921858737898,
+          "name": {
+            "_value": "Sampling point at Lancing, Beach Green",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 103600,
+          "samplePointNotation": "15300"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 10,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/lessThan",
+          "countQualifierNotation": "<"
+        },
+        "intestinalEnterococciCount": 36,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "label": [
+          {
+            "_value": "Lancing, Beach Green sample assessment for 2026-W38",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-14T13:47:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-14T13:47:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W38",
+          "label": [
+            {
+              "_value": "British Week:2026-W38",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260919_1.csv#row=000010",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15350/date/20260914/time/125900/recordDate/20260919",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2407-15350",
+          "eubwidNotation": "ukj2407-15350",
+          "name": {
+            "_value": "Worthing Beach House",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15350",
+          "easting": 515580,
+          "lat": 50.81068,
+          "long": -0.36086,
+          "name": {
+            "_value": "Sampling point at Worthing Beach House",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 102517,
+          "samplePointNotation": "15350"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "true",
+          "_datatype": "boolean"
+        },
+        "discountableReason": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/ShortTermPollution",
+          "label": [
+            {
+              "_value": "Short term pollution",
+              "_datatype": "string"
+            }
+          ]
+        },
+        "escherichiaColiCount": 27,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "intestinalEnterococciCount": 82,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "label": [
+          {
+            "_value": "Worthing Beach House sample assessment for 2026-W38",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-14T12:59:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-14T12:59:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W38",
+          "label": [
+            {
+              "_value": "British Week:2026-W38",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260920_1.csv#row=000006",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15400/date/20260914/time/120200/recordDate/20260919",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2407-15400",
+          "eubwidNotation": "ukj2407-15400",
+          "name": {
+            "_value": "Worthing",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15400",
+          "easting": 513900,
+          "lat": 50.80725993550858,
+          "long": -0.384825087481915,
+          "name": {
+            "_value": "Sampling point at Worthing",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 102100,
+          "samplePointNotation": "15400"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "true",
+          "_datatype": "boolean"
+        },
+        "discountableReason": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/ShortTermPollution",
+          "label": [
+            {
+              "_value": "Short term pollution",
+              "_datatype": "string"
+            }
+          ]
+        },
+        "escherichiaColiCount": 64,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "intestinalEnterococciCount": 46,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "label": [
+          {
+            "_value": "Worthing sample assessment for 2026-W38",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-14T12:02:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-14T12:02:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W38",
+          "label": [
+            {
+              "_value": "British Week:2026-W38",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260920_1.csv#row=000002",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15450/date/20260914/time/112400/recordDate/20260914",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2407-15450",
+          "eubwidNotation": "ukj2407-15450",
+          "name": {
+            "_value": "Goring Beach",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15450",
+          "easting": 511753,
+          "lat": 50.80529,
+          "long": -0.41537,
+          "name": {
+            "_value": "Sampling point at Goring Beach",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 101834,
+          "samplePointNotation": "15450"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 82,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "intestinalEnterococciCount": 64,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "label": [
+          {
+            "_value": "Goring Beach sample assessment for 2026-W38",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-14T11:24:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-14T11:24:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W38",
+          "label": [
+            {
+              "_value": "British Week:2026-W38",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260919_1.csv#row=000055",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      },
+      {
+        "_about": "http://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15500/date/20260914/time/103700/recordDate/20260914",
+        "bwq_bathingWater": {
+          "_about": "http://environment.data.gov.uk/id/bathing-water/ukj2402-15500",
+          "eubwidNotation": "ukj2402-15500",
+          "name": {
+            "_value": "Littlehampton",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        },
+        "bwq_samplingPoint": {
+          "_about": "http://location.data.gov.uk/so/ef/SamplingPoint/bwsp.eaew/15500",
+          "easting": 503060,
+          "lat": 50.80227443041339,
+          "long": -0.538835647163759,
+          "name": {
+            "_value": "Sampling point at Littlehampton",
+            "_datatype": "langString",
+            "_lang": "en"
+          },
+          "northing": 101320,
+          "samplePointNotation": "15500"
+        },
+        "dataset": "http://environment.data.gov.uk/data/bathing-water-quality/eaew/in-season",
+        "discountable": {
+          "_value": "false",
+          "_datatype": "boolean"
+        },
+        "escherichiaColiCount": 73,
+        "escherichiaColiQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "intestinalEnterococciCount": 36,
+        "intestinalEnterococciQualifier": {
+          "_about": "http://environment.data.gov.uk/def/bathing-water-quality/actual",
+          "countQualifierNotation": "="
+        },
+        "label": [
+          {
+            "_value": "Littlehampton sample assessment for 2026-W38",
+            "_datatype": "langString",
+            "_lang": "en"
+          }
+        ],
+        "sampleDateTime": {
+          "_about": "http://reference.data.gov.uk/id/gregorian-instant/2026-09-14T10:37:00",
+          "inXSDDateTime": {
+            "_value": "2026-09-14T10:37:00",
+            "_datatype": "dateTime"
+          }
+        },
+        "sampleWeek": {
+          "_about": "http://reference.data.gov.uk/id/week/2026-W38",
+          "label": [
+            {
+              "_value": "British Week:2026-W38",
+              "_datatype": "langString",
+              "_lang": "en"
+            }
+          ]
+        },
+        "source": "http://environment.data.gov.uk/sources/bwq/eaew/input/ea_bw_sample_update_20260919_1.csv#row=000025",
+        "type": [
+          "http://environment.data.gov.uk/def/bathing-water-quality/SampleAssessment",
+          "http://purl.org/linked-data/cube#Observation"
+        ]
+      }
+    ],
+    "itemsPerPage": 1000,
+    "page": 0,
+    "startIndex": 1,
+    "type": [
+      "http://purl.org/linked-data/api/vocab#Page"
+    ]
+  }
+}

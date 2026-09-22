@@ -61,3 +61,11 @@ high-water line. Dollymount is landward. Loughshinny uses its inner sandy cove,
 not the pier. Balbriggan remains unresolved: Overpass 406, OSM 429 including one
 retry after several minutes; no further retries or neighbouring bearing copied.
 The transactional database import is prepared, not applied.
+
+2026-09-22 Brighton expansion: twelve reviewed estimates between Goring and
+Seaford, with seven local normals and five beach chords across mapped groynes.
+The directed vertices and OSM way versions are in 2026-09-22-brighton-osm.json.
+Littlehampton's bounded map request returned HTTP 429; no bearing was invented.
+The existing curated Brighton Beach 180-degree value is unchanged. The separate
+Brighton REST importer uses conditional metadata equality to preserve concurrent
+edits and applies only these twelve exact coastal identities.

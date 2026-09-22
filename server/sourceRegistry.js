@@ -1,7 +1,10 @@
+import { EA_SAMPLES_URL } from './eaSamples.js'
+import { EA_BRIGHTON_SITES } from './eaBrightonSites.js'
 import { BALATON_SOURCES, isBalaton } from '../src/balaton.js'
 import { QUALITY_SITES } from './balatonQualitySites.js'
 
 export const SOURCES = [
+  { id: 'ea-brighton-samples', name: 'Environment Agency', adapter: 'ea_samples', url: EA_SAMPLES_URL, refresh_seconds: 21600, stale_seconds: 604800 },
   { id: 'open-meteo-weather', name: 'Open-Meteo', adapter: 'open_meteo_weather', url: 'https://api.open-meteo.com/v1/forecast', refresh_seconds: 300, stale_seconds: 1800 },
   { id: 'open-meteo-marine', name: 'Open-Meteo Marine', adapter: 'open_meteo_marine', url: 'https://marine-api.open-meteo.com/v1/marine', refresh_seconds: 300, stale_seconds: 1800 },
   ...['temperature', 'wind', 'storm', 'quality'].map(kind => ({ id: `official-${kind}`, name: kind === 'quality' ? 'NNGYK' : 'HungaroMet', adapter: kind === 'quality' ? 'nngyk_quality' : `hungaromet_${kind}`, url: BALATON_SOURCES[kind], refresh_seconds: kind === 'quality' ? 86400 : 60, stale_seconds: { temperature: 129600, wind: 1800, storm: 7200, quality: 2592000 }[kind] })),
@@ -20,6 +23,8 @@ export function initialBindings(location) {
   add('weather', 'open-meteo-weather', location.id, location.name, 'model_point', { latitude: location.latitude, longitude: location.longitude })
   if (location.marineModelSupported !== false && location.waterType !== 'lake') add('marine', 'open-meteo-marine', location.id, location.name, 'model_point', { latitude: location.latitude, longitude: location.longitude })
   if (location.source) add('annual_quality', location.source, location.id, location.name, 'site')
+  const eaSite = EA_BRIGHTON_SITES.find(site => site.locationId === location.id && location.waterType !== 'lake' && Math.abs(site.latitude - location.latitude) < 0.00001 && Math.abs(site.longitude - location.longitude) < 0.00001)
+  if (eaSite) add('quality', 'ea-brighton-samples', eaSite.externalId, location.name, 'site', eaSite)
   if (isBalaton(location)) {
     for (const type of ['temperature','wind','storm','windForecast','waveForecast']) add(type, `official-${type}`, 'balaton', 'Balaton', 'water_body')
     const identity = QUALITY_SITES[location.id]
@@ -28,10 +33,15 @@ export function initialBindings(location) {
   return bindings
 }
 
+export function sourceLink(source, target) {
+  return source.adapter === 'ea_samples' && /^uk[a-z0-9]+-\d+$/.test(target.external_id)
+    ? `https://environment.data.gov.uk/bwq/profiles/profile.html?site=${target.external_id}` : source.url
+}
+
 export function publicBindings(bindings) {
   return bindings.filter(b => b.enabled !== false && b.target?.source?.enabled !== false).map(b => ({
     type: b.data_type, targetId: b.target.id, label: b.target.label, coverage: b.target.coverage_type,
-    provider: b.target.source.name, url: b.target.source.url, adapter: b.target.source.adapter,
+    provider: b.target.source.name, url: sourceLink(b.target.source, b.target), adapter: b.target.source.adapter,
     ...(b.target.coverage_type === 'model_point' ? { latitude: b.target.config.latitude, longitude: b.target.config.longitude } : {}),
     refreshSeconds: b.target.source.refresh_seconds, staleSeconds: b.target.source.stale_seconds,
   }))
