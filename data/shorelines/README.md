@@ -53,3 +53,11 @@ normals point into the North Sea (NW to W, WSW at curved Kennemerstrand).
 Catalogue offsets as far as 102 m landward were reviewed against the same beach;
 these are not offshore station bindings. Each record retains way versions,
 retrieval time, method and review date. The database import remains prepared.
+
+2026-09-22 Ireland: 14 reviewed orientations from bounded OSM API map extracts.
+Eight local normals and six reviewed beach chords; directed vertices and way
+versions retained. Rush sample points are about 189/199 m seaward of the mapped
+high-water line. Dollymount is landward. Loughshinny uses its inner sandy cove,
+not the pier. Balbriggan remains unresolved: Overpass 406, OSM 429 including one
+retry after several minutes; no further retries or neighbouring bearing copied.
+The transactional database import is prepared, not applied.

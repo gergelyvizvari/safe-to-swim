@@ -203,3 +203,35 @@ Four production catalogue pages, all fifteen details/observation identities and
 weather models pass; all lake marine flags remain false. The existing collector
 is advancing. 111 tests, lint and build pass. No database writes or runtime
 changes. Research registry now has 150 entries; next country: Norway.
+
+## 2026-09-22 — Ireland, 15 coastal sites
+
+[Run evidence](runs/2026-09-22.json): 15 exact EPA identities, **14 shoreline
+orientations integrated locally (89 cumulative), 14 prepared SQL updates,
+0 applied in production, 0 new dynamic integrations, 0 verified/live cameras**.
+Norway rotation returned zero active catalogue sites, so this run moved to Ireland.
+
+EPA public collections returned 243 locations, 25,978 in-season samples and two
+active incidents. Selected samples date September 7–15. API page length reflects
+the request, not actual rows; initial results are from 2014. Preserve date-only
+precision and censored values. Out-of-season coverage and alert timezone/area
+semantics need verification before a collector adapter can be activated.
+
+Marine Institute coastal temperature stations are on other coasts; none assigned
+by proximity. Met Éireann warning JSON includes agricultural and future marine
+alerts, which cannot be treated as current local swimming warnings.
+
+OSM geometry gives eight local normals and six reviewed chords. Balbriggan map
+access remains rate-limited after one delayed retry; no invented orientation.
+The guarded transactional import preserves curated bearings and unrelated data.
+Greystones' tourism-linked stream is unavailable. Bray image verification was
+blocked by automatic approval review because of credential-bearing links; no
+credentials or image endpoints are stored here and no workaround was attempted.
+
+Production pagination and all 15 model/detail/observation checks pass. Existing
+collector activity continues; weekly link failures are due later today. Review
+candidates again October 22 unless new evidence arrives; next country: Austria.
+
+Validation: 111 tests, lint/build, reproduction of all 89 bearings, actual local
+PostgreSQL import/idempotence/curated-value preservation checks pass. Browser
+Greystones South shows Along the shore and keeps current water quality unknown.

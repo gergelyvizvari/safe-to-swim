@@ -1,0 +1,1205 @@
+{
+  "date": "2026-09-22",
+  "status": "completed-research",
+  "selection": "Rotation named Norway, but configured Supabase query returned zero active Norwegian sites. Selected 15 previously unreviewed Irish coastal sites with missing bearings and valid existing weather/marine models. No new catalogue sites invented.",
+  "countryScreening": {
+    "country": "Norway",
+    "activeCatalogueSites": 0,
+    "checkedAt": "2026-09-22T08:23:20.498Z",
+    "nextReviewAt": "2026-10-22",
+    "scope": "MET Norway documentation screened only; no Norwegian locations counted."
+  },
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "preparedDatabaseImports": 14,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 14,
+    "shoreOrientationsIntegratedLocally": 14,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "cameraCandidates": 3,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "locationIds": [
+    "eea-IEEABWC020_0000_0600",
+    "eea-IEEABWC100_0000_0300",
+    "eea-IEEABWC070_0000_0500",
+    "eea-IEEABWC090_0000_0400",
+    "eea-IEEABWC020_0000_0100",
+    "eea-IEEABWC100_0000_0200",
+    "eea-IEEABWC100_0000_0400",
+    "eea-IEEABWC020_0000_0400",
+    "eea-IEEABWC070_0000_0200",
+    "eea-IEEABWC020_0000_0200",
+    "eea-IEEABWC020_0000_0350",
+    "eea-IEEABWC020_0000_0300",
+    "eea-IEEABWC090_0000_0300",
+    "eea-IEEABWC020_0000_0500",
+    "eea-IEEABWC070_0000_0100"
+  ],
+  "locations": [
+    {
+      "locationId": "eea-IEEABWC020_0000_0600",
+      "name": "BALBRIGGAN, FRONT STRAND BEACH",
+      "externalId": "IEEABWC020_0000_0600",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Balbriggan, Front Strand Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 320340,
+        "northing": 264059,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0600",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39718,
+        "sampledOn": "2026-09-14",
+        "datePrecision": "day",
+        "eColiRaw": "31",
+        "enterococciRaw": "6",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": null,
+        "status": "retrieval-blocked",
+        "reason": "Overpass 406; bounded OSM map GET returned 429, including one retry after several minutes. No further retries or invented bearing.",
+        "nextReviewAt": "2026-10-22"
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC100_0000_0300",
+      "name": "BRAY SOUTH PROMENADE",
+      "externalId": "IEEABWC100_0000_0300",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Bray South Promenade",
+      "authority": "Wicklow County Council",
+      "officialCoordinates": {
+        "easting": 327295,
+        "northing": 218538,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC100_0000_0300",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39661,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "10",
+        "enterococciRaw": "3",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 71,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC070_0000_0500",
+      "name": "CLAREMONT BEACH",
+      "externalId": "IEEABWC070_0000_0500",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Claremont Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 328014,
+        "northing": 239497,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC070_0000_0500",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39622,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "75",
+        "enterococciRaw": "8",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 15,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC090_0000_0400",
+      "name": "DOLLYMOUNT STRAND",
+      "externalId": "IEEABWC090_0000_0400",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Dollymount Strand",
+      "authority": "Dublin City Council",
+      "officialCoordinates": {
+        "easting": 323291,
+        "northing": 236691,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC090_0000_0400",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39752,
+        "sampledOn": "2026-09-15",
+        "datePrecision": "day",
+        "eColiRaw": "63",
+        "enterococciRaw": "15",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 144,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC020_0000_0100",
+      "name": "DONABATE, BALCARRICK BEACH",
+      "externalId": "IEEABWC020_0000_0100",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Donabate, Balcarrick Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 325151,
+        "northing": 249004,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0100",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39601,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "<10",
+        "enterococciRaw": "5",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 118,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC100_0000_0200",
+      "name": "GREYSTONES SOUTH",
+      "externalId": "IEEABWC100_0000_0200",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Greystones South",
+      "authority": "Wicklow County Council",
+      "officialCoordinates": {
+        "easting": 330000,
+        "northing": 211980,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC100_0000_0200",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39664,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "20",
+        "enterococciRaw": "3",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 71,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC100_0000_0400",
+      "name": "KILLINEY",
+      "externalId": "IEEABWC100_0000_0400",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Killiney",
+      "authority": "Dun Laoghaire Rathdown County Council",
+      "officialCoordinates": {
+        "easting": 326088,
+        "northing": 224621,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC100_0000_0400",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39742,
+        "sampledOn": "2026-09-14",
+        "datePrecision": "day",
+        "eColiRaw": "10",
+        "enterococciRaw": "14",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 98,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC020_0000_0400",
+      "name": "LOUGHSHINNY BEACH",
+      "externalId": "IEEABWC020_0000_0400",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Loughshinny Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 327263,
+        "northing": 256842,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0400",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39604,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "63",
+        "enterococciRaw": "8",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 168,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC070_0000_0200",
+      "name": "PORTMARNOCK, VELVET STRAND BEACH",
+      "externalId": "IEEABWC070_0000_0200",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Portmarnock, Velvet Strand Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 324873,
+        "northing": 244142,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC070_0000_0200",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39696,
+        "sampledOn": "2026-09-09",
+        "datePrecision": "day",
+        "eColiRaw": "10",
+        "enterococciRaw": "9",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 92,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC020_0000_0200",
+      "name": "PORTRANE, THE BROOK BEACH",
+      "externalId": "IEEABWC020_0000_0200",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Portrane, the Brook Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 325664,
+        "northing": 251104,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0200",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39606,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "41",
+        "enterococciRaw": "45",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 64,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC020_0000_0350",
+      "name": "RUSH NORTH BEACH",
+      "externalId": "IEEABWC020_0000_0350",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Rush North Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 327200,
+        "northing": 254600,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0350",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39624,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "<10",
+        "enterococciRaw": "5",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 74,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC020_0000_0300",
+      "name": "RUSH, SOUTH BEACH",
+      "externalId": "IEEABWC020_0000_0300",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Rush, South Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 326414,
+        "northing": 253372,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0300",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39607,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "52",
+        "enterococciRaw": "20",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 142,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC090_0000_0300",
+      "name": "SANDYMOUNT STRAND",
+      "externalId": "IEEABWC090_0000_0300",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Sandymount Strand",
+      "authority": "Dublin City Council",
+      "officialCoordinates": {
+        "easting": 319550,
+        "northing": 232033,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC090_0000_0300",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39669,
+        "sampledOn": "2026-09-09",
+        "datePrecision": "day",
+        "eColiRaw": "97",
+        "enterococciRaw": "22",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 74,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC020_0000_0500",
+      "name": "SKERRIES, SOUTH BEACH",
+      "externalId": "IEEABWC020_0000_0500",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Skerries, South Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 325700,
+        "northing": 260845,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC020_0000_0500",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39611,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "20",
+        "enterococciRaw": "3",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 111,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "locationId": "eea-IEEABWC070_0000_0100",
+      "name": "SUTTON, BURROW BEACH",
+      "externalId": "IEEABWC070_0000_0100",
+      "sourceId": "epa-ireland-bathing",
+      "identityVerified": true,
+      "identityMethod": "Exact beach_id match in the complete official 243-location API response; beach name and local authority checked.",
+      "officialName": "Sutton, Burrow Beach",
+      "authority": "Fingal County Council",
+      "officialCoordinates": {
+        "easting": 326648,
+        "northing": 239773,
+        "note": "Raw published coordinates retained; datum not normalized or substituted for configured catalogue coordinates."
+      },
+      "sourceUrl": "https://data.epa.ie/bw/api/v1/locations/IEEABWC070_0000_0100",
+      "latestInSeasonSample": {
+        "monitoringResultId": 39612,
+        "sampledOn": "2026-09-07",
+        "datePrecision": "day",
+        "eColiRaw": "41",
+        "enterococciRaw": "7",
+        "classification": "Excellent",
+        "status": "historical",
+        "note": "Date-only sample, not current swimming clearance. Less-than values remain censored; annual classification is separate. Unit convention still to confirm against the laboratory/provider schema before an adapter."
+      },
+      "currentInSeasonAlertMatches": 0,
+      "alertCoverage": "In-season identified waters only; zero matches do not establish no restrictions outside season.",
+      "temperature": "No exact-site fresh measured temperature source verified; existing marine model remains modelled.",
+      "shore": {
+        "seaBearing": 346,
+        "status": "prepared-database-import",
+        "integratedLocally": true,
+        "appliedInDatabase": false
+      },
+      "cameraStatus": "no-verified-live-camera",
+      "checkedAt": "2026-09-22",
+      "nextReviewAt": "2026-10-22"
+    }
+  ],
+  "sources": [
+    {
+      "id": "epa-ireland-bathing",
+      "provider": "Environmental Protection Agency Ireland",
+      "documentation": "https://data.epa.ie/api-list/bathing-water-open-data/",
+      "swagger": "https://data.epa.ie/bw/swagger/v1/swagger.json",
+      "license": "CC BY 4.0",
+      "authentication": "Public GETs succeeded without credentials.",
+      "rateLimit": "No request-rate limit verified in inspected documentation; pagination is documented. Shared collections fetched once, not once per beach.",
+      "probes": [
+        {
+          "url": "https://data.epa.ie/bw/api/v1/locations?per_page=500",
+          "status": 200,
+          "count": 243,
+          "actualRows": 243
+        },
+        {
+          "url": "https://data.epa.ie/bw/api/v1/measurements?per_page=5",
+          "status": 200,
+          "actualRows": 5,
+          "note": "First page contains 2014 data; response order cannot be treated as latest."
+        },
+        {
+          "url": "https://data.epa.ie/bw/api/v1/measurements?per_page=30000",
+          "status": 200,
+          "count": 25978,
+          "actualRows": 25978
+        },
+        {
+          "url": "https://data.epa.ie/bw/api/v1/alerts?per_page=500",
+          "status": 200,
+          "count": 2,
+          "actualRows": 2
+        }
+      ],
+      "normalization": "Response length echoes requested page size, not actual list length. Validate list/count and pagination. Select latest by result_date for exact beach_id; preserve censored numeric strings and date-only precision.",
+      "freshness": "Selected in-season samples dated September 7–15. Retrieved September 22; no fetch-time relabelling.",
+      "coverage": "Annual profiles, bacterial samples, and active in-season incident notices. No site water temperature, waves or currents in the inspected responses.",
+      "limitations": "Docs distinguish voluntary out-of-season samples (September 16–May 21), but the retrieved Swagger currently lists only Locations and Alerts paths. A documented machine endpoint and completeness rules for out-of-season measurements remain unresolved. Alert local timestamps lack offsets; timezone/cancellation and in-season applicability need explicit normalization. No current safety all-clear inferred.",
+      "nextStep": "Before activation: resolve out-of-season endpoint, units, timestamp convention and alert coverage; implement shared collector adapter, exact site targets, date/censoring/error tests and transactional import in the configured project. Research JSON is not an adapter.",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "id": "marine-institute-coastal-temperature",
+      "provider": "Marine Institute Ireland",
+      "documentation": "https://erddap.marine.ie/erddap/tabledap/ICTempNetwork.html",
+      "api": "https://erddap.marine.ie/erddap/tabledap/ICTempNetwork.json?SiteName,longitude,latitude,Bay&distinct()",
+      "status": "not-matched",
+      "httpStatus": 200,
+      "stationRows": 43,
+      "license": "CC BY 4.0",
+      "units": "degree_C, depth m (positive up), time UTC; missing temperature -999; QFlag must be respected.",
+      "evidence": "Actual station/coordinate list lies on west/northwest coasts (easternmost longitude -7.55028); none at these east-coast beaches. No nearest-station substitution.",
+      "additionalCandidate": "https://erddap.marine.ie/erddap/info/IWBNetwork/index.html",
+      "additionalScope": "Offshore weather-buoy documentation screened only, not a verified local beach observation.",
+      "nextReviewAt": "2026-10-22"
+    },
+    {
+      "id": "met-eireann-warnings",
+      "provider": "Met Éireann",
+      "documentation": "https://www.met.ie/Open_Data/Warnings/Met_Eireann_Warning_description_June2020.pdf",
+      "api": "https://www.met.ie/Open_Data/json/warning_ALL.json",
+      "httpStatus": 200,
+      "status": "candidate",
+      "checkedAt": "2026-09-22",
+      "count": 4,
+      "examples": [
+        {
+          "capId": "2.49.0.1.372.0.260922060402.N_Norm000_Blight",
+          "type": "yellow; Moderate",
+          "issued": "2026-09-22T07:04:02+01:00",
+          "onset": "2026-09-22T07:03:54+01:00",
+          "expiry": "2026-09-23T13:00:00+01:00",
+          "regions": [
+            "EI31",
+            "EI23",
+            "EI19",
+            "EI18",
+            "EI21",
+            "EI01",
+            "EI15",
+            "EI30",
+            "EI13",
+            "EI12",
+            "EI07",
+            "EI29",
+            "EI02",
+            "EI22",
+            "EI06",
+            "EI26",
+            "EI27",
+            "EI16",
+            "EI03",
+            "EI04",
+            "EI11",
+            "EI24",
+            "EI25",
+            "EI20",
+            "EI14",
+            "EI10"
+          ]
+        },
+        {
+          "capId": "2.49.0.1.372.0.260922060402.N_Norm001_GaleStorm",
+          "type": "Gale",
+          "issued": "2026-09-22T07:04:02+01:00",
+          "onset": "2026-09-24T06:00:00+01:00",
+          "expiry": "2026-09-24T15:00:00+01:00",
+          "regions": [
+            "EI820",
+            "EI821",
+            "EI819"
+          ]
+        },
+        {
+          "capId": "2.49.0.1.372.0.260922060402.N_Norm002_SmallCraft",
+          "type": "small-craft",
+          "issued": "2026-09-22T07:04:02+01:00",
+          "onset": "2026-09-24T01:00:00+01:00",
+          "expiry": "2026-09-24T08:00:00+01:00",
+          "regions": [
+            "EI822",
+            "EI820",
+            "EI818",
+            "EI805",
+            "EI821",
+            "EI819",
+            "EI817"
+          ]
+        },
+        {
+          "capId": "2.49.0.1.372.0.260922060402.N_Norm003_SmallCraft",
+          "type": "small-craft",
+          "issued": "2026-09-22T07:04:02+01:00",
+          "onset": "2026-09-24T08:00:00+01:00",
+          "expiry": "2026-09-24T18:00:00+01:00",
+          "regions": [
+            "EI807",
+            "EI822",
+            "EI809",
+            "EI820",
+            "EI806",
+            "EI810",
+            "EI818",
+            "EI805",
+            "EI816",
+            "EI821",
+            "EI819",
+            "EI808",
+            "EI817"
+          ]
+        }
+      ],
+      "limitations": "Current API contains agricultural blight as well as marine gale/small-craft warnings, including future onset dates. Do not treat all warnings as current swimming hazards. Exact marine-area boundaries, cancellations and reuse/rate policy remain unverified; no location binding enabled.",
+      "nextReviewAt": "2026-10-22"
+    }
+  ],
+  "cameraResearch": {
+    "checkedAt": "2026-09-22",
+    "nextReviewAt": "2026-10-22",
+    "queries": [
+      "Balbriggan Skerries Rush Loughshinny beach webcam live",
+      "Portmarnock Donabate Portrane Sutton Claremont beach webcam",
+      "Bray Greystones Killiney Dollymount Sandymount beach webcam live"
+    ],
+    "scope": "Same 15 beaches. Municipal Fingal beach/harbour pages and local tourism/operator sources screened. Parish cameras and static galleries rejected. No broad proximity binding.",
+    "candidates": [
+      {
+        "id": "ie-greystones-south-beach",
+        "locationIds": [
+          "eea-IEEABWC100_0000_0200"
+        ],
+        "operator": "Wicklow County Council / Wicklow Local Sports Partnership; tourism embeds Beach Cameras channel",
+        "sourceUrl": "https://visitwicklow.ie/listing/greystones-south-beach/",
+        "operatorUrl": "https://wicklowlsp.ie/live-beach-cam/",
+        "coordinates": null,
+        "locationCoordinates": {
+          "latitude": 53.142082,
+          "longitude": -6.058692,
+          "scope": "Tourism beach coordinates; exact camera mounting position not verified"
+        },
+        "type": "stream",
+        "fieldOfView": "Source labels Greystones South Beach; actual image unavailable",
+        "freshness": "unavailable",
+        "embedStatus": "Player error 153; normal YouTube page confirms stream recording unavailable, streamed three years ago.",
+        "status": "unavailable",
+        "reason": "Former operator URL returns 404. Public tourism-linked video ApcOUJspY7Y is unavailable; not a live verification.",
+        "nextReviewAt": "2026-10-22"
+      },
+      {
+        "id": "ie-bray-sailing-seafront",
+        "locationIds": [
+          "eea-IEEABWC100_0000_0300"
+        ],
+        "operator": "Bray Sailing Club",
+        "sourceUrl": "https://www.braysailingclub.ie/page/webcams",
+        "coordinates": null,
+        "type": "image",
+        "fieldOfView": "Seafront label only; exact bathing-site field of view unverified",
+        "freshness": "unverified",
+        "embedStatus": "not-authorized-for-verification",
+        "status": "access-blocked",
+        "reason": "Operator page includes credential-bearing image links. Automatic approval review rejected the attempted public-image link navigation; no workaround, credentials copied, or image fetched. Retain source page only; do not commit credential or stream URLs.",
+        "nextReviewAt": "2026-10-22"
+      },
+      {
+        "id": "ie-bray-sailing-harbour",
+        "locationIds": [
+          "eea-IEEABWC100_0000_0300"
+        ],
+        "operator": "Bray Sailing Club",
+        "sourceUrl": "https://www.braysailingclub.ie/page/webcams",
+        "coordinates": null,
+        "type": "image",
+        "fieldOfView": "Harbour, not established South Promenade bathing-site coverage",
+        "freshness": "unverified",
+        "embedStatus": "not-authorized-for-verification",
+        "status": "access-blocked",
+        "reason": "Operator page includes credential-bearing image links. Automatic approval review rejected the attempted public-image link navigation; no workaround, credentials copied, or image fetched. Retain source page only; do not commit credential or stream URLs.",
+        "nextReviewAt": "2026-10-22"
+      }
+    ],
+    "otherEvidence": [
+      "https://www.fingal.ie/ga/node/3866",
+      "https://www.fingal.ie/council/service/harbours"
+    ],
+    "result": "0 verified live cameras, 0 integrated. No verified existing camera was removed or substituted."
+  },
+  "shoreline": {
+    "source": "OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "snapshot": "data/shorelines/2026-09-22-osm.json",
+    "localNormals": 8,
+    "reviewedChords": 6,
+    "review": "All available local north-up plots inspected; water-right/land-left checked. Claremont faces north; Loughshinny uses its inner cove instead of harbour pier. Rush sites have offshore sampling coordinates; Dollymount point is landward. Exact directed vertices retained.",
+    "unresolved": [
+      "eea-IEEABWC020_0000_0600"
+    ],
+    "localCumulativeCount": 89,
+    "importFile": "supabase/imports/20260922_shore-orientations.sql",
+    "appliedInProduction": false
+  },
+  "production": {
+    "checkedAt": "2026-09-22T08:30:30.499Z",
+    "pages": [
+      {
+        "kind": "lake",
+        "offset": 0,
+        "count": 15,
+        "total": 6235
+      },
+      {
+        "kind": "lake",
+        "offset": 15,
+        "count": 15,
+        "total": 6235
+      },
+      {
+        "kind": "coastal",
+        "offset": 0,
+        "count": 15,
+        "total": 14878
+      },
+      {
+        "kind": "coastal",
+        "offset": 15,
+        "count": 15,
+        "total": 14878
+      }
+    ],
+    "checks": [
+      {
+        "marine": "passed",
+        "waveHeight": 0.2,
+        "locationId": "eea-IEEABWC020_0000_0600",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.14,
+        "locationId": "eea-IEEABWC100_0000_0300",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.14,
+        "locationId": "eea-IEEABWC070_0000_0500",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.14,
+        "locationId": "eea-IEEABWC090_0000_0400",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC020_0000_0100",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.22,
+        "locationId": "eea-IEEABWC100_0000_0200",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.14,
+        "locationId": "eea-IEEABWC100_0000_0400",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC020_0000_0400",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC070_0000_0200",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC020_0000_0200",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC020_0000_0350",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC020_0000_0300",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.14,
+        "locationId": "eea-IEEABWC090_0000_0300",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.18,
+        "locationId": "eea-IEEABWC020_0000_0500",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      },
+      {
+        "marine": "passed",
+        "waveHeight": 0.14,
+        "locationId": "eea-IEEABWC070_0000_0100",
+        "detail": "passed",
+        "observations": "passed",
+        "observationItems": 0,
+        "marineModelSupported": true,
+        "weather": "passed",
+        "windSpeedUnit": "mp/h",
+        "modelTime": "2026-09-22T08:30:00.000Z"
+      }
+    ]
+  },
+  "collector": {
+    "checkedAt": "2026-09-22T08:23:20.498Z",
+    "sourceStates": [
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:03.208+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-21T15:38:00.332+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:38:04.217+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-22T08:20:00.35+00:00",
+        "published_at": "2026-09-22T08:15:00+00:00",
+        "next_check_at": "2026-09-22T08:25:01.269+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-22T08:21:00.339+00:00",
+        "published_at": "2026-09-22T08:15:00+00:00",
+        "next_check_at": "2026-09-22T08:26:01.111+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary"
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-22T08:22:00.337+00:00",
+        "published_at": "2026-09-22T07:40:00+00:00",
+        "next_check_at": "2026-09-22T08:23:01.207+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-22T08:05:00.495+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T09:05:01.156+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "nrw",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.336+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:01.92+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-15T15:26:01.338+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.192+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "ea",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.335+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.223+00:00",
+        "consecutive_failures": 1,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-22T07:51:00.62+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T08:51:01.289+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability"
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-15T15:26:01.337+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-22T15:26:02.22+00:00",
+        "consecutive_failures": 2,
+        "check_kind": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "healthy",
+        "checked_at": "2026-09-22T08:23:00.512+00:00",
+        "published_at": "2026-09-22T07:28:00+00:00",
+        "next_check_at": "2026-09-22T08:24:01.85+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-22T08:23:00.512+00:00",
+        "published_at": "2026-09-22T08:16:00+00:00",
+        "next_check_at": "2026-09-22T08:24:02.321+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations"
+      }
+    ],
+    "interpretation": "Minute-level observations and model canaries advancing. Existing EA/NRW/SEPA weekly failures not due until September 22 afternoon; no premature retry or manual source-checks invocation. Cron configuration not independently inspected."
+  },
+  "database": {
+    "status": "prepared-not-applied",
+    "writes": 0,
+    "reason": "Configured REST catalogue and source_state readable. No working authorized SQL route established; unchanged direct SQL limitation not re-probed. Import fills missing fields only with exact coordinate/type/active guards; no schema or privilege change."
+  },
+  "validation": {
+    "tests": "111 passed",
+    "lint": "passed",
+    "build": "passed",
+    "shoreline": "89 bearings reproduced against versioned geometry",
+    "sql": "Disposable local PostgreSQL: actual 14-record import fills 10 and preserves 4 guarded rows; second application preserves metadata and timestamps. General import preserves manual north=0, provenance and curated names. No grants or schema changes.",
+    "ui": "Local browser Greystones South: wind assessment shows From N / Along the shore, missing-orientation note absent; Current water quality is not confirmed remains visible. No UI or camera code changed.",
+    "production": "4 catalogue pages, 15 details/observations and 15 weather/marine pairs passed. Existing dynamic observation items are zero for all selected sites; no new live data coverage claimed."
+  },
+  "nextCountry": "Austria"
+}
