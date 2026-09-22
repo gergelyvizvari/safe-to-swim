@@ -2,7 +2,7 @@ import { URL } from 'node:url'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { parseEaSamples } from '../server/eaSamples.js'
+import { parseEaSamples, loadEaSamples } from '../server/eaSamples.js'
 import { EA_BRIGHTON_SITES } from '../server/eaBrightonSites.js'
 import { initialBindings } from '../server/sourceRegistry.js'
 import { extractObservation } from '../server/observations.js'
@@ -34,4 +34,10 @@ test('EA collector rejects pagination, missing counts, unknown qualifiers, dupli
   for(const mutate of [j=>j.result.next='page2',j=>delete j.result.items[0].intestinalEnterococciCount,j=>j.result.items[0].intestinalEnterococciQualifier.countQualifierNotation='?',j=>j.result.items.push(j.result.items[0]),j=>j.result.items[0].recordStatus='withdrawal']) {
     const data=fixture();mutate(data);assert.throws(()=>parseEaSamples(data))
   }
+})
+
+test('EA collector exposes only bounded diagnostic codes for transport and schema failures', async () => {
+  await assert.rejects(loadEaSamples(async () => ({ok:false,status:403})),{code:'ea_http_403'})
+  await assert.rejects(loadEaSamples(async () => {throw new Error('private detail')}),{code:'ea_network_failed'})
+  await assert.rejects(loadEaSamples(async () => ({ok:true,json:async()=>({})})),{code:'ea_parse_failed'})
 })

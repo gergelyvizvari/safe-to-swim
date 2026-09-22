@@ -26,9 +26,9 @@ export default async function handler(req, res) {
         const { payload, check_kind } = await checkSource(source)
         const old = payload.publishedAt ? isObservationStale(payload.publishedAt, source.stale_seconds * 1000) : false
         update = { status: old ? 'stale' : 'healthy', check_kind, payload, published_at: payload.publishedAt ?? null, succeeded_at: checkedAt, consecutive_failures: 0, error_code: null }
-      } catch {
+      } catch (error) {
         // Keep the last valid payload and its original measurement timestamps.
-        update = { status: 'unavailable', consecutive_failures: (prior?.consecutive_failures ?? 0) + 1, error_code: 'fetch_or_parse_failed' }
+        update = { status: 'unavailable', consecutive_failures: (prior?.consecutive_failures ?? 0) + 1, error_code: /^ea_(http_\d{3}|parse_failed|network_failed)$/.test(error?.code ?? '') ? error.code : 'fetch_or_parse_failed' }
       }
       await database(path, { method: 'PATCH', body: { ...update, checked_at: checkedAt, lease_until: null, next_check_at: new Date(Date.now() + source.refresh_seconds * 1000).toISOString() } })
       return { source: source.id, status: update.status, attention: update.status === 'stale' || update.consecutive_failures >= 3 }

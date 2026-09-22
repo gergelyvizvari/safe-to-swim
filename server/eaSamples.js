@@ -27,8 +27,12 @@ export function parseEaSamples(data) {
   if (!sites.length || new Set(sites.map(s => s.id)).size !== sites.length) throw new Error('Empty or ambiguous EA samples')
   return { sites }
 }
-export async function loadEaSamples() {
-  const response = await fetch(EA_SAMPLES_URL, { signal: AbortSignal.timeout(10000) })
-  if (!response.ok) throw new Error('EA sample collection unavailable')
-  return { ...parseEaSamples(await response.json()), fetchedAt: new Date().toISOString() }
+export async function loadEaSamples(fetcher = fetch) {
+  const fail = code => Object.assign(new Error(code), { code })
+  let response
+  try { response = await fetcher(EA_SAMPLES_URL, { signal: AbortSignal.timeout(10000) }) }
+  catch { throw fail('ea_network_failed') }
+  if (!response.ok) throw fail(`ea_http_${response.status}`)
+  try { return { ...parseEaSamples(await response.json()), fetchedAt: new Date().toISOString() } }
+  catch { throw fail('ea_parse_failed') }
 }
