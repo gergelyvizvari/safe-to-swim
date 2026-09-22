@@ -1,0 +1,488 @@
+{
+  "date": "2026-09-22",
+  "status": "completed-with-provider-hosting-limitation",
+  "selection": "User-requested Brighton and surrounding area, Littlehampton to Seaford. 13 official active bathing sites plus existing curated Brighton Beach checked.",
+  "counts": {
+    "reviewed": 14,
+    "officialIdentitiesVerified": 13,
+    "sourceBindingsApplied": 13,
+    "productionLocationsWithRealSamples": 13,
+    "automatedCloudCollectionsSucceeded": 0,
+    "operatorCollectionsSucceeded": 1,
+    "shoreOrientationsIntegratedLocally": 12,
+    "shoreOrientationsAppliedInDatabase": 12,
+    "existingBearingsPreserved": 1,
+    "unresolvedBearings": 1,
+    "newCameras": 0
+  },
+  "locationIds": [
+    "ea-ukj2402-15500",
+    "ea-ukj2407-15450",
+    "ea-ukj2407-15400",
+    "ea-ukj2407-15350",
+    "ea-ukj2401-15300",
+    "ea-ukj2401-15200",
+    "ea-ukj2401-15100",
+    "ea-ukj2100-15000",
+    "ea-ukj2100-14950",
+    "ea-ukj2100-14900",
+    "ea-ukj2100-14850",
+    "ea-ukj2100-14800",
+    "ea-ukj2203-14600"
+  ],
+  "collection": {
+    "sourceId": "ea-brighton-samples",
+    "refreshSeconds": 21600,
+    "staleSeconds": 604800,
+    "cloudError": "ea_http_403",
+    "sampleDates": [
+      "2026-09-10",
+      "2026-09-14"
+    ],
+    "automaticRefreshWorking": false,
+    "operatorFallback": "scripts/collect-ea-brighton.mjs --apply"
+  },
+  "productionVerification": {
+    "checkedAt": "2026-09-22T13:54:24.747Z",
+    "results": [
+      {
+        "id": "ea-ukj2402-15500",
+        "name": "Littlehampton",
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-14",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 73,
+                "qualifier": "="
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 36,
+                "qualifier": "="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2407-15450",
+        "name": "Goring Beach",
+        "bearing": 179,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-14",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 82,
+                "qualifier": "="
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 64,
+                "qualifier": "="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2407-15400",
+        "name": "Worthing",
+        "bearing": 166,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-14",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 64,
+                "qualifier": "="
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 46,
+                "qualifier": "="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2407-15350",
+        "name": "Worthing Beach House",
+        "bearing": 162,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-14",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 27,
+                "qualifier": "="
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 82,
+                "qualifier": "="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2401-15300",
+        "name": "Lancing, Beach Green",
+        "bearing": 163,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-14",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 36,
+                "qualifier": "="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2401-15200",
+        "name": "Shoreham Beach",
+        "bearing": 182,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-14",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2401-15100",
+        "name": "Southwick",
+        "bearing": 183,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2100-15000",
+        "name": "Hove",
+        "bearing": 191,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2100-14950",
+        "name": "Brighton Central",
+        "bearing": 195,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brighton",
+        "name": "Brighton Beach",
+        "bearing": 180,
+        "bindings": 2,
+        "observations": []
+      },
+      {
+        "id": "ea-ukj2100-14900",
+        "name": "Brighton Kemptown",
+        "bearing": 201,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2100-14850",
+        "name": "Rottingdean Beach",
+        "bearing": 199,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2100-14800",
+        "name": "Saltdean",
+        "bearing": 190,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 10,
+                "qualifier": "<"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ea-ukj2203-14600",
+        "name": "Seaford",
+        "bearing": 217,
+        "bindings": 4,
+        "observations": [
+          {
+            "provider": "Environment Agency",
+            "status": "stale",
+            "sample": "2026-09-10",
+            "counts": [
+              {
+                "key": "escherichiaColi",
+                "value": 10,
+                "qualifier": "<"
+              },
+              {
+                "key": "intestinalEnterococci",
+                "value": 91,
+                "qualifier": "="
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "tests": 115,
+    "lint": "passed",
+    "build": "passed",
+    "shorelineReproduction": 101,
+    "importRerun": "13 bindings, 0 orientation updates",
+    "codeDeployment": "https://safe-to-swim-3fnuh4jt4-gergely-s-projects.vercel.app",
+    "codeCommit": "aa076799a26375b5575972c307d834e588ccb392"
+  },
+  "sources": [
+    {
+      "id": "ea-ukj2402-15500",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2402-15500.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15500/date/20260914/time/103700/recordDate/20260914.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2407-15450",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2407-15450.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15450/date/20260914/time/112400/recordDate/20260914.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2407-15400",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2407-15400.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15400/date/20260914/time/120200/recordDate/20260919.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2407-15350",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2407-15350.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15350/date/20260914/time/125900/recordDate/20260919.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2401-15300",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2401-15300.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15300/date/20260914/time/134700/recordDate/20260914.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2401-15200",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2401-15200.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15200/date/20260914/time/143300/recordDate/20260914.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2401-15100",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2401-15100.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15100/date/20260910/time/144400/recordDate/20260910.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2100-15000",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2100-15000.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/15000/date/20260910/time/140900/recordDate/20260910.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2100-14950",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2100-14950.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14950/date/20260910/time/135400/recordDate/20260910.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2100-14900",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2100-14900.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14900/date/20260910/time/133500/recordDate/20260910.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2100-14850",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2100-14850.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14850/date/20260910/time/131000/recordDate/20260910.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2100-14800",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2100-14800.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14800/date/20260910/time/124400/recordDate/20260910.json",
+      "sampleStatus": 200
+    },
+    {
+      "id": "ea-ukj2203-14600",
+      "identityUrl": "https://environment.data.gov.uk/doc/bathing-water/ukj2203-14600.json",
+      "identityMatch": true,
+      "sampleUrl": "https://environment.data.gov.uk/data/bathing-water-quality/in-season/sample/point/14600/date/20260910/time/120900/recordDate/20260910.json",
+      "sampleStatus": 200
+    }
+  ],
+  "notes": [
+    "No risk warning automation added; each exact EA profile is linked.",
+    "Existing curated Brighton Beach has no exact EA sample binding; nearby annual association preserved.",
+    "Littlehampton OSM request HTTP 429; unknown bearing retained."
+  ]
+}
