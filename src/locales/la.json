@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Conspectus litoris propinqui",
     "verifiedOn": "Indicium comprobatum: {date}",
     "south": "Camera meridiana",
     "north": "Camera septentrionalis",

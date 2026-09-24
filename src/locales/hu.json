@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Közeli partkép",
     "verifiedOn": "Forrás ellenőrizve: {date}",
     "south": "Déli kamera",
     "north": "Északi kamera",

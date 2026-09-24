@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Utsikt over nærliggende bredd",
     "verifiedOn": "Oppføring sjekket: {date}",
     "south": "Sørkamera",
     "north": "Nordkamera",

@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Näkymä läheiselle rannalle",
     "verifiedOn": "Kohde tarkistettu: {date}",
     "south": "Eteläkamera",
     "north": "Pohjoiskamera",

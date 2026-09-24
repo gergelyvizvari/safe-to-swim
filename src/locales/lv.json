@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Skats uz tuvējo krastu",
     "verifiedOn": "Ieraksts pārbaudīts: {date}",
     "south": "Dienvidu kamera",
     "north": "Ziemeļu kamera",

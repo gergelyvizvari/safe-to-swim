@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Yaxınlıqdakı sahilin mənzərəsi",
     "verifiedOn": "Qeyd yoxlanılıb: {date}",
     "south": "Cənub kamerası",
     "north": "Şimal kamerası",

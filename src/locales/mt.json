@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Veduta tax-xatt fil-qrib",
     "verifiedOn": "Rekord ivverifikat: {date}",
     "south": "Kamera tan-nofsinhar",
     "north": "Kamera tat-tramuntana",

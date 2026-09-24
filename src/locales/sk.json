@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Pohľad na blízky breh",
     "verifiedOn": "Záznam overený: {date}",
     "south": "Južná kamera",
     "north": "Severná kamera",

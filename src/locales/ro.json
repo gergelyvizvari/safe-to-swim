@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Vedere a malului din apropiere",
     "verifiedOn": "Înregistrare verificată: {date}",
     "south": "Camera sudică",
     "north": "Camera nordică",

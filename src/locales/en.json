@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Nearby shore view",
     "verifiedOn": "Listing verified: {date}",
     "south": "South camera",
     "north": "North camera",

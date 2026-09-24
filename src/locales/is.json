@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Útsýni yfir nærliggjandi strönd",
     "verifiedOn": "Skráning staðfest: {date}",
     "south": "Suðurmyndavél",
     "north": "Norðurmyndavél",

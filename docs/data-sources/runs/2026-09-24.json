@@ -1,0 +1,783 @@
+{
+  "date": "2026-09-24",
+  "startedOn": "2026-09-23",
+  "status": "verified-awaiting-publication",
+  "selection": "Complete interrupted Austrian batch: 15 previously unreviewed active lake sites, selected from configured Supabase catalogue. No additional overlapping batch.",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "preparedDatabaseImports": 0,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "cameraCoveragePrepared": 2,
+    "verifiedLiveCameras": 1,
+    "integratedCamerasInCode": 1,
+    "integratedCamerasInProduction": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "shoreOrientationNotApplicable": 15
+  },
+  "locations": [
+    {
+      "locationId": "eea-AT3350005100010010",
+      "provider": "ages-austria",
+      "externalId": "AT3350005100010010",
+      "officialName": "Achensee, Nord",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "47.498401",
+        "longitude": "11.7067",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000599,
+      "longitudeDelta": -0.0005,
+      "latestSampleRaw": {
+        "D": "25.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 18.6,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT3350005600010020",
+      "provider": "ages-austria",
+      "externalId": "AT3350005600010020",
+      "officialName": "Achensee, Strandbad Buchau",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "47.434398",
+        "longitude": "11.7257",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000602,
+      "longitudeDelta": -0.0005,
+      "latestSampleRaw": {
+        "D": "25.08.2026",
+        "O_E": null,
+        "E": 15,
+        "O_EC": null,
+        "E_C": 15,
+        "W": 18.9,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT3350005600010030",
+      "provider": "ages-austria",
+      "externalId": "AT3350005600010030",
+      "officialName": "Achensee, Süd",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "47.443901",
+        "longitude": "11.702799",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000599,
+      "longitudeDelta": -0.000501,
+      "latestSampleRaw": {
+        "D": "25.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 18.5,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT2110002700010010",
+      "provider": "ages-austria",
+      "externalId": "AT2110002700010010",
+      "officialName": "Afritzer See, Südost",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "46.7378",
+        "longitude": "13.7725",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.0004,
+      "longitudeDelta": -0.0007,
+      "latestSampleRaw": {
+        "D": "10.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": null,
+        "E_C": 30,
+        "W": 24,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT2110002700010020",
+      "provider": "ages-austria",
+      "externalId": "AT2110002700010020",
+      "officialName": "Afritzer See, Südwest",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "46.738098",
+        "longitude": "13.7714",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000402,
+      "longitudeDelta": -0.0007,
+      "latestSampleRaw": {
+        "D": "10.08.2026",
+        "O_E": null,
+        "E": 15,
+        "O_EC": null,
+        "E_C": 30,
+        "W": 23.8,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT2220000400010030",
+      "provider": "ages-austria",
+      "externalId": "AT2220000400010030",
+      "officialName": "Altausseersee Nord",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "47.642601",
+        "longitude": "13.778499",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000499,
+      "longitudeDelta": -0.000801,
+      "latestSampleRaw": {
+        "D": "20.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": null,
+        "E_C": 21,
+        "W": 23.2,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT2220000400010020",
+      "provider": "ages-austria",
+      "externalId": "AT2220000400010020",
+      "officialName": "Altausseersee Süd",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "47.634799",
+        "longitude": "13.7782",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000501,
+      "longitudeDelta": -0.0008,
+      "latestSampleRaw": {
+        "D": "20.08.2026",
+        "O_E": null,
+        "E": 53,
+        "O_EC": null,
+        "E_C": 21,
+        "W": 21.9,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT2220000400010010",
+      "provider": "ages-austria",
+      "externalId": "AT2220000400010010",
+      "officialName": "Altausseersee West",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "47.636199",
+        "longitude": "13.769399",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000601,
+      "longitudeDelta": -0.000801,
+      "latestSampleRaw": {
+        "D": "20.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 22.3,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002100010010",
+      "provider": "ages-austria",
+      "externalId": "AT1300002100010010",
+      "officialName": "Alte Donau, Angelibad",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.250099",
+        "longitude": "16.402099",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000501,
+      "longitudeDelta": -0.001201,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": null,
+        "E": 61,
+        "O_EC": null,
+        "E_C": 94,
+        "W": 23.6,
+        "S": 1.5,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002200010020",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010020",
+      "officialName": "Alte Donau, Gänsehäufel Ost",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.227798",
+        "longitude": "16.433799",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000502,
+      "longitudeDelta": -0.001201,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 24.1,
+        "S": 2.4,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002200010030",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010030",
+      "officialName": "Alte Donau, Gänsehäufel Süd",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.225299",
+        "longitude": "16.432699",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000501,
+      "longitudeDelta": -0.001201,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": null,
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 24.3,
+        "S": 1.2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002200010040",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010040",
+      "officialName": "Alte Donau, Gänsehäufel West",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.231998",
+        "longitude": "16.428199",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000502,
+      "longitudeDelta": -0.001201,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 24.2,
+        "S": 2.3,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002200010050",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010050",
+      "officialName": "Alte Donau, Kaiserwasser",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.231998",
+        "longitude": "16.421899",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.000502,
+      "longitudeDelta": -0.001201,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": null,
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 24.4,
+        "S": 1.2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002200010060",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010060",
+      "officialName": "Alte Donau, Strandbad",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.2434",
+        "longitude": "16.417999",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.0005,
+      "longitudeDelta": -0.001201,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 24.5,
+        "S": 2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    },
+    {
+      "locationId": "eea-AT1300002200010070",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010070",
+      "officialName": "Untere Alte Donau",
+      "identityVerified": true,
+      "coordinateMappingVerified": false,
+      "providerCoordinates": {
+        "latitude": "48.2192",
+        "longitude": "16.436",
+        "crs": "undocumented"
+      },
+      "latitudeDelta": -0.0005,
+      "longitudeDelta": -0.0012,
+      "latestSampleRaw": {
+        "D": "31.08.2026",
+        "O_E": "<N",
+        "E": 15,
+        "O_EC": "<N",
+        "E_C": 15,
+        "W": 24.7,
+        "S": 2.2,
+        "A": 1
+      },
+      "closureFlagRaw": "0",
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled."
+    }
+  ],
+  "provider": {
+    "id": "ages-austria",
+    "url": "https://www.ages.at/typo3temp/badegewaesser_db.json",
+    "documentation": "https://www.ages.at/umwelt/wasser/badegewaesser-monitoring",
+    "httpStatus": 200,
+    "version": "121819",
+    "kind": "measured laboratory samples; temperature measured on sample date",
+    "units": {
+      "E": "KBE/100ml",
+      "E_C": "KBE/100ml",
+      "W": "°C",
+      "S": "m"
+    },
+    "unresolved": "CRS/datum, <N qualifier semantics, closure flags lack publication time. Do not interpret A or annual classifications as current safety.",
+    "sampleResolution": "day only; intermittent seasonal sampling; latest selected samples August 10–31, 24–45 days old",
+    "licenceReference": "https://www.opendataportal.at/datasets/2646025c-8ab9-4850-b76c-c2f508b34798?locale=de",
+    "licence": "Catalogue states CC BY 3.0 AT; attribution required before data reuse",
+    "authentication": "public GET, no credentials",
+    "rateLimit": "not documented; one shared catalogue fetch"
+  },
+  "otherSources": [
+    {
+      "id": "geosphere-warnings",
+      "documentation": "https://openapi.hub.geosphere.at/warnapi/v1/",
+      "probeUrl": "https://warnungen.zamg.at/wsapp/api/getWarningsForCoords?lon=16.4033&lat=48.2506&lang=en",
+      "checkedAt": "2026-09-23",
+      "status": "candidate",
+      "result": "HTTP 200 Feature for Wien-Floridsdorf with empty warnings. One municipal point probe, not 15-site coverage. Geometry uses EPSG:31287. No adapter or bindings added.",
+      "authentication": "no auth used",
+      "rateLimit": "not established",
+      "licence": "not yet established for integration",
+      "nextReviewAt": "2026-10-24"
+    },
+    {
+      "id": "tiwag-achensee",
+      "url": "https://www.tiwag.at/unternehmen/ueber-uns/webcam/",
+      "status": "candidate",
+      "reason": "Buoy wind and water temperature charts; station coordinate and timestamped machine-readable series unverified.",
+      "nextReviewAt": "2026-10-24"
+    }
+  ],
+  "missingVariables": "No verified lake-specific wave/current or timestamped machine-readable algae alert source. Existing weather forecasts preserved; marine is not attached to lakes.",
+  "cameras": [
+    {
+      "cameraId": "alte-donau-yachtclub-seewind",
+      "locationIds": [
+        "eea-AT1300002100010010",
+        "eea-AT1300002200010060"
+      ],
+      "operator": "Yachtclub Seewind",
+      "pageUrl": "https://www.yachtclub-seewind.at/main/wetter/webcam/",
+      "latitude": 48.248083,
+      "longitude": 16.4125604,
+      "coordinateEvidence": {
+        "url": "https://www.openstreetmap.org/way/224490143",
+        "licence": "ODbL",
+        "precision": "facility centroid, not surveyed lens position",
+        "operatorAddressUrl": "https://www.yachtclub-seewind.at/main/segeln/revier-alte-donau/"
+      },
+      "fieldOfView": "Operator describes west-facing view across upper Old Danube, opposite bank about 220 m away. Actual image shows lake and marina. Nearby shore view, neither beach is claimed visible. Lower Old Danube and Neue Donau excluded.",
+      "checkedAt": "2026-09-24T10:18:40Z",
+      "imageTimestamp": "2026-09-24T12:18:19+02:00",
+      "previousImageTimestamp": "2026-09-23T10:26:36+02:00",
+      "freshness": "Current dated image visually verified on operator page; no automatic camera freshness monitoring.",
+      "type": "external-page",
+      "embedAllowed": "not established; no image or stream embedded",
+      "status": "integrated-in-code",
+      "nextReviewAt": "2026-10-24",
+      "municipalReference": "https://www.wien.gv.at/inhalt/webcam"
+    },
+    {
+      "cameraId": "achensee-nordufer",
+      "locationIds": [
+        "eea-AT3350005100010010",
+        "eea-AT3350005600010020",
+        "eea-AT3350005600010030"
+      ],
+      "operator": "Achensee tourism",
+      "pageUrl": "https://www.achensee.com/en/live/webcams/",
+      "coordinates": null,
+      "fieldOfView": "Nordufer frame observed Sept 23 shows lawn/playground and narrow water channel; exact bathing-site view unverified. Atoll rooftop candidate not image-verified.",
+      "type": "image-page",
+      "freshness": "Nordufer frame dated 2026-09-23 10:25; other candidate unknown",
+      "embedAllowed": "not established",
+      "status": "candidate",
+      "checkedAt": "2026-09-23",
+      "nextReviewAt": "2026-10-24"
+    },
+    {
+      "cameraId": "altaussee-feuerwehr",
+      "locationIds": [
+        "eea-AT2220000400010030",
+        "eea-AT2220000400010020",
+        "eea-AT2220000400010010"
+      ],
+      "operator": "Feuerwehr Altaussee (municipal directory link)",
+      "pageUrl": "https://altaussee.at/links-und-tipps/",
+      "coordinates": null,
+      "fieldOfView": "Not verified for the three selected bathing sites; mountain panoramas and neighbouring Grundlsee are not substitutes.",
+      "type": "directory-link",
+      "freshness": "unknown",
+      "embedAllowed": "not established",
+      "status": "candidate",
+      "checkedAt": "2026-09-23",
+      "nextReviewAt": "2026-10-24"
+    },
+    {
+      "cameraId": "afritzer-see-tourism-search",
+      "locationIds": [
+        "eea-AT2110002700010010",
+        "eea-AT2110002700010020"
+      ],
+      "operator": "Kärnten tourism",
+      "pageUrl": "https://www.kaernten.at/seen/afritzer-see-brennsee/",
+      "coordinates": null,
+      "fieldOfView": "Static 360-degree tours do not establish a live camera; Brennsee is a different water body.",
+      "type": "static-tour",
+      "freshness": "not live",
+      "embedAllowed": "not established",
+      "status": "not-found",
+      "checkedAt": "2026-09-23",
+      "nextReviewAt": "2026-10-24"
+    }
+  ],
+  "excludedCameraAssignments": [
+    {
+      "locationId": "eea-AT1300002200010020",
+      "reason": "Lower Old Danube / Kaiserwasser are outside the verified upper-lake camera assignment; no nearest-distance substitution."
+    },
+    {
+      "locationId": "eea-AT1300002200010030",
+      "reason": "Lower Old Danube / Kaiserwasser are outside the verified upper-lake camera assignment; no nearest-distance substitution."
+    },
+    {
+      "locationId": "eea-AT1300002200010040",
+      "reason": "Lower Old Danube / Kaiserwasser are outside the verified upper-lake camera assignment; no nearest-distance substitution."
+    },
+    {
+      "locationId": "eea-AT1300002200010050",
+      "reason": "Lower Old Danube / Kaiserwasser are outside the verified upper-lake camera assignment; no nearest-distance substitution."
+    },
+    {
+      "locationId": "eea-AT1300002200010070",
+      "reason": "Lower Old Danube / Kaiserwasser are outside the verified upper-lake camera assignment; no nearest-distance substitution."
+    }
+  ],
+  "operations": {
+    "checkedAt": "2026-09-24T10:18:16.293Z",
+    "configuredAustriaSites": 254,
+    "states": [
+      {
+        "source_id": "official-windForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-24T09:52:00.451+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-24T10:52:01.264+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability",
+        "error_code": null
+      },
+      {
+        "source_id": "official-quality",
+        "status": "healthy",
+        "checked_at": "2026-09-23T15:40:01.002+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-24T15:40:04.729+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations",
+        "error_code": null
+      },
+      {
+        "source_id": "open-meteo-weather",
+        "status": "healthy",
+        "checked_at": "2026-09-24T10:13:00.75+00:00",
+        "published_at": "2026-09-24T10:00:00+00:00",
+        "next_check_at": "2026-09-24T10:18:01.369+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary",
+        "error_code": null
+      },
+      {
+        "source_id": "official-waveForecast",
+        "status": "healthy",
+        "checked_at": "2026-09-24T09:39:00.484+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-24T10:39:01.355+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability",
+        "error_code": null
+      },
+      {
+        "source_id": "open-meteo-marine",
+        "status": "healthy",
+        "checked_at": "2026-09-24T10:16:00.355+00:00",
+        "published_at": "2026-09-24T10:15:00+00:00",
+        "next_check_at": "2026-09-24T10:21:01.204+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "model_canary",
+        "error_code": null
+      },
+      {
+        "source_id": "official-temperature",
+        "status": "healthy",
+        "checked_at": "2026-09-24T10:17:00.52+00:00",
+        "published_at": "2026-09-24T07:40:00+00:00",
+        "next_check_at": "2026-09-24T10:18:01.499+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations",
+        "error_code": null
+      },
+      {
+        "source_id": "sepa",
+        "status": "unavailable",
+        "checked_at": "2026-09-22T15:27:01.367+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-29T15:27:01.912+00:00",
+        "consecutive_failures": 3,
+        "check_kind": null,
+        "error_code": "fetch_or_parse_failed"
+      },
+      {
+        "source_id": "nrw",
+        "status": "unavailable",
+        "checked_at": "2026-09-22T15:27:01.366+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-29T15:27:02.303+00:00",
+        "consecutive_failures": 2,
+        "check_kind": "link_reachability",
+        "error_code": "fetch_or_parse_failed"
+      },
+      {
+        "source_id": "daera",
+        "status": "healthy",
+        "checked_at": "2026-09-22T15:27:01.368+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-29T15:27:02.104+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability",
+        "error_code": null
+      },
+      {
+        "source_id": "ea",
+        "status": "unavailable",
+        "checked_at": "2026-09-22T15:27:01.365+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-29T15:27:02.515+00:00",
+        "consecutive_failures": 2,
+        "check_kind": "link_reachability",
+        "error_code": "fetch_or_parse_failed"
+      },
+      {
+        "source_id": "eea",
+        "status": "healthy",
+        "checked_at": "2026-09-22T15:27:01.365+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-29T15:27:02.833+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "link_reachability",
+        "error_code": null
+      },
+      {
+        "source_id": "official-storm",
+        "status": "healthy",
+        "checked_at": "2026-09-24T10:17:00.52+00:00",
+        "published_at": "2026-09-24T08:44:00+00:00",
+        "next_check_at": "2026-09-24T10:18:01.278+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations",
+        "error_code": null
+      },
+      {
+        "source_id": "ea-brighton-samples",
+        "status": "unavailable",
+        "checked_at": "2026-09-24T07:59:00.804+00:00",
+        "published_at": null,
+        "next_check_at": "2026-09-24T13:59:01.626+00:00",
+        "consecutive_failures": 9,
+        "check_kind": "observations",
+        "error_code": "ea_http_403"
+      },
+      {
+        "source_id": "official-wind",
+        "status": "healthy",
+        "checked_at": "2026-09-24T10:18:00.319+00:00",
+        "published_at": "2026-09-24T10:16:00+00:00",
+        "next_check_at": "2026-09-24T10:19:01.449+00:00",
+        "consecutive_failures": 0,
+        "check_kind": "observations",
+        "error_code": null
+      }
+    ],
+    "scheduler": "Recent source_state timestamps demonstrate continuing collection; cron SQL configuration not directly queried. No manual source-checks trigger, no new scheduler.",
+    "databaseChanges": "none",
+    "schema": "Existing catalogue relations readable; repository migration keeps raw data service-role-only. No live DDL assertion beyond successful relation reads."
+  },
+  "productionBefore": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-09-24T10:18:37.195Z",
+    "cataloguePages": 4,
+    "sitesVerified": 15,
+    "marineOnLakes": 0,
+    "dynamicObservations": 0
+  },
+  "verification": {
+    "tests": 117,
+    "lint": "passed",
+    "build": "passed",
+    "translations": "44 packs passed",
+    "browser": "Angelibad exact site selected; nearby-shore title, 0.7 km and verified date checked. Desktop 1280px and mobile 375px card visually checked. External page verified directly. No embedded or cached camera image.",
+    "limitations": "Future camera freshness and availability require scheduled manual review; no claim of continuous live monitoring."
+  }
+}

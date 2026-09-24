@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Yakındaki kıyı manzarası",
     "verifiedOn": "Kayıt doğrulandı: {date}",
     "south": "Güney kamerası",
     "north": "Kuzey kamerası",

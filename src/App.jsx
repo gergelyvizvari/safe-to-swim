@@ -563,7 +563,7 @@ function WebcamPanel({ location, locale, t }) {
   const [isLoaded, setIsLoaded] = useState(false)
   const camera = webcam?.streams?.find((stream) => stream.id === activeCamera) ?? webcam?.streams?.[0]
 
-  const distance = webcam?.distance > 1
+  const distance = webcam?.coverage === 'nearby-shore' || webcam?.distance > 1
     ? new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(webcam.distance)
     : null
 
@@ -576,7 +576,7 @@ function WebcamPanel({ location, locale, t }) {
   return (
     <section className="panel webcam-panel" aria-labelledby="webcam-title">
       <div className="section-heading webcam-heading">
-        <div><span className="eyebrow">{t('webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: webcam?.name ?? locationDisplayName(location, locale) })}</h2></div>
+        <div><span className="eyebrow">{t(webcam.coverage === 'nearby-shore' ? 'webcam.nearbyShore' : 'webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: webcam?.name ?? locationDisplayName(location, locale) })}</h2></div>
         {webcam && <span className="camera-live"><i />{t('webcam.verified')}</span>}
       </div>
       {nearbyWebcams.length > 1 && <label className="webcam-selector"><span>{t('webcam.selector')}</span>

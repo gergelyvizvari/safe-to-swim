@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Netoliese esančio kranto vaizdas",
     "verifiedOn": "Įrašas patikrintas: {date}",
     "south": "Pietinė kamera",
     "north": "Šiaurinė kamera",

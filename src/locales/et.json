@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Vaade lähedal asuvale kaldale",
     "verifiedOn": "Kirje kontrollitud: {date}",
     "south": "Lõunakaamera",
     "north": "Põhjakaamera",

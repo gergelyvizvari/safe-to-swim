@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Vista della riva vicina",
     "verifiedOn": "Fonte verificata: {date}",
     "south": "Telecamera sud",
     "north": "Telecamera nord",

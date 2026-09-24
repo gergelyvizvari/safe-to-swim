@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Radharc ar an gcladach in aice láimhe",
     "verifiedOn": "Liostú fíoraithe: {date}",
     "south": "Ceamara theas",
     "north": "Ceamara thuaidh",

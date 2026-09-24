@@ -14,6 +14,15 @@ const BRIGHTON_STREAMS = [
 ]
 
 export const VERIFIED_WEBCAMS = [
+  {
+    id: 'alte-donau-yachtclub-seewind', name: 'Yachtclub Seewind · Obere Alte Donau',
+    latitude: 48.248083, longitude: 16.4125604,
+    sourceName: 'Yachtclub Seewind', pageUrl: 'https://www.yachtclub-seewind.at/main/wetter/webcam/',
+    verifiedOn: '2026-09-24', coverage: 'nearby-shore', waterType: 'lake',
+    // Upper Old Danube shore view, not a direct view of either bathing site.
+    // The lower Old Danube and Neue Donau are deliberately not assigned.
+    locationIds: ['eea-AT1300002100010010', 'eea-AT1300002200010060'],
+  },
   ...BALATON_WEBCAMS,
   {
     id: 'brighton-i360', name: 'Brighton i360', latitude: 50.8211, longitude: -0.1495,
@@ -75,7 +84,8 @@ function distanceInKm(first, second) {
 
 export function getWebcamsForLocation(location, maximumDistanceKm = 20) {
   if (!location) return []
-  return VERIFIED_WEBCAMS.filter(webcam => !webcam.waterBodyId || webcam.waterBodyId === 'balaton' && (location.waterBodyId === 'balaton' || isBalaton(location)))
+  return VERIFIED_WEBCAMS.filter(webcam => (!webcam.locationIds || webcam.locationIds.includes(location.id) && location.waterType === webcam.waterType))
+    .filter(webcam => !webcam.waterBodyId || webcam.waterBodyId === 'balaton' && (location.waterBodyId === 'balaton' || isBalaton(location)))
     .map(webcam => ({ ...webcam, distance: distanceInKm(location, webcam) }))
     .filter(webcam => webcam.distance <= maximumDistanceKm)
     .sort((first, second) => first.distance - second.distance)

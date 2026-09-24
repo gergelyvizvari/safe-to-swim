@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Zicht op de nabijgelegen oever",
     "verifiedOn": "Vermelding gecontroleerd: {date}",
     "south": "Zuidcamera",
     "north": "Noordcamera",

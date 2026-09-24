@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Pamje e bregut aty pranë",
     "verifiedOn": "Regjistrimi u verifikua: {date}",
     "south": "Kamera jugore",
     "north": "Kamera veriore",

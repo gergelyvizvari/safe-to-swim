@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Vista da la riva vischina",
     "verifiedOn": "Endataziun verifitgada: {date}",
     "south": "Camera dal sid",
     "north": "Camera dal nord",

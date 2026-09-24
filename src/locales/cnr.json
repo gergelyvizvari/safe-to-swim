@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Pogled na obližnju obalu",
     "verifiedOn": "Zapis provjeren: {date}",
     "south": "Južna kamera",
     "north": "Sjeverna kamera",

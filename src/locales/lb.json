@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Bléck op dat no geleeënt Ufer",
     "verifiedOn": "Entrag iwwerpréift: {date}",
     "south": "Südkamera",
     "north": "Nordkamera",

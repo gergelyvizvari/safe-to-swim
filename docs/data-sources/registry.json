@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-09-22",
-  "nextCountry": "Austria",
+  "lastRun": "2026-09-24",
+  "nextCountry": "Slovenia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -3823,6 +3823,186 @@
       "scope": "Exact official ID and sampling coordinates; real latest lab counts integrated and manually collected through the same adapter.",
       "reason": "Vercel EA request returned HTTP 403 twice; local official API access succeeds. Live operator collection stored in shared source_state; cloud failure/retry schedule preserved. Samples stale, no current-water clearance.",
       "shoreOrientation": 217
+    },
+    {
+      "locationId": "eea-AT3350005100010010",
+      "provider": "ages-austria",
+      "externalId": "AT3350005100010010",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT3350005600010020",
+      "provider": "ages-austria",
+      "externalId": "AT3350005600010020",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT3350005600010030",
+      "provider": "ages-austria",
+      "externalId": "AT3350005600010030",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT2110002700010010",
+      "provider": "ages-austria",
+      "externalId": "AT2110002700010010",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT2110002700010020",
+      "provider": "ages-austria",
+      "externalId": "AT2110002700010020",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT2220000400010030",
+      "provider": "ages-austria",
+      "externalId": "AT2220000400010030",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT2220000400010020",
+      "provider": "ages-austria",
+      "externalId": "AT2220000400010020",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT2220000400010010",
+      "provider": "ages-austria",
+      "externalId": "AT2220000400010010",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002100010010",
+      "provider": "ages-austria",
+      "externalId": "AT1300002100010010",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002200010020",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010020",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002200010030",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010030",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002200010040",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010040",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002200010050",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010050",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002200010060",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010060",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
+    },
+    {
+      "locationId": "eea-AT1300002200010070",
+      "provider": "ages-austria",
+      "externalId": "AT1300002200010070",
+      "identityVerified": true,
+      "status": "candidate",
+      "checkedAt": "2026-09-24",
+      "nextReviewAt": "2026-10-24",
+      "reason": "Exact official ID and name match. Coordinate offset remains unresolved; no guessed datum transform or relaxed runtime matching. August samples are not current bathing safety. No runtime adapter or binding enabled.",
+      "country": "Austria",
+      "evidence": "runs/2026-09-24.json"
     }
   ]
 }

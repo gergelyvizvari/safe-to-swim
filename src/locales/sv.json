@@ -248,6 +248,7 @@
     }
   },
   "webcam": {
+    "nearbyShore": "Vy över närliggande strand",
     "verifiedOn": "Uppgift verifierad: {date}",
     "south": "Södra kameran",
     "north": "Norra kameran",
