@@ -1,18 +1,18 @@
 {
   "date": "2026-09-24",
   "startedOn": "2026-09-23",
-  "status": "verified-awaiting-publication",
+  "status": "completed-with-research-candidates",
   "selection": "Complete interrupted Austrian batch: 15 previously unreviewed active lake sites, selected from configured Supabase catalogue. No additional overlapping batch.",
   "counts": {
     "reviewed": 15,
     "officialIdentitiesVerified": 15,
     "preparedDatabaseImports": 0,
     "newDynamicIntegrations": 0,
-    "newProductionCoverage": 0,
+    "newProductionCoverage": 2,
     "cameraCoveragePrepared": 2,
     "verifiedLiveCameras": 1,
     "integratedCamerasInCode": 1,
-    "integratedCamerasInProduction": 0,
+    "integratedCamerasInProduction": 1,
     "shoreOrientationsDetermined": 0,
     "shoreOrientationsAppliedInDatabase": 0,
     "shoreOrientationNotApplicable": 15
@@ -535,7 +535,7 @@
       "freshness": "Current dated image visually verified on operator page; no automatic camera freshness monitoring.",
       "type": "external-page",
       "embedAllowed": "not established; no image or stream embedded",
-      "status": "integrated-in-code",
+      "status": "integrated",
       "nextReviewAt": "2026-10-24",
       "municipalReference": "https://www.wien.gv.at/inhalt/webcam"
     },
@@ -762,7 +762,12 @@
     ],
     "scheduler": "Recent source_state timestamps demonstrate continuing collection; cron SQL configuration not directly queried. No manual source-checks trigger, no new scheduler.",
     "databaseChanges": "none",
-    "schema": "Existing catalogue relations readable; repository migration keeps raw data service-role-only. No live DDL assertion beyond successful relation reads."
+    "schema": "Existing catalogue relations readable; repository migration keeps raw data service-role-only. No live DDL assertion beyond successful relation reads.",
+    "schedulerSecondSample": {
+      "official-temperature": "2026-09-24T10:23:00.299+00:00",
+      "official-wind": "2026-09-24T10:22:00.351+00:00",
+      "interpretation": "Both checked_at values advanced since first sample; no manual trigger."
+    }
   },
   "productionBefore": {
     "origin": "https://safe-to-swim.vercel.app",
@@ -779,5 +784,20 @@
     "translations": "44 packs passed",
     "browser": "Angelibad exact site selected; nearby-shore title, 0.7 km and verified date checked. Desktop 1280px and mobile 375px card visually checked. External page verified directly. No embedded or cached camera image.",
     "limitations": "Future camera freshness and availability require scheduled manual review; no claim of continuous live monitoring."
+  },
+  "productionAfter": {
+    "commit": "02f85a37095c78e39672b7c92ae8935c1671044e",
+    "deployment": "https://safe-to-swim-p14ueqscb-gergely-s-projects.vercel.app",
+    "status": "Ready",
+    "alias": "https://safe-to-swim.vercel.app",
+    "apiCheckedAt": "2026-09-24T10:25:24.121Z",
+    "cataloguePages": 4,
+    "sitesVerified": 15,
+    "marineOnLakes": 0,
+    "cameraLocationsVerified": [
+      "eea-AT1300002100010010",
+      "eea-AT1300002200010060"
+    ],
+    "ui": "Hungarian production UI shows nearby shore label, 0.7 km distance, source page and Sept 24 verification date at both sites."
   }
 }
