@@ -1,0 +1,870 @@
+{
+  "date": "2026-09-25",
+  "status": "completed-with-prepared-import",
+  "selection": "15 previously unreviewed Slovenian coastal locations in configured Supabase; all lacked shore orientation. Same batch screened for water quality, marine measurements and cameras.",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "preparedDatabaseLocations": 13,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "verifiedLiveCameras": 0,
+    "integratedCamerasInCode": 0,
+    "integratedCamerasInProduction": 0,
+    "shoreOrientationsDetermined": 13,
+    "shoreOrientationsIntegratedInStaticFallback": 13,
+    "shoreOrientationsAppliedInDatabase": 0
+  },
+  "sources": {
+    "identity": "https://gis.arso.gov.si/arcgis/rest/services/StoryMap/KOPALNE_VODE_STORY_MAP/MapServer/7/query?where=1%3D1&outFields=EU_SIF,IME_MM,KOP_OBMOCJ,SIF_MM&outSR=4326&f=json",
+    "quality": "https://gis.arso.gov.si/arcgis/rest/services/Portal/Kopalne_vode_skladnost_MM_2024/MapServer/18/query?where=1%3D1&outFields=*&f=json",
+    "hydro": "https://www.arso.gov.si/xml/vode/hidro_podatki_zadnji.xml",
+    "hydroDocumentation": "https://www.arso.gov.si/vode/podatki/hidro_podatki_xml.html",
+    "bathingDocumentation": "https://www.arso.gov.si/vode/kopalne%20vode/",
+    "cameraDiscovery": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/"
+  },
+  "locations": [
+    {
+      "locationId": "eea-SI00C1705000K51010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K51011",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "pomol 2 (stopnice levo)",
+      "stationCoordinates": {
+        "x": 13.731019516933584,
+        "y": 45.577980020002315
+      },
+      "stationDistanceM": 0,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K51011",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "access-pending",
+      "seaBearing": null,
+      "shoreReason": "Bounded OSM API returned 429; no retry or neighbouring bearing copied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K53010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K53021",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "sredina, pri stolpu",
+      "stationCoordinates": {
+        "x": 13.710411839522056,
+        "y": 45.546776791146634
+      },
+      "stationDistanceM": 1,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K53021",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 10,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K35010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K35021",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "Fiesa, pomol desno",
+      "stationCoordinates": {
+        "x": 13.58051317792354,
+        "y": 45.525484683536966
+      },
+      "stationDistanceM": 1,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K35021",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "access-pending",
+      "seaBearing": null,
+      "shoreReason": "Bounded OSM API returned 429; no retry or neighbouring bearing copied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K56026",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K56026",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "sredina, z obale",
+      "stationCoordinates": {
+        "x": 13.56664439201721,
+        "y": 45.52062327814303
+      },
+      "stationDistanceM": 2,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K56026",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 244,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K56023",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K56023",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "sredina (2. stopnice)",
+      "stationCoordinates": {
+        "x": 13.578509803501559,
+        "y": 45.51557047154375
+      },
+      "stationDistanceM": 2,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K56023",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 209,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1304000K32050",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K32052",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "pri svetilniku, pomol (stopnice levo)",
+      "stationCoordinates": {
+        "x": 13.656843153368067,
+        "y": 45.5418941430358
+      },
+      "stationDistanceM": 1,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K32052",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 359,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1304000K32010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K32011",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "stopnice (zaliv desno)",
+      "stationCoordinates": {
+        "x": 13.648033243641875,
+        "y": 45.53387159021591
+      },
+      "stationDistanceM": 1,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K32011",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 359,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K00226",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K00226",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "Punta, ob stopnicah (sredina)",
+      "stationCoordinates": {
+        "x": 13.564611246366354,
+        "y": 45.53060401163484
+      },
+      "stationDistanceM": 2,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K00226",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 358,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K35031",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K35031",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "sredina (2. stopnice)",
+      "stationCoordinates": {
+        "x": 13.587737966511808,
+        "y": 45.5022772422652
+      },
+      "stationDistanceM": 2,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K35031",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 316,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K31010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K31023",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "Mandrač Molet (z obale)",
+      "stationCoordinates": {
+        "x": 13.70512101233118,
+        "y": 45.547409807602364
+      },
+      "stationDistanceM": 9,
+      "sampleRaw": [],
+      "sampleDates": [],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 10,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K52010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K52011",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "pomol 1 (stopnice)",
+      "stationCoordinates": {
+        "x": 13.725388588962646,
+        "y": 45.549914380322576
+      },
+      "stationDistanceM": 0,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K52011",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 328,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K62010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K62011",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "pri stolpu",
+      "stationCoordinates": {
+        "x": 13.591388547987208,
+        "y": 45.50315918416197
+      },
+      "stationDistanceM": 0,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K62011",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 353,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1304000K31070",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K31071",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "stopnice (kamnite)",
+      "stationCoordinates": {
+        "x": 13.649412410931307,
+        "y": 45.534022883878016
+      },
+      "stationDistanceM": 0,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K31071",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 352,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K50010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K50011",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "pomol ob bazenu (stopnice)",
+      "stationCoordinates": {
+        "x": 13.707571033241061,
+        "y": 45.58745331043348
+      },
+      "stationDistanceM": 1,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K50011",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 212,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K56010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K56011",
+      "identityVerified": true,
+      "identityEvidence": "Exact EU_SIF match in official annual station layer; station ID joins current quality table. Not inferred from similar suffixes.",
+      "stationName": "pomol sredina",
+      "stationCoordinates": {
+        "x": 13.599134176270136,
+        "y": 45.525705603129765
+      },
+      "stationDistanceM": 1,
+      "sampleRaw": [
+        {
+          "POSTAJA": "K56011",
+          "NUM2": 0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        }
+      ],
+      "sampleDates": [
+        "2026-09-07"
+      ],
+      "status": "candidate",
+      "reason": "Raw categorical sample only; NUM2 semantics, licensing and operational alert freshness not established. No E. coli/enterococci concentrations returned. No live safety claim or runtime binding.",
+      "shoreOrientationStatus": "prepared",
+      "seaBearing": 29,
+      "shoreReason": "Reviewed directed coastline; transactional database import prepared, not applied.",
+      "checkedAt": "2026-09-25",
+      "nextReviewAt": "2026-10-25"
+    }
+  ],
+  "cameras": [
+    {
+      "locationId": "eea-SI00C1705000K51010",
+      "cameraId": "si-adria-ankaran",
+      "operator": "WhatsUpCams / Adria Ankaran Hotel Resort",
+      "sourcePage": "https://www.whatsupcams.com/en/webcams/slovenia/coastal-karst/ankaran/live-webcam-ankaran-adria-ankaran-hotel-resort/",
+      "coordinates": null,
+      "status": "candidate",
+      "type": "link",
+      "fieldOfViewEvidence": "Operator directory label only; exact beach field of view not verified.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K53010",
+      "cameraId": "si-zusterna-kjd-bum",
+      "operator": "WhatsUpCams / KJD Bum",
+      "sourcePage": "https://www.whatsupcams.com/en/webcams/slovenia/coastal-karst/koper/webcam-kjd-bum-zusterna/",
+      "coordinates": null,
+      "status": "candidate",
+      "type": "link",
+      "fieldOfViewEvidence": "Operator directory label only; exact beach field of view not verified.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K35010",
+      "cameraId": "si_fiesa01",
+      "operator": "WhatsUpCams / Hotel Barbara",
+      "sourcePage": "https://www.whatsupcams.com/en/webcams/Slovenia/coastal-karst/Piran/webcam-fiesa-hotel-barbara/",
+      "coordinates": null,
+      "status": "candidate",
+      "type": "link",
+      "fieldOfViewEvidence": "Fiesa hotel poster shows the cove; fresh playback and exact lens coordinates not verified.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K56026",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K56023",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1304000K32050",
+      "cameraId": "si-izola-svetilnik",
+      "operator": "WhatsUpCams / Restaurant Svetilnik",
+      "sourcePage": "https://www.whatsupcams.com/en/webcams/slovenia/coastal-karst/izola/izola-webcam-restaurant-svetilnik/",
+      "coordinates": null,
+      "status": "candidate",
+      "type": "link",
+      "fieldOfViewEvidence": "Operator directory label only; exact beach field of view not verified.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1304000K32010",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K00226",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K35031",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K31010",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K52010",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K62010",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1304000K31070",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C1705000K50010",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    },
+    {
+      "locationId": "eea-SI00C4009000K56010",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+      "coordinates": null,
+      "status": "not-found",
+      "type": "link",
+      "fieldOfViewEvidence": "No verified beach-specific camera found in screened tourism/operator listings. Nearby marina, town-square and Strunjan views not automatically assigned.",
+      "checkedAt": "2026-09-25",
+      "freshness": "unknown",
+      "embedding": "not-verified",
+      "integrated": false,
+      "nextReviewAt": "2026-10-25"
+    }
+  ],
+  "sharedHydroProbe": {
+    "status": "candidate",
+    "httpStatus": 200,
+    "stations": [
+      {
+        "targetId": "9350",
+        "coordinates": {
+          "latitude": 45.54811,
+          "longitude": 13.72446
+        },
+        "raw": {
+          "reka": "Jadransko morje",
+          "merilno_mesto": "Koper - kapitanija",
+          "ime_kratko": "Jadransko morje - Koper - kapitanija",
+          "datum": "2026-09-25 09:30",
+          "datum_cet": "2026-09-25 08:30",
+          "vodostaj": "264",
+          "prvi_vv_vodostaj": "305",
+          "drugi_vv_vodostaj": "335",
+          "tretji_vv_vodostaj": "360",
+          "vodostaj_znacilni": "običajni vodostaj",
+          "temp_vode": "23.5"
+        }
+      },
+      {
+        "targetId": "9400",
+        "coordinates": {
+          "latitude": 45.55084,
+          "longitude": 13.54542
+        },
+        "raw": {
+          "reka": "Jadransko morje",
+          "merilno_mesto": "OB Piran (NIB)",
+          "ime_kratko": "Jadransko morje - OB Piran",
+          "datum": "2026-09-25 09:30",
+          "datum_cet": "2026-09-25 08:30",
+          "znacilna_visina_valov": "0.556",
+          "smer_valovanja": "6",
+          "temp_vode": "24.4"
+        }
+      },
+      {
+        "targetId": "9420",
+        "coordinates": {
+          "latitude": 45.60157,
+          "longitude": 13.53522
+        },
+        "raw": {
+          "reka": "Jadransko morje",
+          "merilno_mesto": "Tržaški zaliv (Zarja)",
+          "ime_kratko": "Jadransko morje - Tržaški zaliv",
+          "datum": "2026-09-25 09:30",
+          "datum_cet": "2026-09-25 08:30",
+          "znacilna_visina_valov": null,
+          "smer_valovanja": null,
+          "temp_vode": null
+        }
+      }
+    ],
+    "recommendedPolling": "30 minutes, five minutes past hour/half hour",
+    "authentication": "Public read succeeded without credentials",
+    "quota": "Not established beyond provider polling recommendation",
+    "licensing": "Reuse terms not yet verified",
+    "limitations": "Koper port and offshore Piran buoy are same Adriatic waterbody, but beach representativeness not established. No per-beach assignment. XML datum/datum_cet timezone and variable units require documentation confirmation. Empty Zarja measurements remain missing. River discharge is not sea current."
+  },
+  "otherVariables": {
+    "waterQuality": "Official categorical records joined by station; dated samples retained as research only. Annual 2025 classification is not a current sample.",
+    "algae": "No verified operational algae endpoint identified in screened ARSO bathing/hydro services. Unknown, not absence of algae.",
+    "storm": "Existing application sources retained. No new verified beach-level official storm binding established.",
+    "waves": "Piran buoy exposes raw significant wave height/direction; offshore values not assumed local beach waves.",
+    "currents": "No verified local current field in inspected hydro XML.",
+    "weatherAndWind": "Existing Open-Meteo forecast unchanged."
+  },
+  "database": {
+    "target": "Existing configured Supabase project; no guessed project",
+    "sqlAccess": "No configured DATABASE_URL/SUPABASE_DB_URL/POSTGRES_URL or management token. Existing REST read access verified. Transactional import remains prepared.",
+    "import": "supabase/imports/20260925_shore-orientations.sql",
+    "migrationRequired": false,
+    "schema": "Existing locations.metadata seaBearing/shoreOrientation; preserve populated values and require exact ID, coordinates and coastal type."
+  },
+  "validation": {
+    "npmTest": "117 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed (retried with filesystem permission for Vite temporary config)",
+    "shorelineReproduction": "All 114 bearings reproduced from versioned geometry",
+    "postgresql": "Disposable local PostgreSQL: manual north=0 and provenance preserved across catalogue imports; type/coordinate guards and rerun idempotence passed. Exact new SQL filled 13, kept 2 missing, preserved unrelated metadata, second application unchanged.",
+    "permissions": "New import is DML only; no schema, grants or RLS changes. Production application not attempted without transactional SQL access.",
+    "browser": "Fiesa operator camera page inspected; only poster verified, not fresh playback. No UI component or camera integration changed; no claim of successful live camera or production orientation display."
+  },
+  "production": {
+    "checkedAt": "2026-09-25T08:37:40.934Z",
+    "origin": "https://safe-to-swim.vercel.app",
+    "baselineDeployment": "https://safe-to-swim-ovu6khdxb-gergely-s-projects.vercel.app",
+    "baselineDeploymentState": "Ready",
+    "cataloguePagesVerified": 4,
+    "locationDetailsVerified": 15,
+    "observationResponsesVerified": 15,
+    "newArsoObservationCount": 0,
+    "databaseOrientationCount": 0,
+    "existingSources": [
+      "annual_quality",
+      "marine",
+      "weather"
+    ],
+    "collectionProgress": [
+      {
+        "sourceId": "open-meteo-weather",
+        "previousCheck": "2026-09-25T08:21:00.49+00:00",
+        "currentCheck": "2026-09-25T08:33:00.3+00:00",
+        "status": "healthy",
+        "publishedAt": "2026-09-25T08:30:00+00:00"
+      },
+      {
+        "sourceId": "open-meteo-marine",
+        "previousCheck": "2026-09-25T08:24:01.075+00:00",
+        "currentCheck": "2026-09-25T08:36:00.368+00:00",
+        "status": "healthy",
+        "publishedAt": "2026-09-25T08:30:00+00:00"
+      },
+      {
+        "sourceId": "official-temperature",
+        "previousCheck": "2026-09-25T08:25:00.39+00:00",
+        "currentCheck": "2026-09-25T08:37:00.587+00:00",
+        "status": "healthy",
+        "publishedAt": "2026-09-25T06:40:00+00:00"
+      },
+      {
+        "sourceId": "official-storm",
+        "previousCheck": "2026-09-25T08:26:00.591+00:00",
+        "currentCheck": "2026-09-25T08:36:00.369+00:00",
+        "status": "stale",
+        "publishedAt": "2026-09-25T05:18:00+00:00"
+      },
+      {
+        "sourceId": "official-wind",
+        "previousCheck": "2026-09-25T08:26:00.591+00:00",
+        "currentCheck": "2026-09-25T08:36:00.368+00:00",
+        "status": "healthy",
+        "publishedAt": "2026-09-25T08:26:00+00:00"
+      }
+    ],
+    "scheduler": "Repeated source_state reads show collector progress. Direct cron configuration could not be inspected with available REST access. No duplicate schedule and no manual state-mutating source-check request.",
+    "storm": "Collector checked_at advanced while storm publication remained stale; polling progress is not fresh provider data.",
+    "unchangedFailures": "Existing unavailable source records retained; no duplicate notification."
+  }
+}

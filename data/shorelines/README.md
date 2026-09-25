@@ -69,3 +69,10 @@ Littlehampton's bounded map request returned HTTP 429; no bearing was invented.
 The existing curated Brighton Beach 180-degree value is unchanged. The separate
 Brighton REST importer uses conditional metadata equality to preserve concurrent
 edits and applies only these twelve exact coastal identities.
+
+2026-09-25 Slovenia: thirteen reviewed coastal estimates from bounded OSM API
+map extracts. Local chords distinguish the Punta north face, Salinera bay,
+marina-adjacent beaches and small groynes; directed vertices and way versions
+are retained. Ankaran and Fiesa returned 429 and remain missing. Thirteen values
+are in the static fallback; the conditional transactional database import is
+prepared, not applied. Production Supabase remains authoritative.
