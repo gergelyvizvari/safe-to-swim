@@ -76,3 +76,10 @@ marina-adjacent beaches and small groynes; directed vertices and way versions
 are retained. Ankaran and Fiesa returned 429 and remain missing. Thirteen values
 are in the static fallback; the conditional transactional database import is
 prepared, not applied. Production Supabase remains authoritative.
+
+2026-09-26 Istria: fourteen reviewed orientations, six local weighted normals
+and eight local beach chords. Borozija/Finida catalogue points are seaward;
+the same local shore was reviewed. Kanegra Bullea uses its concave beach, not
+the adjacent headland. AC Istra remains unresolved between an artificial round
+feature and the main shore. Exact directed vertices and versions are retained.
+The guarded transactional SQL is prepared, not applied to production Supabase.

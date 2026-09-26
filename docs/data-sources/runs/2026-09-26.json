@@ -1,0 +1,658 @@
+{
+  "date": "2026-09-26",
+  "status": "completed-with-prepared-import",
+  "selection": "15 new Croatian coastal sites in Istria selected from configured Supabase. Previous Split batch not repeated; same sites screened for cameras and bearings.",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "preparedDatabaseLocations": 14,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 14,
+    "shoreOrientationsIntegratedInStaticFallback": 14,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "verifiedLiveCameras": 0,
+    "integratedCameras": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7098",
+      "provider": "izor-croatia",
+      "targetId": "7098",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "15.09.2026. 10:15",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 220,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7099",
+      "provider": "izor-croatia",
+      "targetId": "7099",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "15.09.2026. 10:12",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 201,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7100",
+      "provider": "izor-croatia",
+      "targetId": "7100",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "15.09.2026. 10:10",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 197,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7007",
+      "provider": "izor-croatia",
+      "targetId": "7007",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 10:17",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 230,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7238",
+      "provider": "izor-croatia",
+      "targetId": "7238",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "14.09.2026. 09:55",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 266,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7079",
+      "provider": "izor-croatia",
+      "targetId": "7079",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 08:26",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 305,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7078",
+      "provider": "izor-croatia",
+      "targetId": "7078",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 08:28",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 180,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7080",
+      "provider": "izor-croatia",
+      "targetId": "7080",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 08:22",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 206,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7005",
+      "provider": "izor-croatia",
+      "targetId": "7005",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 10:20",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 277,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7029",
+      "provider": "izor-croatia",
+      "targetId": "7029",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 08:57",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 223,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7160",
+      "provider": "izor-croatia",
+      "targetId": "7160",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "14.09.2026. 09:28",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 254,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7251",
+      "provider": "izor-croatia",
+      "targetId": "7251",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 08:13",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "unresolved",
+        "seaBearing": null,
+        "reason": "Istra point lies between the east side of a round artificial shore feature and south-facing main beach. Beach identity within this geometry cannot be resolved from the coastline alone; no arbitrary nearest normal."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7001",
+      "provider": "izor-croatia",
+      "targetId": "7001",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 10:37",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 80,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7003",
+      "provider": "izor-croatia",
+      "targetId": "7003",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 10:30",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 14,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7002",
+      "provider": "izor-croatia",
+      "targetId": "7002",
+      "identityVerified": true,
+      "evidence": "Exact official catalogue station ID, name and coordinates match; not profile-ID inference.",
+      "sampleTimeRaw": "22.09.2026. 10:33",
+      "status": "candidate",
+      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 27,
+        "reason": "Reviewed local coastline normal/chord; guarded SQL prepared, not applied."
+      },
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26"
+    }
+  ],
+  "cameras": [
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7098",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7099",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7100",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7007",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7238",
+      "cameraId": "hr_bivillage01/02",
+      "operator": "BiVillage / WhatsUpCams",
+      "sourcePage": "https://www.bivillage.com/en/webcam-weather/",
+      "status": "candidate",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator embeds two named BiVillage cameras; exact lens coordinates and beach visibility not verified. Alternative LiveCamCroatia resort view reports Offline, metadata 44.9167,13.807857; not assumed same lens.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7079",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7078",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7080",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7005",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7029",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7160",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7251",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7001",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7003",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7002",
+      "cameraId": null,
+      "operator": null,
+      "sourcePage": null,
+      "status": "not-found",
+      "coordinates": null,
+      "fieldOfViewEvidence": "No verified site-specific camera found in screened Maistra, Plava Laguna/Istra Camping, Valamar and regional tourism/operator search results. No harbour or neighbouring bay substituted.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "Not enabled; only operator page candidate retained.",
+      "checkedAt": "2026-09-26",
+      "nextReviewAt": "2026-10-26",
+      "integrated": false
+    }
+  ],
+  "probes": [
+    {
+      "key": "catalogue",
+      "url": "https://vrtlac.izor.hr/ords/kakvoca/kakvoce_sve_json?p_jezik=en&p_god=2026&p_usif=&p_ciklus=",
+      "status": 200,
+      "checkedAt": "2026-09-26T08:47:41.003Z"
+    },
+    {
+      "key": "temperature",
+      "url": "https://vrijeme.hr/more_n.xml",
+      "status": 200,
+      "checkedAt": "2026-09-26T08:47:41.306Z"
+    },
+    {
+      "key": "documentation",
+      "url": "https://www.meteo.hr/proizvodi.php?param=xml_korisnici&section=podaci",
+      "error": "TypeError"
+    }
+  ],
+  "detailProbe": {
+    "url": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=7005&p_god=2026&p_usif=&p_jezik=en",
+    "httpStatus": 200,
+    "targetId": "7005",
+    "scope": "One previously untested Istrian station, not all fifteen. Previously failed Split detail requests not retried.",
+    "sampleCount": 10,
+    "latestSampleRaw": {
+      "vri": "2026-09-22 10:20:00",
+      "ocj": 1,
+      "cik": 10,
+      "tzr": 21,
+      "tmo": 24,
+      "slanost": 37.4,
+      "ind": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    "limitation": "Sample-array positional ind codes not decoded; tmo=24 is a September 22 sample, not current sea temperature. Retained as raw research evidence only."
+  },
+  "sharedSources": {
+    "temperature": {
+      "url": "https://vrijeme.hr/more_n.xml",
+      "documentation": "https://meteo.hr/podaci_e.php?param=more_e&section=podaci_vrijeme",
+      "licence": "Croatian Open Licence per DHMZ XML documentation",
+      "date": "2026-09-26",
+      "timeConvention": "Official display explicitly labels local time; XML terms are hourly columns, not row publication times.",
+      "candidates": [
+        {
+          "station": "Pula",
+          "localHour": "08",
+          "rawValue": "23.5"
+        },
+        {
+          "station": "Rovinj-Sv.Ivan n/p",
+          "localHour": "08",
+          "rawValue": "23.4"
+        }
+      ],
+      "limitations": "Station coordinates and beach representativeness unresolved. Offshore/island Rovinj-Sv.Ivan is not Amarin beach. No bindings or temperature integration. Empty cells and dash fault values must remain missing. Public reads, undocumented quota."
+    },
+    "wavesAndCurrents": {
+      "documentation": "https://meteo.hr/podaci_e.php?param=mop&section=podaci_vrijeme",
+      "status": "candidate",
+      "scope": "Official offshore buoy methodology, uncontrolled observations; 30-minute significant wave height and 10-minute wind at 3 m. No verified local current or beach-wave target assignment. Existing Open-Meteo remains."
+    },
+    "storm": {
+      "status": "candidate",
+      "evidence": "runs/2026-09-15.json",
+      "scope": "Previously discovered DHMZ CAP source reused as a research reference. Geographic coverage/cancellation mapping remains unresolved; no repeated unsuccessful search or new binding."
+    },
+    "algae": {
+      "status": "not-found",
+      "scope": "No verified dedicated operational algae endpoint in screened IZOR/DHMZ sources. Raw sample codes not assumed algae clearance."
+    }
+  },
+  "shoreline": {
+    "snapshot": "data/shorelines/2026-09-26-osm.json",
+    "import": "supabase/imports/20260926_shore-orientations.sql",
+    "licence": "ODbL-1.0",
+    "method": "Six weighted local normals, eight individually reviewed beach chords; directed coastline land-left/water-right. North-up local plots reviewed.",
+    "notes": "First Amarin request 429, but subsequent adjacent bounded extracts contain its exact same coast geometry; no retry or copied neighbour bearing. Borozija and Finida sampling points are seaward; independent shore geometry reviewed. Istra artificial feature unresolved.",
+    "database": "Prepared only; existing known SQL-access limitation, no REST patch workaround, no new grants/RLS/schema."
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "baselineDeployment": "https://safe-to-swim-a4v7o9rgo-gergely-s-projects.vercel.app",
+    "checkedAt": "2026-09-26T09:42:31.060Z",
+    "cataloguePagesVerified": 4,
+    "detailsAndObservationsVerified": 15,
+    "newObservationCount": 0,
+    "collectionProgress": [
+      {
+        "sourceId": "official-windForecast",
+        "before": "2026-09-26T08:38:00.525+00:00",
+        "after": "2026-09-26T09:39:00.369+00:00",
+        "status": "healthy"
+      },
+      {
+        "sourceId": "open-meteo-marine",
+        "before": "2026-09-26T08:41:00.641+00:00",
+        "after": "2026-09-26T09:40:01.957+00:00",
+        "status": "healthy"
+      },
+      {
+        "sourceId": "open-meteo-weather",
+        "before": "2026-09-26T08:41:00.64+00:00",
+        "after": "2026-09-26T09:40:01.957+00:00",
+        "status": "healthy"
+      },
+      {
+        "sourceId": "official-temperature",
+        "before": "2026-09-26T08:44:00.296+00:00",
+        "after": "2026-09-26T09:42:00.355+00:00",
+        "status": "healthy"
+      },
+      {
+        "sourceId": "official-waveForecast",
+        "before": "2026-09-26T08:25:00.304+00:00",
+        "after": "2026-09-26T09:26:00.496+00:00",
+        "status": "healthy"
+      },
+      {
+        "sourceId": "official-storm",
+        "before": "2026-09-26T08:44:00.296+00:00",
+        "after": "2026-09-26T09:42:00.355+00:00",
+        "status": "stale"
+      },
+      {
+        "sourceId": "official-wind",
+        "before": "2026-09-26T08:43:00.362+00:00",
+        "after": "2026-09-26T09:41:00.291+00:00",
+        "status": "healthy"
+      }
+    ],
+    "scheduler": "Collector progress observed through source_state; direct cron metadata not verified. No manual source-check trigger, new schedule or contact message.",
+    "limitations": "Existing stale storm publication and unavailable weekly/EA records remain distinct from advancing polling. No duplicate incident notification."
+  },
+  "validation": {
+    "npmTest": "117 passed after replacing a raw object-reference assumption with full catalogue identity preservation assertions; reviewed enrichment allowed.",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "geometry": "128 bearings reproduced against versioned directed shoreline; local API and wind-assessment propagation checked by existing all-record tests.",
+    "postgresql": "Local disposable PostgreSQL: actual new SQL fills 14 and leaves 1 missing; unrelated metadata preserved; second application identical. Existing manual north=0, catalogue-reimport and type/coordinate guard checks passed.",
+    "permissions": "DML import only; no schema, RLS, grants or cron changes. No configured transactional production SQL connection or management token; production import not applied.",
+    "browser": "BiVillage operator page loaded and exposed two camera widgets. Navigation to the linked player could not complete because automatic approval review timed out. Fresh playback/FOV remain unverified; no camera integration or UI component changed."
+  }
+}

@@ -25,7 +25,16 @@ test('European catalogue is substantial, unique and preserves UK deep links', ()
   for (const nation of ['France', 'Spain', 'Italy', 'Greece', 'Croatia', 'Portugal', 'Ireland', 'Denmark', 'Sweden', 'Finland', 'Albania']) {
     const site = EUROPEAN_BATHING_WATERS.find(site => site.nation === nation && site.waterType === 'coastal')
     assert.ok(site, nation)
-    assert.equal(findCoastalLocation(site.id), site)
+    // Reviewed orientations may enrich a catalogue entry without changing its identity.
+    const resolved = findCoastalLocation(site.id)
+    const { seaBearing, shoreOrientation, ...identity } = resolved
+    const { seaBearing: importedBearing, ...importedIdentity } = site
+    assert.deepEqual(identity, importedIdentity)
+    assert.equal(importedBearing, null)
+    if (seaBearing !== null) {
+      assert.ok(Number.isFinite(seaBearing) && seaBearing >= 0 && seaBearing < 360)
+      assert.equal(shoreOrientation.reviewed, true)
+    }
     assert.ok(Math.abs(findNearestCoastalLocation(site.latitude, site.longitude).latitude - site.latitude) < 0.001)
     assert.equal(getWaterQualityForLocation(site).site, site)
     assert.match(getOfficialWaterUrl(site), /eea.europa.eu/)
