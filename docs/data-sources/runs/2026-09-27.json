@@ -1,0 +1,888 @@
+{
+  "date": "2026-09-27",
+  "status": "completed-research-only",
+  "selection": "15 previously unreviewed Finnish lake locations from configured Supabase around Tampere; includes Kangasala Liuttu and Ylöjärvi Siivikkala. No catalogue duplication.",
+  "counts": {
+    "reviewed": 15,
+    "officialIdentitiesVerified": 15,
+    "sharedJsonStationCandidates": 13,
+    "preparedDatabaseLocations": 0,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "shoreOrientationsNotApplicable": 15,
+    "verifiedRefreshingCameraSources": 1,
+    "verifiedSiteCameraAssignments": 0,
+    "integratedCameras": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-FI124837009",
+      "provider": "tampere-city",
+      "targetId": "700323",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/rauhaniemi_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Näsijärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700323",
+        "name": "Rauhaniemen uimaranta",
+        "coordinates": [
+          61.51508,
+          23.78597
+        ],
+        "catalogueDistanceMetres": 85,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "16.1",
+        "temperatureTimeRaw": "2025-08-28 13:38",
+        "algaeCodeRaw": null,
+        "statusTimeRaw": "2026.05.29 11:25",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI192837016",
+      "provider": "tampere-city",
+      "targetId": "700301",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/eliander_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Näsijärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700301",
+        "name": "Elianderin uimaranta",
+        "coordinates": [
+          61.50375,
+          23.73343
+        ],
+        "catalogueDistanceMetres": 24,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "17.4",
+        "temperatureTimeRaw": "2026-08-17 09:37",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.17 09:37",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837001",
+      "provider": "tampere-city",
+      "targetId": "700300",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/alasjarvi_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Alasjärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700300",
+        "name": "Alasjärven uimaranta",
+        "coordinates": [
+          61.50295,
+          23.86797
+        ],
+        "catalogueDistanceMetres": 52,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "18.5",
+        "temperatureTimeRaw": "2026-08-28 10:57",
+        "algaeCodeRaw": "2",
+        "statusTimeRaw": "2026.08.28 10:57",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837008",
+      "provider": "tampere-city",
+      "targetId": "700320",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/pyynikki_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Pyhäjärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700320",
+        "name": "Pyynikin uimaranta",
+        "coordinates": [
+          61.49106,
+          23.73247
+        ],
+        "catalogueDistanceMetres": 176,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "18",
+        "temperatureTimeRaw": "2026-08-17 10:48",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.17 10:48",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI192837017",
+      "provider": "tampere-city",
+      "targetId": "700312",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/lahdesjarvi_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Lahdesjärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700312",
+        "name": "Lahdesjärven uimaranta",
+        "coordinates": [
+          61.45613,
+          23.80271
+        ],
+        "catalogueDistanceMetres": 75,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "18.2",
+        "temperatureTimeRaw": "2026-08-24 10:02",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.24 10:02",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837012",
+      "provider": "tampere-city",
+      "targetId": "700333",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/tahmela_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Pyhäjärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700333",
+        "name": "Tahmelan uimaranta",
+        "coordinates": [
+          61.50012,
+          23.70826
+        ],
+        "catalogueDistanceMetres": 24,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "15.5",
+        "temperatureTimeRaw": "2026-08-26 08:13",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.26 08:13",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837003",
+      "provider": "tampere-city",
+      "targetId": "700306",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/kaukajarvi_uimala_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Kaukajärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700306",
+        "name": "Kaukajärven uimala",
+        "coordinates": [
+          61.47587,
+          23.89356
+        ],
+        "catalogueDistanceMetres": 13,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "14.2",
+        "temperatureTimeRaw": "2026-09-26 14:26",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.24 13:31",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Automatic measurement stated by city station UI",
+        "freshness": "Previous-day measurement; no current safety inference"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI192837015",
+      "provider": "tampere-city",
+      "targetId": "700307",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/kaukajarvi_riihiniemi_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Kaukajärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700307",
+        "name": "Kaukajärvi, Riihiniemen uimaranta",
+        "coordinates": [
+          61.47228,
+          23.89276
+        ],
+        "catalogueDistanceMetres": 24,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "18.8",
+        "temperatureTimeRaw": "2026-08-24 13:07",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.24 13:07",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837007",
+      "provider": "tampere-city",
+      "targetId": "700318",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/peltolammi_uimala_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Peltolammi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700318",
+        "name": "Peltolammin uimala",
+        "coordinates": [
+          61.44863,
+          23.74614
+        ],
+        "catalogueDistanceMetres": 13,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "16.7",
+        "temperatureTimeRaw": "2026-08-24 08:26",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.24 08:25",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837011",
+      "provider": "tampere-city",
+      "targetId": "700332",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/suomensaari_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Näsijärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700332",
+        "name": "Suomensaaren uimaranta",
+        "coordinates": [
+          61.53555,
+          23.7048
+        ],
+        "catalogueDistanceMetres": 55,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "17.5",
+        "temperatureTimeRaw": "2026-08-27 12:57",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.27 12:57",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837010",
+      "provider": "tampere-city",
+      "targetId": "700330",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/suolijarvi_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Suolijärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700330",
+        "name": "Suolijärven uimaranta",
+        "coordinates": [
+          61.4425,
+          23.83497
+        ],
+        "catalogueDistanceMetres": 45,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "18.8",
+        "temperatureTimeRaw": "2026-08-24 10:50",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.24 10:50",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124837002",
+      "provider": "tampere-city",
+      "targetId": "700303",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/hervantajarvi_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Hervantajärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700303",
+        "name": "Hervantajärven uimaranta",
+        "coordinates": [
+          61.43546,
+          23.86237
+        ],
+        "catalogueDistanceMetres": 40,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "19.6",
+        "temperatureTimeRaw": "2026-08-27 14:04",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.27 14:04",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    },
+    {
+      "locationId": "eea-FI124980004",
+      "provider": "pirteva",
+      "targetId": "FI124980004",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://pirteva.pirkkala.fi/wp-content/uploads/sites/6/files/62a6cd18475a6c6e843db923/3082583uimavesiprofiili_uimaranta_siivikkala784628146.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Näsijärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://pirteva.pirkkala.fi/ylojarven-rantojen-vesinaytetulokset/"
+      ],
+      "probeEvidence": {
+        "sampleDate": "2026-07-21",
+        "temperatureC": 19.0,
+        "eColi": {
+          "value": 19,
+          "unit": "mpn/100 ml"
+        },
+        "enterococci": {
+          "value": 15,
+          "unit": "pmy/100 ml"
+        },
+        "algaeCode": 0,
+        "freshness": "Stale seasonal sample; not current safety"
+      },
+      "reason": "Official HTML sample table read, exact EU identity verified by linked profile. No supported machine interface/reuse terms established; July sample is stale."
+    },
+    {
+      "locationId": "eea-FI124211001",
+      "provider": "tampere-city",
+      "targetId": "FI124211001",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/liuttu_profiili_paivitys_10082018.pdf",
+        "method": "Liuttu profile exact coordinates 61.4723,23.9350, name, municipality and Kaukajärvi lake"
+      },
+      "waterBodyEvidence": "Kaukajärvi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu"
+      ],
+      "reason": "Profile and current official report link verified. Power BI sample payload not normalized or verified; no current observation claimed."
+    },
+    {
+      "locationId": "eea-FI124837014",
+      "provider": "tampere-city",
+      "targetId": "700339",
+      "identityVerified": true,
+      "identityEvidence": {
+        "url": "https://www.tampere.fi/sites/default/files/2022-06/tohloppi_uusi_ranta_uimavesiprofiili_2018.pdf",
+        "method": "Exact official EU identifier and named lake in profile"
+      },
+      "waterBodyEvidence": "Tohloppi",
+      "status": "candidate",
+      "checkedAt": "2026-09-27",
+      "nextReviewAt": "2026-10-27",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Lake; coastal seaBearing not required."
+      },
+      "sources": [
+        "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+        "https://tampere.sometec.fi/index.html?sP409100P600P"
+      ],
+      "stationEvidence": {
+        "providerTargetId": "700339",
+        "name": "Tohlopin uusi uimaranta",
+        "coordinates": [
+          61.51244,
+          23.63998
+        ],
+        "catalogueDistanceMetres": 9,
+        "method": "Official profile name/lake plus same named city station and coordinate check; distance alone not used."
+      },
+      "probeEvidence": {
+        "temperatureC": "18.5",
+        "temperatureTimeRaw": "2026-08-26 11:10",
+        "algaeCodeRaw": "1",
+        "statusTimeRaw": "2026.08.26 11:10",
+        "timezone": "Not declared in JSON; Europe/Helsinki is a candidate requiring confirmation. No implicit UTC conversion.",
+        "nature": "Measurement shown by official city UI; manual/automatic mechanism unverified",
+        "freshness": "Stale seasonal measurement; not current"
+      },
+      "reason": "Public shared JSON read and station identity verified. Production integration deferred until provider reuse terms, rate limits, timezone and status/history semantics are verified. Source JSON status is null for Rauhaniemi while UI says no algae; never coerce null to clear. Separate algae and temperature timestamps."
+    }
+  ],
+  "providers": [
+    {
+      "id": "tampere-sometec",
+      "status": "candidate",
+      "officialDocumentation": "https://www.tampere.fi/liikunta/liikkuva-tampere-ulkoliikunnan-olosuhdepalvelu",
+      "discovery": "City beaches page -> ulkoliikunta.tampere.fi -> tampere.sometec.fi; current public mobile.js and visible UI identify group.",
+      "probe": {
+        "method": "POST (read-only query)",
+        "url": "https://tampere.sometec.fi/showSpace03S.php?lang=fi",
+        "form": {
+          "group": "600200",
+          "area": "0",
+          "qqq": "1",
+          "language": "fi",
+          "maintenance_on": "0",
+          "latX": "0",
+          "lonY": "0"
+        },
+        "authentication": "No credentials; token blank. No authentication restriction bypassed.",
+        "httpStatus": 200,
+        "records": 42,
+        "selectedTargets": 13,
+        "checkedAt": "2026-09-27",
+        "initialProbe": "Using main-page group 409100 returned HTTP200 SQL error text; correct bathing group from public showSpace06 response returns actual JSON. Not recorded as service outage."
+      },
+      "coverage": "Temperature Celsius and algae/status, no bacterial samples, waves or currents in this response. One shared query; not per-location collection.",
+      "cadence": "No documented API refresh/rate contract found. UI distinguishes seasonal values and automatic measurement; readings do not necessarily advance with page refresh.",
+      "reuse": "Not established for this Sometec dataset; generic city open-data licensing does not by itself establish coverage. No adapter enabled.",
+      "followUp": "Verify supported API/reuse/timezone/status-history contract before a shared collector and guarded transactional source/target/binding import. Preserve null and old status, do not take winter-swimming measurements from neighbouring points."
+    },
+    {
+      "id": "tampere-quality",
+      "url": "https://www.tampere.fi/liikunta/liikuntapaikat/uimaveden-laatu/uimarantojen-veden-laatu",
+      "status": "candidate",
+      "coverage": "Seasonal bacterial sampling and algae checks; public 2026 Power BI report linked. Profile PDFs establish identity, not current water quality.",
+      "probe": "Official page HTTP200. Report sample payload not verified.",
+      "season": "15 June to 31 August; large beaches receive preseason plus seasonal samples.",
+      "followUp": "Verify report sample payload, units/dates and a reusable machine export before integration."
+    },
+    {
+      "id": "pirteva",
+      "url": "https://pirteva.pirkkala.fi/ylojarven-rantojen-vesinaytetulokset/",
+      "status": "candidate",
+      "probe": "HTTP200 official HTML sample table, Siivikkala EU-ranta profile exact FI124980004. Latest displayed sample 2026-07-21.",
+      "coverage": "Measured bacteria, water temperature and algae observations; seasonal. No fresh current result claimed.",
+      "followUp": "Supported machine export, terms and freshness handling needed."
+    },
+    {
+      "id": "fmi-cap",
+      "url": "https://alerts.fmi.fi/cap/feed/rss_en-GB.rss",
+      "documentation": "https://www.ilmatieteenlaitos.fi/varoitusten-latauspalvelun-pikaohje",
+      "licenceUrl": "https://www.ilmatieteenlaitos.fi/avoin-data-lisenssi",
+      "status": "candidate",
+      "probe": {
+        "httpStatus": 200,
+        "bytes": 2793,
+        "feedPublishedAt": "2026-09-27T08:26:14Z",
+        "items": 3,
+        "authentication": "None"
+      },
+      "licence": "CC BY 4.0, credit FMI and dataset. Official general limits: download20000/day, view10000/day, combined600/5minutes.",
+      "coverage": "Feed contains Gulf of Bothnia wind, Lapland wind and Sea of Bothnia waves. None is a Tampere lake observation. CAP geometry/expiry/cancellation processing not integrated. Missing regional alert is not a safe-bathing declaration.",
+      "followUp": "Shared CAP collector with polygon/circle matching, msgType/references/expiry, timestamp freshness and cancellation tests needed. RSS reachability is not local warning coverage."
+    },
+    {
+      "id": "fmi-marine",
+      "url": "https://en.ilmatieteenlaitos.fi/open-data-sets-available",
+      "status": "not-applicable",
+      "reason": "Baltic wave/current model products do not cover the selected inland lakes. No marine substitutions. Local lake wave/current source not verified."
+    }
+  ],
+  "cameraSearch": {
+    "scope": "Same15 locations. Official Tampere webcam directory and municipal/operator/tourism searches for Rauhaniemi, Suolijärvi/Tohloppi, Liuttu, Siivikkala. No individually verified beach-facing camera found.",
+    "directory": "https://www.tampere.fi/en/city-and-decision-making/information-on-tampere/web-cameras-tampere",
+    "candidates": [
+      {
+        "cameraId": "fi-hiedanranta-roundshot",
+        "operator": "Flycam Oy / Hiedanrannan Kehitys Oy",
+        "sourcePage": "https://skyviewlive.roundshot.com/hiedanranta/",
+        "coordinates": [
+          61.516508,
+          23.681982
+        ],
+        "coordinateEvidence": "Provider About This Camera UI",
+        "waterBody": "Näsijärvi",
+        "type": "refreshing-image",
+        "freshness": "Browser panorama timestamp advanced from 27.09.2026 12:00 to12:10 during inspection; actual image displayed.",
+        "fieldOfViewEvidence": "Panorama displays Hiedanranta industrial/development shore and lake; no selected bathing beach verified in view. Nearby Näsijärvi sites not assigned by distance.",
+        "embedding": "Legal UI says Flycam all rights reserved; embedding permission not established. Keep canonical source-page link in research only.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27",
+        "status": "candidate",
+        "integrated": false
+      },
+      {
+        "cameraId": "fi-iidesjarvi-seagulls",
+        "sourcePage": "https://www.tampere.fi/en/city-and-decision-making/information-on-tampere/web-cameras-tampere",
+        "operator": "Ekokumppanit (linked by city)",
+        "coordinates": null,
+        "type": "link",
+        "freshness": "Not tested; waterbody excluded before playback",
+        "fieldOfViewEvidence": "Directory explicitly identifies Iidesjärvi; none of today's15 sites is on this lake.",
+        "embedding": "Not evaluated for excluded candidate",
+        "status": "rejected-wrong-waterbody",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27",
+        "integrated": false
+      }
+    ],
+    "locationResults": [
+      {
+        "locationId": "eea-FI124837009",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI192837016",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837001",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837008",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI192837017",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837012",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837003",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI192837015",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837007",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837011",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837010",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837002",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124980004",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124211001",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      },
+      {
+        "locationId": "eea-FI124837014",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified same-site camera assignment; city panorama remains unassigned and wrong-lake seagull camera rejected.",
+        "checkedAt": "2026-09-27",
+        "nextReviewAt": "2026-10-27"
+      }
+    ]
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-09-27T09:05:13.910Z",
+    "baseCommit": "a7aea3b4cb489da8d8aaac5e490d10ef216e5d1d",
+    "deploymentVerifiedBeforeRun": "https://safe-to-swim-p45i5sbi7-gergely-s-projects.vercel.app",
+    "cataloguePages": 4,
+    "pagination": "lake/coastal limit15 offsets0,15; correct types and item arrays",
+    "detailAndObservationIdentitiesVerified": 15,
+    "dynamicObservationsAtSelectedSites": 0,
+    "sourceStateRows": 14,
+    "sourceChecksAdvancedDuringRun": [
+      "official-temperature",
+      "open-meteo-weather",
+      "official-waveForecast",
+      "open-meteo-marine",
+      "official-windForecast",
+      "official-storm",
+      "official-wind"
+    ],
+    "collector": "Existing schedule progressing; no manual collection or cron changes. Model checks remain canaries, official-quality reachability is not samples.",
+    "persistentStates": "Existing Brighton403 and unavailable legacy catalogue checks retained; official-storm advances checked_at but published timestamp remains previous day and status stale. No claim of fresh storm data.",
+    "databaseChangesApplied": 0
+  },
+  "validation": {
+    "tests": "npm test:117 passed",
+    "lint": "npm run lint passed",
+    "build": "npm run build passed; first sandbox attempt could not write shared Vite cache, rerun with permission succeeded",
+    "researchAssertions": "15 new unique IDs,13 target coordinate matches under200m plus official name/lake profiles; all lake, no new marine bindings; counts checked",
+    "ui": "Application UI unchanged. External Sometec UI and Roundshot image/time/location/legal inspected.",
+    "sql": "No schema/import changes; no production writes."
+  }
+}

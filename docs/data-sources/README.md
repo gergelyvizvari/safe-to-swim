@@ -235,3 +235,22 @@ candidates again October 22 unless new evidence arrives; next country: Austria.
 Validation: 111 tests, lint/build, reproduction of all 89 bearings, actual local
 PostgreSQL import/idempotence/curated-value preservation checks pass. Browser
 Greystones South shows Along the shore and keeps current water quality unknown.
+
+## 2026-09-27 outcome
+
+15 new Finnish lake sites around Tampere researched; all15 official identities
+verified (14 EU IDs, Liuttu exact name/lake/coordinates). The public Sometec
+shared query returns13 matching station candidates, mostly stale seasonal
+readings. Kaukajärvi uimala has a previous-day automatic temperature reading,
+but its algae status is from August. Rauhaniemi has a null JSON status even
+though the UI says no algae: null must never normalize to clear. Siivikkala
+has a July laboratory sample on Pirteva's official page. API reuse, timezone
+and status contracts remain unresolved; **0 new dynamic integrations or
+production coverage**, and no inactive adapter or database binding published.
+
+One Hiedanranta panorama was verified to refresh, but no selected beach view
+was verified; **0 camera assignments/integrations**. All15 are lakes, so
+**0 coastal orientations determined/applied;15 not applicable**. Existing
+production collection continues to advance. Full evidence and follow-ups:
+`runs/2026-09-27.json`. Next country: Poland. Recheck deferred findings on
+2026-10-27 unless new evidence becomes available.
