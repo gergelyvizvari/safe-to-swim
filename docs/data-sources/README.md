@@ -254,3 +254,21 @@ was verified; **0 camera assignments/integrations**. All15 are lakes, so
 production collection continues to advance. Full evidence and follow-ups:
 `runs/2026-09-27.json`. Next country: Poland. Recheck deferred findings on
 2026-10-27 unless new evidence becomes available.
+
+## 2026-09-28 outcome
+
+15 Polish Baltic sites reviewed. 14 local shore-to-water orientations
+determined from versioned OSM geometry and added to the existing static
+catalogue path, with a tested missing-only transactional import prepared.
+Jurata geometry remained rate-limited after one delayed retry; no neighbour
+orientation substituted. **0 orientations applied to the authoritative DB**.
+
+GIS direct reads return a protection shell; cached seasonal results are not
+current observations. IMGW public hydro/warning APIs respond, but harbor
+representativeness, dataset reuse and timestamp contracts need verification.
+Existing marine model request returned waves for all15 coordinates.
+**0 new dynamic integrations/production coverage;0 verified and0 integrated
+cameras**. Puck Bay cameras/stations cannot substitute for the north shore.
+117 tests, lint, build, geometry reproduction and local PostgreSQL import
+checks passed. See `runs/2026-09-28.json`; next country Slovenia, deferred
+findings reviewed again2026-10-28 unless new evidence is available.

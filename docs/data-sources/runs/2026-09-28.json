@@ -1,0 +1,836 @@
+{
+  "date": "2026-09-28",
+  "status": "completed-prepared-import",
+  "selection": "15 previously unreviewed Polish Baltic sites from configured Supabase, Hel peninsula through Jastrzebia Gora. All lack orientation and already have marine/weather bindings. No duplicate catalogue records.",
+  "counts": {
+    "reviewed": 15,
+    "preparedDatabaseLocations": 14,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 14,
+    "shoreOrientationsIntegratedInStaticCatalogue": 14,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "shoreOrientationsPendingGeometry": 1,
+    "verifiedRefreshingCameraSources": 0,
+    "verifiedSiteCameraAssignments": 0,
+    "integratedCameras": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-PL6321102122000048",
+      "provider": "gis-poland",
+      "targetId": "124",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/124"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "access-pending",
+        "seaBearing": null,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Jurata geometry query returned429 on initial request and one delayed retry. No inferred neighbour bearing.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.708336,
+          18.708344
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 143,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000090",
+      "provider": "gis-poland",
+      "targetId": "140",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/140"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 41,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.708336,
+          18.708344
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 143,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000047",
+      "provider": "gis-poland",
+      "targetId": "123",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/123"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 32,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.708336,
+          18.708344
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 143,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000046",
+      "provider": "gis-poland",
+      "targetId": "122",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/122"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 26,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.708336,
+          18.708344
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 143,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000089",
+      "provider": "gis-poland",
+      "targetId": "139",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/139"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 32,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.708336,
+          18.708344
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 143,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL3411105222000157",
+      "provider": "gis-poland",
+      "targetId": "837",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/837"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 37,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.791664,
+          18.625015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.44,
+        "waveDirectionDegrees": 141,
+        "wavePeriodSeconds": 2.75,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000150",
+      "provider": "gis-poland",
+      "targetId": "655",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/655"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 32,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.791664,
+          18.625015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.44,
+        "waveDirectionDegrees": 141,
+        "wavePeriodSeconds": 2.75,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000079",
+      "provider": "gis-poland",
+      "targetId": "132",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/132"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 32,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.458344
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.42,
+        "waveDirectionDegrees": 130,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000087",
+      "provider": "gis-poland",
+      "targetId": "137",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/137"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 24,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000060",
+      "provider": "gis-poland",
+      "targetId": "119",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/119"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 26,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000024",
+      "provider": "gis-poland",
+      "targetId": "118",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/118"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 26,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000088",
+      "provider": "gis-poland",
+      "targetId": "138",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/138"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 26,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000085",
+      "provider": "gis-poland",
+      "targetId": "135",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/135"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 26,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000059A",
+      "provider": "gis-poland",
+      "targetId": "895",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/895"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 37,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000084",
+      "provider": "gis-poland",
+      "targetId": "134",
+      "status": "candidate",
+      "checkedAt": "2026-09-28",
+      "nextReviewAt": "2026-10-28",
+      "identityVerified": false,
+      "identityEvidence": "Official GIS search/page name and Baltic sea match; complete EU-ID verification not established from direct API. Cached profile text exposes exact EU IDs for Lesna, Nadmorska-Plazowa and Ogrodowa only.",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/134"
+      ],
+      "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 7,
+        "evidenceFile": "data/shorelines/2026-09-28-osm.json",
+        "databaseApplied": false,
+        "reason": "Local directed coastline normal reviewed against land/water side; existing static catalogue/detail/map/assessment path tested.",
+        "nextReviewAt": "2026-10-28"
+      },
+      "existingMarineProbe": {
+        "modelCoordinates": [
+          54.875008,
+          18.375015
+        ],
+        "timeUnix": 1790582400,
+        "waveHeightMetres": 0.4,
+        "waveDirectionDegrees": 129,
+        "wavePeriodSeconds": 2.7,
+        "nature": "modelled",
+        "scope": "One shared15-point request, current waves only; grid point may differ from beach. Existing integration, not new coverage."
+      }
+    }
+  ],
+  "providers": [
+    {
+      "id": "gis-poland",
+      "documentation": "https://sk.gis.gov.pl/kapieliska/mapa",
+      "status": "access-pending",
+      "probe": "Direct GET200 returns212-byte Incapsula script shell, not bathing observations; no restriction bypassed. Search-cached official pages establish candidates only.",
+      "coverage": "Seasonal bacterial samples, algae notices and organiser conditions. Cached Ogrodowa/Chlapowo12 pages show19Aug2026 samples; Jurata condition temperature15C and wind2m/s dated28Aug2026. Stale, no current safety claim.",
+      "contract": "Supported JSON endpoint, authentication, rate limits, timezone and reuse terms unresolved. No adapter published."
+    },
+    {
+      "id": "imgw-hydro",
+      "documentation": "https://danepubliczne.imgw.pl/pl/apiinfo",
+      "url": "https://danepubliczne.imgw.pl/api/data/hydro/",
+      "status": "candidate",
+      "probe": "GET200 public JSON without authentication. Wladyslawowo154180100 Baltic harbor54.7967,18.4186: temperature15.5 raw timestamp2026-09-27 06:00:00; level timestamp2026-09-28 07:20 differs.",
+      "coverage": "Water temperature candidate; unit/timezone contract and harbor representativeness need verification. Null flow is not zero current. Puck154180090 is Puck Bay, Hel153180120 is another shore. Wladyslawow152200070 is Lasica river name collision: rejected.",
+      "reuse": "Official terms sections3/5 distinguish high-value data and other commercial reuse, require attribution and processed-data notice. Specific dataset eligibility and rate limits unresolved; no source binding enabled."
+    },
+    {
+      "id": "imgw-warnings",
+      "url": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "status": "candidate",
+      "probe": "GET200 JSON object message Brak ostrzeżeń meteorologicznych, not alert array. No issue timestamp.",
+      "followUp": "Verify area identifiers, issued/expiry times, cancellation and empty-message semantics before shared collector. No warnings response is not site safety."
+    },
+    {
+      "id": "open-meteo-marine",
+      "documentation": "https://open-meteo.com/en/docs/marine-weather-api",
+      "status": "existing",
+      "probe": "One15-coordinate GET200; all15 numeric current wave heights. Saved location evidence includes returned grid coordinates/time/height/direction/period. No local current observation claimed.",
+      "resolution": "Provider docs list EWAM5km hourly and MFWAM8km3-hour waves with12-hour model updates; best-match chosen automatically. Current/tide products at8km have coastal limitations.",
+      "integration": "Existing weather/marine unchanged; model result is not measured bathing-water quality."
+    }
+  ],
+  "cameraSearch": {
+    "scope": "Same15 sites; municipality/operator searches for Jurata, Jastarnia, Kuznica, Chalupy, Wladyslawowo/Cetniewo, Chlapowo/Jastrzebia Gora. Group searches do not prove cameras absent. No verified beach assignment.",
+    "candidates": [
+      {
+        "cameraId": "pl-jastarnia-dom-zdrojowy",
+        "operator": "LookCam / Dom Zdrojowy",
+        "sourcePage": "https://lookcam.com/jastarnia-plaza-dom-zdrojowy",
+        "coordinates": null,
+        "fieldOfViewEvidence": "Browser displays blurred beach/sea through dirty lens. Exact lens coordinates and selected bathing-area footprint unverified.",
+        "type": "link",
+        "freshness": "Player displayed with Pause/Go Live controls; no readable capture timestamp. Live freshness unverified.",
+        "embedding": "Not verified/authorized; no embed or stream URL committed. Research canonical link only.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28",
+        "status": "candidate",
+        "integrated": false,
+        "candidateLocationIds": [
+          "eea-PL6321102122000090",
+          "eea-PL6321102122000047",
+          "eea-PL6321102122000046",
+          "eea-PL6321102122000089"
+        ]
+      },
+      {
+        "cameraId": "pl-jastarnia-port",
+        "operator": "Jastarnia municipality",
+        "sourcePage": "https://www.jastarnia.pl/kamery",
+        "coordinates": null,
+        "fieldOfViewEvidence": "Municipal camera directory identifies port/Puck Bay, opposite side from selected Baltic beaches.",
+        "type": "link",
+        "freshness": "Excluded by waterbody before playback test.",
+        "embedding": "Not verified/authorized; no embed or stream URL committed. Research canonical link only.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28",
+        "status": "rejected",
+        "integrated": false,
+        "candidateLocationIds": [
+          "eea-PL6321102122000090",
+          "eea-PL6321102122000047",
+          "eea-PL6321102122000046",
+          "eea-PL6321102122000089"
+        ]
+      },
+      {
+        "cameraId": "pl-wladyslawowo-plaza",
+        "operator": "WebCamera.pl",
+        "sourcePage": "https://wladyslawowo-plaza.webcamera.pl/",
+        "coordinates": null,
+        "fieldOfViewEvidence": "Provider page identifies Cetniewo/Aleja Gwiazd Sportu area; individual numbered bathing-area footprint unverified.",
+        "type": "link",
+        "freshness": "Page only; playback/time not verified.",
+        "embedding": "Not verified/authorized; no embed or stream URL committed. Research canonical link only.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28",
+        "status": "candidate",
+        "integrated": false,
+        "candidateLocationIds": [
+          "eea-PL6321104122000079",
+          "eea-PL6321104122000087",
+          "eea-PL6321104122000060",
+          "eea-PL6321104122000024",
+          "eea-PL6321104122000088"
+        ]
+      },
+      {
+        "cameraId": "pl-jurata-plaza",
+        "operator": "WebCamera.pl",
+        "sourcePage": "https://jurata-plaza.webcamera.pl/",
+        "coordinates": null,
+        "fieldOfViewEvidence": "Provider page candidate; coordinates and Baltic-versus-bay footprint not independently verified.",
+        "type": "link",
+        "freshness": "Page/search only; archived July user snapshot does not establish live freshness.",
+        "embedding": "Not verified/authorized; no embed or stream URL committed. Research canonical link only.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28",
+        "status": "candidate",
+        "integrated": false,
+        "candidateLocationIds": [
+          "eea-PL6321102122000048"
+        ]
+      },
+      {
+        "cameraId": "pl-kuznica-zatoka",
+        "operator": "WebCamera.pl",
+        "sourcePage": "https://kuznica.webcamera.pl/",
+        "coordinates": null,
+        "fieldOfViewEvidence": "Provider timelapse title identifies Puck Bay, opposite side of selected Kuznica Szkola beach.",
+        "type": "link",
+        "freshness": "Archived timelapse only; no live claim.",
+        "embedding": "Not verified/authorized; no embed or stream URL committed. Research canonical link only.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28",
+        "status": "rejected",
+        "integrated": false,
+        "candidateLocationIds": [
+          "eea-PL3411105222000157"
+        ]
+      },
+      {
+        "cameraId": "pl-cetniewska",
+        "operator": "Cetniewo.biz",
+        "sourcePage": "https://cetniewo.biz/kamera/cetniewska.html",
+        "coordinates": null,
+        "fieldOfViewEvidence": "Operator page reports camera replaced by spring walk recording.",
+        "type": "link",
+        "freshness": "Recording is not live.",
+        "embedding": "Not verified/authorized; no embed or stream URL committed. Research canonical link only.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28",
+        "status": "rejected",
+        "integrated": false,
+        "candidateLocationIds": [
+          "eea-PL6321104122000087",
+          "eea-PL6321104122000060",
+          "eea-PL6321104122000024",
+          "eea-PL6321104122000088",
+          "eea-PL6321104122000085",
+          "eea-PL6321104122000059A"
+        ]
+      }
+    ],
+    "locationResults": [
+      {
+        "locationId": "eea-PL6321102122000048",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321102122000090",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321102122000047",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321102122000046",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321102122000089",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL3411105222000157",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000150",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000079",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000087",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000060",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000024",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000088",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000085",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000059A",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      },
+      {
+        "locationId": "eea-PL6321104122000084",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "reason": "No verified exact site camera with established coordinates, field of view and freshness. Puck Bay substitutes rejected.",
+        "checkedAt": "2026-09-28",
+        "nextReviewAt": "2026-10-28"
+      }
+    ]
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-09-28T08:07:07.109Z",
+    "baseCommit": "6c7e75b0163c050cca432eeaa9d8633b95755cc7",
+    "deploymentVerifiedBeforeRun": "https://safe-to-swim-6h12z0yc5-gergely-s-projects.vercel.app",
+    "cataloguePages": 4,
+    "pagination": "lake/coastal limit15 offsets0,15 schema/types checked",
+    "detailAndObservationIdentitiesVerified": 15,
+    "dynamicObservationsAtSelectedSites": 0,
+    "sourceStateRows": 14,
+    "sourceChecksAdvancedDuringRun": [
+      "official-temperature",
+      "open-meteo-weather",
+      "official-storm",
+      "official-wind"
+    ],
+    "collector": "Existing schedule advancing; no manual collection, duplicate cron or contact message. Model canary remains distinct from site observations.",
+    "databaseChangesApplied": 0,
+    "import": "supabase/imports/20260928_shore-orientations.sql prepared, not applied. Configured DB remains authoritative; static file is existing offline/fallback path only."
+  },
+  "validation": {
+    "tests": "npm test:117 passed, including all142 bearings through catalogue/detail/map and wind missing-field assessment, wraparound, wrong-waterbody/coordinates, complex/missing geometry and preservation.",
+    "lint": "npm run lint passed",
+    "build": "npm run build passed",
+    "geometry": "verify-shore-orientations reproduced142; north-up local14 plots visually reviewed. OSM ODbL provenance and versioned geometry saved.",
+    "sql": "PostgreSQL14 local: common import test preserves manual0 and provenance through catalogue reimport; exact daily SQL fills14, leavesJurata missing, preserves unrelated metadata, second application unchanged. Existing migration RLS/grants reviewed; no schema or permission changes. No production SQL access used.",
+    "ui": "No UI component changed. Existing end-to-end catalogue-to-assessment tests cover every new bearing. External LookCam player visually inspected."
+  }
+}

@@ -4576,6 +4576,520 @@
         "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
         "snapshotFile": "2026-09-26-osm.json"
       }
+    },
+    {
+      "locationId": "eea-PL6321102122000090",
+      "latitude": 54.69847,
+      "longitude": 18.69002,
+      "seaBearing": 41,
+      "shoreOrientation": {
+        "distanceMetres": 25,
+        "radiusMetres": 60,
+        "wayIds": [
+          4217443
+        ],
+        "nearestSegment": 7,
+        "nearestWayId": 4217443,
+        "shorePoint": {
+          "latitude": 54.69862615089463,
+          "longitude": 18.69029810690417
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 4217443,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000047",
+      "latitude": 54.70111,
+      "longitude": 18.68278,
+      "seaBearing": 32,
+      "shoreOrientation": {
+        "distanceMetres": 48,
+        "radiusMetres": 60,
+        "wayIds": [
+          4217443
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 4217443,
+        "shorePoint": {
+          "latitude": 54.7014681,
+          "longitude": 18.6831943
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 4217443,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000046",
+      "latitude": 54.70413,
+      "longitude": 18.67599,
+      "seaBearing": 26,
+      "shoreOrientation": {
+        "distanceMetres": 22,
+        "radiusMetres": 60,
+        "wayIds": [
+          4217443
+        ],
+        "nearestSegment": 14,
+        "nearestWayId": 4217443,
+        "shorePoint": {
+          "latitude": 54.704306820801065,
+          "longitude": 18.676141088239167
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 4217443,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321102122000089",
+      "latitude": 54.70833,
+      "longitude": 18.66333,
+      "seaBearing": 32,
+      "shoreOrientation": {
+        "distanceMetres": 54,
+        "radiusMetres": 60,
+        "wayIds": [
+          4217424,
+          4217443
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 4217424,
+        "shorePoint": {
+          "latitude": 54.70874894836774,
+          "longitude": 18.663759494197365
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 4217424,
+            "version": 12
+          },
+          {
+            "id": 4217443,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL3411105222000157",
+      "latitude": 54.73447,
+      "longitude": 18.58687,
+      "seaBearing": 37,
+      "shoreOrientation": {
+        "distanceMetres": 20,
+        "radiusMetres": 60,
+        "wayIds": [
+          967388744,
+          4217426
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 967388744,
+        "shorePoint": {
+          "latitude": 54.73461744404813,
+          "longitude": 18.5870549318161
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967388744,
+            "version": 1
+          },
+          {
+            "id": 4217426,
+            "version": 14
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000150",
+      "latitude": 54.76076,
+      "longitude": 18.51282,
+      "seaBearing": 32,
+      "shoreOrientation": {
+        "distanceMetres": 19,
+        "radiusMetres": 60,
+        "wayIds": [
+          1125438961
+        ],
+        "nearestSegment": 6,
+        "nearestWayId": 1125438961,
+        "shorePoint": {
+          "latitude": 54.76061299303266,
+          "longitude": 18.512673860234287
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 1125438961,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000079",
+      "latitude": 54.7891,
+      "longitude": 18.4316,
+      "seaBearing": 32,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          1125438963
+        ],
+        "nearestSegment": 7,
+        "nearestWayId": 1125438963,
+        "shorePoint": {
+          "latitude": 54.78914762230092,
+          "longitude": 18.43165229694312
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 1125438963,
+            "version": 2
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000087",
+      "latitude": 54.8005,
+      "longitude": 18.4086,
+      "seaBearing": 24,
+      "shoreOrientation": {
+        "distanceMetres": 10,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273901
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 967273901,
+        "shorePoint": {
+          "latitude": 54.8004164351417,
+          "longitude": 18.408536367048775
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273901,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000060",
+      "latitude": 54.80152,
+      "longitude": 18.40472,
+      "seaBearing": 26,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273901
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 967273901,
+        "shorePoint": {
+          "latitude": 54.801474199031354,
+          "longitude": 18.404681726701153
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273901,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000024",
+      "latitude": 54.80224,
+      "longitude": 18.40234,
+      "seaBearing": 26,
+      "shoreOrientation": {
+        "distanceMetres": 12,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273901
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 967273901,
+        "shorePoint": {
+          "latitude": 54.80214613837931,
+          "longitude": 18.402261562316994
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273901,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000088",
+      "latitude": 54.80285,
+      "longitude": 18.40028,
+      "seaBearing": 26,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273901
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 967273901,
+        "shorePoint": {
+          "latitude": 54.80272524877832,
+          "longitude": 18.4001757455443
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273901,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000085",
+      "latitude": 54.80626,
+      "longitude": 18.38866,
+      "seaBearing": 26,
+      "shoreOrientation": {
+        "distanceMetres": 18,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273901
+        ],
+        "nearestSegment": 7,
+        "nearestWayId": 967273901,
+        "shorePoint": {
+          "latitude": 54.8061145309044,
+          "longitude": 18.388536532882924
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273901,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000059A",
+      "latitude": 54.81077,
+      "longitude": 18.37618,
+      "seaBearing": 37,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273901
+        ],
+        "nearestSegment": 13,
+        "nearestWayId": 967273901,
+        "shorePoint": {
+          "latitude": 54.81073994224424,
+          "longitude": 18.376139299110964
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273901,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-PL6321104122000084",
+      "latitude": 54.83563,
+      "longitude": 18.30994,
+      "seaBearing": 7,
+      "shoreOrientation": {
+        "distanceMetres": 26,
+        "radiusMetres": 60,
+        "wayIds": [
+          967273906
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 967273906,
+        "shorePoint": {
+          "latitude": 54.83539428592371,
+          "longitude": 18.309888267450926
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-28",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-28T08:04:25.965Z",
+        "wayVersions": [
+          {
+            "id": 967273906,
+            "version": 4
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-28-osm.json"
+      }
     }
   ]
 }
