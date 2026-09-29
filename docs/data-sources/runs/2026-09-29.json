@@ -1,0 +1,1098 @@
+{
+  "date": "2026-09-29",
+  "status": "completed-with-prepared-import",
+  "selection": "14 previously unreviewed Slovenian catalogue locations:8 lakes and6 coastal. All29 currently configured Slovenian sites now have first-pass research; this is not completion of the European catalogue.",
+  "counts": {
+    "reviewed": 14,
+    "officialIdentitiesVerified": 14,
+    "seasonalSampleCandidates": 14,
+    "preparedDatabaseLocations": 6,
+    "newDynamicIntegrations": 0,
+    "newProductionCoverage": 0,
+    "shoreOrientationsDetermined": 6,
+    "shoreOrientationsIntegratedInStaticFallback": 6,
+    "shoreOrientationsAppliedInDatabase": 0,
+    "shoreOrientationsNotApplicable": 8,
+    "verifiedCameraPlaybackSources": 1,
+    "verifiedFreshSiteCameras": 0,
+    "integratedCameras": 0
+  },
+  "sources": {
+    "identity": "https://gis.arso.gov.si/arcgis/rest/services/StoryMap/KOPALNE_VODE_STORY_MAP/MapServer/7/query?where=1%3D1&outFields=EU_SIF,IME_MM,KOP_OBMOCJ,SIF_MM&outSR=4326&f=json",
+    "quality": "https://gis.arso.gov.si/arcgis/rest/services/Portal/Kopalne_vode_skladnost_MM_2024/MapServer/18/query?where=1%3D1&outFields=*&f=json",
+    "hydro": "https://www.arso.gov.si/xml/vode/hidro_podatki_zadnji.xml",
+    "hydroDocumentation": "https://www.arso.gov.si/vode/podatki/hidro_podatki_xml.html",
+    "bathingDocumentation": "https://www.arso.gov.si/vode/kopalne%20vode/",
+    "cameraDiscovery": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/"
+  },
+  "locations": [
+    {
+      "locationId": "eea-SI0094400300K66010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K66010",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400300K66010",
+        "stationName": "pomol",
+        "areaName": "Grajsko kopališče",
+        "coordinates": {
+          "latitude": 46.36891860267478,
+          "longitude": 14.102276103217182
+        },
+        "distanceMetres": 6,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K66010",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094410200K63010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K63010",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094410200K63010",
+        "stationName": "ob otroškem bazenu",
+        "areaName": "Kopališče Šobčev bajer",
+        "coordinates": {
+          "latitude": 46.35363242993829,
+          "longitude": 14.150551262992698
+        },
+        "distanceMetres": 5,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K63010",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094400400K00010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K00010",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400400K00010",
+        "stationName": "Gostišče Kramar - pomol",
+        "areaName": "Kopalno območje Fužinski zaliv",
+        "coordinates": {
+          "latitude": 46.28139517582736,
+          "longitude": 13.881040311911958
+        },
+        "distanceMetres": 30,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K00010",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094400300K66015",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K66015",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400300K66015",
+        "stationName": "pomol 2",
+        "areaName": "Kopalno območje Mala Zaka",
+        "coordinates": {
+          "latitude": 46.36741436947193,
+          "longitude": 14.086158475254503
+        },
+        "distanceMetres": 35,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K66015",
+          "NUM2": 0.0,
+          "DATUM": 1787702400000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-26",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094400400K66025",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K66025",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400400K66025",
+        "stationName": "Avtokamp",
+        "areaName": "Kopalno območje Ukanc",
+        "coordinates": {
+          "latitude": 46.27967401323095,
+          "longitude": 13.836605661645649
+        },
+        "distanceMetres": 30,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K66025",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094400300K66020",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K66020",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400300K66020",
+        "stationName": "zaliv",
+        "areaName": "Kopalno območje Velika Zaka",
+        "coordinates": {
+          "latitude": 46.362121267186,
+          "longitude": 14.08243898500191
+        },
+        "distanceMetres": 29,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K66020",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094400300K64010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K64010",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400300K64010",
+        "stationName": "pomol I.",
+        "areaName": "Naravno kopališče Grand hotel Toplice",
+        "coordinates": {
+          "latitude": 46.365354108686155,
+          "longitude": 14.106662336666338
+        },
+        "distanceMetres": 7,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K64010",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI0094400300K65010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K65010",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI0094400300K65010",
+        "stationName": "pomol",
+        "areaName": "Naravno kopališče Hotel Vila Bled",
+        "coordinates": {
+          "latitude": 46.36006340725084,
+          "longitude": 14.095169801496482
+        },
+        "distanceMetres": 12,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "lake",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K65010",
+          "NUM2": 0.0,
+          "DATUM": 1787529600000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-08-24",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "seaBearing": null,
+        "databaseApplied": false,
+        "reason": "Lake; no coastal seaBearing or marine model substituted."
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K55010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K55011",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI00C4009000K55010",
+        "stationName": "srednji lesen pomol, levo",
+        "areaName": "Obmorsko kopališče Terme Krka–Talaso Strunjan",
+        "coordinates": {
+          "latitude": 45.53026814139151,
+          "longitude": 13.601363806634494
+        },
+        "distanceMetres": 1,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "coastal",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K55011",
+          "NUM2": 0.0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-09-07",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 239,
+        "databaseApplied": false,
+        "reason": "Existing static API/assessment path plus guarded transactional DB import; local water side reviewed."
+      },
+      "existingMarineProbe": {
+        "coordinates": [
+          45.541664,
+          13.625015
+        ],
+        "current": {
+          "time": 1790668800,
+          "interval": 900,
+          "wave_height": 0.1,
+          "wave_direction": 59,
+          "wave_period": 2.35
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s"
+        },
+        "nature": "modelled",
+        "newCoverage": false
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K57010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K57011",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI00C4009000K57010",
+        "stationName": "pomol 3",
+        "areaName": "Plaža Grand hotela Bernardin",
+        "coordinates": {
+          "latitude": 45.51617540317577,
+          "longitude": 13.56930445955073
+        },
+        "distanceMetres": 1,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "coastal",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K57011",
+          "NUM2": 0.0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-09-07",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 225,
+        "databaseApplied": false,
+        "reason": "Existing static API/assessment path plus guarded transactional DB import; local water side reviewed."
+      },
+      "existingMarineProbe": {
+        "coordinates": [
+          45.541664,
+          13.541672
+        ],
+        "current": {
+          "time": 1790668800,
+          "interval": 900,
+          "wave_height": 0.12,
+          "wave_direction": 60,
+          "wave_period": 2.35
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s"
+        },
+        "nature": "modelled",
+        "newCoverage": false
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K58010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K58016",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI00C4009000K58010",
+        "stationName": "stopnice ob stolpu",
+        "areaName": "Plaža hotela Vila Park",
+        "coordinates": {
+          "latitude": 45.515111545531134,
+          "longitude": 13.574899142669828
+        },
+        "distanceMetres": 0,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "coastal",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K58016",
+          "NUM2": 0.0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-09-07",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 150,
+        "databaseApplied": false,
+        "reason": "Existing static API/assessment path plus guarded transactional DB import; local water side reviewed."
+      },
+      "existingMarineProbe": {
+        "coordinates": [
+          45.541664,
+          13.541672
+        ],
+        "current": {
+          "time": 1790668800,
+          "interval": 900,
+          "wave_height": 0.12,
+          "wave_direction": 60,
+          "wave_period": 2.35
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s"
+        },
+        "nature": "modelled",
+        "newCoverage": false
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K59010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K59011",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI00C4009000K59010",
+        "stationName": "pomol 2 (stopnice 2 levo)",
+        "areaName": "Plaža Meduza Lifeclass",
+        "coordinates": {
+          "latitude": 45.512711152043465,
+          "longitude": 13.588116915107815
+        },
+        "distanceMetres": 0,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "coastal",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K59011",
+          "NUM2": 0.0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-09-07",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 169,
+        "databaseApplied": false,
+        "reason": "Existing static API/assessment path plus guarded transactional DB import; local water side reviewed."
+      },
+      "existingMarineProbe": {
+        "coordinates": [
+          45.541664,
+          13.625015
+        ],
+        "current": {
+          "time": 1790668800,
+          "interval": 900,
+          "wave_height": 0.1,
+          "wave_direction": 59,
+          "wave_period": 2.35
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s"
+        },
+        "nature": "modelled",
+        "newCoverage": false
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K61010A",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K60015",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI00C4009000K61010A",
+        "stationName": "pomol 2 (stopnice 1 desno)",
+        "areaName": "Plaža Portorož",
+        "coordinates": {
+          "latitude": 45.512394596379934,
+          "longitude": 13.59309074198156
+        },
+        "distanceMetres": 1,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "coastal",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K60015",
+          "NUM2": 0.0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-09-07",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 239,
+        "databaseApplied": false,
+        "reason": "Existing static API/assessment path plus guarded transactional DB import; local water side reviewed."
+      },
+      "existingMarineProbe": {
+        "coordinates": [
+          45.541664,
+          13.625015
+        ],
+        "current": {
+          "time": 1790668800,
+          "interval": 900,
+          "wave_height": 0.1,
+          "wave_direction": 59,
+          "wave_period": 2.35
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s"
+        },
+        "nature": "modelled",
+        "newCoverage": false
+      }
+    },
+    {
+      "locationId": "eea-SI00C1304000K54010",
+      "sourceId": "arso-bathing-water-candidate",
+      "targetId": "K54011",
+      "identityVerified": true,
+      "identityEvidence": {
+        "officialEuId": "SI00C1304000K54010",
+        "stationName": "pomol levo",
+        "areaName": "Plaža Simonov zaliv",
+        "coordinates": {
+          "latitude": 45.53257333417643,
+          "longitude": 13.644786708149432
+        },
+        "distanceMetres": 0,
+        "method": "Exact EU identifier plus matching official area name and sampling-point coordinates; no nearest-station substitution."
+      },
+      "waterType": "coastal",
+      "status": "candidate",
+      "checkedAt": "2026-09-29",
+      "nextReviewAt": "2026-10-29",
+      "sampleEvidence": {
+        "raw": {
+          "POSTAJA": "K54011",
+          "NUM2": 0.0,
+          "DATUM": 1788739200000,
+          "ODSVETOVANJE": "NE",
+          "OPIS": "Skladen"
+        },
+        "date": "2026-09-07",
+        "nature": "Official categorical sample record; not concentration measurement",
+        "freshness": "Seasonal/stale; not current bathing safety",
+        "limitations": "NUM2=0 is not zero bacteria. No concentrations or operational algae result in response. ODSVETOVANJE=NE does not establish current absence of advisory."
+      },
+      "shoreOrientation": {
+        "status": "prepared",
+        "seaBearing": 320,
+        "databaseApplied": false,
+        "reason": "Existing static API/assessment path plus guarded transactional DB import; local water side reviewed."
+      },
+      "existingMarineProbe": {
+        "coordinates": [
+          45.541664,
+          13.625015
+        ],
+        "current": {
+          "time": 1790668800,
+          "interval": 900,
+          "wave_height": 0.1,
+          "wave_direction": 59,
+          "wave_period": 2.35
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s"
+        },
+        "nature": "modelled",
+        "newCoverage": false
+      }
+    }
+  ],
+  "sharedResearch": {
+    "previousEvidence": "runs/2026-09-25.json",
+    "policy": "Unresolved provider reuse/status semantics and failed searches carried forward without redoing the same negative investigation; successful shared APIs probed once for new site identities/samples.",
+    "qualityProbe": {
+      "httpStatus": 200,
+      "incomplete": false,
+      "selectedMatches": 14,
+      "nature": "Categorical results from MapServer18, not bacterial concentrations. Layer50 verified as historical annual classifications and not used for current samples.",
+      "mixedYearHandling": "Collection contains2024/2025 rows for other sites; exact joins select2026-08-24/26 for lakes and2026-09-07 for coastal sites. No use of first-row/global timestamp.",
+      "reuseAndLimits": "As September25: reuse/NUM2 semantics and supported operational alert contract unresolved. No adapter enabled."
+    },
+    "hydro": {
+      "httpStatus": 200,
+      "authentication": "None",
+      "stations": [
+        {
+          "targetId": "3280",
+          "coordinates": {
+            "latitude": 46.27886,
+            "longitude": 13.86487
+          },
+          "raw": {
+            "reka": "Bohinjsko jezero",
+            "merilno_mesto": "Sveti Duh",
+            "ime_kratko": "Bohinjsko jezero - Sveti Duh",
+            "datum": "2026-09-29 09:30",
+            "datum_cet": "2026-09-29 08:30",
+            "vodostaj": "13",
+            "prvi_vv_vodostaj": "300",
+            "drugi_vv_vodostaj": "330",
+            "tretji_vv_vodostaj": "410",
+            "vodostaj_znacilni": "mali vodostaj",
+            "temp_vode": "16.1"
+          }
+        },
+        {
+          "targetId": "9350",
+          "coordinates": {
+            "latitude": 45.54811,
+            "longitude": 13.72446
+          },
+          "raw": {
+            "reka": "Jadransko morje",
+            "merilno_mesto": "Koper - kapitanija",
+            "ime_kratko": "Jadransko morje - Koper - kapitanija",
+            "datum": "2026-09-29 09:30",
+            "datum_cet": "2026-09-29 08:30",
+            "vodostaj": "267",
+            "prvi_vv_vodostaj": "305",
+            "drugi_vv_vodostaj": "335",
+            "tretji_vv_vodostaj": "360",
+            "vodostaj_znacilni": "običajni vodostaj",
+            "temp_vode": "23.3"
+          }
+        },
+        {
+          "targetId": "9400",
+          "coordinates": {
+            "latitude": 45.55084,
+            "longitude": 13.54542
+          },
+          "raw": {
+            "reka": "Jadransko morje",
+            "merilno_mesto": "OB Piran (NIB)",
+            "ime_kratko": "Jadransko morje - OB Piran",
+            "datum": "2026-09-29 09:30",
+            "datum_cet": "2026-09-29 08:30",
+            "znacilna_visina_valov": null,
+            "smer_valovanja": null,
+            "temp_vode": "23.8"
+          }
+        },
+        {
+          "targetId": "9420",
+          "coordinates": {
+            "latitude": 45.60157,
+            "longitude": 13.53522
+          },
+          "raw": {
+            "reka": "Jadransko morje",
+            "merilno_mesto": "Tržaški zaliv (Zarja)",
+            "ime_kratko": "Jadransko morje - Tržaški zaliv",
+            "datum": "2026-09-29 09:30",
+            "datum_cet": "2026-09-29 08:30",
+            "znacilna_visina_valov": null,
+            "smer_valovanja": null,
+            "temp_vode": null
+          }
+        }
+      ],
+      "coverage": "Sveti Duh3280 explicitly Bohinjsko jezero;16.1 temperature raw datum2026-09-29 09:30, datum_cet08:30. No Bled-named station found. Do not assign nearby Sava river measurements to Bled or Sobec. Piran9400 temperature23.8, wave fields empty today: unknown, not zero.",
+      "limitations": "Previous documented30-minute polling recommendation retained. Variable units/timezone and reuse contract unresolved. Lake/harbor/offshore measurements require coverage labels and station distance before binding."
+    },
+    "otherVariables": {
+      "algae": "No verified operational algae endpoint; earlier ARSO findings retained.",
+      "storm": "No new verified local storm binding; no absence-of-warning claim.",
+      "wavesCurrents": "6 coastal existing Open-Meteo wave responses verified in one batch. No marine requests for8 lakes. Offshore buoy cannot imply local beach current or waves.",
+      "weatherWind": "Existing site-specific Open-Meteo untouched."
+    },
+    "sobecTemperature": {
+      "url": "https://www.sobec.si/sl/",
+      "valueC": 13.2,
+      "kind": "Operator website display",
+      "timestamp": null,
+      "status": "candidate",
+      "reason": "No API contract, measurement time, sensor position or reuse terms established; not fresh observation."
+    }
+  },
+  "cameraSearch": {
+    "scope": "Same14sites: Bled tourism, Bohinj tourism, Sobec operator, Portoroz directory and TermeKrka/Sava resort searches. No verified individual beach assignment.",
+    "candidates": [
+      {
+        "cameraId": "si-bled-straza",
+        "operator": "Infrastruktura Bled",
+        "sourcePage": "https://www.bled.si/sl/informacije/spletne-kamere/1000/spletne-kamere/",
+        "candidateLocationIds": [
+          "eea-SI0094400300K66010",
+          "eea-SI0094400300K66015",
+          "eea-SI0094400300K66020",
+          "eea-SI0094400300K64010",
+          "eea-SI0094400300K65010"
+        ],
+        "coordinates": null,
+        "type": "link",
+        "status": "failed",
+        "fieldOfViewEvidence": "Official page identifies Straza view over Lake Bled; selected beach footprints and exact camera coordinates not verified.",
+        "freshness": "Browser Play attempted; Unable to play media, blank image. Not proof of global outage.",
+        "embedding": "No embedding permission established; canonical page link retained in research, no stream URL or runtime assignment.",
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "integrated": false
+      },
+      {
+        "cameraId": "si-bled-rikli",
+        "operator": "Turizem Bled / Rikli Balance",
+        "sourcePage": "https://www.bled.si/sl/informacije/spletne-kamere/1000/spletne-kamere/",
+        "candidateLocationIds": [
+          "eea-SI0094400300K66010",
+          "eea-SI0094400300K66015",
+          "eea-SI0094400300K66020",
+          "eea-SI0094400300K64010",
+          "eea-SI0094400300K65010"
+        ],
+        "coordinates": null,
+        "type": "link",
+        "status": "candidate",
+        "fieldOfViewEvidence": "Official page labels Rikli Balance camera; Whatsupcams frame has no verified selected-beach view.",
+        "freshness": "No verified playback/image timestamp.",
+        "embedding": "No embedding permission established; canonical page link retained in research, no stream URL or runtime assignment.",
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "integrated": false
+      },
+      {
+        "cameraId": "si-bohinj-na-veglju",
+        "operator": "Turizem Bohinj",
+        "sourcePage": "https://www.bohinj.si/kamera/bohinjsko-jezero-na-veglju/",
+        "candidateLocationIds": [
+          "eea-SI0094400400K00010",
+          "eea-SI0094400400K66025"
+        ],
+        "coordinates": null,
+        "type": "stream",
+        "status": "candidate",
+        "fieldOfViewEvidence": "Actual panning view shows near lake shore, trees and path. Exact lens coordinates and Fuzinski/Ukanc bathing-area footprint unverified. No whole-lake assignment.",
+        "freshness": "Playback verified: scene pans after Play and visible clock advances by about one minute between inspections. Camera date reads29-09-2026; hour/timezone offset not confidently verified. LIVE label alone is not freshness evidence.",
+        "embedding": "No embedding permission established; canonical page link retained in research, no stream URL or runtime assignment.",
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "integrated": false
+      },
+      {
+        "cameraId": "si-sobec-operator",
+        "operator": "Camping Sobec",
+        "sourcePage": "https://www.sobec.si/en/live-cam",
+        "candidateLocationIds": [
+          "eea-SI0094410200K63010"
+        ],
+        "coordinates": null,
+        "type": "link",
+        "status": "failed",
+        "fieldOfViewEvidence": "Operator homepage links its camera. No actual field of view visible after playback failure. Bled cameras rejected as different waterbody.",
+        "freshness": "Player failed: media could not be loaded. Homepage lake temperature13.2C lacks measurement time and is a separate unverified source candidate.",
+        "embedding": "No embedding permission established; canonical page link retained in research, no stream URL or runtime assignment.",
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "integrated": false
+      },
+      {
+        "cameraId": "si-portoroz-central",
+        "operator": "Portoroz & Piran tourism",
+        "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+        "candidateLocationIds": [
+          "eea-SI00C4009000K59010",
+          "eea-SI00C4009000K61010A"
+        ],
+        "coordinates": null,
+        "type": "link",
+        "status": "candidate",
+        "fieldOfViewEvidence": "Tourism directory explicitly labels Central Portoroz Beach; lens coordinates and exact footprint unverified.",
+        "freshness": "Directory only today; no playback/freshness confirmation.",
+        "embedding": "No embedding permission established; canonical page link retained in research, no stream URL or runtime assignment.",
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "integrated": false
+      },
+      {
+        "cameraId": "si-strunjan-landscape",
+        "operator": "Portoroz & Piran tourism",
+        "sourcePage": "https://www.portoroz.si/en/general-information/live-webcams-and-weather/",
+        "candidateLocationIds": [
+          "eea-SI00C4009000K55010"
+        ],
+        "coordinates": null,
+        "type": "link",
+        "status": "candidate",
+        "fieldOfViewEvidence": "Directory labels landscape park. Not assumed to show Talaso beach; prior September25 research reused.",
+        "freshness": "No new live playback verification; existing deferred finding retained.",
+        "embedding": "No embedding permission established; canonical page link retained in research, no stream URL or runtime assignment.",
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "integrated": false
+      }
+    ],
+    "locationResults": [
+      {
+        "locationId": "eea-SI0094400300K66010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094410200K63010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094400400K00010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094400300K66015",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094400400K66025",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094400300K66020",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094400300K64010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI0094400300K65010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI00C4009000K55010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI00C4009000K57010",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI00C4009000K58010",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI00C4009000K59010",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI00C4009000K61010A",
+        "status": "candidate",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      },
+      {
+        "locationId": "eea-SI00C1304000K54010",
+        "status": "not-found",
+        "verifiedCameraId": null,
+        "checkedAt": "2026-09-29",
+        "nextReviewAt": "2026-10-29",
+        "reason": "No exact camera coordinate/selected beach view/freshness combination verified; hotel resort searches provide no proven camera for Bernardin/Vile Park/Simonov."
+      }
+    ]
+  },
+  "database": {
+    "target": "Existing configured Supabase project verified via server config and read-only catalogue/source_state.",
+    "import": "supabase/imports/20260929_shore-orientations.sql",
+    "status": "prepared",
+    "applied": false,
+    "migrationRequired": false,
+    "reason": "No configured transactional PostgreSQL/management access. Existing limitation unchanged. No REST write workaround."
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-09-29T08:07:50.145Z",
+    "baselineCommit": "5611b8a",
+    "baselineDeployment": "https://safe-to-swim-mm19dmyv3-gergely-s-projects.vercel.app",
+    "baselineState": "Ready",
+    "pagesVerified": 4,
+    "identitiesVerified": 14,
+    "observations": 0,
+    "sourceStates": 14,
+    "collectorAdvanced": [
+      "open-meteo-marine",
+      "open-meteo-weather",
+      "official-temperature",
+      "official-storm",
+      "official-wind"
+    ],
+    "scheduler": "Existing collector advances; no direct scheduler SQL access. No manual collection or duplicate cron. Weekly unavailable sources are due later today, not forced early.",
+    "newDatabaseOrientations": 0
+  },
+  "validation": {
+    "npmTest": "117 passed, including all148 catalogue/map/detail/assessment bearings, wraparound and missing/complex geometry tests",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "geometry": "148 bearings reproduced;6 local water-side reviews. Four complex pier/bay sites use explicit local chords, not nearby beach bearings. Strunjan uses same local versioned September25 geometry after429, with original source timestamp preserved.",
+    "postgresql": "Common preservation tests and exact daily import:6 coastal filled,8 lakes unchanged, unrelated metadata preserved, second application unchanged. Manual0/provenance preserved through catalogue reimport; wrong types/coordinates rejected.",
+    "permissions": "Existing migration RLS/service-role grants read; DML import changes no grants/schema. Not applied in production.",
+    "ui": "No UI component changed; catalogue-to-wind assessment tested for every added bearing. External camera players inspected in browser."
+  }
+}

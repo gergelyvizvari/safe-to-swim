@@ -5090,6 +5090,206 @@
         "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
         "snapshotFile": "2026-09-28-osm.json"
       }
+    },
+    {
+      "locationId": "eea-SI00C4009000K55010",
+      "latitude": 45.53027,
+      "longitude": 13.60137,
+      "seaBearing": 239,
+      "shoreOrientation": {
+        "wayIds": [
+          766928347
+        ],
+        "reviewedVertexIndices": [
+          11,
+          13
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-29",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-25T08:28:01.599Z",
+        "wayVersions": [
+          {
+            "id": 766928347,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Local Strunjan beach immediately south of pier, shore-to-water southwest; versioned September25 geometry reused after September29 rate limit, not a copied neighbour bearing. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-29-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K57010",
+      "latitude": 45.51617,
+      "longitude": 13.56931,
+      "seaBearing": 225,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          1217749835
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 1217749835,
+        "shorePoint": {
+          "latitude": 45.51622025785802,
+          "longitude": 13.569399749710252
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-29",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-29T08:03:56.139Z",
+        "wayVersions": [
+          {
+            "id": 1217749835,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-29-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K58010",
+      "latitude": 45.51511,
+      "longitude": 13.5749,
+      "seaBearing": 150,
+      "shoreOrientation": {
+        "wayIds": [
+          766673211
+        ],
+        "reviewedVertexIndices": [
+          2,
+          5
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-29",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-29T08:03:56.139Z",
+        "wayVersions": [
+          {
+            "id": 766673211,
+            "version": 1
+          }
+        ],
+        "reviewNote": "Local Vile Park shore from the notch toward the northeast; right normal points southeast into the bay, excluding the enclosed marina. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-29-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K59010",
+      "latitude": 45.51271,
+      "longitude": 13.58812,
+      "seaBearing": 169,
+      "shoreOrientation": {
+        "wayIds": [
+          766673058
+        ],
+        "reviewedVertexIndices": [
+          4,
+          8
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-29",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-29T08:03:56.139Z",
+        "wayVersions": [
+          {
+            "id": 766673058,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Meduza beach chord between shore roots around a narrow pier; right normal points south-southeast into the bay. Pier sides are not beach orientation. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-29-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SI00C4009000K61010A",
+      "latitude": 45.51239,
+      "longitude": 13.59309,
+      "seaBearing": 239,
+      "shoreOrientation": {
+        "distanceMetres": 46,
+        "radiusMetres": 60,
+        "wayIds": [
+          766673059
+        ],
+        "nearestSegment": 4,
+        "nearestWayId": 766673059,
+        "shorePoint": {
+          "latitude": 45.51262099854954,
+          "longitude": 13.593571657309848
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-29",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-29T08:03:56.139Z",
+        "wayVersions": [
+          {
+            "id": 766673059,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local directed OSM shoreline reviewed: land left, water right. Local shore, not a current measurement. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-29-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SI00C1304000K54010",
+      "latitude": 45.53257,
+      "longitude": 13.64479,
+      "seaBearing": 320,
+      "shoreOrientation": {
+        "wayIds": [
+          1217776050
+        ],
+        "reviewedVertexIndices": [
+          3,
+          6
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-29",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-09-29T08:03:56.139Z",
+        "wayVersions": [
+          {
+            "id": 1217776050,
+            "version": 1
+          }
+        ],
+        "reviewNote": "Simonov local northeast bay beach segment, excluding the adjacent protruding structure and distant curved southern beach; right normal points northwest into water. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
+        "snapshotFile": "2026-09-29-osm.json"
+      }
     }
   ]
 }

@@ -272,3 +272,24 @@ cameras**. Puck Bay cameras/stations cannot substitute for the north shore.
 117 tests, lint, build, geometry reproduction and local PostgreSQL import
 checks passed. See `runs/2026-09-28.json`; next country Slovenia, deferred
 findings reviewed again2026-10-28 unless new evidence is available.
+
+## 2026-09-29 outcome
+
+14 new Slovenian sites researched (8 lakes,6 coastal); all14 exact official
+EU IDs and seasonal categorical sample joins verified. Samples are August24/26
+for lakes and September7 for coastal sites, not current safety assessments.
+The shared response also includes older unrelated rows: always join by station
+before deriving sample time. NUM2=0 must not become zero bacteria. Bohinj
+Sveti Duh has a temperature reading; Bled/Sobec receive no nearby river substitute.
+
+6 coastal orientations determined, verified through the existing static API
+and assessment path, and prepared in a tested transactional import; **0 applied
+to the authoritative database**. 8 lakes require no coastal bearing. **0 new
+dynamic integrations/production coverage**. One Bohinj camera playback works
+but exact beach view/coordinates and clock offset remain unverified; **0 verified
+fresh site cameras and0 integrated cameras**. Bled Straza and Sobec playback
+failed in this browser. All29 currently configured Slovenian sites now have
+first-pass research; European catalogue work continues. Next country Belgium;
+deferred findings reviewed again2026-10-29 unless new evidence appears.
+117 tests, lint/build,148 bearing reproductions and local SQL checks passed.
+Evidence: `runs/2026-09-29.json`.
