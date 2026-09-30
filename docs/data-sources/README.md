@@ -293,3 +293,23 @@ first-pass research; European catalogue work continues. Next country Belgium;
 deferred findings reviewed again2026-10-29 unless new evidence appears.
 117 tests, lint/build,148 bearing reproductions and local SQL checks passed.
 Evidence: `runs/2026-09-29.json`.
+
+## 2026-09-30 production activation
+
+Newly available SQL access matched the configured Safe to Swim project exactly.
+Applied the existing September28/29 missing-only imports in one transaction:
+**20 reviewed sites,20 newly usable production orientations (14 Poland,6 Slovenia)**.
+These are previously researched sites, not20 new first-pass locations.
+**0 newly determined orientations,0 new dynamic integrations,0 newly verified
+fresh site cameras and0 integrated cameras**. Original provider/camera evidence
+and October28/29 review dates remain unchanged. Next country remains Belgium.
+
+All20 production detail/observation identities, bearing provenance and the
+API-to-wind-assessment path passed. Jastarnia Leśna browser check shows the
+shore-relative wind direction without the missing-orientation notice; current
+water quality remains unconfirmed. Other metadata was preserved. RLS/grants
+were inspected; the single existing minute scheduler and recent successful
+runs were verified, without changing scheduling or forcing collection.
+117 tests, lint, build and148 geometry reproductions passed.
+Evidence: `runs/2026-09-30.json`. Historical prepared-only counts above refer
+to their original run dates; this activation supersedes them for these20 sites.

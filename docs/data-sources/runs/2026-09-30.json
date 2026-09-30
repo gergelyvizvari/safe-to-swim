@@ -1,0 +1,248 @@
+{
+  "date": "2026-09-30",
+  "status": "completed-production-activation",
+  "selection": "20 previously researched coastal sites (14 Poland, 6 Slovenia). Newly available access to the exact configured Supabase project enabled the pending imports. No duplicate first-pass research or early negative-source/camera rechecks.",
+  "counts": {
+    "reviewed": 20,
+    "newFirstPassLocations": 0,
+    "newProductionCoverage": 20,
+    "newDynamicIntegrations": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsAppliedInDatabase": 20,
+    "verifiedFreshSiteCameras": 0,
+    "integratedCameras": 0
+  },
+  "database": {
+    "projectId": "zpqhqdndaloivnyzoigb",
+    "imports": [
+      "supabase/imports/20260928_shore-orientations.sql",
+      "supabase/imports/20260929_shore-orientations.sql"
+    ],
+    "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+    "verification": "All 20 exact active coastal IDs/coordinates checked before missing-only transactional update. Expected bearings and provenance verified after; all other metadata unchanged. No schema, permission or scheduling changes.",
+    "remainingMissingInBatch": 0,
+    "rls": "Inspected private catalogue/source tables retain RLS and no anon/authenticated grants.",
+    "scheduler": {
+      "jobId": 1,
+      "name": "safe-to-swim-source-checks",
+      "schedule": "* * * * *",
+      "active": true,
+      "recentRuns": [
+        {
+          "status": "succeeded",
+          "end_time": "2026-09-30T08:05:00.139549+00:00",
+          "start_time": "2026-09-30T08:05:00.111581+00:00"
+        },
+        {
+          "status": "succeeded",
+          "end_time": "2026-09-30T08:04:00.303825+00:00",
+          "start_time": "2026-09-30T08:04:00.205436+00:00"
+        },
+        {
+          "status": "succeeded",
+          "end_time": "2026-09-30T08:03:00.044561+00:00",
+          "start_time": "2026-09-30T08:03:00.036045+00:00"
+        }
+      ]
+    },
+    "sourceState": "14 source states inspected. Collection advances; existing weekly EA/NRW/SEPA failures not due until October 6; Brighton 403 retry not yet due. No forced collection."
+  },
+  "validation": {
+    "testsPassed": 117,
+    "lint": "passed",
+    "build": "passed",
+    "geometryReproductions": 148,
+    "productionOrigin": "https://safe-to-swim.vercel.app",
+    "cataloguePages": 4,
+    "productionDetailAndObservationIdentitiesVerified": 20,
+    "productionLocationToWindAssessmentVerified": 20,
+    "browser": {
+      "site": "KĄPIELISKO JASTARNIA LEŚNA",
+      "result": "Wind card displays DK felől · Part mentén, with no missing shore-orientation message. Current water quality remains explicitly unconfirmed."
+    }
+  },
+  "locations": [
+    {
+      "locationId": "eea-PL6321102122000090",
+      "seaBearing": 41,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321102122000047",
+      "seaBearing": 32,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321102122000046",
+      "seaBearing": 26,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321102122000089",
+      "seaBearing": 32,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL3411105222000157",
+      "seaBearing": 37,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000150",
+      "seaBearing": 32,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000079",
+      "seaBearing": 32,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000087",
+      "seaBearing": 24,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000060",
+      "seaBearing": 26,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000024",
+      "seaBearing": 26,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000088",
+      "seaBearing": 26,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000085",
+      "seaBearing": 26,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000059A",
+      "seaBearing": 37,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-PL6321104122000084",
+      "seaBearing": 7,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-28.json",
+      "geometrySnapshot": "2026-09-28-osm.json",
+      "geometryCheckedAt": "2026-09-28",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-SI00C4009000K55010",
+      "seaBearing": 239,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-29.json",
+      "geometrySnapshot": "2026-09-29-osm.json",
+      "geometryCheckedAt": "2026-09-29",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-SI00C4009000K57010",
+      "seaBearing": 225,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-29.json",
+      "geometrySnapshot": "2026-09-29-osm.json",
+      "geometryCheckedAt": "2026-09-29",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-SI00C4009000K58010",
+      "seaBearing": 150,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-29.json",
+      "geometrySnapshot": "2026-09-29-osm.json",
+      "geometryCheckedAt": "2026-09-29",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-SI00C4009000K59010",
+      "seaBearing": 169,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-29.json",
+      "geometrySnapshot": "2026-09-29-osm.json",
+      "geometryCheckedAt": "2026-09-29",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-SI00C4009000K61010A",
+      "seaBearing": 239,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-29.json",
+      "geometrySnapshot": "2026-09-29-osm.json",
+      "geometryCheckedAt": "2026-09-29",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    },
+    {
+      "locationId": "eea-SI00C1304000K54010",
+      "seaBearing": 320,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-29.json",
+      "geometrySnapshot": "2026-09-29-osm.json",
+      "geometryCheckedAt": "2026-09-29",
+      "appliedAt": "2026-09-30T08:04:53.586167+00:00"
+    }
+  ],
+  "deferred": "Original dynamic-provider and camera findings/review dates remain unchanged (October 28/29). No new camera freshness or observation claims.",
+  "nextCountry": "Belgium"
+}

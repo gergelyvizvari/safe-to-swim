@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-09-29",
+  "lastRun": "2026-09-30",
   "nextCountry": "Belgium",
   "entries": [
     {
@@ -4707,7 +4707,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321102122000047",
@@ -4722,7 +4727,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321102122000046",
@@ -4737,7 +4747,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321102122000089",
@@ -4752,7 +4767,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL3411105222000157",
@@ -4767,7 +4787,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000150",
@@ -4782,7 +4807,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000079",
@@ -4797,7 +4827,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000087",
@@ -4812,7 +4847,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000060",
@@ -4827,7 +4867,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000024",
@@ -4842,7 +4887,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000088",
@@ -4857,7 +4907,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000085",
@@ -4872,7 +4927,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000059A",
@@ -4887,7 +4947,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-PL6321104122000084",
@@ -4902,7 +4967,12 @@
       "identityVerified": false,
       "scope": "Research and missing-only shoreline import prepared; no new production binding.",
       "reason": "Direct GIS request returns protection shell, not observations. IMGW station coverage and reuse contract unresolved. No dynamic binding enabled.",
-      "evidenceFile": "runs/2026-09-28.json"
+      "evidenceFile": "runs/2026-09-28.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-SI0094400300K66010",
@@ -5037,7 +5107,12 @@
       "nextReviewAt": "2026-10-29",
       "reason": "Exact official identity and seasonal categorical sample verified; no new runtime binding. Reuse/NUM2/alert semantics remain unresolved as documented September25.",
       "scope": "New site research; coastal orientation prepared where applicable.",
-      "evidenceFile": "runs/2026-09-29.json"
+      "evidenceFile": "runs/2026-09-29.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-SI00C4009000K57010",
@@ -5052,7 +5127,12 @@
       "nextReviewAt": "2026-10-29",
       "reason": "Exact official identity and seasonal categorical sample verified; no new runtime binding. Reuse/NUM2/alert semantics remain unresolved as documented September25.",
       "scope": "New site research; coastal orientation prepared where applicable.",
-      "evidenceFile": "runs/2026-09-29.json"
+      "evidenceFile": "runs/2026-09-29.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-SI00C4009000K58010",
@@ -5067,7 +5147,12 @@
       "nextReviewAt": "2026-10-29",
       "reason": "Exact official identity and seasonal categorical sample verified; no new runtime binding. Reuse/NUM2/alert semantics remain unresolved as documented September25.",
       "scope": "New site research; coastal orientation prepared where applicable.",
-      "evidenceFile": "runs/2026-09-29.json"
+      "evidenceFile": "runs/2026-09-29.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-SI00C4009000K59010",
@@ -5082,7 +5167,12 @@
       "nextReviewAt": "2026-10-29",
       "reason": "Exact official identity and seasonal categorical sample verified; no new runtime binding. Reuse/NUM2/alert semantics remain unresolved as documented September25.",
       "scope": "New site research; coastal orientation prepared where applicable.",
-      "evidenceFile": "runs/2026-09-29.json"
+      "evidenceFile": "runs/2026-09-29.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-SI00C4009000K61010A",
@@ -5097,7 +5187,12 @@
       "nextReviewAt": "2026-10-29",
       "reason": "Exact official identity and seasonal categorical sample verified; no new runtime binding. Reuse/NUM2/alert semantics remain unresolved as documented September25.",
       "scope": "New site research; coastal orientation prepared where applicable.",
-      "evidenceFile": "runs/2026-09-29.json"
+      "evidenceFile": "runs/2026-09-29.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     },
     {
       "locationId": "eea-SI00C1304000K54010",
@@ -5112,7 +5207,12 @@
       "nextReviewAt": "2026-10-29",
       "reason": "Exact official identity and seasonal categorical sample verified; no new runtime binding. Reuse/NUM2/alert semantics remain unresolved as documented September25.",
       "scope": "New site research; coastal orientation prepared where applicable.",
-      "evidenceFile": "runs/2026-09-29.json"
+      "evidenceFile": "runs/2026-09-29.json",
+      "shoreOrientation": {
+        "status": "integrated",
+        "appliedAt": "2026-09-30T08:04:53.586167+00:00",
+        "evidenceFile": "runs/2026-09-30.json"
+      }
     }
   ]
 }
