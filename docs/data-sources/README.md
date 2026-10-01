@@ -313,3 +313,21 @@ runs were verified, without changing scheduling or forcing collection.
 117 tests, lint, build and148 geometry reproductions passed.
 Evidence: `runs/2026-09-30.json`. Historical prepared-only counts above refer
 to their original run dates; this activation supersedes them for these20 sites.
+
+## 2026-10-01 Netherlands production activation
+
+15 previously researched Dutch coastal sites now have their verified estimated
+shore orientations in the authoritative database. Applied the existing September19
+missing-only import after matching IDs, coordinates and coastal type.
+**15 reviewed /15 newly integrated production orientations;0 newly determined
+orientations;0 new dynamic integrations;0 newly verified fresh cameras /0 camera
+integrations.** These are not new first-pass sites. Existing source/camera
+evidence and October19 review dates remain unchanged; Belgium remains next.
+
+All15 production detail/observation identities and API-to-wind-assessment checks
+passed. Existing metadata is preserved; private-table RLS/grants remain intact.
+The single minute scheduler and recent successful runs are verified, with source
+checks advancing. No forced collection or duplicate schedule.
+117 tests, lint, build and148 bearing reproductions passed.
+Evidence: `runs/2026-10-01.json`; this activation supersedes the September19
+prepared-only status for these15 orientations.

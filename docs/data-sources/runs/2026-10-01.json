@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-01",
+  "status": "completed-production-activation",
+  "selection": "15 previously researched Netherlands coastal sites with missing database bearings and existing weather/marine bindings. Prioritize usable shore-relative wind assessment; this is not 15 new first-pass locations.",
+  "counts": {
+    "reviewed": 15,
+    "preparedPreviously": 15,
+    "newFirstPassLocations": 0,
+    "newProductionCoverage": 15,
+    "newDynamicIntegrations": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsAppliedInDatabase": 15,
+    "verifiedFreshSiteCameras": 0,
+    "integratedCameras": 0
+  },
+  "database": {
+    "projectId": "zpqhqdndaloivnyzoigb",
+    "importFile": "supabase/imports/20260919_shore-orientations.sql",
+    "appliedAt": "2026-10-01T08:04:13.406826+00:00",
+    "verification": "All 15 IDs/coordinates, active/coastal type and missing bearings verified before applying the versioned missing-only transaction. Afterward all expected bearings/provenance matched and unrelated metadata was unchanged. No schema/permission/schedule changes.",
+    "privileges": [
+      {
+        "rls": true,
+        "table": "data_sources",
+        "anon_select": false,
+        "authenticated_select": false
+      },
+      {
+        "rls": true,
+        "table": "location_sources",
+        "anon_select": false,
+        "authenticated_select": false
+      },
+      {
+        "rls": true,
+        "table": "locations",
+        "anon_select": false,
+        "authenticated_select": false
+      },
+      {
+        "rls": true,
+        "table": "source_state",
+        "anon_select": false,
+        "authenticated_select": false
+      },
+      {
+        "rls": true,
+        "table": "source_targets",
+        "anon_select": false,
+        "authenticated_select": false
+      }
+    ]
+  },
+  "collector": {
+    "schedule": {
+      "jobId": 1,
+      "name": "safe-to-swim-source-checks",
+      "active": true,
+      "schedule": "* * * * *"
+    },
+    "recentRuns": [
+      {
+        "status": "succeeded",
+        "end_time": "2026-10-01T08:02:00.026673+00:00",
+        "start_time": "2026-10-01T08:02:00.021589+00:00"
+      },
+      {
+        "status": "succeeded",
+        "end_time": "2026-10-01T08:01:00.308633+00:00",
+        "start_time": "2026-10-01T08:01:00.255047+00:00"
+      },
+      {
+        "status": "succeeded",
+        "end_time": "2026-10-01T08:00:00.032068+00:00",
+        "start_time": "2026-10-01T08:00:00.022871+00:00"
+      }
+    ],
+    "states": [
+      {
+        "status": "healthy",
+        "source_id": "open-meteo-marine",
+        "check_kind": "model_canary",
+        "checked_at": "2026-10-01T07:58:00.332+00:00",
+        "next_check_at": "2026-10-01T08:03:01.144+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "unavailable",
+        "source_id": "sepa",
+        "check_kind": null,
+        "checked_at": "2026-09-29T15:28:01.274+00:00",
+        "next_check_at": "2026-10-06T15:28:01.81+00:00",
+        "consecutive_failures": 4
+      },
+      {
+        "status": "unavailable",
+        "source_id": "ea",
+        "check_kind": "link_reachability",
+        "checked_at": "2026-09-29T15:28:01.273+00:00",
+        "next_check_at": "2026-10-06T15:28:01.989+00:00",
+        "consecutive_failures": 3
+      },
+      {
+        "status": "unavailable",
+        "source_id": "nrw",
+        "check_kind": "link_reachability",
+        "checked_at": "2026-09-29T15:28:01.274+00:00",
+        "next_check_at": "2026-10-06T15:28:02.624+00:00",
+        "consecutive_failures": 3
+      },
+      {
+        "status": "healthy",
+        "source_id": "daera",
+        "check_kind": "link_reachability",
+        "checked_at": "2026-09-29T15:28:01.275+00:00",
+        "next_check_at": "2026-10-06T15:28:01.642+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "eea",
+        "check_kind": "link_reachability",
+        "checked_at": "2026-09-29T15:28:01.272+00:00",
+        "next_check_at": "2026-10-06T15:28:02.202+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-windForecast",
+        "check_kind": "link_reachability",
+        "checked_at": "2026-10-01T07:31:00.376+00:00",
+        "next_check_at": "2026-10-01T08:31:01.166+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "open-meteo-weather",
+        "check_kind": "model_canary",
+        "checked_at": "2026-10-01T08:00:00.355+00:00",
+        "next_check_at": "2026-10-01T08:05:00.795+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-temperature",
+        "check_kind": "observations",
+        "checked_at": "2026-10-01T08:02:00.356+00:00",
+        "next_check_at": "2026-10-01T08:03:02.649+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-waveForecast",
+        "check_kind": "link_reachability",
+        "checked_at": "2026-10-01T07:16:00.532+00:00",
+        "next_check_at": "2026-10-01T08:16:01.681+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-quality",
+        "check_kind": "observations",
+        "checked_at": "2026-09-30T15:47:00.81+00:00",
+        "next_check_at": "2026-10-01T15:47:04.592+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "unavailable",
+        "source_id": "ea-brighton-samples",
+        "check_kind": "observations",
+        "checked_at": "2026-10-01T02:26:00.484+00:00",
+        "next_check_at": "2026-10-01T08:26:01.077+00:00",
+        "consecutive_failures": 36
+      },
+      {
+        "status": "stale",
+        "source_id": "official-storm",
+        "check_kind": "observations",
+        "checked_at": "2026-10-01T08:01:01.169+00:00",
+        "next_check_at": "2026-10-01T08:02:02.089+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-wind",
+        "check_kind": "observations",
+        "checked_at": "2026-10-01T08:01:01.169+00:00",
+        "next_check_at": "2026-10-01T08:02:02.861+00:00",
+        "consecutive_failures": 0
+      }
+    ],
+    "interpretation": "Collection continues. Weekly EA/NRW/SEPA retry October6; Brighton samples retry08:26 today. Stale storm is distinct from failed collection. No manual collection or duplicate schedule."
+  },
+  "validation": {
+    "testsPassed": 117,
+    "lint": "passed",
+    "build": "passed after granting the existing dependency-cache write permission",
+    "geometryReproductions": 148,
+    "sql": "Same versioned import tested in disposable PostgreSQL on September19 for guarded fills, idempotence, coordinate/type guards and preservation of manual bearing=0. Today's exact import data matches the versioned geometry catalogue; production pre/postflight verified15.",
+    "productionOrigin": "https://safe-to-swim.vercel.app",
+    "cataloguePages": 4,
+    "productionDetailAndObservationIdentitiesVerified": 15,
+    "productionLocationToWindAssessmentVerified": 15,
+    "browser": {
+      "site": "HOEK VAN HOLLAND",
+      "result": "DNy felől · Part mentén displayed; missing shore-orientation notice absent. Current water quality remains unconfirmed; no verified nearby camera shown."
+    }
+  },
+  "locations": [
+    {
+      "locationId": "eea-NLBW95_HOEKVHLBSD",
+      "seaBearing": 316,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_SGRAVZDBSD",
+      "seaBearing": 310,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_TERHDBSD",
+      "seaBearing": 306,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_KIJKDBSD",
+      "seaBearing": 312,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_SCHEVNGZD",
+      "seaBearing": 308,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_SCHEVNGBSD",
+      "seaBearing": 315,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_SCHEVNGZTPBS",
+      "seaBearing": 312,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_WASSNSSBSD",
+      "seaBearing": 307,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_KATWZBSD",
+      "seaBearing": 298,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_KATWNBSD",
+      "seaBearing": 304,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_NOORDWBSD",
+      "seaBearing": 300,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_NOORDWKHBSD",
+      "seaBearing": 300,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_ZANDVBSD",
+      "seaBearing": 291,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_BLOEMDAZBSD",
+      "seaBearing": 285,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    },
+    {
+      "locationId": "eea-NLBW95_KENNMBSD",
+      "seaBearing": 257,
+      "status": "integrated",
+      "evidenceFile": "runs/2026-09-19.json",
+      "geometrySnapshot": "2026-09-18-osm.json",
+      "geometryCheckedAt": "2026-09-19",
+      "appliedAt": "2026-10-01T08:04:13.406826+00:00"
+    }
+  ],
+  "research": {
+    "evidenceFile": "runs/2026-09-19.json",
+    "nextReviewAt": "2026-10-19",
+    "note": "Reuse15 exact official identities and11 camera candidates. No repeated unsuccessful searches before30 days and no newly verified camera freshness. RWS Nieuwe Waterweg riverbank temperature is not assigned to North Sea beaches; historical microbiology/advice remains non-current. KNMI warning contract/area matching and current water-quality/algae evidence remain unresolved."
+  },
+  "nextCountry": "Belgium"
+}
