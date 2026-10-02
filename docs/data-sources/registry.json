@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-01",
+  "lastRun": "2026-10-02",
   "nextCountry": "Belgium",
   "entries": [
     {
@@ -2365,11 +2365,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 255,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2391,11 +2393,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 184,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2417,11 +2421,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 183,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2443,11 +2449,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 213,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2469,11 +2477,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 241,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2495,11 +2505,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 259,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2521,11 +2533,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 249,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2547,11 +2561,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 258,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2573,11 +2589,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 255,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2599,11 +2617,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 224,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2625,11 +2645,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 147,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2651,11 +2673,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 201,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2677,11 +2701,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 244,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2703,11 +2729,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 233,
         "method": "manually-reviewed-local-coastline-chord-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",
@@ -2729,11 +2757,13 @@
       "sourceUrl": "https://bathingwaterprofiles.gr/en/search/bathing-profiles",
       "reason": "Official registry search returned HTTP 503; map request timed out. POSEIDON platforms GET returned 401 and requires provider-issued OAuth2 credentials. No fresh local sample, algae alert, current or wave observation was verified. No substitute from nearby water bodies.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 300,
         "method": "length-weighted-local-coastline-right-normal",
         "import": "supabase/imports/20260916_shore-orientations.sql",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-02T08:20:16.820512+00:00",
+        "evidenceFile": "runs/2026-10-02.json"
       },
       "webcam": {
         "status": "not-verified",

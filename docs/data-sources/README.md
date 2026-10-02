@@ -331,3 +331,20 @@ checks advancing. No forced collection or duplicate schedule.
 117 tests, lint, build and148 bearing reproductions passed.
 Evidence: `runs/2026-10-01.json`; this activation supersedes the September19
 prepared-only status for these15 orientations.
+
+## 2026-10-02 Greece production activation
+
+15 previously researched Greek coastal sites now have their estimated local
+shore orientations in the authoritative database. Applied the unchanged
+September16 missing-only import after exact ID/coordinate/type checks.
+**15 reviewed /15 production integrations;0 newly determined orientations;
+0 new dynamic sources;0 newly verified fresh cameras /0 camera integrations.**
+No new first-pass sites claimed. Provider/camera findings and October16 review
+dates retained; Belgium remains the next country for new research.
+
+All15 production detail/observation identities, bearing provenance and
+API-to-wind-assessment checks passed. Other metadata and RLS/grants preserved.
+The single existing minute scheduler runs and collection advances. No forced
+collection or duplicate scheduling.117 tests, lint, build and148 geometry
+reproductions passed. Evidence: `runs/2026-10-02.json`; this supersedes the
+September16 prepared-only status for these15 orientations.
