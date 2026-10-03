@@ -348,3 +348,21 @@ The single existing minute scheduler runs and collection advances. No forced
 collection or duplicate scheduling.117 tests, lint, build and148 geometry
 reproductions passed. Evidence: `runs/2026-10-02.json`; this supersedes the
 September16 prepared-only status for these15 orientations.
+
+## 2026-10-03 Portugal production activation
+
+15 previously researched Portuguese coastal sites now have their estimated local
+shore orientations in the authoritative database. Applied the unchanged September 13
+missing-only transaction after exact ID/coordinate/type checks.
+**15 reviewed / 15 production integrations; 0 newly determined orientations;
+0 new dynamic sources; 0 newly verified fresh cameras / 0 camera integrations.**
+No new first-pass sites claimed. Existing provider/camera findings and October 13
+review dates retained; Belgium remains next for new research.
+
+All 15 production detail/observation identities, bearing provenance and
+API-to-wind-assessment checks passed; Fonte da Telha also passed a browser check.
+Other metadata preserved; locations RLS enabled and client updates denied.
+The existing single minute scheduler continues running. No forced collection or
+duplicate scheduling. 117 tests, lint, build and 148 geometry reproductions passed.
+Evidence: `runs/2026-10-03.json`; this supersedes September 13's prepared-only
+status for these 15 orientations.

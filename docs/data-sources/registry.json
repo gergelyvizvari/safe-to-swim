@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-02",
+  "lastRun": "2026-10-03",
   "nextCountry": "Belgium",
   "entries": [
     {
@@ -1509,10 +1509,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 246,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1530,10 +1532,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 255,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1551,10 +1555,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 253,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1572,10 +1578,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 255,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1593,10 +1601,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 247,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1614,10 +1624,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 253,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1635,10 +1647,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 246,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "candidate",
       "evidence": "runs/2026-09-13.json"
@@ -1656,10 +1670,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 246,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1677,10 +1693,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 237,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1698,10 +1716,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 242,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "candidate",
       "evidence": "runs/2026-09-13.json"
@@ -1719,10 +1739,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 237,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1740,10 +1762,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 240,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1761,10 +1785,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 239,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1782,10 +1808,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 242,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-13.json"
@@ -1803,10 +1831,12 @@
       "scope": "Exact official bathing-water code verified; multiple concession/beach records may share one water code. Not a fresh-sample integration.",
       "reason": "Sample detail returned 403. ArcGIS status descriptors have no measurement timestamp; dataset reuse terms not established.",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 237,
         "checkedAt": "2026-09-13",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-03T09:04:06.592082+00:00",
+        "evidence": "runs/2026-10-03.json"
       },
       "cameraStatus": "candidate",
       "evidence": "runs/2026-09-13.json"
