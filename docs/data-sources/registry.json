@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-03",
+  "lastRun": "2026-10-04",
   "nextCountry": "Belgium",
   "entries": [
     {
@@ -1179,11 +1179,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08089D1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 176,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1201,11 +1203,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08089C2",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 170,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1223,11 +1227,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08089C1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 169,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1245,11 +1251,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08089B1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 166,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1267,11 +1275,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08301C1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 168,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1289,11 +1299,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08301B1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 162,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1311,11 +1323,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08169B1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 156,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1333,11 +1347,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019L1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 102,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1355,11 +1371,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019K1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 124,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1377,11 +1395,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019I1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 130,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1399,11 +1419,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019E1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 133,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1421,11 +1443,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019D1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 136,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1443,11 +1467,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019C1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 123,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1465,11 +1491,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019B1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 134,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1487,11 +1515,13 @@
       "reason": "Current-sample semantics and dataset reuse terms need verification; no dynamic adapter enabled.",
       "sourceTargetCandidate": "08019A1",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 125,
         "checkedAt": "2026-09-12",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-04T08:03:25.22554+00:00",
+        "evidence": "runs/2026-10-04.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"

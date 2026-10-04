@@ -366,3 +366,23 @@ The existing single minute scheduler continues running. No forced collection or
 duplicate scheduling. 117 tests, lint, build and 148 geometry reproductions passed.
 Evidence: `runs/2026-10-03.json`; this supersedes September 13's prepared-only
 status for these 15 orientations.
+
+## 2026-10-04 Spain production activation
+
+15 previously researched Barcelona-area coastal sites now have their estimated
+shore orientations in the authoritative database. The new transaction selects
+exactly the 15 Spanish records from the September 12 shared Italy/Spain import,
+with unchanged geometry payloads and missing-only guards.
+**15 reviewed / 15 production integrations; 0 newly determined orientations;
+0 new dynamic sources; 0 newly verified fresh cameras / 0 camera integrations.**
+No new first-pass sites claimed. Provider/camera evidence and October 12 review
+dates retained; Belgium remains next for new research.
+
+All 15 production details, observation identities, bearing provenance and
+API-to-wind-assessment checks passed. Barceloneta's browser view displays
+shore-relative wind and keeps current water quality unconfirmed. Other metadata
+was preserved; the repeated import leaves rows and timestamps unchanged.
+RLS remains enabled and client updates denied. The existing scheduler advances.
+117 tests, lint, build and 148 geometry reproductions passed.
+Evidence: `runs/2026-10-04.json`; supersedes September 12's prepared-only status
+for these 15 Spanish orientations, not the separate Italian batch.
