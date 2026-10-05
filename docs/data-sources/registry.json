@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-04",
+  "lastRun": "2026-10-05",
   "nextCountry": "Belgium",
   "entries": [
     {
@@ -849,11 +849,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099002004",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 12,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -871,11 +873,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099002001",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 358,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -893,11 +897,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099002005",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 18,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -915,11 +921,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099002003",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 22,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -937,11 +945,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099002002",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 16,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -959,11 +969,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099005003",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 358,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -981,11 +993,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099005004",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 27,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1003,11 +1017,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099005002",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 8,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1025,11 +1041,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099005001",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 20,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1047,11 +1065,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099013008",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 39,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1069,11 +1089,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099013007",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 46,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1091,11 +1113,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099013006",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 46,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1113,11 +1137,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099013005",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 41,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1135,11 +1161,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099013004",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 46,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"
@@ -1157,11 +1185,13 @@
       "reason": "General Arpae reuse terms are CC BY-NC-SA; no dataset-specific commercial reuse permission established.",
       "sourceTargetCandidate": "IT008099013003",
       "shoreOrientation": {
-        "status": "prepared",
+        "status": "integrated",
         "seaBearing": 35,
         "checkedAt": "2026-09-11",
         "record": "public/data/shore-orientations.json",
-        "productionApplied": false
+        "productionApplied": true,
+        "appliedAt": "2026-10-05T08:05:39.779737+00:00",
+        "evidence": "runs/2026-10-05.json"
       },
       "cameraStatus": "no-verified-live-binding",
       "evidence": "runs/2026-09-12.json"

@@ -386,3 +386,24 @@ RLS remains enabled and client updates denied. The existing scheduler advances.
 117 tests, lint, build and 148 geometry reproductions passed.
 Evidence: `runs/2026-10-04.json`; supersedes September 12's prepared-only status
 for these 15 Spanish orientations, not the separate Italian batch.
+
+## 2026-10-05 Italy production activation
+
+15 previously researched Cattolica, Misano and Riccione coastal sites now have
+their estimated shore orientations in the authoritative database. The transaction
+selects exactly the 15 original Italian records from the September 12 shared
+import with unchanged geometry payloads and missing-only guards.
+**15 reviewed / 15 production integrations; 0 newly determined orientations;
+0 new dynamic sources; 0 newly verified fresh cameras / 0 camera integrations.**
+No new first-pass sites claimed. Arpae reuse restrictions and camera findings
+remain unresolved; October 12 review dates preserved. Belgium remains next
+for new research.
+
+All 15 API details, observation identities, provenance and API-to-wind-assessment
+checks passed. Cattolica's browser view shows shore-relative wind and retains
+unconfirmed current water quality. Other metadata was preserved; repeating the
+import leaves full rows and timestamps unchanged. RLS remains enabled, client
+updates denied, and the existing single scheduler continues to collect data.
+117 tests, lint, build and 148 geometry reproductions passed. Evidence:
+`runs/2026-10-05.json`; supersedes the prepared-only state of these 15 Italian
+orientations in the September 12 report.
