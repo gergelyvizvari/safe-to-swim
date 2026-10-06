@@ -1,0 +1,489 @@
+{
+  "date": "2026-10-06",
+  "status": "research-complete-candidates-only",
+  "counts": {
+    "reviewed": 15,
+    "identityVerified": 15,
+    "preparedImports": 0,
+    "newProductionCoverage": 0,
+    "newAdapters": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0,
+    "camerasVerifiedLive": 0,
+    "camerasIntegrated": 0
+  },
+  "providers": [
+    {
+      "id": "vmm-zwemwater",
+      "documentation": "https://kwaliteitzwemwater.be/nl",
+      "endpoint": "https://kwaliteitzwemwater.be/nl/ajax/getMeasuringPointsForGroup?nid=1&currentId=1&lang=nl",
+      "probe": {
+        "httpStatus": 200,
+        "rootRecords": 619,
+        "groupIds": [
+          16625,
+          16630,
+          16631,
+          16632,
+          16633
+        ],
+        "groupRecords": 15,
+        "identity": "All 15 exact local names and unique coordinate matches within 0.00002 degrees; coastal-water label verified on every detail page."
+      },
+      "status": "candidate",
+      "remaining": "Stable parser/sample units, reuse terms and request limits not established. Samples are September 14–15, not fresh October observations; page modification date is not sample time. No algal or warning inference from quality labels."
+    },
+    {
+      "id": "meetnet-vlaamse-banken",
+      "documentation": "https://api.meetnetvlaamsebanken.be/V2-help/",
+      "endpoint": "https://api.meetnetvlaamsebanken.be/V2/catalog",
+      "httpStatus": 401,
+      "status": "awaiting-access",
+      "scope": "Potential measured temperature, waves, wind and harbour currents. Catalog needed for station/parameter IDs, units, projection and intervals; none assigned by proximity. API documents password grant and Bearer token; no account created."
+    },
+    {
+      "id": "kustweerbericht",
+      "documentation": "https://kustwacht.be/nl/news/kustweerbericht",
+      "page": "https://www.kustweerbericht.be/",
+      "status": "candidate",
+      "scope": "Official regional coastal forecast, west/east coast. Angular HTML shell retrieved; no timestamped forecast/warning API contract verified; no beach-specific storm or current assignment."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-BEVL_BW_BLA06",
+      "targetId": "14744",
+      "name": "Blankenberge - Artanhelling",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14744",
+      "latitude": 51.3200719,
+      "longitude": 3.1346777,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BLA04",
+      "targetId": "14745",
+      "name": "Blankenberge - Kerkstraat",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14745",
+      "latitude": 51.31814,
+      "longitude": 3.1270112,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BLA02",
+      "targetId": "14717",
+      "name": "Blankenberge - Weststraat",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14717",
+      "latitude": 51.316488,
+      "longitude": 3.1203563,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE03",
+      "targetId": "14762",
+      "name": "Bredene - Astrid",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14762",
+      "latitude": 51.2534038,
+      "longitude": 2.9649948,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE05",
+      "targetId": "14816",
+      "name": "Bredene - De Duinpan",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14816",
+      "latitude": 51.2591512,
+      "longitude": 2.9797223,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE04",
+      "targetId": "14730",
+      "name": "Bredene - Droge Opgang",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14730",
+      "latitude": 51.2558115,
+      "longitude": 2.9709394,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE02",
+      "targetId": "14798",
+      "name": "Bredene - Duingat",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14798",
+      "latitude": 51.2512603,
+      "longitude": 2.958613,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE01",
+      "targetId": "14737",
+      "name": "Bredene - Turkeyen",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14737",
+      "latitude": 51.2484873,
+      "longitude": 2.9522509,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRU04",
+      "targetId": "14685",
+      "name": "Brugge - Westkant - Zeebrugge",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14685",
+      "latitude": 51.3329061,
+      "longitude": 3.1730528,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN02",
+      "targetId": "14821",
+      "name": "De Haan - Centrum",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14821",
+      "latitude": 51.2807724,
+      "longitude": 3.0305371,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN05",
+      "targetId": "14823",
+      "name": "De Haan - Harendijke - Wenduine",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14823",
+      "latitude": 51.3106597,
+      "longitude": 3.1005759,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN01",
+      "targetId": "14797",
+      "name": "De Haan - Vosseslag",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14797",
+      "latitude": 51.2678261,
+      "longitude": 3.0005434,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN04",
+      "targetId": "14810",
+      "name": "De Haan - Wenduine",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14810",
+      "latitude": 51.3036209,
+      "longitude": 3.0789122,
+      "latestSampleDate": "14-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DPN03",
+      "targetId": "14751",
+      "name": "De Panne - Canadezenplein",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14751",
+      "latitude": 51.1065404,
+      "longitude": 2.5908855,
+      "latestSampleDate": "15-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DPN01",
+      "targetId": "14799",
+      "name": "De Panne - Leopold",
+      "page": "https://kwaliteitzwemwater.be/nl/node/14799",
+      "latitude": 51.1020634,
+      "longitude": 2.5772603,
+      "latestSampleDate": "15-09-2026",
+      "statusCode": 200,
+      "hasCoastalWaterLabel": true,
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "provider": "vmm-zwemwater"
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "blankenberge-municipal",
+      "operator": "Toerisme Blankenberge",
+      "page": "https://www.visit-blankenberge.be/webcam",
+      "locationIds": [
+        "eea-BEVL_BW_BLA06",
+        "eea-BEVL_BW_BLA04",
+        "eea-BEVL_BW_BLA02"
+      ],
+      "coordinates": null,
+      "fieldOfViewEvidence": "YouTube consent panel explicitly requires acceptance of terms; no playback accepted or fresh frame verified.",
+      "checkedAt": "2026-10-06",
+      "type": "provider-page",
+      "status": "candidate",
+      "freshness": "unverified",
+      "embedding": "unverified; no binding",
+      "nextReviewAt": "2026-11-05"
+    },
+    {
+      "cameraId": "wenduine-municipal",
+      "operator": "Visit De Haan",
+      "page": "https://www.visitdehaan.be/praktisch/webcam",
+      "locationIds": [
+        "eea-BEVL_BW_DHN02",
+        "eea-BEVL_BW_DHN05",
+        "eea-BEVL_BW_DHN01",
+        "eea-BEVL_BW_DHN04"
+      ],
+      "coordinates": null,
+      "fieldOfViewEvidence": "Municipal notice identifies replacement view at Wenduine, not De Haan centrum. YouTube consent panel; no fresh frame verified.",
+      "checkedAt": "2026-10-06",
+      "type": "provider-page",
+      "status": "candidate",
+      "freshness": "unverified",
+      "embedding": "unverified; no binding",
+      "nextReviewAt": "2026-11-05"
+    },
+    {
+      "cameraId": "zeebrugge-feratel-8037",
+      "operator": "Visit Bruges / Feratel",
+      "page": "https://www.visitbruges.be/nl/zeebrugge/webcam-zeebrugge",
+      "locationIds": [
+        "eea-BEVL_BW_BRU04"
+      ],
+      "coordinates": null,
+      "fieldOfViewEvidence": "Feratel player displayed 06.10.2026 and Play; playback action could not resolve in embedded player. Date alone is not freshness proof.",
+      "checkedAt": "2026-10-06",
+      "type": "provider-page",
+      "status": "candidate",
+      "freshness": "unverified",
+      "embedding": "unverified; no binding",
+      "nextReviewAt": "2026-11-05"
+    }
+  ],
+  "cameraSearchRemainder": {
+    "locationIds": [
+      "eea-BEVL_BW_BRE03",
+      "eea-BEVL_BW_BRE05",
+      "eea-BEVL_BW_BRE04",
+      "eea-BEVL_BW_BRE02",
+      "eea-BEVL_BW_BRE01",
+      "eea-BEVL_BW_DPN03",
+      "eea-BEVL_BW_DPN01"
+    ],
+    "status": "no-verified-camera",
+    "reason": "Municipal/tourism searches screened; no camera with established exact field of view, coordinates and fresh playback. No third-party directory or nearby-camera substitution.",
+    "nextReviewAt": "2026-11-05"
+  },
+  "shoreOrientation": {
+    "status": "blocked-source-access",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "query": "[out:json][timeout:25];way[\"natural\"=\"coastline\"](51.08,2.55,51.35,3.2);out meta geom;",
+    "httpStatus": 406,
+    "reason": "No geometry returned; no local water/land validation possible in this run. Geometry not declared inherently indeterminate. Existing nulls retained.",
+    "nextReviewAt": "2026-11-05"
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "databaseProject": "zpqhqdndaloivnyzoigb",
+    "cron": [
+      {
+        "jobid": 1,
+        "active": true,
+        "schedule": "* * * * *"
+      }
+    ],
+    "recentRuns": [
+      {
+        "status": "succeeded",
+        "start_time": "2026-10-06T08:03:00.038783+00:00"
+      },
+      {
+        "status": "succeeded",
+        "start_time": "2026-10-06T08:02:00.023391+00:00"
+      },
+      {
+        "status": "succeeded",
+        "start_time": "2026-10-06T08:01:00.034879+00:00"
+      }
+    ],
+    "states": [
+      {
+        "status": "healthy",
+        "source_id": "open-meteo-weather",
+        "checked_at": "2026-10-06T08:03:00.709+00:00",
+        "next_check_at": "2026-10-06T08:08:01.522+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "unavailable",
+        "source_id": "ea-brighton-samples",
+        "checked_at": "2026-10-06T02:45:00.649+00:00",
+        "next_check_at": "2026-10-06T08:45:01.233+00:00",
+        "consecutive_failures": 56
+      },
+      {
+        "status": "unavailable",
+        "source_id": "sepa",
+        "checked_at": "2026-09-29T15:28:01.274+00:00",
+        "next_check_at": "2026-10-06T15:28:01.81+00:00",
+        "consecutive_failures": 4
+      },
+      {
+        "status": "unavailable",
+        "source_id": "ea",
+        "checked_at": "2026-09-29T15:28:01.273+00:00",
+        "next_check_at": "2026-10-06T15:28:01.989+00:00",
+        "consecutive_failures": 3
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-temperature",
+        "checked_at": "2026-10-06T08:03:00.71+00:00",
+        "next_check_at": "2026-10-06T08:04:01.955+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-quality",
+        "checked_at": "2026-10-05T15:52:00.538+00:00",
+        "next_check_at": "2026-10-06T15:52:04.201+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "unavailable",
+        "source_id": "nrw",
+        "checked_at": "2026-09-29T15:28:01.274+00:00",
+        "next_check_at": "2026-10-06T15:28:02.624+00:00",
+        "consecutive_failures": 3
+      },
+      {
+        "status": "healthy",
+        "source_id": "daera",
+        "checked_at": "2026-09-29T15:28:01.275+00:00",
+        "next_check_at": "2026-10-06T15:28:01.642+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "eea",
+        "checked_at": "2026-09-29T15:28:01.272+00:00",
+        "next_check_at": "2026-10-06T15:28:02.202+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-windForecast",
+        "checked_at": "2026-10-06T07:28:00.743+00:00",
+        "next_check_at": "2026-10-06T08:28:01.588+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-waveForecast",
+        "checked_at": "2026-10-06T07:12:00.863+00:00",
+        "next_check_at": "2026-10-06T08:12:01.709+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "open-meteo-marine",
+        "checked_at": "2026-10-06T08:01:00.912+00:00",
+        "next_check_at": "2026-10-06T08:06:01.675+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "stale",
+        "source_id": "official-storm",
+        "checked_at": "2026-10-06T08:03:00.711+00:00",
+        "next_check_at": "2026-10-06T08:04:01.574+00:00",
+        "consecutive_failures": 0
+      },
+      {
+        "status": "healthy",
+        "source_id": "official-wind",
+        "checked_at": "2026-10-06T08:02:00.739+00:00",
+        "next_check_at": "2026-10-06T08:03:02.437+00:00",
+        "consecutive_failures": 0
+      }
+    ],
+    "verification": "4 paginated lake/coastal lists and all 15 detail/observation identity/schema checks passed. No database mutation, forced collection, contact request or duplicate cron. Known weekly failures next due today 15:28 UTC, Brighton next due 08:45; scheduled checks advance."
+  },
+  "validation": {
+    "tests": 117,
+    "lint": "passed",
+    "build": "passed",
+    "uiChange": false
+  },
+  "nextCountry": "France"
+}

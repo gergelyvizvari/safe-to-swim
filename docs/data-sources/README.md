@@ -407,3 +407,23 @@ updates denied, and the existing single scheduler continues to collect data.
 117 tests, lint, build and 148 geometry reproductions passed. Evidence:
 `runs/2026-10-05.json`; supersedes the prepared-only state of these 15 Italian
 orientations in the September 12 report.
+
+## 2026-10-06 Belgium first-pass research
+
+15 Belgian coastal sites reviewed: 15 unique VMM measuring-point identities
+verified by local name and coordinates, with coastal-water labels checked on
+each detail page. Latest samples are September 14–15, not fresh October data.
+**15 researched / 0 prepared imports / 0 production integrations;
+0 determined or applied bearings; 0 verified fresh or integrated cameras.**
+
+The documented Vlaamse Banken catalog returned 401 (authentication required).
+The official regional coastal forecast remains a candidate, without a verified
+warning/data contract. Three municipal camera pages were reviewed; playback,
+precise mounting coordinates and site field of view remain unverified. Wenduine
+is not automatically assigned to De Haan centrum. Overpass returned 406, so no
+shore geometry was obtained; these coastlines are not deemed indeterminate.
+
+All candidates, failures and next reviews (November 5) are recorded in
+`runs/2026-10-06.json`. No runtime adapter or database changes published.
+4 catalogue pages and 15 production detail/observation checks passed; the single
+scheduler continues. 117 tests, lint and build passed. Next country: France.

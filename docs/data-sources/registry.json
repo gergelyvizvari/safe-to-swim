@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-05",
-  "nextCountry": "Belgium",
+  "lastRun": "2026-10-06",
+  "nextCountry": "France",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -5408,6 +5408,306 @@
         "appliedAt": "2026-09-30T08:04:53.586167+00:00",
         "evidenceFile": "runs/2026-09-30.json"
       }
+    },
+    {
+      "locationId": "eea-BEVL_BW_BLA06",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14744",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14744",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BLA04",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14745",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14745",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BLA02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14717",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14717",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE03",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14762",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14762",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE05",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14816",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14816",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE04",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14730",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14730",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14798",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14798",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRE01",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14737",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14737",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_BRU04",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14685",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14685",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14821",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14821",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN05",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14823",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14823",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN01",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14797",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14797",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DHN04",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14810",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14810",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DPN03",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14751",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14751",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
+    },
+    {
+      "locationId": "eea-BEVL_BW_DPN01",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "vmm-zwemwater",
+      "status": "candidate",
+      "checkedAt": "2026-10-06",
+      "nextReviewAt": "2026-11-05",
+      "identityVerified": true,
+      "sourceTargetCandidate": "14799",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14799",
+      "reason": "Name and exact coordinates match. September samples only; stable parser, units, reuse and rate limits unresolved.",
+      "shoreOrientation": {
+        "status": "blocked",
+        "reason": "Overpass returned HTTP 406; no geometry reviewed. Not inherently indeterminate.",
+        "nextReviewAt": "2026-11-05"
+      },
+      "cameraStatus": "no-verified-live-binding",
+      "evidence": "runs/2026-10-06.json"
     }
   ]
 }
