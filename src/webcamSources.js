@@ -15,6 +15,15 @@ const BRIGHTON_STREAMS = [
 
 export const VERIFIED_WEBCAMS = [
   {
+    id: 'fr-annecy-albigny-panorama', name: "Annecy · Presqu’île d’Albigny",
+    latitude: 45.90371, longitude: 6.144743,
+    sourceName: 'Lac Annecy Tourisme', pageUrl: 'https://app.webcam-hd.com/annecy-tourisme/annecy-lac',
+    verifiedOn: '2026-10-07', coverage: 'nearby-shore', waterType: 'lake',
+    // Timestamped lake panorama, not a direct view of either bathing area.
+    // Exact IDs prevent assignment to the separate nearby inland lakes.
+    locationIds: ['eea-FRK2874010D074220', 'eea-FRK2874010D074212'],
+  },
+  {
     id: 'alte-donau-yachtclub-seewind', name: 'Yachtclub Seewind · Obere Alte Donau',
     latitude: 48.248083, longitude: 16.4125604,
     sourceName: 'Yachtclub Seewind', pageUrl: 'https://www.yachtclub-seewind.at/main/wetter/webcam/',

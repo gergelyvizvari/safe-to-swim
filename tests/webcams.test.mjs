@@ -16,3 +16,16 @@ test('camera lookup preserves UK streams and leaves distant locations empty',()=
   assert.equal(getWebcamsForLocation({latitude:60,longitude:25}).length,0)
   assert.equal(getWebcamsForLocation(null).length,0)
 })
+
+test('Annecy panorama is a source link for reviewed lake sites, never a nearby-waterbody substitute',()=>{
+  const point={latitude:45.90424,longitude:6.14754,waterType:'lake',id:'eea-FRK2874010D074220'}
+  const [camera]=getWebcamsForLocation(point)
+  assert.equal(camera.id,'fr-annecy-albigny-panorama')
+  assert.equal(camera.coverage,'nearby-shore')
+  assert.ok(camera.distance>0.2 && camera.distance<0.3)
+  assert.ok(camera.pageUrl.startsWith('https://app.webcam-hd.com/'))
+  assert.equal(camera.streams,undefined) // External link; no stale thumbnail or unlicensed embed.
+  assert.deepEqual(getWebcamsForLocation({...point,id:'different-lake'}),[])
+  assert.deepEqual(getWebcamsForLocation({...point,waterType:'coastal'}),[])
+  assert.deepEqual(getWebcamsForLocation({...point,id:undefined}),[])
+})

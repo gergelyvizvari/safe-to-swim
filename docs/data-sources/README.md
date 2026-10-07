@@ -427,3 +427,29 @@ All candidates, failures and next reviews (November 5) are recorded in
 `runs/2026-10-06.json`. No runtime adapter or database changes published.
 4 catalogue pages and 15 production detail/observation checks passed; the single
 scheduler continues. 117 tests, lint and build passed. Next country: France.
+
+## 2026-10-07 — France, 15 lake sites
+
+12 first-pass sites plus3 existing Annecy entries reviewed;15 ministry
+name/commune matches, but no coordinate crosswalk verified (map API timeout).
+The old France entries lack country fields: select by stable locationId before
+research, not country metadata. Existing records are preserved; the repeated
+Marquisats review is not counted as new research. Albigny now has a ministry
+identity candidate and fresh camera evidence.
+
+One refreshing Albigny panorama is integrated through the existing camera module
+for2 adjacent lake sites as **nearby shore**, with distance and external source
+link. Its rendered capture label advanced09:43→10:13 onOctober7. No beach-specific
+field of view is claimed; no image/stream is embedded. Desktop and390px mobile
+checks pass, along with118 tests, lint and build.
+
+No new dynamic measurement adapter or DB import. Ministry samples endAugust17–27;
+the public cyanobacteria dataset contains2021–2025 CSVs. The tourism office shows
+a current SRV temperature, but exact sensor/depth/time and reuse remain unresolved.
+Météo-France Vigilance returns401 without an account. Lake orientations are not
+applicable in this coastal-orientation batch (0 determined/applied).
+
+Production catalogue pagination and15 detail/observation identity checks passed.
+The existing cron advances; known provider failures are retained, without forcing
+extra collection. [Run evidence](runs/2026-10-07.json) includes limitations,
+camera evidence andNovember6 follow-ups. Next country: Sweden.

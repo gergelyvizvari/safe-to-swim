@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-07",
+  "status": "camera-integrated-research-complete",
+  "counts": {
+    "reviewed": 15,
+    "newlyReviewed": 12,
+    "previouslyReviewed": 3,
+    "nameAndCommuneMatched": 15,
+    "coordinateIdentityVerified": 0,
+    "preparedImports": 0,
+    "newProductionCoverage": 2,
+    "newDynamicAdapters": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0,
+    "shoreOrientationsNotApplicable": 15,
+    "camerasVerifiedRefreshing": 1,
+    "camerasIntegrated": 1,
+    "cameraLocationBindings": 2
+  },
+  "providers": [
+    {
+      "id": "fr-ministry-bathing",
+      "documentation": "https://baignades.sante.gouv.fr/baignades/homeMap.do",
+      "status": "candidate",
+      "probe": "Public communeList.do and siteList.do JSON then consultSite.do HTML; 15 name/commune matches and seasonal sample-date lists read. Detail site key is zero-padded department plus six-digit isite, not isite alone. No authentication used.",
+      "sampleEvidence": {
+        "site": "074003347",
+        "sample": "07400144127",
+        "sampledOn": "2026-08-26",
+        "intestinalEnterococci": 15,
+        "escherichiaColi": 197,
+        "unit": "/100mL",
+        "result": "Moyen",
+        "timePrecision": "calendar day; no timezone supplied"
+      },
+      "limitations": "No coordinate match or reuse/rate-limit contract verified. Blank optional algae result is missing, never zero or clear. No adapter/binding activated."
+    },
+    {
+      "id": "fr-ministry-map",
+      "endpoint": "https://sigmas.social.gouv.fr/server/rest/services/baignades/fra_vue_baignade/MapServer/5?f=pjson",
+      "status": "failed",
+      "probe": "Direct public GET timed out after 25 seconds; no HTTP response. This does not establish a global outage."
+    },
+    {
+      "id": "annecy-srv-temperature",
+      "page": "https://www.lac-annecy.com/meteo/",
+      "status": "candidate",
+      "probe": "HTTP 200 HTML shows 7 octobre 2026, 19.7 degrees C, identified by publisher as SRV Annecy sailing-club reading. Separate webcam page header returned 19.8 degrees C the same day.",
+      "limitations": "Date precision only; sensor coordinates, depth, exact observation time, reuse and API contract not established. No propagation to other lakes or all Annecy beaches. No measurement imported."
+    },
+    {
+      "id": "fr-ministry-cyanobacteria",
+      "page": "https://www.data.gouv.fr/datasets/resultats-du-controle-sanitaire-des-eaux-de-baignade-naturelle-vis-a-vis-des-parametres-relatifs-aux-cyanobacteries-et-aux-cyanotoxines",
+      "status": "candidate",
+      "probe": "Actual public data.gouv dataset API returned seven resources: annual CSVs 2021–2025, qualitative answers and thresholds. Metadata updated 2026-06-24; Open Licence 2.0.",
+      "limitations": "Historical conditional sampling, not a 2026 alert feed. CSV station-level coverage not verified; missing sample cannot mean no algae."
+    },
+    {
+      "id": "meteofrance-vigilance",
+      "documentation": "https://confluence-meteofrance.atlassian.net/wiki/spaces/OpenDataMeteoFrance/pages/854065168/API+Bulletin+Vigilance+FR",
+      "endpoint": "https://public-api.meteofrance.fr/public/DPVigilance/v1/cartevigilance/encours",
+      "status": "awaiting-access",
+      "httpStatus": 401,
+      "scope": "Departmental danger forecasts, not a lake signal-light system. Authenticated account required; catalogue lists 60 requests/min. Preserve validity intervals and compare map/text product timestamps. No account created or secret sent."
+    },
+    {
+      "id": "sila-science",
+      "page": "https://www.sila.fr/nos-missions/la-gestion-partagee-du-lac-dannecy/caracteristiques-du-lac-dannecy/",
+      "status": "candidate",
+      "scope": "Scientific lake monitoring and annual reports; central deep-water profiles do not establish current beach temperature, algae safety, local waves or currents. No validated live local wave/current API found in this screening."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-FRK2101407D001685",
+      "provider": "fr-ministry-bathing",
+      "targetId": "001001137",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=001&site=001001137&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=01407&code_dept=01",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "18/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2773180D073065",
+      "provider": "fr-ministry-bathing",
+      "targetId": "073003693",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=073&site=073003693&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=73180&code_dept=73",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "17/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2101010D001530",
+      "provider": "fr-ministry-bathing",
+      "targetId": "001001165",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=001&site=001001165&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=01010&code_dept=01",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "18/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874010D074220",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003347",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003347&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74010&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874010D074212",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003345",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003345&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74010&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874010D074320",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003346",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003346&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74010&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874299D074230",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003357",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003357&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74299&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2773286D073066",
+      "provider": "fr-ministry-bathing",
+      "targetId": "073003704",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=073&site=073003704&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=73286&code_dept=73",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "24/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874299D074240",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003358",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003358&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74299&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874176D074250",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003351",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003351&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74176&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874267D074310",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003354",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003354&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74267&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874267D074315",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074004428",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074004428&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74267&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874225D074560",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003352",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003352&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74225&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "27/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874242D074300",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003353",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003353&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74242&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    },
+    {
+      "locationId": "eea-FRK2874275D074260",
+      "provider": "fr-ministry-bathing",
+      "targetId": "074003355",
+      "page": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=074&site=074003355&annee=2026",
+      "listUrl": "https://baignades.sante.gouv.fr/baignades/siteList.do?idCarte=fra&insee_com=74275&code_dept=74",
+      "nameAndCommuneMatched": true,
+      "coordinateMatchVerified": false,
+      "latestSampleDate": "26/08/2026",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06",
+      "reason": "Exact commune and normalized site name; Seyssel differs only in quotation marks. Geographic identity remains unverified because the official map API timed out. Seasonal samples are historical, not current safety."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "fr-annecy-albigny-panorama",
+      "operator": "Lac Annecy Tourisme / Trinum",
+      "sourcePage": "https://www.lac-annecy.com/webcams/",
+      "page": "https://app.webcam-hd.com/annecy-tourisme/annecy-lac",
+      "coordinates": {
+        "latitude": 45.90371,
+        "longitude": 6.144743
+      },
+      "coordinateEvidence": "Official tourism page map marker for Presqu’île d’Albigny.",
+      "locationIds": [
+        "eea-FRK2874010D074220",
+        "eea-FRK2874010D074212"
+      ],
+      "coverage": "nearby-shore",
+      "fieldOfViewEvidence": "Browser image faces across northern Lake Annecy toward Annecy; building roof and lake foreground. Bathing areas not individually confirmed visible. Only the two adjacent reviewed Annecy beaches are assigned, never other nearby lakes.",
+      "checkedAt": "2026-10-07T08:18:00Z",
+      "type": "refreshing-panorama-source-link",
+      "freshness": "Rendered image and capture label advanced from 07/10/2026 09H43 to 10H13 during this run; local camera timezone presumed Europe/Paris, not normalized into observations.",
+      "embedding": "Not verified/licensed for embedding; source-page link only, no copied thumbnail or stream.",
+      "status": "integrated",
+      "nextReviewAt": "2026-11-06"
+    },
+    {
+      "cameraId": "sevrier-base-nautique",
+      "operator": "Sevrier nautical base / Trinum",
+      "page": "https://app.webcam-hd.com/sevrier/base-nautique",
+      "sourcePage": "https://www.lac-annecy.com/webcams/",
+      "coordinates": {
+        "latitude": 45.859596,
+        "longitude": 6.143978
+      },
+      "locationIds": [
+        "eea-FRK2874267D074310",
+        "eea-FRK2874267D074315"
+      ],
+      "fieldOfViewEvidence": "Browser loaded image dated07/10/2026 09H44, facing club buildings/kayaks; no selected beach or useful water view established.",
+      "type": "panorama-candidate",
+      "freshness": "Recent timestamp, progression not checked.",
+      "embedding": "Not investigated further; no binding.",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06"
+    },
+    {
+      "cameraId": "talloires-pere-bise",
+      "operator": "Auberge du Père Bise / Trinum",
+      "page": "https://app.webcam-hd.com/pere-bise/auberge",
+      "sourcePage": "https://www.lac-annecy.com/webcams/",
+      "coordinates": {
+        "latitude": 45.839531,
+        "longitude": 6.210002
+      },
+      "locationIds": [
+        "eea-FRK2874275D074260"
+      ],
+      "fieldOfViewEvidence": "Official tourism directory labels Auberge du Père Bise; beach view not verified.",
+      "type": "provider-page",
+      "freshness": "unverified",
+      "embedding": "unverified",
+      "status": "candidate",
+      "checkedAt": "2026-10-07",
+      "nextReviewAt": "2026-11-06"
+    }
+  ],
+  "cameraRemainder": {
+    "locationIds": [
+      "eea-FRK2101407D001685",
+      "eea-FRK2773180D073065",
+      "eea-FRK2101010D001530",
+      "eea-FRK2874010D074320",
+      "eea-FRK2874299D074230",
+      "eea-FRK2773286D073066",
+      "eea-FRK2874299D074240",
+      "eea-FRK2874176D074250",
+      "eea-FRK2874225D074560",
+      "eea-FRK2874242D074300"
+    ],
+    "status": "no-verified-camera",
+    "reason": "Official Annecy tourism directory plus Rumilly/Haut-Rhone/Serrieres searches screened; no beach-specific verified camera. Mountain/ski cameras around Seyssel and other-waterbody panoramas excluded. No proximity-only binding.",
+    "nextReviewAt": "2026-11-06"
+  },
+  "rumillyCaution": {
+    "page": "https://www.rumilly-tourisme.com/equipements/base-de-loisirs/",
+    "finding": "Tourism office states only one bathing zone reopened in2026; other zone still prohibited. Exact polygon not verified, so do not label the whole waterbody open."
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "databaseProject": "zpqhqdndaloivnyzoigb",
+    "verification": "4 paginated lists and all15 detail/observations identity, coordinate, source schema and marineModelSupported=false assertions passed. RLS enabled on all8 catalogue tables. One existing minute cron, last3 runs08:15–08:17 UTC succeeded. Weekly checks advancedOct6; known EA/NRW/SEPA failures persist. Brighton last errorea_http_403, next08:49; not force-triggered. No DB mutations or schedule/contact calls.",
+    "publication": "Camera additions counted as production coverage only after exact commit deployment is confirmed Ready; no new observation adapter."
+  },
+  "validation": {
+    "tests": 118,
+    "lint": "passed",
+    "build": "passed",
+    "browser": "Desktop and390px mobile: nearby-shore label,0.2km distance, verification date and external source link present; no embedded or cached image."
+  },
+  "selectionAudit": "12 new sites and3 previously reviewed sites lacking country fields in the registry. Albigny now has a source identity and fresh camera evidence, Imperial gains the same camera; Marquisats repeat is not counted as new research. Existing entries preserved. Future selection must de-duplicate by locationId, never country field alone.",
+  "nextCountry": "Sweden"
+}
