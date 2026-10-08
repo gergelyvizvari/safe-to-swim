@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-07",
-  "nextCountry": "Sweden",
+  "lastRun": "2026-10-08",
+  "nextCountry": "Norway",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -5920,6 +5920,593 @@
       "evidence": "runs/2026-10-07.json",
       "cameraStatus": "not-verified",
       "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-SE0A11383000000633",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only; nearby-shore camera source link",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000633",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/apelviken-1.html",
+        "coordinates": [
+          [
+            "57.08366",
+            "12.25558"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 224,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "length-weighted-local-coastline-right-normal"
+      },
+      "cameraSearch": {
+        "status": "integrated",
+        "cameraIds": [
+          "se-apelviken-solviken"
+        ]
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000634",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only; nearby-shore camera source link",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000634",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/apelviken-2.html",
+        "coordinates": [
+          [
+            "57.0788",
+            "12.2602"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 267,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "length-weighted-local-coastline-right-normal"
+      },
+      "cameraSearch": {
+        "status": "integrated",
+        "cameraIds": [
+          "se-apelviken-solviken"
+        ]
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000636",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000636",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/barnens-badstrand.html",
+        "coordinates": [
+          [
+            "57.10858",
+            "12.24064"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 288,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "length-weighted-local-coastline-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000635",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000635",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/djupa-drakt.html",
+        "coordinates": [
+          [
+            "57.09829",
+            "12.24213"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 227,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000644",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000644",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/espevik.html",
+        "coordinates": [
+          [
+            "57.18976",
+            "12.18829"
+          ]
+        ],
+        "latestSampleDate": "2026-08-10",
+        "latestSampleText": "2026-08-10 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 237,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000005575",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000005575",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/fastningsbadet.html",
+        "coordinates": [
+          [
+            "57.10781",
+            "12.23684"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 10,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000638",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000638",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/getteron-1a-vik.html",
+        "coordinates": [
+          [
+            "57.11295",
+            "12.22371"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 212,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "candidate",
+        "reason": "Naturum Getterön bird-reserve camera is not verified to see these southern bathing bays; no proximity binding.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000639",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000639",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/getteron-3e-vik.html",
+        "coordinates": [
+          [
+            "57.11372",
+            "12.2162"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 185,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "candidate",
+        "reason": "Naturum Getterön bird-reserve camera is not verified to see these southern bathing bays; no proximity binding.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000640",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000640",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/getteron-4e-vik.html",
+        "coordinates": [
+          [
+            "57.11458",
+            "12.21165"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 197,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "candidate",
+        "reason": "Naturum Getterön bird-reserve camera is not verified to see these southern bathing bays; no proximity binding.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000641",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000641",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/getteron-5e-vik.html",
+        "coordinates": [
+          [
+            "57.1181",
+            "12.20256"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 183,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "candidate",
+        "reason": "Naturum Getterön bird-reserve camera is not verified to see these southern bathing bays; no proximity binding.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000628",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000628",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/kagabacksviken.html",
+        "coordinates": [
+          [
+            "57.04667",
+            "12.28533"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 245,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "length-weighted-local-coastline-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000646",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000646",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/karradal-sodra2.html",
+        "coordinates": [
+          [
+            "57.18299",
+            "12.21212"
+          ]
+        ],
+        "latestSampleDate": "2026-08-10",
+        "latestSampleText": "2026-08-10 Tjänligt m. Anm. Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 292,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000632",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000632",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/lilla-apelviken.html",
+        "coordinates": [
+          [
+            "57.08937",
+            "12.2415"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 296,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "length-weighted-local-coastline-right-normal"
+      },
+      "cameraSearch": {
+        "status": "candidate",
+        "reason": "Kåsa player listed by Apelviken operator; playback and exact mounting location not checked.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000003765",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000003765",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/skarpenord.html",
+        "coordinates": [
+          [
+            "57.10123",
+            "12.24119"
+          ]
+        ],
+        "latestSampleDate": "2026-08-03",
+        "latestSampleText": "2026-08-03 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 250,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "map-reviewed-local-beach-chord-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-SE0A11383000000642",
+      "country": "Sweden",
+      "checkedAt": "2026-10-08",
+      "nextReviewAt": "2026-11-07",
+      "status": "integrated",
+      "integrationScope": "Shore orientation only",
+      "providers": [
+        "hav-sweden",
+        "hav-varberg-pages",
+        "smhi-ocobs",
+        "smhi-warnings"
+      ],
+      "evidence": {
+        "locationId": "eea-SE0A11383000000642",
+        "page": "https://www.havochvatten.se/badplatser-och-badvatten/kommuner/badplatser-i-varbergs-kommun/stravalla.html",
+        "coordinates": [
+          [
+            "57.29788",
+            "12.16372"
+          ]
+        ],
+        "latestSampleDate": "2026-08-10",
+        "latestSampleText": "2026-08-10 Tjänligt Ingen blomning",
+        "identity": "name + municipal page + coordinates; machine ID not exposed in inspected HTML"
+      },
+      "shoreOrientation": {
+        "seaBearing": 250,
+        "status": "applied",
+        "snapshotFile": "2026-10-08-osm.json",
+        "method": "length-weighted-local-coastline-right-normal"
+      },
+      "cameraSearch": {
+        "status": "not-found",
+        "reason": "Grouped municipal/tourism/operator camera search found no verified local beach camera.",
+        "nextReviewAt": "2026-11-07"
+      },
+      "run": "runs/2026-10-08.json"
     }
   ]
 }

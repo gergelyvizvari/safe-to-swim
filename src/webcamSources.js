@@ -15,6 +15,15 @@ const BRIGHTON_STREAMS = [
 
 export const VERIFIED_WEBCAMS = [
   {
+    id: 'se-apelviken-solviken', name: 'Destination Apelviken · Solviken',
+    latitude: 57.084444, longitude: 12.248611,
+    sourceName: 'Destination Apelviken', pageUrl: 'https://www.apelviken.se/webbkamera',
+    verifiedOn: '2026-10-08', coverage: 'nearby-shore', waterType: 'coastal',
+    // Operator map gives camera coordinates and a view southeast across this bay.
+    // External player only: no capture timestamp or permission for our own embed.
+    locationIds: ['eea-SE0A11383000000633', 'eea-SE0A11383000000634'],
+  },
+  {
     id: 'fr-annecy-albigny-panorama', name: "Annecy · Presqu’île d’Albigny",
     latitude: 45.90371, longitude: 6.144743,
     sourceName: 'Lac Annecy Tourisme', pageUrl: 'https://app.webcam-hd.com/annecy-tourisme/annecy-lac',

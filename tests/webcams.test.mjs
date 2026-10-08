@@ -29,3 +29,17 @@ test('Annecy panorama is a source link for reviewed lake sites, never a nearby-w
   assert.deepEqual(getWebcamsForLocation({...point,waterType:'coastal'}),[])
   assert.deepEqual(getWebcamsForLocation({...point,id:undefined}),[])
 })
+
+test('Apelviken shore camera is limited to its reviewed bay and keeps external fallback',()=>{
+  const point={id:'eea-SE0A11383000000633',latitude:57.0837,longitude:12.2556,waterType:'coastal'}
+  const [camera]=getWebcamsForLocation(point)
+  assert.equal(camera.id,'se-apelviken-solviken')
+  assert.equal(camera.coverage,'nearby-shore')
+  assert.ok(camera.distance>0.4 && camera.distance<0.5)
+  assert.equal(camera.pageUrl,'https://www.apelviken.se/webbkamera')
+  assert.equal(camera.streams,undefined)
+  assert.equal(camera.imageUrl,undefined)
+  assert.deepEqual(getWebcamsForLocation({...point,id:'eea-SE0A11383000000632'}),[])
+  assert.deepEqual(getWebcamsForLocation({...point,waterType:'lake'}),[])
+  assert.deepEqual(getWebcamsForLocation({...point,id:undefined}),[])
+})

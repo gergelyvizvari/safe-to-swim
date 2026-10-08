@@ -83,3 +83,9 @@ the same local shore was reviewed. Kanegra Bullea uses its concave beach, not
 the adjacent headland. AC Istra remains unresolved between an artificial round
 feature and the main shore. Exact directed vertices and versions are retained.
 The guarded transactional SQL is prepared, not applied to production Supabase.
+
+2026-10-08 Sweden: fifteen bounded OSM API map extracts (URLs in snapshot),
+coastline ways reconstructed from referenced nodes. Six local normals and nine
+reviewed chords; water on right verified independently in each north-up plot.
+Fästningsbadet uses way739696608 vertices10→11 on the north side of its pier,
+not the opposite22→23 side. All fifteen are applied to the configured database.

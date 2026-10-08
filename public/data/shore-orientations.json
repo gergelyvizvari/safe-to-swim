@@ -5290,6 +5290,564 @@
         "reviewNote": "Simonov local northeast bay beach segment, excluding the adjacent protruding structure and distant curved southern beach; right normal points northwest into water. Catalogue coordinates lie on or slightly landward/seaward of the mapped edge; no coordinate replacement. Estimated orientation, local structures may change exposure.",
         "snapshotFile": "2026-09-29-osm.json"
       }
+    },
+    {
+      "locationId": "eea-SE0A11383000000633",
+      "latitude": 57.0837,
+      "longitude": 12.2556,
+      "seaBearing": 224,
+      "shoreOrientation": {
+        "distanceMetres": 18,
+        "radiusMetres": 60,
+        "wayIds": [
+          739693196
+        ],
+        "nearestSegment": 20,
+        "nearestWayId": 739693196,
+        "shorePoint": {
+          "latitude": 57.08382463387058,
+          "longitude": 12.255800591262295
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739693196,
+            "version": 4
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000634",
+      "latitude": 57.0788,
+      "longitude": 12.2602,
+      "seaBearing": 267,
+      "shoreOrientation": {
+        "distanceMetres": 13,
+        "radiusMetres": 60,
+        "wayIds": [
+          739693196
+        ],
+        "nearestSegment": 43,
+        "nearestWayId": 739693196,
+        "shorePoint": {
+          "latitude": 57.078804674487074,
+          "longitude": 12.26041905887736
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739693196,
+            "version": 4
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000636",
+      "latitude": 57.1086,
+      "longitude": 12.2406,
+      "seaBearing": 288,
+      "shoreOrientation": {
+        "distanceMetres": 50,
+        "radiusMetres": 60,
+        "wayIds": [
+          739696607
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 739696607,
+        "shorePoint": {
+          "latitude": 57.108488979721706,
+          "longitude": 12.241399614097503
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739696607,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000635",
+      "latitude": 57.0983,
+      "longitude": 12.2421,
+      "seaBearing": 227,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          739696608
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 739696608,
+            "index": 76
+          },
+          {
+            "wayId": 739696608,
+            "index": 81
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739696608,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000644",
+      "latitude": 57.1898,
+      "longitude": 12.1883,
+      "seaBearing": 237,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          759198791,
+          4223838
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 759198791,
+            "index": 9
+          },
+          {
+            "wayId": 4223838,
+            "index": 6
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 759198791,
+            "version": 1
+          },
+          {
+            "id": 4223838,
+            "version": 8
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000005575",
+      "latitude": 57.1078,
+      "longitude": 12.2368,
+      "seaBearing": 10,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          739696608
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 739696608,
+            "index": 10
+          },
+          {
+            "wayId": 739696608,
+            "index": 11
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739696608,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000638",
+      "latitude": 57.113,
+      "longitude": 12.2237,
+      "seaBearing": 212,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          739696605
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 739696605,
+            "index": 10
+          },
+          {
+            "wayId": 739696605,
+            "index": 16
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739696605,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000639",
+      "latitude": 57.1137,
+      "longitude": 12.2162,
+      "seaBearing": 185,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          1297679204
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 1297679204,
+            "index": 2
+          },
+          {
+            "wayId": 1297679204,
+            "index": 12
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1297679204,
+            "version": 1
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000640",
+      "latitude": 57.1146,
+      "longitude": 12.2117,
+      "seaBearing": 197,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          1297679199,
+          759169401
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 1297679199,
+            "index": 1
+          },
+          {
+            "wayId": 759169401,
+            "index": 2
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1297679199,
+            "version": 1
+          },
+          {
+            "id": 759169401,
+            "version": 1
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000641",
+      "latitude": 57.1181,
+      "longitude": 12.2026,
+      "seaBearing": 183,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          739696594
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 739696594,
+            "index": 2
+          },
+          {
+            "wayId": 739696594,
+            "index": 8
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739696594,
+            "version": 1
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000628",
+      "latitude": 57.0467,
+      "longitude": 12.2853,
+      "seaBearing": 245,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          739796819
+        ],
+        "nearestSegment": 6,
+        "nearestWayId": 739796819,
+        "shorePoint": {
+          "latitude": 57.04673067028695,
+          "longitude": 12.285404690581936
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739796819,
+            "version": 1
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000646",
+      "latitude": 57.183,
+      "longitude": 12.2121,
+      "seaBearing": 292,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          969524419,
+          967400615
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 969524419,
+            "index": 26
+          },
+          {
+            "wayId": 967400615,
+            "index": 3
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 969524419,
+            "version": 1
+          },
+          {
+            "id": 967400615,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000632",
+      "latitude": 57.0894,
+      "longitude": 12.2415,
+      "seaBearing": 296,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          739693254
+        ],
+        "nearestSegment": 12,
+        "nearestWayId": 739693254,
+        "shorePoint": {
+          "latitude": 57.08933180560349,
+          "longitude": 12.241715198355056
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739693254,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000003765",
+      "latitude": 57.1012,
+      "longitude": 12.2412,
+      "seaBearing": 250,
+      "shoreOrientation": {
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "wayIds": [
+          739696608
+        ],
+        "reviewedVertices": [
+          {
+            "wayId": 739696608,
+            "index": 53
+          },
+          {
+            "wayId": 739696608,
+            "index": 57
+          }
+        ],
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 739696608,
+            "version": 2
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-SE0A11383000000642",
+      "latitude": 57.2979,
+      "longitude": 12.1637,
+      "seaBearing": 250,
+      "shoreOrientation": {
+        "distanceMetres": 5,
+        "radiusMetres": 60,
+        "wayIds": [
+          4223703
+        ],
+        "nearestSegment": 72,
+        "nearestWayId": 4223703,
+        "shorePoint": {
+          "latitude": 57.29791156010222,
+          "longitude": 12.163774929287115
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-08",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 4223703,
+            "version": 13
+          }
+        ],
+        "reviewNote": "Reviewed individually in north-up local metre plots; directed coastline has land left and water right. Catalogue points may be landward of mapped high-water line. Chords follow the local bathing shore, not a neighbouring bay. Bearings are estimates, not current or hazard measurements.",
+        "snapshotFile": "2026-10-08-osm.json"
+      }
     }
   ]
 }

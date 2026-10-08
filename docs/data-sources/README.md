@@ -453,3 +453,30 @@ Production catalogue pagination and15 detail/observation identity checks passed.
 The existing cron advances; known provider failures are retained, without forcing
 extra collection. [Run evidence](runs/2026-10-07.json) includes limitations,
 camera evidence andNovember6 follow-ups. Next country: Sweden.
+
+## 2026-10-08 — Sweden, 15 Varberg coastal sites
+
+15 new sites reviewed; 15 local shoreline bearings applied to the configured
+Supabase catalogue. Six weighted normals and nine individually reviewed chords
+cover the bays and piers. Fästningsbadet faces north from the sampled pier side;
+the opposite side must not supply its bearing. Versioned ODbL geometry and the
+missing-only import preserve existing/manual values and unrelated metadata.
+
+One operator camera plays changing video across Apelviken. It is linked to two
+sites as nearby shore, with distance and verification date; capture timestamp is
+unknown and no stream is embedded. Pool footage, Kåsa and the Getterön bird
+reserve are not substituted for these beaches. Mobile card verification passed.
+
+No new dynamic adapter: HaV API collection timed out, but 15 official HTML pages
+matched names and coordinates. Their samples are August 3/10, not current safety
+clearance. SMHI Varberg 2 returns hourly temperature (latest 14.7°C at 06:00 UTC),
+but harbour representativeness and quality/depth semantics need verification.
+The SMHI warning feed is reachable; regional/event mapping remains pending.
+
+119 tests, lint/build, 163-bearing reproduction and actual PostgreSQL import
+preservation/idempotence checks passed. Production paging, 15 detail/observation
+identities and per-point wind/wave model payloads checked. The single scheduler
+continues; no extra collection or cron was created.
+[Run evidence](runs/2026-10-08.json). Next country: Norway; deferred research
+is due November 7. The shared Swedish API retry is not counted as ten renewed
+individual reviews of the September 8 sites.
