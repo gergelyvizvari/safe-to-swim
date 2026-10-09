@@ -498,6 +498,9 @@ Coastal orientation is not applicable to these lakes (0 determined/applied).
 
 123 tests, lint/build and actual local PostgreSQL import preservation/identity
 checks passed. The production catalogue, existing collector and single cron were
-verified. Apply the guarded import only after the adapter deployment is Ready;
-activation results are tracked in the run record. Next country: Estonia.
+verified. The adapter deployment is Ready and the guarded import is applied.
+The existing cron collected the measurement at 08:17 UTC; production API and
+Hungarian UI confirm measured temperature, attribution, timestamp and 42 m.
+15 reviewed / 1 newly integrated; cameras 0 verified / 0 integrated.
+Activation evidence is tracked in the run record. Next country: Estonia.
 [Run evidence](runs/2026-10-09.json), follow-ups November8.

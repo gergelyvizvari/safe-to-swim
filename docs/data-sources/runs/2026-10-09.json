@@ -1,17 +1,18 @@
 {
   "date": "2026-10-09",
-  "status": "adapter-tested-import-prepared",
+  "status": "integrated-production-verified",
   "selection": "Norway absent from authoritative active catalogue; rotated to 15 new southern Finnish lakes. All IDs checked against all registry entries.",
   "counts": {
     "reviewed": 15,
     "identityVerified": 8,
     "preparedImports": 1,
-    "newProductionCoverage": 0,
+    "newProductionCoverage": 1,
     "newAdapters": 1,
     "shoreOrientationsDetermined": 0,
     "shoreOrientationsApplied": 0,
     "camerasVerifiedLive": 0,
-    "camerasIntegrated": 0
+    "camerasIntegrated": 0,
+    "appliedImports": 1
   },
   "locations": [
     {
@@ -327,7 +328,7 @@
       "country": "Finland",
       "waterType": "lake",
       "provider": "fvh-uiras",
-      "status": "prepared",
+      "status": "integrated",
       "checkedAt": "2026-10-09",
       "nextReviewAt": "2026-11-08",
       "qualitySource": "https://www.vantaa.fi/fi/palveluhakemisto/palvelu/uimarannat-ja-talviuintipaikat",
@@ -356,14 +357,16 @@
           ]
         }
       ],
-      "reason": "Exact sensor name, service-map link and coordinates verified; fresh measured temperature. Adapter and transactional import prepared; production activation follows code deployment. No current bacterial safety inferred.",
+      "reason": "Exact sensor identity and same-pond coordinates verified. Adapter deployed; guarded import applied. Existing cron collected fresh measured temperature at 08:17 UTC, confirmed in production API and UI. No current bacterial safety inferred.",
       "shoreOrientation": {
         "status": "not-applicable",
         "reason": "Inland lake; this batch does not apply coastal seaBearing."
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-08",
-      "sensorId": "70B3D57050001BA6"
+      "sensorId": "70B3D57050001BA6",
+      "sourceId": "fvh-uiras",
+      "targetId": "fvh-uiras:70B3D57050001BA6"
     },
     {
       "locationId": "eea-FI112570001",
@@ -566,6 +569,21 @@
   "nextReviewAt": "2026-11-08",
   "uiVerification": {
     "localDesktop": "passed: observed water temperature 12.3 C, provider attribution, 42 m and timestamp visible",
-    "localMobile390": "passed: responsive card, measured value and timestamp visible"
+    "localMobile390": "passed: responsive card, measured value and timestamp visible",
+    "production": "passed in Hungarian: observed temperature hero and card 12.3 C, attribution, 42 m and timestamp; current quality remains unconfirmed"
+  },
+  "activation": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "codeCommit": "f1554cd",
+    "deployment": "https://safe-to-swim-ecvlj02h5-gergely-s-projects.vercel.app",
+    "deploymentStatus": "Ready",
+    "import": "supabase/imports/20261009_uiras-vetokannas.sql",
+    "sourceState": "healthy",
+    "checkedAt": "2026-10-09T08:17:00.528Z",
+    "nextCheckAt": "2026-10-09T08:47:01.559Z",
+    "observationAt": "2026-10-09T07:36:17.249Z",
+    "temperatureCelsius": 12.25,
+    "productionAPI": "available; exact location, sensor, coordinates, attribution, measured kind and 42 m verified",
+    "collector": "Existing cron collected automatically; no manual source-check invocation or additional schedule."
   }
 }

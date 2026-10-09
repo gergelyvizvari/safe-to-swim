@@ -6821,7 +6821,7 @@
       "country": "Finland",
       "waterType": "lake",
       "provider": "fvh-uiras",
-      "status": "prepared",
+      "status": "integrated",
       "checkedAt": "2026-10-09",
       "nextReviewAt": "2026-11-08",
       "qualitySource": "https://www.vantaa.fi/fi/palveluhakemisto/palvelu/uimarannat-ja-talviuintipaikat",
@@ -6850,14 +6850,16 @@
           ]
         }
       ],
-      "reason": "Exact sensor name, service-map link and coordinates verified; fresh measured temperature. Adapter and transactional import prepared; production activation follows code deployment. No current bacterial safety inferred.",
+      "reason": "Exact sensor identity and same-pond coordinates verified. Adapter deployed; guarded import applied. Existing cron collected fresh measured temperature at 08:17 UTC, confirmed in production API and UI. No current bacterial safety inferred.",
       "shoreOrientation": {
         "status": "not-applicable",
         "reason": "Inland lake; this batch does not apply coastal seaBearing."
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-08",
-      "sensorId": "70B3D57050001BA6"
+      "sensorId": "70B3D57050001BA6",
+      "sourceId": "fvh-uiras",
+      "targetId": "fvh-uiras:70B3D57050001BA6"
     },
     {
       "locationId": "eea-FI112570001",
