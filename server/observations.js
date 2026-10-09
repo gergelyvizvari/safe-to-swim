@@ -3,9 +3,10 @@ import { loadSource } from './balatonSources.js'
 import { database, hasDatabase } from './supabase.js'
 import { isObservationStale } from '../src/balaton.js'
 import { loadEaSamples } from './eaSamples.js'
+import { loadUiras } from './uiras.js'
 import { SOURCES, sourceLink } from './sourceRegistry.js'
 
-const parserKeys = { hungaromet_temperature: 'temperature', hungaromet_wind: 'wind', hungaromet_storm: 'storm', nngyk_quality: 'quality', ea_samples: 'eaSamples' }
+const parserKeys = { uiras_temperature: 'uiras', hungaromet_temperature: 'temperature', hungaromet_wind: 'wind', hungaromet_storm: 'storm', nngyk_quality: 'quality', ea_samples: 'eaSamples' }
 
 export function extractObservation(binding, state, now = Date.now()) {
   const { target, data_type: type } = binding
@@ -23,6 +24,12 @@ export function extractObservation(binding, state, now = Date.now()) {
     result.sample = matches.length === 1 ? matches[0] : null
     result.publishedAt = result.sample?.publishedAt ?? result.sample?.sampledOn ?? null
     if (!result.sample) result.status = 'unmatched'
+  } else if (source.adapter === 'uiras_temperature') {
+    result.stations = (payload.stations ?? []).filter(s => s.id === target.external_id && s.latitude === target.config.latitude && s.longitude === target.config.longitude)
+    result.publishedAt = result.stations.length === 1 ? result.stations[0].publishedAt : null
+    result.distanceMetres = target.config.distanceMetres
+    result.measurementKind = 'measured'
+    if (result.stations.length !== 1) { result.stations = []; result.status = 'unmatched' }
   } else if (type === 'storm') {
     result.basins = target.coverage_type === 'basin' ? payload.basins?.filter(b => b.basin === target.external_id) : payload.basins
   } else {
@@ -44,7 +51,7 @@ export async function getObservations(id) {
       const rows = await database(`source_state?source_id=eq.${encodeURIComponent(source.id)}&limit=1`)
       states.set(source.id, rows[0])
     } else {
-      try { const payload = await (source.adapter === 'ea_samples' ? loadEaSamples() : loadSource(parserKeys[source.adapter])); states.set(source.id, { status: 'healthy', checked_at: payload.fetchedAt, payload }) }
+      try { const payload = await (source.adapter === 'uiras_temperature' ? loadUiras() : source.adapter === 'ea_samples' ? loadEaSamples() : loadSource(parserKeys[source.adapter])); states.set(source.id, { status: 'healthy', checked_at: payload.fetchedAt, payload }) }
       catch { states.set(source.id, { status: 'unavailable' }) }
     }
   }))
@@ -57,5 +64,5 @@ export async function collectSource(source) {
   // An adapter is tied to a verified provider endpoint; changing a URL requires
   // updating and testing the adapter, rather than silently relabelling its data.
   if (source.url !== SOURCES.find(item => item.adapter === source.adapter)?.url) throw new Error('Source endpoint changed')
-  return source.adapter === 'ea_samples' ? loadEaSamples() : loadSource(key)
+  return source.adapter === 'uiras_temperature' ? loadUiras() : source.adapter === 'ea_samples' ? loadEaSamples() : loadSource(key)
 }

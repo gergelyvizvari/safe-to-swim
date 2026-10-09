@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-08",
-  "nextCountry": "Norway",
+  "lastRun": "2026-10-09",
+  "nextCountry": "Estonia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -6507,6 +6507,458 @@
         "nextReviewAt": "2026-11-07"
       },
       "run": "runs/2026-10-08.json"
+    },
+    {
+      "locationId": "eea-FI117550002",
+      "name": "STORSVIK",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.siuntio.fi/vapaa-aika-ja-liikunta/liikunta-ja-ulkoilu/uimarannat/uimavesien-laatu/",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "79575",
+          "name": "Störsvikin uimaranta",
+          "coordinates": [
+            24.30077,
+            60.080727
+          ],
+          "distanceMetres": 36,
+          "observations": []
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI112570004",
+      "name": "SYVAJARVI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/kirkkonummen-uimarantavesien-tutkimustulokset",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "65046",
+          "name": "Syväjärven uimaranta",
+          "coordinates": [
+            24.423004,
+            60.0999
+          ],
+          "distanceMetres": 47,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-28T08:15:52.364973+0300",
+              "value": "17-19"
+            }
+          ]
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI112570003",
+      "name": "STORTRASK EVITSKOG",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/kirkkonummen-uimarantavesien-tutkimustulokset",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "65034",
+          "name": "Storträskin uimaranta",
+          "coordinates": [
+            24.34044,
+            60.191753
+          ],
+          "distanceMetres": 62,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-24T09:26:38.405323+0300",
+              "value": "17-19"
+            }
+          ]
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI112570005",
+      "name": "TAMPAJA HAAPAJARVI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/kirkkonummen-uimarantavesien-tutkimustulokset",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "66588",
+          "name": "Tampajan uimaranta",
+          "coordinates": [
+            24.430218,
+            60.23327
+          ],
+          "distanceMetres": 57,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-07-24T18:06:15.299086+0300",
+              "value": "19-21"
+            }
+          ]
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI110490012",
+      "name": "OITTAA",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/espoon-ja-kauniaisten-uimarantavesien-tutkimustulokset",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "39322",
+          "name": "Oittaan uimaranta",
+          "coordinates": [
+            24.659578,
+            60.24135
+          ],
+          "distanceMetres": 62,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-31T07:48:49.554061+0300",
+              "value": "15-17"
+            }
+          ]
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI114270003",
+      "name": "LIESSAARI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.lohja.fi/asuminen-ja-ymparisto/asuminen/asuinymparisto/uimarannat/uimarantojen-veden-laatu/",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI110490005",
+      "name": "LAAKSOLAHTI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/espoon-ja-kauniaisten-uimarantavesien-tutkimustulokset",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "39267",
+          "name": "Laaksolahden uimaranta",
+          "coordinates": [
+            24.74918,
+            60.24653
+          ],
+          "distanceMetres": 31,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-27T09:54:07.410132+0300",
+              "value": "17-19"
+            }
+          ]
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI114270001",
+      "name": "AURLAHTI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.lohja.fi/asuminen-ja-ymparisto/asuminen/asuinymparisto/uimarannat/uimarantojen-veden-laatu/",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "failed",
+      "cameraNextReviewAt": "2026-11-08",
+      "cameraId": "fi-lohja-aurlahti"
+    },
+    {
+      "locationId": "eea-FI1B1444004",
+      "name": "MOISION UIMARANTA",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.lohja.fi/asuminen-ja-ymparisto/asuminen/asuinymparisto/uimarannat/uimarantojen-veden-laatu/",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI114280002",
+      "name": "PALONIEMI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.lohja.fi/asuminen-ja-ymparisto/asuminen/asuinymparisto/uimarannat/uimarantojen-veden-laatu/",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI181092003",
+      "name": "VETOKANNAS",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "fvh-uiras",
+      "status": "prepared",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.vantaa.fi/fi/palveluhakemisto/palvelu/uimarannat-ja-talviuintipaikat",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "42505",
+          "name": "Vetokannaksen uimaranta",
+          "coordinates": [
+            24.880043,
+            60.269665
+          ],
+          "distanceMetres": 69,
+          "observations": [
+            {
+              "property": "uiras_swimming_water_temperature",
+              "time": "2026-10-09T10:06:15.833000+0300",
+              "value": 12.25
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-09-02T13:39:38.646323+0300",
+              "value": "17-19"
+            }
+          ]
+        }
+      ],
+      "reason": "Exact sensor name, service-map link and coordinates verified; fresh measured temperature. Adapter and transactional import prepared; production activation follows code deployment. No current bacterial safety inferred.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08",
+      "sensorId": "70B3D57050001BA6"
+    },
+    {
+      "locationId": "eea-FI112570001",
+      "name": "LAMMINJARVI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/kirkkonummen-uimarantavesien-tutkimustulokset",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI1B1049009",
+      "name": "MYLLYJARVEN UIMARANTA ETELA",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "helsinki-servicemap",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.espoo.fi/fi/asuminen-ja-rakentaminen/espoon-seudun-ymparistoterveys/uimarantojen-ja-talviuintipaikkojen-veden-laatu/espoon-ja-kauniaisten-uimarantavesien-tutkimustulokset",
+      "identityVerified": true,
+      "identityMethod": "Municipal name and unique nearby coordinate agreement; not an EU-ID crosswalk.",
+      "targets": [
+        {
+          "targetId": "39713",
+          "name": "Myllyjärven uimaranta (etelä)",
+          "coordinates": [
+            24.65588,
+            60.281715
+          ],
+          "distanceMetres": 22,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-31T10:45:20.464147+0300",
+              "value": "15-17"
+            }
+          ]
+        }
+      ],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI119270001",
+      "name": "MYLLYLAMPI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://www.vihti.fi/asuminen-ja-ymparisto/yleiset-alueet/uimarannat/",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-FI117530001",
+      "name": "PILVIJARVI",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-water-quality",
+      "status": "candidate",
+      "checkedAt": "2026-10-09",
+      "nextReviewAt": "2026-11-08",
+      "qualitySource": "https://porvoonymparistoterveydenhuolto.fi/terveydensuojelu/uimarantojen-veden-laatu/sipoon-uimarannat/",
+      "identityVerified": false,
+      "identityMethod": "Municipal name candidate only; exact sampling-coordinate crosswalk pending.",
+      "targets": [],
+      "reason": "Seasonal samples/temperature ranges are historical, not current clearance. No bacterial/algae adapter enabled. Lake-local waves/currents not verified; Baltic products excluded.",
+      "shoreOrientation": {
+        "status": "not-applicable",
+        "reason": "Inland lake; this batch does not apply coastal seaBearing."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-08"
     }
   ]
 }

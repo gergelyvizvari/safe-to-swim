@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "70B3D57050001BA6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.88056,
+          60.27026
+        ]
+      },
+      "properties": {
+        "name": "Vetokannas",
+        "location": "Silvola",
+        "district": "Vantaa (Kaivoksela)",
+        "servicemap_url": "https://palvelukartta.hel.fi/fi/unit/42505",
+        "site_url": "",
+        "info": "",
+        "installation depth": -0.3,
+        "installation platform": "steps",
+        "installation method": "static",
+        "measurement": {
+          "time": "2026-10-09T10:36:17.249000+03:00",
+          "batt": 5.082,
+          "temp_in": 12.5,
+          "temp_water": 12.25
+        }
+      }
+    }
+  ]
+}

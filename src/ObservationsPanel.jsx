@@ -17,12 +17,13 @@ export default function ObservationsPanel({ observations: state, language, local
     <div className="balaton-cards">{[...state.items].sort((a,b) => order.indexOf(a.type) - order.indexOf(b.type)).map(item => {
       const stale = state.error || item.status === 'stale' || item.format !== 'link' && isObservationStale(item.publishedAt, item.staleSeconds * 1000, now)
       return <article className={item.type === 'wind' ? 'observations-wind' : ''} key={`${item.type}:${item.targetId}`}>
-        <span className="eyebrow">{item.provider} · {item.label}</span><h3>{copy[item.type] ?? item.type}</h3>
+        <span className="eyebrow">{item.provider} · {item.label}</span><h3>{item.measurementKind === 'measured' && item.type === 'temperature' ? copy.observedTemperature : copy[item.type] ?? item.type}</h3>
         {item.status === 'unavailable' && <p>{copy.unavailable}</p>}
         {item.status === 'unmatched' && <p>{copy.unmatched}</p>}
         {item.sample && <>{!item.sample.counts && <strong className={item.sample.result === 'fail' ? 'balaton-alert' : ''}>{copy[item.sample.result ?? 'unknown']}</strong>}<p>{item.sample.name}</p><p>{copy.sampled}: {item.sample.sampledOn ?? '—'}</p>{item.sample.counts && <dl className="balaton-stations">{item.sample.counts.map(count => <div key={count.key}><dt>{count.key === 'escherichiaColi' ? 'Escherichia coli' : 'Intestinal enterococci'}</dt><dd>{count.qualifier} {new Intl.NumberFormat(locale).format(count.value)} / 100 ml</dd></div>)}</dl>}<p className="panel-note">{copy.sampleNote}</p></>}
         {item.basins && <><div className="balaton-basins">{item.basins.map(basin => <div key={basin.basin} className={!stale && basin.level > 0 ? 'balaton-alert' : ''}><span>{copy[basin.basin] ?? basin.basin}</span><strong>{copy[Number.isInteger(basin.level) ? `level${basin.level}` : 'unknown']}</strong></div>)}</div><p className="panel-note">{copy.stormNote}</p></>}
         {item.stations && <><details open={item.stations.length <= 3}><summary>{copy[item.type]} · {item.stations.length}</summary><dl className="balaton-stations">{item.stations.map(station => <div key={station.station}><dt>{station.station}</dt><dd>{item.type === 'temperature' ? formatTemperature(station.temperature, locale) : `${formatStationWind(station.windKmh, locale)} · ${copy.gusts}: ${formatStationWind(station.gustKmh, locale)}`}</dd></div>)}</dl></details><p className="panel-note">{copy.stationNote}</p></>}
+        {Number.isFinite(item.distanceMetres) && <p className="panel-note">↔ {new Intl.NumberFormat(locale).format(item.distanceMetres)} m</p>}
         {item.publishedAt && item.type !== 'quality' && <p className="panel-note">{copy.published}: {date(item.publishedAt)}</p>}
         {stale && item.status !== 'unavailable' && item.status !== 'unmatched' && <p className="balaton-old">{copy.stale}</p>}
         {item.checkedAt && <p className="panel-note">{copy.checked}: {date(item.checkedAt)}</p>}

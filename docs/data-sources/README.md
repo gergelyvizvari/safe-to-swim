@@ -480,3 +480,24 @@ continues; no extra collection or cron was created.
 [Run evidence](runs/2026-10-08.json). Next country: Norway; deferred research
 is due November 7. The shared Swedish API retry is not counted as ten renewed
 individual reviews of the September 8 sites.
+
+## 2026-10-09 — Finland, 15 southern lake sites
+
+Norway has no active catalogue locations, so this run rotates to Finland.
+15 new sites screened; eight municipal service-map names/coordinates matched.
+One fresh UiRaS sensor at Vetokannas is implemented with exact sensor identity,
+coordinates and service-map-link guards. The shared CC BY 4.0 export is collected
+once every 30 minutes by the existing source-check workflow. Per-sensor timestamps,
+three-hour staleness, provider errors and missing data are preserved. No new cron.
+The sensor is 42m from the catalogue point; it does not measure bathing safety.
+
+Other temperature ranges are old seasonal reports. Municipal bacterial/algae
+samples remain candidates; algae-only rows must not become bacterial samples.
+The Aurlahden camera player failed, so no fresh camera or assignment is claimed.
+Coastal orientation is not applicable to these lakes (0 determined/applied).
+
+123 tests, lint/build and actual local PostgreSQL import preservation/identity
+checks passed. The production catalogue, existing collector and single cron were
+verified. Apply the guarded import only after the adapter deployment is Ready;
+activation results are tracked in the run record. Next country: Estonia.
+[Run evidence](runs/2026-10-09.json), follow-ups November8.

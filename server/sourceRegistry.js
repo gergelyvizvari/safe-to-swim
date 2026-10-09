@@ -1,9 +1,11 @@
+import { UIRAS_URL, UIRAS_SITES } from './uiras.js'
 import { EA_SAMPLES_URL } from './eaSamples.js'
 import { EA_BRIGHTON_SITES } from './eaBrightonSites.js'
 import { BALATON_SOURCES, isBalaton } from '../src/balaton.js'
 import { QUALITY_SITES } from './balatonQualitySites.js'
 
 export const SOURCES = [
+  { id: 'fvh-uiras', name: 'Forum Virium Helsinki · UiRaS (CC BY 4.0)', adapter: 'uiras_temperature', url: UIRAS_URL, refresh_seconds: 1800, stale_seconds: 10800 },
   { id: 'ea-brighton-samples', name: 'Environment Agency', adapter: 'ea_samples', url: EA_SAMPLES_URL, refresh_seconds: 21600, stale_seconds: 604800 },
   { id: 'open-meteo-weather', name: 'Open-Meteo', adapter: 'open_meteo_weather', url: 'https://api.open-meteo.com/v1/forecast', refresh_seconds: 300, stale_seconds: 1800 },
   { id: 'open-meteo-marine', name: 'Open-Meteo Marine', adapter: 'open_meteo_marine', url: 'https://marine-api.open-meteo.com/v1/marine', refresh_seconds: 300, stale_seconds: 1800 },
@@ -23,6 +25,8 @@ export function initialBindings(location) {
   add('weather', 'open-meteo-weather', location.id, location.name, 'model_point', { latitude: location.latitude, longitude: location.longitude })
   if (location.marineModelSupported !== false && location.waterType !== 'lake') add('marine', 'open-meteo-marine', location.id, location.name, 'model_point', { latitude: location.latitude, longitude: location.longitude })
   if (location.source) add('annual_quality', location.source, location.id, location.name, 'site')
+  const uirasSite = UIRAS_SITES.find(s => s.locationId === location.id && location.waterType === 'lake' && Math.abs(s.locationLatitude - location.latitude) < 0.00001 && Math.abs(s.locationLongitude - location.longitude) < 0.00001)
+  if (uirasSite) add('temperature', 'fvh-uiras', uirasSite.sensorId, uirasSite.name, 'station', { ...uirasSite, distanceMetres: 42 })
   const eaSite = EA_BRIGHTON_SITES.find(site => site.locationId === location.id && location.waterType !== 'lake' && Math.abs(site.latitude - location.latitude) < 0.00001 && Math.abs(site.longitude - location.longitude) < 0.00001)
   if (eaSite) add('quality', 'ea-brighton-samples', eaSite.externalId, location.name, 'site', eaSite)
   if (isBalaton(location)) {
@@ -34,6 +38,7 @@ export function initialBindings(location) {
 }
 
 export function sourceLink(source, target) {
+  if (source.adapter === 'uiras_temperature') return 'https://uiras.fvh.io/'
   return source.adapter === 'ea_samples' && /^uk[a-z0-9]+-\d+$/.test(target.external_id)
     ? `https://environment.data.gov.uk/bwq/profiles/profile.html?site=${target.external_id}` : source.url
 }
