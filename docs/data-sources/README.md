@@ -504,3 +504,7 @@ Hungarian UI confirm measured temperature, attribution, timestamp and 42 m.
 15 reviewed / 1 newly integrated; cameras 0 verified / 0 integrated.
 Activation evidence is tracked in the run record. Next country: Estonia.
 [Run evidence](runs/2026-10-09.json), follow-ups November8.
+
+## 2026-10-11 — Estonia
+
+Reviewed 15 coastal sites; 15 local shore orientations applied to the configured Supabase catalogue and verified through production detail APIs. No new dynamic measurement or verified camera binding. Official observation/warning XML candidates and water-quality portal403 limitation are recorded in [run evidence](runs/2026-10-11.json). Haabneeme uses a reviewed local beach chord excluding pier/indentations; all other bearings use the existing local coastline estimator. Next country Latvia; unresolved source/camera review November10.

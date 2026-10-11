@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-09",
-  "nextCountry": "Estonia",
+  "lastRun": "2026-10-11",
+  "nextCountry": "Latvia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -6961,6 +6961,306 @@
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-08"
+    },
+    {
+      "locationId": "eea-EE00101003VAANAJOE",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 288,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101005KLOOGA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 286,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101005LAULAS",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 244,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101019HAABN",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 275,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101026KAKUM",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 295,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101026PIKAKARI",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 29,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101026PIRIT",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 299,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00101026STROO",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 286,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00202011KAREPA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 33,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00202011VOSUR",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 329,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00202015KUNDA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 347,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00301010LIIMALA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 357,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00301014TOILA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 352,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00301021NJOES",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 298,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-EE00301023SILLAMAE",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-11",
+      "nextReviewAt": "2026-11-10",
+      "shoreOrientation": {
+        "seaBearing": 5,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "import": "supabase/imports/20261011_estonia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "evidenceReference": "runs/2026-10-11.json",
+      "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-10"
     }
   ]
 }
