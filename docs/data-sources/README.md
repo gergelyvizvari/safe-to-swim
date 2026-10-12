@@ -508,3 +508,7 @@ Activation evidence is tracked in the run record. Next country: Estonia.
 ## 2026-10-11 — Estonia
 
 Reviewed 15 coastal sites; 15 local shore orientations applied to the configured Supabase catalogue and verified through production detail APIs. No new dynamic measurement or verified camera binding. Official observation/warning XML candidates and water-quality portal403 limitation are recorded in [run evidence](runs/2026-10-11.json). Haabneeme uses a reviewed local beach chord excluding pier/indentations; all other bearings use the existing local coastline estimator. Next country Latvia; unresolved source/camera review November10.
+
+## 2026-10-12 — Latvia
+
+Reviewed15 coastal sites;15 shore orientations applied to Supabase and verified through production APIs. No new dynamic measurements or verified camera bindings. Staldzene offshore catalogue point and Mersrags notches use reviewed chords. Official near-bottom temperature CSV, warning exports and seasonal quality evidence remain candidates. Marine model15/15 succeeded;weather11/15 returned503. [Run evidence](runs/2026-10-12.json). Next country Lithuania; unresolved source/camera review November11.

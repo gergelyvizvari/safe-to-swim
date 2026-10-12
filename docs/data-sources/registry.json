@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-11",
-  "nextCountry": "Latvia",
+  "lastRun": "2026-10-12",
+  "nextCountry": "Lithuania",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -7261,6 +7261,306 @@
       "reason": "Local coast geometry reviewed and bearing applied to authoritative catalogue. Official XML measured temperature and regional warnings remain candidates: beach/station and region/validity mappings unverified. No new current water-quality/algae clearance.",
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-10"
+    },
+    {
+      "locationId": "eea-LV00317000001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 261,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00317000002",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 259,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00327000001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 282,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00327000002",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 290,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00364141301",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 340,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00364840001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 255,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00388620001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 111,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00388780001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 56,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00388820001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 28,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00766060001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 254,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00766160001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 267,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00766600001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 270,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00766760001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 263,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00780140001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 282,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
+    },
+    {
+      "locationId": "eea-LV00790500001",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-12",
+      "nextReviewAt": "2026-11-11",
+      "shoreOrientation": {
+        "seaBearing": 75,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261012_latvia_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-11",
+      "evidenceReference": "runs/2026-10-12.json",
+      "reason": "Reviewed local coast geometry applied to authoritative catalogue and verified via production API. Near-bottom sea-temperature station and regional-warning mappings remain unverified; seasonal quality is not current clearance."
     }
   ]
 }
