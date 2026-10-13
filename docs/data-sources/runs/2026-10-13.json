@@ -1,15 +1,16 @@
 {
   "date": "2026-10-13",
-  "status": "bearings-integrated-temperature-prepared",
+  "status": "production-integrated",
   "counts": {
     "reviewed": 15,
-    "preparedImports": 13,
+    "preparedImports": 0,
     "newProductionCoverage": 13,
-    "newDynamicCoverage": 0,
+    "newDynamicCoverage": 1,
     "shoreOrientationsDetermined": 13,
     "shoreOrientationsApplied": 13,
     "camerasVerifiedLive": 0,
-    "camerasIntegrated": 0
+    "camerasIntegrated": 0,
+    "preparedSites": 13
   },
   "locations": [
     {
@@ -246,11 +247,13 @@
         "provenance": "public/data/shore-orientations.json",
         "importFile": "supabase/imports/20261013_lithuania_shore_orientations.sql"
       },
-      "dynamicStatus": "prepared",
+      "dynamicStatus": "integrated",
       "cameraStatus": "candidate",
       "cameraNextReviewAt": "2026-11-12",
       "evidenceReference": "runs/2026-10-13.json",
-      "reason": "Local water-right shoreline reviewed and applied; station samples are not bathing safety clearance."
+      "reason": "Local water-right shoreline reviewed and applied; station samples are not bathing safety clearance.",
+      "sourceId": "lhmt-palangos",
+      "targetId": "lhmt-palangos:palangos-vms"
     },
     {
       "locationId": "eea-LT0032500101013",
@@ -358,7 +361,7 @@
     {
       "id": "lhmt-palangos",
       "targetId": "lhmt-palangos:palangos-vms",
-      "status": "prepared",
+      "status": "integrated",
       "documentation": "https://api.meteo.lt/",
       "endpoint": "https://api.meteo.lt/v1/hydro-stations/palangos-vms/observations/measured/latest",
       "license": "CC BY-SA 4.0",
@@ -381,7 +384,7 @@
       "refreshSeconds": 3600,
       "staleSeconds": 10800,
       "importFile": "supabase/imports/20261013_meteo-lt-palangos.sql",
-      "activation": "Apply after adapter deployment; existing minute cron collects once per shared source.",
+      "activation": "Applied after b8096a8 Ready deployment. Existing cron collected automatically at08:25UTC; next09:25UTC. No manual collection or new job.",
       "rejectedStations": [
         {
           "id": "juodkrantes-vms",
@@ -437,7 +440,41 @@
     "bearingsVerifiedViaAPI": 13,
     "cron": "Existing job1 active every minute;08:13-08:15 succeeded. No forced collection or new schedule.",
     "security": "RLS enabled; anon UPDATE denied on locations/source_targets/source_state.",
-    "collector": "Storm,wind,temperature,UiRaS,weather and marine advancing. EA/NRW/SEPA existing failures unchanged."
+    "collector": "Storm,wind,temperature,UiRaS,weather and marine advancing. EA/NRW/SEPA existing failures unchanged.",
+    "temperatureVerification": {
+      "locationId": "eea-LT0032500101012",
+      "items": [
+        {
+          "type": "temperature",
+          "targetId": "lhmt-palangos:palangos-vms",
+          "label": "Palangos VMS",
+          "coverage": "station",
+          "provider": "LHMT · Meteo LT (CC BY-SA 4.0)",
+          "url": "https://api.meteo.lt/v1/hydro-stations/palangos-vms/observations/measured/latest",
+          "staleSeconds": 10800,
+          "checkedAt": "2026-10-13T08:25:01.23+00:00",
+          "publishedAt": "2026-10-13T08:00:00.000Z",
+          "status": "available",
+          "stations": [
+            {
+              "id": "palangos-vms",
+              "station": "Palangos VMS",
+              "latitude": 55.920336,
+              "longitude": 21.044301,
+              "waterBody": "Baltijos jūra",
+              "publishedAt": "2026-10-13T08:00:00.000Z",
+              "temperature": 14,
+              "measurementKind": "measured"
+            }
+          ],
+          "distanceMetres": 295,
+          "measurementKind": "measured"
+        }
+      ]
+    },
+    "implementationCommit": "b8096a8",
+    "deployment": "https://vercel.com/gergely-s-projects/safe-to-swim/DGyFHRuFWf9eB4q7bZLTJ363w7Tu",
+    "deploymentStatus": "Ready; aliases include production origin"
   },
   "pointProbes": [
     {

@@ -515,4 +515,4 @@ Reviewed15 coastal sites;15 shore orientations applied to Supabase and verified 
 
 ## 2026-10-13 — Lithuania
 
-Reviewed15 coastal sites;13 orientations applied to Supabase and verified through production APIs. Two municipal/catalogue coordinate conflicts remain unresolved. Palanga pier measured temperature adapter prepared for one beach, with hourly shared collection and3h staleness. No verified live camera assignments. [Run evidence](runs/2026-10-13.json). Next country Poland; unresolved candidates review November12.
+Reviewed15 coastal sites;13 orientations applied to Supabase and verified through production APIs. Two municipal/catalogue coordinate conflicts remain unresolved. Palanga pier measured temperature integrated for one beach, with hourly shared collection and3h staleness. Existing cron collected08:00UTC14°C measurement at08:25UTC; production API verified. No verified live camera assignments. [Run evidence](runs/2026-10-13.json). Next country Poland; unresolved candidates review November12.
