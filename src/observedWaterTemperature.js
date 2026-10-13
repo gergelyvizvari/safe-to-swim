@@ -14,7 +14,7 @@ export function observedWaterTemperature(location, observations, now = Date.now(
     const name = ` ${normalize(location.name)} `
     const matching = stations.filter(station => name.includes(` ${normalize(station.station)} `))
     const selected = matching.length === 1 ? matching : stations
-    return { ...item, stations: selected, temperature: selected.reduce((sum, station) => sum + station.temperature, 0) / selected.length, regional: matching.length !== 1 }
+    return { ...item, stations: selected, temperature: selected.reduce((sum, station) => sum + station.temperature, 0) / selected.length, regional: item.coverage !== 'station' && matching.length !== 1 }
   }
   return null
 }

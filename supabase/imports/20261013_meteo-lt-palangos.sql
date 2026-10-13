@@ -1,0 +1,13 @@
+begin;
+-- Apply after the Meteo LT adapter is deployed; existing schema/privileges unchanged.
+set local lock_timeout='5s';
+do $$ begin
+if not exists(select 1 from public.locations where id='eea-LT0032500101012' and active and water_type='coastal' and abs(latitude-55.92)<0.00001 and abs(longitude-21.049)<0.00001) then raise exception 'Verified Palanga identity missing'; end if;
+end $$;
+insert into public.data_sources (id,name,adapter,url,refresh_seconds,stale_seconds) select r.id,r.name,r.adapter,r.url,r.refresh_seconds,r.stale_seconds from jsonb_populate_recordset(null::public.data_sources, '[{"id":"lhmt-palangos","name":"LHMT · Meteo LT (CC BY-SA 4.0)","adapter":"meteo_lt_temperature","url":"https://api.meteo.lt/v1/hydro-stations/palangos-vms/observations/measured/latest","refresh_seconds":3600,"stale_seconds":10800}]'::jsonb) r on conflict do nothing;
+insert into public.source_targets (id,source_id,external_id,label,coverage_type,config) select r.id,r.source_id,r.external_id,r.label,r.coverage_type,r.config from jsonb_populate_recordset(null::public.source_targets, '[{"id":"lhmt-palangos:palangos-vms","source_id":"lhmt-palangos","external_id":"palangos-vms","label":"Palangos VMS","coverage_type":"station","config":{"locationId":"eea-LT0032500101012","locationLatitude":55.92,"locationLongitude":21.049,"stationId":"palangos-vms","name":"Palangos VMS","waterBody":"Baltijos jūra","latitude":55.920336,"longitude":21.044301,"distanceMetres":295}}]'::jsonb) r on conflict do nothing;
+do $$ begin
+if not exists(select 1 from public.data_sources where id='lhmt-palangos' and adapter='meteo_lt_temperature' and url='https://api.meteo.lt/v1/hydro-stations/palangos-vms/observations/measured/latest') or not exists(select 1 from public.source_targets where id='lhmt-palangos:palangos-vms' and source_id='lhmt-palangos' and external_id='palangos-vms' and coverage_type='station' and config @> '{"locationId":"eea-LT0032500101012","locationLatitude":55.92,"locationLongitude":21.049,"stationId":"palangos-vms","name":"Palangos VMS","waterBody":"Baltijos jūra","latitude":55.920336,"longitude":21.044301,"distanceMetres":295}'::jsonb) then raise exception 'Palanga source identity conflict'; end if;
+end $$;
+insert into public.location_sources (location_id,data_type,priority,enabled,target_id) select r.location_id,r.data_type,r.priority,r.enabled,r.target_id from jsonb_populate_recordset(null::public.location_sources, '[{"location_id":"eea-LT0032500101012","data_type":"temperature","priority":100,"enabled":true,"target_id":"lhmt-palangos:palangos-vms"}]'::jsonb) r on conflict do nothing;
+commit;

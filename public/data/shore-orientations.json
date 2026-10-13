@@ -6904,6 +6904,461 @@
         "reviewNote": "North-up local plot reviewed, directed OSM water-right/land-left convention. Any small landward sampling offset is retained; this is a shoreline estimate, not a current measurement.",
         "snapshotFile": "2026-10-12-osm.json"
       }
+    },
+    {
+      "locationId": "eea-LT0032100101001",
+      "latitude": 55.7653,
+      "longitude": 21.0787,
+      "seaBearing": 258,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          1524434972
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 1524434972,
+        "shorePoint": {
+          "latitude": 55.76528479797397,
+          "longitude": 21.0785779218565
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1524434972,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032100101002",
+      "latitude": 55.762,
+      "longitude": 21.0798,
+      "seaBearing": 256,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          1524434970
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 1524434970,
+        "shorePoint": {
+          "latitude": 55.76201411593486,
+          "longitude": 21.07990214121375
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1524434970,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032100101003",
+      "latitude": 55.7581,
+      "longitude": 21.0812,
+      "seaBearing": 261,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          1524434966
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 1524434966,
+        "shorePoint": {
+          "latitude": 55.75808975883346,
+          "longitude": 21.08108167762348
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1524434966,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032100101004",
+      "latitude": 55.733,
+      "longitude": 21.0856,
+      "seaBearing": 274,
+      "shoreOrientation": {
+        "distanceMetres": 11,
+        "radiusMetres": 60,
+        "wayIds": [
+          64048410
+        ],
+        "nearestSegment": 8,
+        "nearestWayId": 64048410,
+        "shorePoint": {
+          "latitude": 55.73299623939763,
+          "longitude": 21.08578097320566
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 64048410,
+            "version": 15
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032100101005",
+      "latitude": 55.7036,
+      "longitude": 21.0976,
+      "seaBearing": 261,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          1524442634
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 1524442634,
+        "shorePoint": {
+          "latitude": 55.70359795113368,
+          "longitude": 21.097577727543133
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1524442634,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032100101006",
+      "latitude": 55.6769,
+      "longitude": 21.1023,
+      "seaBearing": 266,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          1524442645
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 1524442645,
+        "shorePoint": {
+          "latitude": 55.67689673316727,
+          "longitude": 21.10220539057358
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1524442645,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032300101007",
+      "latitude": 55.3159,
+      "longitude": 20.9848,
+      "seaBearing": 295,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          332099928
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 332099928,
+        "shorePoint": {
+          "latitude": 55.31592366194659,
+          "longitude": 20.984717998524676
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 332099928,
+            "version": 10
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032300101008",
+      "latitude": 55.3779,
+      "longitude": 21.0303,
+      "seaBearing": 290,
+      "shoreOrientation": {
+        "distanceMetres": 2,
+        "radiusMetres": 60,
+        "wayIds": [
+          1174311354
+        ],
+        "nearestSegment": 19,
+        "nearestWayId": 1174311354,
+        "shorePoint": {
+          "latitude": 55.37789532732233,
+          "longitude": 21.030324255446786
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1174311354,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032300101009",
+      "latitude": 55.4213,
+      "longitude": 21.0557,
+      "seaBearing": 286,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          1174311354
+        ],
+        "nearestSegment": 4,
+        "nearestWayId": 1174311354,
+        "shorePoint": {
+          "latitude": 55.42128123813761,
+          "longitude": 21.055812876310398
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1174311354,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032300101010",
+      "latitude": 55.5397,
+      "longitude": 21.0981,
+      "seaBearing": 266,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          4211061
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 4211061,
+        "shorePoint": {
+          "latitude": 55.539706910483744,
+          "longitude": 21.09816105954993
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 4211061,
+            "version": 20
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032500101011",
+      "latitude": 55.9332,
+      "longitude": 21.0573,
+      "seaBearing": 283,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          1521953650
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 1521953650,
+        "shorePoint": {
+          "latitude": 55.933192002190964,
+          "longitude": 21.057356932780053
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1521953650,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032500101012",
+      "latitude": 55.92,
+      "longitude": 21.049,
+      "seaBearing": 287,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          91927667
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 91927667,
+        "shorePoint": {
+          "latitude": 55.919985482650816,
+          "longitude": 21.049136631003236
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 91927667,
+            "version": 24
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-LT0032500101013",
+      "latitude": 56.0206,
+      "longitude": 21.0707,
+      "seaBearing": 263,
+      "shoreOrientation": {
+        "distanceMetres": 11,
+        "radiusMetres": 60,
+        "wayIds": [
+          1521953642
+        ],
+        "nearestSegment": 12,
+        "nearestWayId": 1521953642,
+        "shorePoint": {
+          "latitude": 56.020586783548616,
+          "longitude": 21.070517590975957
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1521953642,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry and directed coastline water-right convention reviewed. Small landward catalogue offsets are retained; orientation describes the local shore, not a measured current.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
     }
   ]
 }

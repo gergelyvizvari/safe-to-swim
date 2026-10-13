@@ -172,6 +172,7 @@ function SafetyHero({ inland, safety, wind, current, language, locale, isNow, qu
         <article className="hero-sea-fact hero-sea-temperature">
           <span>{measuredWater ? observationCopy.observedTemperature : t('conditions.waterTemperature')}</span>
           <strong>{measuredWater ? formatTemperatureValue(measuredWater.temperature, locale) : formatTemperatureValue(current.seaTemperature, locale)}{(measuredWater || Number.isFinite(current.seaTemperature)) && <small>{temperatureUnit}</small>}</strong>
+          {measuredWater?.coverage === 'station' && isNow && <div className="hero-reading-context">{measuredWater.label}{Number.isFinite(measuredWater.distanceMetres) ? ` · ${measuredWater.distanceMetres} m` : ''}</div>}
           {measuredWater && (measuredWater.regional || !isNow) && <div className="hero-reading-context">{!isNow ? observationCopy.latestNotForecast : observationCopy.regionalAverage}</div>}
         </article>
         <article className={`hero-sea-fact hero-water-quality ${qualityTone}`}>

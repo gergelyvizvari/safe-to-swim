@@ -1,0 +1,4 @@
+meteo-lt-palangos.json: Lithuanian Hydrometeorological Service (LHMT), CC BY-SA 4.0.
+https://api.meteo.lt/ — https://creativecommons.org/licenses/by-sa/4.0/
+Retrieved 2026-10-13 from /v1/hydro-stations/palangos-vms/observations/measured/latest.
+Modified: selected two observations for reproducible parser tests; original station metadata retained.

@@ -512,3 +512,7 @@ Reviewed 15 coastal sites; 15 local shore orientations applied to the configured
 ## 2026-10-12 — Latvia
 
 Reviewed15 coastal sites;15 shore orientations applied to Supabase and verified through production APIs. No new dynamic measurements or verified camera bindings. Staldzene offshore catalogue point and Mersrags notches use reviewed chords. Official near-bottom temperature CSV, warning exports and seasonal quality evidence remain candidates. Marine model15/15 succeeded;weather11/15 returned503. [Run evidence](runs/2026-10-12.json). Next country Lithuania; unresolved source/camera review November11.
+
+## 2026-10-13 — Lithuania
+
+Reviewed15 coastal sites;13 orientations applied to Supabase and verified through production APIs. Two municipal/catalogue coordinate conflicts remain unresolved. Palanga pier measured temperature adapter prepared for one beach, with hourly shared collection and3h staleness. No verified live camera assignments. [Run evidence](runs/2026-10-13.json). Next country Poland; unresolved candidates review November12.

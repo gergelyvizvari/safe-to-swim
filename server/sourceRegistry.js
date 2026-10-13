@@ -1,3 +1,4 @@
+import { METEO_LT_URL, METEO_LT_SITE } from './meteoLt.js'
 import { UIRAS_URL, UIRAS_SITES } from './uiras.js'
 import { EA_SAMPLES_URL } from './eaSamples.js'
 import { EA_BRIGHTON_SITES } from './eaBrightonSites.js'
@@ -5,6 +6,7 @@ import { BALATON_SOURCES, isBalaton } from '../src/balaton.js'
 import { QUALITY_SITES } from './balatonQualitySites.js'
 
 export const SOURCES = [
+  { id: 'lhmt-palangos', name: 'LHMT · Meteo LT (CC BY-SA 4.0)', adapter: 'meteo_lt_temperature', url: METEO_LT_URL, refresh_seconds: 3600, stale_seconds: 10800 },
   { id: 'fvh-uiras', name: 'Forum Virium Helsinki · UiRaS (CC BY 4.0)', adapter: 'uiras_temperature', url: UIRAS_URL, refresh_seconds: 1800, stale_seconds: 10800 },
   { id: 'ea-brighton-samples', name: 'Environment Agency', adapter: 'ea_samples', url: EA_SAMPLES_URL, refresh_seconds: 21600, stale_seconds: 604800 },
   { id: 'open-meteo-weather', name: 'Open-Meteo', adapter: 'open_meteo_weather', url: 'https://api.open-meteo.com/v1/forecast', refresh_seconds: 300, stale_seconds: 1800 },
@@ -25,6 +27,8 @@ export function initialBindings(location) {
   add('weather', 'open-meteo-weather', location.id, location.name, 'model_point', { latitude: location.latitude, longitude: location.longitude })
   if (location.marineModelSupported !== false && location.waterType !== 'lake') add('marine', 'open-meteo-marine', location.id, location.name, 'model_point', { latitude: location.latitude, longitude: location.longitude })
   if (location.source) add('annual_quality', location.source, location.id, location.name, 'site')
+  const meteoSite = METEO_LT_SITE
+  if (location.id === meteoSite.locationId && location.waterType === 'coastal' && Math.abs(location.latitude - meteoSite.locationLatitude) < 0.00001 && Math.abs(location.longitude - meteoSite.locationLongitude) < 0.00001) add('temperature', 'lhmt-palangos', meteoSite.stationId, meteoSite.name, 'station', meteoSite)
   const uirasSite = UIRAS_SITES.find(s => s.locationId === location.id && location.waterType === 'lake' && Math.abs(s.locationLatitude - location.latitude) < 0.00001 && Math.abs(s.locationLongitude - location.longitude) < 0.00001)
   if (uirasSite) add('temperature', 'fvh-uiras', uirasSite.sensorId, uirasSite.name, 'station', { ...uirasSite, distanceMetres: 42 })
   const eaSite = EA_BRIGHTON_SITES.find(site => site.locationId === location.id && location.waterType !== 'lake' && Math.abs(site.latitude - location.latitude) < 0.00001 && Math.abs(site.longitude - location.longitude) < 0.00001)

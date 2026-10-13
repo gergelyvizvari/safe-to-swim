@@ -1,0 +1,23 @@
+{
+  "station": {
+    "code": "palangos-vms",
+    "name": "Palangos VMS",
+    "waterBody": "Baltijos jūra",
+    "coordinates": {
+      "latitude": 55.920336,
+      "longitude": 21.044301
+    }
+  },
+  "observations": [
+    {
+      "observationTimeUtc": "2026-10-13 06:00:00",
+      "waterLevel": 554.4,
+      "waterTemperature": 13.6
+    },
+    {
+      "observationTimeUtc": "2026-10-13 07:00:00",
+      "waterLevel": 551.4,
+      "waterTemperature": 13.9
+    }
+  ]
+}
