@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-13",
-  "nextCountry": "Poland",
+  "lastRun": "2026-10-14",
+  "nextCountry": "Germany",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -7857,6 +7857,306 @@
       "cameraNextReviewAt": "2026-11-12",
       "evidenceReference": "runs/2026-10-13.json",
       "reason": "Official municipal coordinates conflict with catalogue identity; no guessed coordinate replacement or bearing uploaded."
+    },
+    {
+      "locationId": "eea-PL4216301132000212",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 27,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4216301132000075",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 6,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4216301132000213",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 4,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4216301132000225",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 16,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210704432000084",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 322,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210704432000085",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 329,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701532000029",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 329,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701432000137",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 349,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701432000136",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 344,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701432000030",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 343,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701432000186",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 337,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701532000031",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 342,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701532000032",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 342,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4210701532000187",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 344,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-PL4220801132000097",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "shoreOrientation": {
+        "seaBearing": 340,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261014_poland_west_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-13",
+      "evidenceReference": "runs/2026-10-14.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
     }
   ]
 }
