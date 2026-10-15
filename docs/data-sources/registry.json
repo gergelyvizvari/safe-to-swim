@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-14",
-  "nextCountry": "Germany",
+  "lastRun": "2026-10-15",
+  "nextCountry": "Netherlands",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -8157,6 +8157,306 @@
       "cameraNextReviewAt": "2026-11-13",
       "evidenceReference": "runs/2026-10-14.json",
       "reason": "Local Baltic water-right coastline reviewed and applied. Existing timestamped weather/marine model values verified; no new measured quality, temperature, algae, current or warning integration claimed."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0724",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 29,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0725",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 44,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0726",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 44,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0727",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 47,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0730",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 56,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0731",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 44,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0732",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 40,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0733",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 49,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0734",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 50,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0735",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 34,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0736",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 27,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0737",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 8,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0738",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 31,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0742",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 32,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0739",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-15",
+      "nextReviewAt": "2026-11-14",
+      "shoreOrientation": {
+        "seaBearing": 36,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261015_usedom_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-14",
+      "evidenceReference": "runs/2026-10-15.json",
+      "reason": "Local Baltic water-right coastline reviewed and applied. MV public_id/name matches found; seasonal samples remain stale, with units, reuse contract and projected coordinate match pending. No new dynamic source enabled."
     }
   ]
 }

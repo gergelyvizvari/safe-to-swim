@@ -7904,6 +7904,541 @@
         "reviewNote": "North-up local geometry reviewed: Baltic water lies north/northwest of this beach, on the right of the directed coastline. Reviewed landward catalogue offsets up to 113m retained; distinct nearby beach IDs use their own local shoreline segments. Not a measured current.",
         "snapshotFile": "2026-10-14-osm.json"
       }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0724",
+      "latitude": 53.9292,
+      "longitude": 14.2239,
+      "seaBearing": 29,
+      "shoreOrientation": {
+        "distanceMetres": 67,
+        "radiusMetres": 60,
+        "wayIds": [
+          828829935
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 828829935,
+        "shorePoint": {
+          "latitude": 53.929728318402056,
+          "longitude": 14.22440156788169
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 828829935,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0725",
+      "latitude": 53.9419,
+      "longitude": 14.1934,
+      "seaBearing": 44,
+      "shoreOrientation": {
+        "distanceMetres": 38,
+        "radiusMetres": 60,
+        "wayIds": [
+          828829935
+        ],
+        "nearestSegment": 16,
+        "nearestWayId": 828829935,
+        "shorePoint": {
+          "latitude": 53.94213286453971,
+          "longitude": 14.193827538513778
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 828829935,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0726",
+      "latitude": 53.9489,
+      "longitude": 14.1804,
+      "seaBearing": 44,
+      "shoreOrientation": {
+        "distanceMetres": 70,
+        "radiusMetres": 60,
+        "wayIds": [
+          70810757
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 70810757,
+        "shorePoint": {
+          "latitude": 53.949378356112945,
+          "longitude": 14.18109361993183
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 70810757,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0727",
+      "latitude": 53.9574,
+      "longitude": 14.1702,
+      "seaBearing": 47,
+      "shoreOrientation": {
+        "distanceMetres": 17,
+        "radiusMetres": 60,
+        "wayIds": [
+          180998119
+        ],
+        "nearestSegment": 4,
+        "nearestWayId": 180998119,
+        "shorePoint": {
+          "latitude": 53.957512609933794,
+          "longitude": 14.170367630936974
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 180998119,
+            "version": 2
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0730",
+      "latitude": 53.9749,
+      "longitude": 14.1447,
+      "seaBearing": 56,
+      "shoreOrientation": {
+        "distanceMetres": 12,
+        "radiusMetres": 60,
+        "wayIds": [
+          70810736,
+          1472733490
+        ],
+        "nearestSegment": 9,
+        "nearestWayId": 70810736,
+        "shorePoint": {
+          "latitude": 53.97483173358359,
+          "longitude": 14.144552131671302
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 70810736,
+            "version": 7
+          },
+          {
+            "id": 1472733490,
+            "version": 1
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0731",
+      "latitude": 53.9822,
+      "longitude": 14.1327,
+      "seaBearing": 44,
+      "shoreOrientation": {
+        "distanceMetres": 18,
+        "radiusMetres": 60,
+        "wayIds": [
+          181006479
+        ],
+        "nearestSegment": 14,
+        "nearestWayId": 181006479,
+        "shorePoint": {
+          "latitude": 53.98231500751155,
+          "longitude": 14.132883129901852
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 181006479,
+            "version": 6
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0732",
+      "latitude": 54.0158,
+      "longitude": 14.0721,
+      "seaBearing": 40,
+      "shoreOrientation": {
+        "distanceMetres": 56,
+        "radiusMetres": 60,
+        "wayIds": [
+          70810766
+        ],
+        "nearestSegment": 29,
+        "nearestWayId": 70810766,
+        "shorePoint": {
+          "latitude": 54.01620966774936,
+          "longitude": 14.072603801066688
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 70810766,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0733",
+      "latitude": 54.0183,
+      "longitude": 14.0685,
+      "seaBearing": 49,
+      "shoreOrientation": {
+        "distanceMetres": 34,
+        "radiusMetres": 60,
+        "wayIds": [
+          70810766
+        ],
+        "nearestSegment": 32,
+        "nearestWayId": 70810766,
+        "shorePoint": {
+          "latitude": 54.01850182053676,
+          "longitude": 14.068897605655271
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 70810766,
+            "version": 11
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0734",
+      "latitude": 54.0414,
+      "longitude": 14.0316,
+      "seaBearing": 50,
+      "shoreOrientation": {
+        "distanceMetres": 28,
+        "radiusMetres": 60,
+        "wayIds": [
+          100215842,
+          182470498
+        ],
+        "nearestSegment": 16,
+        "nearestWayId": 100215842,
+        "shorePoint": {
+          "latitude": 54.04155095856139,
+          "longitude": 14.031934459212339
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100215842,
+            "version": 6
+          },
+          {
+            "id": 182470498,
+            "version": 4
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0735",
+      "latitude": 54.0591,
+      "longitude": 14.0004,
+      "seaBearing": 34,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          182470484
+        ],
+        "nearestSegment": 23,
+        "nearestWayId": 182470484,
+        "shorePoint": {
+          "latitude": 54.059069389951084,
+          "longitude": 14.00036469538735
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 182470484,
+            "version": 10
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0736",
+      "latitude": 54.0644,
+      "longitude": 13.9838,
+      "seaBearing": 27,
+      "shoreOrientation": {
+        "distanceMetres": 28,
+        "radiusMetres": 60,
+        "wayIds": [
+          182470484
+        ],
+        "nearestSegment": 50,
+        "nearestWayId": 182470484,
+        "shorePoint": {
+          "latitude": 54.06461899870638,
+          "longitude": 13.984004250037456
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 182470484,
+            "version": 10
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0737",
+      "latitude": 54.0715,
+      "longitude": 13.9537,
+      "seaBearing": 8,
+      "shoreOrientation": {
+        "distanceMetres": 31,
+        "radiusMetres": 60,
+        "wayIds": [
+          577719355
+        ],
+        "nearestSegment": 31,
+        "nearestWayId": 577719355,
+        "shorePoint": {
+          "latitude": 54.07177786824783,
+          "longitude": 13.953784951645597
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577719355,
+            "version": 4
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0738",
+      "latitude": 54.0786,
+      "longitude": 13.925,
+      "seaBearing": 31,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          577850940
+        ],
+        "nearestSegment": 20,
+        "nearestWayId": 577850940,
+        "shorePoint": {
+          "latitude": 54.07871480641959,
+          "longitude": 13.92512464936075
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577850940,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0742",
+      "latitude": 54.0795,
+      "longitude": 13.923,
+      "seaBearing": 32,
+      "shoreOrientation": {
+        "distanceMetres": 2,
+        "radiusMetres": 60,
+        "wayIds": [
+          577850940
+        ],
+        "nearestSegment": 24,
+        "nearestWayId": 577850940,
+        "shorePoint": {
+          "latitude": 54.079484004582405,
+          "longitude": 13.922983009359584
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577850940,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0739",
+      "latitude": 54.086,
+      "longitude": 13.9041,
+      "seaBearing": 36,
+      "shoreOrientation": {
+        "distanceMetres": 53,
+        "radiusMetres": 60,
+        "wayIds": [
+          577850940
+        ],
+        "nearestSegment": 46,
+        "nearestWayId": 577850940,
+        "shorePoint": {
+          "latitude": 54.08638482191518,
+          "longitude": 13.904576819489998
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-15",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577850940,
+            "version": 3
+          }
+        ],
+        "reviewNote": "North-up local geometry reviewed: Baltic water is north/northeast of these Usedom beaches, on the right of the directed coastline. Reviewed landward catalogue offsets up to 70m retained. Lagoon shores are excluded; nearby beaches use their own local segments.",
+        "snapshotFile": "2026-10-15-osm.json"
+      }
     }
   ]
 }

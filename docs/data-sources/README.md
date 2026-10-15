@@ -516,3 +516,7 @@ Reviewed15 coastal sites;15 shore orientations applied to Supabase and verified 
 ## 2026-10-13 — Lithuania
 
 Reviewed15 coastal sites;13 orientations applied to Supabase and verified through production APIs. Two municipal/catalogue coordinate conflicts remain unresolved. Palanga pier measured temperature integrated for one beach, with hourly shared collection and3h staleness. Existing cron collected08:00UTC14°C measurement at08:25UTC; production API verified. No verified live camera assignments. [Run evidence](runs/2026-10-13.json). Next country Poland; unresolved candidates review November12.
+
+## 2026-10-15 outcome
+
+15 German Baltic beaches reviewed; 15 local shoreline bearings applied and verified through production API (236 reproducible bearings total). MV official API returned 15 beach sample histories, latest August31/September1: candidate only, no fresh water-quality claim. DWD warning payload retrieved, regional matching pending. One Zinnowitz camera verified playing with advancing current timestamp, zero exact beach matches and zero integrations. Existing model probes: weather14/15 (one503), marine15/15; persisted observation envelopes empty for all15. Tests127, lint, build and disposable PostgreSQL preservation/idempotence passed. Evidence: `runs/2026-10-15.json`. Next country Netherlands; deferred research due November14.
