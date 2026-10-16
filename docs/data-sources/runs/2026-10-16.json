@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "status": "database-applied-camera-implemented-deployment-pending",
+  "status": "production-integrated",
   "selection": "15 previously unreviewed North Holland/Texel North Sea coastal sites; not Wadden Sea lagoon sites.",
   "counts": {
     "reviewed": 15,
@@ -1256,5 +1256,13 @@
       "status": "candidate"
     }
   ],
-  "cameraSearchLimits": "Other selected beaches: no verified primary live camera. Camperduin Skyline and Bergen directory candidates remain unverified. Do not reuse De Toko for nearby sites. No failed search retry before November15 without new evidence."
+  "cameraSearchLimits": "Other selected beaches: no verified primary live camera. Camperduin Skyline and Bergen directory candidates remain unverified. Do not reuse De Toko for nearby sites. No failed search retry before November15 without new evidence.",
+  "deployment": {
+    "commit": "a484f79ec49237af4166d79fe18aa0a4c499b11c",
+    "status": "Ready; GitHub Vercel success",
+    "url": "https://safe-to-swim-l7pp2kqld-gergely-s-projects.vercel.app",
+    "dashboard": "https://vercel.com/gergely-s-projects/safe-to-swim/DsFwFDwBvP8hLP3F862hGAqME6uR",
+    "origin": "https://safe-to-swim.vercel.app",
+    "verification": "Production orientation JSON exactly matches all251 reviewed records; deployed bundle contains De Toko camera ID and official source URL. Post-import detail APIs validated all15 bearings."
+  }
 }
