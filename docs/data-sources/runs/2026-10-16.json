@@ -1,0 +1,1260 @@
+{
+  "date": "2026-10-16",
+  "status": "database-applied-camera-implemented-deployment-pending",
+  "selection": "15 previously unreviewed North Holland/Texel North Sea coastal sites; not Wadden Sea lagoon sites.",
+  "counts": {
+    "reviewed": 15,
+    "preparedSites": 15,
+    "preparedImports": 0,
+    "newProductionCoverage": 15,
+    "newDynamicCoverage": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15,
+    "camerasVerifiedLive": 1,
+    "camerasVerifiedSiteMatch": 1,
+    "camerasIntegrated": 1,
+    "camerasPrepared": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-NLBW95_KRIMBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 299,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_KOOGBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 300,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_BLEEKBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 299,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_VLAKBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 279,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_HUISDNBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 278,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_JULANDBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 268,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_GROOTKTBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 278,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_CALLOBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 286,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "integrated",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_SINTMTZBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 287,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_PETTBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 295,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_CAMPDBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 272,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_BERGAZBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 275,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_EGMAZBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 278,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_CASTCAZBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 278,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-NLBW95_ZWARTWBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-16",
+      "nextReviewAt": "2026-11-15",
+      "shoreOrientation": {
+        "seaBearing": 286,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261016_north_holland_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-15",
+      "evidenceReference": "runs/2026-10-16.json",
+      "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    }
+  ],
+  "officialIdentity": {
+    "url": "https://geo.rijkswaterstaat.nl/arcgis/rest/services/GDR/zwemwateronderzoek/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json",
+    "httpStatus": 200,
+    "matches": [
+      {
+        "locationId": "eea-NLBW95_KRIMBSD",
+        "providerId": "NLBW95_KRIMBSD",
+        "providerWaterBody": "Waddenkust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 129,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_KOOGBSD",
+        "providerId": "NLBW95_KOOGBSD",
+        "providerWaterBody": "Waddenkust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 83,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_BLEEKBSD",
+        "providerId": "NLBW95_BLEEKBSD",
+        "providerWaterBody": "Waddenkust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 847,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_VLAKBSD",
+        "providerId": "NLBW95_VLAKBSD",
+        "providerWaterBody": "Waddenkust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 620,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_HUISDNBSD",
+        "providerId": "NLBW95_HUISDNBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 154,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_JULANDBSD",
+        "providerId": "NLBW95_JULANDBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 45,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_GROOTKTBSD",
+        "providerId": "NLBW95_GROOTKTBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 492,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_CALLOBSD",
+        "providerId": "NLBW95_CALLOBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 210,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_SINTMTZBSD",
+        "providerId": "NLBW95_SINTMTZBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 472,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_PETTBSD",
+        "providerId": "NLBW95_PETTBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 302,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_CAMPDBSD",
+        "providerId": "NLBW95_CAMPDBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 371,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_BERGAZBSD",
+        "providerId": "NLBW95_BERGAZBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 153,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_EGMAZBSD",
+        "providerId": "NLBW95_EGMAZBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 2280,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_CASTCAZBSD",
+        "providerId": "NLBW95_CASTCAZBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 179,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      },
+      {
+        "locationId": "eea-NLBW95_ZWARTWBSD",
+        "providerId": "NLBW95_ZWARTWBSD",
+        "providerWaterBody": "Hollandse kust (kustwater)",
+        "providerWaterType": "KO",
+        "coordinateDifferenceMetres": 1124,
+        "latestClassificationYear": 2023,
+        "status": "identity-only; historical coordinates not assigned"
+      }
+    ],
+    "note": "Historical annual classifications through 2023, not fresh samples. Preserve EEA 2025 history. Egmond and Heemskerk coordinate differences need investigation before any measured-station assignment."
+  },
+  "dynamicResearch": {
+    "previousEvidence": "runs/2026-09-19.json",
+    "deferredUntil": "2026-10-19",
+    "note": "No repeat of failed/deferred RWS measurement, zwemwater advice or KNMI credential research before due date. No new water-temperature, quality, algae, storm or current adapter claimed."
+  },
+  "modelProbes": [
+    {
+      "locationId": "eea-NLBW95_KRIMBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 53.158,
+        "longitude": 4.843,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 17.3,
+          "apparent_temperature": 16.7,
+          "weather_code": 0,
+          "wind_speed_10m": 11.2,
+          "wind_direction_10m": 224,
+          "wind_gusts_10m": 23
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 53.125008,
+        "longitude": 4.7916718,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.8,
+          "wave_direction": 238,
+          "wave_period": 4.15,
+          "sea_level_height_msl": 0.37,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 1.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_KOOGBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 53.125008,
+        "longitude": 4.7916718,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.8,
+          "wave_direction": 238,
+          "wave_period": 4.15,
+          "sea_level_height_msl": 0.37,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 1.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_BLEEKBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 53.068,
+        "longitude": 4.756,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 17.3,
+          "apparent_temperature": 16.8,
+          "weather_code": 1,
+          "wind_speed_10m": 10.7,
+          "wind_direction_10m": 216,
+          "wind_gusts_10m": 23.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 53.041664,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.88,
+          "wave_direction": 241,
+          "wave_period": 4.3,
+          "sea_level_height_msl": 0.34,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 1.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_VLAKBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 53.031998,
+        "longitude": 4.7269998,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 17.1,
+          "apparent_temperature": 16.3,
+          "weather_code": 2,
+          "wind_speed_10m": 12.1,
+          "wind_direction_10m": 213,
+          "wind_gusts_10m": 23.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 53.041664,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.88,
+          "wave_direction": 241,
+          "wave_period": 4.3,
+          "sea_level_height_msl": 0.34,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 1.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_HUISDNBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 52.942,
+        "longitude": 4.7269998,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 17,
+          "apparent_temperature": 16.4,
+          "weather_code": 3,
+          "wind_speed_10m": 11,
+          "wind_direction_10m": 212,
+          "wind_gusts_10m": 23
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.958336,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.86,
+          "wave_direction": 244,
+          "wave_period": 4.3,
+          "sea_level_height_msl": 0.32,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 1.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_JULANDBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 52.906,
+        "longitude": 4.7269998,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 16.9,
+          "apparent_temperature": 16,
+          "weather_code": 3,
+          "wind_speed_10m": 12.1,
+          "wind_direction_10m": 208,
+          "wind_gusts_10m": 22.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.875008,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.72,
+          "wave_direction": 246,
+          "wave_period": 4.2,
+          "sea_level_height_msl": 0.3,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 1.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_GROOTKTBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 52.852,
+        "longitude": 4.698,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 16.8,
+          "apparent_temperature": 16,
+          "weather_code": 3,
+          "wind_speed_10m": 11.4,
+          "wind_direction_10m": 212,
+          "wind_gusts_10m": 21.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.875008,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.72,
+          "wave_direction": 246,
+          "wave_period": 4.2,
+          "sea_level_height_msl": 0.3,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 1.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_CALLOBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 52.834,
+        "longitude": 4.698,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 16.7,
+          "apparent_temperature": 15.9,
+          "weather_code": 3,
+          "wind_speed_10m": 11.6,
+          "wind_direction_10m": 209,
+          "wind_gusts_10m": 21
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.875008,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.72,
+          "wave_direction": 246,
+          "wave_period": 4.2,
+          "sea_level_height_msl": 0.3,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 1.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_SINTMTZBSD",
+      "weather": {
+        "status": 200,
+        "latitude": 52.798,
+        "longitude": 4.698,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 16.7,
+          "apparent_temperature": 15.7,
+          "weather_code": 3,
+          "wind_speed_10m": 12.1,
+          "wind_direction_10m": 207,
+          "wind_gusts_10m": 19.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.791664,
+        "longitude": 4.7083435,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 246,
+          "wave_period": 4,
+          "sea_level_height_msl": 0.27,
+          "sea_surface_temperature": 16.7,
+          "ocean_current_velocity": 1.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_PETTBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.791664,
+        "longitude": 4.6250153,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.76,
+          "wave_direction": 245,
+          "wave_period": 4.15,
+          "sea_level_height_msl": 0.27,
+          "sea_surface_temperature": 16.7,
+          "ocean_current_velocity": 1.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_CAMPDBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.708336,
+        "longitude": 4.6250153,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.64,
+          "wave_direction": 248,
+          "wave_period": 4,
+          "sea_level_height_msl": 0.25,
+          "sea_surface_temperature": 16.7,
+          "ocean_current_velocity": 1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_BERGAZBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.708336,
+        "longitude": 4.6250153,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.64,
+          "wave_direction": 248,
+          "wave_period": 4,
+          "sea_level_height_msl": 0.22,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_EGMAZBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.708336,
+        "longitude": 4.6250153,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.64,
+          "wave_direction": 248,
+          "wave_period": 4,
+          "sea_level_height_msl": 0.22,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_CASTCAZBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.708336,
+        "longitude": 4.6250153,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.64,
+          "wave_direction": 248,
+          "wave_period": 4,
+          "sea_level_height_msl": 0.19,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-NLBW95_ZWARTWBSD",
+      "weather": {
+        "status": 503,
+        "error": "The service is overloaded"
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 52.708336,
+        "longitude": 4.6250153,
+        "current": {
+          "time": 1792137600,
+          "interval": 900,
+          "wave_height": 0.64,
+          "wave_direction": 248,
+          "wave_period": 4,
+          "sea_level_height_msl": 0.19,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    }
+  ],
+  "productionApi": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "checkedAt": "2026-10-16T08:10:18.638614+00:00",
+    "pages": [
+      {
+        "kind": "lake",
+        "offset": 0,
+        "status": 200,
+        "count": 15
+      },
+      {
+        "kind": "lake",
+        "offset": 15,
+        "status": 200,
+        "count": 15
+      },
+      {
+        "kind": "coastal",
+        "offset": 0,
+        "status": 200,
+        "count": 15
+      },
+      {
+        "kind": "coastal",
+        "offset": 15,
+        "status": 200,
+        "count": 15
+      }
+    ],
+    "detailsVerified": 15,
+    "observationEnvelopesVerified": 15,
+    "persistedObservations": 0,
+    "note": "All identities, bearings and annual/weather/marine target IDs checked. Direct model probes are not persisted observations."
+  },
+  "operations": {
+    "projectId": "zpqhqdndaloivnyzoigb",
+    "cron": "one active safe-to-swim-source-checks job every minute; no new job or manual collection",
+    "sourceState": "Weather/marine and Uiras/Palanga/HungaroMet advancing. Storm feed recovered with 06:24 publication. Brighton EA unavailable with 96 failures, next due 09:25; existing issue. Weekly sources not due."
+  },
+  "validation": {
+    "tests": 128,
+    "lint": "passed",
+    "build": "passed",
+    "postgres": "disposable PostgreSQL passed missing-only updates, idempotence, north=0/manual metadata preservation, coordinate/type guards",
+    "geometry": "251 bearings reproduced; local north-up plots reviewed; water west/northwest on right of directed shoreline",
+    "browser": "Desktop and 390x844 mobile camera label, external link and 0.1km distance verified. Wind source unavailable in local UI; missing-bearing note absent, live wind classification cannot be confirmed in this browser run. Existing evaluation tests passed.",
+    "permissions": "RLS verified enabled on locations, location_sources, source_targets, annual_classifications; no grants or schema changed"
+  },
+  "cameras": [
+    {
+      "cameraId": "nl-callantsoog-de-toko",
+      "locationIds": [
+        "eea-NLBW95_CALLOBSD"
+      ],
+      "operator": "Strandpaviljoen De Toko",
+      "pageUrl": "https://www.strandpaviljoendetoko.nl/webcam/",
+      "coordinates": {
+        "latitude": 52.8349531,
+        "longitude": 4.6896647
+      },
+      "coordinateEvidence": "Operator Google Maps premises link; not exact camera mount",
+      "coverage": "nearby-shore",
+      "waterBody": "North Sea",
+      "fieldOfViewEvidence": "Operator page identifies pavilion beach/North Sea; actual beach and waves seen in player. Exact sampling-point visibility not claimed.",
+      "checkedAt": "2026-10-16T08:07:45Z",
+      "type": "link",
+      "freshness": "playing timestamped image 2026-10-16 10:07:45 local",
+      "embedding": "not assumed; provider page link only",
+      "nextReviewAt": "2026-11-15",
+      "status": "integrated-in-src/webcamSources.js"
+    }
+  ],
+  "cameraCandidates": [
+    {
+      "cameraId": "nl-texel-paal17",
+      "locationIds": [
+        "eea-NLBW95_KRIMBSD",
+        "eea-NLBW95_KOOGBSD",
+        "eea-NLBW95_BLEEKBSD",
+        "eea-NLBW95_VLAKBSD"
+      ],
+      "operator": "unverified candidate",
+      "pageUrl": "https://www.texel.net/nl/zien-en-doen/webcams/webcam-strand-paal-17/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Tourism identifies Ecomare/Paal17 beach; not proof of any selected sampling beach. No coordinates/live freshness verified.",
+      "checkedAt": "2026-10-16",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "unknown",
+      "nextReviewAt": "2026-11-15",
+      "status": "candidate"
+    },
+    {
+      "cameraId": "nl-castricum-tourism",
+      "locationIds": [
+        "eea-NLBW95_EGMAZBSD",
+        "eea-NLBW95_CASTCAZBSD"
+      ],
+      "operator": "unverified candidate",
+      "pageUrl": "https://visitcastricum.com/en/ontdek/webcams",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Tourism lists Zeezicht and Nautilus; no actual player, coordinates or field of view verified.",
+      "checkedAt": "2026-10-16",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "unknown",
+      "nextReviewAt": "2026-11-15",
+      "status": "candidate"
+    },
+    {
+      "cameraId": "nl-petten-lifeguards",
+      "locationIds": [
+        "eea-NLBW95_PETTBSD"
+      ],
+      "operator": "unverified candidate",
+      "pageUrl": "https://www.rbpetten.nl/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Candidate discovered from NKV; primary camera not verified.",
+      "checkedAt": "2026-10-16",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "unknown",
+      "nextReviewAt": "2026-11-15",
+      "status": "candidate"
+    }
+  ],
+  "cameraSearchLimits": "Other selected beaches: no verified primary live camera. Camperduin Skyline and Bergen directory candidates remain unverified. Do not reuse De Toko for nearby sites. No failed search retry before November15 without new evidence."
+}

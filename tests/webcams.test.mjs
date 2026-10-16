@@ -43,3 +43,17 @@ test('Apelviken shore camera is limited to its reviewed bay and keeps external f
   assert.deepEqual(getWebcamsForLocation({...point,waterType:'lake'}),[])
   assert.deepEqual(getWebcamsForLocation({...point,id:undefined}),[])
 })
+
+test('De Toko stays an external nearby North Sea view for its reviewed site only', () => {
+  const site = { id: 'eea-NLBW95_CALLOBSD', latitude: 52.83562, longitude: 4.68891, waterType: 'coastal' }
+  const camera = getWebcamForLocation(site)
+  assert.equal(camera.id, 'nl-callantsoog-de-toko')
+  assert.equal(camera.coverage, 'nearby-shore')
+  assert.ok(camera.distance > 0.08 && camera.distance < 0.1)
+  assert.equal(camera.pageUrl, 'https://www.strandpaviljoendetoko.nl/webcam/')
+  assert.equal(camera.streams, undefined)
+  assert.equal(camera.imageUrl, undefined)
+  for (const changed of [{ ...site, waterType: 'lake' }, { ...site, id: 'eea-NLBW95_GROOTKTBSD' }]) {
+    assert.ok(!getWebcamsForLocation(changed).some(c => c.id === camera.id))
+  }
+})

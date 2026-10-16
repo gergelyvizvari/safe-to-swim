@@ -15,6 +15,15 @@ const BRIGHTON_STREAMS = [
 
 export const VERIFIED_WEBCAMS = [
   {
+    id: 'nl-callantsoog-de-toko', name: 'Callantsoog · De Toko',
+    latitude: 52.8349531, longitude: 4.6896647,
+    sourceName: 'Strandpaviljoen De Toko', pageUrl: 'https://www.strandpaviljoendetoko.nl/webcam/',
+    verifiedOn: '2026-10-16', coverage: 'nearby-shore', waterType: 'coastal',
+    // Operator map coordinates locate the pavilion, not the exact camera mount.
+    // Timestamped North Sea beach view; retain external link, no embed permission assumed.
+    locationIds: ['eea-NLBW95_CALLOBSD'],
+  },
+  {
     id: 'se-apelviken-solviken', name: 'Destination Apelviken · Solviken',
     latitude: 57.084444, longitude: 12.248611,
     sourceName: 'Destination Apelviken', pageUrl: 'https://www.apelviken.se/webbkamera',
