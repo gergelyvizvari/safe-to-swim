@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-16",
-  "nextCountry": "Belgium",
+  "lastRun": "2026-10-17",
+  "nextCountry": "France",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -8757,6 +8757,336 @@
       "cameraNextReviewAt": "2026-11-15",
       "evidenceReference": "runs/2026-10-16.json",
       "reason": "Local North Sea water-right coastline reviewed and applied. RWS historical bathing-area ID matched; differing historical coordinates are not measurement assignments. No new dynamic source enabled."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH01",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 349,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14706",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14706",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 342,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14784",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14784",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH04",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 328,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14761",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14761",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH07",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 337,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14765",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14765",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH08",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 346,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14722",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14722",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK01",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 328,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14694",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14694",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 318,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14791",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14791",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK03",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 334,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14825",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14825",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK05",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 328,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14818",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14818",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK06",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 332,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14701",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14701",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK08",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 335,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14708",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14708",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK09",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 334,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14812",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14812",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 328,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14711",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14711",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK04",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 327,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14681",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14681",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK07",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-17",
+      "nextReviewAt": "2026-11-16",
+      "shoreOrientation": {
+        "seaBearing": 327,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261017_belgium_shore_orientations.sql"
+      },
+      "sourceTargetCandidate": "14789",
+      "sourceUrl": "https://kwaliteitzwemwater.be/nl/node/14789",
+      "identityVerified": true,
+      "dynamicStatus": "candidate",
+      "cameraStatus": "no-verified-live-binding",
+      "evidenceReference": "runs/2026-10-17.json",
+      "reason": "Individual local North Sea coastline reviewed and bearing applied. Exact coordinate/name VMM match; September samples remain stale. No dynamic source or camera assignment inferred."
     }
   ]
 }

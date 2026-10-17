@@ -524,3 +524,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-16 — North Holland / Texel
 
 15 new sites reviewed; 15 local shore bearings applied to Supabase and verified in production detail APIs (251 reproducible total). RWS historical bathing-area IDs match all 15, but annual data through 2023 and coordinate differences are not current measurement coverage. No new dynamic adapter. De Toko Callantsoog verified with current timestamp and published as an external nearby-shore camera link, 0.1km away. Weather model probes 8/15 succeeded (seven503); marine15/15. Tests128, lint, build, PostgreSQL preservation/idempotence and desktop/mobile camera checks passed. Publication status is tracked in [run evidence](runs/2026-10-16.json). Next country Belgium; new unresolved candidates due November15, prior Dutch provider research due October19.
+
+## 2026-10-17 — Belgium
+
+15 new Knokke-Heist/Koksijde/Westende sites reviewed;15 local shore bearings applied, including3 individually reviewed offshore sample-point chords. Total266 reproducible bearings. VMM matches all15 exact coordinates/names, but September14/15 samples are stale; October16 is page modification. No new dynamic adapter or verified camera binding. Weather10/15 (five503), marine15/15 model probes; these are not persisted observations. Tests128, lint, build and PostgreSQL preservation/idempotence passed. [Run evidence](runs/2026-10-17.json). New candidates dueNovember16; earlier shared Belgian provider checks remain dueNovember5. Next country France.

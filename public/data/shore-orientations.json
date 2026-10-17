@@ -8964,6 +8964,546 @@
         "reviewNote": "North-up local plots reviewed: North Sea water west/northwest, on the right of directed coastlines. Texel west shore checked separately from Wadden Sea. Local landward offsets (Petten140m, Camperduin122m, Egmond60m) reviewed; offshore sampling points retain their own local shore normals. Bleekersvallei loops outside the 60m local window do not affect its segment.",
         "snapshotFile": "2026-10-16-osm.json"
       }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH01",
+      "latitude": 51.34405,
+      "longitude": 3.24625,
+      "seaBearing": 349,
+      "shoreOrientation": {
+        "distanceMetres": 52,
+        "radiusMetres": 60,
+        "wayIds": [
+          168833176
+        ],
+        "nearestSegment": 136,
+        "nearestWayId": 168833176,
+        "shorePoint": {
+          "latitude": 51.34358787966401,
+          "longitude": 3.2463452430326742
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168833176,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH02",
+      "latitude": 51.34677,
+      "longitude": 3.25919,
+      "seaBearing": 342,
+      "shoreOrientation": {
+        "distanceMetres": 95,
+        "radiusMetres": 60,
+        "wayIds": [
+          168833176
+        ],
+        "nearestSegment": 120,
+        "nearestWayId": 168833176,
+        "shorePoint": {
+          "latitude": 51.34593623102504,
+          "longitude": 3.259503127341312
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168833176,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH04",
+      "latitude": 51.35127,
+      "longitude": 3.27858,
+      "seaBearing": 328,
+      "shoreOrientation": {
+        "distanceMetres": 50,
+        "radiusMetres": 60,
+        "wayIds": [
+          168833176
+        ],
+        "nearestSegment": 99,
+        "nearestWayId": 168833176,
+        "shorePoint": {
+          "latitude": 51.35089335636307,
+          "longitude": 3.2789846219011514
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168833176,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH07",
+      "latitude": 51.35793,
+      "longitude": 3.30425,
+      "seaBearing": 337,
+      "shoreOrientation": {
+        "distanceMetres": 41,
+        "radiusMetres": 60,
+        "wayIds": [
+          168833176
+        ],
+        "nearestSegment": 75,
+        "nearestWayId": 168833176,
+        "shorePoint": {
+          "latitude": 51.3575872005957,
+          "longitude": 3.3044732314839385
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168833176,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KNH08",
+      "latitude": 51.36133,
+      "longitude": 3.32252,
+      "seaBearing": 346,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          168833176
+        ],
+        "nearestSegment": 59,
+        "nearestWayId": 168833176,
+        "shorePoint": {
+          "latitude": 51.36125727157958,
+          "longitude": 3.3225448582174426
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168833176,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK01",
+      "latitude": 51.11271,
+      "longitude": 2.60927,
+      "seaBearing": 328,
+      "shoreOrientation": {
+        "distanceMetres": 441,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 313,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.1100712,
+          "longitude": 2.6045673
+        },
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "reviewedVertexIndices": [
+          313,
+          314
+        ],
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK02",
+      "latitude": 51.11571,
+      "longitude": 2.61759,
+      "seaBearing": 318,
+      "shoreOrientation": {
+        "distanceMetres": 145,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 311,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.1159359,
+          "longitude": 2.6196373
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK03",
+      "latitude": 51.11945,
+      "longitude": 2.62745,
+      "seaBearing": 334,
+      "shoreOrientation": {
+        "distanceMetres": 49,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 309,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.11984362533765,
+          "longitude": 2.6271397897270856
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK05",
+      "latitude": 51.12593,
+      "longitude": 2.64049,
+      "seaBearing": 328,
+      "shoreOrientation": {
+        "distanceMetres": 139,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 307,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.12486475966299,
+          "longitude": 2.641534291822602
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK06",
+      "latitude": 51.13154,
+      "longitude": 2.65472,
+      "seaBearing": 332,
+      "shoreOrientation": {
+        "distanceMetres": 188,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 304,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.13004507911363,
+          "longitude": 2.6559627439591136
+        },
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "reviewedVertexIndices": [
+          304,
+          305
+        ],
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK08",
+      "latitude": 51.13558,
+      "longitude": 2.66818,
+      "seaBearing": 335,
+      "shoreOrientation": {
+        "distanceMetres": 165,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 303,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.134241438781096,
+          "longitude": 2.6691820857725763
+        },
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "reviewedVertexIndices": [
+          303,
+          304
+        ],
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_KOK09",
+      "latitude": 51.14487,
+      "longitude": 2.6996,
+      "seaBearing": 334,
+      "shoreOrientation": {
+        "distanceMetres": 99,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 297,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.144075213678654,
+          "longitude": 2.7002259556801516
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK02",
+      "latitude": 51.1672,
+      "longitude": 2.75959,
+      "seaBearing": 328,
+      "shoreOrientation": {
+        "distanceMetres": 91,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 273,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.16650629510442,
+          "longitude": 2.7602822708072052
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK04",
+      "latitude": 51.17243,
+      "longitude": 2.77321,
+      "seaBearing": 327,
+      "shoreOrientation": {
+        "distanceMetres": 74,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 270,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.171873781225095,
+          "longitude": 2.7737791525640336
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK07",
+      "latitude": 51.17773,
+      "longitude": 2.78578,
+      "seaBearing": 327,
+      "shoreOrientation": {
+        "distanceMetres": 96,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 268,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.177000867767894,
+          "longitude": 2.7865261639416645
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-17",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-10-17-osm.json",
+        "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
+      }
     }
   ]
 }
