@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "status": "database-integrated-publication-pending",
+  "status": "production-integrated",
   "counts": {
     "reviewed": 15,
     "preparedSites": 15,
@@ -1806,7 +1806,7 @@
     "geometry": "266 reproducible",
     "postgres": "Passed idempotence, manual north=0/provenance/name preservation, missing-only update and changed coordinate/type guards",
     "permissions": "RLS enabled on locations/source_targets/location_sources/annual_classifications; no DDL/grants",
-    "ui": "No component or camera binding changed. Existing dataset-driven API/evaluation tests cover all new bearings and missing-bearing note."
+    "ui": "Production Heist selected through catalogue search: correct identity, north wind classified Part felé, missing shore orientation note absent, conservative not recommended verdict and unconfirmed current quality preserved; no verified camera message."
   },
   "nextCountry": "France",
   "productionApi": {
@@ -1840,5 +1840,13 @@
         "count": 15
       }
     ]
+  },
+  "deployment": {
+    "commit": "00c30ec4c1a1b5b5eaca2c53cc81cfcee4634e08",
+    "status": "Ready",
+    "id": "dpl_Bcsj6LdQXLFdKXUBMBg8Ctc1yJLm",
+    "url": "https://safe-to-swim-uta6ks5lo-gergely-s-projects.vercel.app",
+    "dashboard": "https://vercel.com/gergely-s-projects/safe-to-swim/Bcsj6LdQXLFdKXUBMBg8Ctc1yJLm",
+    "publicDataset": "Production JSON exactly matches all 266 committed orientations"
   }
 }
