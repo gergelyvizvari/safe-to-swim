@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "status": "database-integrated-publication-pending",
+  "status": "production-integrated",
   "counts": {
     "reviewed": 15,
     "firstPass": 15,
@@ -1317,7 +1317,16 @@
     "postgres": "Disposable local PostgreSQL preservation/idempotence, north0/manual metadata, changed coordinate/type guards passed",
     "permissions": "RLS enabled; anon update denied; no DDL/grants",
     "api": "4 paginated lists,15 exact identities/bearings/provenance/sources,15 empty observation envelopes verified",
-    "models": "15weather/15marine parsed with units and timestamps. Existing forecasts, not new persisted observations."
+    "models": "15weather/15marine parsed with units and timestamps. Existing forecasts, not new persisted observations.",
+    "ui": "Production desktop browser: CABOURG CENTRE selected; east wind classified offshore, missing shore orientation note absent. Conservative 1.2m wave warning and unknown current water quality retained; no verified camera claimed."
   },
-  "nextCountry": "Sweden"
+  "nextCountry": "Sweden",
+  "deployment": {
+    "commit": "73b3539402c8f7796b2eca83c84f5df538dc6630",
+    "id": "dpl_2N7rSnwJW9qYLmUZsargMGvTNE4r",
+    "status": "Ready",
+    "url": "https://safe-to-swim-gu08t113s-gergely-s-projects.vercel.app",
+    "dashboardUrl": "https://vercel.com/gergely-s-projects/safe-to-swim/2N7rSnwJW9qYLmUZsargMGvTNE4r",
+    "verification": "GitHub combined status success; production alias Ready; published orientation dataset exactly matches committed 281 records."
+  }
 }
