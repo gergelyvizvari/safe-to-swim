@@ -9504,6 +9504,503 @@
         "snapshotFile": "2026-10-17-osm.json",
         "reviewNote": "Local north-up geometry reviewed: North Sea water north/northwest on right of directed coastline; land south/southeast. Heist segment reviewed separately from Zeebrugge harbour. Hoge Dijk landward offset49m reviewed. Sint-Idesbald441m, Sint-Andre188m and Oostduinkerke centrum165m offshore sample points use individually reviewed local segment endpoints, not neighbouring beach bearings."
       }
+    },
+    {
+      "locationId": "eea-FRD1114021M014260",
+      "latitude": 49.34064,
+      "longitude": -0.62124,
+      "seaBearing": 3,
+      "shoreOrientation": {
+        "wayIds": [
+          34174371
+        ],
+        "reviewedVertexIndices": [
+          62,
+          68
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34174371,
+            "version": 14
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114022M014240",
+      "latitude": 49.34236,
+      "longitude": -0.5841,
+      "seaBearing": 8,
+      "shoreOrientation": {
+        "wayIds": [
+          688197911
+        ],
+        "reviewedVertexIndices": [
+          10,
+          19
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 688197911,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114059M014045",
+      "latitude": 49.35289,
+      "longitude": 0.05316,
+      "seaBearing": 315,
+      "shoreOrientation": {
+        "distanceMetres": 51,
+        "radiusMetres": 60,
+        "wayIds": [
+          34386435
+        ],
+        "nearestSegment": 13,
+        "nearestWayId": 34386435,
+        "shorePoint": {
+          "latitude": 49.3533441,
+          "longitude": 0.0532425
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34386435,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114066M014183",
+      "latitude": 49.33386,
+      "longitude": -0.40076,
+      "seaBearing": 12,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          667783948
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 667783948,
+        "shorePoint": {
+          "latitude": 49.33378190578052,
+          "longitude": -0.40078621629207056
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 667783948,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114066M014190",
+      "latitude": 49.33558,
+      "longitude": -0.42425,
+      "seaBearing": 353,
+      "shoreOrientation": {
+        "distanceMetres": 3,
+        "radiusMetres": 60,
+        "wayIds": [
+          34563362
+        ],
+        "nearestSegment": 16,
+        "nearestWayId": 34563362,
+        "shorePoint": {
+          "latitude": 49.33555242591977,
+          "longitude": -0.42424335375206396
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34563362,
+            "version": 10
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114079M014050",
+      "latitude": 49.33999,
+      "longitude": 0.02835,
+      "seaBearing": 313,
+      "shoreOrientation": {
+        "distanceMetres": 30,
+        "radiusMetres": 60,
+        "wayIds": [
+          815650632
+        ],
+        "nearestSegment": 56,
+        "nearestWayId": 815650632,
+        "shorePoint": {
+          "latitude": 49.34016467693857,
+          "longitude": 0.028040514868711792
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 815650632,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114079M014053",
+      "latitude": 49.33607,
+      "longitude": 0.02075,
+      "seaBearing": 323,
+      "shoreOrientation": {
+        "wayIds": [
+          815650632
+        ],
+        "reviewedVertexIndices": [
+          63,
+          68
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 815650632,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114117M014080",
+      "latitude": 49.29413,
+      "longitude": -0.11705,
+      "seaBearing": 345,
+      "shoreOrientation": {
+        "wayIds": [
+          794381979
+        ],
+        "reviewedVertexIndices": [
+          80,
+          83
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 794381979,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114165M014300",
+      "latitude": 49.36036,
+      "longitude": -0.84078,
+      "seaBearing": 17,
+      "shoreOrientation": {
+        "wayIds": [
+          1232131531
+        ],
+        "reviewedVertexIndices": [
+          15,
+          20
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1232131531,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114166M014130",
+      "latitude": 49.2936,
+      "longitude": -0.28259,
+      "seaBearing": 19,
+      "shoreOrientation": {
+        "wayIds": [
+          34916189
+        ],
+        "reviewedVertexIndices": [
+          5,
+          7
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34916189,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114191M014200",
+      "latitude": 49.33581,
+      "longitude": -0.45099,
+      "seaBearing": 1,
+      "shoreOrientation": {
+        "distanceMetres": 3,
+        "radiusMetres": 60,
+        "wayIds": [
+          34563225
+        ],
+        "nearestSegment": 24,
+        "nearestWayId": 34563225,
+        "shorePoint": {
+          "latitude": 49.335780073042415,
+          "longitude": -0.45099099845973434
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34563225,
+            "version": 18
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114191M014210",
+      "latitude": 49.33753,
+      "longitude": -0.46189,
+      "seaBearing": 1,
+      "shoreOrientation": {
+        "distanceMetres": 18,
+        "radiusMetres": 60,
+        "wayIds": [
+          34563225
+        ],
+        "nearestSegment": 55,
+        "nearestWayId": 34563225,
+        "shorePoint": {
+          "latitude": 49.33769370706127,
+          "longitude": -0.46188594670357197
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34563225,
+            "version": 18
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114220M014040",
+      "latitude": 49.35973,
+      "longitude": 0.06436,
+      "seaBearing": 311,
+      "shoreOrientation": {
+        "distanceMetres": 105,
+        "radiusMetres": 60,
+        "wayIds": [
+          34386302
+        ],
+        "nearestSegment": 22,
+        "nearestWayId": 34386302,
+        "shorePoint": {
+          "latitude": 49.3603455841165,
+          "longitude": 0.06326597466459043
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34386302,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114312M014328",
+      "latitude": 49.38946,
+      "longitude": -1.03893,
+      "seaBearing": 347,
+      "shoreOrientation": {
+        "wayIds": [
+          1292071378
+        ],
+        "reviewedVertexIndices": [
+          231,
+          235
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1292071378,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
+    },
+    {
+      "locationId": "eea-FRD1114318M014215",
+      "latitude": 49.33801,
+      "longitude": -0.46886,
+      "seaBearing": 6,
+      "shoreOrientation": {
+        "distanceMetres": 3,
+        "radiusMetres": 60,
+        "wayIds": [
+          34563186
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 34563186,
+        "shorePoint": {
+          "latitude": 49.33798108140439,
+          "longitude": -0.46886465986086817
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-18",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 34563186,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-18-osm.json",
+        "reviewNote": "North-up local geometry reviewed individually: English Channel water north/northwest, land south/southeast, right of directed coastline. Local beach chords exclude small seawall notches at Arromanches, Asnelles, Blonville, Cabourg, Colleville and Colleville-Montgomery. Rue Richard catalogue point is 177m landward of mapped coastline; local chord at that beach retained with exact original coordinates. Other landward sampling offsets retained; no nearest-beach substitution."
+      }
     }
   ]
 }

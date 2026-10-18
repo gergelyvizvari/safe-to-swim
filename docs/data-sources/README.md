@@ -528,3 +528,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-17 — Belgium
 
 15 new Knokke-Heist/Koksijde/Westende sites reviewed;15 local shore bearings applied, including3 individually reviewed offshore sample-point chords. Total266 reproducible bearings. VMM matches all15 exact coordinates/names, but September14/15 samples are stale; October16 is page modification. No new dynamic adapter or verified camera binding. Weather10/15 (five503), marine15/15 model probes; these are not persisted observations. Tests128, lint, build and PostgreSQL preservation/idempotence passed. [Run evidence](runs/2026-10-17.json). New candidates dueNovember16; earlier shared Belgian provider checks remain dueNovember5. Next country France.
+
+## 2026-10-18 — Normandy
+
+15 new coastal sites reviewed;15 local shore bearings applied to the configured Supabase catalogue and verified through production APIs (281 reproducible total). Eight weighted normals and seven reviewed local chords; landward sampling offsets retained explicitly. No new dynamic adapter or verified live camera binding. Two ministry sample pages read, seasonal September samples only; remaining sites screened at shared-provider level. SMILE and CANDHIS candidates require further coverage/access validation. Tests128, lint/build and PostgreSQL preservation/idempotence pass. [Run evidence](runs/2026-10-18.json). Next country Sweden; new candidates review November17.

@@ -1,0 +1,1323 @@
+{
+  "date": "2026-10-18",
+  "status": "database-integrated-publication-pending",
+  "counts": {
+    "reviewed": 15,
+    "firstPass": 15,
+    "preparedSites": 15,
+    "preparedImports": 0,
+    "newProductionCoverage": 15,
+    "newDynamicCoverage": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15,
+    "camerasVerifiedLive": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-FRD1114021M014260",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 3,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114022M014240",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 8,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114059M014045",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 315,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114066M014183",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 12,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114066M014190",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 353,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114079M014050",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 313,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114079M014053",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 323,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114117M014080",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 345,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114165M014300",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 17,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114166M014130",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 19,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114191M014200",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 1,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114191M014210",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 1,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114220M014040",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 311,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114312M014328",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 347,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-FRD1114318M014215",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-18",
+      "nextReviewAt": "2026-11-17",
+      "evidenceReference": "runs/2026-10-18.json",
+      "shoreOrientation": {
+        "seaBearing": 6,
+        "status": "integrated",
+        "provenance": "public/data/shore-orientations.json",
+        "importFile": "supabase/imports/20261018_france_shore_orientations.sql"
+      },
+      "dynamicStatus": "candidate",
+      "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
+      "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    }
+  ],
+  "qualityProbes": [
+    {
+      "site": "014002517",
+      "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?annee=2026&dptddass=014&isite=014002517&plv=all&site=014002517",
+      "status": 200,
+      "dates": [
+        "01/06/2026",
+        "03/07/2026",
+        "03/08/2026",
+        "04/09/2026",
+        "05/08/2026",
+        "08/07/2026",
+        "11/08/2026",
+        "14/08/2026",
+        "15/06/2026",
+        "15/07/2026",
+        "15/09/2026",
+        "17/08/2026",
+        "20/08/2026",
+        "21/07/2026",
+        "23/07/2026",
+        "25/08/2026",
+        "28/07/2026",
+        "28/08/2026",
+        "30/06/2026",
+        "31/07/2026"
+      ],
+      "coordinateCrosswalkVerified": false
+    },
+    {
+      "site": "014002518",
+      "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?annee=2026&dptddass=014&isite=014002518&plv=all&site=014002518",
+      "status": 200,
+      "dates": [
+        "01/06/2026",
+        "01/07/2026",
+        "02/09/2026",
+        "04/08/2026",
+        "07/07/2026",
+        "07/08/2026",
+        "09/07/2026",
+        "10/08/2026",
+        "12/08/2026",
+        "15/06/2026",
+        "15/09/2026",
+        "17/07/2026",
+        "18/08/2026",
+        "20/08/2026",
+        "22/07/2026",
+        "23/07/2026",
+        "24/08/2026",
+        "27/07/2026",
+        "28/07/2026",
+        "28/08/2026",
+        "29/06/2026",
+        "31/07/2026"
+      ],
+      "coordinateCrosswalkVerified": false
+    }
+  ],
+  "providers": [
+    {
+      "id": "sise-france",
+      "status": "candidate",
+      "url": "https://www.normandie.ars.sante.fr/eaux-de-baignade-la-qualification-des-resultats-en-cours-de-saison",
+      "finding": "Two actual ministry HTML probes200: Bernieres-Ouest014002517 and Cabourg014002518 names match. Latest sample dates September4 and September2 respectively; September15 is season end. Exact EEA coordinate crosswalk, reuse/rate contract not verified. Other13 sites screened at shared provider level only. Langrune Place du Six Juin search hit rejected for Arromanches same-name location."
+    },
+    {
+      "id": "mersea-smile",
+      "status": "candidate",
+      "url": "https://www.mersea-lab.fr/projet/smile-bouee-instrumentee/",
+      "finding": "Provider identifies buoy49°20.661N,0°18.781W, platform6200310: 1m-depth temperature/salinity/oxygen/turbidity/fluorescence; bottom ADCP is separate. No fresh payload, timezone, licence or beach representativeness verified; no proximity binding."
+    },
+    {
+      "id": "candhis",
+      "status": "access-required",
+      "url": "https://www.data.gouv.fr/dataservices/api-de-candhis-observatoire-cotier-national-de-mesure-in-situ-des-etats-de-mer-france-metropole-et-outre-mer",
+      "finding": "Cerema API requires access token/account; no account/contact created, no beach wave substitution."
+    },
+    {
+      "id": "ars-normandie-algae",
+      "status": "candidate",
+      "url": "https://www.normandie.ars.sante.fr/la-surveillance-des-algues",
+      "finding": "General green algae monitoring guidance, not timestamped beach warning feed. No absence-of-algae inference."
+    },
+    {
+      "id": "meteo-france-vigilance",
+      "status": "deferred",
+      "finding": "Existing October7 authentication finding retained, next review November6; no duplicate unsuccessful call."
+    }
+  ],
+  "modelProbes": [
+    {
+      "locationId": "eea-FRD1114021M014260",
+      "weather": {
+        "status": 200,
+        "latitude": 49.330563,
+        "longitude": -0.6260878,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 13.2,
+          "apparent_temperature": 8.8,
+          "weather_code": 3,
+          "wind_speed_10m": 16.3,
+          "wind_direction_10m": 16,
+          "wind_gusts_10m": 30.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.62498474,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.28,
+          "wave_direction": 28,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.45,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114022M014240",
+      "weather": {
+        "status": 200,
+        "latitude": 49.33071,
+        "longitude": -0.58245087,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 13.3,
+          "apparent_temperature": 8.6,
+          "weather_code": 3,
+          "wind_speed_10m": 18.3,
+          "wind_direction_10m": 11,
+          "wind_gusts_10m": 34.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.62498474,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.28,
+          "wave_direction": 28,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.45,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114059M014045",
+      "weather": {
+        "status": 200,
+        "latitude": 49.34856,
+        "longitude": 0.0721706,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 9.3,
+          "weather_code": 61,
+          "wind_speed_10m": 4.7,
+          "wind_direction_10m": 45,
+          "wind_gusts_10m": 7.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.375008,
+        "longitude": -0.041656494,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.12,
+          "wave_direction": 11,
+          "wave_period": 5.55,
+          "sea_level_height_msl": -1.7,
+          "sea_surface_temperature": 16.2,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114066M014183",
+      "weather": {
+        "status": 200,
+        "latitude": 49.331177,
+        "longitude": -0.40790197,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11.3,
+          "apparent_temperature": 7.2,
+          "weather_code": 80,
+          "wind_speed_10m": 14.6,
+          "wind_direction_10m": 85,
+          "wind_gusts_10m": 32.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.37498474,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.44,
+          "wave_direction": 25,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.58,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114066M014190",
+      "weather": {
+        "status": 200,
+        "latitude": 49.331177,
+        "longitude": -0.40790197,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11.3,
+          "apparent_temperature": 7.2,
+          "weather_code": 80,
+          "wind_speed_10m": 14.6,
+          "wind_direction_10m": 85,
+          "wind_gusts_10m": 32.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.45832825,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.38,
+          "wave_direction": 27,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.54,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114079M014050",
+      "weather": {
+        "status": 200,
+        "latitude": 49.331356,
+        "longitude": 0.028472269,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11,
+          "apparent_temperature": 9.7,
+          "weather_code": 61,
+          "wind_speed_10m": 4.1,
+          "wind_direction_10m": 68,
+          "wind_gusts_10m": 5.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.375008,
+        "longitude": -0.041656494,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.12,
+          "wave_direction": 11,
+          "wave_period": 5.55,
+          "sea_level_height_msl": -1.7,
+          "sea_surface_temperature": 16.2,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114079M014053",
+      "weather": {
+        "status": 200,
+        "latitude": 49.331356,
+        "longitude": 0.028472269,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11,
+          "apparent_temperature": 9.8,
+          "weather_code": 61,
+          "wind_speed_10m": 4.1,
+          "wind_direction_10m": 68,
+          "wind_gusts_10m": 5.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.375008,
+        "longitude": -0.041656494,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.12,
+          "wave_direction": 11,
+          "wave_period": 5.55,
+          "sea_level_height_msl": -1.7,
+          "sea_surface_temperature": 16.2,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114117M014080",
+      "weather": {
+        "status": 200,
+        "latitude": 49.28091,
+        "longitude": -0.10265225,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.4,
+          "apparent_temperature": 9.5,
+          "weather_code": 63,
+          "wind_speed_10m": 3.1,
+          "wind_direction_10m": 111,
+          "wind_gusts_10m": 9.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.375008,
+        "longitude": -0.12498474,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.24,
+          "wave_direction": 15,
+          "wave_period": 5.55,
+          "sea_level_height_msl": -1.66,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114165M014300",
+      "weather": {
+        "status": 200,
+        "latitude": 49.35497,
+        "longitude": -0.8227826,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 13.2,
+          "apparent_temperature": 8.1,
+          "weather_code": 2,
+          "wind_speed_10m": 20,
+          "wind_direction_10m": 20,
+          "wind_gusts_10m": 32.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.87498474,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.06,
+          "wave_direction": 29,
+          "wave_period": 5.6,
+          "sea_level_height_msl": -1.33,
+          "sea_surface_temperature": 17.5,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114166M014130",
+      "weather": {
+        "status": 200,
+        "latitude": 49.280838,
+        "longitude": -0.27699032,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.2,
+          "apparent_temperature": 9.1,
+          "weather_code": 95,
+          "wind_speed_10m": 3.7,
+          "wind_direction_10m": 123,
+          "wind_gusts_10m": 24.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.375008,
+        "longitude": -0.20832825,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.3,
+          "wave_direction": 19,
+          "wave_period": 5.55,
+          "sea_level_height_msl": -1.62,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114191M014200",
+      "weather": {
+        "status": 200,
+        "latitude": 49.33108,
+        "longitude": -0.45153934,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 7.6,
+          "weather_code": 3,
+          "wind_speed_10m": 19.7,
+          "wind_direction_10m": 51,
+          "wind_gusts_10m": 34
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.45832825,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.38,
+          "wave_direction": 27,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.54,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114191M014210",
+      "weather": {
+        "status": 200,
+        "latitude": 49.33108,
+        "longitude": -0.45153934,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 7.6,
+          "weather_code": 3,
+          "wind_speed_10m": 19.7,
+          "wind_direction_10m": 51,
+          "wind_gusts_10m": 34
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.45832825,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.38,
+          "wave_direction": 27,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.54,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114220M014040",
+      "weather": {
+        "status": 200,
+        "latitude": 49.34856,
+        "longitude": 0.0721706,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 9.3,
+          "weather_code": 61,
+          "wind_speed_10m": 4.7,
+          "wind_direction_10m": 45,
+          "wind_gusts_10m": 7.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": 0.041671753,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.14,
+          "wave_direction": 9,
+          "wave_period": 5.55,
+          "sea_level_height_msl": -1.7,
+          "sea_surface_temperature": 16.2,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114312M014328",
+      "weather": {
+        "status": 200,
+        "latitude": 49.379093,
+        "longitude": -1.019711,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 13.1,
+          "apparent_temperature": 7.8,
+          "weather_code": 2,
+          "wind_speed_10m": 19.6,
+          "wind_direction_10m": 24,
+          "wind_gusts_10m": 34
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -1.0416565,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.16,
+          "wave_direction": 26,
+          "wave_period": 5.25,
+          "sea_level_height_msl": -1.25,
+          "sea_surface_temperature": 16.6,
+          "ocean_current_velocity": 0.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FRD1114318M014215",
+      "weather": {
+        "status": 200,
+        "latitude": 49.33108,
+        "longitude": -0.45153934,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 7.6,
+          "weather_code": 3,
+          "wind_speed_10m": 19.7,
+          "wind_direction_10m": 51,
+          "wind_gusts_10m": 34
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 49.458336,
+        "longitude": -0.45832825,
+        "current": {
+          "time": 1792314000,
+          "interval": 900,
+          "wave_height": 1.38,
+          "wave_direction": 27,
+          "wave_period": 5.5,
+          "sea_level_height_msl": -1.54,
+          "sea_surface_temperature": 16.5,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "fr-cabourg-promenade",
+      "locationIds": [
+        "eea-FRD1114117M014080"
+      ],
+      "pageUrl": "https://www.cabourg.fr/webcam/",
+      "operator": "Municipal/tourism source",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Browser rendered promenade/beach image and LIVE clock10:03:26→10:03:32, but capture timestamp and exact mounting coordinates unverified; two later screenshots do not establish fresh image change. No verified live claim.",
+      "checkedAt": "2026-10-18",
+      "type": "provider-page",
+      "freshness": "unverified",
+      "embedding": "not enabled; permission not established",
+      "status": "candidate",
+      "nextReviewAt": "2026-11-17"
+    },
+    {
+      "cameraId": "fr-arromanches-museum",
+      "locationIds": [
+        "eea-FRD1114021M014260"
+      ],
+      "pageUrl": "https://www.arromanches.com/webcam/03/",
+      "operator": "Municipal/tourism source",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Official page reports cameras out of service during museum works; no integration.",
+      "checkedAt": "2026-10-18",
+      "type": "provider-page",
+      "freshness": "unverified",
+      "embedding": "not enabled; permission not established",
+      "status": "candidate",
+      "nextReviewAt": "2026-11-17"
+    },
+    {
+      "cameraId": "fr-coeur-nacre",
+      "locationIds": [
+        "eea-FRD1114066M014183",
+        "eea-FRD1114066M014190",
+        "eea-FRD1114191M014200",
+        "eea-FRD1114191M014210",
+        "eea-FRD1114318M014215"
+      ],
+      "pageUrl": "https://www.coeurdenacretourisme.com/webcam/",
+      "operator": "Municipal/tourism source",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Tourism page exposes Bernieres video and Courseulles pier/port links. Exact beach FOV, camera coordinates and freshness not verified; no assignment across harbour.",
+      "checkedAt": "2026-10-18",
+      "type": "provider-page",
+      "freshness": "unverified",
+      "embedding": "not enabled; permission not established",
+      "status": "candidate",
+      "nextReviewAt": "2026-11-17"
+    },
+    {
+      "cameraId": "fr-calvados-ports",
+      "locationIds": [
+        "eea-FRD1114059M014045",
+        "eea-FRD1114079M014050",
+        "eea-FRD1114079M014053",
+        "eea-FRD1114220M014040"
+      ],
+      "pageUrl": "https://www.portsducalvados.fr/webcams-et-stations-meteo-en-direct-des-ports/",
+      "operator": "Municipal/tourism source",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Harbour cameras are not evidence of Benerville/Blonville/Deauville bathing beach views.",
+      "checkedAt": "2026-10-18",
+      "type": "provider-page",
+      "freshness": "unverified",
+      "embedding": "not enabled; permission not established",
+      "status": "candidate",
+      "nextReviewAt": "2026-11-17"
+    }
+  ],
+  "cameraSearchRemainder": {
+    "locationIds": [
+      "eea-FRD1114022M014240",
+      "eea-FRD1114165M014300",
+      "eea-FRD1114166M014130",
+      "eea-FRD1114312M014328"
+    ],
+    "status": "not-found",
+    "scope": "Grouped municipality/tourism web search; no individually verified live camera found, not proof none exists.",
+    "nextReviewAt": "2026-11-17"
+  },
+  "operations": {
+    "projectId": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "deploymentAtStart": "dpl_DZhWSGyo9YPFedwSyszfRtGWkRxL Ready",
+    "cron": "single active minute safe-to-swim-source-checks",
+    "sourceState": "Collection advances: weather/marine08:00 publications; UiRaS07:13 and Palanga07:00. Storm staleOct17 17:24 confirmed by direct parser. Existing EA403104failures next09:33; weeklyEA/NRW5 andSEPA6 nextOct20. No forced checks or duplicate schedule."
+  },
+  "validation": {
+    "tests": 128,
+    "lint": "passed",
+    "build": "passed after permission-compatible retry for shared dependency cache",
+    "geometry": "281 reproduced;8 weighted normals,7 individually reviewed local chords; RueRichard177m landward retained explicitly",
+    "postgres": "Disposable local PostgreSQL preservation/idempotence, north0/manual metadata, changed coordinate/type guards passed",
+    "permissions": "RLS enabled; anon update denied; no DDL/grants",
+    "api": "4 paginated lists,15 exact identities/bearings/provenance/sources,15 empty observation envelopes verified",
+    "models": "15weather/15marine parsed with units and timestamps. Existing forecasts, not new persisted observations."
+  },
+  "nextCountry": "Sweden"
+}
