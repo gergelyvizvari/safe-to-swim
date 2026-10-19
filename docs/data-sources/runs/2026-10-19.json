@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "status": "database-integrated-publication-pending",
+  "status": "production-integrated",
   "counts": {
     "reviewed": 15,
     "firstPass": 15,
@@ -1235,5 +1235,12 @@
     "api": "Four paginated15-item lake/coastal lists;15 detail identities/coordinates/bearings/provenance/source assignments and15 empty observation envelopes asserted",
     "ui": "Production Grisslinge: NE wind correctly offshore with caution; missing orientation note absent; current quality unknown and no verified camera retained"
   },
-  "nextCountry": "Norway"
+  "nextCountry": "Norway",
+  "deployment": {
+    "commit": "5ddc3810fb3aa38345a7fb50855128b793f7b47c",
+    "id": "dpl_FqQTmCYKFffXRdBAXwh3ZYMNFz6P",
+    "status": "Ready",
+    "dashboardUrl": "https://vercel.com/gergely-s-projects/safe-to-swim/FqQTmCYKFffXRdBAXwh3ZYMNFz6P",
+    "verification": "Exact commit Vercel status success, production alias Ready, published dataset equals all296 committed records."
+  }
 }
