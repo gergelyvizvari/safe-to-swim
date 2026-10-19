@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-18",
-  "nextCountry": "Sweden",
+  "lastRun": "2026-10-19",
+  "nextCountry": "Norway",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -9372,6 +9372,276 @@
       "dynamicStatus": "candidate",
       "scope": "Individual geometry and existing weather/marine model payload verified; shared official-source screening, not 15 verified quality station matches.",
       "reason": "No new dynamic adapter or camera binding. Preserve unknown current water quality."
+    },
+    {
+      "locationId": "eea-SE0110117000002087",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 190,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110117000002090",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 230,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110120000001663",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 177,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110120000001667",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 196,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110120000001676",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 14,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110127000001414",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 160,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110136000002140",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 220,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110136000002142",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 85,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110136000002145",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 187,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110136000002146",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 160,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110138000002111A",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 66,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110160000001441",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 176,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110160000001442",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 185,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110181000001355",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 55,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-SE0110182000001231",
+      "country": "Sweden",
+      "waterType": "coastal",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-10-19",
+      "nextReviewAt": "2026-11-18",
+      "evidenceReference": "runs/2026-10-19.json",
+      "integrationScope": "Shore orientation only",
+      "shoreOrientation": {
+        "seaBearing": 199,
+        "status": "applied"
+      },
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
     }
   ]
 }
