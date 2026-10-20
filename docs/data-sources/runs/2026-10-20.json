@@ -6,10 +6,10 @@
     "firstPass": 16,
     "preparedOrientations": 16,
     "determinedOrientations": 16,
-    "appliedOrientations": 0,
+    "appliedOrientations": 16,
     "preparedDynamicLocations": 2,
-    "integratedDynamicLocations": 0,
-    "productionNewCoverageLocations": 0,
+    "integratedDynamicLocations": 2,
+    "productionNewCoverageLocations": 16,
     "verifiedCameras": 0,
     "integratedCameras": 0
   },
@@ -21,10 +21,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 184,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI181091023",
         "open-meteo-marine:eea-FI181091023"
@@ -47,10 +47,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 145,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110490001",
         "open-meteo-marine:eea-FI110490001"
@@ -73,10 +73,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 331,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910003",
         "open-meteo-marine:eea-FI110910003"
@@ -99,10 +99,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 184,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910020",
         "open-meteo-marine:eea-FI110910020"
@@ -125,10 +125,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 225,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910004",
         "open-meteo-marine:eea-FI110910004"
@@ -151,10 +151,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 239,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI1B1091024",
         "open-meteo-marine:eea-FI1B1091024"
@@ -177,10 +177,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 117,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910013",
         "open-meteo-marine:eea-FI110910013"
@@ -203,10 +203,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 199,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910007",
         "open-meteo-marine:eea-FI110910007"
@@ -229,13 +229,14 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 192,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910006",
-        "open-meteo-marine:eea-FI110910006"
+        "open-meteo-marine:eea-FI110910006",
+        "fvh-uiras:70B3D57050011439"
       ],
       "serviceMapCandidate": {
         "unitId": 40386,
@@ -246,7 +247,8 @@
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-19",
-      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately.",
+      "dynamicStatus": "integrated"
     },
     {
       "locationId": "eea-FI110490008",
@@ -255,10 +257,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 134,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110490008",
         "open-meteo-marine:eea-FI110490008"
@@ -281,10 +283,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 212,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910008",
         "open-meteo-marine:eea-FI110910008"
@@ -307,10 +309,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 151,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910009",
         "open-meteo-marine:eea-FI110910009"
@@ -333,10 +335,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 114,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI1B1091025",
         "open-meteo-marine:eea-FI1B1091025"
@@ -359,13 +361,14 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 281,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910019",
-        "open-meteo-marine:eea-FI110910019"
+        "open-meteo-marine:eea-FI110910019",
+        "fvh-uiras:70B3D57050001BBE"
       ],
       "serviceMapCandidate": {
         "unitId": 40157,
@@ -376,7 +379,8 @@
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-19",
-      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately.",
+      "dynamicStatus": "integrated"
     },
     {
       "locationId": "eea-FI110910022",
@@ -385,10 +389,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 169,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910022",
         "open-meteo-marine:eea-FI110910022"
@@ -411,10 +415,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 128,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI1B1049017",
         "open-meteo-marine:eea-FI1B1049017"
@@ -436,7 +440,7 @@
       "id": "fvh-uiras",
       "documentation": "https://hri.fi/data/en/dataset/veden-reaaliaikainen-lampotila-helsingin-uimarannoilla",
       "endpoint": "https://bri3.fvh.io/opendata/uiras/uiras_latest.geojson",
-      "status": "prepared",
+      "status": "integrated",
       "probe": {
         "httpStatus": 200,
         "features": 28,
@@ -747,13 +751,23 @@
       "id": "espoo-winter-temperature",
       "source": "https://www.espoo.fi/en/news/2024/11/you-can-now-check-water-temperature-espoos-winter-swimming-spots-real-time",
       "status": "candidate",
-      "reason": "City identifies Haukilahti/Matinkyla/Westend thermometers and external Grafana tracking. Sensor identity/coordinates/API/reuse not verified; no adapter enabled."
+      "reason": "City identifies Haukilahti/Matinkyla/Westend thermometers and external Grafana tracking. Sensor identity/coordinates/API/reuse not verified; no adapter enabled.",
+      "dashboardUrl": "https://pietu.grafana.net/public-dashboards/de2a84d54c6545ebae015a2e2b8ecf5b?orgId=1",
+      "browserEvidence": "Public dashboard renders9 named series and mapped temperatures, including Matinkyla,Haukilahti,Westend. Individual station coordinates, measurement timestamp and API reuse contract not verified; candidate only."
     },
     {
       "id": "fmi-cap",
       "status": "candidate",
       "evidenceReference": "runs/2026-09-27.json",
       "reason": "Shared Finnish warning research reused; existing October27 review not prematurely repeated. No beach warning polygon/event match."
+    },
+    {
+      "id": "helsinki-seasonal-quality-pdf",
+      "sourceUrl": "https://www.hel.fi/static/liitteet/kaupunkiymparisto/kulttuuri-ja-vapaa-aika/uimarannat/Uimavedenlaatu_2026.pdf",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "candidate",
+      "evidence": "Official seven-page2026 seasonal sample table; document header11September2026. Includes sampling dates, enterococci/E.coli, temperature and algae. June–August rows are not fresh October clearance. No automatic site binding or live-quality inference."
     }
   ],
   "modelProbes": [
@@ -1664,22 +1678,121 @@
     "initialObservations": 0,
     "scheduler": "single active minute job1; models, UiRaS,LHMT and Hungarian wind/temperature advancing; no forced collection",
     "storm": "Direct parser confirms provider timestamp2026-10-19T08:26:00Z allbasins0; stale source state retained, not fresh no-warning claim.",
-    "knownFailures": "EA samples113failures at09:41; annualEA/NRW/SEPA due15:30, not force-retried."
+    "knownFailures": "EA samples113failures at09:41; annualEA/NRW/SEPA due15:30, not force-retried.",
+    "postImport": "16 detail API exact bearings and full provenance verified; original metadata and source links preserved. Four15-row pages validated (lake/coastal offsets0/15). Rastila UI shows offshore wind; missing-orientation note absent.",
+    "collectedMeasurements": [
+      {
+        "locationId": "eea-FI110910019",
+        "item": {
+          "type": "temperature",
+          "targetId": "fvh-uiras:70B3D57050001BBE",
+          "label": "Rastilan uimaranta",
+          "coverage": "station",
+          "provider": "Forum Virium Helsinki · UiRaS (CC BY 4.0)",
+          "url": "https://uiras.fvh.io/",
+          "staleSeconds": 10800,
+          "checkedAt": "2026-10-20T11:24:01.674+00:00",
+          "publishedAt": "2026-10-20T10:47:28.126Z",
+          "status": "available",
+          "stations": [
+            {
+              "id": "70B3D57050001BBE",
+              "station": "Rastilan uimaranta",
+              "latitude": 60.207977,
+              "longitude": 25.114849,
+              "publishedAt": "2026-10-20T10:47:28.126Z",
+              "temperature": 9,
+              "measurementKind": "measured"
+            }
+          ],
+          "distanceMetres": 42,
+          "measurementKind": "measured"
+        },
+        "assessedTemperature": 9
+      },
+      {
+        "locationId": "eea-FI110910006",
+        "item": {
+          "type": "temperature",
+          "targetId": "fvh-uiras:70B3D57050011439",
+          "label": "Marjaniemen uimaranta",
+          "coverage": "station",
+          "provider": "Forum Virium Helsinki · UiRaS (CC BY 4.0)",
+          "url": "https://uiras.fvh.io/",
+          "staleSeconds": 10800,
+          "checkedAt": "2026-10-20T11:24:01.674+00:00",
+          "publishedAt": "2026-10-20T11:09:04.237Z",
+          "status": "available",
+          "stations": [
+            {
+              "id": "70B3D57050011439",
+              "station": "Marjaniemen uimaranta",
+              "latitude": 60.198449,
+              "longitude": 25.076416,
+              "publishedAt": "2026-10-20T11:09:04.237Z",
+              "temperature": 9.87,
+              "measurementKind": "measured"
+            }
+          ],
+          "distanceMetres": 33,
+          "measurementKind": "measured"
+        },
+        "assessedTemperature": 9.87
+      },
+      {
+        "locationId": "eea-FI181092003",
+        "item": {
+          "type": "temperature",
+          "targetId": "fvh-uiras:70B3D57050001BA6",
+          "label": "Vetokannas",
+          "coverage": "station",
+          "provider": "Forum Virium Helsinki · UiRaS (CC BY 4.0)",
+          "url": "https://uiras.fvh.io/",
+          "staleSeconds": 10800,
+          "checkedAt": "2026-10-20T11:24:01.674+00:00",
+          "publishedAt": "2026-10-20T10:45:01.869Z",
+          "status": "available",
+          "stations": [
+            {
+              "id": "70B3D57050001BA6",
+              "station": "Vetokannas",
+              "latitude": 60.27026,
+              "longitude": 24.88056,
+              "publishedAt": "2026-10-20T10:45:01.869Z",
+              "temperature": 9.43,
+              "measurementKind": "measured"
+            }
+          ],
+          "distanceMetres": 42,
+          "measurementKind": "measured"
+        },
+        "assessedTemperature": 9.43
+      }
+    ]
   },
   "verification": [
     "129 tests",
     "npm run lint",
     "npm run build",
     "312 reproduced bearings",
-    "Disposable PostgreSQL actual16-bearing+2-sensor imports twice; metadata/curated binding preservation; wrong-water-type transaction abort"
+    "Disposable PostgreSQL actual16-bearing+2-sensor imports twice; metadata/curated binding preservation; wrong-water-type transaction abort",
+    "Production catalogue identity, provenance and original metadata preservation:16/16",
+    "Desktop Rastila: offshore wind assessed, unknown current quality retained, no camera fallback. Mobile viewport override requested390x844 but browser remained1280x720; mobile visual check not confirmed; no UI code changed.",
+    "Fresh production observations for Rastila/Marjaniemi/Vetokannas pass exact IDs, measured kind, station distance, timestamp and observedWaterTemperature evaluation. Rastila desktop displays9C measured,42m,source/sample time and offshore caution; current quality remains unconfirmed."
   ],
   "activation": {
-    "status": "prepared",
+    "status": "applied",
     "projectRef": "zpqhqdndaloivnyzoigb",
     "imports": [
       "supabase/imports/20261020_finland_shore_orientations.sql",
       "supabase/imports/20261020_uiras-coastal.sql"
-    ]
+    ],
+    "commit": "a5a34de60bc3557f5cf78fe80fb868d3f1ad40b1",
+    "deployment": "https://vercel.com/gergely-s-projects/safe-to-swim/G3pN2kNP15QCWod1yNrT3LrjgvJj",
+    "deploymentStatus": "Ready",
+    "appliedAt": "2026-10-20T11:08:45Z",
+    "dynamicStatus": "Verified: existing scheduled collector fetched3 stations at2026-10-20T11:24:01.674Z, including both new coastal sensors and existing Vetokannas.",
+    "observationsVerifiedAt": "2026-10-20T11:24:35.860Z"
   },
   "nextCountry": "Estonia"
 }

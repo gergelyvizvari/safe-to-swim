@@ -9650,10 +9650,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 184,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI181091023",
         "open-meteo-marine:eea-FI181091023"
@@ -9676,10 +9676,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 145,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110490001",
         "open-meteo-marine:eea-FI110490001"
@@ -9702,10 +9702,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 331,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910003",
         "open-meteo-marine:eea-FI110910003"
@@ -9728,10 +9728,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 184,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910020",
         "open-meteo-marine:eea-FI110910020"
@@ -9754,10 +9754,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 225,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910004",
         "open-meteo-marine:eea-FI110910004"
@@ -9780,10 +9780,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 239,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI1B1091024",
         "open-meteo-marine:eea-FI1B1091024"
@@ -9806,10 +9806,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 117,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910013",
         "open-meteo-marine:eea-FI110910013"
@@ -9832,10 +9832,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 199,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910007",
         "open-meteo-marine:eea-FI110910007"
@@ -9858,13 +9858,14 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 192,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910006",
-        "open-meteo-marine:eea-FI110910006"
+        "open-meteo-marine:eea-FI110910006",
+        "fvh-uiras:70B3D57050011439"
       ],
       "serviceMapCandidate": {
         "unitId": 40386,
@@ -9875,7 +9876,8 @@
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-19",
-      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately.",
+      "dynamicStatus": "integrated"
     },
     {
       "locationId": "eea-FI110490008",
@@ -9884,10 +9886,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 134,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110490008",
         "open-meteo-marine:eea-FI110490008"
@@ -9910,10 +9912,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 212,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910008",
         "open-meteo-marine:eea-FI110910008"
@@ -9936,10 +9938,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 151,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910009",
         "open-meteo-marine:eea-FI110910009"
@@ -9962,10 +9964,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 114,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI1B1091025",
         "open-meteo-marine:eea-FI1B1091025"
@@ -9988,13 +9990,14 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 281,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910019",
-        "open-meteo-marine:eea-FI110910019"
+        "open-meteo-marine:eea-FI110910019",
+        "fvh-uiras:70B3D57050001BBE"
       ],
       "serviceMapCandidate": {
         "unitId": 40157,
@@ -10005,7 +10008,8 @@
       },
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-19",
-      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately.",
+      "dynamicStatus": "integrated"
     },
     {
       "locationId": "eea-FI110910022",
@@ -10014,10 +10018,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 169,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI110910022",
         "open-meteo-marine:eea-FI110910022"
@@ -10040,10 +10044,10 @@
       "waterType": "coastal",
       "checkedAt": "2026-10-20",
       "nextReviewAt": "2026-11-19",
-      "status": "prepared",
+      "status": "integrated",
       "provider": "osm-shoreline",
       "seaBearing": 128,
-      "shoreOrientationStatus": "prepared",
+      "shoreOrientationStatus": "applied",
       "sourceTargets": [
         "open-meteo-weather:eea-FI1B1049017",
         "open-meteo-marine:eea-FI1B1049017"
