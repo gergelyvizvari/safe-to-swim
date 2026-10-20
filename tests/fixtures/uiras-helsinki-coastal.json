@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "meta": {
+    "created_at": "2026-10-20T11:00:02.304762+00:00",
+    "comment": "The latest measurements and the metadata file for the uiras_meta sensors.",
+    "contact": "Aapo Rista <aapo.rista@forumvirium.fi>"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "70B3D57050001BBE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.114849,
+          60.207977
+        ]
+      },
+      "properties": {
+        "name": "Rastilan uimaranta",
+        "location": "Vartiokylänlahti",
+        "district": "Rastila",
+        "servicemap_url": "https://palvelukartta.hel.fi/fi/unit/40157",
+        "site_url": "https://www.kuhat.com/talviuinti/",
+        "site_title": "Uintiseura Kuhat Ry",
+        "links": {
+          "geojson": {
+            "type": "application/geojson",
+            "rel": "data",
+            "title": "Data for P7D/P30D/P730D days in GeoJSON format, version 2",
+            "href": "https://bri3.fvh.io/opendata/uiras/70B3D57050001BBE.geojson"
+          },
+          "servicemap": {
+            "type": "text/html",
+            "rel": "external",
+            "title": "Palvelukartta",
+            "href": "https://palvelukartta.hel.fi/fi/unit/40157"
+          },
+          "site": {
+            "type": "text/html",
+            "rel": "external",
+            "title": "Uintiseura Kuhat Ry",
+            "href": "https://www.kuhat.com/talviuinti/"
+          }
+        },
+        "installation depth": -0.2,
+        "installation platform": "pier",
+        "installation method": "floating",
+        "measurement": {
+          "time": "2026-10-20T13:17:27.629000+03:00",
+          "batt": 5.165,
+          "temp_in": 11.7,
+          "temp_water": 8.93
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "70B3D57050011439",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.076416,
+          60.198449
+        ]
+      },
+      "properties": {
+        "name": "Marjaniemen uimaranta",
+        "location": "",
+        "district": "Vartiokylä (Marjaniemi)",
+        "servicemap_url": "https://palvelukartta.hel.fi/fi/unit/40386",
+        "site_url": "http://www.meriuimarit.fi/",
+        "site_title": "Meriuimarit ry",
+        "info": "",
+        "valid_from": "2023-06-20T11:15:00Z",
+        "installation depth": -0.5,
+        "installation platform": "wall",
+        "installation method": "static",
+        "measurement": {
+          "time": "2026-10-20T13:09:02.543000+03:00",
+          "batt": 5.22,
+          "temp_in": 18.1,
+          "temp_water": 9.81
+        }
+      }
+    }
+  ]
+}

@@ -536,3 +536,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-19 — Stockholm archipelago
 
 15 new coastal sites reviewed;15 local shore bearings applied and API verified (296 reproducible total). Four weighted normals and eleven individually reviewed beach chords. No new dynamic observations or verified cameras. Official sample pages remain seasonal; Grisslinge/Brevik coordinate differences preclude automatic quality bindings. Farstanas municipal temperature candidate returned403 directly. Weather13/15, marine15/15 model probes succeeded; existing shared marine canary recovered automatically. Tests128, lint/build, local PostgreSQL preservation/idempotence and production Grisslinge UI passed. [Run evidence](runs/2026-10-19.json). Next country Norway; new unresolved candidates dueNovember18, existing Swedish provider research remains dueNovember7.
+
+## 2026-10-20 — Helsinki / Espoo
+
+16 new coastal sites reviewed;16 local shore orientations and2 exact UiRaS sensor bindings prepared. The shared adapter now supports verified coastal sites and per-station distance while retaining Vetokannas. No verified cameras; Hailuoto lighthouse is not Helsinki Marjaniemi.129 tests, lint/build,312 geometry reproductions and actual PostgreSQL import preservation/idempotence pass. Production activation is recorded in [run evidence](runs/2026-10-20.json). Next country Estonia; new unresolved research dueNovember19.

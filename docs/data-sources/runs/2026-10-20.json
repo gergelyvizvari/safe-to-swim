@@ -1,0 +1,1685 @@
+{
+  "date": "2026-10-20",
+  "selection": "Norway has zero active catalogue rows. Rotate to Finland:16 previously unreviewed Helsinki/Espoo coastal sites with weather+marine bindings and missing orientation.",
+  "counts": {
+    "researched": 16,
+    "firstPass": 16,
+    "preparedOrientations": 16,
+    "determinedOrientations": 16,
+    "appliedOrientations": 0,
+    "preparedDynamicLocations": 2,
+    "integratedDynamicLocations": 0,
+    "productionNewCoverageLocations": 0,
+    "verifiedCameras": 0,
+    "integratedCameras": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-FI181091023",
+      "name": "AURINKOLAHTI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 184,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI181091023",
+        "open-meteo-marine:eea-FI181091023"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40258,
+        "name": "Aurinkolahden uimaranta",
+        "distanceMetres": 13,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110490001",
+      "name": "HAUKILAHTI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 145,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110490001",
+        "open-meteo-marine:eea-FI110490001"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 39568,
+        "name": "Haukilahden uimaranta (Mellsten)",
+        "distanceMetres": 26,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910003",
+      "name": "HIETARANTA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 331,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910003",
+        "open-meteo-marine:eea-FI110910003"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40142,
+        "name": "Hietarannan uimaranta",
+        "distanceMetres": 83,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910020",
+      "name": "ISO KALLAHTI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 184,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910020",
+        "open-meteo-marine:eea-FI110910020"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40950,
+        "name": "Ison Kallahden uimaranta",
+        "distanceMetres": 30,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910004",
+      "name": "KALLAHDENNIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 225,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910004",
+        "open-meteo-marine:eea-FI110910004"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40150,
+        "name": "Kallahdenniemen uimaranta",
+        "distanceMetres": 318,
+        "identityVerified": false,
+        "reason": "Name and nearby point match; not a formal EU-ID crosswalk. Kallahdenniemi 318m offset needs further review."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI1B1091024",
+      "name": "KIVINOKAN UIMARANTA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 239,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1B1091024",
+        "open-meteo-marine:eea-FI1B1091024"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 41031,
+        "name": "Kivinokan uimaranta",
+        "distanceMetres": 52,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910013",
+      "name": "LAAJASALO",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 117,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910013",
+        "open-meteo-marine:eea-FI110910013"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40802,
+        "name": "Laajasalon uimaranta",
+        "distanceMetres": 21,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910007",
+      "name": "LAUTTASAARI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 199,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910007",
+        "open-meteo-marine:eea-FI110910007"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40098,
+        "name": "Lauttasaaren uimaranta",
+        "distanceMetres": 39,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910006",
+      "name": "MARJANIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 192,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910006",
+        "open-meteo-marine:eea-FI110910006"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40386,
+        "name": "Marjaniemen uimaranta",
+        "distanceMetres": 41,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110490008",
+      "name": "MATINKYLA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 134,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110490008",
+        "open-meteo-marine:eea-FI110490008"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 39527,
+        "name": "Matinkylän uimaranta",
+        "distanceMetres": 42,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910008",
+      "name": "MUNKKINIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 212,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910008",
+        "open-meteo-marine:eea-FI110910008"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 41601,
+        "name": "Munkkiniemen uimaranta",
+        "distanceMetres": 46,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910009",
+      "name": "MUSTIKKAMAA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 151,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910009",
+        "open-meteo-marine:eea-FI110910009"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40559,
+        "name": "Mustikkamaan uimaranta",
+        "distanceMetres": 74,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI1B1091025",
+      "name": "PUOTILAN UIMARANTA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 114,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1B1091025",
+        "open-meteo-marine:eea-FI1B1091025"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40020,
+        "name": "Puotilan uimaranta",
+        "distanceMetres": 36,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910019",
+      "name": "RASTILA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 281,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910019",
+        "open-meteo-marine:eea-FI110910019"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40157,
+        "name": "Rastilan uimaranta",
+        "distanceMetres": 36,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910022",
+      "name": "TUORINNIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 169,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910022",
+        "open-meteo-marine:eea-FI110910022"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 41791,
+        "name": "Tuorinniemen uimaranta",
+        "distanceMetres": 57,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI1B1049017",
+      "name": "WESTEND",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 128,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1B1049017",
+        "open-meteo-marine:eea-FI1B1049017"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 52959,
+        "name": "Westendin uimaranta",
+        "distanceMetres": 47,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    }
+  ],
+  "providers": [
+    {
+      "id": "fvh-uiras",
+      "documentation": "https://hri.fi/data/en/dataset/veden-reaaliaikainen-lampotila-helsingin-uimarannoilla",
+      "endpoint": "https://bri3.fvh.io/opendata/uiras/uiras_latest.geojson",
+      "status": "prepared",
+      "probe": {
+        "httpStatus": 200,
+        "features": 28,
+        "verifiedNewSensors": [
+          {
+            "locationId": "eea-FI110910019",
+            "sensorId": "70B3D57050001BBE",
+            "name": "Rastilan uimaranta",
+            "latitude": 60.207977,
+            "longitude": 25.114849,
+            "locationLatitude": 60.2076,
+            "locationLongitude": 25.1149,
+            "serviceMapId": 40157,
+            "waterType": "coastal",
+            "distanceMetres": 42
+          },
+          {
+            "locationId": "eea-FI110910006",
+            "sensorId": "70B3D57050011439",
+            "name": "Marjaniemen uimaranta",
+            "latitude": 60.198449,
+            "longitude": 25.076416,
+            "locationLatitude": 60.1986,
+            "locationLongitude": 25.0759,
+            "serviceMapId": 40386,
+            "waterType": "coastal",
+            "distanceMetres": 33
+          }
+        ]
+      },
+      "contract": "CC BY4.0 Forum Virium Helsinki/HRI; WGS84, Celsius, offset timestamps. Sensor cadence30min/export5–60min. Existing shared30min collector,3h stale threshold; no authentication or documented numerical quota. Rastila floating pier0.2m depth; Marjaniemi static wall0.5m depth. Exact service-map links corroborated; same local beach geometry. Retired Marjaniemi sensor has no measurement and is excluded.",
+      "limits": "Hietaniemi sensor is on another nearby shore; Lauttasaari mattolaituri is on the opposite island side. No nearest-sensor substitution. Missing Munkkiniemi/Aurinkolahti readings remain missing."
+    },
+    {
+      "id": "helsinki-servicemap",
+      "endpoint": "https://api.hel.fi/servicemap/v2/unit/?service=731,730&include=observations,connections&page_size=1000",
+      "probe": {
+        "httpStatus": 200,
+        "count": 100,
+        "next": null,
+        "selectedCandidates": 16,
+        "nearbyNameMatches": 15
+      },
+      "evidence": [
+        {
+          "locationId": "eea-FI181091023",
+          "unitId": 40258,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T08:48:40.000000+0300",
+              "value": 10.12
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-09T09:58:22.328298+0300",
+              "value": "0-15"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110490001",
+          "unitId": 39568,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-15T19:45:34.908855+0300",
+              "value": "0-15"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910003",
+          "unitId": 40142,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T13:28:00.000000+0300",
+              "value": 9.75
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-09T10:07:35.314409+0300",
+              "value": "17-19"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910020",
+          "unitId": 40950,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T08:04:57.000000+0300",
+              "value": 9.81
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-06T10:17:39.007258+0300",
+              "value": "19-21"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910004",
+          "unitId": 40150,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T12:37:35.000000+0300",
+              "value": 10.5
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-07T10:53:23.971032+0300",
+              "value": "17-19"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI1B1091024",
+          "unitId": 41031,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T05:28:18.000000+0300",
+              "value": 7.25
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-09T12:15:32.014351+0300",
+              "value": "17-19"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910013",
+          "unitId": 40802,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T10:36:23.000000+0300",
+              "value": 9.19
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-09T09:56:55.398702+0300",
+              "value": "0-15"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910007",
+          "unitId": 40098,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T11:18:14.000000+0300",
+              "value": 8.44
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-06-22T09:54:05.789830+0300",
+              "value": "19-21"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910006",
+          "unitId": 40386,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T13:12:26.000000+0300",
+              "value": 9.31
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-07T10:17:22.314265+0300",
+              "value": "19-21"
+            },
+            {
+              "property": "live_swimming_water_quality",
+              "time": "2025-09-29T10:00:06.367195+0300",
+              "value": {
+                "fi": "normal"
+              }
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110490008",
+          "unitId": 39527,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-16T14:09:35.003062+0300",
+              "value": "0-15"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910008",
+          "unitId": 41601,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T10:56:18.000000+0300",
+              "value": 8.56
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-07T10:04:31.978933+0300",
+              "value": "19-21"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910009",
+          "unitId": 40559,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T11:57:18.000000+0300",
+              "value": 9.25
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-07T10:26:38.773694+0300",
+              "value": "17-19"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI1B1091025",
+          "unitId": 40020,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T11:55:23.000000+0300",
+              "value": 8.25
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-05T10:02:42.132446+0300",
+              "value": "19-21"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910019",
+          "unitId": 40157,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T08:09:08.000000+0300",
+              "value": 8.44
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-08T10:02:38.613303+0300",
+              "value": "19-21"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI110910022",
+          "unitId": 41791,
+          "observations": [
+            {
+              "property": "measured_swimming_water_temperature",
+              "time": "2026-10-20T09:30:26.000000+0300",
+              "value": 8.69
+            },
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-09T10:07:03.114489+0300",
+              "value": "19-21"
+            }
+          ]
+        },
+        {
+          "locationId": "eea-FI1B1049017",
+          "unitId": 52959,
+          "observations": [
+            {
+              "property": "swimming_water_temperature",
+              "time": "2026-08-27T09:53:27.430699+0300",
+              "value": "15-17"
+            }
+          ]
+        }
+      ],
+      "status": "candidate",
+      "reason": "13 numeric measured-temperature entries,3 Espoo seasonal ranges; independent sensor/depth/reuse contract not verified. Null expiration_time does not make values evergreen. Marjaniemi live_swimming_water_quality normal is dated2025-09-29, not current safety."
+    },
+    {
+      "id": "municipal-quality",
+      "sources": [
+        "https://www.hel.fi/en/culture-and-leisure/outdoor-activities-parks-and-nature-destinations/public-beaches/swimming-water-categories-and-profiles",
+        "https://www.hel.fi/en/news/swimming-season-is-here-lifeguards-on-duty-at-beaches-from-next-week",
+        "https://www.espoo.fi/fi/liikunta-ja-luonto/ulkoliikuntapaikat/uimapaikat/uimarannat"
+      ],
+      "status": "candidate",
+      "reason": "Annual profiles and seasonal supervision notices; no new verified current bacterial/algae feed. Prior Espoo source review dates retained."
+    },
+    {
+      "id": "espoo-winter-temperature",
+      "source": "https://www.espoo.fi/en/news/2024/11/you-can-now-check-water-temperature-espoos-winter-swimming-spots-real-time",
+      "status": "candidate",
+      "reason": "City identifies Haukilahti/Matinkyla/Westend thermometers and external Grafana tracking. Sensor identity/coordinates/API/reuse not verified; no adapter enabled."
+    },
+    {
+      "id": "fmi-cap",
+      "status": "candidate",
+      "evidenceReference": "runs/2026-09-27.json",
+      "reason": "Shared Finnish warning research reused; existing October27 review not prematurely repeated. No beach warning polygon/event match."
+    }
+  ],
+  "modelProbes": [
+    {
+      "locationId": "eea-FI181091023",
+      "weather": {
+        "status": 200,
+        "latitude": 60.198967,
+        "longitude": 25.155563,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.3,
+          "apparent_temperature": 4.1,
+          "weather_code": 0,
+          "wind_speed_10m": 9.6,
+          "wind_direction_10m": 118,
+          "wind_gusts_10m": 16.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.125015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.26,
+          "wave_direction": 132,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.6,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110490001",
+      "weather": {
+        "status": 200,
+        "latitude": 60.15569,
+        "longitude": 24.776352,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 7.8,
+          "apparent_temperature": 3.5,
+          "weather_code": 0,
+          "wind_speed_10m": 9.6,
+          "wind_direction_10m": 114,
+          "wind_gusts_10m": 15.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.125008,
+        "longitude": 24.791672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.28,
+          "wave_direction": 126,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910003",
+      "weather": {
+        "status": 200,
+        "latitude": 60.172737,
+        "longitude": 24.909515,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.3,
+          "apparent_temperature": 4.2,
+          "weather_code": 0,
+          "wind_speed_10m": 9.2,
+          "wind_direction_10m": 114,
+          "wind_gusts_10m": 15.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 24.875015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.22,
+          "wave_direction": 138,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910020",
+      "weather": {
+        "status": 200,
+        "latitude": 60.200375,
+        "longitude": 25.13771,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.1,
+          "apparent_temperature": 4,
+          "weather_code": 0,
+          "wind_speed_10m": 9.2,
+          "wind_direction_10m": 118,
+          "wind_gusts_10m": 15.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.125015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.26,
+          "wave_direction": 132,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.6,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910004",
+      "weather": {
+        "status": 200,
+        "latitude": 60.191498,
+        "longitude": 25.134872,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8,
+          "apparent_temperature": 3.7,
+          "weather_code": 0,
+          "wind_speed_10m": 10.1,
+          "wind_direction_10m": 117,
+          "wind_gusts_10m": 15.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.125015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.26,
+          "wave_direction": 132,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.6,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI1B1091024",
+      "weather": {
+        "status": 200,
+        "latitude": 60.19244,
+        "longitude": 25.00711,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.9,
+          "apparent_temperature": 4.9,
+          "weather_code": 0,
+          "wind_speed_10m": 8.9,
+          "wind_direction_10m": 115,
+          "wind_gusts_10m": 15.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.041672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.24,
+          "wave_direction": 134,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910013",
+      "weather": {
+        "status": 200,
+        "latitude": 60.17938,
+        "longitude": 25.057846,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.3,
+          "apparent_temperature": 4.2,
+          "weather_code": 0,
+          "wind_speed_10m": 9.4,
+          "wind_direction_10m": 115,
+          "wind_gusts_10m": 15.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.041672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.24,
+          "wave_direction": 134,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910007",
+      "weather": {
+        "status": 200,
+        "latitude": 60.15774,
+        "longitude": 24.868301,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 9.1,
+          "apparent_temperature": 4.9,
+          "weather_code": 0,
+          "wind_speed_10m": 9.8,
+          "wind_direction_10m": 113,
+          "wind_gusts_10m": 15.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.125008,
+        "longitude": 24.875015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.28,
+          "wave_direction": 125,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 11.1,
+          "ocean_current_velocity": 0.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910006",
+      "weather": {
+        "status": 200,
+        "latitude": 60.204594,
+        "longitude": 25.084152,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8,
+          "apparent_temperature": 3.9,
+          "weather_code": 0,
+          "wind_speed_10m": 8.7,
+          "wind_direction_10m": 118,
+          "wind_gusts_10m": 15.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.041672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.24,
+          "wave_direction": 134,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110490008",
+      "weather": {
+        "status": 200,
+        "latitude": 60.14818,
+        "longitude": 24.755783,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8,
+          "apparent_temperature": 3.8,
+          "weather_code": 0,
+          "wind_speed_10m": 9.8,
+          "wind_direction_10m": 112,
+          "wind_gusts_10m": 15.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.125008,
+        "longitude": 24.791672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.28,
+          "wave_direction": 126,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910008",
+      "weather": {
+        "status": 200,
+        "latitude": 60.203503,
+        "longitude": 24.864258,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.3,
+          "apparent_temperature": 4.3,
+          "weather_code": 0,
+          "wind_speed_10m": 8.3,
+          "wind_direction_10m": 115,
+          "wind_gusts_10m": 14.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 24.875015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.22,
+          "wave_direction": 138,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910009",
+      "weather": {
+        "status": 200,
+        "latitude": 60.18495,
+        "longitude": 24.986465,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.8,
+          "apparent_temperature": 4.9,
+          "weather_code": 0,
+          "wind_speed_10m": 8.9,
+          "wind_direction_10m": 115,
+          "wind_gusts_10m": 15.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 24.958344,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.22,
+          "wave_direction": 136,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI1B1091025",
+      "weather": {
+        "status": 200,
+        "latitude": 60.21207,
+        "longitude": 25.104843,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.1,
+          "apparent_temperature": 4.1,
+          "weather_code": 0,
+          "wind_speed_10m": 8.3,
+          "wind_direction_10m": 118,
+          "wind_gusts_10m": 15.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.125015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.26,
+          "wave_direction": 132,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.6,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910019",
+      "weather": {
+        "status": 200,
+        "latitude": 60.210663,
+        "longitude": 25.122696,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.2,
+          "apparent_temperature": 4.3,
+          "weather_code": 0,
+          "wind_speed_10m": 8.3,
+          "wind_direction_10m": 118,
+          "wind_gusts_10m": 15.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.125015,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.26,
+          "wave_direction": 132,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.21,
+          "sea_surface_temperature": 10.6,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI110910022",
+      "weather": {
+        "status": 200,
+        "latitude": 60.18965,
+        "longitude": 25.042816,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.3,
+          "apparent_temperature": 4.2,
+          "weather_code": 0,
+          "wind_speed_10m": 9.2,
+          "wind_direction_10m": 115,
+          "wind_gusts_10m": 15.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 25.041672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.24,
+          "wave_direction": 134,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.5,
+          "ocean_current_velocity": 0.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-FI1B1049017",
+      "weather": {
+        "status": 200,
+        "latitude": 60.17072,
+        "longitude": 24.81752,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 7.8,
+          "apparent_temperature": 3.6,
+          "weather_code": 0,
+          "wind_speed_10m": 9.4,
+          "wind_direction_10m": 114,
+          "wind_gusts_10m": 14.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 60.208336,
+        "longitude": 24.791672,
+        "current": {
+          "time": 1792494000,
+          "interval": 900,
+          "wave_height": 0.2,
+          "wave_direction": 138,
+          "wave_period": 2.45,
+          "sea_level_height_msl": -0.2,
+          "sea_surface_temperature": 10.4,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "fi-hailuoto-marjaniemi-lighthouse",
+      "locationId": "eea-FI110910006",
+      "operator": "Hailuoto municipality",
+      "sourcePage": "https://hailuoto.fi/majakka/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator locates lighthouse at Hailuoto, Gulf of Bothnia, not Helsinki Marjaniemi. Aggregator misleadingly labels Helsinki but credits Hailuoto. Rejected identity.",
+      "checkedAt": "2026-10-20",
+      "type": "link",
+      "freshness": "not tested:wrong location",
+      "embedding": "not applicable",
+      "nextReviewAt": "2026-11-19",
+      "status": "rejected",
+      "integrated": false
+    }
+  ],
+  "cameraSearchScope": "Grouped searches covered all16 site names. No operator-backed exact beach camera verified; road cameras excluded. Hailuoto lighthouse rejected despite same Marjaniemi name.",
+  "productionAudit": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "initialDeployment": "dpl_8CHxRy61pTBKodh2SmF9TyLwPns8 Ready",
+    "cataloguePages": 4,
+    "detailObservationIdentities": 16,
+    "initialObservations": 0,
+    "scheduler": "single active minute job1; models, UiRaS,LHMT and Hungarian wind/temperature advancing; no forced collection",
+    "storm": "Direct parser confirms provider timestamp2026-10-19T08:26:00Z allbasins0; stale source state retained, not fresh no-warning claim.",
+    "knownFailures": "EA samples113failures at09:41; annualEA/NRW/SEPA due15:30, not force-retried."
+  },
+  "verification": [
+    "129 tests",
+    "npm run lint",
+    "npm run build",
+    "312 reproduced bearings",
+    "Disposable PostgreSQL actual16-bearing+2-sensor imports twice; metadata/curated binding preservation; wrong-water-type transaction abort"
+  ],
+  "activation": {
+    "status": "prepared",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "imports": [
+      "supabase/imports/20261020_finland_shore_orientations.sql",
+      "supabase/imports/20261020_uiras-coastal.sql"
+    ]
+  },
+  "nextCountry": "Estonia"
+}

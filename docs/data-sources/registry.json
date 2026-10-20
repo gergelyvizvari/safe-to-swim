@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-19",
-  "nextCountry": "Norway",
+  "lastRun": "2026-10-20",
+  "nextCountry": "Estonia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -9642,6 +9642,422 @@
       "dynamicStatus": "candidate",
       "cameraStatus": "not-found",
       "scope": "Individual local geometry, model payload and production API verification; shared provider/camera screening, not 15 verified quality station matches."
+    },
+    {
+      "locationId": "eea-FI181091023",
+      "name": "AURINKOLAHTI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 184,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI181091023",
+        "open-meteo-marine:eea-FI181091023"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40258,
+        "name": "Aurinkolahden uimaranta",
+        "distanceMetres": 13,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110490001",
+      "name": "HAUKILAHTI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 145,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110490001",
+        "open-meteo-marine:eea-FI110490001"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 39568,
+        "name": "Haukilahden uimaranta (Mellsten)",
+        "distanceMetres": 26,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910003",
+      "name": "HIETARANTA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 331,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910003",
+        "open-meteo-marine:eea-FI110910003"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40142,
+        "name": "Hietarannan uimaranta",
+        "distanceMetres": 83,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910020",
+      "name": "ISO KALLAHTI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 184,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910020",
+        "open-meteo-marine:eea-FI110910020"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40950,
+        "name": "Ison Kallahden uimaranta",
+        "distanceMetres": 30,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910004",
+      "name": "KALLAHDENNIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 225,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910004",
+        "open-meteo-marine:eea-FI110910004"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40150,
+        "name": "Kallahdenniemen uimaranta",
+        "distanceMetres": 318,
+        "identityVerified": false,
+        "reason": "Name and nearby point match; not a formal EU-ID crosswalk. Kallahdenniemi 318m offset needs further review."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI1B1091024",
+      "name": "KIVINOKAN UIMARANTA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 239,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1B1091024",
+        "open-meteo-marine:eea-FI1B1091024"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 41031,
+        "name": "Kivinokan uimaranta",
+        "distanceMetres": 52,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910013",
+      "name": "LAAJASALO",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 117,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910013",
+        "open-meteo-marine:eea-FI110910013"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40802,
+        "name": "Laajasalon uimaranta",
+        "distanceMetres": 21,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910007",
+      "name": "LAUTTASAARI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 199,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910007",
+        "open-meteo-marine:eea-FI110910007"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40098,
+        "name": "Lauttasaaren uimaranta",
+        "distanceMetres": 39,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910006",
+      "name": "MARJANIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 192,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910006",
+        "open-meteo-marine:eea-FI110910006"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40386,
+        "name": "Marjaniemen uimaranta",
+        "distanceMetres": 41,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110490008",
+      "name": "MATINKYLA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 134,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110490008",
+        "open-meteo-marine:eea-FI110490008"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 39527,
+        "name": "Matinkylän uimaranta",
+        "distanceMetres": 42,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910008",
+      "name": "MUNKKINIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 212,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910008",
+        "open-meteo-marine:eea-FI110910008"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 41601,
+        "name": "Munkkiniemen uimaranta",
+        "distanceMetres": 46,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910009",
+      "name": "MUSTIKKAMAA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 151,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910009",
+        "open-meteo-marine:eea-FI110910009"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40559,
+        "name": "Mustikkamaan uimaranta",
+        "distanceMetres": 74,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI1B1091025",
+      "name": "PUOTILAN UIMARANTA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 114,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1B1091025",
+        "open-meteo-marine:eea-FI1B1091025"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40020,
+        "name": "Puotilan uimaranta",
+        "distanceMetres": 36,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910019",
+      "name": "RASTILA",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 281,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910019",
+        "open-meteo-marine:eea-FI110910019"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 40157,
+        "name": "Rastilan uimaranta",
+        "distanceMetres": 36,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI110910022",
+      "name": "TUORINNIEMI",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 169,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI110910022",
+        "open-meteo-marine:eea-FI110910022"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 41791,
+        "name": "Tuorinniemen uimaranta",
+        "distanceMetres": 57,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-FI1B1049017",
+      "name": "WESTEND",
+      "country": "Finland",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-20",
+      "nextReviewAt": "2026-11-19",
+      "status": "prepared",
+      "provider": "osm-shoreline",
+      "seaBearing": 128,
+      "shoreOrientationStatus": "prepared",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1B1049017",
+        "open-meteo-marine:eea-FI1B1049017"
+      ],
+      "serviceMapCandidate": {
+        "unitId": 52959,
+        "name": "Westendin uimaranta",
+        "distanceMetres": 47,
+        "identityVerified": true,
+        "reason": "Municipal name and location agreement."
+      },
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-19",
+      "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
     }
   ]
 }

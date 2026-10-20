@@ -1,6 +1,9 @@
 // Forum Virium Helsinki / HRI, CC BY 4.0. One shared export, never per beach.
 export const UIRAS_URL = 'https://bri3.fvh.io/opendata/uiras/uiras_latest.geojson'
-export const UIRAS_SITES = [{ locationId: 'eea-FI181092003', sensorId: '70B3D57050001BA6', name: 'Vetokannas', latitude: 60.27026, longitude: 24.88056, locationLatitude: 60.27, locationLongitude: 24.8811, serviceMapId: 42505 }]
+export const UIRAS_SITES = [{ locationId: 'eea-FI181092003', sensorId: '70B3D57050001BA6', name: 'Vetokannas', latitude: 60.27026, longitude: 24.88056, locationLatitude: 60.27, locationLongitude: 24.8811, serviceMapId: 42505, waterType: 'lake', distanceMetres: 42 },
+  {"locationId": "eea-FI110910019", "sensorId": "70B3D57050001BBE", "name": "Rastilan uimaranta", "latitude": 60.207977, "longitude": 25.114849, "locationLatitude": 60.2076, "locationLongitude": 25.1149, "serviceMapId": 40157, "waterType": "coastal", "distanceMetres": 42},
+  {"locationId": "eea-FI110910006", "sensorId": "70B3D57050011439", "name": "Marjaniemen uimaranta", "latitude": 60.198449, "longitude": 25.076416, "locationLatitude": 60.1986, "locationLongitude": 25.0759, "serviceMapId": 40386, "waterType": "coastal", "distanceMetres": 33}
+]
 
 export function parseUiras(data, now = Date.now()) {
   if (data?.type !== 'FeatureCollection' || !Array.isArray(data.features)) throw new Error('Invalid UiRaS collection')

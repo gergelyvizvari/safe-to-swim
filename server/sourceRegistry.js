@@ -29,8 +29,8 @@ export function initialBindings(location) {
   if (location.source) add('annual_quality', location.source, location.id, location.name, 'site')
   const meteoSite = METEO_LT_SITE
   if (location.id === meteoSite.locationId && location.waterType === 'coastal' && Math.abs(location.latitude - meteoSite.locationLatitude) < 0.00001 && Math.abs(location.longitude - meteoSite.locationLongitude) < 0.00001) add('temperature', 'lhmt-palangos', meteoSite.stationId, meteoSite.name, 'station', meteoSite)
-  const uirasSite = UIRAS_SITES.find(s => s.locationId === location.id && location.waterType === 'lake' && Math.abs(s.locationLatitude - location.latitude) < 0.00001 && Math.abs(s.locationLongitude - location.longitude) < 0.00001)
-  if (uirasSite) add('temperature', 'fvh-uiras', uirasSite.sensorId, uirasSite.name, 'station', { ...uirasSite, distanceMetres: 42 })
+  const uirasSite = UIRAS_SITES.find(s => s.locationId === location.id && location.waterType === s.waterType && Math.abs(s.locationLatitude - location.latitude) < 0.00001 && Math.abs(s.locationLongitude - location.longitude) < 0.00001)
+  if (uirasSite) add('temperature', 'fvh-uiras', uirasSite.sensorId, uirasSite.name, 'station', uirasSite)
   const eaSite = EA_BRIGHTON_SITES.find(site => site.locationId === location.id && location.waterType !== 'lake' && Math.abs(site.latitude - location.latitude) < 0.00001 && Math.abs(site.longitude - location.longitude) < 0.00001)
   if (eaSite) add('quality', 'ea-brighton-samples', eaSite.externalId, location.name, 'site', eaSite)
   if (isBalaton(location)) {

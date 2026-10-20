@@ -64,3 +64,34 @@ test('UiRaS collector fetches shared endpoint and handles provider failure', asy
     assert.equal(r.payload.stations[0].id, binding.target.external_id)
   } finally { globalThis.fetch = original }
 })
+
+test('UiRaS coastal sensors bind only exact beaches, preserving distinct distances and sample times', () => {
+  const data = JSON.parse(readFileSync(new URL('./fixtures/uiras-helsinki-coastal.json', import.meta.url)))
+  const time = Date.parse('2026-10-20T11:00:00Z')
+  const payload = parseUiras(data, time)
+  const sites = [
+    { id: 'eea-FI110910019', waterType: 'coastal', latitude: 60.2076, longitude: 25.1149, distance: 42, temperature: 8.93 },
+    { id: 'eea-FI110910006', waterType: 'coastal', latitude: 60.1986, longitude: 25.0759, distance: 33, temperature: 9.81 },
+  ]
+  for (const site of sites) {
+    const b = initialBindings(site).find(b => b.data_type === 'temperature')
+    const item = extractObservation(b, { status: 'healthy', checked_at: new Date(time).toISOString(), payload }, time)
+    assert.equal(item.status, 'available')
+    assert.equal(item.distanceMetres, site.distance)
+    assert.equal(observedWaterTemperature(site, { locationId: site.id, items: [item] }, time).temperature, site.temperature)
+    for (const changed of [{ waterType: 'lake' }, { id: 'nearby-beach' }, { latitude: site.latitude + 0.01 }]) {
+      assert.equal(initialBindings({ ...site, ...changed }).some(b => b.data_type === 'temperature'), false)
+    }
+  }
+  // A fresh second sensor must not refresh the first sensor's stale/missing reading.
+  data.features[0].properties.measurement.time = '2026-10-19T10:00:00Z'
+  let b = initialBindings(sites[0]).find(b => b.data_type === 'temperature')
+  let item = extractObservation(b, { status: 'healthy', checked_at: new Date(time).toISOString(), payload: parseUiras(data, time) }, time)
+  assert.equal(item.status, 'stale')
+  data.features[0].properties.measurement = null
+  item = extractObservation(b, { status: 'healthy', checked_at: new Date(time).toISOString(), payload: parseUiras(data, time) }, time)
+  assert.equal(item.status, 'unmatched')
+  // The retired Marjaniemi ID must not substitute for the reviewed replacement.
+  data.features[1].id = 'retired-sensor'
+  assert.throws(() => parseUiras(data, time), /Missing/)
+})
