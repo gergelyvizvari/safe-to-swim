@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-20",
-  "nextCountry": "Estonia",
+  "lastRun": "2026-10-21",
+  "nextCountry": "Latvia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -10062,6 +10062,291 @@
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-19",
       "reason": "Local shoreline determined from versioned directed ODbL geometry. Seasonal water-quality notices are not current clearance. Sensor bindings, where verified, are listed separately."
+    },
+    {
+      "locationId": "eea-EE00403004KABLI",
+      "name": "KABLI RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 241,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00403004KABLI",
+        "open-meteo-marine:eea-EE00403004KABLI"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00401005KARDLA",
+      "name": "KÄRDLA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 308,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00401005KARDLA",
+        "open-meteo-marine:eea-EE00401005KARDLA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00404016TITER",
+      "name": "KURESSAARE RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 190,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00404016TITER",
+        "open-meteo-marine:eea-EE00404016TITER"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00401001LIIVALAUKA",
+      "name": "LIIVALAUKA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 270,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00401001LIIVALAUKA",
+        "open-meteo-marine:eea-EE00401001LIIVALAUKA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00401002LUIDJA",
+      "name": "LUIDJA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 342,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00401002LUIDJA",
+        "open-meteo-marine:eea-EE00401002LUIDJA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00403022MAI",
+      "name": "MAI RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 216,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00403022MAI",
+        "open-meteo-marine:eea-EE00403022MAI"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00404001MANDJALA",
+      "name": "MÄNDJALA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 151,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00404001MANDJALA",
+        "open-meteo-marine:eea-EE00404001MANDJALA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00402012PARAL",
+      "name": "PARALEPA RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 20,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00402012PARAL",
+        "open-meteo-marine:eea-EE00402012PARAL"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00403022PARNU",
+      "name": "PÄRNU KESKRAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 205,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00403022PARNU",
+        "open-meteo-marine:eea-EE00403022PARNU"
+      ],
+      "cameraStatus": "candidate-unavailable",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00403022RAEKULA1",
+      "name": "RAEKÜLA RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 211,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00403022RAEKULA1",
+        "open-meteo-marine:eea-EE00403022RAEKULA1"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00402005ROOSTA",
+      "name": "ROOSTA RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 252,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00402005ROOSTA",
+        "open-meteo-marine:eea-EE00402005ROOSTA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00401004TORVANINA",
+      "name": "TÕRVANINA",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 57,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00401004TORVANINA",
+        "open-meteo-marine:eea-EE00401004TORVANINA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00403002VALGE",
+      "name": "VALGERAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 176,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00403002VALGE",
+        "open-meteo-marine:eea-EE00403002VALGE"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00403022VANAPARN",
+      "name": "VANA-PÄRNU RAND",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 218,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00403022VANAPARN",
+        "open-meteo-marine:eea-EE00403022VANAPARN"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-EE00402012VASIKA",
+      "name": "VASIKA HOLM",
+      "country": "Estonia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-21",
+      "nextReviewAt": "2026-11-20",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "seaBearing": 249,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-EE00402012VASIKA",
+        "open-meteo-marine:eea-EE00402012VASIKA"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-20",
+      "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
     }
   ]
 }

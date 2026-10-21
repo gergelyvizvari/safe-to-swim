@@ -10982,6 +10982,495 @@
         "snapshotFile": "2026-10-20-osm.json",
         "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. One 60m weighted normal and fifteen individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original landward sampling offsets retained explicitly; no nearby beach orientation substitution."
       }
+    },
+    {
+      "locationId": "eea-EE00403004KABLI",
+      "latitude": 58.0047,
+      "longitude": 24.4392,
+      "seaBearing": 241,
+      "shoreOrientation": {
+        "wayIds": [
+          645709038
+        ],
+        "reviewedVertexIndices": [
+          188,
+          202
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 645709038,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00401005KARDLA",
+      "latitude": 59.0081,
+      "longitude": 22.7467,
+      "seaBearing": 308,
+      "shoreOrientation": {
+        "wayIds": [
+          45469795
+        ],
+        "reviewedVertexIndices": [
+          49,
+          60
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 45469795,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00404016TITER",
+      "latitude": 58.2449,
+      "longitude": 22.4763,
+      "seaBearing": 190,
+      "shoreOrientation": {
+        "wayIds": [
+          45462173
+        ],
+        "reviewedVertexIndices": [
+          472,
+          482
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 45462173,
+            "version": 14
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00401001LIIVALAUKA",
+      "latitude": 58.7094,
+      "longitude": 22.4838,
+      "seaBearing": 270,
+      "shoreOrientation": {
+        "distanceMetres": 30,
+        "radiusMetres": 60,
+        "wayIds": [
+          48978239
+        ],
+        "nearestSegment": 137,
+        "nearestWayId": 48978239,
+        "shorePoint": {
+          "latitude": 58.70938330499985,
+          "longitude": 22.484318912228634
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 48978239,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00401002LUIDJA",
+      "latitude": 58.9365,
+      "longitude": 22.3864,
+      "seaBearing": 342,
+      "shoreOrientation": {
+        "distanceMetres": 124,
+        "radiusMetres": 60,
+        "wayIds": [
+          45518079
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 45518079,
+        "shorePoint": {
+          "latitude": 58.93547779453049,
+          "longitude": 22.38727238988985
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 45518079,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00403022MAI",
+      "latitude": 58.3658,
+      "longitude": 24.5236,
+      "seaBearing": 216,
+      "shoreOrientation": {
+        "wayIds": [
+          327310015
+        ],
+        "reviewedVertexIndices": [
+          50,
+          72
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 327310015,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00404001MANDJALA",
+      "latitude": 58.2103,
+      "longitude": 22.3192,
+      "seaBearing": 151,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          45451276
+        ],
+        "nearestSegment": 78,
+        "nearestWayId": 45451276,
+        "shorePoint": {
+          "latitude": 58.210367285569156,
+          "longitude": 22.31911404444981
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 45451276,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00402012PARAL",
+      "latitude": 58.9431,
+      "longitude": 23.5167,
+      "seaBearing": 20,
+      "shoreOrientation": {
+        "wayIds": [
+          148469589
+        ],
+        "reviewedVertexIndices": [
+          125,
+          137
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 148469589,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00403022PARNU",
+      "latitude": 58.3725,
+      "longitude": 24.4981,
+      "seaBearing": 205,
+      "shoreOrientation": {
+        "distanceMetres": 47,
+        "radiusMetres": 60,
+        "wayIds": [
+          645688277
+        ],
+        "nearestSegment": 24,
+        "nearestWayId": 645688277,
+        "shorePoint": {
+          "latitude": 58.372877875266475,
+          "longitude": 24.49846031403736
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 645688277,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00403022RAEKULA1",
+      "latitude": 58.3522,
+      "longitude": 24.5492,
+      "seaBearing": 211,
+      "shoreOrientation": {
+        "wayIds": [
+          327310028
+        ],
+        "reviewedVertexIndices": [
+          218,
+          259
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 327310028,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00402005ROOSTA",
+      "latitude": 59.156,
+      "longitude": 23.5151,
+      "seaBearing": 252,
+      "shoreOrientation": {
+        "distanceMetres": 21,
+        "radiusMetres": 60,
+        "wayIds": [
+          45476290
+        ],
+        "nearestSegment": 30,
+        "nearestWayId": 45476290,
+        "shorePoint": {
+          "latitude": 59.156056496886904,
+          "longitude": 23.515459905101057
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 45476290,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00401004TORVANINA",
+      "latitude": 59.04009,
+      "longitude": 22.6881,
+      "seaBearing": 57,
+      "shoreOrientation": {
+        "distanceMetres": 5,
+        "radiusMetres": 60,
+        "wayIds": [
+          48966950
+        ],
+        "nearestSegment": 102,
+        "nearestWayId": 48966950,
+        "shorePoint": {
+          "latitude": 59.04007111552353,
+          "longitude": 22.68802624710923
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 48966950,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00403002VALGE",
+      "latitude": 58.38598,
+      "longitude": 24.37016,
+      "seaBearing": 176,
+      "shoreOrientation": {
+        "wayIds": [
+          645688279
+        ],
+        "reviewedVertexIndices": [
+          8,
+          11
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 645688279,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00403022VANAPARN",
+      "latitude": 58.3786,
+      "longitude": 24.4639,
+      "seaBearing": 218,
+      "shoreOrientation": {
+        "wayIds": [
+          45497752
+        ],
+        "reviewedVertexIndices": [
+          440,
+          475
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 45497752,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
+    },
+    {
+      "locationId": "eea-EE00402012VASIKA",
+      "latitude": 58.9538,
+      "longitude": 23.5201,
+      "seaBearing": 249,
+      "shoreOrientation": {
+        "wayIds": [
+          148469590
+        ],
+        "reviewedVertexIndices": [
+          41,
+          44
+        ],
+        "method": "reviewed-local-shore-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-21",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 148469590,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-10-21-osm.json",
+        "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
+      }
     }
   ]
 }
