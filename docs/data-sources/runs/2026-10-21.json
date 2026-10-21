@@ -1207,7 +1207,10 @@
     "imports": [
       "supabase/imports/20261021_estonia_shore_orientations.sql"
     ],
-    "deploymentStatus": "pending"
+    "deploymentStatus": "Ready",
+    "commit": "8a99e0ab8e1aefe378f5b5bedd4aede91538fbb7",
+    "deployment": "https://vercel.com/gergely-s-projects/safe-to-swim/6JAWPJsgnpDocuh2LQsWr4XDEupy",
+    "postDeploy": "Production alias serves327-bearing artifact and Pärnu205-degree API detail; exact commit Vercel success."
   },
   "nextCountry": "Latvia"
 }
