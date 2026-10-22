@@ -11471,6 +11471,111 @@
         "snapshotFile": "2026-10-21-osm.json",
         "reviewNote": "Individually reviewed north-up local geometry and OSM directed land-left/water-right topology. Six 60m weighted normals and nine individually reviewed local beach chords isolate the sampling-point shoreline from piers, small notches, headlands and opposite bay shores. Original sampling coordinates retained, including offshore points at Luidja (124 m) and Raeküla (135 m); no nearby beach orientation substitution."
       }
+    },
+    {
+      "locationId": "eea-LV00790500002",
+      "latitude": 57.0454,
+      "longitude": 23.3701,
+      "seaBearing": 18,
+      "shoreOrientation": {
+        "distanceMetres": 69,
+        "radiusMetres": 60,
+        "wayIds": [
+          1157783509
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 1157783509,
+        "shorePoint": {
+          "latitude": 57.0448108508983,
+          "longitude": 23.369751901113098
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-22",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1157783509,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-22-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Water lies north-northeast at Klapkalnciems, east at Kesterciems and north at Ragaciems. Original offshore sampling offsets retained; no neighbouring beach orientation copied."
+      }
+    },
+    {
+      "locationId": "eea-LV00790500003",
+      "latitude": 57.1156,
+      "longitude": 23.2359,
+      "seaBearing": 85,
+      "shoreOrientation": {
+        "distanceMetres": 31,
+        "radiusMetres": 60,
+        "wayIds": [
+          1157931612
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 1157931612,
+        "shorePoint": {
+          "latitude": 57.11558163990889,
+          "longitude": 23.235391794800822
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-22",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1157931612,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-10-22-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Water lies north-northeast at Klapkalnciems, east at Kesterciems and north at Ragaciems. Original offshore sampling offsets retained; no neighbouring beach orientation copied."
+      }
+    },
+    {
+      "locationId": "eea-LV00790660001",
+      "latitude": 57.0368,
+      "longitude": 23.4291,
+      "seaBearing": 8,
+      "shoreOrientation": {
+        "distanceMetres": 12,
+        "radiusMetres": 60,
+        "wayIds": [
+          1157931601
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 1157931601,
+        "shorePoint": {
+          "latitude": 57.03669483044683,
+          "longitude": 23.429072697674368
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-22",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1157931601,
+            "version": 1
+          }
+        ],
+        "snapshotFile": "2026-10-22-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Water lies north-northeast at Klapkalnciems, east at Kesterciems and north at Ragaciems. Original offshore sampling offsets retained; no neighbouring beach orientation copied."
+      }
     }
   ]
 }

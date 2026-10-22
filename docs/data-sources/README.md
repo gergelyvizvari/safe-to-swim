@@ -544,3 +544,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-21 — western Estonia
 
 15 new coastal sites reviewed; 15 local shore orientations applied to the configured Supabase catalogue and verified through the production API and Pärnu wind assessment. No new dynamic adapters or verified/integrated cameras. The weather/marine probes are model samples, not stored measured observations. The official XML request returned403; the operator camera embed redirects away. Seasonal Kuressaare laboratory reports remain a candidate, not fresh clearance.129 tests, lint/build,327 geometry reproductions and PostgreSQL preservation/idempotence checks passed. Details: [run evidence](runs/2026-10-21.json). Next country Latvia; new unresolved searches dueNovember20.
+
+## 2026-10-22 — Latvia coast and lakes
+
+15 new sites reviewed (3 coastal,12 lakes);3 local shore orientations prepared and applied to the configured Supabase catalogue, verified through production API. No new dynamic integrations or verified/integrated cameras. Shared hydrology reads and a bounded new marine-model candidate probe timed out; no unverified station assigned. Weather15/marine3 probes remain model samples.129 tests, lint/build,330 geometry reproductions and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-22.json). Next country Lithuania; new unresolved searches dueNovember21. Latvian catalogue review remains incomplete.

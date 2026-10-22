@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-21",
-  "nextCountry": "Latvia",
+  "lastRun": "2026-10-22",
+  "nextCountry": "Lithuania",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -10347,6 +10347,267 @@
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-20",
       "reason": "Local directed shoreline independently reviewed, not copied from a neighbouring beach. No new measured temperature, fresh water quality, algae or official warning integration verified."
+    },
+    {
+      "locationId": "eea-LV00790500002",
+      "name": "KLAPKALNCIEMS",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00790500002",
+        "open-meteo-marine:eea-LV00790500002"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Local reviewed shoreline applied; no new dynamic measurement source.",
+      "seaBearing": 18,
+      "shoreOrientationStatus": "applied"
+    },
+    {
+      "locationId": "eea-LV00790500003",
+      "name": "ĶESTERCIEMS",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00790500003",
+        "open-meteo-marine:eea-LV00790500003"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Local reviewed shoreline applied; no new dynamic measurement source.",
+      "seaBearing": 85,
+      "shoreOrientationStatus": "applied"
+    },
+    {
+      "locationId": "eea-LV00790660001",
+      "name": "RAGACIEMS",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00790660001",
+        "open-meteo-marine:eea-LV00790660001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Local reviewed shoreline applied; no new dynamic measurement source.",
+      "seaBearing": 8,
+      "shoreOrientationStatus": "applied"
+    },
+    {
+      "locationId": "eea-LV00317000003",
+      "name": "KARJERS \"BEBERLIŅI\"",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00317000003"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00327000003",
+      "name": "BŪŠNIEKU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00327000003"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00384010001",
+      "name": "SALDUS EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00384010001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00384060001",
+      "name": "CIECERES EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00384060001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00505000001",
+      "name": "LIELAIS STROPU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00505000001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00505000004",
+      "name": "ŠŪŅU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00505000004"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00505000005",
+      "name": "LIELAIS STROPU EZERS, PELDVIETA STROPU VILNIS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00505000005"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00521000001",
+      "name": "KOVŠU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00521000001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00544980001",
+      "name": "LUKNAS EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00544980001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00560020001",
+      "name": "ZIRGA EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00560020001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00578025401",
+      "name": "LUBĀNAS EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00578025401"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00578027201",
+      "name": "RĀZNAS EZERS, PELDVIETA LIPUŠKOS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00578027201"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
     }
   ]
 }

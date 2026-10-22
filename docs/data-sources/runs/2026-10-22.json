@@ -1,0 +1,925 @@
+{
+  "date": "2026-10-22",
+  "selection": "3 previously unreviewed Latvian coastal sites with missing orientation and 12 previously unreviewed lake sites. Same 15 used for camera screening.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 3,
+    "liveNewCoverage": 3,
+    "shoreOrientationsDetermined": 3,
+    "shoreOrientationsApplied": 3,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-LV00790500002",
+      "name": "KLAPKALNCIEMS",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00790500002",
+        "open-meteo-marine:eea-LV00790500002"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Local reviewed shoreline applied; no new dynamic measurement source.",
+      "seaBearing": 18,
+      "shoreOrientationStatus": "applied"
+    },
+    {
+      "locationId": "eea-LV00790500003",
+      "name": "ĶESTERCIEMS",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00790500003",
+        "open-meteo-marine:eea-LV00790500003"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Local reviewed shoreline applied; no new dynamic measurement source.",
+      "seaBearing": 85,
+      "shoreOrientationStatus": "applied"
+    },
+    {
+      "locationId": "eea-LV00790660001",
+      "name": "RAGACIEMS",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "integrated",
+      "provider": "osm-shoreline",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00790660001",
+        "open-meteo-marine:eea-LV00790660001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Local reviewed shoreline applied; no new dynamic measurement source.",
+      "seaBearing": 8,
+      "shoreOrientationStatus": "applied"
+    },
+    {
+      "locationId": "eea-LV00317000003",
+      "name": "KARJERS \"BEBERLIŅI\"",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00317000003"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00327000003",
+      "name": "BŪŠNIEKU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00327000003"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00384010001",
+      "name": "SALDUS EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00384010001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00384060001",
+      "name": "CIECERES EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00384060001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00505000001",
+      "name": "LIELAIS STROPU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00505000001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00505000004",
+      "name": "ŠŪŅU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00505000004"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00505000005",
+      "name": "LIELAIS STROPU EZERS, PELDVIETA STROPU VILNIS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00505000005"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00521000001",
+      "name": "KOVŠU EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00521000001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00544980001",
+      "name": "LUKNAS EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00544980001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00560020001",
+      "name": "ZIRGA EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00560020001"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00578025401",
+      "name": "LUBĀNAS EZERS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00578025401"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LV00578027201",
+      "name": "RĀZNAS EZERS, PELDVIETA LIPUŠKOS",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-10-22",
+      "nextReviewAt": "2026-11-21",
+      "status": "access-pending",
+      "provider": "lvgmc-hydrology",
+      "sourceTargets": [
+        "open-meteo-weather:eea-LV00578027201"
+      ],
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-21",
+      "reason": "Hydrology station/parameter/measurement CSV requests timed out; lake/station identity and temperature depth remain unverified. No nearby river or marine data assigned.",
+      "shoreOrientationStatus": "not-applicable-lake"
+    }
+  ],
+  "providers": [
+    {
+      "id": "osm-shoreline",
+      "status": "integrated",
+      "source": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL-1.0",
+      "snapshot": "data/shorelines/2026-10-22-osm.json",
+      "method": "Individually reviewed local weighted coastline right normals: water north-northeast/east/north, original offshore sampling coordinates retained."
+    },
+    {
+      "id": "lvgmc-hydrology",
+      "status": "access-pending",
+      "evidence": [
+        {
+          "url": "https://data.gov.lv/dati/dataset/40d80be5-0c09-47c4-80f3-fad4bec19f33/resource/de5f06e9-6f44-497d-8ec2-72a2483608e8/download/hidro_operativie_dati.csv",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://data.gov.lv/dati/dataset/40d80be5-0c09-47c4-80f3-fad4bec19f33/resource/93fd5e2c-20c4-496e-a920-ff29bda20383/download/hidro_stacijas.csv",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://data.gov.lv/dati/dataset/40d80be5-0c09-47c4-80f3-fad4bec19f33/resource/714ab60d-d93e-4403-b76d-2fb865d15d63/download/hidro_parametri.csv",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "license": "CC0-1.0 per 2026-10-12 source review",
+      "scope": "New lake candidates prompted one shared read of station, parameter and operational measurement CSVs. All timed out; no variable coverage, timestamp, units or station identity newly confirmed.",
+      "nextReviewAt": "2026-11-21"
+    },
+    {
+      "id": "lvgmc-spatial-marine",
+      "status": "candidate-access-pending",
+      "source": "https://data.gov.lv/dati/dataset/telpiskas-juras-prognozes",
+      "license": "CC0-1.0",
+      "documentation": "Model forecasts, 9 days hourly, twice daily updates, UTC timestamps, WGS84 point coordinates; wave grid/update separate. Public read, numerical quota not documented.",
+      "probe": {
+        "url": "https://data.gov.lv/dati/api/3/action/datastore_search_sql?sql=SELECT+%2A+FROM+%22917d54f2-79b6-4743-b088-a1fe0eb6f837%22+WHERE+%22Lat%22+BETWEEN+57.0+AND+57.15+AND+%22Lon%22+BETWEEN+23.2+AND+23.5+LIMIT+1",
+        "error": "<urlopen error timed out>"
+      },
+      "scope": "One bounded regional row request timed out. No validated point, units, issue time or coastal coverage; no adapter/binding added. Existing Open-Meteo retained.",
+      "nextReviewAt": "2026-11-21"
+    },
+    {
+      "id": "vi-seasonal-quality-and-lvgmc-warnings",
+      "status": "candidate",
+      "evidenceRun": "2026-10-12.json",
+      "source": "https://www.vi.gov.lv/lv/jaunums/peldvietu-udens-kvalitate-0",
+      "scope": "Prior seasonal quality/algae reports and unresolved empty-warning semantics reused without early repeat. Annual/seasonal reports do not establish current safety. No new fresh quality, algae or official storm integration.",
+      "nextReviewAt": "2026-11-11"
+    }
+  ],
+  "modelProbes": [
+    {
+      "locationId": "eea-LV00790500002",
+      "weather": {
+        "status": 200,
+        "latitude": 57.04418,
+        "longitude": 23.371658,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11.8,
+          "apparent_temperature": 8.7,
+          "weather_code": 2,
+          "wind_speed_10m": 11.4,
+          "wind_direction_10m": 131,
+          "wind_gusts_10m": 20.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 57.208336,
+        "longitude": 23.375015,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "wave_height": 0.8,
+          "wave_direction": 121,
+          "wave_period": 3.55,
+          "sea_level_height_msl": -0.16,
+          "sea_surface_temperature": 12.5,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00790500003",
+      "weather": {
+        "status": 200,
+        "latitude": 57.1078,
+        "longitude": 23.237457,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11.8,
+          "apparent_temperature": 8.8,
+          "weather_code": 2,
+          "wind_speed_10m": 11,
+          "wind_direction_10m": 129,
+          "wind_gusts_10m": 20.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 57.208336,
+        "longitude": 23.375015,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "wave_height": 0.8,
+          "wave_direction": 121,
+          "wave_period": 3.55,
+          "sea_level_height_msl": -0.16,
+          "sea_surface_temperature": 12,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00790660001",
+      "weather": {
+        "status": 200,
+        "latitude": 57.030647,
+        "longitude": 23.434738,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 11.8,
+          "apparent_temperature": 8.9,
+          "weather_code": 2,
+          "wind_speed_10m": 10.5,
+          "wind_direction_10m": 132,
+          "wind_gusts_10m": 22.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 57.208336,
+        "longitude": 23.458344,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "wave_height": 0.82,
+          "wave_direction": 123,
+          "wave_period": 3.55,
+          "sea_level_height_msl": -0.16,
+          "sea_surface_temperature": 13,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00317000003",
+      "weather": {
+        "status": 200,
+        "latitude": 56.55876,
+        "longitude": 21.020035,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 13.2,
+          "apparent_temperature": 9.4,
+          "weather_code": 3,
+          "wind_speed_10m": 15.4,
+          "wind_direction_10m": 136,
+          "wind_gusts_10m": 29.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00327000003",
+      "weather": {
+        "status": 200,
+        "latitude": 57.441402,
+        "longitude": 21.659027,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.8,
+          "apparent_temperature": 9.6,
+          "weather_code": 2,
+          "wind_speed_10m": 13.2,
+          "wind_direction_10m": 139,
+          "wind_gusts_10m": 30.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00384010001",
+      "weather": {
+        "status": 200,
+        "latitude": 56.669876,
+        "longitude": 22.51184,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 7.1,
+          "weather_code": 3,
+          "wind_speed_10m": 14.1,
+          "wind_direction_10m": 130,
+          "wind_gusts_10m": 25.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00384060001",
+      "weather": {
+        "status": 200,
+        "latitude": 56.67563,
+        "longitude": 22.562225,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 7.1,
+          "weather_code": 3,
+          "wind_speed_10m": 13.6,
+          "wind_direction_10m": 128,
+          "wind_gusts_10m": 26.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00505000001",
+      "weather": {
+        "status": 200,
+        "latitude": 55.90641,
+        "longitude": 26.58812,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.6,
+          "apparent_temperature": 5.6,
+          "weather_code": 51,
+          "wind_speed_10m": 8.9,
+          "wind_direction_10m": 121,
+          "wind_gusts_10m": 20.6
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00505000004",
+      "weather": {
+        "status": 200,
+        "latitude": 55.89681,
+        "longitude": 26.504074,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 9.1,
+          "apparent_temperature": 6,
+          "weather_code": 51,
+          "wind_speed_10m": 9.8,
+          "wind_direction_10m": 119,
+          "wind_gusts_10m": 19.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00505000005",
+      "weather": {
+        "status": 200,
+        "latitude": 55.925575,
+        "longitude": 26.578156,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.5,
+          "apparent_temperature": 5.7,
+          "weather_code": 51,
+          "wind_speed_10m": 8.7,
+          "wind_direction_10m": 120,
+          "wind_gusts_10m": 21.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00521000001",
+      "weather": {
+        "status": 200,
+        "latitude": 56.501663,
+        "longitude": 27.328796,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 9.5,
+          "apparent_temperature": 6.2,
+          "weather_code": 0,
+          "wind_speed_10m": 9.4,
+          "wind_direction_10m": 127,
+          "wind_gusts_10m": 18.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00544980001",
+      "weather": {
+        "status": 200,
+        "latitude": 56.06041,
+        "longitude": 26.768509,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.3,
+          "apparent_temperature": 4.2,
+          "weather_code": 3,
+          "wind_speed_10m": 13,
+          "wind_direction_10m": 121,
+          "wind_gusts_10m": 21.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00560020001",
+      "weather": {
+        "status": 200,
+        "latitude": 55.908802,
+        "longitude": 27.172318,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 8.1,
+          "apparent_temperature": 4.8,
+          "weather_code": 3,
+          "wind_speed_10m": 9.4,
+          "wind_direction_10m": 117,
+          "wind_gusts_10m": 19.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00578025401",
+      "weather": {
+        "status": 200,
+        "latitude": 56.79954,
+        "longitude": 26.918884,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 9,
+          "apparent_temperature": 5.1,
+          "weather_code": 1,
+          "wind_speed_10m": 11.9,
+          "wind_direction_10m": 119,
+          "wind_gusts_10m": 17.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-LV00578027201",
+      "weather": {
+        "status": 200,
+        "latitude": 56.289845,
+        "longitude": 27.43515,
+        "current": {
+          "time": 1792656900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 9.5,
+          "apparent_temperature": 6,
+          "weather_code": 0,
+          "wind_speed_10m": 10.5,
+          "wind_direction_10m": 138,
+          "wind_gusts_10m": 21
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "lv-kovsu-virtual-tour",
+      "locationIds": [
+        "eea-LV00521000001"
+      ],
+      "operator": "Rēzekne municipality",
+      "sourcePage": "https://rezekne.lv/2022/07/piedzivo-kovsu-ezeru-ari-virtuali/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "2022 virtual tour of Kovšu lake; not live imagery.",
+      "checkedAt": "2026-10-22",
+      "type": "link",
+      "freshness": "historical-2022",
+      "embedding": "not-applicable",
+      "status": "rejected-not-live",
+      "nextReviewAt": "2026-11-21"
+    },
+    {
+      "cameraId": "lv-rezekne-latgale-square",
+      "locationIds": [
+        "eea-LV00521000001"
+      ],
+      "operator": "Baltic Live Cam / Latgale hotel",
+      "sourcePage": "https://balticlivecam.com/lv/cameras/latvia/rezekne/liberation-square-latgalian-mara/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Municipality-linked camera identifies Liberation Square, not Kovšu lake.",
+      "checkedAt": "2026-10-22",
+      "type": "link",
+      "freshness": "not-tested-wrong-view",
+      "embedding": "not-tested-wrong-view",
+      "status": "rejected-wrong-view",
+      "nextReviewAt": "2026-11-21"
+    }
+  ],
+  "cameraSearchScope": "Grouped exact site-name searches covered all15. No verified matching fresh stream/image found. 360.lv webcam belongs to Ķīšezers, a different lake, and was rejected. Tukums and Daugavpils official beach pages establish place identity but no live camera. This limited screening is not proof of camera absence.",
+  "identityEvidence": [
+    "https://www.visittukums.lv/lv/Ko-darit/Pludmales-un-peldvietas/Kesterciema-pludmale",
+    "https://www.visitdaugavpils.lv/turisma-objekts/luknas-ezers/",
+    "https://www.visitdaugavpils.lv/turisma-objekts/stropu-ezera-centrala-pludmale/"
+  ],
+  "productionAudit": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "initialDeployment": "dpl_2FbPthS9xXdhFFQx36KqEvvnN1Nj Ready",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "cataloguePages": 4,
+    "detailObservationIdentities": 15,
+    "observations": "15 valid empty observation lists; client model probes15 weather/3 marine, never marine for lakes. Model probes not counted as stored measurements.",
+    "scheduler": "One active minute job; weather/marine/UiRaS/LHMT/Hungarian measurement checks advancing. No source-checks mutation.",
+    "knownFailures": "EA samples120 failures next09:48; annual EA/NRW/SEPA6/6/7 nextOct27. Storm collector08:09, provider timestampOct21 22:46 stale."
+  },
+  "verification": [
+    "129 tests passed",
+    "npm run lint passed",
+    "npm run build passed after filesystem permission retry",
+    "330 bearings reproduced from versioned geometry",
+    "Disposable PostgreSQL manual north0/provenance/name preservation, type/coordinate guards and idempotence passed",
+    "Actual3-row import applied twice locally with unchanged rerun",
+    "Production API15 identity/source/schema checks,3 applied bearings,12 lakes without marine bindings",
+    "Production browser KLAPKALNCIEMS selected through picker: Part mentén shown, missing-orientation note absent; current quality unconfirmed and no verified camera. No UI code changed."
+  ],
+  "activation": {
+    "status": "applied",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "imports": [
+      "supabase/imports/20261022_latvia_shore_orientations.sql"
+    ],
+    "deploymentStatus": "pending"
+  },
+  "nextCountry": "Lithuania"
+}
