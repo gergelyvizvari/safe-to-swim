@@ -911,7 +911,8 @@
     "Disposable PostgreSQL manual north0/provenance/name preservation, type/coordinate guards and idempotence passed",
     "Actual3-row import applied twice locally with unchanged rerun",
     "Production API15 identity/source/schema checks,3 applied bearings,12 lakes without marine bindings",
-    "Production browser KLAPKALNCIEMS selected through picker: Part mentén shown, missing-orientation note absent; current quality unconfirmed and no verified camera. No UI code changed."
+    "Production browser KLAPKALNCIEMS selected through picker: Part mentén shown, missing-orientation note absent; current quality unconfirmed and no verified camera. No UI code changed.",
+    "Vercel success for23e2d6a; production published geometry contains330 records and all3 new values."
   ],
   "activation": {
     "status": "applied",
@@ -919,7 +920,9 @@
     "imports": [
       "supabase/imports/20261022_latvia_shore_orientations.sql"
     ],
-    "deploymentStatus": "pending"
+    "deploymentStatus": "verified-success",
+    "commit": "23e2d6a5e8dad9c97240ccf542b3e00c905fdad4",
+    "deployment": "https://vercel.com/gergely-s-projects/safe-to-swim/GhHZHcaNftwkHJGWy9wJkmeCYsg8"
   },
   "nextCountry": "Lithuania"
 }
