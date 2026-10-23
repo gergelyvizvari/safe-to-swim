@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-23",
+  "selection": "15 previously unreviewed Lithuanian lakes; coastal identity conflicts reviewed October 13 remain deferred until November 12. Same batch screened for cameras. Sea bearing is not applicable to lakes.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 0,
+    "liveNewCoverage": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-LT0011510050050",
+      "name": "VIJUNELES",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT0011510050050",
+        "open-meteo-weather:eea-LT0011510050050"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001157010030314",
+      "name": "ILGIO",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001157010030314",
+        "open-meteo-weather:eea-LT001157010030314"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001330110030550",
+      "name": "DIDZIOSIOS DAILIDES",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001330110030550",
+        "open-meteo-weather:eea-LT001330110030550"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001330110030551",
+      "name": "MAZOSIOS DAILIDES",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001330110030551",
+        "open-meteo-weather:eea-LT001330110030551"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001331711040135",
+      "name": "DAUGU",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001331711040135",
+        "open-meteo-weather:eea-LT001331711040135"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001380111030138",
+      "name": "GLUKO",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001380111030138",
+        "open-meteo-weather:eea-LT001380111030138"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001380111050112",
+      "name": "DEREZNYCIOS",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001380111050112",
+        "open-meteo-weather:eea-LT001380111050112"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001591310030250",
+      "name": "SNAIGYNO",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001591310030250",
+        "open-meteo-weather:eea-LT001591310030250"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001594015030090",
+      "name": "BALTAJO",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001594015030090",
+        "open-meteo-weather:eea-LT001594015030090"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT0015959610030210",
+      "name": "SEIRIJO",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT0015959610030210",
+        "open-meteo-weather:eea-LT0015959610030210"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001596910030001",
+      "name": "ANCIOS",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001596910030001",
+        "open-meteo-weather:eea-LT001596910030001"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "No matching lake in the 97-station LHMT API inventory. Local quality pages screened; seasonal/historical material is not current safety evidence. No new algae, storm, wave or current feed verified. Limited screening does not prove absence."
+    },
+    {
+      "locationId": "eea-LT001596910040582",
+      "name": "METELIO",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001596910040582",
+        "open-meteo-weather:eea-LT001596910040582"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "LHMT weekly HTML table has a Metelių row but no temperature value. Do not substitute nearby Dusia data."
+    },
+    {
+      "locationId": "eea-LT001596915040123",
+      "name": "DUSIOS",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT001596915040123",
+        "open-meteo-weather:eea-LT001596915040123"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "LHMT weekly HTML table reports 12.4 C on 2026-10-22, but exact sampling point/time/depth and redistribution permission are unverified. API CC BY-SA license does not automatically cover website table."
+    },
+    {
+      "locationId": "eea-LT0021910060001",
+      "name": "LAMPEDZIU",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT0021910060001",
+        "open-meteo-weather:eea-LT0021910060001"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "Reject lampedziu-vms: provider waterBody is Nemunas river, not Lampėdis lake. WakeUp operator video plays, but exact camera coordinates, bathing-area field of view and capture freshness remain unverified."
+    },
+    {
+      "locationId": "eea-LT002727316050143",
+      "name": "SUJAINIU",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "status": "candidate",
+      "provider": "lhmt-hydrology",
+      "sourceTargets": [
+        "eea:eea-LT002727316050143",
+        "open-meteo-weather:eea-LT002727316050143"
+      ],
+      "shoreOrientationStatus": "not-applicable-lake",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-22",
+      "reason": "Raseiniai municipality publishes 2026 historical bacteria samples through August 25; stale for October 23. No fresh licensed machine-readable feed verified."
+    }
+  ],
+  "providers": [
+    {
+      "id": "lhmt-hydrology",
+      "url": "https://api.meteo.lt/v1/hydro-stations",
+      "httpStatus": 200,
+      "stationCount": 97,
+      "documentation": "https://api.meteo.lt/",
+      "license": "API CC BY-SA 4.0",
+      "limits": "180 requests/minute; 20000/day",
+      "result": "No selected lake match; lampedziu-vms is Nemunas, rejected. No observation request for unrelated stations."
+    },
+    {
+      "id": "lhmt-weekly-lakes",
+      "url": "https://www.meteo.lt/dabar/vandens-telkiniai/",
+      "httpStatus": 200,
+      "rightsUrl": "https://www.meteo.lt/istaiga/autorines-teises/",
+      "result": "Weekly Thursday table: Dusia 12.4 C dated October 22; Meteliai blank. Date-only, exact measurement point/depth unspecified. Website redistribution not established; no import prepared."
+    },
+    {
+      "id": "municipal-quality",
+      "sources": [
+        "https://druskininkusavivaldybe.lt/veiklos-sritys/maudyklos-ir-papludimiai-3",
+        "https://www.arsa.lt/veiklos-sritys/sveikatos-apsauga/maudyklos-ir-papludimiai/579",
+        "https://www.lazdijai.lt/gyventojams/naujienos/7/lazdiju-rajono-maudyklos-laukia-pramogautoju%3A2701",
+        "https://www.raseiniai.lt/sveikata/?lang=en"
+      ],
+      "result": "Druskininkai and Alytus schedules are not fresh samples; Lazdijai 2023 article supports identity only; Raseiniai Sujainiai samples end August 25. No current official Varena/Alytus-city/Kaunas feed verified. Reuse October 13 HI candidate without repeating unsuccessful national search before its due date."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "lt-wakeup-lampedziai",
+      "locationId": "eea-LT0021910060001",
+      "operator": "WakeUp Kaunas",
+      "sourcePage": "https://wakeup.lt/tiesiogine-transliacija/",
+      "identityPage": "https://wakeup.lt/vandenlenciu-parkas-lampedziai/",
+      "coordinates": null,
+      "address": "Raudondvario pl. 161a, Kaunas",
+      "waterBody": "Lampėdis",
+      "checkedAt": "2026-10-23",
+      "nextReviewAt": "2026-11-22",
+      "type": "stream",
+      "status": "candidate",
+      "freshness": "capture timestamp not verified",
+      "embedding": "not verified; retain operator page",
+      "fieldOfView": "Lake, wakeboard obstacles and launch platforms visible; selected bathing area not verified.",
+      "playbackEvidence": "Browser video readyState 4, paused false, 1280 width; currentTime advanced from 22.779 to 48.254 seconds. Playback alone does not establish capture date.",
+      "integration": "Not assigned pending exact coordinates and field-of-view evidence."
+    }
+  ],
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "deployment": "dpl_Q9ZqBncozhG3A2tzWMmEyJd8Tqui",
+    "apiCheckedAt": "2026-10-23T07:57:47.102055+00:00",
+    "apiResult": "4 paginated lists and 15 detail/observation pairs validated; identities, coordinates, water types and source targets match. Annual classifications are 2025; all 15 observations empty. Existing client Open-Meteo requests preserved.",
+    "scheduler": "One active minute cron; no new schedule or source-check invocation. Weather, marine, Hungarian and UiRaS checks advance.",
+    "sourceIssues": "official-quality: one fetch_or_parse_failed at October 22 16:09, last success October 21, next due October 23 16:09; retained payload. Hungarian storm publication stale. EA/NRW/SEPA existing failures unchanged."
+  },
+  "validation": {
+    "test": "passed",
+    "lint": "passed",
+    "build": "passed",
+    "ui": "No UI changes"
+  },
+  "publication": {
+    "scope": "Research ledger only; no runtime, schema or catalogue changes. Deployment status is checked after push separately."
+  }
+}
