@@ -1,0 +1,644 @@
+{
+  "checkedAt": "2026-10-24T07:57:27.318012+00:00",
+  "source": "OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "requests": [
+    {
+      "locationId": "eea-PL4210507232000189",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.91505,54.05634,14.931049999999999,54.064339999999994",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000182",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.917800000000002,54.0568,14.9338,54.0648",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000184",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.9253,54.0585,14.941299999999998,54.0665",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000178",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.9375,54.0615,14.953499999999998,54.0695",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000190",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.94341,54.06328,14.959409999999998,54.071279999999994",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000011",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.95832,54.066810000000004,14.974319999999999,54.07481",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000012",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.983110000000002,54.07322,14.99911,54.081219999999995",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000179",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.984200000000001,54.074000000000005,15.0002,54.082",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4220801132000098",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=14.99905,54.0779,15.015049999999999,54.085899999999995",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000013",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=15.0045,54.078500000000005,15.020499999999998,54.0865",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000191",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=15.013330000000002,54.081120000000006,15.02933,54.08912",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000183",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=15.017050000000001,54.08194,15.03305,54.08994",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4220801132000100",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=15.06385,54.0925,15.079849999999999,54.1005",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000014",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=15.07422,54.0935,15.090219999999999,54.101499999999994",
+      "status": 200
+    },
+    {
+      "locationId": "eea-PL4210507232000192",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=15.07952,54.09517,15.095519999999999,54.10317",
+      "status": 200
+    }
+  ],
+  "elements": [
+    {
+      "type": "way",
+      "id": 733431748,
+      "version": 16,
+      "tags": {
+        "description": "Obejmuje w\u0105ski pas wybrze\u017ca od Dziwny po Ko\u0142obrzeg z mozaik\u0105 r\u00f3wninnych krajobraz\u00f3w glacjalnych z kulminacjami w formie wzg\u00f3rz czo\u0142owomorenowych, opadaj\u0105cych do Ba\u0142tyku klifami oraz pag\u00f3r\u00f3w wydmowych przechodz\u0105cych ku p\u00f3\u0142nocy w pla\u017ce nad",
+        "name": "Wybrze\u017ce Trzebiatowskie",
+        "name:de": "Treptower K\u00fcste",
+        "name:pl": "Wybrze\u017ce Trzebiatowskie",
+        "natural": "coastline",
+        "ref": "313.22",
+        "source": "PGS(could be inacurately)"
+      },
+      "geometry": [
+        {
+          "lat": 54.0685413,
+          "lon": 14.956196
+        },
+        {
+          "lat": 54.0681254,
+          "lon": 14.9544891
+        },
+        {
+          "lat": 54.0674585,
+          "lon": 14.9521585
+        },
+        {
+          "lat": 54.0673123,
+          "lon": 14.951611
+        },
+        {
+          "lat": 54.0671132,
+          "lon": 14.9504257
+        },
+        {
+          "lat": 54.0669094,
+          "lon": 14.9496526
+        },
+        {
+          "lat": 54.0666467,
+          "lon": 14.9487563
+        },
+        {
+          "lat": 54.0663165,
+          "lon": 14.9474264
+        },
+        {
+          "lat": 54.0659075,
+          "lon": 14.9455879
+        },
+        {
+          "lat": 54.0656213,
+          "lon": 14.9440356
+        },
+        {
+          "lat": 54.0651266,
+          "lon": 14.9418851
+        },
+        {
+          "lat": 54.0645328,
+          "lon": 14.9400287
+        },
+        {
+          "lat": 54.06444,
+          "lon": 14.9393461
+        },
+        {
+          "lat": 54.0642639,
+          "lon": 14.9388219
+        },
+        {
+          "lat": 54.0639529,
+          "lon": 14.9365681
+        },
+        {
+          "lat": 54.0636661,
+          "lon": 14.9353242
+        },
+        {
+          "lat": 54.0632294,
+          "lon": 14.9338552
+        },
+        {
+          "lat": 54.0628403,
+          "lon": 14.9322105
+        },
+        {
+          "lat": 54.0623161,
+          "lon": 14.930119
+        },
+        {
+          "lat": 54.0618962,
+          "lon": 14.9284993
+        },
+        {
+          "lat": 54.0616405,
+          "lon": 14.9274291
+        },
+        {
+          "lat": 54.0612431,
+          "lon": 14.9264098
+        },
+        {
+          "lat": 54.0609991,
+          "lon": 14.9254159
+        },
+        {
+          "lat": 54.0607212,
+          "lon": 14.9245511
+        },
+        {
+          "lat": 54.0606287,
+          "lon": 14.9238879
+        },
+        {
+          "lat": 54.059964,
+          "lon": 14.9216956
+        },
+        {
+          "lat": 54.0594596,
+          "lon": 14.9191965
+        },
+        {
+          "lat": 54.0590936,
+          "lon": 14.9175718
+        },
+        {
+          "lat": 54.058618,
+          "lon": 14.9152243
+        },
+        {
+          "lat": 54.0583855,
+          "lon": 14.9139456
+        },
+        {
+          "lat": 54.0573879,
+          "lon": 14.9093804
+        },
+        {
+          "lat": 54.0568053,
+          "lon": 14.9070763
+        },
+        {
+          "lat": 54.0566233,
+          "lon": 14.9060144
+        },
+        {
+          "lat": 54.0562677,
+          "lon": 14.9040431
+        },
+        {
+          "lat": 54.055924,
+          "lon": 14.9025817
+        },
+        {
+          "lat": 54.0551184,
+          "lon": 14.898368
+        },
+        {
+          "lat": 54.054902,
+          "lon": 14.8972599
+        },
+        {
+          "lat": 54.0546421,
+          "lon": 14.895865
+        },
+        {
+          "lat": 54.0546295,
+          "lon": 14.8958132
+        },
+        {
+          "lat": 54.054601,
+          "lon": 14.8956958
+        }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 733431749,
+      "version": 12,
+      "tags": {
+        "description": "Obejmuje w\u0105ski pas wybrze\u017ca od Dziwny po Ko\u0142obrzeg z mozaik\u0105 r\u00f3wninnych krajobraz\u00f3w glacjalnych z kulminacjami w formie wzg\u00f3rz czo\u0142owomorenowych, opadaj\u0105cych do Ba\u0142tyku klifami oraz pag\u00f3r\u00f3w wydmowych przechodz\u0105cych ku p\u00f3\u0142nocy w pla\u017ce nad",
+        "name": "Wybrze\u017ce Trzebiatowskie",
+        "name:de": "Treptower K\u00fcste",
+        "name:pl": "Wybrze\u017ce Trzebiatowskie",
+        "natural": "coastline",
+        "ref": "313.22",
+        "source": "PGS(could be inacurately)"
+      },
+      "geometry": [
+        {
+          "lat": 54.0823452,
+          "lon": 15.0088353
+        },
+        {
+          "lat": 54.082241,
+          "lon": 15.0083193
+        },
+        {
+          "lat": 54.0816299,
+          "lon": 15.0055086
+        },
+        {
+          "lat": 54.0813228,
+          "lon": 15.0035599
+        },
+        {
+          "lat": 54.0809634,
+          "lon": 15.0019119
+        },
+        {
+          "lat": 54.0807855,
+          "lon": 15.0010663
+        },
+        {
+          "lat": 54.0803704,
+          "lon": 14.999708
+        },
+        {
+          "lat": 54.080041,
+          "lon": 14.9988611
+        },
+        {
+          "lat": 54.0795927,
+          "lon": 14.9970274
+        },
+        {
+          "lat": 54.0791611,
+          "lon": 14.9953999
+        },
+        {
+          "lat": 54.0786229,
+          "lon": 14.9931886
+        },
+        {
+          "lat": 54.078361,
+          "lon": 14.9922006
+        },
+        {
+          "lat": 54.0782447,
+          "lon": 14.9917815
+        },
+        {
+          "lat": 54.077933,
+          "lon": 14.9909034
+        },
+        {
+          "lat": 54.0772498,
+          "lon": 14.9887261
+        },
+        {
+          "lat": 54.0768079,
+          "lon": 14.9872841
+        },
+        {
+          "lat": 54.0762278,
+          "lon": 14.9856375
+        },
+        {
+          "lat": 54.0755679,
+          "lon": 14.9840624
+        },
+        {
+          "lat": 54.0753829,
+          "lon": 14.983307
+        },
+        {
+          "lat": 54.0747666,
+          "lon": 14.981326
+        },
+        {
+          "lat": 54.0742533,
+          "lon": 14.9796116
+        },
+        {
+          "lat": 54.0734882,
+          "lon": 14.9767999
+        },
+        {
+          "lat": 54.0729295,
+          "lon": 14.9746248
+        },
+        {
+          "lat": 54.072513,
+          "lon": 14.9725985
+        },
+        {
+          "lat": 54.0722351,
+          "lon": 14.9714766
+        },
+        {
+          "lat": 54.0717145,
+          "lon": 14.9692248
+        },
+        {
+          "lat": 54.0714979,
+          "lon": 14.9684822
+        },
+        {
+          "lat": 54.0710221,
+          "lon": 14.966759
+        },
+        {
+          "lat": 54.0705612,
+          "lon": 14.9648728
+        },
+        {
+          "lat": 54.070313,
+          "lon": 14.9637405
+        },
+        {
+          "lat": 54.0695693,
+          "lon": 14.9608893
+        },
+        {
+          "lat": 54.0690064,
+          "lon": 14.9582554
+        },
+        {
+          "lat": 54.0685413,
+          "lon": 14.956196
+        }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 758477873,
+      "version": 9,
+      "tags": {
+        "description": "Obejmuje w\u0105ski pas wybrze\u017ca od Dziwny po Ko\u0142obrzeg z mozaik\u0105 r\u00f3wninnych krajobraz\u00f3w glacjalnych z kulminacjami w formie wzg\u00f3rz czo\u0142owomorenowych, opadaj\u0105cych do Ba\u0142tyku klifami oraz pag\u00f3r\u00f3w wydmowych przechodz\u0105cych ku p\u00f3\u0142nocy w pla\u017ce nad",
+        "name": "Wybrze\u017ce Trzebiatowskie",
+        "name:de": "Treptower K\u00fcste",
+        "name:pl": "Wybrze\u017ce Trzebiatowskie",
+        "natural": "coastline",
+        "ref": "313.22",
+        "source": "PGS(could be inacurately)"
+      },
+      "geometry": [
+        {
+          "lat": 54.0896919,
+          "lon": 15.0379855
+        },
+        {
+          "lat": 54.0894715,
+          "lon": 15.0363276
+        },
+        {
+          "lat": 54.0883516,
+          "lon": 15.0324147
+        },
+        {
+          "lat": 54.0870891,
+          "lon": 15.028798
+        },
+        {
+          "lat": 54.0867945,
+          "lon": 15.0272041
+        },
+        {
+          "lat": 54.0863194,
+          "lon": 15.0257337
+        },
+        {
+          "lat": 54.0860389,
+          "lon": 15.0240386
+        },
+        {
+          "lat": 54.0855485,
+          "lon": 15.0222256
+        },
+        {
+          "lat": 54.0852221,
+          "lon": 15.0209619
+        },
+        {
+          "lat": 54.0848805,
+          "lon": 15.0195202
+        },
+        {
+          "lat": 54.084706,
+          "lon": 15.0187184
+        },
+        {
+          "lat": 54.084397,
+          "lon": 15.0174528
+        },
+        {
+          "lat": 54.0841953,
+          "lon": 15.0166136
+        },
+        {
+          "lat": 54.0837501,
+          "lon": 15.0149094
+        },
+        {
+          "lat": 54.0829647,
+          "lon": 15.0116708
+        },
+        {
+          "lat": 54.0828044,
+          "lon": 15.0107266
+        },
+        {
+          "lat": 54.0826975,
+          "lon": 15.0099639
+        },
+        {
+          "lat": 54.082492,
+          "lon": 15.0094444
+        },
+        {
+          "lat": 54.0823452,
+          "lon": 15.0088353
+        }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 737057554,
+      "version": 17,
+      "tags": {
+        "description": "Obejmuje w\u0105ski pas wybrze\u017ca od Dziwny po Ko\u0142obrzeg z mozaik\u0105 r\u00f3wninnych krajobraz\u00f3w glacjalnych z kulminacjami w formie wzg\u00f3rz czo\u0142owomorenowych, opadaj\u0105cych do Ba\u0142tyku klifami oraz pag\u00f3r\u00f3w wydmowych przechodz\u0105cych ku p\u00f3\u0142nocy w pla\u017ce nad",
+        "name": "Wybrze\u017ce Trzebiatowskie",
+        "name:de": "Treptower K\u00fcste",
+        "name:pl": "Wybrze\u017ce Trzebiatowskie",
+        "natural": "coastline",
+        "ref": "313.22",
+        "source": "PGS(could be inacurately)"
+      },
+      "geometry": [
+        {
+          "lat": 54.0999447,
+          "lon": 15.0921499
+        },
+        {
+          "lat": 54.0996788,
+          "lon": 15.0906537
+        },
+        {
+          "lat": 54.0993933,
+          "lon": 15.0888721
+        },
+        {
+          "lat": 54.0992952,
+          "lon": 15.0885562
+        },
+        {
+          "lat": 54.0991648,
+          "lon": 15.0876573
+        },
+        {
+          "lat": 54.0989686,
+          "lon": 15.0869354
+        },
+        {
+          "lat": 54.0988077,
+          "lon": 15.086449
+        },
+        {
+          "lat": 54.0984919,
+          "lon": 15.0842558
+        },
+        {
+          "lat": 54.0980969,
+          "lon": 15.0817911
+        },
+        {
+          "lat": 54.0978855,
+          "lon": 15.0799605
+        },
+        {
+          "lat": 54.0978222,
+          "lon": 15.0790787
+        },
+        {
+          "lat": 54.0977091,
+          "lon": 15.0779342
+        },
+        {
+          "lat": 54.0972382,
+          "lon": 15.0747148
+        },
+        {
+          "lat": 54.0968347,
+          "lon": 15.0719251
+        },
+        {
+          "lat": 54.0966219,
+          "lon": 15.0701703
+        },
+        {
+          "lat": 54.0965863,
+          "lon": 15.0690555
+        },
+        {
+          "lat": 54.0962188,
+          "lon": 15.0672591
+        },
+        {
+          "lat": 54.0959974,
+          "lon": 15.066161
+        },
+        {
+          "lat": 54.0958186,
+          "lon": 15.0650193
+        },
+        {
+          "lat": 54.0956811,
+          "lon": 15.0639954
+        },
+        {
+          "lat": 54.0954219,
+          "lon": 15.0624863
+        },
+        {
+          "lat": 54.0951418,
+          "lon": 15.0605
+        }
+      ]
+    },
+    {
+      "type": "way",
+      "id": 998010416,
+      "version": 6,
+      "tags": {
+        "description": "Obejmuje w\u0105ski pas wybrze\u017ca od Dziwny po Ko\u0142obrzeg z mozaik\u0105 r\u00f3wninnych krajobraz\u00f3w glacjalnych z kulminacjami w formie wzg\u00f3rz czo\u0142owomorenowych, opadaj\u0105cych do Ba\u0142tyku klifami oraz pag\u00f3r\u00f3w wydmowych przechodz\u0105cych ku p\u00f3\u0142nocy w pla\u017ce nad",
+        "name": "Wybrze\u017ce Trzebiatowskie",
+        "name:de": "Treptower K\u00fcste",
+        "name:pl": "Wybrze\u017ce Trzebiatowskie",
+        "natural": "coastline",
+        "ref": "313.22",
+        "source": "PGS(could be inacurately)"
+      },
+      "geometry": [
+        {
+          "lat": 54.1014479,
+          "lon": 15.0996052
+        },
+        {
+          "lat": 54.1011061,
+          "lon": 15.0982367
+        },
+        {
+          "lat": 54.1008051,
+          "lon": 15.0972012
+        },
+        {
+          "lat": 54.1005132,
+          "lon": 15.0958323
+        },
+        {
+          "lat": 54.1001447,
+          "lon": 15.0930188
+        },
+        {
+          "lat": 54.0999447,
+          "lon": 15.0921499
+        }
+      ]
+    }
+  ]
+}

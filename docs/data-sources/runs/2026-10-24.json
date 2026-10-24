@@ -1,0 +1,1271 @@
+{
+  "date": "2026-10-24",
+  "selection": "15 previously unreviewed coastal sites in Rewal municipality, prioritising missing shore orientation with existing weather/marine bindings.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 15,
+    "liveNewCoverage": 15,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-PL4210507232000189",
+      "name": "Kąpielisko Pobierowo plaża zachodnia 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000189",
+        "open-meteo-marine:eea-PL4210507232000189"
+      ],
+      "seaBearing": 333,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000182",
+      "name": "Kąpielisko Pobierowo 1",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000182",
+        "open-meteo-marine:eea-PL4210507232000182"
+      ],
+      "seaBearing": 335,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000184",
+      "name": "Kąpielisko Pobierowo 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000184",
+        "open-meteo-marine:eea-PL4210507232000184"
+      ],
+      "seaBearing": 338,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000178",
+      "name": "Kąpielisko Pobierowo plaża wschodnia",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000178",
+        "open-meteo-marine:eea-PL4210507232000178"
+      ],
+      "seaBearing": 341,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000190",
+      "name": "Kąpielisko Pobierowo plaża wschodnia 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000190",
+        "open-meteo-marine:eea-PL4210507232000190"
+      ],
+      "seaBearing": 341,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000011",
+      "name": "KĄPIELISKO PUSTKOWO",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000011",
+        "open-meteo-marine:eea-PL4210507232000011"
+      ],
+      "seaBearing": 337,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000012",
+      "name": "KĄPIELISKO TRZĘSACZ",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000012",
+        "open-meteo-marine:eea-PL4210507232000012"
+      ],
+      "seaBearing": 331,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000179",
+      "name": "Kąpielisko Trzęsacz plaża wschodnia",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000179",
+        "open-meteo-marine:eea-PL4210507232000179"
+      ],
+      "seaBearing": 333,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4220801132000098",
+      "name": "KĄPIELISKO REWAL PLAŻA ZACHODNIA",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000098",
+        "open-meteo-marine:eea-PL4220801132000098"
+      ],
+      "seaBearing": 340,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000013",
+      "name": "KĄPIELISKO REWAL",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000013",
+        "open-meteo-marine:eea-PL4210507232000013"
+      ],
+      "seaBearing": 339,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000191",
+      "name": "Kąpielisko Rewal 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000191",
+        "open-meteo-marine:eea-PL4210507232000191"
+      ],
+      "seaBearing": 337,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000183",
+      "name": "Kąpielisko Rewal plaża wschodnia 1",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000183",
+        "open-meteo-marine:eea-PL4210507232000183"
+      ],
+      "seaBearing": 344,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4220801132000100",
+      "name": "KĄPIELISKO NIECHORZE PLAŻA ZACHODNIA",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000100",
+        "open-meteo-marine:eea-PL4220801132000100"
+      ],
+      "seaBearing": 347,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000014",
+      "name": "KĄPIELISKO NIECHORZE",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000014",
+        "open-meteo-marine:eea-PL4210507232000014"
+      ],
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000192",
+      "name": "Kąpielisko Niechorze 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000192",
+        "open-meteo-marine:eea-PL4210507232000192"
+      ],
+      "seaBearing": 339,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "pl-trzesacz-webcamera",
+      "locationIds": [
+        "eea-PL4210507232000012",
+        "eea-PL4210507232000179"
+      ],
+      "operator": "WebCamera Media",
+      "sourcePage": "https://trzesacz.webcamera.pl/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator identifies viewing platform by church ruins; browser player reported Unable to play media. Cookie rejection action was blocked by automatic approval review; no further interaction.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "No permission assumed; operator copyright requires written consent for reuse.",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "status": "candidate",
+      "integrated": false
+    },
+    {
+      "cameraId": "pl-rewal-webcamera",
+      "locationIds": [
+        "eea-PL4220801132000098",
+        "eea-PL4210507232000013",
+        "eea-PL4210507232000191",
+        "eea-PL4210507232000183"
+      ],
+      "operator": "WebCamera Media",
+      "sourcePage": "https://rewal-plaza.webcamera.pl/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator identifies platform at Plac Wielorybow; exact coordinates, current playback and beach extent not verified.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "No permission assumed; operator copyright requires written consent for reuse.",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "status": "candidate",
+      "integrated": false
+    },
+    {
+      "cameraId": "pl-niechorze-webcamera",
+      "locationIds": [
+        "eea-PL4220801132000100",
+        "eea-PL4210507232000014",
+        "eea-PL4210507232000192"
+      ],
+      "operator": "WebCamera Media",
+      "sourcePage": "https://niechorze-plaza.webcamera.pl/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator describes fishing pier and beach; exact camera position and selected bathing-zone field of view unverified.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "No permission assumed; operator copyright requires written consent for reuse.",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "status": "candidate",
+      "integrated": false
+    },
+    {
+      "cameraId": "pl-pustkowo-webcamera",
+      "locationIds": [
+        "eea-PL4210507232000011"
+      ],
+      "operator": "WebCamera Media",
+      "sourcePage": "https://pustkowo.webcamera.pl/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Provider link describes Cross of Hope, not proof of beach coverage.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "No permission assumed; operator copyright requires written consent for reuse.",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "status": "candidate",
+      "integrated": false
+    },
+    {
+      "cameraId": "pl-pobierowo-municipal",
+      "locationIds": [
+        "eea-PL4210507232000189",
+        "eea-PL4210507232000182",
+        "eea-PL4210507232000184",
+        "eea-PL4210507232000178",
+        "eea-PL4210507232000190"
+      ],
+      "operator": "Gmina Rewal",
+      "sourcePage": "https://rewal.pl/kamery-on-line/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Reuse October14 candidate; no repeat before November13. No assignment to new neighbouring bathing zones without verified FOV.",
+      "type": "link",
+      "freshness": "unknown",
+      "embedding": "unverified",
+      "checkedAt": "2026-10-14",
+      "nextReviewAt": "2026-11-13",
+      "status": "candidate",
+      "integrated": false
+    }
+  ],
+  "providers": [
+    {
+      "id": "gis-poland",
+      "sources": [
+        "https://sk.gis.gov.pl/kapielisko/39",
+        "https://sk.gis.gov.pl/kapielisko/37"
+      ],
+      "evidence": "Pustkowo official page identifies Baltic water and August21 seasonal samples; Rewal search result has same date, direct open timed out. No current October quality clearance. Coordinate crosswalk not verified.",
+      "status": "candidate"
+    },
+    {
+      "id": "imgw-hydro-and-warnings",
+      "priorEvidence": "runs/2026-09-28.json",
+      "nextReviewAt": "2026-10-28",
+      "evidence": "Prior unresolved units/timezone/reuse/warning contract not retried early. No verified new temperature, algae, storm, local wave or current provider. Existing Open-Meteo forecasts preserved."
+    },
+    {
+      "id": "rewal-municipality",
+      "url": "https://e-dziennik.szczecin.uw.gov.pl/WDU_Z/2026/1587/oryginal/akt.pdf",
+      "evidence": "Search-indexed 2026 bathing-zone resolution includes beach segments and PL-2000 coordinates. Full web extraction exceeded size limit; not used as transformed geometry."
+    }
+  ],
+  "geometry": {
+    "snapshot": "data/shorelines/2026-10-24-osm.json",
+    "license": "ODbL-1.0",
+    "method": "15 individually reviewed length-weighted local right normals; land-left/water-right coastline topology. 0–76m catalogue-to-shore offsets, including landward points, retained.",
+    "importFile": "supabase/imports/20261024_poland_shore_orientations.sql",
+    "reproducedTotal": 345
+  },
+  "modelProbes": [
+    {
+      "locationId": "eea-PL4210507232000189",
+      "weather": {
+        "status": 200,
+        "latitude": 54.05326,
+        "longitude": 14.941919,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 6.8,
+          "weather_code": 1,
+          "wind_speed_10m": 12.4,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 25.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.041664,
+        "longitude": 14.791672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.36,
+          "wave_direction": 186,
+          "wave_period": 2.5,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000182",
+      "weather": {
+        "status": 200,
+        "latitude": 54.05326,
+        "longitude": 14.941919,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 6.8,
+          "weather_code": 1,
+          "wind_speed_10m": 12.4,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 25.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.041664,
+        "longitude": 14.791672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.36,
+          "wave_direction": 186,
+          "wave_period": 2.5,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000184",
+      "weather": {
+        "status": 200,
+        "latitude": 54.05326,
+        "longitude": 14.941919,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 6.8,
+          "weather_code": 1,
+          "wind_speed_10m": 12.4,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 25.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.041664,
+        "longitude": 14.791672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.36,
+          "wave_direction": 186,
+          "wave_period": 2.5,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000178",
+      "weather": {
+        "status": 200,
+        "latitude": 54.05326,
+        "longitude": 14.941919,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 6.8,
+          "weather_code": 1,
+          "wind_speed_10m": 12.4,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 25.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 14.9583435,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.68,
+          "wave_direction": 188,
+          "wave_period": 3.15,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000190",
+      "weather": {
+        "status": 200,
+        "latitude": 54.058636,
+        "longitude": 14.971341,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 6.8,
+          "weather_code": 2,
+          "wind_speed_10m": 12.6,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 23.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 14.9583435,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.68,
+          "wave_direction": 188,
+          "wave_period": 3.15,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000011",
+      "weather": {
+        "status": 200,
+        "latitude": 54.058636,
+        "longitude": 14.971341,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.8,
+          "apparent_temperature": 6.8,
+          "weather_code": 2,
+          "wind_speed_10m": 12.6,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 23.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 14.9583435,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.68,
+          "wave_direction": 188,
+          "wave_period": 3.15,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000012",
+      "weather": {
+        "status": 200,
+        "latitude": 54.07996,
+        "longitude": 15.005821,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 14,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 21.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 14.9583435,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.68,
+          "wave_direction": 188,
+          "wave_period": 3.15,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000179",
+      "weather": {
+        "status": 200,
+        "latitude": 54.07996,
+        "longitude": 15.005821,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 14,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 21.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 14.9583435,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.68,
+          "wave_direction": 188,
+          "wave_period": 3.15,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000098",
+      "weather": {
+        "status": 200,
+        "latitude": 54.07996,
+        "longitude": 15.005821,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 14,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 21.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000013",
+      "weather": {
+        "status": 200,
+        "latitude": 54.07996,
+        "longitude": 15.005821,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 14,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 21.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000191",
+      "weather": {
+        "status": 200,
+        "latitude": 54.07996,
+        "longitude": 15.005821,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 14,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 21.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000183",
+      "weather": {
+        "status": 200,
+        "latitude": 54.07996,
+        "longitude": 15.005821,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 14,
+          "wind_direction_10m": 174,
+          "wind_gusts_10m": 21.5
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000100",
+      "weather": {
+        "status": 200,
+        "latitude": 54.090614,
+        "longitude": 15.059461,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.5,
+          "apparent_temperature": 6.4,
+          "weather_code": 2,
+          "wind_speed_10m": 13.3,
+          "wind_direction_10m": 172,
+          "wind_gusts_10m": 21.7
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000014",
+      "weather": {
+        "status": 200,
+        "latitude": 54.095963,
+        "longitude": 15.088941,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 13.8,
+          "wind_direction_10m": 173,
+          "wind_gusts_10m": 22.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.14,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000192",
+      "weather": {
+        "status": 200,
+        "latitude": 54.095963,
+        "longitude": 15.088941,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 10.7,
+          "apparent_temperature": 6.5,
+          "weather_code": 2,
+          "wind_speed_10m": 13.8,
+          "wind_direction_10m": 173,
+          "wind_gusts_10m": 22.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 15.041672,
+        "current": {
+          "time": 1792827900,
+          "interval": 900,
+          "wave_height": 0.6,
+          "wave_direction": 187,
+          "wave_period": 3.05,
+          "sea_level_height_msl": -0.15,
+          "sea_surface_temperature": 12.9,
+          "ocean_current_velocity": 0.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    }
+  ],
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "scheduler": "One active minute cron, no duplicate or forced source-check. UiRaS/LHMT/weather/marine/Hungarian observations advance.",
+    "issues": "Known EA sample403 (128 failures) and annual EA/NRW/SEPA issues persist. official-quality has two fetch_or_parse_failed checks, next due16:10UTC; retained payload. Storm publication05:02 stale at07:57 while collection advances."
+  },
+  "validation": {
+    "tests": 129,
+    "lint": "passed",
+    "build": "passed after sandbox permission retry",
+    "postgres": "Disposable local DB verified missing-only fill, coordinate/type guards, preservation of manual north bearing and metadata, rerun idempotence.",
+    "api": "Passed: lake/coastal pages at offsets0/15, 15 detail identities/coordinates/bearings/provenance and weather/marine bindings. All15 observations responses valid and empty; no measured coverage claimed.",
+    "ui": "Production Pustkowo selected through picker: southerly wind classified offshore, swimming discouraged; no missing-shore-orientation note. Current water quality remains unconfirmed; camera unavailable."
+  },
+  "publication": {
+    "status": "database applied and production API/UI verified; Git deployment checked separately after push"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-23",
-  "nextCountry": "Poland",
+  "lastRun": "2026-10-24",
+  "nextCountry": "Germany",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -10878,6 +10878,291 @@
       "cameraStatus": "not-found-in-screening",
       "cameraNextReviewAt": "2026-11-22",
       "reason": "Raseiniai municipality publishes 2026 historical bacteria samples through August 25; stale for October 23. No fresh licensed machine-readable feed verified."
+    },
+    {
+      "locationId": "eea-PL4210507232000189",
+      "name": "Kąpielisko Pobierowo plaża zachodnia 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000189",
+        "open-meteo-marine:eea-PL4210507232000189"
+      ],
+      "seaBearing": 333,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000182",
+      "name": "Kąpielisko Pobierowo 1",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000182",
+        "open-meteo-marine:eea-PL4210507232000182"
+      ],
+      "seaBearing": 335,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000184",
+      "name": "Kąpielisko Pobierowo 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000184",
+        "open-meteo-marine:eea-PL4210507232000184"
+      ],
+      "seaBearing": 338,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000178",
+      "name": "Kąpielisko Pobierowo plaża wschodnia",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000178",
+        "open-meteo-marine:eea-PL4210507232000178"
+      ],
+      "seaBearing": 341,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000190",
+      "name": "Kąpielisko Pobierowo plaża wschodnia 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000190",
+        "open-meteo-marine:eea-PL4210507232000190"
+      ],
+      "seaBearing": 341,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000011",
+      "name": "KĄPIELISKO PUSTKOWO",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000011",
+        "open-meteo-marine:eea-PL4210507232000011"
+      ],
+      "seaBearing": 337,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000012",
+      "name": "KĄPIELISKO TRZĘSACZ",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000012",
+        "open-meteo-marine:eea-PL4210507232000012"
+      ],
+      "seaBearing": 331,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000179",
+      "name": "Kąpielisko Trzęsacz plaża wschodnia",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000179",
+        "open-meteo-marine:eea-PL4210507232000179"
+      ],
+      "seaBearing": 333,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4220801132000098",
+      "name": "KĄPIELISKO REWAL PLAŻA ZACHODNIA",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000098",
+        "open-meteo-marine:eea-PL4220801132000098"
+      ],
+      "seaBearing": 340,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000013",
+      "name": "KĄPIELISKO REWAL",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000013",
+        "open-meteo-marine:eea-PL4210507232000013"
+      ],
+      "seaBearing": 339,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000191",
+      "name": "Kąpielisko Rewal 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000191",
+        "open-meteo-marine:eea-PL4210507232000191"
+      ],
+      "seaBearing": 337,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000183",
+      "name": "Kąpielisko Rewal plaża wschodnia 1",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000183",
+        "open-meteo-marine:eea-PL4210507232000183"
+      ],
+      "seaBearing": 344,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4220801132000100",
+      "name": "KĄPIELISKO NIECHORZE PLAŻA ZACHODNIA",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000100",
+        "open-meteo-marine:eea-PL4220801132000100"
+      ],
+      "seaBearing": 347,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000014",
+      "name": "KĄPIELISKO NIECHORZE",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000014",
+        "open-meteo-marine:eea-PL4210507232000014"
+      ],
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-PL4210507232000192",
+      "name": "Kąpielisko Niechorze 2",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-24",
+      "nextReviewAt": "2026-11-23",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000192",
+        "open-meteo-marine:eea-PL4210507232000192"
+      ],
+      "seaBearing": 339,
+      "shoreOrientationStatus": "applied",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-23",
+      "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
     }
   ]
 }

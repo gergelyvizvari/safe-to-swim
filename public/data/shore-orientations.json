@@ -11576,6 +11576,531 @@
         "snapshotFile": "2026-10-22-osm.json",
         "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Water lies north-northeast at Klapkalnciems, east at Kesterciems and north at Ragaciems. Original offshore sampling offsets retained; no neighbouring beach orientation copied."
       }
+    },
+    {
+      "locationId": "eea-PL4210507232000189",
+      "latitude": 54.06034,
+      "longitude": 14.92305,
+      "seaBearing": 333,
+      "shoreOrientation": {
+        "distanceMetres": 3,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431748
+        ],
+        "nearestSegment": 24,
+        "nearestWayId": 733431748,
+        "shorePoint": {
+          "latitude": 54.06036735181511,
+          "longitude": 14.92302592674027
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431748,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000182",
+      "latitude": 54.0608,
+      "longitude": 14.9258,
+      "seaBearing": 335,
+      "shoreOrientation": {
+        "distanceMetres": 30,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431748
+        ],
+        "nearestSegment": 21,
+        "nearestWayId": 733431748,
+        "shorePoint": {
+          "latitude": 54.06104970789872,
+          "longitude": 14.925622044223507
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431748,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000184",
+      "latitude": 54.0625,
+      "longitude": 14.9333,
+      "seaBearing": 338,
+      "shoreOrientation": {
+        "distanceMetres": 62,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431748
+        ],
+        "nearestSegment": 16,
+        "nearestWayId": 733431748,
+        "shorePoint": {
+          "latitude": 54.063014459166304,
+          "longitude": 14.932946659292801
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431748,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000178",
+      "latitude": 54.0655,
+      "longitude": 14.9455,
+      "seaBearing": 341,
+      "shoreOrientation": {
+        "distanceMetres": 42,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431748
+        ],
+        "nearestSegment": 8,
+        "nearestWayId": 733431748,
+        "shorePoint": {
+          "latitude": 54.065856142346206,
+          "longitude": 14.945309344842816
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431748,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000190",
+      "latitude": 54.06728,
+      "longitude": 14.95141,
+      "seaBearing": 341,
+      "shoreOrientation": {
+        "distanceMetres": 0,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431748
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 733431748,
+        "shorePoint": {
+          "latitude": 54.067278647932866,
+          "longitude": 14.951410659491849
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431748,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000011",
+      "latitude": 54.07081,
+      "longitude": 14.96632,
+      "seaBearing": 337,
+      "shoreOrientation": {
+        "distanceMetres": 11,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431749
+        ],
+        "nearestSegment": 27,
+        "nearestWayId": 733431749,
+        "shorePoint": {
+          "latitude": 54.07089933663891,
+          "longitude": 14.966256599801072
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431749,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000012",
+      "latitude": 54.07722,
+      "longitude": 14.99111,
+      "seaBearing": 331,
+      "shoreOrientation": {
+        "distanceMetres": 76,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431749
+        ],
+        "nearestSegment": 13,
+        "nearestWayId": 733431749,
+        "shorePoint": {
+          "latitude": 54.077824821144766,
+          "longitude": 14.990558643235508
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431749,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000179",
+      "latitude": 54.078,
+      "longitude": 14.9922,
+      "seaBearing": 333,
+      "shoreOrientation": {
+        "distanceMetres": 36,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431749
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 733431749,
+        "shorePoint": {
+          "latitude": 54.078294864602825,
+          "longitude": 14.991962273732115
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431749,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000098",
+      "latitude": 54.0819,
+      "longitude": 15.00705,
+      "seaBearing": 340,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431749
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 733431749,
+        "shorePoint": {
+          "latitude": 54.081957176008736,
+          "longitude": 15.007013876841354
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431749,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000013",
+      "latitude": 54.0825,
+      "longitude": 15.0125,
+      "seaBearing": 339,
+      "shoreOrientation": {
+        "distanceMetres": 68,
+        "radiusMetres": 60,
+        "wayIds": [
+          758477873
+        ],
+        "nearestSegment": 13,
+        "nearestWayId": 758477873,
+        "shorePoint": {
+          "latitude": 54.0830686125907,
+          "longitude": 15.012099283977898
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 758477873,
+            "version": 9
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000191",
+      "latitude": 54.08512,
+      "longitude": 15.02133,
+      "seaBearing": 337,
+      "shoreOrientation": {
+        "distanceMetres": 20,
+        "radiusMetres": 60,
+        "wayIds": [
+          758477873
+        ],
+        "nearestSegment": 7,
+        "nearestWayId": 758477873,
+        "shorePoint": {
+          "latitude": 54.08528515454025,
+          "longitude": 15.021206023843469
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 758477873,
+            "version": 9
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000183",
+      "latitude": 54.08594,
+      "longitude": 15.02505,
+      "seaBearing": 344,
+      "shoreOrientation": {
+        "distanceMetres": 29,
+        "radiusMetres": 60,
+        "wayIds": [
+          758477873
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 758477873,
+        "shorePoint": {
+          "latitude": 54.08618663485211,
+          "longitude": 15.024931381988644
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 758477873,
+            "version": 9
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000100",
+      "latitude": 54.0965,
+      "longitude": 15.07185,
+      "seaBearing": 347,
+      "shoreOrientation": {
+        "distanceMetres": 35,
+        "radiusMetres": 60,
+        "wayIds": [
+          737057554
+        ],
+        "nearestSegment": 13,
+        "nearestWayId": 737057554,
+        "shorePoint": {
+          "latitude": 54.096812240493,
+          "longitude": 15.07173989350149
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 737057554,
+            "version": 17
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000014",
+      "latitude": 54.0975,
+      "longitude": 15.08222,
+      "seaBearing": 346,
+      "shoreOrientation": {
+        "distanceMetres": 71,
+        "radiusMetres": 60,
+        "wayIds": [
+          737057554
+        ],
+        "nearestSegment": 7,
+        "nearestWayId": 737057554,
+        "shorePoint": {
+          "latitude": 54.09811937517617,
+          "longitude": 15.081931339409344
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 737057554,
+            "version": 17
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000192",
+      "latitude": 54.09917,
+      "longitude": 15.08752,
+      "seaBearing": 339,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          737057554
+        ],
+        "nearestSegment": 4,
+        "nearestWayId": 737057554,
+        "shorePoint": {
+          "latitude": 54.09913500247459,
+          "longitude": 15.087547662723793
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-24",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 737057554,
+            "version": 17
+          }
+        ],
+        "snapshotFile": "2026-10-24-osm.json",
+        "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. Baltic water lies north to northwest; continuous open beach shoreline, no competing harbour or island edge. Catalogue-to-shore offsets of 0 to 76m retained; no neighbouring beach orientation copied. Most catalogue points are landward of the shoreline; use their nearest local beach segment, not a shore at a different water body."
+      }
     }
   ]
 }

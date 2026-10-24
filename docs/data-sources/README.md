@@ -548,3 +548,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-22 — Latvia coast and lakes
 
 15 new sites reviewed (3 coastal,12 lakes);3 local shore orientations prepared and applied to the configured Supabase catalogue, verified through production API. No new dynamic integrations or verified/integrated cameras. Shared hydrology reads and a bounded new marine-model candidate probe timed out; no unverified station assigned. Weather15/marine3 probes remain model samples.129 tests, lint/build,330 geometry reproductions and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-22.json). Next country Lithuania; new unresolved searches dueNovember21. Latvian catalogue review remains incomplete.
+
+## 2026-10-24 — Rewal municipality, Poland
+
+15 new coastal sites reviewed;15 local shore orientations applied and production API verified (345 reproducible total). Pustkowo UI correctly classifies southerly wind as offshore and discourages swimming. No new dynamic integrations or verified/integrated cameras; all15 observations endpoints return empty items. Seasonal official samples do not establish current safety.129 tests, lint/build and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-24.json). Next country Germany; new unresolved research dueNovember23, existing national provider review remains dueOctober28.
