@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-24",
-  "nextCountry": "Germany",
+  "lastRun": "2026-10-25",
+  "nextCountry": "Denmark",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -11163,6 +11163,306 @@
       "cameraStatus": "candidate",
       "cameraNextReviewAt": "2026-11-23",
       "reason": "Local directed coastline reviewed, water north/northwest; guarded missing-only orientation import applied. No new dynamic observations or camera bindings. Existing country-provider reviews remain due October28."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0248",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 320,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0248",
+        "open-meteo-marine:eea-DEMV_PR_1_0248"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0255",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 316,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0255",
+        "open-meteo-marine:eea-DEMV_PR_1_0255"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0247",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 309,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0247",
+        "open-meteo-marine:eea-DEMV_PR_1_0247"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0246",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 6,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0246",
+        "open-meteo-marine:eea-DEMV_PR_1_0246"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0245",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 2,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0245",
+        "open-meteo-marine:eea-DEMV_PR_1_0245"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0254",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 356,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0254",
+        "open-meteo-marine:eea-DEMV_PR_1_0254"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0244",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 351,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0244",
+        "open-meteo-marine:eea-DEMV_PR_1_0244"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0243",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 37,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0243",
+        "open-meteo-marine:eea-DEMV_PR_1_0243"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0242",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 13,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0242",
+        "open-meteo-marine:eea-DEMV_PR_1_0242"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0253",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 0,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0253",
+        "open-meteo-marine:eea-DEMV_PR_1_0253"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0241",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 358,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0241",
+        "open-meteo-marine:eea-DEMV_PR_1_0241"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0240",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 341,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0240",
+        "open-meteo-marine:eea-DEMV_PR_1_0240"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0239",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0239",
+        "open-meteo-marine:eea-DEMV_PR_1_0239"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0238",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 4,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0238",
+        "open-meteo-marine:eea-DEMV_PR_1_0238"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0237",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 355,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0237",
+        "open-meteo-marine:eea-DEMV_PR_1_0237"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
     }
   ]
 }

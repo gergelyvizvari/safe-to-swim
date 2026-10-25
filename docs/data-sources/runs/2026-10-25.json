@@ -1,0 +1,1679 @@
+{
+  "date": "2026-10-25",
+  "selection": "15 previously unreviewed Baltic beaches from Rerik to Warnemuende, Germany, with existing weather/marine bindings and missing shore orientation. No Salzhaff substitution.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 15,
+    "liveNewCoverage": 15,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-DEMV_PR_1_0248",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 320,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0248",
+        "open-meteo-marine:eea-DEMV_PR_1_0248"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0255",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 316,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0255",
+        "open-meteo-marine:eea-DEMV_PR_1_0255"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0247",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 309,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0247",
+        "open-meteo-marine:eea-DEMV_PR_1_0247"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0246",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 6,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0246",
+        "open-meteo-marine:eea-DEMV_PR_1_0246"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0245",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 2,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0245",
+        "open-meteo-marine:eea-DEMV_PR_1_0245"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0254",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 356,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0254",
+        "open-meteo-marine:eea-DEMV_PR_1_0254"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0244",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 351,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0244",
+        "open-meteo-marine:eea-DEMV_PR_1_0244"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0243",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 37,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0243",
+        "open-meteo-marine:eea-DEMV_PR_1_0243"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0242",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 13,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0242",
+        "open-meteo-marine:eea-DEMV_PR_1_0242"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0253",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 0,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0253",
+        "open-meteo-marine:eea-DEMV_PR_1_0253"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0241",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 358,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0241",
+        "open-meteo-marine:eea-DEMV_PR_1_0241"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0240",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 341,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0240",
+        "open-meteo-marine:eea-DEMV_PR_1_0240"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0239",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0239",
+        "open-meteo-marine:eea-DEMV_PR_1_0239"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found-in-screening",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0238",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 4,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0238",
+        "open-meteo-marine:eea-DEMV_PR_1_0238"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0237",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-25",
+      "nextReviewAt": "2026-11-24",
+      "seaBearing": 355,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0237",
+        "open-meteo-marine:eea-DEMV_PR_1_0237"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "candidate",
+      "cameraNextReviewAt": "2026-11-24",
+      "evidenceReference": "runs/2026-10-25.json",
+      "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    }
+  ],
+  "shoreline": {
+    "snapshot": "data/shorelines/2026-10-25-osm.json",
+    "import": "supabase/imports/20261025_germany_shore_orientations.sql",
+    "method": "14 weighted local right normals; one reviewed local beach chord east of Kuehlungsborn harbour, way244094242 vertices4/5. Directed OSM coastline has land left, water right. North-up panels individually reviewed; Rerik Baltic edge separated from Salzhaff. No schema change; missing-only updates preserve existing metadata.",
+    "reproducibleTotal": 360
+  },
+  "qualityResearch": {
+    "provider": "Land Mecklenburg-Vorpommern",
+    "indexUrl": "https://www.badewasser-mv.de/_badestelle.php",
+    "targets": [
+      {
+        "locationId": "eea-DEMV_PR_1_0248",
+        "targetId": "1853",
+        "publicId": "248",
+        "name": "Ostsee, Rerik, Seebrücke",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            670406,
+            5998402
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1853",
+        "sampleDate": "08.09.2026",
+        "sample": {
+          "te": "18,3",
+          "phort": "8,2",
+          "trans": ">1,20",
+          "ekok4": "<10",
+          "ecol9": "10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0255",
+        "targetId": "1877",
+        "publicId": "255",
+        "name": "Ostsee, Meschendorf, Campingplatz",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            672761,
+            6001188
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1877",
+        "sampleDate": "08.09.2026",
+        "sample": {
+          "te": "17,9",
+          "phort": "8,16",
+          "trans": "1,1",
+          "ekok4": "10",
+          "ecol9": "10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0247",
+        "targetId": "1930",
+        "publicId": "247",
+        "name": "Ostsee, Kägsdorf,  Parkplatz",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            674139,
+            6002821
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1930",
+        "sampleDate": "08.09.2026",
+        "sample": {
+          "te": "18,4",
+          "phort": "8,2",
+          "trans": "1,1",
+          "ekok4": "<10",
+          "ecol9": "<10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0246",
+        "targetId": "1721",
+        "publicId": "246",
+        "name": "Ostsee, Kühlungsborn, Campingpark/Ostseeklinik",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            677078,
+            6004026
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1721",
+        "sampleDate": "09.09.2026",
+        "sample": {
+          "te": "18,2",
+          "phort": "8,09",
+          "trans": "1,1",
+          "ekok4": "<10",
+          "ecol9": "110",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0245",
+        "targetId": "1762",
+        "publicId": "245",
+        "name": "Ostsee, Kühlungsborn, Hotel Schloß am Meer",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            678056,
+            6004040
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1762",
+        "sampleDate": "09.09.2026",
+        "sample": {
+          "te": "17,8",
+          "phort": "8,11",
+          "trans": "1,1",
+          "ekok4": "<10",
+          "ecol9": "65",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0254",
+        "targetId": "1824",
+        "publicId": "254",
+        "name": "Ostsee, Kühlungsborn, Hauptstrand - West",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            678830,
+            6004062
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1824",
+        "sampleDate": "09.09.2026",
+        "sample": {
+          "te": "17,5",
+          "phort": "8,11",
+          "trans": "1,1",
+          "ekok4": "<10",
+          "ecol9": "260",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0244",
+        "targetId": "1714",
+        "publicId": "244",
+        "name": "Ostsee, Kühlungsborn, Hauptstrand - Ost",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            679823,
+            6004204
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1714",
+        "sampleDate": "09.09.2026",
+        "sample": {
+          "te": "17,4",
+          "phort": "8,11",
+          "trans": "1,2",
+          "ekok4": "<10",
+          "ecol9": "10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0243",
+        "targetId": "1889",
+        "publicId": "243",
+        "name": "Ostsee, Kühlungsborn, östlich Bootshafen",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            681125,
+            6003914
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1889",
+        "sampleDate": "09.09.2026",
+        "sample": {
+          "te": "18,3",
+          "phort": "8",
+          "trans": "0,9",
+          "ekok4": "10",
+          "ecol9": "43",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0242",
+        "targetId": "1628",
+        "publicId": "242",
+        "name": "Ostsee, Wittenbeck, Strandabgang",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            682427,
+            6003528
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1628",
+        "sampleDate": "10.09.2026",
+        "sample": {
+          "te": "16,3",
+          "phort": "7,9",
+          "trans": "1",
+          "ekok4": "10",
+          "ecol9": "43",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0253",
+        "targetId": "1672",
+        "publicId": "253",
+        "name": "Ostsee, Heiligendamm, Am Kinderstrand",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            685285,
+            6003334
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1672",
+        "sampleDate": "10.09.2026",
+        "sample": {
+          "te": "16,1",
+          "phort": "8",
+          "trans": "1",
+          "ekok4": "43",
+          "ecol9": "110",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0241",
+        "targetId": "2040",
+        "publicId": "241",
+        "name": "Ostsee, Heiligendamm, Am Heiligen Damm",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            685772,
+            6003371
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=2040",
+        "sampleDate": "10.09.2026",
+        "sample": {
+          "te": "16",
+          "phort": "8,02",
+          "trans": "1",
+          "ekok4": "<10",
+          "ecol9": "10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0240",
+        "targetId": "1593",
+        "publicId": "240",
+        "name": "Ostsee, Börgerende, Ferien-Camp",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            689425,
+            6004544
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1593",
+        "sampleDate": "10.09.2026",
+        "sample": {
+          "te": "16,2",
+          "phort": "8,03",
+          "trans": "1",
+          "ekok4": "43",
+          "ecol9": "53",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0239",
+        "targetId": "1961",
+        "publicId": "239",
+        "name": "Ostsee, Nienhagen, Strandtreppe",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            692418,
+            6005882
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1961",
+        "sampleDate": "10.09.2026",
+        "sample": {
+          "te": "16,3",
+          "phort": "8,08",
+          "trans": "0,7",
+          "ekok4": "<10",
+          "ecol9": "10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0238",
+        "targetId": "1849",
+        "publicId": "238",
+        "name": "Ostsee, Wilhelmshöhe, Warnemünde",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            697553,
+            6007377
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1849",
+        "sampleDate": "02.09.2026",
+        "sample": {
+          "te": "17,1",
+          "phort": "8,03",
+          "trans": ">1,00",
+          "ekok4": "<10",
+          "ecol9": "<10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0237",
+        "targetId": "1834",
+        "publicId": "237",
+        "name": "Ostsee, Warnemünde, Weststrand",
+        "coordinates": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:25832"
+            }
+          },
+          "coordinates": [
+            699292,
+            6007561
+          ]
+        },
+        "url": "https://www.badewasser-mv.de/_badestelle.php?id=1834",
+        "sampleDate": "02.09.2026",
+        "sample": {
+          "te": "17",
+          "phort": "8,09",
+          "trans": ">1,00",
+          "ekok4": "<10",
+          "ecol9": "10",
+          "ergebnis": "zum Baden geeignet"
+        },
+        "status": 200
+      }
+    ],
+    "scope": "15 exact public_id suffix/name matches in official index and actual detail GETs. Projected coordinate transformation still pending; no runtime quality binding. Samples September2-10 are stale; censored values retained. No current safety, algae or Vibrio clearance inferred from static profile.",
+    "additionalEvidence": "https://www.kuehlungsborn.de/blaueflagge/",
+    "additionalFinding": "Tourism page lists July16 bacteria samples and sample-time temperature, not current temperature.",
+    "terms": "Public unauthenticated reads; redistribution terms, request limits, units and warning lifecycle contract not fully verified.",
+    "nextReviewAt": "2026-11-24"
+  },
+  "sharedProviderResearch": {
+    "reference": "runs/2026-10-15.json",
+    "scope": "Existing BSH SST and DWD warning candidates remain dueNovember14; unchanged unsuccessful contract/coverage work not repeated early. No new local measured temperature, wave or current feed verified; retain Open-Meteo forecast."
+  },
+  "cameraResearch": {
+    "candidates": [
+      {
+        "cameraId": "de-kuehlungsborn-tourism-panorama",
+        "locationIds": [
+          "eea-DEMV_PR_1_0246",
+          "eea-DEMV_PR_1_0245",
+          "eea-DEMV_PR_1_0254",
+          "eea-DEMV_PR_1_0244",
+          "eea-DEMV_PR_1_0243"
+        ],
+        "operator": "Tourismus GmbH Kuehlungsborn / Ostseehotel",
+        "sourcePage": "https://www.kuehlungsborn.de/webcams/live-cam/",
+        "coordinates": null,
+        "type": "panorama",
+        "freshness": "Unknown: rendered13:50 clock only, no verified capture date",
+        "fieldOfViewEvidence": "Official operator identifies hotel, pier and promenade. Browser panorama displayed roof/town and partial sea with13:50 clock; capture date and camera coordinates not established. A page advertising live does not prove freshness.",
+        "embedding": "Not verified; source-page candidate only, no embed or stream URL committed.",
+        "status": "candidate",
+        "checkedAt": "2026-10-25",
+        "nextReviewAt": "2026-11-24"
+      },
+      {
+        "cameraId": "de-warnemuende-huebner",
+        "locationIds": [
+          "eea-DEMV_PR_1_0238",
+          "eea-DEMV_PR_1_0237"
+        ],
+        "operator": "Strand-Hotel Huebner",
+        "sourcePage": "https://www.hotel-huebner.de/unser-hotel/aktuelles-geschehenes/webcam",
+        "coordinates": null,
+        "type": "link",
+        "freshness": "Not verified",
+        "fieldOfViewEvidence": "Operator describes roof view of Warnemuende beach; selected western beaches not proven visible, no proximity assignment.",
+        "embedding": "Not verified; source-page candidate only, no embed or stream URL committed.",
+        "status": "candidate",
+        "checkedAt": "2026-10-25",
+        "nextReviewAt": "2026-11-24"
+      }
+    ],
+    "otherSites": "Rerik/Kaegsdorf/Meschendorf, Wittenbeck, Heiligendamm, Boergerende and Nienhagen screened through official/regional searches; no fully verified camera-site relationship. Boergerende commercial page is only a lead. No unknown feed labelled live.",
+    "nextReviewAt": "2026-11-24"
+  },
+  "modelProbes": [
+    {
+      "locationId": "eea-DEMV_PR_1_0248",
+      "weather": {
+        "status": 200,
+        "latitude": 54.104057,
+        "longitude": 11.629899,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.4,
+          "apparent_temperature": 7.2,
+          "weather_code": 3,
+          "wind_speed_10m": 19.2,
+          "wind_direction_10m": 214,
+          "wind_gusts_10m": 31.1
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.34,
+          "sea_surface_temperature": 11.8,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0255",
+      "weather": {
+        "status": 200,
+        "latitude": 54.12632,
+        "longitude": 11.66237,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.3,
+          "apparent_temperature": 7.3,
+          "weather_code": 3,
+          "wind_speed_10m": 18.6,
+          "wind_direction_10m": 215,
+          "wind_gusts_10m": 31.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.34,
+          "sea_surface_temperature": 11.8,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0247",
+      "weather": {
+        "status": 200,
+        "latitude": 54.142456,
+        "longitude": 11.666304,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 6.9,
+          "weather_code": 3,
+          "wind_speed_10m": 20.6,
+          "wind_direction_10m": 217,
+          "wind_gusts_10m": 30
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.34,
+          "sea_surface_temperature": 11.8,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0246",
+      "weather": {
+        "status": 200,
+        "latitude": 54.148567,
+        "longitude": 11.694879,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.4,
+          "apparent_temperature": 7.1,
+          "weather_code": 3,
+          "wind_speed_10m": 19.6,
+          "wind_direction_10m": 218,
+          "wind_gusts_10m": 30.2
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.4,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0245",
+      "weather": {
+        "status": 200,
+        "latitude": 54.14445,
+        "longitude": 11.743827,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.4,
+          "apparent_temperature": 7.7,
+          "weather_code": 3,
+          "wind_speed_10m": 16.8,
+          "wind_direction_10m": 216,
+          "wind_gusts_10m": 30
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.4,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0254",
+      "weather": {
+        "status": 200,
+        "latitude": 54.14445,
+        "longitude": 11.743827,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.4,
+          "apparent_temperature": 7.7,
+          "weather_code": 3,
+          "wind_speed_10m": 16.8,
+          "wind_direction_10m": 216,
+          "wind_gusts_10m": 30
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.4,
+          "ocean_current_velocity": 0.4
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0244",
+      "weather": {
+        "status": 200,
+        "latitude": 54.14445,
+        "longitude": 11.743827,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.4,
+          "apparent_temperature": 7.7,
+          "weather_code": 3,
+          "wind_speed_10m": 16.8,
+          "wind_direction_10m": 216,
+          "wind_gusts_10m": 30
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.208336,
+        "longitude": 11.625015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.08,
+          "wave_direction": 224,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.4,
+          "ocean_current_velocity": 0.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0243",
+      "weather": {
+        "status": 200,
+        "latitude": 54.14032,
+        "longitude": 11.792767,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 7.5,
+          "weather_code": 2,
+          "wind_speed_10m": 18.1,
+          "wind_direction_10m": 214,
+          "wind_gusts_10m": 29.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 11.791672,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.16,
+          "wave_direction": 222,
+          "wave_period": 4,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.4,
+          "ocean_current_velocity": 0.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0242",
+      "weather": {
+        "status": 200,
+        "latitude": 54.14032,
+        "longitude": 11.792767,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 7.5,
+          "weather_code": 2,
+          "wind_speed_10m": 18.1,
+          "wind_direction_10m": 214,
+          "wind_gusts_10m": 29.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 11.791672,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.16,
+          "wave_direction": 222,
+          "wave_period": 4,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.4,
+          "ocean_current_velocity": 0.3
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0253",
+      "weather": {
+        "status": 200,
+        "latitude": 54.13617,
+        "longitude": 11.841697,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.6,
+          "apparent_temperature": 7.9,
+          "weather_code": 2,
+          "wind_speed_10m": 16.6,
+          "wind_direction_10m": 216,
+          "wind_gusts_10m": 31.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 11.875015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.1,
+          "wave_direction": 224,
+          "wave_period": 3.95,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.3,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0241",
+      "weather": {
+        "status": 200,
+        "latitude": 54.13617,
+        "longitude": 11.841697,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.6,
+          "apparent_temperature": 7.9,
+          "weather_code": 2,
+          "wind_speed_10m": 16.6,
+          "wind_direction_10m": 216,
+          "wind_gusts_10m": 31.8
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 11.875015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.1,
+          "wave_direction": 224,
+          "wave_period": 3.95,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.3,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0240",
+      "weather": {
+        "status": 200,
+        "latitude": 54.148125,
+        "longitude": 11.8946295,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.7,
+          "apparent_temperature": 7.9,
+          "weather_code": 3,
+          "wind_speed_10m": 17.1,
+          "wind_direction_10m": 217,
+          "wind_gusts_10m": 28
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 11.875015,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.1,
+          "wave_direction": 224,
+          "wave_period": 3.95,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.3,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0239",
+      "weather": {
+        "status": 200,
+        "latitude": 54.166107,
+        "longitude": 11.976253,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.7,
+          "apparent_temperature": 7.6,
+          "weather_code": 80,
+          "wind_speed_10m": 18.2,
+          "wind_direction_10m": 218,
+          "wind_gusts_10m": 28
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 11.9583435,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 1.02,
+          "wave_direction": 225,
+          "wave_period": 3.85,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 12.1,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0238",
+      "weather": {
+        "status": 200,
+        "latitude": 54.172157,
+        "longitude": 12.004935,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.7,
+          "apparent_temperature": 7.5,
+          "weather_code": 80,
+          "wind_speed_10m": 18.7,
+          "wind_direction_10m": 217,
+          "wind_gusts_10m": 28.9
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 12.041672,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 0.96,
+          "wave_direction": 226,
+          "wave_period": 3.75,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 11.9,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0237",
+      "weather": {
+        "status": 200,
+        "latitude": 54.167927,
+        "longitude": 12.053891,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "is_day": 1,
+          "temperature_2m": 12.5,
+          "apparent_temperature": 8,
+          "weather_code": 80,
+          "wind_speed_10m": 16.1,
+          "wind_direction_10m": 218,
+          "wind_gusts_10m": 30
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "is_day": "",
+          "temperature_2m": "°C",
+          "apparent_temperature": "°C",
+          "weather_code": "wmo code",
+          "wind_speed_10m": "mp/h",
+          "wind_direction_10m": "°",
+          "wind_gusts_10m": "mp/h"
+        }
+      },
+      "marine": {
+        "status": 200,
+        "latitude": 54.291664,
+        "longitude": 12.041672,
+        "current": {
+          "time": 1792933200,
+          "interval": 900,
+          "wave_height": 0.96,
+          "wave_direction": 226,
+          "wave_period": 3.75,
+          "sea_level_height_msl": -0.33,
+          "sea_surface_temperature": 11.9,
+          "ocean_current_velocity": 0
+        },
+        "units": {
+          "time": "unixtime",
+          "interval": "seconds",
+          "wave_height": "m",
+          "wave_direction": "°",
+          "wave_period": "s",
+          "sea_level_height_msl": "m",
+          "sea_surface_temperature": "°C",
+          "ocean_current_velocity": "km/h"
+        }
+      }
+    }
+  ],
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "scheduler": "One active minute cron safe-to-swim-source-checks. No manual collection or duplicate schedule.",
+    "state": "At13:06UTC weather/marine current13:00; UiRaS12:21 publication checked12:46, LHMT11:00 checked12:12. HU wind/temp collection advances. Storm publication03:34 stale. Known EA sample403133 failures; annualEA/NRW/SEPA6/6/7. official-quality now3 fetch_or_parse_failed checks, nextdue16:11; no premature retry.",
+    "permissions": "locations RLS enabled; anon/authenticated UPDATE denied",
+    "apiCheckedAt": "2026-10-25T13:08:55.967323+00:00",
+    "detailsVerified": 15,
+    "observationEnvelopesVerified": 15,
+    "observationItems": 0
+  },
+  "validation": {
+    "tests": 129,
+    "lint": "passed",
+    "build": "passed",
+    "postgres": "Disposable DB: manual north0/provenance/name preserved, missing-only fill, coordinate/type guards and rerun idempotence passed.",
+    "api": "4 paginated lists,15 identities/coordinates/bearings/source bindings and empty observation envelopes verified.",
+    "ui": "Production Heiligendamm Am Kinderstrand: north0 bearing reaches assessment; SW wind classified offshore, swimming discouraged, no missing-orientation note. Unknown current quality and no verified camera retained."
+  },
+  "publication": {
+    "status": "Database applied; Git deployment verification follows push"
+  }
+}

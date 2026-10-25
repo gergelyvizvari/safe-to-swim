@@ -552,3 +552,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-24 — Rewal municipality, Poland
 
 15 new coastal sites reviewed;15 local shore orientations applied and production API verified (345 reproducible total). Pustkowo UI correctly classifies southerly wind as offshore and discourages swimming. No new dynamic integrations or verified/integrated cameras; all15 observations endpoints return empty items. Seasonal official samples do not establish current safety.129 tests, lint/build and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-24.json). Next country Germany; new unresolved research dueNovember23, existing national provider review remains dueOctober28.
+
+## 2026-10-25 — Mecklenburg Baltic coast, Germany
+
+15 new coastal sites reviewed;15 local shore orientations applied and verified through production APIs (360 reproducible total). Heiligendamm north0 UI correctly classifies southwesterly wind as offshore. Official MV sample histories matched all15 sites, but September samples remain stale candidates; no new dynamic integration. Cameras verified/integrated0/0. Weather15/marine15 probes are model samples, and all15 persisted observation envelopes are empty.129 tests, lint/build and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-25.json). Next country Denmark; new unresolved research dueNovember24.
