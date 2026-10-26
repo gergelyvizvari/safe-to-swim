@@ -556,3 +556,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-25 — Mecklenburg Baltic coast, Germany
 
 15 new coastal sites reviewed;15 local shore orientations applied and verified through production APIs (360 reproducible total). Heiligendamm north0 UI correctly classifies southwesterly wind as offshore. Official MV sample histories matched all15 sites, but September samples remain stale candidates; no new dynamic integration. Cameras verified/integrated0/0. Weather15/marine15 probes are model samples, and all15 persisted observation envelopes are empty.129 tests, lint/build and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-25.json). Next country Denmark; new unresolved research dueNovember24.
+
+## 2026-10-26 — North Jutland, Denmark
+
+15 new coastal sites reviewed;15 local shore orientations applied and production API verified (375 reproducible total). Husmoderstranden UI uses the bearing for alongshore wind assessment without a missing-orientation note. Nine Eurofins station IDs and six SGS sample pages found; two October received dates still require exact sampling-time and coordinate verification. Fresh DMI harbour temperature is not assigned to open beaches without representativeness evidence. No new dynamic integration; cameras verified/integrated0/0.30 model probes passed, persisted observations remain empty.129 tests, lint/build and PostgreSQL preservation/idempotence passed. [Run evidence](runs/2026-10-26.json). Next country Norway; unresolved new research dueNovember25.

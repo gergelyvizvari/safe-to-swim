@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-25",
-  "nextCountry": "Denmark",
+  "lastRun": "2026-10-26",
+  "nextCountry": "Norway",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -11463,6 +11463,306 @@
       "cameraNextReviewAt": "2026-11-24",
       "evidenceReference": "runs/2026-10-25.json",
       "reason": "Local Baltic beach orientation applied with provenance. Official MV sample identity found, seasonal September sample remains stale. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW958",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 322,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW958",
+        "open-meteo-marine:eea-DKBW958"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW962",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 118,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW962",
+        "open-meteo-marine:eea-DKBW962"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW955",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 134,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW955",
+        "open-meteo-marine:eea-DKBW955"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW690",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 318,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW690",
+        "open-meteo-marine:eea-DKBW690"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW953",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 126,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW953",
+        "open-meteo-marine:eea-DKBW953"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW951",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 121,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW951",
+        "open-meteo-marine:eea-DKBW951"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW960",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 337,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW960",
+        "open-meteo-marine:eea-DKBW960"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW785",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 334,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW785",
+        "open-meteo-marine:eea-DKBW785"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW737",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 345,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW737",
+        "open-meteo-marine:eea-DKBW737"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW932",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 102,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW932",
+        "open-meteo-marine:eea-DKBW932"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW803",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 317,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW803",
+        "open-meteo-marine:eea-DKBW803"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW740",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 352,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW740",
+        "open-meteo-marine:eea-DKBW740"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW739",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 358,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW739",
+        "open-meteo-marine:eea-DKBW739"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW914",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 99,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW914",
+        "open-meteo-marine:eea-DKBW914"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-DKBW777",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-26",
+      "nextReviewAt": "2026-11-25",
+      "seaBearing": 303,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW777",
+        "open-meteo-marine:eea-DKBW777"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-25",
+      "evidenceReference": "runs/2026-10-26.json",
+      "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
     }
   ]
 }
