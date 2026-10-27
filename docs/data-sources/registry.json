@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-26",
-  "nextCountry": "Norway",
+  "lastRun": "2026-10-27",
+  "nextCountry": "Portugal",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -11763,6 +11763,456 @@
       "cameraNextReviewAt": "2026-11-25",
       "evidenceReference": "runs/2026-10-26.json",
       "reason": "Reviewed local shore orientation applied; municipal quality sources remain candidates pending sampling-time, coordinate and usage-contract verification. No new dynamic or camera binding."
+    },
+    {
+      "locationId": "eea-IENWBWC230_0000_0200",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 28,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC230_0000_0200",
+        "open-meteo-marine:eea-IENWBWC230_0000_0200"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC230_0000_0200",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39673,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "10",
+        "intestinalEnterococci": "1",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC100_0000_0100",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 329,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC100_0000_0100",
+        "open-meteo-marine:eea-IENWBWC100_0000_0100"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC100_0000_0100",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39670,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "<10",
+        "intestinalEnterococci": "3",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC230_0000_0100",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 79,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC230_0000_0100",
+        "open-meteo-marine:eea-IENWBWC230_0000_0100"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC230_0000_0100",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39689,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "<10",
+        "intestinalEnterococci": "2",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0100",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 166,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC190_0000_0100",
+        "open-meteo-marine:eea-IENWBWC190_0000_0100"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC190_0000_0100",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39674,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "<10",
+        "intestinalEnterococci": "5",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC220_0000_0300",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 340,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC220_0000_0300",
+        "open-meteo-marine:eea-IENWBWC220_0000_0300"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC220_0000_0300",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39687,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "68",
+        "intestinalEnterococci": "20",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0400",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 29,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC190_0000_0400",
+        "open-meteo-marine:eea-IENWBWC190_0000_0400"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC190_0000_0400",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39686,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "<10",
+        "intestinalEnterococci": "<1",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0300",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 255,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC190_0000_0300",
+        "open-meteo-marine:eea-IENWBWC190_0000_0300"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC190_0000_0300",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39677,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "63",
+        "intestinalEnterococci": "4",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0200",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 38,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC190_0000_0200",
+        "open-meteo-marine:eea-IENWBWC190_0000_0200"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC190_0000_0200",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39681,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "<10",
+        "intestinalEnterococci": "<1",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC100_0000_0200",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 1,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC100_0000_0200",
+        "open-meteo-marine:eea-IENWBWC100_0000_0200"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC100_0000_0200",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39675,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "<10",
+        "intestinalEnterococci": "<1",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC100_0000_0300",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 8,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC100_0000_0300",
+        "open-meteo-marine:eea-IENWBWC100_0000_0300"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC100_0000_0300",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39690,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "<10",
+        "intestinalEnterococci": "1",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC160_0000_0100",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 257,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC160_0000_0100",
+        "open-meteo-marine:eea-IENWBWC160_0000_0100"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC160_0000_0100",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39685,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "62",
+        "intestinalEnterococci": "3",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC220_0000_0100",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 309,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC220_0000_0100",
+        "open-meteo-marine:eea-IENWBWC220_0000_0100"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC220_0000_0100",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39680,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "135",
+        "intestinalEnterococci": "17",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC220_0000_0200",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 114,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC220_0000_0200",
+        "open-meteo-marine:eea-IENWBWC220_0000_0200"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC220_0000_0200",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39688,
+        "latestSampleDate": "2026-09-08",
+        "eColi": "63",
+        "intestinalEnterococci": "3",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC160_0000_0200",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": 298,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC160_0000_0200",
+        "open-meteo-marine:eea-IENWBWC160_0000_0200"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC160_0000_0200",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39672,
+        "latestSampleDate": "2026-09-07",
+        "eColi": "<10",
+        "intestinalEnterococci": "<1",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Reviewed local shore orientation applied. EPA remains a candidate: September samples are stale; units, licence and grid-coordinate contract need confirmation before adapter integration."
+    },
+    {
+      "locationId": "eea-IENWBWC120_0000_0200",
+      "country": "Ireland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "checkedAt": "2026-10-27",
+      "nextReviewAt": "2026-11-26",
+      "seaBearing": null,
+      "shoreOrientationStatus": "unresolved",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IENWBWC120_0000_0200",
+        "open-meteo-marine:eea-IENWBWC120_0000_0200"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-26",
+      "evidenceReference": "runs/2026-10-27.json",
+      "epaEvidence": {
+        "url": "https://data.epa.ie/bw/api/v1/Locations/IENWBWC120_0000_0200",
+        "status": 200,
+        "identityMatch": "Exact official beach ID and Donegal county; grid-coordinate CRS still requires endpoint-specific confirmation.",
+        "latestSampleId": 39691,
+        "latestSampleDate": "2026-09-09",
+        "eColi": "10",
+        "intestinalEnterococci": "2",
+        "freshness": "stale; not used for current safety"
+      },
+      "reason": "Dooey catalogue point lies offshore between rocky northern headland and long western beach. Nearest coastline is rock, not confirmed bathing segment; no guessed bearing applied. Review official monitoring-point geometry before selecting local beach chord."
     }
   ]
 }

@@ -13140,6 +13140,492 @@
         "snapshotFile": "2026-10-26-osm.json",
         "reviewNote": "Individually reviewed local north-up geometry and directed OSM land-left/water-right topology. West-coast water is northwest/north, east-coast water east/southeast. Skagen Soendre uses the beach north of harbour structures, Aalbaek uses separate north/south beach segments. Three reviewed chords retain catalogue offsets of182-208m: Skiveren and Tversted sampling points offshore, Uggerby landward. Other landward/offshore offsets are at most121m. No neighbouring orientation copied."
       }
+    },
+    {
+      "locationId": "eea-IENWBWC230_0000_0200",
+      "latitude": 55.29397,
+      "longitude": -7.14634,
+      "seaBearing": 28,
+      "shoreOrientation": {
+        "distanceMetres": 21,
+        "radiusMetres": 60,
+        "wayIds": [
+          302728958
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 302728958,
+        "shorePoint": {
+          "latitude": 55.293792183982035,
+          "longitude": -7.1464445318531356
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 302728958,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local northeast-facing beach arc. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC100_0000_0100",
+      "latitude": 55.24982,
+      "longitude": -7.7031,
+      "seaBearing": 329,
+      "shoreOrientation": {
+        "distanceMetres": 217,
+        "wayIds": [
+          361524918
+        ],
+        "reviewedVertexIndices": [
+          10,
+          11
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 361524918,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local north/northwest-facing beach; catalogue point 217m offshore. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC230_0000_0100",
+      "latitude": 55.22735,
+      "longitude": -6.92767,
+      "seaBearing": 79,
+      "shoreOrientation": {
+        "distanceMetres": 23,
+        "wayIds": [
+          302597257
+        ],
+        "reviewedVertexIndices": [
+          66,
+          67
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 302597257,
+            "version": 9
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Inner small bay east-facing shore; rocky headlands excluded by using local segment. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0100",
+      "latitude": 55.1929,
+      "longitude": -7.84176,
+      "seaBearing": 166,
+      "shoreOrientation": {
+        "distanceMetres": 47,
+        "radiusMetres": 60,
+        "wayIds": [
+          370602315,
+          4559169
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 370602315,
+        "shorePoint": {
+          "latitude": 55.19330840313663,
+          "longitude": -7.841921306365624
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 370602315,
+            "version": 4
+          },
+          {
+            "id": 4559169,
+            "version": 9
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local south-facing sheltered bay. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC220_0000_0300",
+      "latitude": 55.19088,
+      "longitude": -7.60747,
+      "seaBearing": 340,
+      "shoreOrientation": {
+        "distanceMetres": 185,
+        "wayIds": [
+          4559318
+        ],
+        "reviewedVertexIndices": [
+          99,
+          100
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 4559318,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local north-facing shore; catalogue point 185m offshore. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0400",
+      "latitude": 55.187,
+      "longitude": -7.95246,
+      "seaBearing": 29,
+      "shoreOrientation": {
+        "distanceMetres": 136,
+        "wayIds": [
+          472402661
+        ],
+        "reviewedVertexIndices": [
+          2,
+          3
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 472402661,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local northeast-facing segment beside rocky western end. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0300",
+      "latitude": 55.18103,
+      "longitude": -7.92723,
+      "seaBearing": 255,
+      "shoreOrientation": {
+        "distanceMetres": 35,
+        "wayIds": [
+          472747403
+        ],
+        "reviewedVertexIndices": [
+          7,
+          8
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 472747403,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Small harbour beach local west-facing edge; pier not used. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC190_0000_0200",
+      "latitude": 55.17681,
+      "longitude": -7.89916,
+      "seaBearing": 38,
+      "shoreOrientation": {
+        "distanceMetres": 167,
+        "wayIds": [
+          361390300
+        ],
+        "reviewedVertexIndices": [
+          5,
+          6
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 361390300,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local northeast-facing bay edge; catalogue point 167m offshore. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC100_0000_0200",
+      "latitude": 55.16298,
+      "longitude": -8.08749,
+      "seaBearing": 1,
+      "shoreOrientation": {
+        "distanceMetres": 258,
+        "wayIds": [
+          371785538
+        ],
+        "reviewedVertexIndices": [
+          5,
+          6
+        ],
+        "waterSideCheck": true,
+        "method": "manually-reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 371785538,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local north-facing straight beach; catalogue point 258m offshore. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC100_0000_0300",
+      "latitude": 55.14596,
+      "longitude": -8.17154,
+      "seaBearing": 8,
+      "shoreOrientation": {
+        "distanceMetres": 72,
+        "radiusMetres": 60,
+        "wayIds": [
+          4559159
+        ],
+        "nearestSegment": 48,
+        "nearestWayId": 4559159,
+        "shorePoint": {
+          "latitude": 55.145323443281946,
+          "longitude": -8.171695769722065
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 4559159,
+            "version": 11
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Northern side of spit; southern bay shore not used. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC160_0000_0100",
+      "latitude": 55.09997,
+      "longitude": -8.31465,
+      "seaBearing": 257,
+      "shoreOrientation": {
+        "distanceMetres": 64,
+        "radiusMetres": 60,
+        "wayIds": [
+          470183900,
+          372580319
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 470183900,
+        "shorePoint": {
+          "latitude": 55.0999987,
+          "longitude": -8.3136515
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 470183900,
+            "version": 2
+          },
+          {
+            "id": 372580319,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local west-facing arc at the exact point, despite broader beach description as north-facing. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC220_0000_0100",
+      "latitude": 55.09752,
+      "longitude": -7.48146,
+      "seaBearing": 309,
+      "shoreOrientation": {
+        "distanceMetres": 26,
+        "radiusMetres": 60,
+        "wayIds": [
+          370863420
+        ],
+        "nearestSegment": 51,
+        "nearestWayId": 370863420,
+        "shorePoint": {
+          "latitude": 55.09737124192963,
+          "longitude": -7.481147493255767
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 370863420,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local northwest-facing Lough Swilly shore. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC220_0000_0200",
+      "latitude": 55.09663,
+      "longitude": -7.52973,
+      "seaBearing": 114,
+      "shoreOrientation": {
+        "distanceMetres": 35,
+        "radiusMetres": 60,
+        "wayIds": [
+          231394337
+        ],
+        "nearestSegment": 29,
+        "nearestWayId": 231394337,
+        "shorePoint": {
+          "latitude": 55.096762,
+          "longitude": -7.5302275
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 231394337,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local east/southeast-facing opposite Lough Swilly shore. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
+    },
+    {
+      "locationId": "eea-IENWBWC160_0000_0200",
+      "latitude": 55.04245,
+      "longitude": -8.34823,
+      "seaBearing": 298,
+      "shoreOrientation": {
+        "distanceMetres": 114,
+        "radiusMetres": 60,
+        "wayIds": [
+          375667146
+        ],
+        "nearestSegment": 73,
+        "nearestWayId": 375667146,
+        "shorePoint": {
+          "latitude": 55.04196830272707,
+          "longitude": -8.3466489260166
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-27",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 375667146,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-10-27-osm.json",
+        "reviewNote": "Local west/northwest-facing beach. North-up local geometry and directed land-left/water-right topology reviewed; landward/offshore offset checked. No neighbouring bearing copied."
+      }
     }
   ]
 }
