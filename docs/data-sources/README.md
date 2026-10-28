@@ -564,3 +564,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-27 — Donegal, Ireland
 
 15 new coastal sites reviewed; 14 local shore orientations determined, applied and verified through production APIs (389 reproducible total). Dooey remains unresolved because the offshore catalogue point does not unambiguously identify the rocky headland versus the long beach segment. Culdaff UI correctly classifies southwesterly wind as offshore; the missing-orientation note is absent. Exact EPA beach IDs matched all 15 sites, but latest samples are September 7–9 and remain stale candidates. No new dynamic integration; cameras verified/integrated 0/0. All 15 stored observation envelopes are empty; one browser weather/marine probe is not full-site coverage. 129 tests, lint/build and PostgreSQL preservation/idempotence checks passed. [Run evidence](runs/2026-10-27.json). Next country Portugal; unresolved new research due November 26.
+
+## 2026-10-28 outcome
+
+15 northern Portugal coastal sites reviewed; 15 local shoreline orientations applied and verified in production catalogue API (404 cumulative). APA bathing-water IDs matched; untimestamped map status and a 403 sample page do not establish fresh quality. IPMA offshore daily model and district warning feeds are candidates pending local matching and reuse verification. Cameras: 0 verified, 0 integrated; three Surftotal candidates retained with unknown freshness/FOV. No new dynamic adapter. Next country: Spain; deferred research due 2026-11-27. See `runs/2026-10-28.json`.

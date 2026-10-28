@@ -1,0 +1,651 @@
+{
+  "date": "2026-10-28",
+  "selection": "15 previously unreviewed northern Portugal coastal sites; Portugal follows Ireland in rotation.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 15,
+    "liveNewCoverage": 15,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-PTCQ8J",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 276,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCQ8J",
+        "open-meteo-marine:eea-PTCQ8J"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCQ8J",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630462
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCX7T",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 291,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCX7T",
+        "open-meteo-marine:eea-PTCX7T"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCX7T",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630848
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCK3J",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 299,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCK3J",
+        "open-meteo-marine:eea-PTCK3J"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCK3J",
+        "matchedFeatures": 1,
+        "beachIds": [
+          10146368832
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCN2U",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 262,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCN2U",
+        "open-meteo-marine:eea-PTCN2U"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCN2U",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630290
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCU7E",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 291,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCU7E",
+        "open-meteo-marine:eea-PTCU7E"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCU7E",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630602
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCD3V",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 255,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCD3V",
+        "open-meteo-marine:eea-PTCD3V"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCD3V",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979629792
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCD8U",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 233,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCD8U",
+        "open-meteo-marine:eea-PTCD8U"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCD8U",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979629820
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCJ9U",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 252,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCJ9U",
+        "open-meteo-marine:eea-PTCJ9U"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCJ9U",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630152
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCV9M",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 251,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCV9M",
+        "open-meteo-marine:eea-PTCV9M"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCV9M",
+        "matchedFeatures": 2,
+        "beachIds": [
+          8979630724,
+          8979630722
+        ],
+        "webcamLinks": [
+          null,
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCF9P",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 239,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCF9P",
+        "open-meteo-marine:eea-PTCF9P"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCF9P",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630014
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCF3L",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 272,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCF3L",
+        "open-meteo-marine:eea-PTCF3L"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCF3L",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979629946
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCX7E",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 255,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCX7E",
+        "open-meteo-marine:eea-PTCX7E"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCX7E",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630832
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCL2X",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 257,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCL2X",
+        "open-meteo-marine:eea-PTCL2X"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCL2X",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979630220
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCN8H",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 253,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCN8H",
+        "open-meteo-marine:eea-PTCN8H"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCN8H",
+        "matchedFeatures": 4,
+        "beachIds": [
+          9636731650,
+          9636731648,
+          8979630318,
+          8979630320
+        ],
+        "webcamLinks": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-PTCD9K",
+      "country": "Portugal",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-28",
+      "nextReviewAt": "2026-11-27",
+      "seaBearing": 271,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PTCD9K",
+        "open-meteo-marine:eea-PTCD9K"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-27",
+      "evidenceReference": "runs/2026-10-28.json",
+      "apaEvidence": {
+        "officialBathingId": "PTCD9K",
+        "matchedFeatures": 1,
+        "beachIds": [
+          8979629828
+        ],
+        "webcamLinks": [
+          null
+        ],
+        "identity": "Exact official bathing-water ID; multiple concession records retained without claiming unique sampling station.",
+        "freshness": "Status has no observation timestamp; not used for current safety"
+      },
+      "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    }
+  ],
+  "providerEvidence": {
+    "apa": {
+      "url": "https://sniambgeoogc.apambiente.pt/getogc/rest/services/SNIAmb/Praias/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=json",
+      "status": 200,
+      "features": 761,
+      "documentation": "https://apambiente.pt/agua/aguas-balneares",
+      "sampleProbe": {
+        "url": "https://snirh.apambiente.pt/snirh/_dadossintese/zbalnear/janela/par_graficos.php?code_cee=PTCQ8J&ano=2026",
+        "status": 403
+      },
+      "limitations": "No sample timestamp in map status; annual class not current safety. Measurement reuse licence, units and fresh payload still unverified."
+    },
+    "ipma": {
+      "documentation": "https://api.ipma.pt/",
+      "seaProbe": {
+        "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
+        "status": 200,
+        "forecastDate": "2026-10-28",
+        "records": 12
+      },
+      "warningProbe": {
+        "url": "https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json",
+        "status": 200,
+        "records": 203,
+        "areas": [
+          "ACE",
+          "AOC",
+          "AOR",
+          "AVR",
+          "BGC",
+          "BJA",
+          "BRG",
+          "CBO",
+          "CBR",
+          "EVR",
+          "FAR",
+          "GDA",
+          "LRA",
+          "LSB",
+          "MCN",
+          "MCS",
+          "MPS",
+          "MRM",
+          "PTG",
+          "PTO",
+          "STB",
+          "STM",
+          "VCT",
+          "VIS",
+          "VRL"
+        ]
+      },
+      "semantics": "Daily offshore model: SST Celsius, wave height metres, period seconds. Warning validity UTC; district coverage, not beach measurements.",
+      "limitations": "No verified local model-point/area mapping or reuse contract. No adapter enabled; public feeds fetched once, no messages sent to IPMA; numeric request limit not verified."
+    }
+  },
+  "cameraEvidence": {
+    "scope": "Grouped searches for all 15 names and official APA webcam fields; all matched APA webcam links null.",
+    "candidates": [
+      {
+        "cameraId": "surftotal-vila-praia-ancora",
+        "locationIds": [
+          "eea-PTCQ8J"
+        ],
+        "operator": "Surftotal",
+        "url": "https://www.surftotal.com/camaras-report/minho/vila-praia-ancora",
+        "reason": "Play action navigated to advertising booking page; live playback not established.",
+        "coordinates": null,
+        "fieldOfViewEvidence": null,
+        "type": "link",
+        "status": "candidate",
+        "freshness": "unknown",
+        "embedding": "unverified",
+        "checkedAt": "2026-10-28",
+        "nextReviewAt": "2026-11-27"
+      },
+      {
+        "cameraId": "surftotal-afife-arda",
+        "locationIds": [
+          "eea-PTCN2U",
+          "eea-PTCU7E"
+        ],
+        "operator": "Surftotal",
+        "url": "https://www.surftotal.com/camaras-report-2/item/19752-afife-praia-da-arda",
+        "reason": "Search candidate only; retrieval failed. Afife and Arda distinct bathing IDs; no shared FOV assumed.",
+        "coordinates": null,
+        "fieldOfViewEvidence": null,
+        "type": "link",
+        "status": "candidate",
+        "freshness": "unknown",
+        "embedding": "unverified",
+        "checkedAt": "2026-10-28",
+        "nextReviewAt": "2026-11-27"
+      },
+      {
+        "cameraId": "surftotal-ofir",
+        "locationIds": [
+          "eea-PTCL2X"
+        ],
+        "operator": "Surftotal",
+        "url": "https://www.surftotal.com/camaras-report/minho/ofir",
+        "reason": "Directory candidate only; no timestamped live playback/coordinates/FOV established.",
+        "coordinates": null,
+        "fieldOfViewEvidence": null,
+        "type": "link",
+        "status": "candidate",
+        "freshness": "unknown",
+        "embedding": "unverified",
+        "checkedAt": "2026-10-28",
+        "nextReviewAt": "2026-11-27"
+      }
+    ],
+    "freshness": "unknown",
+    "embedding": "not verified; no integration",
+    "checkedAt": "2026-10-28",
+    "nextReviewAt": "2026-11-27"
+  },
+  "productionVerification": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectId": "zpqhqdndaloivnyzoigb",
+    "cataloguePages": 4,
+    "pageSize": 15,
+    "offsets": [
+      0,
+      15
+    ],
+    "kinds": [
+      "lake",
+      "coastal"
+    ],
+    "detailIdentityAndBindingChecks": 15,
+    "observationIdentityChecks": 15,
+    "observationItems": 0,
+    "appliedBearingsReadBack": 15,
+    "scheduler": "One active minute job; weather/marine/UIRaS/LHMT checks advancing. No manual collection or new job.",
+    "knownFailures": "EA samples 145 failures/403; quality 6 failures; annual EA/NRW/SEPA 7/7/8 failures; Hungarian storm feed stale since October 26. Existing limitations, no new incident.",
+    "permissions": "Locations RLS enabled; zero anon/authenticated table grants.",
+    "note": "Empty observation arrays are not measurement coverage. Existing on-demand Open-Meteo preserved."
+  },
+  "validation": {
+    "tests": 129,
+    "lint": "passed",
+    "build": "passed",
+    "geometryReproduced": 404,
+    "postgresImport": "Passed manual north=0/provenance/name preservation, missing-only updates, coordinate/type guards and repeated import idempotence.",
+    "browser": "Production Vila Praia de Âncora: 12:45 model, waves 2.4m, SW wind10km/h/gust35km/h; alongshore classification visible, missing-orientation note absent. Current water quality unconfirmed, no verified camera. Representative model/UI probe only, not proof of all-site fresh coverage."
+  }
+}
