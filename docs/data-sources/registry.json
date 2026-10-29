@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-28",
-  "nextCountry": "Spain",
+  "lastRun": "2026-10-29",
+  "nextCountry": "France",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -12701,6 +12701,441 @@
         "freshness": "Status has no observation timestamp; not used for current safety"
       },
       "reason": "Local shoreline orientation applied and read back through production API. No verified fresh water-quality, algae or local current integration."
+    },
+    {
+      "locationId": "eea-ES212M069587",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 25,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M069587",
+        "open-meteo-marine:eea-ES212M069587"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "587",
+        "officialName": "PLAYA DE ONDARRETA PM1-CENTRO",
+        "coordinateDifferenceMetres": 29,
+        "sampleDate": "28/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M069588",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 33,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M069588",
+        "open-meteo-marine:eea-ES212M069588"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "588",
+        "officialName": "PLAYA DE ONDARRETA PM2-IZDA/ TENIS ",
+        "coordinateDifferenceMetres": 41,
+        "sampleDate": "28/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M079589",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 343,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M079589",
+        "open-meteo-marine:eea-ES212M079589"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "589",
+        "officialName": "PLAYA DE ZARAUTZ PM1-250 m REGATA SAN PELAIO",
+        "coordinateDifferenceMetres": 93,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M079590",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M079590",
+        "open-meteo-marine:eea-ES212M079590"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "590",
+        "officialName": "PLAYA DE ZARAUTZ PM2-500 m REGATA SAN PELAIO",
+        "coordinateDifferenceMetres": 125,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M079591",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M079591",
+        "open-meteo-marine:eea-ES212M079591"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "591",
+        "officialName": "PLAYA DE ZARAUTZ PM3-CENTRO",
+        "coordinateDifferenceMetres": 210,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M039574",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 125,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M039574",
+        "open-meteo-marine:eea-ES212M039574"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "574",
+        "officialName": "PLAYA DE MALKORBE PM1",
+        "coordinateDifferenceMetres": 128,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M039575",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 346,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M039575",
+        "open-meteo-marine:eea-ES212M039575"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "575",
+        "officialName": "PLAYA DE GAZTETAPE PM1",
+        "coordinateDifferenceMetres": 36,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES212M081593",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 303,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M081593",
+        "open-meteo-marine:eea-ES212M081593"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "593",
+        "officialName": "PLAYA DE ITZURUN PM1",
+        "coordinateDifferenceMetres": 226,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Official sample and URA mapped bathing beach used because catalogue point is offset toward neighbouring structures; canonical ID/coordinates preserved. Bearing applied and verified through production catalogue API."
+    },
+    {
+      "locationId": "eea-ES212M0562515",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 29,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M0562515",
+        "open-meteo-marine:eea-ES212M0562515"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "2515",
+        "officialName": "PLAYA DE MUTRIKU (ONDAR GAIN) PM1",
+        "coordinateDifferenceMetres": 96,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Official sample and URA mapped bathing beach used because catalogue point is offset toward neighbouring structures; canonical ID/coordinates preserved. Bearing applied and verified through production catalogue API."
+    },
+    {
+      "locationId": "eea-ES212M0562516",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 117,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES212M0562516",
+        "open-meteo-marine:eea-ES212M0562516"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "2516",
+        "officialName": "PLAYA DE MUTRIKU (PUERTO) PM1",
+        "coordinateDifferenceMetres": 238,
+        "sampleDate": "07/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Official sample and URA mapped bathing beach used because catalogue point is offset toward neighbouring structures; canonical ID/coordinates preserved. Bearing applied and verified through production catalogue API."
+    },
+    {
+      "locationId": "eea-ES213M049611",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 20,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES213M049611",
+        "open-meteo-marine:eea-ES213M049611"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "611",
+        "officialName": "PLAYA DE OGELLA PM1-OGEIA",
+        "coordinateDifferenceMetres": 4,
+        "sampleDate": "21/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES213M028606",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": null,
+      "shoreOrientationStatus": "unresolved",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES213M028606",
+        "open-meteo-marine:eea-ES213M028606"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "606",
+        "officialName": "PLAYA DE EA PM1-MAR",
+        "coordinateDifferenceMetres": 34,
+        "sampleDate": "21/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Ea tidal estuary: catalogue point lies beside western bank; official URA Figure 1 and OSM beach polygons place high-water bathing beach farther south. A local bank normal would misrepresent the changing beach/estuary exposure; retain missing until tidal shoreline choice is resolved."
+    },
+    {
+      "locationId": "eea-ES213M048609",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 333,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES213M048609",
+        "open-meteo-marine:eea-ES213M048609"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "609",
+        "officialName": "PLAYA DE LAGA PM1-DERECHA",
+        "coordinateDifferenceMetres": 10,
+        "sampleDate": "21/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES213M048610",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 355,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES213M048610",
+        "open-meteo-marine:eea-ES213M048610"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "610",
+        "officialName": "PLAYA DE LAGA PM2-CENTRO",
+        "coordinateDifferenceMetres": 11,
+        "sampleDate": "21/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-ES213M017598",
+      "country": "Spain",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-29",
+      "nextReviewAt": "2026-11-28",
+      "seaBearing": 11,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-ES213M017598",
+        "open-meteo-marine:eea-ES213M017598"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-28",
+      "evidenceReference": "runs/2026-10-29.json",
+      "basqueEvidence": {
+        "sampleId": "598",
+        "officialName": "PLAYA DE ARITZATXU PM1",
+        "coordinateDifferenceMetres": 47,
+        "sampleDate": "21/09/2026",
+        "recommendation": "DATURIK GABE / SIN DATOS",
+        "note": "Bainu-denboraldia itxita / Temporada de baño cerrada",
+        "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
+      },
+      "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
     }
   ]
 }

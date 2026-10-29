@@ -568,3 +568,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-28 outcome
 
 15 northern Portugal coastal sites reviewed; 15 local shoreline orientations applied and verified in production catalogue API (404 cumulative). APA bathing-water IDs matched; untimestamped map status and a 403 sample page do not establish fresh quality. IPMA offshore daily model and district warning feeds are candidates pending local matching and reuse verification. Cameras: 0 verified, 0 integrated; three Surftotal candidates retained with unknown freshness/FOV. No new dynamic adapter. Next country: Spain; deferred research due 2026-11-27. See `runs/2026-10-28.json`.
+
+## 2026-10-29 outcome
+
+15 Basque coastal sites reviewed; 14 local shoreline bearings applied and production API verified (418 cumulative). Ea remains unresolved: tidal beach versus estuary-bank orientation requires further review. Official Basque sample IDs, names and coordinates matched all 15; season-closed recommendations do not establish fresh quality. Euskalmet API requires registration. Cameras: 0 fully verified, 0 integrated; Zarautz image did not advance during observation, Mutriku official camera link failed TLS verification. No new dynamic adapter. Next country: France; deferred review 2026-11-28. See `runs/2026-10-29.json`.

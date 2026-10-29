@@ -14136,6 +14136,488 @@
           }
         ]
       }
+    },
+    {
+      "locationId": "eea-ES212M069587",
+      "latitude": 43.3175,
+      "longitude": -2.0014,
+      "seaBearing": 25,
+      "shoreOrientation": {
+        "distanceMetres": 74,
+        "radiusMetres": 60,
+        "wayIds": [
+          1046442981
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 1046442981,
+        "shorePoint": {
+          "latitude": 43.31689268481082,
+          "longitude": -2.0017751308379874
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local northeast-facing Ondarreta beach. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 1046442981,
+            "version": 3
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M069588",
+      "latitude": 43.3186,
+      "longitude": -2.0038,
+      "seaBearing": 33,
+      "shoreOrientation": {
+        "distanceMetres": 87,
+        "radiusMetres": 60,
+        "wayIds": [
+          1046442981
+        ],
+        "nearestSegment": 8,
+        "nearestWayId": 1046442981,
+        "shorePoint": {
+          "latitude": 43.31795255947978,
+          "longitude": -2.004396161456715
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local northeast-facing Ondarreta beach. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 1046442981,
+            "version": 3
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M079589",
+      "latitude": 43.2916,
+      "longitude": -2.1556,
+      "seaBearing": 343,
+      "shoreOrientation": {
+        "wayIds": [
+          513659496
+        ],
+        "reviewedVertexIndices": [
+          35,
+          36
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "distanceMetres": 152,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Zarautz east beach chord, excluding eastern headland; catalogue point 152m offshore. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 513659496,
+            "version": 4
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M079590",
+      "latitude": 43.2907,
+      "longitude": -2.1616,
+      "seaBearing": 346,
+      "shoreOrientation": {
+        "wayIds": [
+          513659496
+        ],
+        "reviewedVertexIndices": [
+          37,
+          38
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "distanceMetres": 172,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Zarautz central beach chord; catalogue point 172m offshore. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 513659496,
+            "version": 4
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M079591",
+      "latitude": 43.2906,
+      "longitude": -2.1687,
+      "seaBearing": 346,
+      "shoreOrientation": {
+        "wayIds": [
+          513659496
+        ],
+        "reviewedVertexIndices": [
+          38,
+          39
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "distanceMetres": 303,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Zarautz western beach chord; catalogue point 303m offshore. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 513659496,
+            "version": 4
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M039574",
+      "latitude": 43.3035,
+      "longitude": -2.2021,
+      "seaBearing": 125,
+      "shoreOrientation": {
+        "distanceMetres": 25,
+        "wayIds": [
+          48534451
+        ],
+        "reviewedVertexIndices": [
+          597,
+          603
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Malkorbe east/southeast-facing beach arc; harbour structures excluded; catalogue point landward. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 48534451,
+            "version": 26
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M039575",
+      "latitude": 43.3043,
+      "longitude": -2.2061,
+      "seaBearing": 346,
+      "shoreOrientation": {
+        "distanceMetres": 32,
+        "wayIds": [
+          4995529
+        ],
+        "reviewedVertexIndices": [
+          215,
+          220
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Gaztetape north-opening cove bottom, excluding sidewalls. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 4995529,
+            "version": 24
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES212M081593",
+      "latitude": 43.3025,
+      "longitude": -2.2602,
+      "seaBearing": 303,
+      "shoreOrientation": {
+        "distanceMetres": 191,
+        "wayIds": [
+          48585773
+        ],
+        "reviewedVertexIndices": [
+          294,
+          297
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Official 2026 sample name/code and URA 2023 Figure 1 identify the actual bathing beach south of the catalogue point. Selected local beach chord excludes adjacent harbour wall/rock. Land left, water right verified against official north-up beach map. Canonical coordinates preserved; no neighbouring beach bearing copied.",
+        "wayVersions": [
+          {
+            "id": 48585773,
+            "version": 17
+          }
+        ],
+        "reviewedSamplePoint": {
+          "latitude": 43.300601935614594,
+          "longitude": -2.261176366901947,
+          "sampleId": "593"
+        },
+        "verificationUrl": "https://www.uragentzia.euskadi.eus/contenidos/informacion/perfiles_bano/es_def/adjuntos/2023_28_Itzurun.pdf"
+      }
+    },
+    {
+      "locationId": "eea-ES212M0562515",
+      "latitude": 43.3119,
+      "longitude": -2.3792,
+      "seaBearing": 29,
+      "shoreOrientation": {
+        "distanceMetres": 101,
+        "wayIds": [
+          25310245
+        ],
+        "reviewedVertexIndices": [
+          61,
+          63
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Official 2026 sample name/code and URA 2023 Figure 1 identify the actual bathing beach south of the catalogue point. Selected local beach chord excludes adjacent harbour wall/rock. Land left, water right verified against official north-up beach map. Canonical coordinates preserved; no neighbouring beach bearing copied.",
+        "wayVersions": [
+          {
+            "id": 25310245,
+            "version": 11
+          }
+        ],
+        "reviewedSamplePoint": {
+          "latitude": 43.311393756323724,
+          "longitude": -2.380163903539001,
+          "sampleId": "2515"
+        },
+        "verificationUrl": "https://www.uragentzia.euskadi.eus/contenidos/informacion/perfiles_bano/es_def/adjuntos/2023_24_Mutriku-Ondar-Gain-.pdf"
+      }
+    },
+    {
+      "locationId": "eea-ES212M0562516",
+      "latitude": 43.3121,
+      "longitude": -2.3802,
+      "seaBearing": 117,
+      "shoreOrientation": {
+        "distanceMetres": 215,
+        "wayIds": [
+          4808580
+        ],
+        "reviewedVertexIndices": [
+          217,
+          218
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Official 2026 sample name/code and URA 2023 Figure 1 identify the actual bathing beach south of the catalogue point. Selected local beach chord excludes adjacent harbour wall/rock. Land left, water right verified against official north-up beach map. Canonical coordinates preserved; no neighbouring beach bearing copied.",
+        "wayVersions": [
+          {
+            "id": 4808580,
+            "version": 13
+          }
+        ],
+        "reviewedSamplePoint": {
+          "latitude": 43.310185481887665,
+          "longitude": -2.3815202448483777,
+          "sampleId": "2516"
+        },
+        "verificationUrl": "https://www.uragentzia.euskadi.eus/contenidos/informacion/perfiles_bano/es_def/adjuntos/2023_25_Mutriku-Puerto-.pdf"
+      }
+    },
+    {
+      "locationId": "eea-ES213M049611",
+      "latitude": 43.3734,
+      "longitude": -2.5452,
+      "seaBearing": 20,
+      "shoreOrientation": {
+        "distanceMetres": 39,
+        "radiusMetres": 60,
+        "wayIds": [
+          48535886,
+          4808516
+        ],
+        "nearestSegment": 288,
+        "nearestWayId": 48535886,
+        "shorePoint": {
+          "latitude": 43.373075503436105,
+          "longitude": -2.5453783864503756
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Ogella north-facing beach. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 48535886,
+            "version": 8
+          },
+          {
+            "id": 4808516,
+            "version": 8
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES213M048609",
+      "latitude": 43.4104,
+      "longitude": -2.6556,
+      "seaBearing": 333,
+      "shoreOrientation": {
+        "distanceMetres": 70,
+        "wayIds": [
+          48539267
+        ],
+        "reviewedVertexIndices": [
+          52,
+          55
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Laga eastern beach arc southwest of rocky promontory; rocks excluded. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 48539267,
+            "version": 11
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES213M048610",
+      "latitude": 43.4098,
+      "longitude": -2.6606,
+      "seaBearing": 355,
+      "shoreOrientation": {
+        "distanceMetres": 88,
+        "wayIds": [
+          48539267
+        ],
+        "reviewedVertexIndices": [
+          59,
+          61
+        ],
+        "method": "reviewed-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Local Laga central north-facing beach bottom; western rock wiggles excluded. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 48539267,
+            "version": 11
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ES213M017598",
+      "latitude": 43.4263,
+      "longitude": -2.7296,
+      "seaBearing": 11,
+      "shoreOrientation": {
+        "distanceMetres": 77,
+        "wayIds": [
+          148834766
+        ],
+        "reviewedVertexIndices": [
+          63,
+          64
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "verificationUrl": "https://www.uragentzia.euskadi.eus/contenidos/informacion/perfiles_bano/es_def/adjuntos/2023_13_Aritzatxu.pdf",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-29",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-29-osm.json",
+        "reviewNote": "Aritzatxu high-water beach rear edge, water north and land south. Beach polygon used because directed coastline follows adjacent rocks/islet. URA 2023 profile Figure 1 independently confirms beach and land/water sides. North-up local geometry and water side reviewed; no neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 148834766,
+            "version": 9
+          }
+        ]
+      }
     }
   ]
 }
