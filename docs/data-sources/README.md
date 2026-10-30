@@ -572,3 +572,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-29 outcome
 
 15 Basque coastal sites reviewed; 14 local shoreline bearings applied and production API verified (418 cumulative). Ea remains unresolved: tidal beach versus estuary-bank orientation requires further review. Official Basque sample IDs, names and coordinates matched all 15; season-closed recommendations do not establish fresh quality. Euskalmet API requires registration. Cameras: 0 fully verified, 0 integrated; Zarautz image did not advance during observation, Mutriku official camera link failed TLS verification. No new dynamic adapter. Next country: France; deferred review 2026-11-28. See `runs/2026-10-29.json`.
+
+## 2026-10-30 — Saint-Malo / Cancale
+
+15 coastal sites reviewed;14 local shore orientations applied and API verified (432 cumulative). Varde remains unresolved due to branching tidal-channel geometry. Annual Saint-Malo API latest2024; recent metadata processing is not fresh water quality. SHOM ncWMS documentation403; no new dynamic adapter. Cameras0 fully verified/0 integrated; Thermes playback moves but capture freshness and exact FOV unverified.129 tests, lint/build and PostgreSQL preservation/idempotence passed.30 model probes are point forecasts, not stored observations. Next country Sweden; deferred research dueNovember29. [Run evidence](runs/2026-10-30.json).

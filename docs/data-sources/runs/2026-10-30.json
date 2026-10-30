@@ -1,0 +1,916 @@
+{
+  "date": "2026-10-30",
+  "selection": "15 previously unreviewed Saint-Malo, Saint-Coulomb, Cancale and Porcon coastal sites. France follows Spain.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 14,
+    "liveNewCoverage": 14,
+    "shoreOrientationsDetermined": 14,
+    "shoreOrientationsApplied": 14,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-FRH0335288M035480",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035480",
+        "open-meteo-marine:eea-FRH0335288M035480"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 338,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035470",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035470",
+        "open-meteo-marine:eea-FRH0335288M035470"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 328,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035460",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035460",
+        "open-meteo-marine:eea-FRH0335288M035460"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 303,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035440",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "unresolved",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035440",
+        "open-meteo-marine:eea-FRH0335288M035440"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "reason": "Varde narrow tidal channel between rock fingers: nearest coast follows northern rocks with water south, sandy channels open north/west. Beach polygon has multiple lobes; a single local bathing-shore normal is not established. Retain missing pending orthophoto review."
+    },
+    {
+      "locationId": "eea-FRH0335288M035455",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035455",
+        "open-meteo-marine:eea-FRH0335288M035455"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 260,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035035",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035035",
+        "open-meteo-marine:eea-FRH0335288M035035"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 275,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035425",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035425",
+        "open-meteo-marine:eea-FRH0335288M035425"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 340,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035410",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035410",
+        "open-meteo-marine:eea-FRH0335288M035410"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 67,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335263M035395",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335263M035395",
+        "open-meteo-marine:eea-FRH0335263M035395"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 11,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335263M035380",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335263M035380",
+        "open-meteo-marine:eea-FRH0335263M035380"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 39,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335263M035365",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335263M035365",
+        "open-meteo-marine:eea-FRH0335263M035365"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 307,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335049M035335",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335049M035335",
+        "open-meteo-marine:eea-FRH0335049M035335"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 350,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335049M035320",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335049M035320",
+        "open-meteo-marine:eea-FRH0335049M035320"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 1,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335299M035215",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335299M035215",
+        "open-meteo-marine:eea-FRH0335299M035215"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 101,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335049M035305",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335049M035305",
+        "open-meteo-marine:eea-FRH0335049M035305"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 338,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    }
+  ],
+  "geometry": {
+    "snapshot": "data/shorelines/2026-10-30-osm.json",
+    "license": "ODbL-1.0",
+    "method": "7 weighted directed coastline normals;7 individually reviewed beach high-water/back-edge chords. North-up local plots compare tidal coastline and named beach polygons; explicit landward offsets retained. Varde unresolved.",
+    "cumulative": 432
+  },
+  "providers": [
+    {
+      "id": "saint-malo-annual-quality",
+      "url": "https://saint-malo.opendatasoft.com/api/explore/v2.1/catalog/datasets/qualite-des-eaux-de-baignade-sur-les-plages-de-saint-malo-agglomeration/records?limit=100&order_by=annee%20desc",
+      "status": "candidate",
+      "httpStatus": 200,
+      "recordsTotal": 325,
+      "recordsRead": 100,
+      "latestYear": 2024,
+      "license": "Licence Ouverte Etalab",
+      "authentication": "none",
+      "limits": "100 per bounded request; quota not established",
+      "resolution": "annual beach classification",
+      "dataProcessed": "2024-12-09T15:36:10+00:00",
+      "metadataProcessed": "2026-10-29T14:59:27.866000+00:00",
+      "reason": "Metadata refresh is not new measurements. Beach labels/communes available, no coordinates, stable beach IDs or current numerical bacteria samples. No new binding or annual overwrite."
+    },
+    {
+      "id": "ministry-hoguette",
+      "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?annee=2026&dptddass=035&impression=yes&isite=035001328&modeDetailImp=1&plv=no&site=035001328",
+      "locationId": "eea-FRH0335288M035480",
+      "status": "candidate",
+      "reason": "Official page confirms beach name/commune and June15–September15 season; retrieved web representation lists samples through August6. Cached representation is not a current API measurement. Other14 screened at shared-provider level, not individually sampled."
+    },
+    {
+      "id": "shom-ncwms",
+      "url": "https://api.data.shom.fr/support/fr/geoservices/ncwms",
+      "documentation": "https://diffusion.shom.fr/services-numeriques/geoservices.html",
+      "status": "candidate",
+      "httpStatus": 403,
+      "reason": "Official docs identify ncWMS NetCDF forecasts and surface currents. Documentation read failed403. No numeric point query, units, timestamps, quota or local wet-cell coverage verified; no model assigned."
+    },
+    {
+      "id": "brittany-algae",
+      "url": "https://bretagne-environnement.fr/tableau-de-bord/suivi-sanitaire-des-cyanobacteries-dans-les-zones-de-baignade-en-eau-douce",
+      "status": "candidate",
+      "reason": "Freshwater cyanobacteria surveillance does not cover these marine beaches. No marine alert absence inferred."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "fr-saint-malo-thermes",
+      "locationIds": [
+        "eea-FRH0335288M035480",
+        "eea-FRH0335288M035470"
+      ],
+      "operator": "Thermes Marins; published by Ville de Saint-Malo",
+      "pageUrl": "https://www.saint-malo.fr/accueil/webcams/",
+      "playerPage": "https://www.vision-environnement.com/live/player/stmalo40.php",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Browser shows moving/panning sandy beach and promenade toward northeast; municipal page labels Sillon et plages. Exact mounting position and selected bathing-area FOV not established.",
+      "checkedAt": "2026-10-30",
+      "type": "stream",
+      "freshness": "Playback changes observed in two screenshots, but no capture timestamp. LIVE overlay clock is not camera timestamp; currentness unverified.",
+      "embedding": "Not enabled; municipal embed is not permission for our embed.",
+      "status": "candidate",
+      "nextReviewAt": "2026-11-29"
+    }
+  ],
+  "cameraSearchRemainder": {
+    "locationIds": [
+      "eea-FRH0335288M035460",
+      "eea-FRH0335288M035440",
+      "eea-FRH0335288M035455",
+      "eea-FRH0335288M035035",
+      "eea-FRH0335288M035425",
+      "eea-FRH0335288M035410",
+      "eea-FRH0335263M035395",
+      "eea-FRH0335263M035380",
+      "eea-FRH0335263M035365",
+      "eea-FRH0335049M035335",
+      "eea-FRH0335049M035320",
+      "eea-FRH0335299M035215",
+      "eea-FRH0335049M035305"
+    ],
+    "url": "https://www.saint-malo-tourisme.com/poser-ses-valises/informations-pratiques/webcams/",
+    "status": "not-found",
+    "scope": "Grouped official tourism/municipal search; Port Mer and harbour cameras do not prove selected beach FOV. No individually verified camera.",
+    "nextReviewAt": "2026-11-29"
+  },
+  "operations": {
+    "projectId": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "baseCommit": "e1e8c5925cebf306f758c645d6c79f2f3f26eb96",
+    "cron": "One active minute safe-to-swim-source-checks",
+    "sourceState": "Advancing Oct30 weather/marine09:00 publications, UiRaS08:24, Palanga07:00. Storm stale05:20. Existing EA152 failures next10:19; quality8 failures next16:16; annual EA/NRW/SEPA7/7/8 nextNov3. No forced collection or duplicate cron."
+  },
+  "validation": {
+    "tests": 129,
+    "lint": "passed",
+    "build": "passed",
+    "geometry": "432 reproduced",
+    "postgres": "Actual disposable PostgreSQL import tests passed: manual0, provenance/name preserved, missing-only fill, changed coordinate/type guards, idempotence.",
+    "permissions": "All8 canonical tables RLS enabled; zero anon/auth grants on inspected locations/targets/bindings/state. No DDL or grants changed.",
+    "api": "4 paginated lists and14 detail/observation identities/sources/bearings verified. Persisted observations empty.",
+    "models": [
+      {
+        "id": "eea-FRH0335288M035480",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.65948&longitude=-1.99888&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 11.9,
+            "wind_direction_10m": 104
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.65948&longitude=-1.99888&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035470",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.66355&longitude=-1.99055&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 15.0,
+            "wind_direction_10m": 100
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.66355&longitude=-1.99055&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035460",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.66833&longitude=-1.98649&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 12.5,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.66833&longitude=-1.98649&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035440",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.68157&longitude=-1.98589&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 12.5,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.68157&longitude=-1.98589&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035455",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.67605&longitude=-1.98279&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 12.5,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.67605&longitude=-1.98279&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035035",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.68363&longitude=-1.97787&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 12.5,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.68363&longitude=-1.97787&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035425",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.68359&longitude=-1.97324&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 12.5,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.68359&longitude=-1.97324&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335288M035410",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.68221&longitude=-1.96292&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 12.5,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.68221&longitude=-1.96292&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335263M035395",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.69173&longitude=-1.95242&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 15.8,
+            "wind_direction_10m": 102
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.69173&longitude=-1.95242&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335263M035380",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.69366&longitude=-1.93185&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 16.2,
+            "wind_direction_10m": 103
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.69366&longitude=-1.93185&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335263M035365",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.69348&longitude=-1.89552&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 15.2,
+            "wind_direction_10m": 104
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.69348&longitude=-1.89552&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335049M035335",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.69703&longitude=-1.88437&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 14.5,
+            "wind_direction_10m": 104
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.69703&longitude=-1.88437&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335049M035320",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.69578&longitude=-1.87802&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 14.5,
+            "wind_direction_10m": 104
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.69578&longitude=-1.87802&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335299M035215",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.65236&longitude=-1.86835&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 11.4,
+            "wind_direction_10m": 101
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.65236&longitude=-1.86835&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      },
+      {
+        "id": "eea-FRH0335049M035305",
+        "weather": {
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=48.70001&longitude=-1.86247&current=wind_speed_10m,wind_direction_10m&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wind_speed_10m": 14.8,
+            "wind_direction_10m": 104
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wind_speed_10m": "km/h",
+            "wind_direction_10m": "°"
+          },
+          "kind": "modelled point probe"
+        },
+        "marine": {
+          "url": "https://marine-api.open-meteo.com/v1/marine?latitude=48.70001&longitude=-1.86247&current=wave_height&timeformat=unixtime",
+          "current": {
+            "time": 1793350800,
+            "interval": 900,
+            "wave_height": 0.26
+          },
+          "units": {
+            "time": "unixtime",
+            "interval": "seconds",
+            "wave_height": "m"
+          },
+          "kind": "modelled point probe"
+        }
+      }
+    ],
+    "ui": "Production Hoguette selected: easterly wind classified offshore using338-degree bearing; missing orientation note absent. Conservative warning and unknown current water quality retained. No verified camera shown."
+  },
+  "nextCountry": "Sweden"
+}

@@ -14618,6 +14618,475 @@
           }
         ]
       }
+    },
+    {
+      "locationId": "eea-FRH0335288M035480",
+      "latitude": 48.65948,
+      "longitude": -1.99888,
+      "seaBearing": 338,
+      "shoreOrientation": {
+        "distanceMetres": 109,
+        "radiusMetres": 60,
+        "wayIds": [
+          145671626
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 145671626,
+        "shorePoint": {
+          "latitude": 48.66038839422786,
+          "longitude": -1.9994342799838587
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Northwest-facing Hoguette sandy shore; catalogue point landward of mapped tidal coastline. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 145671626,
+            "version": 6
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035470",
+      "latitude": 48.66355,
+      "longitude": -1.99055,
+      "seaBearing": 328,
+      "shoreOrientation": {
+        "wayIds": [
+          142301906
+        ],
+        "reviewedVertexIndices": [
+          78,
+          82
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "distanceMetres": 17,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Rochebonne local high-water beach edge, water northwest; distant tidal coastline excluded. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 142301906,
+            "version": 16
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035460",
+      "latitude": 48.66833,
+      "longitude": -1.98649,
+      "seaBearing": 303,
+      "shoreOrientation": {
+        "wayIds": [
+          141130991
+        ],
+        "reviewedVertexIndices": [
+          63,
+          47
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "distanceMetres": 33,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Minihic high-water beach edge, water northwest; 239m-distant tidal coastline excluded. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 141130991,
+            "version": 18
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035455",
+      "latitude": 48.67605,
+      "longitude": -1.98279,
+      "seaBearing": 260,
+      "shoreOrientation": {
+        "wayIds": [
+          142490096
+        ],
+        "reviewedVertexIndices": [
+          18,
+          15
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "distanceMetres": 58,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Pont high-water beach back, water west; northern rocks excluded. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 142490096,
+            "version": 16
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035035",
+      "latitude": 48.68363,
+      "longitude": -1.97787,
+      "seaBearing": 275,
+      "shoreOrientation": {
+        "distanceMetres": 36,
+        "wayIds": [
+          141105544
+        ],
+        "reviewedVertexIndices": [
+          9,
+          8
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Nicet eastern head of narrow sandy cove, water west toward Varde; northern rocky coastline excluded. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 141105544,
+            "version": 6
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035425",
+      "latitude": 48.68359,
+      "longitude": -1.97324,
+      "seaBearing": 340,
+      "shoreOrientation": {
+        "distanceMetres": 83,
+        "radiusMetres": 60,
+        "wayIds": [
+          4539758
+        ],
+        "nearestSegment": 72,
+        "nearestWayId": 4539758,
+        "shorePoint": {
+          "latitude": 48.68425101717047,
+          "longitude": -1.9737651135398735
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Val north-facing cove bottom; catalogue point landward of tidal coastline. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 4539758,
+            "version": 28
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035410",
+      "latitude": 48.68221,
+      "longitude": -1.96292,
+      "seaBearing": 67,
+      "shoreOrientation": {
+        "distanceMetres": 22,
+        "radiusMetres": 60,
+        "wayIds": [
+          4539758
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 4539758,
+        "shorePoint": {
+          "latitude": 48.68226910916792,
+          "longitude": -1.9626398983955504
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Rotheneuf local eastern-facing edge of Havre, not outer northern coast. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied. Catalogue point is 22m landward of the mapped tidal coastline.",
+        "wayVersions": [
+          {
+            "id": 4539758,
+            "version": 28
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335263M035395",
+      "latitude": 48.69173,
+      "longitude": -1.95242,
+      "seaBearing": 11,
+      "shoreOrientation": {
+        "distanceMetres": 36,
+        "radiusMetres": 60,
+        "wayIds": [
+          61318752
+        ],
+        "nearestSegment": 10,
+        "nearestWayId": 61318752,
+        "shorePoint": {
+          "latitude": 48.69204811949317,
+          "longitude": -1.9523266523879037
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Chevrets north-facing beach, not southern Guimorais/Havre beach; catalogue point landward of tidal coastline. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 61318752,
+            "version": 6
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335263M035380",
+      "latitude": 48.69366,
+      "longitude": -1.93185,
+      "seaBearing": 39,
+      "shoreOrientation": {
+        "distanceMetres": 86,
+        "radiusMetres": 60,
+        "wayIds": [
+          4540823
+        ],
+        "nearestSegment": 97,
+        "nearestWayId": 4540823,
+        "shorePoint": {
+          "latitude": 48.69421492623643,
+          "longitude": -1.9310281992044436
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Dunes du Port northeast-facing local arc; catalogue point landward of tidal coastline. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 4540823,
+            "version": 20
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335263M035365",
+      "latitude": 48.69348,
+      "longitude": -1.89552,
+      "seaBearing": 307,
+      "shoreOrientation": {
+        "distanceMetres": 32,
+        "radiusMetres": 60,
+        "wayIds": [
+          4540823
+        ],
+        "nearestSegment": 9,
+        "nearestWayId": 4540823,
+        "shorePoint": {
+          "latitude": 48.693618844857056,
+          "longitude": -1.8958959245901752
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Duguesclin local northwest-facing eastern beach segment; catalogue point landward of tidal coastline. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 4540823,
+            "version": 20
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335049M035335",
+      "latitude": 48.69703,
+      "longitude": -1.88437,
+      "seaBearing": 350,
+      "shoreOrientation": {
+        "distanceMetres": 20,
+        "wayIds": [
+          27825377
+        ],
+        "reviewedVertexIndices": [
+          9,
+          12
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Petit Port cove bottom high-water edge, water north; side cliffs excluded. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 27825377,
+            "version": 6
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335049M035320",
+      "latitude": 48.69578,
+      "longitude": -1.87802,
+      "seaBearing": 1,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          210570673
+        ],
+        "nearestSegment": 116,
+        "nearestWayId": 210570673,
+        "shorePoint": {
+          "latitude": 48.69571782859269,
+          "longitude": -1.8780155912325203
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Verger north-facing cove bottom. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 210570673,
+            "version": 10
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335299M035215",
+      "latitude": 48.65236,
+      "longitude": -1.86835,
+      "seaBearing": 101,
+      "shoreOrientation": {
+        "distanceMetres": 26,
+        "wayIds": [
+          656556479
+        ],
+        "reviewedVertexIndices": [
+          9,
+          8
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Porcon western beach edge, water east; small local beach geometry used instead of coast turn. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 656556479,
+            "version": 4
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-FRH0335049M035305",
+      "latitude": 48.70001,
+      "longitude": -1.86247,
+      "seaBearing": 338,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "wayIds": [
+          393037759
+        ],
+        "reviewedVertexIndices": [
+          18,
+          0
+        ],
+        "method": "reviewed-beach-high-water-edge-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-10-30",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-10-30-osm.json",
+        "reviewNote": "Saussaye local beach back, water northwest; rocky eastern shoulder excluded. North-up coastline and beach polygons compared; land and water sides checked separately. No neighbouring bearing copied.",
+        "wayVersions": [
+          {
+            "id": 393037759,
+            "version": 3
+          }
+        ]
+      }
     }
   ]
 }

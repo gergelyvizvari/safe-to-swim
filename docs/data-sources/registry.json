@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-29",
-  "nextCountry": "France",
+  "lastRun": "2026-10-30",
+  "nextCountry": "Sweden",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -13136,6 +13136,305 @@
         "identity": "Sample-code suffix, exact beach/PM name and local coordinates jointly checked; legacy regional IDs not substituted for canonical location ID."
       },
       "reason": "Local shore bearing applied and production API read back. No new fresh dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035480",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035480",
+        "open-meteo-marine:eea-FRH0335288M035480"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 338,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035470",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035470",
+        "open-meteo-marine:eea-FRH0335288M035470"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 328,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035460",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035460",
+        "open-meteo-marine:eea-FRH0335288M035460"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 303,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035440",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "unresolved",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035440",
+        "open-meteo-marine:eea-FRH0335288M035440"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "reason": "Varde narrow tidal channel between rock fingers: nearest coast follows northern rocks with water south, sandy channels open north/west. Beach polygon has multiple lobes; a single local bathing-shore normal is not established. Retain missing pending orthophoto review."
+    },
+    {
+      "locationId": "eea-FRH0335288M035455",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035455",
+        "open-meteo-marine:eea-FRH0335288M035455"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 260,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035035",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035035",
+        "open-meteo-marine:eea-FRH0335288M035035"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 275,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035425",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035425",
+        "open-meteo-marine:eea-FRH0335288M035425"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 340,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335288M035410",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335288M035410",
+        "open-meteo-marine:eea-FRH0335288M035410"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 67,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335263M035395",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335263M035395",
+        "open-meteo-marine:eea-FRH0335263M035395"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 11,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335263M035380",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335263M035380",
+        "open-meteo-marine:eea-FRH0335263M035380"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 39,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335263M035365",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335263M035365",
+        "open-meteo-marine:eea-FRH0335263M035365"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 307,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335049M035335",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335049M035335",
+        "open-meteo-marine:eea-FRH0335049M035335"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 350,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335049M035320",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335049M035320",
+        "open-meteo-marine:eea-FRH0335049M035320"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 1,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335299M035215",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335299M035215",
+        "open-meteo-marine:eea-FRH0335299M035215"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 101,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-FRH0335049M035305",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-10-30",
+      "nextReviewAt": "2026-11-29",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRH0335049M035305",
+        "open-meteo-marine:eea-FRH0335049M035305"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-11-29",
+      "evidenceReference": "runs/2026-10-30.json",
+      "seaBearing": 338,
+      "reason": "Local orientation applied and API verified; no new dynamic measurement."
     }
   ]
 }
