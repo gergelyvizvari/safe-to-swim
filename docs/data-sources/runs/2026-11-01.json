@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-01",
+  "selection": "15 new lake sites in Hameenlinna/Lahti/Asikkala/Hollola. Norway query returned zero active catalogue sites, so rotation advanced to Finland. Previous batch completed before this run.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 0,
+    "liveNewCoverage": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "locations": [
+    {
+      "locationId": "eea-FI123109001",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/uimavesi-ja-allasvesi/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI123109001"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI123109004",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/uimavesi-ja-allasvesi/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI123109004"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI1C3398007",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI1C3398007"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI123109003",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/uimavesi-ja-allasvesi/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI123109003"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI123083001",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/uimavesi-ja-allasvesi/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI123083001"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125398001",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125398001"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125016001",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://asikkala.fi/yleiset-alueet/uimarannat/uimarantojen-vedenlaatu/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125016001"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125016002",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://asikkala.fi/yleiset-alueet/uimarannat/uimarantojen-vedenlaatu/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125016002"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125398002",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125398002"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125398003",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125398003"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125098003",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://hollola.fi/vapaa-aika/liikunta/uimarannat/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125098003"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance. Municipal profile coordinates 61.01920,25.56722 differ from catalogue 61.0356,25.5676 by about 1.8 km; resolve before any assignment or coordinate change."
+    },
+    {
+      "locationId": "eea-FI125398006",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125398006"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125398004",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125398004"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI125398005",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI125398005"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    },
+    {
+      "locationId": "eea-FI184401004",
+      "country": "Finland",
+      "waterType": "lake",
+      "provider": "municipal-quality-and-syke",
+      "status": "candidate",
+      "checkedAt": "2026-11-01",
+      "nextReviewAt": "2026-12-01",
+      "sourcePage": "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/uimavesi-ja-allasvesi/",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FI184401004"
+      ],
+      "shoreOrientationStatus": "not-applicable",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-11-01.json",
+      "reason": "Shared municipal source and Syke station screen; current observation, exact sampling station coordinates and local representativeness not verified. Seasonal sample listings are not current clearance."
+    }
+  ],
+  "providers": [
+    {
+      "id": "syke-hydrology",
+      "documentation": "https://www.syke.fi/en/environmental-data/open-web-services/environmental-data-apis",
+      "api": "https://rajapinnat.ymparisto.fi/api/Hydrologiarajapinta/1.2/",
+      "license": "CC BY 4.0 for Syke open data; dataset-specific restrictions must also be checked.",
+      "licenseUrl": "https://www.syke.fi/en/environmental-data/use-license-and-responsibilities",
+      "authentication": "No credentials used for successful bounded GETs.",
+      "queryNote": "OData $format rejected with400; corrected to Accept: application/json. Suure entity confirms surface temperature Suure_Id11, degrees Celsius. No provider outage inferred from client query error.",
+      "stationProbe": "https://rajapinnat.ymparisto.fi/api/Hydrologiarajapinta/1.2/odata/Paikka?%24filter=Suure_Id+eq+11+and+%28H_Kunta_Id+eq+398+or+H_Kunta_Id+eq+109+or+H_Kunta_Id+eq+16+or+H_Kunta_Id+eq+98%29&%24top=100",
+      "stationFindings": [
+        {
+          "stationId": 1675,
+          "name": "Päijänne,Kalkkinen",
+          "waterBodyId": "14.211.1.001",
+          "latest": "1999-12-09T00:00:00",
+          "status": "stale",
+          "reason": "Historical series, no current coverage."
+        },
+        {
+          "stationId": 2605,
+          "name": "Pääjärvi, Lammi",
+          "waterBodyId": "35.833.1.003",
+          "status": "not-assigned",
+          "reason": "Different lake from selected sites."
+        },
+        {
+          "stationId": 3485,
+          "name": "Nerosjärvi",
+          "status": "not-assigned",
+          "reason": "Different lake; water-body identifier absent."
+        }
+      ],
+      "sampleProbe": "https://rajapinnat.ymparisto.fi/api/Hydrologiarajapinta/1.2/odata/LampoPintavesi?%24filter=Paikka_Id+eq+1675&%24orderby=Aika+desc&%24top=2",
+      "normalization": "Arvo returned as numeric string; Aika has no timezone suffix. Time convention and update latency must be verified before an adapter. Regional station query is not exhaustive national coverage. Rate limits not established; bounded reads only.",
+      "otherData": "Surface-water chemistry API documented at /api/vesla/2.0/; no sample API query or bathing-quality identity mapping verified. No marine API requested for lakes."
+    },
+    {
+      "id": "municipal-quality",
+      "sources": [
+        "https://www.hameenlinna.fi/hyvinvointi-ja-liikunta/liikunta-ja-ulkoilu/uimahallit-ja-rannat/uimavesi-ja-allasvesi/",
+        "https://www.lahti.fi/vapaa-aika/liikunta-ja-ulkoilu/uimarannat-ja-talviuinti/",
+        "https://asikkala.fi/yleiset-alueet/uimarannat/uimarantojen-vedenlaatu/",
+        "https://hollola.fi/vapaa-aika/liikunta/uimarannat/"
+      ],
+      "findings": "Hameenlinna lists five selected sites and Aug18 sample PDF (web fetch failed, contents not verified). Lahti lists seven selected sites and summer sampling schedule. Asikkala links Aug4 Kalmari/Kuotaa reports. Hollola lists Messila August reports. These are seasonal links/schedules, not parsed fresh results. Hameenlinna August algae notices remain historical.",
+      "nextReviewAt": "2026-12-01"
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "fi-lahti-aqua-mustankallio",
+      "operator": "Lahti Aqua",
+      "sourcePage": "https://lahtiaqua.fi/tietoa-lahti-aquasta/mustankallion-vesitorni/vesitornin-360-verkkokamera/",
+      "locationIds": [],
+      "candidateRegionLocationIds": [
+        "eea-FI1C3398007",
+        "eea-FI125398001",
+        "eea-FI125016001",
+        "eea-FI125016002",
+        "eea-FI125398002",
+        "eea-FI125398003",
+        "eea-FI125098003",
+        "eea-FI125398006",
+        "eea-FI125398004",
+        "eea-FI125398005"
+      ],
+      "coordinates": null,
+      "fieldOfViewEvidence": "City panorama; no exact selected bathing-site field of view verified.",
+      "checkedAt": "2026-11-01",
+      "type": "link",
+      "status": "unavailable",
+      "freshness": "Operator states camera broken since June15 2026 and image no longer updates.",
+      "embeddability": "Not tested; no embed introduced.",
+      "nextReviewAt": "2026-12-01"
+    }
+  ],
+  "cameraSearches": [
+    "site.hameenlinna.fi webkamera Ahvenisto",
+    "site.lahti.fi webkamera Vesijärvi",
+    "site.asikkala.fi webkamera Kalmari Kuotaa",
+    "site.messila.fi uimaranta vedenlaatu webkamera"
+  ],
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "baseCommit": "957fa5c8c11a3ad403aad227df7ea4cdfa7829b1",
+    "detailIdentitiesVerified": 15,
+    "emptyObservationEnvelopes": 15,
+    "pagination": "Two15-item pages each for lake/coastal; correct type and no duplicate IDs verified.",
+    "cron": "Single active every-minute safe-to-swim-source-checks job; unchanged.",
+    "state": "09:55UTC snapshot shows LHMT publication advanced to09:00, weather/marine canaries healthy. Known quality/EA failures persist. Storm seasonal closure already investigated in Oct31 run; not re-probed. No collection trigger called."
+  },
+  "validation": {
+    "npmTest": "129 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "ui": "No UI change",
+    "sql": "No schema or import changes; no unverified binding prepared"
+  },
+  "nextCountry": "Estonia"
+}

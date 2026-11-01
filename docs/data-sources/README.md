@@ -580,3 +580,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-10-31 — Karlstad lakes (completed November 1)
 
 15 new lake sites screened; no new integration or prepared import. Eleven municipal temperature badges lack verified measurement timestamps/sensor metadata; four pages have no numeric badge. All15 production details match lake identities and weather bindings, with empty stored observations and no marine bindings. Cameras verified/integrated0/0; bearings determined/applied0/0 (lakes). HungaroMet storm endpoint now returns only its April–October service-season notice, explaining unavailable state; conservative handling retained.129 tests, lint/build passed. Next country Norway; new unresolved research dueDecember1. [Run evidence](runs/2026-10-31.json).
+
+## 2026-11-01 — Hämeenlinna / Lahti lakes
+
+15 new lake sites screened; no verified new integration or prepared import. Syke OData reads succeeded after removing unsupported $format; Kalkkinen temperature series ends in1999 and other regional sensors belong to different lakes. Seasonal municipal sample listings remain candidates. Messilä profile/catalogue coordinate discrepancy needs resolution. Lahti Aqua panorama is broken according to its operator; cameras verified/integrated0/0. Bearings determined/applied0/0 (lakes).15 production identities and empty observation envelopes verified;129 tests, lint/build passed. Norway has no active catalogue sites, so rotation advanced to Finland; next Estonia. New research dueDecember1. [Run evidence](runs/2026-11-01.json).
