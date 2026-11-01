@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-10-30",
-  "nextCountry": "Sweden",
+  "lastRun": "2026-10-31",
+  "nextCountry": "Norway",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -13435,6 +13435,291 @@
       "evidenceReference": "runs/2026-10-30.json",
       "seaBearing": 338,
       "reason": "Local orientation applied and API verified; no new dynamic measurement."
+    },
+    {
+      "locationId": "eea-SE0611780000002376",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:39.098826+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002376"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/torsviken",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002377",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:39.099116+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002377"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/bomstadbaden",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002378",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:39.099320+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002378"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/skutbergets-badplats",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002379",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:39.099491+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002379"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/ilandabadet",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000004053",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:39.099680+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000004053"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/mariebergsskogens-badplats",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002381",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:43.979522+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002381"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/orrholmens-badplats",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002380",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:44.322251+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002380"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/sundstatjarn",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002382",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:44.333704+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002382"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/kroppkarrsbadet",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002383",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:44.346445+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002383"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/orsholmens-badplats",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002384",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:44.354611+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002384"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/alsters-strandbad",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002389",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:46.401141+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002389"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/killstabadet",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002392",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:46.722285+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002392"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/alvsbacka-badplats",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002390",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:46.948602+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002390"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/graningebadet",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000003824",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:47.168508+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000003824"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/stora-och-lilla-bjornrukan",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
+    },
+    {
+      "locationId": "eea-SE0611780000002391",
+      "country": "Sweden",
+      "waterType": "lake",
+      "provider": "karlstad-municipality",
+      "status": "candidate",
+      "checkedAt": "2026-11-01T09:49:47.243851+00:00",
+      "nextReviewAt": "2026-12-01",
+      "shoreOrientationStatus": "not-applicable",
+      "sourceTargets": [
+        "open-meteo-weather:eea-SE0611780000002391"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-found",
+      "cameraNextReviewAt": "2026-12-01",
+      "evidenceReference": "runs/2026-10-31.json",
+      "sourcePage": "https://karlstad.se/uppleva-och-gora/friluftsliv-och-motion/badplatser/mangenbaden",
+      "reason": "Municipal temperature page screened; measurement timestamp, sensor identity/coordinates, units and API reuse terms not established. No current observation imported. Shared camera search and municipal page yielded no verified camera; not an exhaustive absence claim."
     }
   ]
 }
