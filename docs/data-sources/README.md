@@ -584,3 +584,7 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-11-01 — Hämeenlinna / Lahti lakes
 
 15 new lake sites screened; no verified new integration or prepared import. Syke OData reads succeeded after removing unsupported $format; Kalkkinen temperature series ends in1999 and other regional sensors belong to different lakes. Seasonal municipal sample listings remain candidates. Messilä profile/catalogue coordinate discrepancy needs resolution. Lahti Aqua panorama is broken according to its operator; cameras verified/integrated0/0. Bearings determined/applied0/0 (lakes).15 production identities and empty observation envelopes verified;129 tests, lint/build passed. Norway has no active catalogue sites, so rotation advanced to Finland; next Estonia. New research dueDecember1. [Run evidence](runs/2026-11-01.json).
+
+## 2026-11-02 — Estonia lakes
+
+15 new lake sites screened. The official replacement KTI public JSON API is reachable: four pages/169 distinct facilities,15 exact bathing-water codes matched. Latest selected samples August5–25 remain stale. Aidu laboratory protocol and sampling-point IDs verified; unit classifier, coordinates and reuse terms remain unresolved, so no adapter or import activated. Cameras verified/integrated0/0; bearings determined/applied0/0 (lakes).15 production identities and empty observations verified; existing scheduled collection advances. Next Latvia; new research dueDecember2. [Run evidence](runs/2026-11-02.json).
