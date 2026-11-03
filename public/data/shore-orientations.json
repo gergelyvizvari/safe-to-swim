@@ -15087,6 +15087,41 @@
           }
         ]
       }
+    },
+    {
+      "locationId": "eea-LT0032520010720",
+      "latitude": 55.9246,
+      "longitude": 21.0545,
+      "seaBearing": 290,
+      "shoreOrientation": {
+        "distanceMetres": 20,
+        "radiusMetres": 60,
+        "wayIds": [
+          91927667
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 91927667,
+        "shorePoint": {
+          "latitude": 55.92467976373116,
+          "longitude": 21.0542145768136
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-03",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 91927667,
+            "version": 24
+          }
+        ],
+        "reviewNote": "Local southbound segment 2 and adjacent vertices reviewed: Baltic water lies west/northwest, land east. Catalogue point is 20 m landward; river mouth lies north. Derived from this local segment, not copied from Palanga pier. Official HI code matches; its monitoring point latitude55.9267 differs from catalogue55.9246 and is not substituted.",
+        "snapshotFile": "2026-10-13-osm.json"
+      }
     }
   ]
 }

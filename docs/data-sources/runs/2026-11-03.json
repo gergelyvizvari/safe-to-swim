@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-03",
+  "selection": "5 remaining unreviewed Latvian sites and10 next Lithuanian IDs from canonical catalogue; existing research IDs excluded. Isolated worktree from713ead8.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 0,
+    "liveNewCoverage": 1,
+    "newDynamicIntegrations": 0,
+    "correctedMarineAssignments": 1,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "shoreOrientationsDetermined": 1,
+    "shoreOrientationsApplied": 1
+  },
+  "locations": [
+    {
+      "locationId": "eea-LT0032520010720",
+      "country": "Lithuania",
+      "waterType": "coastal",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "integrated",
+      "sourceTargets": [
+        "eea:eea-LT0032520010720",
+        "open-meteo-marine:eea-LT0032520010720",
+        "open-meteo-weather:eea-LT0032520010720"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "applied",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "HI profile exact code confirms Baltic beach. Local directed coastline yields290deg, applied. Palanga station fresh but no new measurement binding: river-mouth representativeness requires review.",
+      "seaBearing": 290
+    },
+    {
+      "locationId": "eea-LT003750180050103",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT003750180050103",
+        "open-meteo-weather:eea-LT003750180050103"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT003882010050553",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT003882010050553",
+        "open-meteo-weather:eea-LT003882010050553"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT0038850100201100",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT0038850100201100",
+        "open-meteo-weather:eea-LT0038850100201100"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT004183015040153",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT004183015040153",
+        "open-meteo-weather:eea-LT004183015040153"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT004184215040111",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT004184215040111",
+        "open-meteo-weather:eea-LT004184215040111"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT004392060030001",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT004392060030001",
+        "open-meteo-weather:eea-LT004392060030001"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT004397715040262",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT004397715040262",
+        "open-meteo-weather:eea-LT004397715040262"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT004483415030100",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT004483415030100",
+        "open-meteo-weather:eea-LT004483415030100"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LT005360142040061",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LT005360142040061",
+        "open-meteo-weather:eea-LT005360142040061"
+      ],
+      "provider": "lhmt-hi",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "LHMT 97-station JSON screened; no representative lake station verified. HI quality page returned403; no sample API integration."
+    },
+    {
+      "locationId": "eea-LV00601000003",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LV00601000003",
+        "open-meteo-weather:eea-LV00601000003"
+      ],
+      "provider": "veselibas-inspekcija",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "Official seasonal laboratory report candidate; no current safety clearance or automated sample integration."
+    },
+    {
+      "locationId": "eea-LV00946600001",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LV00946600001",
+        "open-meteo-weather:eea-LV00946600001"
+      ],
+      "provider": "veselibas-inspekcija",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "Official seasonal laboratory report candidate; no current safety clearance or automated sample integration."
+    },
+    {
+      "locationId": "eea-LV00956010003",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LV00956010003",
+        "open-meteo-weather:eea-LV00956010003"
+      ],
+      "provider": "veselibas-inspekcija",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "Official seasonal laboratory report candidate; no current safety clearance or automated sample integration."
+    },
+    {
+      "locationId": "eea-LV00766020101",
+      "country": "Latvia",
+      "waterType": "lake",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "candidate",
+      "sourceTargets": [
+        "eea:eea-LV00766020101",
+        "open-meteo-weather:eea-LV00766020101"
+      ],
+      "provider": "veselibas-inspekcija",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-lake",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "Official seasonal laboratory report candidate; no current safety clearance or automated sample integration."
+    },
+    {
+      "locationId": "eea-LV00713000013",
+      "country": "Latvia",
+      "waterType": "coastal",
+      "checkedAt": "2026-11-03",
+      "nextReviewAt": "2026-12-03",
+      "status": "integrated",
+      "sourceTargets": [
+        "eea:eea-LV00713000013",
+        "open-meteo-weather:eea-LV00713000013"
+      ],
+      "provider": "veselibas-inspekcija",
+      "cameraStatus": "not-verified",
+      "cameraNextReviewAt": "2026-12-03",
+      "shoreOrientationStatus": "not-applicable-river",
+      "evidenceReference": "runs/2026-11-03.json",
+      "reason": "Official Lielupe river identity verified. Disabled unrepresentative marine binding in production; weather/history retained. Imported coastal category and existing lake wording remain a taxonomy/UI follow-up."
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.vi.gov.lv/lv/jaunums/peldvietu-udens-kvalitate-0",
+      "finding": "Official season May15–September15; updated September17. Laboratory and visual algal assessment; not current November clearance."
+    },
+    {
+      "url": "https://www.vi.gov.lv/lv/media/14895/download?attachment=",
+      "finding": "Seasonal PDF read: Priedaine row25, Gaurata47, Lielezers51, Radzu57; month-level historical samples. No exact current timestamp API verified."
+    },
+    {
+      "url": "https://www.vi.gov.lv/lv/oficialo-peldvietu-udens-kvalitate-pec-2026-gada-peldsezonas-beigam",
+      "finding": "October15 update: off-season state sampling not required; municipal voluntary testing. Riga attachment15000 is XLSX, not parsed this run."
+    },
+    {
+      "url": "https://www.vi.gov.lv/sites/vi/files/media_file/priedaines_lielupes_peldvietas-udens-apraksts_2023.pdf",
+      "finding": "Priedaine is Lielupe river, not Baltic coast."
+    },
+    {
+      "url": "https://www.hi.lt/uploads/Sveikatos%20stiprinimo%20centras/Skyriu_info/Aplinkos_sveikata/Maudyklos/Maudyklu_charakteristikos/Klaipeda/Razes_papludimio_ch_HI_2024.pdf",
+      "finding": "Exact codeLT0032520010720; Baltic beach north of river mouth. Monitoring latitude55.9267 differs from catalogue55.9246; not substituted."
+    },
+    {
+      "url": "https://api.meteo.lt/v1/hydro-stations",
+      "finding": "GET parsed97 station objects. Skuodo VMS is Bartuva river, Kudirkos Naumiescio is Sesupe, not the selected lakes. No nearest-only mapping."
+    },
+    {
+      "url": "https://api.meteo.lt/v1/hydro-stations/palangos-vms/observations/measured/latest",
+      "finding": "GET station identity verified; November3 10:00UTC waterTemperature11.9C. Existing Palanga integration retained. No new Razes assignment due river-mouth representativeness."
+    },
+    {
+      "url": "https://api.meteo.lt/",
+      "finding": "Official public measured hydrology API, existing adapterCC BY-SA4.0; reuse existing provider instead of per-site duplicate collection."
+    },
+    {
+      "url": "https://www.hi.lt/maudyklu-vandens-kokybe/",
+      "finding": "403 from web reader; no bypass. No current quality/alert/algae API established for new Lithuanian sites."
+    }
+  ],
+  "cameraSearchScope": "Grouped exact-location and municipal/tourism-domain searches covered the15 sites. No fresh beach-view stream verified. Limbazi.com explicitly unofficial; its Varzu coastal camera is a different water body from Lielezers. Jurmala beach cameras not assigned to Priedaine river. Traffic/security cameras not treated as public bathing views. Negative screening is not proof of absence.",
+  "cameraCandidates": [
+    {
+      "cameraId": "lv-varzu-municipality-link",
+      "locationIds": [
+        "eea-LV00766020101"
+      ],
+      "operator": "Limbaži municipality (directory claim only)",
+      "sourcePage": "https://www.limbazi.com/live-cameras/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Page names Varzu Baltic coast; target is Lielezers lake. Rejected before playback.",
+      "checkedAt": "2026-11-03",
+      "type": "link",
+      "freshness": "not-tested-wrong-waterbody",
+      "embedding": "not-tested",
+      "status": "rejected-wrong-waterbody",
+      "nextReviewAt": "2026-12-03"
+    }
+  ],
+  "productionAudit": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "catalogue": "lake/coastal limit15 offset0 responses read;15 detail/observation identities validated, all observation lists empty. Razes290, Priedaine marinefalse/weather retained.",
+    "scheduler": "One active minute Supabase job; no manual source-checks invocation or duplicate schedule.",
+    "sourceState": "UIRaS, LHMT, weather, marine and Hungarian measurements advancing. Known EA403 and post-season Hungarian storm failures remain.",
+    "ui": "Priedaine browser: weather available, no marine/tide panel, current quality unconfirmed. Existing inland presentation says lake, and wind still notes missing orientation; taxonomy/copy follow-up remains."
+  },
+  "activation": {
+    "status": "applied",
+    "imports": [
+      "supabase/imports/20261103_priedaine_marine_exclusion.sql",
+      "supabase/imports/20261103_razes_shore_orientation.sql"
+    ]
+  },
+  "verification": [
+    "129 tests passed; lint passed; build passed with filesystem permission retry",
+    "433 bearings reproduced from versioned geometry",
+    "Disposable PostgreSQL: marine exclusion idempotence/reimport/weather preservation; shore guards/north0/manual provenance; actual Razes import applied twice unchanged",
+    "Production browser RAZES: Along the shore, missing-orientation message absent, model timestamp10:30, current water quality unconfirmed."
+  ],
+  "nextCountry": "Lithuania"
+}
