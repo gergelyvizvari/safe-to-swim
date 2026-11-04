@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-03",
-  "nextCountry": "Lithuania",
+  "lastRun": "2026-11-04",
+  "nextCountry": "Poland",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -14607,6 +14607,261 @@
       "shoreOrientationStatus": "not-applicable-river",
       "evidenceReference": "runs/2026-11-03.json",
       "reason": "Official Lielupe river identity verified. Disabled unrepresentative marine binding in production; weather/history retained. Imported coastal category and existing lake wording remain a taxonomy/UI follow-up."
+    },
+    {
+      "locationId": "eea-LT0053601420400610",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT0053601420400610",
+        "open-meteo-weather:eea-LT0053601420400610"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station likenu-vms on Smardonė, approximately 8.18 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT0055719410300650",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT0055719410300650",
+        "open-meteo-weather:eea-LT0055719410300650"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station kupiskio-vms on Lėvuo, approximately 5.3 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT005730142050014",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT005730142050014",
+        "open-meteo-weather:eea-LT005730142050014"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station kvetku-vms on Nemunėlis, approximately 35.97 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT005731912230017",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT005731912230017",
+        "open-meteo-weather:eea-LT005731912230017"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station girutiskes-vms on Šventas, approximately 39.88 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT0057342060001",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT0057342060001",
+        "open-meteo-weather:eea-LT0057342060001"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station kvetku-vms on Nemunėlis, approximately 33.65 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT005734542030040",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT005734542030040",
+        "open-meteo-weather:eea-LT005734542030040"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station kvetku-vms on Nemunėlis, approximately 34.06 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT0062941040012",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT0062941040012",
+        "open-meteo-weather:eea-LT0062941040012"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station siaulenu-vms on Šušvė, approximately 21.56 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT0062941050040",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT0062941050040",
+        "open-meteo-weather:eea-LT0062941050040"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station aunuvenu-vms on Aunuva, approximately 23.08 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT0062941050044",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT0062941050044",
+        "open-meteo-weather:eea-LT0062941050044"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station siaulenu-vms on Šušvė, approximately 28.43 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT006547314030072",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT006547314030072",
+        "open-meteo-weather:eea-LT006547314030072"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station lyduvenu-vms on Dubysa, approximately 13.08 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT006547314030090",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT006547314030090",
+        "open-meteo-weather:eea-LT006547314030090"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station lyduvenu-vms on Dubysa, approximately 12.36 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT006656841050081",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT006656841050081",
+        "open-meteo-weather:eea-LT006656841050081"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station rimsoniu-vms on Daugyvenė, approximately 11.38 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT006716041060022",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT006716041060022",
+        "open-meteo-weather:eea-LT006716041060022"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station siaulenu-vms on Šušvė, approximately 17.11 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT006717941040040",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT006717941040040",
+        "open-meteo-weather:eea-LT006717941040040"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station siaulenu-vms on Šušvė, approximately 17.34 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-LT006910714030001",
+      "country": "Lithuania",
+      "waterType": "lake",
+      "provider": "lhmt-hydro-stations",
+      "status": "candidate",
+      "checkedAt": "2026-11-04",
+      "nextReviewAt": "2026-12-04",
+      "sourceTargets": [
+        "eea:eea-LT006910714030001",
+        "open-meteo-weather:eea-LT006910714030001"
+      ],
+      "evidenceReference": "runs/2026-11-04.json",
+      "reason": "Nearest catalogue station aunuvenu-vms on Aunuva, approximately 14.75 km away. No representative water-temperature measurement verified for this bathing site.",
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
     }
   ]
 }

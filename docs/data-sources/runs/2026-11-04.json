@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-04",
+  "selection": "15 previously unreviewed Lithuanian inland sites following the November 3 batch; verified against canonical locations and research registry.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 0,
+    "liveNewCoverage": 0,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0
+  },
+  "locations": [
+    "eea-LT0053601420400610",
+    "eea-LT0055719410300650",
+    "eea-LT005730142050014",
+    "eea-LT005731912230017",
+    "eea-LT0057342060001",
+    "eea-LT005734542030040",
+    "eea-LT0062941040012",
+    "eea-LT0062941050040",
+    "eea-LT0062941050044",
+    "eea-LT006547314030072",
+    "eea-LT006547314030090",
+    "eea-LT006656841050081",
+    "eea-LT006716041060022",
+    "eea-LT006717941040040",
+    "eea-LT006910714030001"
+  ],
+  "evidence": [
+    {
+      "url": "https://api.meteo.lt/v1/hydro-stations",
+      "result": "Public JSON station list parsed, including waterBody and coordinates. Per-location nearest stations and approximate distances recorded in registry. No confirmed representative water temperature. No site-specific requests for unrelated stations."
+    },
+    {
+      "url": "https://duomenys.stat.gov.lt/atverti-zalgirio-klinikos-duomenu-rinkiniai-duplicate-12763/",
+      "result": "State Data Agency describes a Higienos institutas dataset with monitoring coordinates, official bathing-site code, sample date, E. coli and intestinal enterococci. Annual class is separate."
+    },
+    {
+      "url": "https://data.gov.lt/datasets/2644/",
+      "result": "Official dataset link returned 429 through web reader. Repository namespace GET https://get.data.gov.lt/datasets/gov/hi returned HTTP500. No verified sample response, units, licence or freshness. Review this specific dataset next time."
+    },
+    {
+      "url": "https://www.geoportal.lt/mapproxy/hi_maudyklos",
+      "result": "WMS GetCapabilities returned403. Catalogue describes multiseason classes, not a live water quality warning feed."
+    },
+    {
+      "url": "https://www.sveikatos-biuras.lt/maudyklu-vandens-kokybe/",
+      "locationIds": [
+        "eea-LT0062941040012",
+        "eea-LT0062941050044"
+      ],
+      "result": "Municipal health bureau identifies Rėkyvos and Prūdelio monitoring sites. Seasonal sampling schedule includes microbial indicators and cyanobacteria as needed. No verified current observations from this page."
+    }
+  ],
+  "cameraReview": "Grouped local-name searches covered all15. Public traffic and municipal surveillance listings lacked a verified bathing-site view and capture freshness. No attachable camera candidate or stream verified.",
+  "audit": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "catalogue": "Two pages each for lake/coastal, offsets0/15. Verified type and page size. All 15 detail IDs and observation envelopes matched, annual and weather bindings present; zero stored observations.",
+    "scheduler": "One active minute job. Recent Hungarian wind, temperature and UIRaS observations and Open-Meteo canaries advanced. EA Brighton, annual EA/NRW/SEPA, official quality and closed-season storm failures persist. No manual collection.",
+    "checks": "129 tests passed, lint and build passed. Research-only change."
+  },
+  "nextCountry": "Poland"
+}
