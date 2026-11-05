@@ -15122,6 +15122,503 @@
         "reviewNote": "Local southbound segment 2 and adjacent vertices reviewed: Baltic water lies west/northwest, land east. Catalogue point is 20 m landward; river mouth lies north. Derived from this local segment, not copied from Palanga pier. Official HI code matches; its monitoring point latitude55.9267 differs from catalogue55.9246 and is not substituted.",
         "snapshotFile": "2026-10-13-osm.json"
       }
+    },
+    {
+      "locationId": "eea-PL4220801132000101",
+      "latitude": 54.09947,
+      "longitude": 15.09176,
+      "seaBearing": 342,
+      "shoreOrientation": {
+        "distanceMetres": 43,
+        "radiusMetres": 60,
+        "wayIds": [
+          737057554,
+          998010416
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 737057554,
+        "shorePoint": {
+          "latitude": 54.09984130247381,
+          "longitude": 15.091568089625095
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 737057554,
+            "version": 17
+          },
+          {
+            "id": 998010416,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000181",
+      "latitude": 54.1019,
+      "longitude": 15.1038,
+      "seaBearing": 340,
+      "shoreOrientation": {
+        "distanceMetres": 46,
+        "radiusMetres": 60,
+        "wayIds": [
+          998010417
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 998010417,
+        "shorePoint": {
+          "latitude": 54.102296067833656,
+          "longitude": 15.103593727119087
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 998010417,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000015",
+      "latitude": 54.10492,
+      "longitude": 15.11481,
+      "seaBearing": 337,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431754
+        ],
+        "nearestSegment": 8,
+        "nearestWayId": 733431754,
+        "shorePoint": {
+          "latitude": 54.10488829507512,
+          "longitude": 15.114831433561662
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431754,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4210507232000193",
+      "latitude": 54.1063,
+      "longitude": 15.12032,
+      "seaBearing": 333,
+      "shoreOrientation": {
+        "distanceMetres": 0,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431754
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 733431754,
+        "shorePoint": {
+          "latitude": 54.1062961851624,
+          "longitude": 15.120322539715637
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431754,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000102",
+      "latitude": 54.10721,
+      "longitude": 15.1242,
+      "seaBearing": 341,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          733431754,
+          733436834
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 733431754,
+        "shorePoint": {
+          "latitude": 54.10727654181964,
+          "longitude": 15.1241586081529
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733431754,
+            "version": 13
+          },
+          {
+            "id": 733436834,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4210508532000200",
+      "latitude": 54.14831,
+      "longitude": 15.29004,
+      "seaBearing": 354,
+      "shoreOrientation": {
+        "distanceMetres": 92,
+        "radiusMetres": 60,
+        "wayIds": [
+          733437149
+        ],
+        "nearestSegment": 93,
+        "nearestWayId": 733437149,
+        "shorePoint": {
+          "latitude": 54.147487206517845,
+          "longitude": 15.290230822877106
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733437149,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4210508532000162",
+      "latitude": 54.1487,
+      "longitude": 15.2995,
+      "seaBearing": 349,
+      "shoreOrientation": {
+        "distanceMetres": 41,
+        "radiusMetres": 60,
+        "wayIds": [
+          733437149
+        ],
+        "nearestSegment": 87,
+        "nearestWayId": 733437149,
+        "shorePoint": {
+          "latitude": 54.14833997579155,
+          "longitude": 15.299628069616277
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733437149,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4210508532000201",
+      "latitude": 54.1539,
+      "longitude": 15.33568,
+      "seaBearing": 349,
+      "shoreOrientation": {
+        "distanceMetres": 74,
+        "radiusMetres": 60,
+        "wayIds": [
+          733437149
+        ],
+        "nearestSegment": 48,
+        "nearestWayId": 733437149,
+        "shorePoint": {
+          "latitude": 54.15324971996625,
+          "longitude": 15.335945514271051
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 733437149,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4220804232000033",
+      "latitude": 54.15972,
+      "longitude": 15.39583,
+      "seaBearing": 348,
+      "shoreOrientation": {
+        "wayIds": [
+          736788587
+        ],
+        "reviewedVertexIndices": [
+          80,
+          90
+        ],
+        "method": "reviewed-local-beach-chord",
+        "distanceMetres": 60,
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 736788587,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Continuous east-to-west open beach arc, vertices 80–90. Short crenellations change segment normals; Baltic water north, catalogue point landward."
+      }
+    },
+    {
+      "locationId": "eea-PL4220804232000034",
+      "latitude": 54.16694,
+      "longitude": 15.49194,
+      "seaBearing": 344,
+      "shoreOrientation": {
+        "distanceMetres": 48,
+        "radiusMetres": 60,
+        "wayIds": [
+          736788582
+        ],
+        "nearestSegment": 15,
+        "nearestWayId": 736788582,
+        "shorePoint": {
+          "latitude": 54.16735465341201,
+          "longitude": 15.491718665171428
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 736788582,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000114",
+      "latitude": 54.17518,
+      "longitude": 15.5252,
+      "seaBearing": 328,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          736788578
+        ],
+        "nearestSegment": 37,
+        "nearestWayId": 736788578,
+        "shorePoint": {
+          "latitude": 54.17513675411684,
+          "longitude": 15.525251491989833
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 736788578,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000113",
+      "latitude": 54.17844,
+      "longitude": 15.53436,
+      "seaBearing": 325,
+      "shoreOrientation": {
+        "distanceMetres": 21,
+        "radiusMetres": 60,
+        "wayIds": [
+          736788578
+        ],
+        "nearestSegment": 22,
+        "nearestWayId": 736788578,
+        "shorePoint": {
+          "latitude": 54.1782853,
+          "longitude": 15.5345529
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 736788578,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000112",
+      "latitude": 54.18101,
+      "longitude": 15.54102,
+      "seaBearing": 323,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          736788578
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 736788578,
+        "shorePoint": {
+          "latitude": 54.1809456,
+          "longitude": 15.5410966
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 736788578,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
+    },
+    {
+      "locationId": "eea-PL4220801132000105",
+      "latitude": 54.18689,
+      "longitude": 15.55818,
+      "seaBearing": 6,
+      "shoreOrientation": {
+        "distanceMetres": 35,
+        "radiusMetres": 60,
+        "wayIds": [
+          737080966
+        ],
+        "nearestSegment": 88,
+        "nearestWayId": 737080966,
+        "shorePoint": {
+          "latitude": 54.18720180033294,
+          "longitude": 15.558240830703465
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-05",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 737080966,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-11-05-osm.json",
+        "reviewNote": "Directed Baltic beach geometry, sea on the northern (right) side and land to the south. Small landward catalogue offsets are retained."
+      }
     }
   ]
 }

@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-05",
+  "selection": "First 15 unreviewed Polish coastal IDs by longitude with missing orientation and live weather/marine bindings.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 14,
+    "liveNewCoverage": 14,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "shoreOrientationsDetermined": 14,
+    "shoreOrientationsApplied": 14
+  },
+  "locations": [
+    "eea-PL4220801132000101",
+    "eea-PL4210507232000181",
+    "eea-PL4210507232000015",
+    "eea-PL4210507232000193",
+    "eea-PL4220801132000102",
+    "eea-PL4210508532000017",
+    "eea-PL4210508532000200",
+    "eea-PL4210508532000162",
+    "eea-PL4210508532000201",
+    "eea-PL4220804232000033",
+    "eea-PL4220804232000034",
+    "eea-PL4220801132000114",
+    "eea-PL4220801132000113",
+    "eea-PL4220801132000112",
+    "eea-PL4220801132000105"
+  ],
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-05-osm.json",
+    "license": "ODbL-1.0",
+    "importFile": "supabase/imports/20261105_poland_shore_orientations.sql",
+    "method": "13 local weighted right normals and one reviewed beach chord at Dźwirzyno. Baltic lies north of these shores. Mrzeżyno Zachód held for identity review. See registry and per-site versioned segment provenance."
+  },
+  "providers": [
+    {
+      "source": "https://danepubliczne.imgw.pl/api/data/hydro",
+      "target": "154150030",
+      "result": "Kołobrzeg, Bałtyk, 54.1867N 15.5533E. Temperature field 8.7 with its own 06:00 timestamp on November 5. Gauge lies at harbour entrance. Beach representativeness, timestamp zone and reuse contract require verification. Water-level timestamp 08:20 is distinct."
+    },
+    {
+      "source": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "result": "JSON returned a dense fog warning with validity interval, probability, severity and TERYT codes. A county polygon crosswalk and time-zone verification are needed. Fog warning does not establish a storm warning or clearance at these sites."
+    },
+    {
+      "source": "https://sk.gis.gov.pl/kapielisko/43",
+      "result": "Official Mrzeżyno Zachód page. Direct GET returned a 212-byte HTML response without verified sample date or active advisory. No current quality or algae assignment."
+    },
+    {
+      "source": "https://rewal.pl/kamery-on-line/",
+      "result": "Municipal camera directory for the Rewal coast. Direct read returned 403. Niechorze beach operator page surfaced but exact view and frame freshness for the selected east beach were unverified."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "pl-dzwirzyno-resko-webcamera",
+      "locationIds": [
+        "eea-PL4220804232000033"
+      ],
+      "operator": "WebCamera.pl",
+      "sourcePage": "https://portal.gmina.kolobrzeg.pl/strona-494-kamery_internetowe.html",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Municipal iframe player title identifies Jezioro Resko Przymorskie, a lake. Catalogue target is the Baltic beach.",
+      "type": "player",
+      "checkedAt": "2026-11-05",
+      "freshness": "not-tested-wrong-waterbody",
+      "embedding": "municipal embed observed; third-party rights unverified",
+      "status": "rejected-wrong-waterbody",
+      "nextReviewAt": "2026-12-05"
+    }
+  ],
+  "production": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "checks": "Lake/coastal pages offsets 0 and 15 validated. All 15 IDs, source types and observation envelopes checked; 15 empty stored observation lists. All 14 new bearings and OSM way versions read back from production. Dźwirzyno browser showed Along the shore for SW wind.",
+    "scheduler": "One active source-checks job. Wind, temperature, UIRaS and LHMT measurements progressing; Open-Meteo weather/marine canaries healthy. Known closed-season storm feed and EA/annual/quality failures persist. No manual collection."
+  },
+  "verification": [
+    "447 bearings reproduced",
+    "129 application tests, lint and build passed",
+    "Local Postgres missing-only import and reviewed 0° preservation checks passed. Actual 14-row import replayed unchanged against initialized JSON metadata."
+  ],
+  "nextCountry": "Denmark"
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-04",
-  "nextCountry": "Poland",
+  "lastRun": "2026-11-05",
+  "nextCountry": "Denmark",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -14862,6 +14862,275 @@
       "reason": "Nearest catalogue station aunuvenu-vms on Aunuva, approximately 14.75 km away. No representative water-temperature measurement verified for this bathing site.",
       "cameraStatus": "not-verified",
       "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-PL4220801132000101",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000101",
+        "open-meteo-marine:eea-PL4220801132000101"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 342
+    },
+    {
+      "locationId": "eea-PL4210507232000181",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000181",
+        "open-meteo-marine:eea-PL4210507232000181"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 340
+    },
+    {
+      "locationId": "eea-PL4210507232000015",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000015",
+        "open-meteo-marine:eea-PL4210507232000015"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 337
+    },
+    {
+      "locationId": "eea-PL4210507232000193",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210507232000193",
+        "open-meteo-marine:eea-PL4210507232000193"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 333
+    },
+    {
+      "locationId": "eea-PL4220801132000102",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000102",
+        "open-meteo-marine:eea-PL4220801132000102"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 341
+    },
+    {
+      "locationId": "eea-PL4210508532000017",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210508532000017",
+        "open-meteo-marine:eea-PL4210508532000017"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "unresolved",
+      "reason": "West beach name conflicts with catalogue point on the east side of the harbour entrance. Within 65 m are open beach, channel and breakwater faces with opposing normals. Confirm official zone and coordinates before choosing a shore.",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PL4210508532000200",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210508532000200",
+        "open-meteo-marine:eea-PL4210508532000200"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 354
+    },
+    {
+      "locationId": "eea-PL4210508532000162",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210508532000162",
+        "open-meteo-marine:eea-PL4210508532000162"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 349
+    },
+    {
+      "locationId": "eea-PL4210508532000201",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4210508532000201",
+        "open-meteo-marine:eea-PL4210508532000201"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 349
+    },
+    {
+      "locationId": "eea-PL4220804232000033",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220804232000033",
+        "open-meteo-marine:eea-PL4220804232000033"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 348
+    },
+    {
+      "locationId": "eea-PL4220804232000034",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220804232000034",
+        "open-meteo-marine:eea-PL4220804232000034"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 344
+    },
+    {
+      "locationId": "eea-PL4220801132000114",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000114",
+        "open-meteo-marine:eea-PL4220801132000114"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 328
+    },
+    {
+      "locationId": "eea-PL4220801132000113",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000113",
+        "open-meteo-marine:eea-PL4220801132000113"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 325
+    },
+    {
+      "locationId": "eea-PL4220801132000112",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000112",
+        "open-meteo-marine:eea-PL4220801132000112"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 323
+    },
+    {
+      "locationId": "eea-PL4220801132000105",
+      "country": "Poland",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-05",
+      "nextReviewAt": "2026-12-05",
+      "sourceTargets": [
+        "open-meteo-weather:eea-PL4220801132000105",
+        "open-meteo-marine:eea-PL4220801132000105"
+      ],
+      "evidenceReference": "runs/2026-11-05.json",
+      "shoreOrientationStatus": "applied",
+      "reason": "Local directed geometry verified and read back from production.",
+      "cameraStatus": "not-verified",
+      "seaBearing": 6
     }
   ]
 }
