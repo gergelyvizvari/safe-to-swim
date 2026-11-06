@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-05",
-  "nextCountry": "Denmark",
+  "lastRun": "2026-11-06",
+  "nextCountry": "Germany",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -15131,6 +15131,291 @@
       "reason": "Local directed geometry verified and read back from production.",
       "cameraStatus": "not-verified",
       "seaBearing": 6
+    },
+    {
+      "locationId": "eea-DKBW697",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 75,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW697",
+        "open-meteo-marine:eea-DKBW697"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW687",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 51,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW687",
+        "open-meteo-marine:eea-DKBW687"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW811",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 312,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW811",
+        "open-meteo-marine:eea-DKBW811"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW1312",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 52,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW1312",
+        "open-meteo-marine:eea-DKBW1312"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW805",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 329,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW805",
+        "open-meteo-marine:eea-DKBW805"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW809",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 354,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW809",
+        "open-meteo-marine:eea-DKBW809"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW684",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 60,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW684",
+        "open-meteo-marine:eea-DKBW684"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW691",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 65,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW691",
+        "open-meteo-marine:eea-DKBW691"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW884",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 295,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW884",
+        "open-meteo-marine:eea-DKBW884"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW689",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 92,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW689",
+        "open-meteo-marine:eea-DKBW689"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW1471",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 315,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW1471",
+        "open-meteo-marine:eea-DKBW1471"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW1472",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 295,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW1472",
+        "open-meteo-marine:eea-DKBW1472"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW988",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 85,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW988",
+        "open-meteo-marine:eea-DKBW988"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW986",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 59,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW986",
+        "open-meteo-marine:eea-DKBW986"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DKBW902",
+      "country": "Denmark",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-06",
+      "nextReviewAt": "2026-12-06",
+      "seaBearing": 297,
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DKBW902",
+        "open-meteo-marine:eea-DKBW902"
+      ],
+      "dynamicStatus": "candidate",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-06.json",
+      "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
     }
   ]
 }

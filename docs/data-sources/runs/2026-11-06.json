@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-06",
+  "selection": "15 northernmost Danish coastal sites with missing orientation, not previously in research registry. Live weather and marine bindings verified for all.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 15,
+    "liveNewCoverage": 15,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "locations": [
+    "eea-DKBW697",
+    "eea-DKBW687",
+    "eea-DKBW811",
+    "eea-DKBW1312",
+    "eea-DKBW805",
+    "eea-DKBW809",
+    "eea-DKBW684",
+    "eea-DKBW691",
+    "eea-DKBW884",
+    "eea-DKBW689",
+    "eea-DKBW1471",
+    "eea-DKBW1472",
+    "eea-DKBW988",
+    "eea-DKBW986",
+    "eea-DKBW902"
+  ],
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-06-osm.json",
+    "license": "ODbL-1.0",
+    "importFile": "supabase/imports/20261106_denmark_shore_orientations.sql",
+    "method": "11 weighted local right normals and four manually reviewed local chords. Jerup sampling point about 160 m seaward; Lønstrup pocket beach north of groyne; Rønnerne curved beach north of harbour; Halbjerg local shore crenellations. Individual vertices, versions and water-side checks recorded."
+  },
+  "providers": [
+    {
+      "source": "https://www.dmi.dk/friedata/dokumentation/oceanographic-observations-data",
+      "result": "tw is degrees Celsius, ten-minute harbour gauge support measurement at a few metres depth, not standardized beach temperature. No nearest-harbour substitution."
+    },
+    {
+      "source": "https://opendataapi.dmi.dk/v2/oceanObs/collections/observation/items?parameterId=tw&limit=1&sortorder=observed,DESC",
+      "result": "Unauthenticated direct GET returned parsed FeatureCollection. Station 31417 at 11.1363E,54.828N, value 10.2, observed 2026-11-06T10:30:00Z and created 10:30:44Z. Wrong region for this batch; no binding. Station endpoint limit=1000 returned only two historical Skagen 20002 records; not treated as complete network coverage."
+    },
+    {
+      "source": "https://badevand.eurofins.dk/Reports.aspx?cid=1781",
+      "result": "Frederikshavn laboratory index contains exact DKBW697/986/691 August25 and DKBW988/1312/687 August18 identities. Seasonal index dates, not parsed current bacteriology. Rønnerne/Halbjerg exact sample contracts unverified."
+    },
+    {
+      "source": "https://hjoerring.dk/borger/miljoe-og-natur/vand/badevand",
+      "result": "Municipal page explicitly describes winter sampling and links SGS customer14156. Seasonal classifications do not imply current quality."
+    },
+    {
+      "source": "https://analytech.sgs.com/14156/Places",
+      "result": "Direct GET200 HTML34613bytes. Løkken Ndr.Strandvej and Lønstrup newest received sample October5; Nørlev, Feriebyen, Nr.Lyngby and Ny.Strandvej August31. Received dates are not assumed sampling timestamps. Coordinate/officialID crosswalk, values and reuse contract still required."
+    },
+    {
+      "source": "https://www.jammerbugt.dk/borger/klima-miljo-natur-og-energi/natur-fjord-hav-og-strand/strande-og-havne-med-badepunkt-maerket/",
+      "result": "Official Grønhøj analysis link discovered. Bathing profile discusses algal risk but provides no current algae observation. No current quality, algae, storm, wave or current observation adapter verified for the batch."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "dk-lokken-moleleje",
+      "locationIds": [
+        "eea-DKBW1471",
+        "eea-DKBW1472"
+      ],
+      "operator": "Løkken Moleleje, linked by HAVS / North Shore Surf",
+      "sourcePage": "https://havsstore.dk/shop/cms-loekken-webcam.html",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator identifies Løkken surf spot. Exact beach views and camera coordinates remain unverified.",
+      "type": "player",
+      "checkedAt": "2026-11-06",
+      "freshness": "unverified",
+      "embedding": "YouTube embed observed on operator page, no independent reuse permission established",
+      "status": "candidate",
+      "nextReviewAt": "2026-12-06",
+      "reason": "Direct page GET200 and embedded player found. Browser attempt failed Debugger unattached. Neither playback nor current frame proven."
+    }
+  ],
+  "production": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "checks": "Lake/coastal pages offsets0/15, all15 detail identities and source bindings, all15 observation envelopes checked. Stored observation lists empty. 15 bearings with full provenance verified from production API.",
+    "scheduler": "One active minute job. UIRaS, LHMT, HungaroMet wind/temperature and model canaries progressing. Known EA/quality/annual failures persist; storm publication remains October31 after season. No manual collection or cron change."
+  },
+  "verification": [
+    "462 shoreline bearings reproduced",
+    "129 application tests, lint and build passed. Scratch generator initially triggered lint, moved outside repository and lint rerun passed.",
+    "Disposable PostgreSQL north0/manual metadata preservation, type/coordinate guards and actual15-row double-import idempotence passed.",
+    "Browser unavailable with Debugger unattached; no UI code modified. API-to-wind assessment checked programmatically."
+  ],
+  "nextCountry": "Germany"
+}
