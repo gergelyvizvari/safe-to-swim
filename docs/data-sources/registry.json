@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-06",
-  "nextCountry": "Germany",
+  "lastRun": "2026-11-08",
+  "nextCountry": "Netherlands",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -15416,6 +15416,261 @@
       "cameraStatus": "not-verified",
       "evidenceReference": "runs/2026-11-06.json",
       "reason": "Local directed beach geometry reviewed and applied. Quality providers need exact sample/coordinate and reuse contracts. No dynamic or camera binding added."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0740",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0740",
+        "open-meteo-marine:eea-DEMV_PR_1_0740"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0701",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0701",
+        "open-meteo-marine:eea-DEMV_PR_1_0701"
+      ],
+      "cameraStatus": "integrated",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0702",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0702",
+        "open-meteo-marine:eea-DEMV_PR_1_0702"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0703",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0703",
+        "open-meteo-marine:eea-DEMV_PR_1_0703"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0782",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0782",
+        "open-meteo-marine:eea-DEMV_PR_1_0782"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0783",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0783",
+        "open-meteo-marine:eea-DEMV_PR_1_0783"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0784",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0784",
+        "open-meteo-marine:eea-DEMV_PR_1_0784"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0781",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0781",
+        "open-meteo-marine:eea-DEMV_PR_1_0781"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0786",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0786",
+        "open-meteo-marine:eea-DEMV_PR_1_0786"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0785",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0785",
+        "open-meteo-marine:eea-DEMV_PR_1_0785"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0780",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0780",
+        "open-meteo-marine:eea-DEMV_PR_1_0780"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0779",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0779",
+        "open-meteo-marine:eea-DEMV_PR_1_0779"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0821",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0821",
+        "open-meteo-marine:eea-DEMV_PR_1_0821"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0778",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0778",
+        "open-meteo-marine:eea-DEMV_PR_1_0778"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0776",
+      "country": "Germany",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-07",
+      "nextReviewAt": "2026-12-08",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-DEMV_PR_1_0776",
+        "open-meteo-marine:eea-DEMV_PR_1_0776"
+      ],
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-08.json",
+      "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
     }
   ]
 }

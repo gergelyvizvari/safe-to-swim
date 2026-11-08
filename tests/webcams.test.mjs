@@ -57,3 +57,16 @@ test('De Toko stays an external nearby North Sea view for its reviewed site only
     assert.ok(!getWebcamsForLocation(changed).some(c => c.id === camera.id))
   }
 })
+
+test('Trassenheide links the rescue tower camera only at the main Baltic beach', () => {
+  const site = { id: 'eea-DEMV_PR_1_0701', waterType: 'coastal', latitude: 54.0967, longitude: 13.8805 }
+  const camera = getWebcamForLocation(site)
+  assert.equal(camera.id, 'de-trassenheide-rettungsturm')
+  assert.equal(camera.coverage, 'beach')
+  assert.ok(camera.distance < 0.05)
+  assert.equal(camera.pageUrl, 'https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/index.php')
+  assert.equal(camera.streams, undefined)
+  assert.equal(camera.imageUrl, undefined)
+  assert.deepEqual(getWebcamsForLocation({ ...site, id: 'eea-DEMV_PR_1_0740' }), [])
+  assert.deepEqual(getWebcamsForLocation({ ...site, waterType: 'lake' }), [])
+})

@@ -16132,6 +16132,531 @@
         "snapshotFile": "2026-11-06-osm.json",
         "reviewNote": "Local directed Jutland beach geometry. Water on the right, east/northeast on Kattegat coast or west/northwest on North Sea coast. Small landward catalogue offsets retained."
       }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0740",
+      "latitude": 54.0918,
+      "longitude": 13.891,
+      "seaBearing": 36,
+      "shoreOrientation": {
+        "distanceMetres": 29,
+        "radiusMetres": 60,
+        "wayIds": [
+          577852181
+        ],
+        "nearestSegment": 6,
+        "nearestWayId": 577852181,
+        "shorePoint": {
+          "latitude": 54.09201277593207,
+          "longitude": 13.891260492980857
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577852181,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0701",
+      "latitude": 54.0967,
+      "longitude": 13.8805,
+      "seaBearing": 46,
+      "shoreOrientation": {
+        "distanceMetres": 47,
+        "radiusMetres": 60,
+        "wayIds": [
+          577852181
+        ],
+        "nearestSegment": 22,
+        "nearestWayId": 577852181,
+        "shorePoint": {
+          "latitude": 54.09693068571488,
+          "longitude": 13.881093896786886
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577852181,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0702",
+      "latitude": 54.1111,
+      "longitude": 13.8573,
+      "seaBearing": 54,
+      "shoreOrientation": {
+        "distanceMetres": 22,
+        "radiusMetres": 60,
+        "wayIds": [
+          577852181
+        ],
+        "nearestSegment": 64,
+        "nearestWayId": 577852181,
+        "shorePoint": {
+          "latitude": 54.11121621591037,
+          "longitude": 13.857572277676015
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 577852181,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0703",
+      "latitude": 54.1208,
+      "longitude": 13.8442,
+      "seaBearing": 54,
+      "shoreOrientation": {
+        "distanceMetres": 46,
+        "radiusMetres": 60,
+        "wayIds": [
+          153532521
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 153532521,
+        "shorePoint": {
+          "latitude": 54.121040503946595,
+          "longitude": 13.844773418259305
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 153532521,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0782",
+      "latitude": 54.3473,
+      "longitude": 13.7412,
+      "seaBearing": 38,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646956
+        ],
+        "nearestSegment": 68,
+        "nearestWayId": 100646956,
+        "shorePoint": {
+          "latitude": 54.347244833605984,
+          "longitude": 13.741124619385436
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646956,
+            "version": 17
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Reviewed the distinct north and south beaches on opposite sides of Nordperd. Local beach tangent and water side checked independently. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0783",
+      "latitude": 54.3333,
+      "longitude": 13.7369,
+      "seaBearing": 124,
+      "shoreOrientation": {
+        "distanceMetres": 14,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646956
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 100646956,
+        "shorePoint": {
+          "latitude": 54.33322679468544,
+          "longitude": 13.737068585322913
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646956,
+            "version": 17
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Reviewed the distinct north and south beaches on opposite sides of Nordperd. Local beach tangent and water side checked independently. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0784",
+      "latitude": 54.3152,
+      "longitude": 13.721,
+      "seaBearing": 118,
+      "shoreOrientation": {
+        "distanceMetres": 29,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646950
+        ],
+        "nearestSegment": 4,
+        "nearestWayId": 100646950,
+        "shorePoint": {
+          "latitude": 54.31507462198518,
+          "longitude": 13.721400022711904
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646950,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0781",
+      "latitude": 54.3599,
+      "longitude": 13.7202,
+      "seaBearing": 51,
+      "shoreOrientation": {
+        "distanceMetres": 14,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646959
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 100646959,
+        "shorePoint": {
+          "latitude": 54.35997948720246,
+          "longitude": 13.720369807170073
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646959,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0786",
+      "latitude": 54.2836,
+      "longitude": 13.7178,
+      "seaBearing": 77,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          647431464
+        ],
+        "nearestSegment": 125,
+        "nearestWayId": 647431464,
+        "shorePoint": {
+          "latitude": 54.28361204471615,
+          "longitude": 13.717941841211658
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 647431464,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0785",
+      "latitude": 54.3026,
+      "longitude": 13.7163,
+      "seaBearing": 102,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646970
+        ],
+        "nearestSegment": 42,
+        "nearestWayId": 100646970,
+        "shorePoint": {
+          "latitude": 54.302616558808076,
+          "longitude": 13.716174003597027
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646970,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0780",
+      "latitude": 54.3696,
+      "longitude": 13.7098,
+      "seaBearing": 64,
+      "shoreOrientation": {
+        "distanceMetres": 10,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646945
+        ],
+        "nearestSegment": 4,
+        "nearestWayId": 100646945,
+        "shorePoint": {
+          "latitude": 54.36963867209335,
+          "longitude": 13.709945974306551
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646945,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0779",
+      "latitude": 54.3826,
+      "longitude": 13.7017,
+      "seaBearing": 46,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          100646945
+        ],
+        "nearestSegment": 28,
+        "nearestWayId": 100646945,
+        "shorePoint": {
+          "latitude": 54.38255120490017,
+          "longitude": 13.701624283218754
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100646945,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0821",
+      "latitude": 54.5154,
+      "longitude": 13.6526,
+      "seaBearing": 126,
+      "shoreOrientation": {
+        "distanceMetres": 0,
+        "radiusMetres": 60,
+        "wayIds": [
+          1396172107
+        ],
+        "nearestSegment": 37,
+        "nearestWayId": 1396172107,
+        "shorePoint": {
+          "latitude": 54.515398631078334,
+          "longitude": 13.652602887258455
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1396172107,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Promenade on the southeast-facing Sassnitz waterfront. Local window excludes separate harbour structures southwest of the point. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0778",
+      "latitude": 54.4177,
+      "longitude": 13.5947,
+      "seaBearing": 61,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          100317692
+        ],
+        "nearestSegment": 55,
+        "nearestWayId": 100317692,
+        "shorePoint": {
+          "latitude": 54.41776398018128,
+          "longitude": 13.594895121992355
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100317692,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-DEMV_PR_1_0776",
+      "latitude": 54.4592,
+      "longitude": 13.5702,
+      "seaBearing": 84,
+      "shoreOrientation": {
+        "distanceMetres": 5,
+        "radiusMetres": 60,
+        "wayIds": [
+          100317692
+        ],
+        "nearestSegment": 88,
+        "nearestWayId": 100317692,
+        "shorePoint": {
+          "latitude": 54.459194902513254,
+          "longitude": 13.570123887963597
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-07",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 100317692,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-07-osm.json",
+        "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
+      }
     }
   ]
 }

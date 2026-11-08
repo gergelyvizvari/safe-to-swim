@@ -15,6 +15,14 @@ const BRIGHTON_STREAMS = [
 
 export const VERIFIED_WEBCAMS = [
   {
+    id: 'de-trassenheide-rettungsturm', name: 'Trassenheide · Hauptstrand',
+    latitude: 54.0963628, longitude: 13.8807766,
+    sourceName: 'Ostseebad Trassenheide',
+    pageUrl: 'https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/index.php',
+    verifiedOn: '2026-11-08', coverage: 'beach', waterType: 'coastal',
+    locationIds: ['eea-DEMV_PR_1_0701'],
+  },
+  {
     id: 'nl-callantsoog-de-toko', name: 'Callantsoog · De Toko',
     latitude: 52.8349531, longitude: 4.6896647,
     sourceName: 'Strandpaviljoen De Toko', pageUrl: 'https://www.strandpaviljoendetoko.nl/webcam/',

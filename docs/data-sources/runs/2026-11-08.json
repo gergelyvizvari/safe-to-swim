@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-08",
+  "selection": "Completed the November 7 German Baltic batch before starting another. Usedom and Rügen coastal sites without bearings and with existing weather and marine model targets.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 15,
+    "liveNewCoverage": 15,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 1,
+    "camerasIntegrated": 1,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-07-osm.json",
+    "method": "Local 60 m directed shore windows, water on right. Site-specific distance, provenance, way version and visual review stored with each proposed orientation.",
+    "importFile": "supabase/imports/20261107_germany_shore_orientations.sql"
+  },
+  "laboratory": {
+    "index": "https://www.badewasser-mv.de/_badestelle.php",
+    "status": "candidate",
+    "checkedAt": "2026-11-07",
+    "nextReviewAt": "2026-12-08",
+    "reason": "13 unique public IDs matched within 6 m after EPSG:25832 conversion. Latest seasonal samples were collected August or September; units, reuse and collection contract still require confirmation. Two IDs absent or ambiguous. No current swimming-quality or algae status inferred.",
+    "sites": [
+      {
+        "locationId": "eea-DEMV_PR_1_0740",
+        "targetId": "1642",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1642",
+        "offsetMetres": 4,
+        "lastSample": "02.09.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0701",
+        "targetId": "1827",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1827",
+        "offsetMetres": 3,
+        "lastSample": "02.09.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0702",
+        "targetId": "1908",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1908",
+        "offsetMetres": 3,
+        "lastSample": "02.09.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0703",
+        "targetId": "1632",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1632",
+        "offsetMetres": 3,
+        "lastSample": "02.09.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0782",
+        "targetId": "2017",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=2017",
+        "offsetMetres": 6,
+        "lastSample": "20.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0783",
+        "targetId": "2050",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=2050",
+        "offsetMetres": 5,
+        "lastSample": "20.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0784",
+        "matches": 0,
+        "status": "no unique provider identity"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0781",
+        "targetId": "1982",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1982",
+        "offsetMetres": 2,
+        "lastSample": "20.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0786",
+        "matches": 0,
+        "status": "no unique provider identity"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0785",
+        "targetId": "1718",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1718",
+        "offsetMetres": 3,
+        "lastSample": "20.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0780",
+        "targetId": "1942",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1942",
+        "offsetMetres": 5,
+        "lastSample": "20.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0779",
+        "targetId": "2051",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=2051",
+        "offsetMetres": 1,
+        "lastSample": "20.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0821",
+        "targetId": "1768",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1768",
+        "offsetMetres": 0,
+        "lastSample": "25.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0778",
+        "targetId": "1966",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1966",
+        "offsetMetres": 4,
+        "lastSample": "25.08.2026"
+      },
+      {
+        "locationId": "eea-DEMV_PR_1_0776",
+        "targetId": "1811",
+        "source": "https://www.badewasser-mv.de/_badestelle.php?id=1811",
+        "offsetMetres": 5,
+        "lastSample": "25.08.2026"
+      }
+    ]
+  },
+  "providers": [
+    "Sassnitz PEGELONLINE station returned water level in cm only: https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/SASSNITZ.json?includeTimeseries=true&includeCurrentMeasurement=true",
+    "Open-Meteo returned numeric modelled wind speed, direction and wave height for all 15 requested coordinates on November 7. Grid cells may be shared. No local measured wave/current or beach-specific storm warning verified."
+  ],
+  "cameras": [
+    {
+      "cameraId": "de-trassenheide-rettungsturm",
+      "locationIds": [
+        "eea-DEMV_PR_1_0701"
+      ],
+      "operator": "Ostseebad Trassenheide",
+      "pageUrl": "https://www.wetter-trassenheide.de/template/trassenheide/webcamstrand/webcam_strand/index.php",
+      "coordinate": [
+        13.8807766,
+        54.0963628
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/227358641",
+      "mountEvidence": "https://www.amtusedomnord.de/images/pdf/amt/amtsblatt/2006/242.pdf",
+      "tourismPage": "https://trassenheide.de/service",
+      "fieldOfView": "Rescue tower at Hauptstrand, beach and Baltic water looking towards Karlshagen. Tower centroid approximately 42 m from sample site. Camping beach excluded.",
+      "type": "refreshing image, operator page link",
+      "freshness": "Independent frames visibly dated 2026-11-07 11:40:02 CET and 2026-11-08 21:30:02 CET; second viewed at 20:34 UTC, after dark.",
+      "embedding": "External link only; independent embedding rights unverified.",
+      "checkedAt": "2026-11-08T20:34:14Z",
+      "nextReviewAt": "2026-12-08",
+      "status": "integrated"
+    }
+  ],
+  "otherCameraEvidence": [
+    "https://www.baabe.de/service/webcam shows a street and Selliner See; neither is the bathing site.",
+    "https://www.ostseebad-sellin.de/livecam/ shows the pier; beach coverage and capture time unresolved.",
+    "https://www.goehren-ruegen.de/service/livebilder-vom-nordstrand/ describes Nordstrand; exact camera position and freshness unresolved.",
+    "https://www.karlshagen.de/usedom/service/webcams.html is a candidate operator page; no verified assignment."
+  ],
+  "production": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "checks": "Four catalogue pages, all 15 identities, source bindings, observation envelopes and exact orientation metadata verified. 30 wind-direction checks passed. Local PostgreSQL import changed 15 rows, repeat changed zero. Anonymous and authenticated roles lack UPDATE privilege; RLS enabled.",
+    "scheduler": "One active job; wind, temperature and model checks advancing. Known storm, Brighton sample and annual feed failures continue; no manual collection."
+  },
+  "nextCountry": "Netherlands"
+}
