@@ -16657,6 +16657,481 @@
         "snapshotFile": "2026-11-07-osm.json",
         "reviewNote": "Local Baltic-facing beach arc on the east side of the island. Reviewed north-up shoreline and site position. Directed mapping places water to the right. Small landward sampling-coordinate offsets retained."
       }
+    },
+    {
+      "locationId": "eea-NLBW89_BRESKFFDRBSD",
+      "latitude": 51.40662,
+      "longitude": 3.53208,
+      "seaBearing": 10,
+      "shoreOrientation": {
+        "wayIds": [
+          154505487
+        ],
+        "reviewedVertexIndices": [
+          219,
+          221
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 154505487,
+            "version": 27
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "Beach west of groyne root. Water north across the estuary mouth."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_BRESKNWSBSD",
+      "latitude": 51.39976,
+      "longitude": 3.48591,
+      "seaBearing": 339,
+      "shoreOrientation": {
+        "wayIds": [
+          154505487
+        ],
+        "reviewedVertexIndices": [
+          628,
+          630
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 154505487,
+            "version": 27
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "Beach between the groynes. Water northwest."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_CADZBSD",
+      "latitude": 51.38524,
+      "longitude": 3.40423,
+      "seaBearing": 332,
+      "shoreOrientation": {
+        "distanceMetres": 129,
+        "radiusMetres": 60,
+        "wayIds": [
+          167222339
+        ],
+        "nearestSegment": 361,
+        "nearestWayId": 167222339,
+        "shorePoint": {
+          "latitude": 51.38419570033706,
+          "longitude": 3.405033140266095
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 167222339,
+            "version": 26
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_DOMBBSD",
+      "latitude": 51.56402,
+      "longitude": 3.48701,
+      "seaBearing": 325,
+      "shoreOrientation": {
+        "wayIds": [
+          80347832
+        ],
+        "reviewedVertexIndices": [
+          574,
+          577
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 80347832,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "Use the beach chord between groyne roots, water northwest."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_ZWINDLBSD",
+      "latitude": 51.37538,
+      "longitude": 3.37411,
+      "seaBearing": 313,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          167222339
+        ],
+        "nearestSegment": 540,
+        "nearestWayId": 167222339,
+        "shorePoint": {
+          "latitude": 51.37528859713329,
+          "longitude": 3.374270245381774
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 167222339,
+            "version": 26
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_KAMPLBJBSD",
+      "latitude": 51.59539,
+      "longitude": 3.66285,
+      "seaBearing": 342,
+      "shoreOrientation": {
+        "distanceMetres": 114,
+        "radiusMetres": 60,
+        "wayIds": [
+          568165838
+        ],
+        "nearestSegment": 37,
+        "nearestWayId": 568165838,
+        "shorePoint": {
+          "latitude": 51.59442208726436,
+          "longitude": 3.6633911247375543
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 568165838,
+            "version": 8
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_NIEUWHSDVBSD",
+      "latitude": 51.71066,
+      "longitude": 3.68095,
+      "seaBearing": 293,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          7763361
+        ],
+        "nearestSegment": 253,
+        "nearestWayId": 7763361,
+        "shorePoint": {
+          "latitude": 51.71065476416353,
+          "longitude": 3.6809696281302267
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 7763361,
+            "version": 46
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_NIEUWVBOBSD",
+      "latitude": 51.39257,
+      "longitude": 3.45048,
+      "seaBearing": 336,
+      "shoreOrientation": {
+        "distanceMetres": 79,
+        "radiusMetres": 60,
+        "wayIds": [
+          167222339
+        ],
+        "nearestSegment": 59,
+        "nearestWayId": 167222339,
+        "shorePoint": {
+          "latitude": 51.391939342794345,
+          "longitude": 3.4509907549965755
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 167222339,
+            "version": 26
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_OOSTKPLDWBSD",
+      "latitude": 51.58191,
+      "longitude": 3.53547,
+      "seaBearing": 316,
+      "shoreOrientation": {
+        "distanceMetres": 63,
+        "radiusMetres": 60,
+        "wayIds": [
+          80347832
+        ],
+        "nearestSegment": 276,
+        "nearestWayId": 80347832,
+        "shorePoint": {
+          "latitude": 51.58147697274285,
+          "longitude": 3.536048997878321
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 80347832,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_RENSJRNSWBSD",
+      "latitude": 51.74341,
+      "longitude": 3.7717,
+      "seaBearing": 352,
+      "shoreOrientation": {
+        "wayIds": [
+          7763361
+        ],
+        "reviewedVertexIndices": [
+          125,
+          126
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": false,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 7763361,
+            "version": 46
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "Sampling coordinate slightly landward of the beach. Groyne facing north excluded."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_RENSLEWBSD",
+      "latitude": 51.73991,
+      "longitude": 3.75034,
+      "seaBearing": 338,
+      "shoreOrientation": {
+        "distanceMetres": 54,
+        "radiusMetres": 60,
+        "wayIds": [
+          7763361
+        ],
+        "nearestSegment": 156,
+        "nearestWayId": 7763361,
+        "shorePoint": {
+          "latitude": 51.73945672002707,
+          "longitude": 3.7506351953101165
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 7763361,
+            "version": 46
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_WESTSWRTDBSD",
+      "latitude": 51.66955,
+      "longitude": 3.70296,
+      "seaBearing": 218,
+      "shoreOrientation": {
+        "wayIds": [
+          7763361
+        ],
+        "reviewedVertexIndices": [
+          409,
+          411
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 7763361,
+            "version": 46
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "Northwest-to-southeast beach between groynes, open water southwest."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_WESTKPLERBSD",
+      "latitude": 51.52424,
+      "longitude": 3.43771,
+      "seaBearing": 240,
+      "shoreOrientation": {
+        "distanceMetres": 41,
+        "radiusMetres": 60,
+        "wayIds": [
+          1044071786
+        ],
+        "nearestSegment": 32,
+        "nearestWayId": 1044071786,
+        "shorePoint": {
+          "latitude": 51.52441568472314,
+          "longitude": 3.4382302938983216
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1044071786,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
+    },
+    {
+      "locationId": "eea-NLBW89_ZOUTLDDHBSD",
+      "latitude": 51.47102,
+      "longitude": 3.5172,
+      "seaBearing": 238,
+      "shoreOrientation": {
+        "distanceMetres": 49,
+        "radiusMetres": 60,
+        "wayIds": [
+          1044071786
+        ],
+        "nearestSegment": 653,
+        "nearestWayId": 1044071786,
+        "shorePoint": {
+          "latitude": 51.47127404495672,
+          "longitude": 3.5177821504692175
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-09",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1044071786,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-09-osm.json",
+        "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
+      }
     }
   ]
 }

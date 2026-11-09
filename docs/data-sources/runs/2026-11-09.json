@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-09",
+  "selection": "Previously unreviewed Zeeland coastal sites with weather and marine targets and missing bearings.",
+  "counts": {
+    "reviewed": 15,
+    "prepared": 14,
+    "liveNewCoverage": 14,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "shoreOrientationsDetermined": 14,
+    "shoreOrientationsApplied": 14
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-09-osm.json",
+    "license": "ODbL-1.0",
+    "method": "Nine 60 m length-weighted local normals; five reviewed beach chords exclude groyne faces. Site-specific ordered vertices and way versions in import. Breezand awaits bathing-frontage confirmation.",
+    "importFile": "supabase/imports/20261109_zeeland_shore_orientations.sql"
+  },
+  "providerIdentities": [
+    {
+      "locationId": "eea-NLBW89_BRESKFFDRBSD",
+      "providerId": "NLBW89_BRESKFFDRBSD",
+      "target": "BRESKFFDRBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_BRESKNWSBSD",
+      "providerId": "NLBW89_BRESKNWSBSD",
+      "target": "BRESKNWSBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_CADZBSD",
+      "providerId": "NLBW89_CADZBSD",
+      "target": "CADZBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_DOMBBSD",
+      "providerId": "NLBW89_DOMBBSD",
+      "target": "DOMBBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_ZWINDLBSD",
+      "providerId": "NLBW89_ZWINDLBSD",
+      "target": "ZWINDLBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_KAMPLBJBSD",
+      "providerId": "NLBW89_KAMPLBJBSD",
+      "target": "KAMPLBJBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_NIEUWHSDVBSD",
+      "providerId": "NLBW89_NIEUWHSDVBSD",
+      "target": "NIEUWHSDVBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_NIEUWVBOBSD",
+      "providerId": "NLBW89_NIEUWVBOBSD",
+      "target": "NIEUWVBOBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_OOSTKPLDWBSD",
+      "providerId": "NLBW89_OOSTKPLDWBSD",
+      "target": "OOSTKPLDWBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_RENSJRNSWBSD",
+      "providerId": "NLBW89_RENSJRNSWBSD",
+      "target": "RENSJRNSWBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_RENSLEWBSD",
+      "providerId": "NLBW89_RENSLEWBSD",
+      "target": "RENSLEWBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_VROUWPDBZBSD",
+      "providerId": "NLBW89_VROUWPDBZBSD",
+      "target": "VROUWPDBZBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_WESTSWRTDBSD",
+      "providerId": "NLBW89_WESTSWRTDBSD",
+      "target": "WESTSWRTDBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_WESTKPLERBSD",
+      "providerId": "NLBW89_WESTKPLERBSD",
+      "target": "WESTKPLERBSD",
+      "waterBodyCode": "NL95_1A"
+    },
+    {
+      "locationId": "eea-NLBW89_ZOUTLDDHBSD",
+      "providerId": "NLBW89_ZOUTLDDHBSD",
+      "target": "ZOUTLDDHBSD",
+      "waterBodyCode": "NL95_1A"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://geo.rijkswaterstaat.nl/arcgis/rest/services/GDR/zwemwateronderzoek/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json",
+      "result": "Parsed all 15 official bathing IDs and DONAR codes. Historical classifications through 2023. No dated samples in this layer."
+    },
+    {
+      "url": "https://www.zwemwater.nl/data-en-api/",
+      "result": "Downloaded the linked July measures workbook. Seasonal reporting permission and historical warning dates do not establish current restrictions or current cyanobacteria observations in November."
+    },
+    {
+      "url": "https://www.rijkswaterstaat.nl/water/waterdata",
+      "result": "Waterinfo lists temperature, wave and current measurements. Legacy OphalenCatalogus route returned 404; no same-beach measured series verified."
+    },
+    {
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "result": "Per-coordinate read test for all 15 sites returned numeric modelled wave height, sea surface temperature and current velocity. Weather API gave numeric wind speed and direction for all 15. Existing model flow retained. No beach storm warning area verified."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "nl-cadzand-blanke-top",
+      "operator": "Hotel de Blanke Top",
+      "locationIds": [
+        "eea-NLBW89_CADZBSD"
+      ],
+      "pageUrl": "https://live.netcamviewer.nl/de-blanke-top/777.html",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Player poster shows a foggy dune and beach without a capture timestamp. Player playlist GET returned 403. Exact mount and overlap with the sampling area unresolved.",
+      "type": "external player",
+      "freshness": "unverified",
+      "embedding": "unverified",
+      "status": "candidate",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09"
+    },
+    {
+      "cameraId": "nl-vrouwenpolder-breezand",
+      "operator": "Strandpaviljoen Breezand",
+      "locationIds": [
+        "eea-NLBW89_VROUWPDBZBSD"
+      ],
+      "pageUrl": "https://www.vrouwenpolder.nu/webcams/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Local page lists De Dam and YouTube players. Separate pavilions and the recurved shoreline preclude a proximity assignment. Timestamp and exact viewing sector unverified.",
+      "type": "external player",
+      "freshness": "unverified",
+      "embedding": "unverified",
+      "status": "candidate",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09"
+    }
+  ],
+  "cameraSearch": "Zeeland tourism operator index lists several town, harbour and beach views: https://www.zeeland.com/nl-nl/visit/blogs/ontdek-zeeland-via-de-webcam . No additional match with verified playback, waterfront sector and timestamp.",
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "checks": "One active collector job. No source overdue more than five minutes; known EA, NRW, SEPA, official-quality, Brighton samples and official-storm failures persist. 15 production observation envelopes empty. Production detail and provenance checked after import for all 14 updates; both catalogue kinds checked at offsets 0 and 15."
+  },
+  "nextReviewAt": "2026-12-09"
+}

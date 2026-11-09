@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-08",
-  "nextCountry": "Netherlands",
+  "lastRun": "2026-11-09",
+  "nextCountry": "Belgium",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -15671,6 +15671,246 @@
       "cameraStatus": "not-verified",
       "evidenceReference": "runs/2026-11-08.json",
       "reason": "Reviewed the local coastline and verified the bearing through the production API and wind assessment."
+    },
+    {
+      "locationId": "eea-NLBW89_BRESKFFDRBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_BRESKFFDRBSD",
+        "open-meteo-marine:eea-NLBW89_BRESKFFDRBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_BRESKNWSBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_BRESKNWSBSD",
+        "open-meteo-marine:eea-NLBW89_BRESKNWSBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_CADZBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_CADZBSD",
+        "open-meteo-marine:eea-NLBW89_CADZBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_DOMBBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_DOMBBSD",
+        "open-meteo-marine:eea-NLBW89_DOMBBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_ZWINDLBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_ZWINDLBSD",
+        "open-meteo-marine:eea-NLBW89_ZWINDLBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_KAMPLBJBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_KAMPLBJBSD",
+        "open-meteo-marine:eea-NLBW89_KAMPLBJBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_NIEUWHSDVBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_NIEUWHSDVBSD",
+        "open-meteo-marine:eea-NLBW89_NIEUWHSDVBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_NIEUWVBOBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_NIEUWVBOBSD",
+        "open-meteo-marine:eea-NLBW89_NIEUWVBOBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_OOSTKPLDWBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_OOSTKPLDWBSD",
+        "open-meteo-marine:eea-NLBW89_OOSTKPLDWBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_RENSJRNSWBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_RENSJRNSWBSD",
+        "open-meteo-marine:eea-NLBW89_RENSJRNSWBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_RENSLEWBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_RENSLEWBSD",
+        "open-meteo-marine:eea-NLBW89_RENSLEWBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_VROUWPDBZBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "unresolved",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_VROUWPDBZBSD",
+        "open-meteo-marine:eea-NLBW89_VROUWPDBZBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Breezand sampling point is offshore of a recurved sand spit. Its seaward tip and the mainland beach have different normals. Confirm the designated bathing frontage against a current local water polygon."
+    },
+    {
+      "locationId": "eea-NLBW89_WESTSWRTDBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_WESTSWRTDBSD",
+        "open-meteo-marine:eea-NLBW89_WESTSWRTDBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_WESTKPLERBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_WESTKPLERBSD",
+        "open-meteo-marine:eea-NLBW89_WESTKPLERBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-NLBW89_ZOUTLDDHBSD",
+      "country": "Netherlands",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-09",
+      "nextReviewAt": "2026-12-09",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-NLBW89_ZOUTLDDHBSD",
+        "open-meteo-marine:eea-NLBW89_ZOUTLDDHBSD"
+      ],
+      "evidenceReference": "runs/2026-11-09.json",
+      "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
     }
   ]
 }
