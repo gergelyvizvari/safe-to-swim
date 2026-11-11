@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-09",
-  "nextCountry": "Belgium",
+  "lastRun": "2026-11-11",
+  "nextCountry": "France",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -15911,6 +15911,193 @@
       ],
       "evidenceReference": "runs/2026-11-09.json",
       "reason": "Directed coastline checked at the bathing site; production catalogue returned the reviewed orientation."
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK12",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_MDK12",
+        "open-meteo-marine:eea-BEVL_BW_MDK12"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK14",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_MDK14",
+        "open-meteo-marine:eea-BEVL_BW_MDK14"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK09",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_MDK09",
+        "open-meteo-marine:eea-BEVL_BW_MDK09"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_NPT05",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_NPT05",
+        "open-meteo-marine:eea-BEVL_BW_NPT05"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_NPT02",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_NPT02",
+        "open-meteo-marine:eea-BEVL_BW_NPT02"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS03",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_OOS03",
+        "open-meteo-marine:eea-BEVL_BW_OOS03"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS12",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_OOS12",
+        "open-meteo-marine:eea-BEVL_BW_OOS12"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS06",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_OOS06",
+        "open-meteo-marine:eea-BEVL_BW_OOS06"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS10",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_OOS10",
+        "open-meteo-marine:eea-BEVL_BW_OOS10"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS05",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_OOS05",
+        "open-meteo-marine:eea-BEVL_BW_OOS05"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS01",
+      "country": "Belgium",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-BEVL_BW_OOS01",
+        "open-meteo-marine:eea-BEVL_BW_OOS01"
+      ],
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-11.json",
+      "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
     }
   ]
 }

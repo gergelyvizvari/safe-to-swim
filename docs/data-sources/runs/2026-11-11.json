@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-11",
+  "selection": "All 11 previously unreviewed Belgian coastal records returned with missing orientation and weather/marine targets.",
+  "locations": [
+    "eea-BEVL_BW_MDK12",
+    "eea-BEVL_BW_MDK14",
+    "eea-BEVL_BW_MDK09",
+    "eea-BEVL_BW_NPT05",
+    "eea-BEVL_BW_NPT02",
+    "eea-BEVL_BW_OOS03",
+    "eea-BEVL_BW_OOS12",
+    "eea-BEVL_BW_OOS06",
+    "eea-BEVL_BW_OOS10",
+    "eea-BEVL_BW_OOS05",
+    "eea-BEVL_BW_OOS01"
+  ],
+  "counts": {
+    "reviewed": 11,
+    "prepared": 11,
+    "liveNewCoverage": 11,
+    "newDynamicIntegrations": 0,
+    "shoreOrientationsDetermined": 11,
+    "shoreOrientationsApplied": 11,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-11-osm.json",
+    "license": "ODbL-1.0",
+    "importFile": "supabase/imports/20261111_belgium_shore_orientations.sql",
+    "method": "Eight length-weighted 60 m windows and three individually checked southwest-directed beach segments. North-up plots include long segments passing through the window. Excelsior and Houyouxstraat use explicit vertices on the local beach segment; Duin en Zee lies on the east side of the harbour. Reviewed coordinates, segments and versions are stored with the orientations."
+  },
+  "sources": [
+    {
+      "url": "https://kwaliteitzwemwater.be/nl/ajax/getMeasuringPointsForGroup?nid=1&currentId=1&lang=nl",
+      "status": "error",
+      "result": "Shared root and group 16624 returned HTTP 500. No current laboratory or cyanobacteria result assigned."
+    },
+    {
+      "url": "https://api.meetnetvlaamsebanken.be/V2-help",
+      "status": "awaiting-access",
+      "result": "V2/catalog returned HTTP 401. API requires a bearer token. The agency distinguishes sea pillars, wave buoys and harbour current stations. No station coverage or licence verified for these beach coordinates."
+    },
+    {
+      "url": "https://www.agentschapmdk.be/nl/hydrometeo",
+      "status": "candidate",
+      "result": "Regional coastal weather bulletin produced with KMI four times daily. Site-specific warning validity and machine-readable storm contract unverified."
+    },
+    {
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "result": "Bulk query returned numeric modelled wave height, surface temperature and current speed at all 11 requested coordinates for 11:30 UTC. Weather query returned wind speed and direction for all 11. Shared grid values are possible."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "be-ostend-net",
+      "operator": "Oostende.net",
+      "locationIds": [
+        "eea-BEVL_BW_OOS03",
+        "eea-BEVL_BW_OOS12",
+        "eea-BEVL_BW_OOS06",
+        "eea-BEVL_BW_OOS10",
+        "eea-BEVL_BW_OOS05",
+        "eea-BEVL_BW_OOS01"
+      ],
+      "pageUrl": "https://www.ostend.be/N/webcam/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Exact bathing frontage unconfirmed.",
+      "type": "operator page",
+      "freshness": "Operator reports offline for technical reasons.",
+      "embedding": "unverified",
+      "status": "unavailable",
+      "checkedAt": "2026-11-11",
+      "nextReviewAt": "2026-12-11"
+    }
+  ],
+  "cameraSearch": "Nieuwpoort pier coverage of Badinstallatie or Leopoldplein unverified; no new location evidence for the existing Middelkerke municipal candidate under October 17 review.",
+  "production": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "checks": "11 detail and observation identities; empty item lists. Both water types paginated at offsets 0 and 15. All 11 imported bearings and provenance matched; wind assessments had no missing shore field. One active cron, no source overdue by more than five minutes, latest source check 11:33 UTC. Existing NRW, EA, SEPA, Brighton sample, quality and storm failures persist."
+  },
+  "nextReviewAt": "2026-12-11"
+}

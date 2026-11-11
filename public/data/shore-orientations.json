@@ -17132,6 +17132,382 @@
         "snapshotFile": "2026-11-09-osm.json",
         "reviewNote": "North-up local Zeeland beach geometry reviewed; right-hand normal points away from land. A small landward catalogue offset does not reverse the directed coastline."
       }
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK12",
+      "latitude": 51.18848,
+      "longitude": 2.80976,
+      "seaBearing": 325,
+      "shoreOrientation": {
+        "distanceMetres": 147,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 265,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.187396315846186,
+          "longitude": 2.8109548829282853
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK14",
+      "latitude": 51.19134,
+      "longitude": 2.81781,
+      "seaBearing": 326,
+      "shoreOrientation": {
+        "wayIds": [
+          168751299
+        ],
+        "reviewedVertexIndices": [
+          258,
+          259
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Long straight mapped shoreline segment at Excelsior. Sampling point projects inside this segment on its northwest, water-facing side."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_MDK09",
+      "latitude": 51.1822,
+      "longitude": 2.79671,
+      "seaBearing": 326,
+      "shoreOrientation": {
+        "wayIds": [
+          168751299
+        ],
+        "reviewedVertexIndices": [
+          267,
+          268
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Long mapped segment at Houyouxstraat; direct projection onto the beach tangent. North Sea to northwest."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_NPT05",
+      "latitude": 51.15328,
+      "longitude": 2.71856,
+      "seaBearing": 313,
+      "shoreOrientation": {
+        "distanceMetres": 114,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 292,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.15257169023967,
+          "longitude": 2.719746565109225
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_NPT02",
+      "latitude": 51.14851,
+      "longitude": 2.70809,
+      "seaBearing": 324,
+      "shoreOrientation": {
+        "distanceMetres": 121,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 296,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.147628503290484,
+          "longitude": 2.709104028491608
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS03",
+      "latitude": 51.21528,
+      "longitude": 2.87166,
+      "seaBearing": 323,
+      "shoreOrientation": {
+        "distanceMetres": 137,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 236,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.21429478987503,
+          "longitude": 2.8728435029752037
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS12",
+      "latitude": 51.24284,
+      "longitude": 2.93669,
+      "seaBearing": 321,
+      "shoreOrientation": {
+        "wayIds": [
+          168751299
+        ],
+        "reviewedVertexIndices": [
+          187,
+          188
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": true,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Duin en Zee sampling point sits seaward of this southwest-directed beach on the east side of the Ostend harbour."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS06",
+      "latitude": 51.22896,
+      "longitude": 2.90233,
+      "seaBearing": 320,
+      "shoreOrientation": {
+        "distanceMetres": 89,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 225,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.2283521760928,
+          "longitude": 2.903152798756052
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS10",
+      "latitude": 51.23478,
+      "longitude": 2.91331,
+      "seaBearing": 312,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 223,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.23483279725355,
+          "longitude": 2.913215731773646
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS05",
+      "latitude": 51.22225,
+      "longitude": 2.88749,
+      "seaBearing": 325,
+      "shoreOrientation": {
+        "distanceMetres": 79,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 230,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.221666298333616,
+          "longitude": 2.888142875782067
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-BEVL_BW_OOS01",
+      "latitude": 51.20857,
+      "longitude": 2.85815,
+      "seaBearing": 320,
+      "shoreOrientation": {
+        "distanceMetres": 78,
+        "radiusMetres": 60,
+        "wayIds": [
+          168751299
+        ],
+        "nearestSegment": 247,
+        "nearestWayId": 168751299,
+        "shorePoint": {
+          "latitude": 51.208033048565184,
+          "longitude": 2.8588752171054046
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-11",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 168751299,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-11-osm.json",
+        "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
+      }
     }
   ]
 }
