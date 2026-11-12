@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-11",
-  "nextCountry": "France",
+  "lastRun": "2026-11-12",
+  "nextCountry": "Italy",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -16098,6 +16098,193 @@
       "cameraStatus": "not-verified",
       "evidenceReference": "runs/2026-11-11.json",
       "reason": "Directed beach geometry and both wind directions checked using the production catalogue response."
+    },
+    {
+      "locationId": "eea-FRM022B043M02B180",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B043M02B180",
+        "open-meteo-marine:eea-FRM022B043M02B180"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B298M02B265",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B298M02B265",
+        "open-meteo-marine:eea-FRM022B298M02B265"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B042M02B116",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B042M02B116",
+        "open-meteo-marine:eea-FRM022B042M02B116"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B242M02B082",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B242M02B082",
+        "open-meteo-marine:eea-FRM022B242M02B082"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B033M02B140",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B033M02B140",
+        "open-meteo-marine:eea-FRM022B033M02B140"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B178M02B235",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B178M02B235",
+        "open-meteo-marine:eea-FRM022B178M02B235"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B343M02B100",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B343M02B100",
+        "open-meteo-marine:eea-FRM022B343M02B100"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B009M02B040",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B009M02B040",
+        "open-meteo-marine:eea-FRM022B009M02B040"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B303M02B059",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B303M02B059",
+        "open-meteo-marine:eea-FRM022B303M02B059"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B120M02B125",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B120M02B125",
+        "open-meteo-marine:eea-FRM022B120M02B125"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-FRM022B318M02B085",
+      "country": "France",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-FRM022B318M02B085",
+        "open-meteo-marine:eea-FRM022B318M02B085"
+      ],
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-12.json",
+      "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-12",
+  "selection": "Eleven previously unreviewed Corsican coastal catalogue records from the first 300 French coastal list results, with existing weather/marine targets and missing bearings. Includes western bays separately from the eastern shore.",
+  "locations": [
+    "eea-FRM022B043M02B180",
+    "eea-FRM022B298M02B265",
+    "eea-FRM022B042M02B116",
+    "eea-FRM022B242M02B082",
+    "eea-FRM022B033M02B140",
+    "eea-FRM022B178M02B235",
+    "eea-FRM022B343M02B100",
+    "eea-FRM022B009M02B040",
+    "eea-FRM022B303M02B059",
+    "eea-FRM022B120M02B125",
+    "eea-FRM022B318M02B085"
+  ],
+  "counts": {
+    "reviewed": 11,
+    "prepared": 11,
+    "liveNewCoverage": 11,
+    "newDynamicIntegrations": 0,
+    "shoreOrientationsDetermined": 11,
+    "shoreOrientationsApplied": 11,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-12-osm.json",
+    "license": "ODbL-1.0",
+    "importFile": "supabase/imports/20261112_corsica_shore_orientations.sql",
+    "method": "Nine 60 m local right normals and two manually checked beach chords. Campinca pocket beach water south-southeast (158 degrees). Acqua Dolce bay water north (354). Baracatoggio west-coast water southwest (251). Each uses its local shoreline; individual vertices, way versions and method stored with catalogue metadata."
+  },
+  "sources": [
+    {
+      "url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?annee=2026&dptddass=02B&site=02B002225&plv=all",
+      "status": "candidate",
+      "result": "Read response contains Sisco seasonal sampling dates including August24 2026. Sample-site crosswalk for these selected bathing IDs remains unverified. No sample values or present quality assigned."
+    },
+    {
+      "url": "https://www.data.gouv.fr/datasets/qualite-des-eaux-de-baignade-2",
+      "status": "candidate",
+      "result": "Dataset discovered. Current laboratory, algal and restriction timestamp contract remains unresolved."
+    },
+    {
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "result": "All eleven requested model points returned numeric wave height, sea surface temperature and current velocity at 08:45 UTC. Weather API returned numeric wind speed/direction for all eleven. Shared cells possible; existing model flow retained."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "fr-rol-bastia",
+      "operator": "Réseau d’Observation du Littoral Corse / CASAGEC",
+      "locationIds": [
+        "eea-FRM022B033M02B140"
+      ],
+      "pageUrl": "https://www.littoral-corse.fr/Cameras",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator describes four rotating Bastia views. Exact sampling beach footprint and current frame timestamp unverified.",
+      "type": "hourly snapshots",
+      "freshness": "unverified",
+      "embedding": "unverified",
+      "status": "candidate",
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12"
+    },
+    {
+      "cameraId": "fr-rol-moriani",
+      "operator": "Réseau d’Observation du Littoral Corse / CASAGEC",
+      "locationIds": [
+        "eea-FRM022B318M02B085",
+        "eea-FRM022B242M02B082"
+      ],
+      "pageUrl": "https://www.littoral-corse.fr/Cameras",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Seven rotating views described. Geography and view overlap with both named bathing sites require verification.",
+      "type": "hourly snapshots",
+      "freshness": "unverified",
+      "embedding": "unverified",
+      "status": "candidate",
+      "checkedAt": "2026-11-12",
+      "nextReviewAt": "2026-12-12"
+    }
+  ],
+  "production": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "checks": "11 detail/observation identities verified before import; stored observations empty. Exact bearing/provenance checked after import. Both catalogue kinds paginated at offsets 0/15. One active collector job, no source overdue over five minutes; same known upstream failures. Local import changed eleven rows then zero. RLS active, anonymous and authenticated UPDATE unavailable."
+  },
+  "nextReviewAt": "2026-12-12"
+}

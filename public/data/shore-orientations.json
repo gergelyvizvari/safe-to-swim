@@ -17508,6 +17508,385 @@
         "snapshotFile": "2026-11-11-osm.json",
         "reviewNote": "Local Belgian beach tangent reviewed on a north-up shoreline plot. North Sea lies to the northwest; small landward sampling offsets retained."
       }
+    },
+    {
+      "locationId": "eea-FRM022B043M02B180",
+      "latitude": 42.76494,
+      "longitude": 9.46934,
+      "seaBearing": 158,
+      "shoreOrientation": {
+        "wayIds": [
+          4843006
+        ],
+        "reviewedVertexIndices": [
+          47,
+          51
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": false,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 4843006,
+            "version": 37
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "Campinca pocket beach between the local rocky shoulders. Local water lies southeast; a beach chord avoids averaging the adjacent rocks. Slight landward sampling offset retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B298M02B265",
+      "latitude": 42.67443,
+      "longitude": 9.28868,
+      "seaBearing": 354,
+      "shoreOrientation": {
+        "wayIds": [
+          73178229
+        ],
+        "reviewedVertexIndices": [
+          479,
+          481
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": false,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 73178229,
+            "version": 39
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "Acqua Dolce bottom of the bay. Local water north, land south; adjoining eastern rocky curve excluded. Slight landward sampling offset retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B042M02B116",
+      "latitude": 42.60143,
+      "longitude": 9.49755,
+      "seaBearing": 53,
+      "shoreOrientation": {
+        "distanceMetres": 16,
+        "radiusMetres": 60,
+        "wayIds": [
+          4842999
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 4842999,
+        "shorePoint": {
+          "latitude": 42.6015256440989,
+          "longitude": 9.497696756564311
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 4842999,
+            "version": 14
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B242M02B082",
+      "latitude": 42.40125,
+      "longitude": 9.53623,
+      "seaBearing": 96,
+      "shoreOrientation": {
+        "distanceMetres": 28,
+        "radiusMetres": 60,
+        "wayIds": [
+          74728248
+        ],
+        "nearestSegment": 6,
+        "nearestWayId": 74728248,
+        "shorePoint": {
+          "latitude": 42.40122343103629,
+          "longitude": 9.536574793220627
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 74728248,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B033M02B140",
+      "latitude": 42.67125,
+      "longitude": 9.44686,
+      "seaBearing": 85,
+      "shoreOrientation": {
+        "distanceMetres": 12,
+        "radiusMetres": 60,
+        "wayIds": [
+          142466425
+        ],
+        "nearestSegment": 15,
+        "nearestWayId": 142466425,
+        "shorePoint": {
+          "latitude": 42.67125236564737,
+          "longitude": 9.447008255500723
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 142466425,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B178M02B235",
+      "latitude": 42.79753,
+      "longitude": 9.34244,
+      "seaBearing": 251,
+      "shoreOrientation": {
+        "distanceMetres": 17,
+        "radiusMetres": 60,
+        "wayIds": [
+          239239595
+        ],
+        "nearestSegment": 22,
+        "nearestWayId": 239239595,
+        "shorePoint": {
+          "latitude": 42.79759155752806,
+          "longitude": 9.342635298339696
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 239239595,
+            "version": 10
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B343M02B100",
+      "latitude": 42.51325,
+      "longitude": 9.5327,
+      "seaBearing": 101,
+      "shoreOrientation": {
+        "distanceMetres": 31,
+        "radiusMetres": 60,
+        "wayIds": [
+          140046203
+        ],
+        "nearestSegment": 23,
+        "nearestWayId": 140046203,
+        "shorePoint": {
+          "latitude": 42.51329996098825,
+          "longitude": 9.532323886247525
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 140046203,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B009M02B040",
+      "latitude": 42.11156,
+      "longitude": 9.55183,
+      "seaBearing": 100,
+      "shoreOrientation": {
+        "distanceMetres": 13,
+        "radiusMetres": 60,
+        "wayIds": [
+          30986525
+        ],
+        "nearestSegment": 25,
+        "nearestWayId": 30986525,
+        "shorePoint": {
+          "latitude": 42.11157901809258,
+          "longitude": 9.551675794844652
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 30986525,
+            "version": 15
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B303M02B059",
+      "latitude": 42.29198,
+      "longitude": 9.55544,
+      "seaBearing": 77,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          178597747
+        ],
+        "nearestSegment": 85,
+        "nearestWayId": 178597747,
+        "shorePoint": {
+          "latitude": 42.291967585955696,
+          "longitude": 9.55536849515359
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 178597747,
+            "version": 11
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B120M02B125",
+      "latitude": 42.6443,
+      "longitude": 9.45921,
+      "seaBearing": 61,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          30765388
+        ],
+        "nearestSegment": 11,
+        "nearestWayId": 30765388,
+        "shorePoint": {
+          "latitude": 42.644368347676426,
+          "longitude": 9.459370095036114
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 30765388,
+            "version": 23
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-FRM022B318M02B085",
+      "latitude": 42.43354,
+      "longitude": 9.54138,
+      "seaBearing": 87,
+      "shoreOrientation": {
+        "distanceMetres": 19,
+        "radiusMetres": 60,
+        "wayIds": [
+          239930075
+        ],
+        "nearestSegment": 10,
+        "nearestWayId": 239930075,
+        "shorePoint": {
+          "latitude": 42.43353895653274,
+          "longitude": 9.541614153949041
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-12",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 239930075,
+            "version": 6
+          }
+        ],
+        "snapshotFile": "2026-11-12-osm.json",
+        "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
+      }
     }
   ]
 }
