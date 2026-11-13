@@ -17887,6 +17887,530 @@
         "snapshotFile": "2026-11-12-osm.json",
         "reviewNote": "North-up Corsican local shoreline reviewed. East-coast water lies east or northeast, Baracatoggio west-coast water southwest. Small landward sampling offsets retained."
       }
+    },
+    {
+      "locationId": "eea-IT011043013002",
+      "latitude": 43.3096,
+      "longitude": 13.7353,
+      "seaBearing": 82,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          1482132065
+        ],
+        "nearestSegment": 32,
+        "nearestWayId": 1482132065,
+        "shorePoint": {
+          "latitude": 43.30960387727118,
+          "longitude": 13.735345885130133
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 1482132065,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043043001",
+      "latitude": 43.3827,
+      "longitude": 13.6886,
+      "seaBearing": 72,
+      "shoreOrientation": {
+        "distanceMetres": 21,
+        "radiusMetres": 60,
+        "wayIds": [
+          27973028
+        ],
+        "nearestSegment": 85,
+        "nearestWayId": 27973028,
+        "shorePoint": {
+          "latitude": 43.382644338702406,
+          "longitude": 13.688346165549113
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27973028,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011042032009",
+      "latitude": 43.4793,
+      "longitude": 13.6391,
+      "seaBearing": 66,
+      "shoreOrientation": {
+        "distanceMetres": 12,
+        "radiusMetres": 60,
+        "wayIds": [
+          27973162
+        ],
+        "nearestSegment": 6,
+        "nearestWayId": 27973162,
+        "shorePoint": {
+          "latitude": 43.47925416637618,
+          "longitude": 13.638961222012798
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27973162,
+            "version": 24
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043043002",
+      "latitude": 43.3788,
+      "longitude": 13.6905,
+      "seaBearing": 73,
+      "shoreOrientation": {
+        "wayIds": [
+          27973028
+        ],
+        "reviewedVertexIndices": [
+          77,
+          78
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": false,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27973028,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local beach chord south of the small outfall structure. Adriatic water northeast; small landward sampling offset retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043042004",
+      "latitude": 43.4397,
+      "longitude": 13.6618,
+      "seaBearing": 59,
+      "shoreOrientation": {
+        "distanceMetres": 16,
+        "radiusMetres": 60,
+        "wayIds": [
+          270715059
+        ],
+        "nearestSegment": 139,
+        "nearestWayId": 270715059,
+        "shorePoint": {
+          "latitude": 43.43961884920148,
+          "longitude": 13.661640514142755
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 270715059,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043042001",
+      "latitude": 43.4732,
+      "longitude": 13.643,
+      "seaBearing": 66,
+      "shoreOrientation": {
+        "distanceMetres": 20,
+        "radiusMetres": 60,
+        "wayIds": [
+          762718947
+        ],
+        "nearestSegment": 82,
+        "nearestWayId": 762718947,
+        "shorePoint": {
+          "latitude": 43.473124221676926,
+          "longitude": 13.642771576714408
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 762718947,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011109033004",
+      "latitude": 43.1984,
+      "longitude": 13.7918,
+      "seaBearing": 56,
+      "shoreOrientation": {
+        "distanceMetres": 27,
+        "radiusMetres": 60,
+        "wayIds": [
+          28539305
+        ],
+        "nearestSegment": 151,
+        "nearestWayId": 28539305,
+        "shorePoint": {
+          "latitude": 43.198262562311534,
+          "longitude": 13.79152067275517
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 28539305,
+            "version": 15
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011109001004",
+      "latitude": 43.1267,
+      "longitude": 13.8297,
+      "seaBearing": 66,
+      "shoreOrientation": {
+        "distanceMetres": 22,
+        "radiusMetres": 60,
+        "wayIds": [
+          28535840,
+          27972751
+        ],
+        "nearestSegment": 39,
+        "nearestWayId": 28535840,
+        "shorePoint": {
+          "latitude": 43.12662235941851,
+          "longitude": 13.829456545334475
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 28535840,
+            "version": 9
+          },
+          {
+            "id": 27972751,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011109030004",
+      "latitude": 43.0849,
+      "longitude": 13.8466,
+      "seaBearing": 89,
+      "shoreOrientation": {
+        "distanceMetres": 28,
+        "radiusMetres": 60,
+        "wayIds": [
+          28535841
+        ],
+        "nearestSegment": 18,
+        "nearestWayId": 28535841,
+        "shorePoint": {
+          "latitude": 43.0848526745386,
+          "longitude": 13.84626436233012
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 28535841,
+            "version": 10
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043043003",
+      "latitude": 43.3771,
+      "longitude": 13.6913,
+      "seaBearing": 76,
+      "shoreOrientation": {
+        "distanceMetres": 11,
+        "radiusMetres": 60,
+        "wayIds": [
+          27973028
+        ],
+        "nearestSegment": 77,
+        "nearestWayId": 27973028,
+        "shorePoint": {
+          "latitude": 43.37707127941712,
+          "longitude": 13.691167086538462
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27973028,
+            "version": 20
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043042005",
+      "latitude": 43.4382,
+      "longitude": 13.6631,
+      "seaBearing": 62,
+      "shoreOrientation": {
+        "wayIds": [
+          270715059
+        ],
+        "reviewedVertexIndices": [
+          127,
+          132
+        ],
+        "method": "reviewed-local-beach-chord",
+        "precision": "estimated",
+        "waterSideCheck": false,
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 270715059,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local beach chord smooths small shore crenellations south of Fiumarella. Adriatic water northeast; small landward sampling offset retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011043042009",
+      "latitude": 43.4634,
+      "longitude": 13.6488,
+      "seaBearing": 70,
+      "shoreOrientation": {
+        "distanceMetres": 36,
+        "radiusMetres": 60,
+        "wayIds": [
+          762718947
+        ],
+        "nearestSegment": 65,
+        "nearestWayId": 762718947,
+        "shorePoint": {
+          "latitude": 43.46329045468731,
+          "longitude": 13.648374731080448
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 762718947,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011109006007",
+      "latitude": 43.2003,
+      "longitude": 13.791,
+      "seaBearing": 86,
+      "shoreOrientation": {
+        "distanceMetres": 26,
+        "radiusMetres": 60,
+        "wayIds": [
+          27972854
+        ],
+        "nearestSegment": 0,
+        "nearestWayId": 27972854,
+        "shorePoint": {
+          "latitude": 43.200284055610005,
+          "longitude": 13.790684410655256
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27972854,
+            "version": 18
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011109006006",
+      "latitude": 43.1287,
+      "longitude": 13.8283,
+      "seaBearing": 62,
+      "shoreOrientation": {
+        "distanceMetres": 15,
+        "radiusMetres": 60,
+        "wayIds": [
+          27972751
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 27972751,
+        "shorePoint": {
+          "latitude": 43.12863810503486,
+          "longitude": 13.828139805162664
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27972751,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
+    },
+    {
+      "locationId": "eea-IT011109006009",
+      "latitude": 43.1615,
+      "longitude": 13.8117,
+      "seaBearing": 81,
+      "shoreOrientation": {
+        "distanceMetres": 3,
+        "radiusMetres": 60,
+        "wayIds": [
+          27972751
+        ],
+        "nearestSegment": 27,
+        "nearestWayId": 27972751,
+        "shorePoint": {
+          "latitude": 43.16150373679147,
+          "longitude": 13.811733578491996
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-13",
+        "reviewed": true,
+        "estimated": true,
+        "wayVersions": [
+          {
+            "id": 27972751,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-13-osm.json",
+        "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
+      }
     }
   ]
 }

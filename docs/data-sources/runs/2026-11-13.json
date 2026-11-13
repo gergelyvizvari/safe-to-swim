@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-13",
+  "selection": "15 previously unreviewed coastal Marche sites with weather/marine targets and missing bearings, from the first 300 Italian coastal catalogue records.",
+  "locations": [
+    "eea-IT011043013002",
+    "eea-IT011043043001",
+    "eea-IT011042032009",
+    "eea-IT011043043002",
+    "eea-IT011043042004",
+    "eea-IT011043042001",
+    "eea-IT011109033004",
+    "eea-IT011109001004",
+    "eea-IT011109030004",
+    "eea-IT011043043003",
+    "eea-IT011043042005",
+    "eea-IT011043042009",
+    "eea-IT011109006007",
+    "eea-IT011109006006",
+    "eea-IT011109006009"
+  ],
+  "counts": {
+    "reviewed": 15,
+    "prepared": 15,
+    "liveNewCoverage": 15,
+    "newDynamicIntegrations": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-13-osm.json",
+    "license": "ODbL-1.0",
+    "importFile": "supabase/imports/20261113_marche_shore_orientations.sql",
+    "method": "13 length-weighted local 60 m normals plus two reviewed chords excluding outfall structures and small shoreline crenellations. Each is independently directed towards the Adriatic east/northeast; river mouths and port walls require the local segment."
+  },
+  "providers": [
+    {
+      "url": "https://balneazione.arpa.marche.it/",
+      "status": "candidate",
+      "result": "Official application publishes IDNEW polygons, latest sample JSONP and dated series. All fifteen exact IDs found in balneazione.json. Analisi.asp returns fourteen nonempty series and one empty series. Thirteen latest samples August/September2026, one August2025. ESR/ENT units n*/100ml with separate CFU/MPN method footnote. Reuse terms and timezone contract need verification before a collector adapter."
+    },
+    {
+      "url": "https://arpa.marche.it/balneazione-nuovo/ostreopsis-cf-ovata",
+      "status": "candidate",
+      "result": "Official 2026 bulletin in cells/litre found. Page modified October26. Station crosswalk and sample publication timing unresolved. No algae warning inferred."
+    },
+    {
+      "url": "https://marine-api.open-meteo.com/v1/marine",
+      "result": "All fifteen requested model points returned numeric wave height, sea surface temperature and current velocity for 14:15 UTC; weather API returned numeric wind speed/direction for all fifteen. Shared cells possible. Local measured wave/current and dated site storm-warning contracts remain unresolved."
+    }
+  ],
+  "sampleEvidence": [
+    {
+      "locationId": "eea-IT011043013002",
+      "targetId": "IT011043013002",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043013002&callback=LeggiValori",
+      "providerName": "100 M NORD DIREZIONE MOSTRA DELLA CALZATURA",
+      "municipality": "CIVITANOVA MARCHE",
+      "latestSample": "01/09/2026",
+      "sampleCount": 12
+    },
+    {
+      "locationId": "eea-IT011043043001",
+      "targetId": "IT011043043001",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043043001&callback=LeggiValori",
+      "providerName": "100 M NORD FOSSO ALVATA",
+      "municipality": "POTENZA PICENA",
+      "latestSample": "19/08/2025",
+      "sampleCount": 6
+    },
+    {
+      "locationId": "eea-IT011042032009",
+      "targetId": "IT011042032009",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011042032009&callback=LeggiValori",
+      "status": "empty-samples",
+      "sampleCount": 0
+    },
+    {
+      "locationId": "eea-IT011043043002",
+      "targetId": "IT011043043002",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043043002&callback=LeggiValori",
+      "providerName": "100 M NORD SCARICO DEPURATORE COMUNALE",
+      "municipality": "POTENZA PICENA",
+      "latestSample": "01/09/2026",
+      "sampleCount": 12
+    },
+    {
+      "locationId": "eea-IT011043042004",
+      "targetId": "IT011043042004",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043042004&callback=LeggiValori",
+      "providerName": "100 M NORD SCARICO FIUMARELLA",
+      "municipality": "PORTO RECANATI",
+      "latestSample": "01/09/2026",
+      "sampleCount": 13
+    },
+    {
+      "locationId": "eea-IT011043042001",
+      "targetId": "IT011043042001",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043042001&callback=LeggiValori",
+      "providerName": "100 M SUD FOCE FIUME MUSONE",
+      "municipality": "PORTO RECANATI",
+      "latestSample": "01/09/2026",
+      "sampleCount": 16
+    },
+    {
+      "locationId": "eea-IT011109033004",
+      "targetId": "IT011109033004",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011109033004&callback=LeggiValori",
+      "providerName": "100 M SUD FOSSO RIO VALLOSCURA",
+      "municipality": "PORTO SAN GIORGIO",
+      "latestSample": "31/08/2026",
+      "sampleCount": 13
+    },
+    {
+      "locationId": "eea-IT011109001004",
+      "targetId": "IT011109001004",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011109001004&callback=LeggiValori",
+      "providerName": "100 M SUD FOSSO SAN BIAGIO",
+      "municipality": "ALTIDONA",
+      "latestSample": "31/08/2026",
+      "sampleCount": 12
+    },
+    {
+      "locationId": "eea-IT011109030004",
+      "targetId": "IT011109030004",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011109030004&callback=LeggiValori",
+      "providerName": "100 M SUD SCARICO CENTRALE ENEL",
+      "municipality": "PEDASO",
+      "latestSample": "31/08/2026",
+      "sampleCount": 13
+    },
+    {
+      "locationId": "eea-IT011043043003",
+      "targetId": "IT011043043003",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043043003&callback=LeggiValori",
+      "providerName": "100 M SUD SCARICO DEPURATORE COMUNALE",
+      "municipality": "POTENZA PICENA",
+      "latestSample": "15/09/2026",
+      "sampleCount": 17
+    },
+    {
+      "locationId": "eea-IT011043042005",
+      "targetId": "IT011043042005",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043042005&callback=LeggiValori",
+      "providerName": "100 M SUD SCARICO FIUMARELLA",
+      "municipality": "PORTO RECANATI",
+      "latestSample": "01/09/2026",
+      "sampleCount": 13
+    },
+    {
+      "locationId": "eea-IT011043042009",
+      "targetId": "IT011043042009",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011043042009&callback=LeggiValori",
+      "providerName": "100 M SUD STRADA PROVINCIALE SORBELLI",
+      "municipality": "PORTO RECANATI",
+      "latestSample": "01/09/2026",
+      "sampleCount": 12
+    },
+    {
+      "locationId": "eea-IT011109006007",
+      "targetId": "IT011109006007",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011109006007&callback=LeggiValori",
+      "providerName": "150 M NORD FOSSO RIO VALLOSCURA",
+      "municipality": "FERMO",
+      "latestSample": "31/08/2026",
+      "sampleCount": 13
+    },
+    {
+      "locationId": "eea-IT011109006006",
+      "targetId": "IT011109006006",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011109006006&callback=LeggiValori",
+      "providerName": "150 M NORD FOSSO SAN BIAGIO",
+      "municipality": "FERMO",
+      "latestSample": "31/08/2026",
+      "sampleCount": 12
+    },
+    {
+      "locationId": "eea-IT011109006009",
+      "targetId": "IT011109006009",
+      "source": "https://balneazione.arpa.marche.it/Analisi.asp?stazione=IT011109006009&callback=LeggiValori",
+      "providerName": "150 M SUD FOCE ETE VIVO",
+      "municipality": "FERMO",
+      "latestSample": "31/08/2026",
+      "sampleCount": 12
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "it-civitanova-il-madiere",
+      "operator": "Associazione Il Madiere",
+      "locationIds": [
+        "eea-IT011043013002"
+      ],
+      "pageUrl": "https://www.ilmadiere.it/webcam-page/",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator describes north Civitanova beach. Viewed actual beach frame with sea and promenade. Exact extent relative to the sampling point unresolved.",
+      "checkedAt": "2026-11-13T14:32:00Z",
+      "type": "cycling JPEG images",
+      "freshness": "Burned frame date November13 14:50:41 local, approximately 42 minutes before read. Refresh cycling alone does not prove current capture.",
+      "embedding": "unverified; retain candidate source page",
+      "status": "candidate",
+      "nextReviewAt": "2026-12-13"
+    }
+  ],
+  "cameraSearch": "Operator Il Madiere also links Barracuda Porto Potenza beach, LNI Porto San Giorgio beach and Club Vela harbour. Their direct beach footprints and timestamp freshness remain unverified; no proximity assignment.",
+  "production": {
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "origin": "https://safe-to-swim.vercel.app",
+    "checks": "All fifteen catalogue detail identities, weather/marine targets, observations envelopes and exact imported bearing/provenance verified. All observation lists empty. Both catalogue kinds checked at offsets0/15. 30 wind assessments complete. One cron job, no source overdue more than five minutes, last check14:29 UTC; previously known upstream failures persist. RLS active and public UPDATE unavailable. Local SQL applied fifteen rows then zero."
+  },
+  "nextReviewAt": "2026-12-13"
+}

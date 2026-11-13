@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-12",
-  "nextCountry": "Italy",
+  "lastRun": "2026-11-13",
+  "nextCountry": "Croatia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -16285,6 +16285,261 @@
       "cameraStatus": "not-verified",
       "evidenceReference": "runs/2026-11-12.json",
       "reason": "Local directed coastline reviewed and imported with provenance. Laboratory and camera matching remain candidates."
+    },
+    {
+      "locationId": "eea-IT011043013002",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043013002",
+        "open-meteo-marine:eea-IT011043013002"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043043001",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043043001",
+        "open-meteo-marine:eea-IT011043043001"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011042032009",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011042032009",
+        "open-meteo-marine:eea-IT011042032009"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043043002",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043043002",
+        "open-meteo-marine:eea-IT011043043002"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043042004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043042004",
+        "open-meteo-marine:eea-IT011043042004"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043042001",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043042001",
+        "open-meteo-marine:eea-IT011043042001"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011109033004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011109033004",
+        "open-meteo-marine:eea-IT011109033004"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011109001004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011109001004",
+        "open-meteo-marine:eea-IT011109001004"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011109030004",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011109030004",
+        "open-meteo-marine:eea-IT011109030004"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043043003",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043043003",
+        "open-meteo-marine:eea-IT011043043003"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043042005",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043042005",
+        "open-meteo-marine:eea-IT011043042005"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011043042009",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011043042009",
+        "open-meteo-marine:eea-IT011043042009"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011109006007",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011109006007",
+        "open-meteo-marine:eea-IT011109006007"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011109006006",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011109006006",
+        "open-meteo-marine:eea-IT011109006006"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-IT011109006009",
+      "country": "Italy",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-IT011109006009",
+        "open-meteo-marine:eea-IT011109006009"
+      ],
+      "checkedAt": "2026-11-13",
+      "nextReviewAt": "2026-12-13",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-13.json",
+      "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
     }
   ]
 }
