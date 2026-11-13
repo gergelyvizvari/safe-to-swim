@@ -12,7 +12,7 @@ test('Balaton has multiple geolocated source links ordered by actual distance',(
   assert.equal(new Set(VERIFIED_WEBCAMS.map(c=>c.id)).size,VERIFIED_WEBCAMS.length)
 })
 test('camera lookup preserves UK streams and leaves distant locations empty',()=>{
-  assert.ok(getWebcamForLocation({latitude:50.8211,longitude:-0.1495}).streams.length===2)
+  assert.ok(getWebcamForLocation({id:'brighton',waterType:'coastal',latitude:50.8211,longitude:-0.1495}).streams.length===2)
   assert.equal(getWebcamsForLocation({latitude:60,longitude:25}).length,0)
   assert.equal(getWebcamsForLocation(null).length,0)
 })
@@ -69,4 +69,48 @@ test('Trassenheide links the rescue tower camera only at the main Baltic beach',
   assert.equal(camera.imageUrl, undefined)
   assert.deepEqual(getWebcamsForLocation({ ...site, id: 'eea-DEMV_PR_1_0740' }), [])
   assert.deepEqual(getWebcamsForLocation({ ...site, waterType: 'lake' }), [])
+})
+
+test('UK camera matches require a reviewed coastal identity, never proximity alone', () => {
+  for (const camera of VERIFIED_WEBCAMS.filter(c => c.checkedOn === '2026-11-13')) {
+    const point = { id: camera.locationIds[0], waterType: 'coastal', latitude: camera.latitude, longitude: camera.longitude }
+    assert.ok(getWebcamsForLocation(point).some(c => c.id === camera.id))
+    for (const changed of [{ ...point, id: 'unreviewed-neighbour' }, { ...point, id: undefined }, { ...point, waterType: 'lake' }]) {
+      assert.ok(!getWebcamsForLocation(changed).some(c => c.id === camera.id))
+    }
+  }
+  assert.deepEqual(getWebcamsForLocation({ id: 'st-andrews-west', waterType: 'coastal', latitude: 56.34734, longitude: -2.80507 }), [])
+  assert.deepEqual(getWebcamsForLocation({ id: 'portrush-east', waterType: 'coastal', latitude: 55.20652, longitude: -6.61332 }), [])
+})
+
+test('Sidmouth camera links keep separate beaches, approximate distances and no unlicensed player', () => {
+  const town = { id: 'ea-ukk4301-21800', waterType: 'coastal', latitude: 50.6761847, longitude: -3.243034 }
+  const jacobs = { ...town, id: 'ea-ukk4301-21900', latitude: 50.675251, longitude: -3.24792 }
+  assert.deepEqual(getWebcamsForLocation(town).map(c => c.id), ['uk-sidmouth-esplanade', 'uk-sidmouth-port-royal'])
+  assert.deepEqual(getWebcamsForLocation(jacobs).map(c => c.id), ['uk-sidmouth-jacobs-ladder'])
+  for (const camera of [...getWebcamsForLocation(town), ...getWebcamsForLocation(jacobs)]) {
+    assert.equal(camera.verification, 'verified')
+    assert.equal(camera.approximateCoordinates, true)
+    assert.ok(camera.distance > 0 && camera.distance < 1)
+    assert.equal(camera.streams, undefined)
+    assert.equal(camera.imageUrl, undefined)
+    assert.ok(camera.pageUrl.startsWith('https://sidmouth.gov.uk/webcams/'))
+  }
+  assert.deepEqual(getWebcamsForLocation(town, 0.01), [])
+})
+
+test('uncertain freshness retains operator links without verification dates or invented images', () => {
+  for (const c of VERIFIED_WEBCAMS.filter(c => c.verification === 'unconfirmed')) {
+    assert.equal(c.verifiedOn, undefined)
+    assert.ok(c.pageUrl.startsWith('https://'))
+    assert.equal(c.imageUrl, undefined)
+  }
+  assert.equal(VERIFIED_WEBCAMS.find(c => c.id === 'fistral-beach').pageUrl, 'https://fistralbeach.co.uk/fistral-beach-webcam/')
+})
+
+
+test('legacy UK detail responses retain official coastal type without overriding an explicit lake type', () => {
+  const detail = { id: 'fistral', latitude: 50.4182891, longitude: -5.1003122, waterQuality: { site: { waterType: 'coastal' } } }
+  assert.equal(getWebcamForLocation(detail).id, 'fistral-beach')
+  assert.deepEqual(getWebcamsForLocation({ ...detail, waterType: 'lake' }), [])
 })

@@ -562,7 +562,8 @@ function WebcamPanel({ location, locale, t }) {
   const webcam = nearbyWebcams.find(item => item.id === webcamId) ?? nearbyWebcams[0]
   const [activeCamera, setActiveCamera] = useState(webcam?.streams?.[0]?.id ?? null)
   const [isLoaded, setIsLoaded] = useState(false)
-  const camera = webcam?.streams?.find((stream) => stream.id === activeCamera) ?? webcam?.streams?.[0]
+  const sourceVerified = webcam?.verification !== 'unconfirmed'
+  const camera = sourceVerified && (webcam?.streams?.find((stream) => stream.id === activeCamera) ?? webcam?.streams?.[0])
 
   const distance = webcam?.coverage === 'nearby-shore' || webcam?.distance > 1
     ? new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(webcam.distance)
@@ -578,14 +579,14 @@ function WebcamPanel({ location, locale, t }) {
     <section className="panel webcam-panel" aria-labelledby="webcam-title">
       <div className="section-heading webcam-heading">
         <div><span className="eyebrow">{t(webcam.coverage === 'nearby-shore' ? 'webcam.nearbyShore' : 'webcam.eyebrow')}</span><h2 id="webcam-title">{t('webcam.title', { location: webcam?.name ?? locationDisplayName(location, locale) })}</h2></div>
-        {webcam && <span className="camera-live"><i />{t('webcam.verified')}</span>}
+        {sourceVerified ? <span className="camera-live"><i />{t('webcam.verified')}</span> : <span className="panel-note">{t('webcam.unavailableTitle')}</span>}
       </div>
       {nearbyWebcams.length > 1 && <label className="webcam-selector"><span>{t('webcam.selector')}</span>
         <select value={webcam.id} onChange={event => { setWebcamId(event.target.value); setActiveCamera(null); setIsLoaded(false) }}>
-          {nearbyWebcams.map(item => <option key={item.id} value={item.id}>{item.name} · {new Intl.NumberFormat(locale,{maximumFractionDigits:1}).format(item.distance)} km</option>)}
+          {nearbyWebcams.map(item => <option key={item.id} value={item.id}>{item.name} · {item.approximateCoordinates ? '≈ ' : ''}{new Intl.NumberFormat(locale,{maximumFractionDigits:1}).format(item.distance)} km</option>)}
         </select>
       </label>}
-      {webcam?.streams && <div className="camera-tabs" role="group" aria-label={t('webcam.selector')}>
+      {sourceVerified && webcam?.streams && <div className="camera-tabs" role="group" aria-label={t('webcam.selector')}>
         {webcam.streams.map((item) => (
           <button
             className={activeCamera === item.id ? 'is-active' : ''}
@@ -618,8 +619,8 @@ function WebcamPanel({ location, locale, t }) {
           <a className="camera-external" href={webcam.pageUrl} target="_blank" rel="noreferrer">
             <span><Camera size={23} /></span>
             <strong>{t('webcam.open')}</strong>
-            <small>{t('webcam.external')}</small>
-            <em>{t('webcam.openAction')} <ArrowUpRight size={14} /></em>
+            <small>{t(sourceVerified ? 'webcam.external' : 'webcam.note')}</small>
+            <em>{sourceVerified ? t('webcam.openAction') : t('webcam.source', { name: webcam.sourceName })} <ArrowUpRight size={14} /></em>
           </a>
         ) : (
           <div className="camera-empty">
@@ -633,7 +634,7 @@ function WebcamPanel({ location, locale, t }) {
         <span>{t('webcam.note')}{webcam.verifiedOn && <><br />{t('webcam.verifiedOn', { date: new Intl.DateTimeFormat(locale,{dateStyle:'medium'}).format(new Date(`${webcam.verifiedOn}T12:00:00Z`)) })}</>}</span>
         {webcam && <a href={webcam.pageUrl} target="_blank" rel="noreferrer">
           {distance
-            ? t('webcam.nearbySource', { name: webcam.name, distance })
+            ? t('webcam.nearbySource', { name: webcam.name, distance: `${webcam.approximateCoordinates ? '≈ ' : ''}${distance}` })
             : t('webcam.source', { name: webcam.sourceName })} <ArrowUpRight size={14} />
         </a>}
       </div>

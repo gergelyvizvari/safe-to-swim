@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-13",
+  "scope": "Human-requested UK coastal camera recheck; separate from daily location batch. Not an exhaustive UK coastline survey.",
+  "catalogueOrigin": "https://safe-to-swim.vercel.app",
+  "catalogueVerification": "Read paginated kind=coastal&limit=15&offset=0&q= queries and exact site identities; no collector/contact/cron mutation.",
+  "architecture": "Existing src/webcamSources.js consumed by WebcamPanel; no parallel camera database/API.",
+  "counts": {
+    "cameraSourcesReviewed": 16,
+    "existingCameraSourcesReviewed": 11,
+    "newCamerasWithTimestampedUpdatingFrames": 4,
+    "newCamerasIntegrated": 3,
+    "existingCamerasReverified": 2,
+    "locationsWithNewCameraCoverage": 2
+  },
+  "coordinatesLicense": "OSM read-only map API geographic cross-check, ODbL-1.0; approximate operator/view-derived mounts labelled with \u2248 in app.",
+  "coordinateCrossChecks": [
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-3.251,50.673,-3.232,50.682",
+    "https://www.visitdevon.co.uk/sidmouth/webcams/esplanade/",
+    "https://www.visitdevon.co.uk/sidmouth/webcams/port-royal/"
+  ],
+  "cameras": [
+    {
+      "cameraId": "uk-sidmouth-esplanade",
+      "locationIds": [
+        "ea-ukk4301-21800"
+      ],
+      "operator": "Sidmouth Town Council",
+      "sourcePage": "https://sidmouth.gov.uk/webcams/the-esplanade-webcam/",
+      "coordinates": {
+        "latitude": 50.6781,
+        "longitude": -3.2379,
+        "accuracy": "approximate mount"
+      },
+      "coverage": "nearby-shore",
+      "status": "integrated",
+      "type": "external-source-link",
+      "freshness": "timestamped updating frames observed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Municipal Esplanade PTZ view observed beach, promenade, sea, changing people/vehicles and timestamps 13-11-2026 14:35:43 then 14:36:03. Tourism operator independently describes town beach view. Approximate mount from Esplanade/hotel location, not a surveyed point; no fixed beach visibility promise."
+    },
+    {
+      "cameraId": "uk-sidmouth-jacobs-ladder",
+      "locationIds": [
+        "ea-ukk4301-21900"
+      ],
+      "operator": "Sidmouth Town Council",
+      "sourcePage": "https://sidmouth.gov.uk/webcams/jacobs-ladder/",
+      "coordinates": {
+        "latitude": 50.6756,
+        "longitude": -3.2473,
+        "accuracy": "approximate mount"
+      },
+      "coverage": "nearby-shore",
+      "status": "integrated",
+      "type": "external-source-link",
+      "freshness": "timestamped updating frames observed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Municipal camera identifies Jacobs Ladder at western end, Connaught Gardens steps and beach visible. Changing frames 13-11-2026 14:36:12 then 14:37:20. Approximate Connaught Gardens/steps mount, not surveyed."
+    },
+    {
+      "cameraId": "uk-sidmouth-port-royal",
+      "locationIds": [
+        "ea-ukk4301-21800"
+      ],
+      "operator": "Sidmouth Town Council / Sidmouth Sailing Club",
+      "sourcePage": "https://sidmouth.gov.uk/webcams/port-royal/",
+      "coordinates": {
+        "latitude": 50.67887,
+        "longitude": -3.235,
+        "accuracy": "approximate mount"
+      },
+      "coverage": "nearby-shore",
+      "status": "integrated",
+      "type": "external-source-link",
+      "freshness": "timestamped updating frames observed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Municipal and Visit Devon identify eastern Esplanade / Port Royal camera. Sailing club foreground and red cliffs/sea visible. PTZ frames change from Cliffs 13-11-2026 14:41:24 to eastern bay 14:42:09. OSM sailing club geometry 50.6788707,-3.2349315 corroborates approximate mount. Nearby shore only."
+    },
+    {
+      "cameraId": "brighton-i360",
+      "locationIds": [
+        "brighton",
+        "ea-ukj2100-14950"
+      ],
+      "operator": "Brighton CCTV",
+      "sourcePage": "https://www.brightoncctv.co.uk/i360-cams",
+      "coordinates": {
+        "latitude": 50.8211,
+        "longitude": -0.1495,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Operator identifies i360 and beach/promenade field of view. South stream starts, no capture timestamp confirmed; north poster alone is not freshness proof. Existing streams retained but no live verification badge."
+    },
+    {
+      "cameraId": "bournemouth-pier",
+      "locationIds": [
+        "bournemouth",
+        "ea-ukk2101-19100"
+      ],
+      "operator": "Bournemouth Tourism",
+      "sourcePage": "https://www.bournemouth.co.uk/visitor-information/bournemouth-web-cam",
+      "coordinates": {
+        "latitude": 50.7162,
+        "longitude": -1.8751,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Tourism page HTTP 200 with YouTube player. Playback and capture freshness not verified; source link retained as unconfirmed."
+    },
+    {
+      "cameraId": "fistral-beach",
+      "locationIds": [
+        "fistral",
+        "ea-ukk3106-32200",
+        "ea-ukk3106-32150"
+      ],
+      "operator": "Fistral Beach",
+      "sourcePage": "https://fistralbeach.co.uk/fistral-beach-webcam/",
+      "coordinates": {
+        "latitude": 50.4183,
+        "longitude": -5.1003,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Old URL returned a 2024 image attachment. Correct official parent contains Surfline player; playback started then continue-watching overlay, no timestamp confirmed. URL repaired, freshness unconfirmed."
+    },
+    {
+      "cameraId": "blackpool-seafront",
+      "locationIds": [
+        "blackpool",
+        "ea-ukd4200-42300",
+        "ea-ukd4200-42500"
+      ],
+      "operator": "Viva Blackpool",
+      "sourcePage": "https://www.vivablackpool.com/webcam/",
+      "coordinates": {
+        "latitude": 53.8116,
+        "longitude": -3.0568,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Operator page HTTP 200 exposes Skyline player. Live playback not established in this check."
+    },
+    {
+      "cameraId": "scarborough-south-bay",
+      "locationIds": [
+        "scarborough-south",
+        "ea-uke2206-07400"
+      ],
+      "operator": "Surf Forecast",
+      "sourcePage": "https://www.surf-forecast.com/breaks/Scarborough-South-Bay/webcams/latest",
+      "coordinates": {
+        "latitude": 54.2766,
+        "longitude": -0.3958,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Surf Forecast HTTP 200 is a directory showing other towns nearby, not proof of a South Bay live camera. Retain historical source link as unconfirmed; do not assign to North Bay."
+    },
+    {
+      "cameraId": "tynemouth-longsands",
+      "locationIds": [
+        "ea-ukc2203-05000",
+        "ea-ukc2203-05100"
+      ],
+      "operator": "Longsands Lodge",
+      "sourcePage": "https://longsandslodge.co.uk/abouttynemouth/weather-and-surf/",
+      "coordinates": {
+        "latitude": 55.0247,
+        "longitude": -1.4268,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "HTTP 200 weather/surf page, actual current camera not established. No substitution from Cullercoats or King Edwards Bay."
+    },
+    {
+      "cameraId": "llandudno-north-parade",
+      "locationIds": [
+        "llandudno-north",
+        "nrw-ukl1301-40300"
+      ],
+      "operator": "Min y Don Llandudno",
+      "sourcePage": "https://www.minydonllandudno.co.uk/en-GB/llandudno-webcam",
+      "coordinates": {
+        "latitude": 53.3253,
+        "longitude": -3.8279,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Read request failed. No inference of permanent camera outage; retain historical link, unconfirmed. Exclude West Shore."
+    },
+    {
+      "cameraId": "tenby-north-beach",
+      "locationIds": [
+        "tenby-north",
+        "nrw-ukl1403-38100"
+      ],
+      "operator": "Stay Pembrokeshire",
+      "sourcePage": "https://stay-pembrokeshire.co.uk/webcams/",
+      "coordinates": {
+        "latitude": 51.6749,
+        "longitude": -4.6998,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Operator embeds three cameras and identifies Tenby North separately from Saundersfoot. Fresh poster 13-11-2026 14:42:35, but playback stalled buffering. This is not proven live playback; mark unconfirmed."
+    },
+    {
+      "cameraId": "st-andrews-east-sands",
+      "locationIds": [
+        "sepa-9318"
+      ],
+      "operator": "St Andrews Sailing Club",
+      "sourcePage": "https://www.standrewssailing.org/page/webcam",
+      "coordinates": {
+        "latitude": 56.3348,
+        "longitude": -2.7791,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "integrated",
+      "type": "external-source-link",
+      "freshness": "timestamped updating frames observed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Sailing club labels East Sands; observed harbour, beach and club frontage. Frame timestamps 13-11-2026 14:37:53 then 14:38:24 with changing sea/people. Only SEPA East Sands, never West Sands."
+    },
+    {
+      "cameraId": "aberdeen-beach",
+      "locationIds": [
+        "aberdeen",
+        "sepa-233616"
+      ],
+      "operator": "Aberdeen City Council",
+      "sourcePage": "https://online.aberdeencity.gov.uk/services/Webcam/Default.aspx?cam=beach",
+      "coordinates": {
+        "latitude": 57.1552,
+        "longitude": -2.0797,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "integrated",
+      "type": "external-source-link",
+      "freshness": "timestamped updating frames observed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Council explicitly locates mount on Beach Ballroom looking SOUTH towards Footdee. Image timestamps 13/11/2026 14:37:58 then 14:40:58 after reload. Council warns up to 10 min refresh. Nearby-shore, not proof of the whole northern bathing area."
+    },
+    {
+      "cameraId": "portrush-east-strand",
+      "locationIds": [
+        "daera-30047"
+      ],
+      "operator": "Surf Forecast",
+      "sourcePage": "https://www.surf-forecast.com/breaks/Portrush_East-Strand/webcams/latest",
+      "coordinates": {
+        "latitude": 55.2065,
+        "longitude": -6.6533,
+        "accuracy": "existing mount, approximate"
+      },
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-13T14:45:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "No new embedding permission assumed. External source link only; existing Brighton embed configuration retained but unconfirmed playback not offered in app.",
+      "evidence": "Surf Forecast HTTP 200 with a still image whose capture freshness is not established. Bespoke portrush-east coordinates are at Whiterocks, so explicitly exclude that ID; only reviewed Curran East identity retained as unconfirmed."
+    },
+    {
+      "cameraId": "uk-sunderland-seafront",
+      "locationIds": [
+        "ea-ukc2300-05500",
+        "ea-ukc2300-05600"
+      ],
+      "operator": "Sunderland City Council",
+      "sourcePage": "https://www.sunderland.gov.uk/article/15639/Seafront-webcam",
+      "coordinates": null,
+      "coverage": "nearby-shore",
+      "status": "candidate",
+      "type": "external-source-link",
+      "freshness": "timestamped updating frames observed",
+      "checkedAt": "2026-11-13T14:39:00Z",
+      "reviewAfter": "2026-11-20",
+      "embedding": "External source link planned; no embedding permission assumed.",
+      "evidence": "Council explicitly states Seaburn north and Roker beach/pier/lighthouse south. Observed changing Roker view with timestamps 13 November 2026 14:38:30 and 14:38:50. NOT INTEGRATED: camera has moved according to old Roker page; current mount coordinates not independently established. Do not invent distance."
+    },
+    {
+      "cameraId": "uk-bude-town-council",
+      "locationIds": [
+        "ea-ukk3104-33500"
+      ],
+      "operator": "Bude-Stratton Town Council",
+      "sourcePage": "https://www.budewebcam.co.uk/",
+      "coordinates": null,
+      "coverage": "unconfirmed",
+      "status": "faulty",
+      "type": "external-source-link",
+      "freshness": "unavailable player",
+      "checkedAt": "2026-11-13T14:35:00Z",
+      "reviewAfter": "2026-12-13",
+      "embedding": "Not integrated.",
+      "evidence": "Browser player explicitly reports video removed by uploader. Tourism page and old thumbnails are not proof of live coverage."
+    }
+  ],
+  "validation": {
+    "tests": 134,
+    "lint": "passed",
+    "build": "passed",
+    "browser": "Local app: Sidmouth Town two-source selector and exact external URLs; desktop and 390px mobile source fallback; unconfirmed Brighton has no verified badge, no live action and no iframe. Legacy detail type on waterQuality.site covered by regression test."
+  }
+}
