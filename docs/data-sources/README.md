@@ -588,3 +588,31 @@ Reviewed15 coastal sites;13 orientations applied to Supabase and verified throug
 ## 2026-11-02 — Estonia lakes
 
 15 new lake sites screened. The official replacement KTI public JSON API is reachable: four pages/169 distinct facilities,15 exact bathing-water codes matched. Latest selected samples August5–25 remain stale. Aidu laboratory protocol and sampling-point IDs verified; unit classifier, coordinates and reuse terms remain unresolved, so no adapter or import activated. Cameras verified/integrated0/0; bearings determined/applied0/0 (lakes).15 production identities and empty observations verified; existing scheduled collection advances. Next Latvia; new research dueDecember2. [Run evidence](runs/2026-11-02.json).
+
+## 2026-11-14 outcome
+
+Re-reviewed the fifteen due Istrian sites from September26; these are not fifteen
+first-time reviews. Applied fourteen previously prepared orientations to the
+configured production catalogue after reproducing their geometry and confirming
+all eight source OSM way versions are unchanged. Fourteen sites gain live
+orientation coverage; zero orientations were newly determined. Camping Istra
+remains unresolved around an artificial round shore feature and main beach.
+
+All fifteen exact IZOR station identities still match name and coordinates.
+A Borozija detail probe returns seasonal observations through September22, not
+current swimming clearance; no dynamic adapter was added. Shared DHMZ temperature
+XML is dated today, but station/site mapping remains unverified. Both existing
+Open-Meteo batch checks return fifteen model points with expected units and times.
+
+Actual browser checks followed BiVillage's two operator-linked cameras. Both
+players report media-loading errors: zero verified or integrated cameras. Local
+operator/campsite and tourism searches for the remaining sites did not establish
+a site-specific live view; nearby marinas and other bays were not substituted.
+
+The existing minute collector and its HTTP200 responses are advancing. Known
+seasonal storm and other provider failures are preserved, without a new duplicate
+incident. Tests134, lint, build, all528 geometry reproductions and disposable
+PostgreSQL guards/idempotence pass. Fifteen production details/observation
+identities and fourteen applied bearings pass; BiVillage's live wind panel now
+uses the orientation and displays offshore-wind caution. Full evidence and
+December14 review dates: `runs/2026-11-14.json`.

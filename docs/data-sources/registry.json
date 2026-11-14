@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-13",
-  "nextCountry": "Croatia",
+  "lastRun": "2026-11-14",
+  "nextCountry": "Portugal",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -4441,11 +4441,12 @@
       "targetId": "7098",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7099",
@@ -4456,11 +4457,12 @@
       "targetId": "7099",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7100",
@@ -4471,11 +4473,12 @@
       "targetId": "7100",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7007",
@@ -4486,11 +4489,12 @@
       "targetId": "7007",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7238",
@@ -4501,11 +4505,12 @@
       "targetId": "7238",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7079",
@@ -4516,11 +4521,12 @@
       "targetId": "7079",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7078",
@@ -4531,11 +4537,12 @@
       "targetId": "7078",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7080",
@@ -4546,11 +4553,12 @@
       "targetId": "7080",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7005",
@@ -4561,11 +4569,12 @@
       "targetId": "7005",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7029",
@@ -4576,11 +4585,12 @@
       "targetId": "7029",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7160",
@@ -4591,11 +4601,12 @@
       "targetId": "7160",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7251",
@@ -4606,11 +4617,12 @@
       "targetId": "7251",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "unresolved"
+      "shoreOrientationStatus": "unresolved",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7001",
@@ -4621,11 +4633,12 @@
       "targetId": "7001",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7003",
@@ -4636,11 +4649,12 @@
       "targetId": "7003",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-HRBWC-COAST-HR3-7002",
@@ -4651,11 +4665,12 @@
       "targetId": "7002",
       "identityVerified": true,
       "status": "candidate",
-      "checkedAt": "2026-09-26",
-      "nextReviewAt": "2026-10-26",
-      "reason": "Catalogue sample date and categorical codes are not a normalized current observation. Reuse terms, code semantics, timestamp timezone and operational alerts need validation. No adapter or source binding enabled.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "reason": "Exact official ID/name/coordinates revalidated; seasonal samples are not current observations. New detail probe remains a candidate, not a collector integration.",
       "evidenceFile": "runs/2026-09-26.json",
-      "shoreOrientationStatus": "prepared"
+      "shoreOrientationStatus": "prepared",
+      "evidenceReference": "runs/2026-11-14.json"
     },
     {
       "locationId": "eea-FI124837009",
@@ -16540,6 +16555,261 @@
       "cameraStatus": "not-verified",
       "evidenceReference": "runs/2026-11-13.json",
       "reason": "Local Adriatic beach normal verified through production API and wind assessment; laboratory results remain seasonal candidates."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7098",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7098",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7098"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7099",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7099",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7099"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7100",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7100",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7100"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7007",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7007",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7007"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7238",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7238",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7238"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "faulty",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7079",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7079",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7079"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7078",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7078",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7078"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7080",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7080",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7080"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7005",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7005",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7005"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7029",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7029",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7029"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7160",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7160",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7160"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7251",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "candidate",
+      "shoreOrientationStatus": "unresolved",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7251",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7251"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Complex local geometry remains unresolved; no invented bearing."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7001",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7001",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7001"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7003",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7003",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7003"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7002",
+      "country": "Croatia",
+      "waterType": "coastal",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "shoreOrientationStatus": "applied",
+      "sourceTargets": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7002",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7002"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "cameraStatus": "not-verified",
+      "evidenceReference": "runs/2026-11-14.json",
+      "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
     }
   ]
 }

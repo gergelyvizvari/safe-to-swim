@@ -1,0 +1,442 @@
+{
+  "date": "2026-11-14",
+  "selection": "Due re-review of the fifteen September 26 Istrian sites, prioritizing their still-unapplied orientations and shared operator camera searches. No claim of fifteen first-time reviews.",
+  "counts": {
+    "reviewed": 15,
+    "firstTimeReviewed": 0,
+    "officialIdentitiesVerified": 15,
+    "preparedPreviously": 14,
+    "newDynamicIntegrations": 0,
+    "liveNewCoverage": 14,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsRevalidated": 14,
+    "shoreOrientationsApplied": 14,
+    "camerasAttempted": 2,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "applicationCommitBefore": "ab4e9dc318e5b546cd049ed26eb12fc5974a13e3",
+    "schema": "Existing catalogue tables read successfully; no schema/RLS/grant change. Anonymous catalogue SELECT and authenticated UPDATE remain denied.",
+    "schedule": "Exactly one named safe-to-swim-source-checks cron observed, active every minute; last 20 minutes had 20 HTTP 200 responses. No manual source-check/contact call and no schedule change.",
+    "sourceState": "At 09:40 UTC temperature and wind polling advanced with fresh publications; UiRaS and Palangos healthy. Existing seasonal storm payload remains October31 and unavailable; existing EA/NNGYK/weekly source failures retained, not counted as new incidents.",
+    "import": "supabase/imports/20260926_shore-orientations.sql applied transactionally to the configured project. Fourteen matching active coastal IDs were null before, now have expected values; no non-null value overwritten.",
+    "api": "All fifteen production detail IDs, water types and observation locationIds verified. Fourteen bearings equal proposed values; Istra site7251 stays null."
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-09-26-osm.json",
+    "importFile": "supabase/imports/20260926_shore-orientations.sql",
+    "newGeometry": false,
+    "currentWayVersions": {
+      "url": "https://api.openstreetmap.org/api/0.6/ways?ways=8989920,148712406,178260424,81756270,719357807,1188649967,131327552,1107150100",
+      "expected": {
+        "8989920": 37,
+        "148712406": 25,
+        "178260424": 20,
+        "81756270": 21,
+        "719357807": 3,
+        "1188649967": 2,
+        "131327552": 18,
+        "1107150100": 1
+      },
+      "current": {
+        "8989920": 37,
+        "81756270": 21,
+        "131327552": 18,
+        "148712406": 25,
+        "178260424": 20,
+        "719357807": 3,
+        "1107150100": 1,
+        "1188649967": 2
+      }
+    },
+    "result": "All eight referenced OSM ways have unchanged versions; all fourteen existing estimates reproduced. Original September review dates preserved, November revalidation recorded here.",
+    "license": "ODbL-1.0"
+  },
+  "providers": [
+    {
+      "providerId": "izor-croatia",
+      "url": "https://vrtlac.izor.hr/ords/kakvoca/kakvoce_sve_json?p_jezik=en&p_god=2026&p_usif=&p_ciklus=",
+      "status": "candidate",
+      "httpStatus": 200,
+      "returnedMarkers": 1031,
+      "identityMatches": 15,
+      "evidence": "Exact station suffix, name and coordinates match all fifteen current catalogue identities. Returned year=2026 is not a recent measurement timestamp.",
+      "detailUrl": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=7005&p_god=2026&p_usif=&p_jezik=en",
+      "detailEvidence": "One station probe only: Borozija isp array includes latest2026-09-22 10:20:00, seawater tmo24, air tzr21. Seasonal/historical, not current water temperature. Encoded indicator/assessment semantics, laboratory units, timezone and reuse require further validation; no collector adapter or binding added."
+    },
+    {
+      "providerId": "dhmz-sea-temperature",
+      "url": "https://vrijeme.hr/more_n.xml",
+      "documentation": "https://meteo.hr/podaci_e.php?param=more_e&section=podaci_vrijeme",
+      "httpStatus": 200,
+      "status": "candidate",
+      "evidence": "XML dated14.11.2026 with named stations and measurement-hour columns; no independently verified station coordinates or bathing-site coverage in this pass. No nearest-waterbody substitution."
+    },
+    {
+      "providerId": "open-meteo",
+      "status": "existing-integration",
+      "evidence": "One batch weather request and one batch marine request each returned15 objects with numeric wind speed/direction, wave height, sea-surface temperature and ocean-current velocity. UTC epoch1794649500. Units km/h, degrees, m and °C validated. Model points, not measured beach observations. Existing site request flow preserved."
+    }
+  ],
+  "cameraSearches": [
+    {
+      "locations": [
+        "eea-HRBWC-COAST-HR3-7098",
+        "eea-HRBWC-COAST-HR3-7099",
+        "eea-HRBWC-COAST-HR3-7100"
+      ],
+      "queries": [
+        "Amarin Rovinj webcam beach Maistra",
+        "site.maistra.com webcam Amarin Indije"
+      ],
+      "result": "Rovinj/Borik and old-town camera pages surfaced; no proven Amarin beach FOV. Borik panorama is not automatically substituted."
+    },
+    {
+      "locations": [
+        "eea-HRBWC-COAST-HR3-7007",
+        "eea-HRBWC-COAST-HR3-7005"
+      ],
+      "queries": [
+        "Bašanija Feral Borozija webcam kamp",
+        "site.coloursofistria.com webcam Bašanija Savudrija Borozija"
+      ],
+      "result": "Savudrija marina/golf views are different locations; no beach FOV proven."
+    },
+    {
+      "locations": [
+        "eea-HRBWC-COAST-HR3-7079",
+        "eea-HRBWC-COAST-HR3-7078",
+        "eea-HRBWC-COAST-HR3-7080",
+        "eea-HRBWC-COAST-HR3-7251"
+      ],
+      "queries": [
+        "Bijela Uvala Funtana Istra camping webcam plaža",
+        "site.istracamping.com webcam Bijela Uvala Finida Kanegra",
+        "site.valamar.com webcam Istra camping Funtana"
+      ],
+      "result": "Official tourist and campsite pages/camp maps identified; no proven timestamped beach player. PiNCAMP search snippet webcam reference not present in retrieved page. Do not count a directory link as playback."
+    },
+    {
+      "locations": [
+        "eea-HRBWC-COAST-HR3-7029",
+        "eea-HRBWC-COAST-HR3-7160",
+        "eea-HRBWC-COAST-HR3-7001",
+        "eea-HRBWC-COAST-HR3-7003",
+        "eea-HRBWC-COAST-HR3-7002"
+      ],
+      "queries": [
+        "Finida Indije Kanegra webcam kamp plaža",
+        "site.maistra.com webcam Amarin Indije",
+        "site.istracamping.com webcam Bijela Uvala Finida Kanegra"
+      ],
+      "result": "No site-specific live source established; nearby harbour/cove views excluded."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "hr-bivillage01",
+      "locationIds": [
+        "eea-HRBWC-COAST-HR3-7238"
+      ],
+      "operator": "BiVillage / WhatsUpCams",
+      "sourcePage": "https://www.bivillage.com/hr/vremenska-web-kamera/",
+      "playerPage": "https://www.whatsupcams.com/en/webcams/croatia/istria/fazana/bivillage-fazana-brijuni-islands/",
+      "status": "faulty",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator directly links two hosted BiVillage widgets, but current live frame unavailable. Exact mount and beach FOV not independently established.",
+      "type": "stream-candidate",
+      "freshness": "unverified",
+      "embedding": "Not integrated; no rehosting/embed permission assumed.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "playbackEvidence": "Browser player reports media could not be loaded due to network/server/unsupported format. Poster and LIVE overlay not proof of live image. No workaround or nearby replacement."
+    },
+    {
+      "cameraId": "hr-bivillage02",
+      "locationIds": [
+        "eea-HRBWC-COAST-HR3-7238"
+      ],
+      "operator": "BiVillage / WhatsUpCams",
+      "sourcePage": "https://www.bivillage.com/hr/vremenska-web-kamera/",
+      "playerPage": "https://www.whatsupcams.com/en/webcams/croatia/istria/fazana/bivillage-fazana/",
+      "status": "faulty",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator directly links two hosted BiVillage widgets, but current live frame unavailable. Exact mount and beach FOV not independently established.",
+      "type": "stream-candidate",
+      "freshness": "unverified",
+      "embedding": "Not integrated; no rehosting/embed permission assumed.",
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "playbackEvidence": "Browser player reports media could not be loaded due to network/server/unsupported format. Poster and LIVE overlay not proof of live image. No workaround or nearby replacement."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7098",
+      "sourceId": "izor-croatia",
+      "targetId": "7098",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7098",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7098"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 220,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7099",
+      "sourceId": "izor-croatia",
+      "targetId": "7099",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7099",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7099"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 201,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7100",
+      "sourceId": "izor-croatia",
+      "targetId": "7100",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7100",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7100"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 197,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7007",
+      "sourceId": "izor-croatia",
+      "targetId": "7007",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7007",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7007"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 230,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7238",
+      "sourceId": "izor-croatia",
+      "targetId": "7238",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7238",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7238"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 266,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "faulty"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7079",
+      "sourceId": "izor-croatia",
+      "targetId": "7079",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7079",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7079"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 305,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7078",
+      "sourceId": "izor-croatia",
+      "targetId": "7078",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7078",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7078"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 180,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7080",
+      "sourceId": "izor-croatia",
+      "targetId": "7080",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7080",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7080"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 206,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7005",
+      "sourceId": "izor-croatia",
+      "targetId": "7005",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7005",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7005"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 277,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7029",
+      "sourceId": "izor-croatia",
+      "targetId": "7029",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7029",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7029"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 223,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7160",
+      "sourceId": "izor-croatia",
+      "targetId": "7160",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7160",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7160"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 254,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7251",
+      "sourceId": "izor-croatia",
+      "targetId": "7251",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7251",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7251"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "unresolved",
+      "seaBearing": null,
+      "reason": "Istra point lies between the east side of a round artificial shore feature and the south-facing main beach; precise beach identity cannot be resolved from the existing coastline alone. No arbitrary nearest normal. Re-review local geometry by2026-12-14.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7001",
+      "sourceId": "izor-croatia",
+      "targetId": "7001",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7001",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7001"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 80,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7003",
+      "sourceId": "izor-croatia",
+      "targetId": "7003",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7003",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7003"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 14,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7002",
+      "sourceId": "izor-croatia",
+      "targetId": "7002",
+      "identityVerified": true,
+      "sourceTargetIds": [
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7002",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7002"
+      ],
+      "checkedAt": "2026-11-14",
+      "nextReviewAt": "2026-12-14",
+      "shoreOrientationStatus": "applied",
+      "seaBearing": 27,
+      "reason": "Previously reviewed local geometry revalidated unchanged and applied missing-only.",
+      "dynamicSourceStatus": "candidate",
+      "cameraStatus": "not-verified"
+    }
+  ],
+  "validation": {
+    "npmTest": "134 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "geometry": "528 existing bearings reproduced, including these14; eight live OSM way versions unchanged.",
+    "postgresql": "Disposable local PostgreSQL: manual north=0 and provenance preservation, type/coordinate guards, catalogue reimport preservation. Actual September SQL fills14, retains custom metadata, second execution byte-identical.",
+    "browser": "Production BiVillage wind assessment checked after metadata application; no camera runtime/UI modification.",
+    "windAssessment": "All fourteen production detail responses passed getWindAssessment without missing shoreOrientation; BiVillage live UI shows NE wind blowing offshore and conservative avoid recommendation, no missing-orientation note."
+  }
+}
