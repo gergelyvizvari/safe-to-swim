@@ -616,3 +616,7 @@ PostgreSQL guards/idempotence pass. Fifteen production details/observation
 identities and fourteen applied bearings pass; BiVillage's live wind panel now
 uses the orientation and displays offshore-wind caution. Full evidence and
 December14 review dates: `runs/2026-11-14.json`.
+
+## 2026-11-17 — Peniche/Lourinhã batch completion
+
+Completed the15 sites started November15:15 previously determined shoreline bearings now applied to the confirmed Supabase catalogue and verified through production details. No new dynamic provider or camera integration. Bar do Bruno playback changes, but capture freshness and exact beach mapping remain unverified. Existing collection schedule unchanged. See [run evidence](runs/2026-11-17.json).

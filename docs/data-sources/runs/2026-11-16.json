@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-16",
+  "selection": "Resume and preserve the unfinished November15 Peniche/Lourinha fifteen-site batch; no overlapping new batch.",
+  "counts": {
+    "reviewed": 15,
+    "firstTimeReviewedToday": 0,
+    "preparedPreviously": 15,
+    "liveNewCoverage": 0,
+    "shoreOrientationsDeterminedToday": 0,
+    "shoreOrientationsPrepared": 15,
+    "shoreOrientationsApplied": 0,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0
+  },
+  "status": "prepared",
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "checkedAt": "2026-11-16T09:18:53.012591+00:00",
+    "api": "All15 exact detail/observations identities, coastal type, and weather/marine point target coordinates verified; bearings still null. Lake/coastal paginated lists each15 and correct types. Empty observations do not establish fresh measured water quality.",
+    "schedule": "Exactly one active source-checks every-minute job. Weather/marine canaries, UiRaS, Palangos, official wind and temperature advancing; existing seasonal storm/quality/EA/link failures persist. No manual collector or contact call.",
+    "permissions": "locations RLS enabled, anon SELECT and authenticated UPDATE denied; no database changes made."
+  },
+  "blocker": {
+    "kind": "browser-unavailable",
+    "evidence": "CUA getTab(24,browser=iab) returned Browser is not available: iab. Current playback and published UI cannot be verified in this session. Previous video playback without capture date is not promoted to verified live.",
+    "nextStep": "Resume browser verification and actual SQL import preservation/idempotence checks before applying and publishing; keep November15 provenance dates unchanged."
+  },
+  "locations": [
+    {
+      "locationId": "eea-PTCK7H",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCK7H",
+        "open-meteo-marine:eea-PTCK7H"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 283,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCU3T",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCU3T",
+        "open-meteo-marine:eea-PTCU3T"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 273,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCQ3V",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCQ3V",
+        "open-meteo-marine:eea-PTCQ3V"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 277,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCW2T",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCW2T",
+        "open-meteo-marine:eea-PTCW2T"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 15,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCF8L",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCF8L",
+        "open-meteo-marine:eea-PTCF8L"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 249,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCD7K",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCD7K",
+        "open-meteo-marine:eea-PTCD7K"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 310,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCP2J",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCP2J",
+        "open-meteo-marine:eea-PTCP2J"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 273,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCW2D",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCW2D",
+        "open-meteo-marine:eea-PTCW2D"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 267,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCE2C",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCE2C",
+        "open-meteo-marine:eea-PTCE2C"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 10,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCV7M",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCV7M",
+        "open-meteo-marine:eea-PTCV7M"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 43,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCF2K",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCF2K",
+        "open-meteo-marine:eea-PTCF2K"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 248,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCX8H",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCX8H",
+        "open-meteo-marine:eea-PTCX8H"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 221,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCN3U",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCN3U",
+        "open-meteo-marine:eea-PTCN3U"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 30,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCH9X",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCH9X",
+        "open-meteo-marine:eea-PTCH9X"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 285,
+      "cameraStatus": "not-currently-verified"
+    },
+    {
+      "locationId": "eea-PTCD3U",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCD3U",
+        "open-meteo-marine:eea-PTCD3U"
+      ],
+      "status": "prepared",
+      "checkedAt": "2026-11-16",
+      "nextReviewAt": "2026-11-17",
+      "seaBearingPrepared": 216,
+      "cameraStatus": "not-currently-verified"
+    }
+  ]
+}

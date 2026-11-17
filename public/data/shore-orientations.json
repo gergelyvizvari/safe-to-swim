@@ -18411,6 +18411,543 @@
         "snapshotFile": "2026-11-13-osm.json",
         "reviewNote": "Local Marche coastline inspected north-up. Adriatic water to east/northeast, land to west. Adjacent river mouths and harbour walls excluded from the local window. Small landward sampling offsets retained."
       }
+    },
+    {
+      "locationId": "eea-PTCK7H",
+      "latitude": 39.25931,
+      "longitude": -9.33849,
+      "seaBearing": 283,
+      "shoreOrientation": {
+        "distanceMetres": 69,
+        "radiusMetres": 60,
+        "wayIds": [
+          122708248
+        ],
+        "nearestSegment": 2,
+        "nearestWayId": 122708248,
+        "shorePoint": {
+          "latitude": 39.25918802930081,
+          "longitude": -9.337710942638447
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 122708248,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCU3T",
+      "latitude": 39.26687,
+      "longitude": -9.33684,
+      "seaBearing": 273,
+      "shoreOrientation": {
+        "distanceMetres": 55,
+        "radiusMetres": 60,
+        "wayIds": [
+          101553324
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 101553324,
+        "shorePoint": {
+          "latitude": 39.26685817050228,
+          "longitude": -9.33620235612464
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 101553324,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCQ3V",
+      "latitude": 39.26363,
+      "longitude": -9.3363,
+      "seaBearing": 277,
+      "shoreOrientation": {
+        "distanceMetres": 30,
+        "radiusMetres": 60,
+        "wayIds": [
+          101553324
+        ],
+        "nearestSegment": 3,
+        "nearestWayId": 101553324,
+        "shorePoint": {
+          "latitude": 39.26365914062437,
+          "longitude": -9.336641147489297
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 101553324,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCW2T",
+      "latitude": 39.3738,
+      "longitude": -9.33713,
+      "seaBearing": 15,
+      "shoreOrientation": {
+        "distanceMetres": 28,
+        "radiusMetres": 60,
+        "wayIds": [
+          138709036
+        ],
+        "nearestSegment": 6,
+        "nearestWayId": 138709036,
+        "shorePoint": {
+          "latitude": 39.373560998869735,
+          "longitude": -9.337223183411167
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709036,
+            "version": 5
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCF8L",
+      "latitude": 39.3714,
+      "longitude": -9.33902,
+      "seaBearing": 249,
+      "shoreOrientation": {
+        "distanceMetres": 25,
+        "radiusMetres": 60,
+        "wayIds": [
+          138709493
+        ],
+        "nearestSegment": 138,
+        "nearestWayId": 138709493,
+        "shorePoint": {
+          "latitude": 39.37148342716873,
+          "longitude": -9.338753755538875
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709493,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCD7K",
+      "latitude": 39.36752,
+      "longitude": -9.34012,
+      "seaBearing": 310,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          138709493
+        ],
+        "nearestSegment": 141,
+        "nearestWayId": 138709493,
+        "shorePoint": {
+          "latitude": 39.36748578620401,
+          "longitude": -9.340066731868616
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709493,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCP2J",
+      "latitude": 39.32696,
+      "longitude": -9.35977,
+      "seaBearing": 273,
+      "shoreOrientation": {
+        "distanceMetres": 34,
+        "radiusMetres": 60,
+        "wayIds": [
+          104571542
+        ],
+        "nearestSegment": 15,
+        "nearestWayId": 104571542,
+        "shorePoint": {
+          "latitude": 39.32692068787189,
+          "longitude": -9.359381129771487
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 104571542,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCW2D",
+      "latitude": 39.32934,
+      "longitude": -9.35947,
+      "seaBearing": 267,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          104571542
+        ],
+        "nearestSegment": 12,
+        "nearestWayId": 104571542,
+        "shorePoint": {
+          "latitude": 39.32934422165575,
+          "longitude": -9.359376920220349
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 104571542,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCE2C",
+      "latitude": 39.36099,
+      "longitude": -9.36263,
+      "seaBearing": 10,
+      "shoreOrientation": {
+        "distanceMetres": 0,
+        "radiusMetres": 60,
+        "wayIds": [
+          138709493
+        ],
+        "nearestSegment": 155,
+        "nearestWayId": 138709493,
+        "shorePoint": {
+          "latitude": 39.360986835873916,
+          "longitude": -9.362630707039317
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709493,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCV7M",
+      "latitude": 39.36465,
+      "longitude": -9.37247,
+      "seaBearing": 43,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          138709493
+        ],
+        "nearestSegment": 161,
+        "nearestWayId": 138709493,
+        "shorePoint": {
+          "latitude": 39.36462133121788,
+          "longitude": -9.372503397633904
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709493,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCF2K",
+      "latitude": 39.34535,
+      "longitude": -9.3644,
+      "seaBearing": 248,
+      "shoreOrientation": {
+        "distanceMetres": 11,
+        "radiusMetres": 60,
+        "wayIds": [
+          104571542
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 104571542,
+        "shorePoint": {
+          "latitude": 39.34538510250198,
+          "longitude": -9.364286568530776
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 104571542,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCX8H",
+      "latitude": 39.35001,
+      "longitude": -9.368,
+      "seaBearing": 221,
+      "shoreOrientation": {
+        "distanceMetres": 14,
+        "radiusMetres": 60,
+        "wayIds": [
+          104571542
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 104571542,
+        "shorePoint": {
+          "latitude": 39.35011114766241,
+          "longitude": -9.367912437698346
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 104571542,
+            "version": 4
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCN3U",
+      "latitude": 39.36228,
+      "longitude": -9.36835,
+      "seaBearing": 30,
+      "shoreOrientation": {
+        "distanceMetres": 8,
+        "radiusMetres": 60,
+        "wayIds": [
+          138709493
+        ],
+        "nearestSegment": 158,
+        "nearestWayId": 138709493,
+        "shorePoint": {
+          "latitude": 39.36222016975335,
+          "longitude": -9.36840104472219
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709493,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCH9X",
+      "latitude": 39.24562,
+      "longitude": -9.34199,
+      "seaBearing": 285,
+      "shoreOrientation": {
+        "distanceMetres": 70,
+        "radiusMetres": 60,
+        "wayIds": [
+          122708251
+        ],
+        "nearestSegment": 5,
+        "nearestWayId": 122708251,
+        "shorePoint": {
+          "latitude": 39.24547060782924,
+          "longitude": -9.341200114851835
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 122708251,
+            "version": 3
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "North-up local directed coastline reviewed independently: land left, Atlantic water right. Baleal Norte and Sul opposite isthmus shores treated separately; Peniche northern bay water north/northeast, southern beaches southwest. Local60m normal, not copied from a nearby beach. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
+    },
+    {
+      "locationId": "eea-PTCD3U",
+      "latitude": 39.3535,
+      "longitude": -9.38878,
+      "seaBearing": 216,
+      "shoreOrientation": {
+        "wayIds": [
+          138709497
+        ],
+        "reviewedVertexIndices": [
+          428,
+          432
+        ],
+        "waterSideCheck": true,
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-15",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-15T15:36:08.920925+00:00",
+        "wayVersions": [
+          {
+            "id": 138709497,
+            "version": 86
+          }
+        ],
+        "snapshotFile": "2026-11-15-osm.json",
+        "reviewNote": "Porto da Areia Sul: local central beach chord vertices428–432, water southwest216°. Neighbouring rocky crenellations excluded. Sampling point independently lies on directed water-right side. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
+      }
     }
   ]
 }

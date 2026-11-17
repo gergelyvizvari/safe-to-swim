@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-17",
+  "selection": "Complete the unfinished November15 Peniche/Lourinha15-site batch; no new overlapping or duplicate sites.",
+  "counts": {
+    "reviewed": 15,
+    "firstTimeReviewedToday": 0,
+    "preparedPreviously": 15,
+    "liveNewCoverage": 15,
+    "shoreOrientationsDeterminedToday": 0,
+    "shoreOrientationsPrepared": 15,
+    "shoreOrientationsApplied": 15,
+    "camerasVerified": 0,
+    "camerasIntegrated": 0,
+    "camerasAttemptedToday": 1
+  },
+  "status": "integrated",
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "checkedAt": "2026-11-17",
+    "api": "All15 production detail IDs and seaBearing values equal proposed data; November16 also verified observation IDs, weather/marine target coordinates and both paginated water-type lists.",
+    "schedule": "One active every-minute safe-to-swim-source-checks job. Current healthy wind/temperature/UiRaS/Palangos and weather/marine canaries. Known storm/quality/EA failures persist; no collector/contact invocation.",
+    "permissions": "RLS enabled and anon SELECT/authenticated UPDATE denied. Existing schema only, no DDL or grants.",
+    "importFile": "supabase/imports/20261115_peniche_shore_orientations.sql"
+  },
+  "locations": [
+    {
+      "locationId": "eea-PTCK7H",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCK7H",
+        "open-meteo-marine:eea-PTCK7H"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 283
+    },
+    {
+      "locationId": "eea-PTCU3T",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCU3T",
+        "open-meteo-marine:eea-PTCU3T"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 273
+    },
+    {
+      "locationId": "eea-PTCQ3V",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCQ3V",
+        "open-meteo-marine:eea-PTCQ3V"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 277
+    },
+    {
+      "locationId": "eea-PTCW2T",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCW2T",
+        "open-meteo-marine:eea-PTCW2T"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 15
+    },
+    {
+      "locationId": "eea-PTCF8L",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCF8L",
+        "open-meteo-marine:eea-PTCF8L"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 249
+    },
+    {
+      "locationId": "eea-PTCD7K",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCD7K",
+        "open-meteo-marine:eea-PTCD7K"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 310
+    },
+    {
+      "locationId": "eea-PTCP2J",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCP2J",
+        "open-meteo-marine:eea-PTCP2J"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 273
+    },
+    {
+      "locationId": "eea-PTCW2D",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCW2D",
+        "open-meteo-marine:eea-PTCW2D"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 267
+    },
+    {
+      "locationId": "eea-PTCE2C",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCE2C",
+        "open-meteo-marine:eea-PTCE2C"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 10
+    },
+    {
+      "locationId": "eea-PTCV7M",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCV7M",
+        "open-meteo-marine:eea-PTCV7M"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 43
+    },
+    {
+      "locationId": "eea-PTCF2K",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCF2K",
+        "open-meteo-marine:eea-PTCF2K"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 248
+    },
+    {
+      "locationId": "eea-PTCX8H",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCX8H",
+        "open-meteo-marine:eea-PTCX8H"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 221
+    },
+    {
+      "locationId": "eea-PTCN3U",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCN3U",
+        "open-meteo-marine:eea-PTCN3U"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 30
+    },
+    {
+      "locationId": "eea-PTCH9X",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCH9X",
+        "open-meteo-marine:eea-PTCH9X"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 285
+    },
+    {
+      "locationId": "eea-PTCD3U",
+      "sourceId": "osm-shoreline",
+      "targetIds": [
+        "open-meteo-weather:eea-PTCD3U",
+        "open-meteo-marine:eea-PTCD3U"
+      ],
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "cameraStatus": "not-currently-verified",
+      "seaBearing": 216
+    }
+  ],
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-15-osm.json",
+    "license": "ODbL-1.0",
+    "determinedOn": "2026-11-15",
+    "appliedOn": "2026-11-17",
+    "method": "14 local directed coastline60m normals; Porto da Areia Sul manually reviewed local beach chord216degrees, water side confirmed independently. Opposite Baleal isthmus sides reviewed separately. Existing values preserved."
+  },
+  "providers": [
+    {
+      "id": "apa-portugal",
+      "url": "https://sniambgeoogc.apambiente.pt/getogc/rest/services/SNIAmb/Praias/MapServer/0",
+      "checkedAt": "2026-11-15",
+      "status": "candidate",
+      "evidence": "Shared public query returned761 features. Exact bathing-water IDs match15 selected sites; url_webcam null for all15. Annual/untimestamped quality is not fresh sample evidence. One linked SNIRH probe403; no bypass."
+    },
+    {
+      "id": "ipma-oceanography",
+      "url": "https://api.ipma.pt/open-data/forecast/oceanography/daily/hp-daily-sea-forecast-day0.json",
+      "documentation": "https://api.ipma.pt/",
+      "checkedAt": "2026-11-15",
+      "status": "candidate",
+      "evidence": "Actual JSON read succeeded, as did warnings_www.json. Regional targets still need exact coverage and licence review; no nearest-point or district warning assigned to beaches and no new adapter enabled."
+    },
+    {
+      "id": "open-meteo",
+      "checkedAt": "2026-11-17",
+      "status": "existing-integration",
+      "evidence": "One shared batch each for15 weather/marine model points; numeric wind direction/speed, wave height, sea temperature/current verified with UTC epoch1794906000. Units degrees,km/h,m,Celsius; no claim of measured beach conditions."
+    }
+  ],
+  "cameraSearches": [
+    {
+      "ids": [
+        "eea-PTCK7H",
+        "eea-PTCU3T",
+        "eea-PTCQ3V",
+        "eea-PTCH9X"
+      ],
+      "queries": [
+        "Areia Branca Areal Sul Peralta webcam Lourinha"
+      ],
+      "checkedAt": "2026-11-15",
+      "nextReviewAt": "2026-12-15",
+      "result": "MEO Areia Branca source surfaced, staging URL not integrated; no verified current beach camera."
+    },
+    {
+      "ids": [
+        "eea-PTCP2J",
+        "eea-PTCW2D",
+        "eea-PTCF2K",
+        "eea-PTCX8H"
+      ],
+      "queries": [
+        "Consolacao Medao Supertubos Molhe Leste webcam"
+      ],
+      "checkedAt": "2026-11-15",
+      "nextReviewAt": "2026-12-15",
+      "result": "Hostel links MEO Supertubos; no dated current playback established, not integrated."
+    },
+    {
+      "ids": [
+        "eea-PTCE2C",
+        "eea-PTCV7M",
+        "eea-PTCN3U"
+      ],
+      "queries": [
+        "Gamboa Peniche de Cima Cova da Alfarroba webcam"
+      ],
+      "checkedAt": "2026-11-15",
+      "nextReviewAt": "2026-12-15",
+      "result": "No exact independently verified fresh camera; other bay views not substituted."
+    },
+    {
+      "ids": [
+        "eea-PTCW2T",
+        "eea-PTCF8L",
+        "eea-PTCD7K"
+      ],
+      "queries": [
+        "Baleal Norte Sul Campismo webcam surf school"
+      ],
+      "checkedAt": "2026-11-15",
+      "nextReviewAt": "2026-12-15",
+      "result": "Bar do Bruno and Baleal Surf Camp primary pages found. Camp player blank in November15 browser. Bar Bruno changing video observed Nov15 and Nov17, no capture timestamp; freshness unknown."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "pt-baleal-bar-do-bruno",
+      "locationIds": [],
+      "candidateLocationIds": [
+        "eea-PTCF8L",
+        "eea-PTCD7K"
+      ],
+      "operator": "Bar do Bruno / SurfEye",
+      "sourcePage": "https://bardobruno.com/en/webcam/",
+      "providerPage": "https://pt.surfeye.video/beachcam/bar-do-bruno",
+      "coordinates": null,
+      "fieldOfViewEvidence": "Operator says opposite Cantinho da Baia; provider describes bay toward Baleal peninsula. Beach and surf visible, exact catalogue beach sector/mount still unresolved. Do not assign merely by proximity.",
+      "checkedAt": "2026-11-17",
+      "type": "stream-candidate",
+      "freshness": "unknown",
+      "embedding": "Not integrated; source link could be used once identity/freshness verified. No rehosting permission assumed.",
+      "status": "candidate",
+      "playbackEvidence": "Two Chrome screenshots about2minutes apart show different breaking waves and surfer positions. No visible capture timestamp. Movement and operator live claim alone do not independently establish capture date.",
+      "nextReviewAt": "2026-12-17"
+    }
+  ],
+  "validation": {
+    "npmTest": "134 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "geometry": "543 bearings reproduced against versioned coastlines",
+    "postgresql": "Actual15 import in temporary transactional fixture: fills15, preserves unrelated metadata, second execution identical including updated_at, manual north0 preserved, lake/coordinate changes excluded. Rolled back fixture.",
+    "browser": "Chrome: Bar do Bruno two changing frames, no capture date. Production Baleal Norte selected via normal picker: SW blowing offshore, Use extra caution,2.1m waves and Stay on shore. Missing shore orientation note absent; no camera UI change."
+  }
+}

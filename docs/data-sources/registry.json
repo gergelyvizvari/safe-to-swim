@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-14",
-  "nextCountry": "Portugal",
+  "lastRun": "2026-11-17",
+  "nextCountry": "Germany",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -16810,6 +16810,156 @@
       "cameraStatus": "not-verified",
       "evidenceReference": "runs/2026-11-14.json",
       "reason": "Previously prepared orientation reproduced, source way versions unchanged, now applied to production."
+    },
+    {
+      "locationId": "eea-PTCK7H",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCU3T",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCQ3V",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCW2T",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCF8L",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCD7K",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCP2J",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCW2D",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCE2C",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCV7M",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCF2K",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCX8H",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCN3U",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCH9X",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-PTCD3U",
+      "provider": "osm-shoreline",
+      "status": "integrated",
+      "checkedAt": "2026-11-17",
+      "nextReviewAt": "2026-12-17",
+      "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
+      "evidenceFile": "runs/2026-11-17.json",
+      "cameraStatus": "not-verified"
     }
   ]
 }
