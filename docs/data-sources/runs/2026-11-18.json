@@ -1,0 +1,394 @@
+{
+  "date": "2026-11-18",
+  "selection": "First15 previously unreviewed lake sites from production Germany lake list in bbox10,47.4,13,48.2,limit15 offset0; excludes all registry IDs already processed. No sea-bearing work applicable to these lakes.",
+  "counts": {
+    "reviewed": 15,
+    "firstTimeReviewed": 15,
+    "preparedNewImports": 0,
+    "newDynamicIntegrations": 0,
+    "liveNewCoverage": 1,
+    "camerasVerified": 1,
+    "camerasIntegrated": 1,
+    "cameraCoveredLocations": 1,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0
+  },
+  "production": {
+    "origin": "https://safe-to-swim.vercel.app",
+    "projectRef": "zpqhqdndaloivnyzoigb",
+    "applicationCommitBefore": "34a3eee6d97f625b6d08cdf4913ecb7f327f079f",
+    "api": "15 exact detail/observations IDs and lake type verified. No marine binding at any selected lake. Existing weather and annual data retained.",
+    "scheduler": "One active minute source-checks job. Weather/marine canaries and wind/temperature/UiRaS/Palangos advanced. Known seasonal storm/quality/EA failures persist. windForecast one failure, next scheduled check not yet due; not treated as persistent incident. No collector/contact call, schema or schedule change."
+  },
+  "providers": [
+    {
+      "id": "gkd-stegen",
+      "url": "https://www.gkd.bayern.de/de/seen/wassertemperatur/isar/stegen-16602008/messwerte",
+      "status": 200,
+      "bytes": 244,
+      "checkedAt": "2026-11-18T09:06:42.802839+00:00",
+      "payloadAssessment": "HTTP200 is a244-byte Request Rejected page, not measurements. No bypass. Official indexed documentation says Ammerseeboje manually read, archive through September2026,16depths,CC BY4.0; not fresh surface beach data."
+    },
+    {
+      "id": "gkd-buoy",
+      "url": "https://www.gkd.bayern.de/de/seen/wassertemperatur/inn/ammerseeboje-16601050/gesamtzeitraum/tabelle",
+      "status": 200,
+      "bytes": 244,
+      "checkedAt": "2026-11-18T09:06:42.811043+00:00",
+      "payloadAssessment": "HTTP200 is a244-byte Request Rejected page, not measurements. No bypass. Official indexed documentation says Ammerseeboje manually read, archive through September2026,16depths,CC BY4.0; not fresh surface beach data."
+    },
+    {
+      "id": "landsberg",
+      "url": "https://www.landkreis-landsberg.de/soziales-gesundheit/gesundheitsamt/eu-badegewaesser/",
+      "status": 200,
+      "bytes": 72356,
+      "checkedAt": "2026-11-18T09:06:42.938825+00:00"
+    },
+    {
+      "id": "starnberg",
+      "url": "https://www.lk-starnberg.de/badegew%C3%A4sserqualit%C3%A4t",
+      "status": 200,
+      "bytes": 529988,
+      "checkedAt": "2026-11-18T09:06:43.387132+00:00"
+    },
+    {
+      "id": "rosenheim",
+      "url": "https://www.landkreis-rosenheim.de/landkreis-gemeinden/",
+      "status": 200,
+      "bytes": 1894753,
+      "checkedAt": "2026-11-18T09:06:48.854402+00:00"
+    },
+    {
+      "id": "ostallgaeu",
+      "url": "https://www.ostallgaeu.de/buerger-service/gesundheit/wasserqualitaet-eu-badeseen",
+      "status": 200,
+      "bytes": 615039,
+      "checkedAt": "2026-11-18T09:06:43.913921+00:00"
+    },
+    {
+      "id": "bw",
+      "url": "https://badegewaesserkarte.landbw.de/",
+      "status": 200,
+      "bytes": 4265,
+      "checkedAt": "2026-11-18T09:06:43.623234+00:00"
+    }
+  ],
+  "sourceFindings": [
+    {
+      "id": "gkd-bayern",
+      "status": "access-pending",
+      "documentation": [
+        "https://www.gkd.bayern.de/de/seen/wassertemperatur/inn/ammerseeboje-16601050/download",
+        "https://www.lfu.bayern.de/wasser/klimawandel_wasserhaushalt/auswirkung_auf_wasserhaushalt/wassertemperatur/index.htm"
+      ],
+      "reason": "Official archiveCC BY4.0, Ammerseeboje manual half-year retrieval. Direct Stegen and buoy probes rejected. No station observations normalized or collector enabled; no nearest-waterbody substitution."
+    },
+    {
+      "id": "rosenheim-quality",
+      "status": "candidate",
+      "url": "https://www.landkreis-rosenheim.de/landkreis-gemeinden/",
+      "reason": "Exact Thansauer See Nordufer Rohrdorf section contains2026samples, latest08Sep:enterococci<10,Ecoli21MPN/100ml,temp22.9C. Historical sample remains stale, not current safety. Public reuse terms/parser robustness and station identity coordinates require more review before adapter."
+    },
+    {
+      "id": "landsberg-quality",
+      "status": "candidate",
+      "url": "https://www.landkreis-landsberg.de/soziales-gesundheit/gesundheitsamt/eu-badegewaesser/",
+      "reason": "Official west shore list names Eching,Schondorf,Utting,Riederau,Diessen StAlban; Schondorf profile exactIDDEBY_PR_LL_0217 and coordinate verified. Samples seasonal, no current API integration."
+    },
+    {
+      "id": "starnberg-quality",
+      "status": "candidate",
+      "url": "https://www.lk-starnberg.de/badegew%C3%A4sserqualit%C3%A4t",
+      "reason": "Official lake-specific monitoring page; next planned sampling May2027, not current bathing confirmation."
+    },
+    {
+      "id": "ostallgaeu-quality",
+      "status": "candidate",
+      "url": "https://www.ostallgaeu.de/buerger-service/gesundheit/wasserqualitaet-eu-badeseen",
+      "reason": "Official Alatsee/Alpsee seasonal monitoring identified; no fresh normalized samples obtained."
+    },
+    {
+      "id": "bw-quality",
+      "status": "candidate",
+      "url": "https://badegewaesserkarte.landbw.de/",
+      "reason": "Official application HTML retrieved4265bytes; not observation JSON. BadesaisonJune1-Sep15. No green-icon inference of fresh samples."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "de-ammersee-herrsching-hsc",
+      "locationIds": [
+        "eea-DEBY_PR_STA_0305"
+      ],
+      "operator": "addicted Sports / Herrschinger Segelclub",
+      "sourcePage": "https://www.addicted-sports.com/webcam/ammersee/herrsching/",
+      "coordinateSource": "evidence/2026-11-18-hsc-mount.json",
+      "coordinates": {
+        "latitude": 47.9899,
+        "longitude": 11.1684,
+        "approximate": true
+      },
+      "fieldOfViewEvidence": "Operator states mast on HSC mole and view northwest across Ammersee. Frames show bay water, Rieder Eck/Lochschwab shore; nearby-shore context only for Herrschinger Bucht. Opposite-shore Utting, separate Stegen and other lakes excluded.",
+      "type": "refreshing-image-source-link",
+      "freshness": "verified",
+      "imageTimesObserved": [
+        "2026-11-18 10:04 Europe/Berlin",
+        "2026-11-18 10:06 Europe/Berlin"
+      ],
+      "checkedAt": "2026-11-18T09:07:00Z",
+      "playbackEvidence": "Chrome: Aktuell image changed from10:04 to10:06 with visibly changed waves/clouds. Current image timestamp is provider local CET, one hour ahead of UTC. No continuous-video claim.",
+      "embedding": "External provider page only. Rights reserved and terms reviewed; no permission assumed to copy/rehost/embed imagery, no image/stream URL committed.",
+      "status": "integrated",
+      "nextReviewAt": "2026-12-18"
+    }
+  ],
+  "cameraSearches": [
+    {
+      "queries": [
+        "Ammersee Herrsching Utting Schondorf Stegen Diessen Riederau Eching Aidenried Webcam offiziell",
+        "Ammersee Riederau Stegen Aidenried Schondorf webcam Segelclub"
+      ],
+      "locationIds": [
+        "eea-DEBY_PR_LL_0212",
+        "eea-DEBY_PR_LL_0213",
+        "eea-DEBY_PR_LL_0214",
+        "eea-DEBY_PR_STA_0305",
+        "eea-DEBY_PR_STA_0306",
+        "eea-DEBY_PR_WM_0323",
+        "eea-DEBY_PR_LL_0217",
+        "eea-DEBY_PR_LL_0218"
+      ],
+      "result": "Shared provider and local sailing-club sources reviewed. Herrsching fresh image verified and integrated only for exact bay ID. Windinfo explicitly says Eching,Schondorf,Diessen not visible; no cross-shore assignments. ESC Eching,ASC Utting,Ammersee Segelschule,SCF Fischen,SCIA Inning identified as separate candidates, not counted as verified playback."
+    },
+    {
+      "queries": [
+        "Abtsdorfer See Alatsee Alpsee Schwangau webcam",
+        "Abtsdorfer See webcam Gemeinde Saaldorf Surheim",
+        "Alatsee Aitrachsee webcam Hotel Gemeinde"
+      ],
+      "locationIds": [
+        "eea-DEBY_PR_BGL_0165",
+        "eea-DEBW_PR_0325",
+        "eea-DEBY_PR_OAL_0141",
+        "eea-DEBY_PR_OAL_0142"
+      ],
+      "result": "Saaldorf official Hoegl distant tower panorama does not prove Abtsdorfer beach view. Fuessen official Hohenschwangau camera lists Alpsee Freibad view, candidate only; Forggensee and Alatsee not interchangeable."
+    },
+    {
+      "queries": [
+        "Badesee Poing Thansau Wiesmühle Glonn Aitrachsee Webcam",
+        "Wiesmühle Glonn Bergfeldsee Poing Thansau webcam"
+      ],
+      "locationIds": [
+        "eea-DEBY_PR_EBE_0172",
+        "eea-DEBY_PR_EBE_0175",
+        "eea-DEBY_PR_RO_0300",
+        "eea-DEBW_PR_0325"
+      ],
+      "result": "Official recreation pages found, no verified current beach image for these sites."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-DEBY_PR_BGL_0165",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_BGL_0165",
+        "open-meteo-weather:eea-DEBY_PR_BGL_0165"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBW_PR_0325",
+      "sourceTargetIds": [
+        "eea:eea-DEBW_PR_0325",
+        "open-meteo-weather:eea-DEBW_PR_0325"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_OAL_0141",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_OAL_0141",
+        "open-meteo-weather:eea-DEBY_PR_OAL_0141"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_OAL_0142",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_OAL_0142",
+        "open-meteo-weather:eea-DEBY_PR_OAL_0142"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0212",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_LL_0212",
+        "open-meteo-weather:eea-DEBY_PR_LL_0212"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0213",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_LL_0213",
+        "open-meteo-weather:eea-DEBY_PR_LL_0213"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0214",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_LL_0214",
+        "open-meteo-weather:eea-DEBY_PR_LL_0214"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_STA_0305",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_STA_0305",
+        "open-meteo-weather:eea-DEBY_PR_STA_0305"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "integrated",
+      "dynamicObservations": 0,
+      "cameraStatus": "integrated",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_STA_0306",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_STA_0306",
+        "open-meteo-weather:eea-DEBY_PR_STA_0306"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_WM_0323",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_WM_0323",
+        "open-meteo-weather:eea-DEBY_PR_WM_0323"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0217",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_LL_0217",
+        "open-meteo-weather:eea-DEBY_PR_LL_0217"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0218",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_LL_0218",
+        "open-meteo-weather:eea-DEBY_PR_LL_0218"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_EBE_0172",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_EBE_0172",
+        "open-meteo-weather:eea-DEBY_PR_EBE_0172"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_EBE_0175",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_EBE_0175",
+        "open-meteo-weather:eea-DEBY_PR_EBE_0175"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-DEBY_PR_RO_0300",
+      "sourceTargetIds": [
+        "eea:eea-DEBY_PR_RO_0300",
+        "open-meteo-weather:eea-DEBY_PR_RO_0300"
+      ],
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "cameraStatus": "not-verified",
+      "shoreOrientationStatus": "not-applicable-lake"
+    }
+  ],
+  "validation": {
+    "npmTest": "135 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "browser": "Chrome provider latest frame advanced10:04 to10:06CET. Local desktop and390x844mobile: correct Herrsching card, nearby-shore label, external source URL, checked18Nov and approximate0.8km distance, no image/iframe. Viewport reset."
+  }
+}

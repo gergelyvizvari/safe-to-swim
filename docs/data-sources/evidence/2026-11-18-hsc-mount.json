@@ -1,0 +1,98 @@
+{
+  "source": "OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.15,47.98,11.18,48.005",
+  "checkedAt": "2026-11-18",
+  "ways": [
+    {
+      "id": "72761830",
+      "version": "5",
+      "tags": {
+        "addr:city": "Herrsching am Ammersee",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "82211",
+        "addr:street": "Mühlfeld",
+        "building": "yes",
+        "club": "sailing",
+        "name": "Herrschinger Segelclub e.V.",
+        "phone": "+4981528731",
+        "short_name": "HSC",
+        "website": "https://herrschinger-segelclub.de"
+      },
+      "geometry": [
+        {
+          "latitude": 47.9892056,
+          "longitude": 11.1690244
+        },
+        {
+          "latitude": 47.9891186,
+          "longitude": 11.1687222
+        },
+        {
+          "latitude": 47.9892518,
+          "longitude": 11.1686446
+        },
+        {
+          "latitude": 47.989346,
+          "longitude": 11.1689397
+        },
+        {
+          "latitude": 47.9892056,
+          "longitude": 11.1690244
+        }
+      ]
+    },
+    {
+      "id": "79990327",
+      "version": "1",
+      "tags": {
+        "access": "private",
+        "man_made": "pier",
+        "name": "Herrschinger Segelclub"
+      },
+      "geometry": [
+        {
+          "latitude": 47.9893656,
+          "longitude": 11.1690071
+        },
+        {
+          "latitude": 47.9895384,
+          "longitude": 11.1688769
+        },
+        {
+          "latitude": 47.989829,
+          "longitude": 11.1689116
+        }
+      ]
+    },
+    {
+      "id": "79990330",
+      "version": "1",
+      "tags": {
+        "access": "private",
+        "man_made": "pier",
+        "name": "Herrschinger Segelclub"
+      },
+      "geometry": [
+        {
+          "latitude": 47.9892623,
+          "longitude": 11.1685885
+        },
+        {
+          "latitude": 47.9894449,
+          "longitude": 11.168474
+        },
+        {
+          "latitude": 47.9896163,
+          "longitude": 11.168415
+        },
+        {
+          "latitude": 47.9899158,
+          "longitude": 11.1684096
+        }
+      ]
+    }
+  ],
+  "interpretation": "Operator locates camera on mast on club mole. Mapped named HSC western mole79990330 ends47.9899158,11.1684096. Runtime uses rounded approximate47.9899,11.1684; exact mast not surveyed. Club building72761830 matches county Muehlfeld8 address. Northwest view includes Herrschinger Bucht shore context; no direct bathing-area visibility promised."
+}

@@ -620,3 +620,7 @@ December14 review dates: `runs/2026-11-14.json`.
 ## 2026-11-17 — Peniche/Lourinhã batch completion
 
 Completed the15 sites started November15:15 previously determined shoreline bearings now applied to the confirmed Supabase catalogue and verified through production details. No new dynamic provider or camera integration. Bar do Bruno playback changes, but capture freshness and exact beach mapping remain unverified. Existing collection schedule unchanged. See [run evidence](runs/2026-11-17.json).
+
+## 2026-11-18 — German lake sources and Herrsching camera
+
+15 first-time lake-site reviews. One timestamped refreshing HSC camera linked only to Herrschinger Bucht as an approximate-distance nearby shore view; other Ammersee shores and lakes excluded. GKD returns HTTP200 rejection pages, not measurements. Seasonal quality samples remain historical. No dynamic adapter, schema, scheduling or shoreline-orientation change. See [evidence](runs/2026-11-18.json).

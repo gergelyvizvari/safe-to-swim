@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-17",
-  "nextCountry": "Germany",
+  "lastRun": "2026-11-18",
+  "nextCountry": "France",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -16960,6 +16960,141 @@
       "reason": "Local November15 shoreline estimate applied missing-only November17; exact production detail value verified.",
       "evidenceFile": "runs/2026-11-17.json",
       "cameraStatus": "not-verified"
+    },
+    {
+      "locationId": "eea-DEBY_PR_BGL_0165",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBW_PR_0325",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_OAL_0141",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_OAL_0142",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0212",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0213",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0214",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_STA_0305",
+      "provider": "germany-lake-source-review",
+      "status": "integrated",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_STA_0306",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_WM_0323",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0217",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_LL_0218",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_EBE_0172",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_EBE_0175",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-DEBY_PR_RO_0300",
+      "provider": "germany-lake-source-review",
+      "status": "candidate",
+      "checkedAt": "2026-11-18",
+      "nextReviewAt": "2026-12-18",
+      "evidenceFile": "runs/2026-11-18.json",
+      "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
     }
   ]
 }

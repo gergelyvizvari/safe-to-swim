@@ -15,6 +15,16 @@ const BRIGHTON_STREAMS = [
 
 export const VERIFIED_WEBCAMS = [
   {
+    id: 'de-ammersee-herrsching-hsc', name: 'Herrschinger Segelclub · Ammersee',
+    // Approximate end of the HSC western mole, not the bathing sampling point.
+    latitude: 47.9899, longitude: 11.1684, approximateCoordinates: true,
+    sourceName: 'addicted Sports / Herrschinger Segelclub',
+    pageUrl: 'https://www.addicted-sports.com/webcam/ammersee/herrsching/',
+    waterType: 'lake', coverage: 'nearby-shore',
+    locationIds: ['eea-DEBY_PR_STA_0305'],
+    verification: 'verified', verifiedOn: '2026-11-18',
+  },
+  {
     id: 'de-trassenheide-rettungsturm', name: 'Trassenheide · Hauptstrand',
     latitude: 54.0963628, longitude: 13.8807766,
     sourceName: 'Ostseebad Trassenheide',

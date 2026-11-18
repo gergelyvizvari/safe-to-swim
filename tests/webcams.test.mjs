@@ -114,3 +114,22 @@ test('legacy UK detail responses retain official coastal type without overriding
   assert.equal(getWebcamForLocation(detail).id, 'fistral-beach')
   assert.deepEqual(getWebcamsForLocation({ ...detail, waterType: 'lake' }), [])
 })
+
+test('Herrsching camera is a nearby lake view for the reviewed bay only', () => {
+  const site = { id: 'eea-DEBY_PR_STA_0305', latitude: 47.9972, longitude: 11.1658, waterType: 'lake' }
+  const camera = getWebcamForLocation(site)
+  assert.equal(camera.id, 'de-ammersee-herrsching-hsc')
+  assert.equal(camera.coverage, 'nearby-shore')
+  assert.equal(camera.approximateCoordinates, true)
+  assert.ok(camera.distance > 0.8 && camera.distance < 0.9)
+  assert.equal(camera.pageUrl, 'https://www.addicted-sports.com/webcam/ammersee/herrsching/')
+  assert.equal(camera.streams, undefined)
+  assert.equal(camera.imageUrl, undefined)
+  for (const changed of [
+    { ...site, id: 'eea-DEBY_PR_LL_0218' }, // Opposite-shore Utting is not this bay.
+    { ...site, id: 'eea-DEBY_PR_STA_0306' }, // Stegen is another part of Ammersee.
+    { ...site, id: 'different-lake' },
+    { ...site, waterType: 'coastal' },
+    { ...site, id: undefined },
+  ]) assert.ok(!getWebcamsForLocation(changed).some(c => c.id === camera.id))
+})
