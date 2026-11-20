@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-20",
+  "startedAt": "2026-11-19",
+  "scope": "Complete the interrupted fifteen-site Côte d’Émeraude batch; these are fifteen first-time site reviews, not fifteen additional sites on each day.",
+  "catalogueOrigin": "https://safe-to-swim.vercel.app",
+  "databaseProject": "zpqhqdndaloivnyzoigb",
+  "counts": {
+    "locationsReviewed": 15,
+    "locationsPrepared": 15,
+    "locationsWithNewLiveCoverage": 15,
+    "dynamicAdaptersAdded": 0,
+    "newCamerasVerified": 0,
+    "newCamerasIntegrated": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "operations": {
+    "cron": "One active minute schedule; no schedule created and no collector/contact called.",
+    "sourceState": "Read 2026-11-20 17:44 UTC. Weather/marine canaries, LHMT, UiRaS and official wind/temperature advance. Existing seasonal storm, quality and EA failures persist; no new outage claimed.",
+    "schema": "Existing metadata update only; locations RLS enabled, anon SELECT and authenticated UPDATE absent. Exact active coastal IDs and coordinates checked before import; all fifteen bearings were null.",
+    "import": "supabase/imports/20261119_cote_emeraude_shore_orientations.sql",
+    "production": "All fifteen detail IDs, coordinates and bearings verified after application; before application all fifteen observation envelopes had correct locationId and empty items. Lake/coastal list pages limit15 offset0 schemas verified. All fifteen production details passed into getWindAssessment with no shoreOrientation missing field. Synthetic wind used only to test metadata propagation, not presented as real observation."
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-19-osm.json",
+    "license": "ODbL-1.0; OpenStreetMap contributors",
+    "method": "Local directed coastline right normal, with individually reviewed local chords at piers/irregular tidal banks. No copied neighbour bearing; catalogue coordinates preserved.",
+    "specialCase": "Eventail: named tidal beach polygon142299313 southern landward boundary reversed vertices2→0, water north. Mean tidal coastline is too far from sample point; georeferenced OSM map reviewed. Bon Secours sample about94m landward retained. Rance estuary locations do not establish representativeness of open-ocean model currents."
+  },
+  "providerResearch": [
+    {
+      "source": "https://baignades.sante.gouv.fr/baignades/consultSite.do?annee=2026&dptddass=035&impression=yes&isite=035000835&modeDetailImp=1&plv=no&site=035000835",
+      "status": "candidate",
+      "evidence": "Official Abri des Flots/Cancale identity and June15–September15 season. Retrieved page shows summer sample dates, not a current November clearance. No new normalized sample ingestion."
+    },
+    {
+      "source": "https://www.somlit.fr/dinard/",
+      "status": "candidate",
+      "evidence": "Official station surface-temperature heading and intranet link; no timestamped public station payload verified. No account, purchase or message."
+    },
+    {
+      "source": "https://www.saint-malo.fr/actualites/fin-surveillance-plages-saint-malo-2026/",
+      "status": "faulty",
+      "evidence": "November20 read returned404; historical search snippets not treated as current quality or closure."
+    }
+  ],
+  "modelProbe": {
+    "checkedAt": "2026-11-19",
+    "provider": "Open-Meteo weather and marine",
+    "points": 15,
+    "kind": "model samples, not persisted observations or complete measured coverage",
+    "variables": [
+      "wind_speed_10m",
+      "wind_direction_10m",
+      "wave_height",
+      "sea_surface_temperature",
+      "ocean_current_velocity"
+    ],
+    "timeformat": "unixtime UTC",
+    "weatherWindUnit": "km/h",
+    "warning": "Grid resolution and estuarine representativeness are not newly verified; existing browser forecast path unchanged."
+  },
+  "cameraResearch": [
+    {
+      "cameraId": "fr-dinard-ecluse-viewsurf",
+      "locationIds": [
+        "eea-FRH0335093M035710"
+      ],
+      "operator": "Ville de Dinard / Viewsurf",
+      "sourcePage": "https://www.ville-dinard.fr/webcam/",
+      "coordinates": null,
+      "type": "operator-player-link",
+      "freshness": "unconfirmed",
+      "embedding": "No permission assumed; no new iframe or stream URL committed.",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "status": "candidate",
+      "evidence": "Official page explicitly separates Ecluse beach from Alain Colas marina. November19 browser player showed beach/bay and dated09:40 clip, but two independently current frames and exact mount were not established. A dated clip is not continuous live verification. November20 automated browser replay confirmed a48-second dated clip (18:40CET), playable readyState4; exact mount unresolved, not integrated."
+    },
+    {
+      "cameraId": "fr-saint-lunaire-decolle",
+      "locationIds": [
+        "eea-FRH0335287M035785"
+      ],
+      "operator": "Dinard Émeraude Tourisme",
+      "sourcePage": "https://www.dinardemeraudetourisme.com/webcams/webcam-saint-lunaire/",
+      "coordinates": null,
+      "type": "tourism-player-link",
+      "freshness": "unconfirmed",
+      "embedding": "not assumed",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "status": "candidate",
+      "evidence": "Official local panorama source found. Exact mount/current frames not established. Fosse aux Vaults and Fourberie not assigned across headland."
+    }
+  ],
+  "cameraSearches": [
+    {
+      "source": "https://www.dinardemeraudetourisme.com/webcams/",
+      "query": "Dinard Saint-Lunaire Saint-Briac Lancieux webcam plage",
+      "evidence": "Shared local tourism source reviewed; Salinette/Islet exact view not confirmed."
+    },
+    {
+      "source": "https://www.saint-malo.fr/accueil/webcams/",
+      "query": "Saint Malo Bon Secours Eventail webcam mairie",
+      "evidence": "Municipal harbour, Intra Muros and Sillon views found; no automatic Bon Secours/Eventail binding from proximity."
+    },
+    {
+      "source": "https://www.vision-environnement.com/webcam/france/bretagne/28-cancale/",
+      "query": "Cancale Abri des Flots webcam",
+      "evidence": "Operator candidate found; no proven Abri des Flots view. Port Mer/La Houle are not interchangeable."
+    },
+    {
+      "query": "Pleudihen Mordreuc Plouer La Cale Greve Garel webcam",
+      "evidence": "Local Rance sites searched; no current matching playback verified."
+    },
+    {
+      "query": "Saint Jacut La Banche La Manchette webcam mairie",
+      "evidence": "No matching current playback verified. Binic La Banche homonym excluded."
+    },
+    {
+      "query": "Saint Benoit des Ondes Epi webcam",
+      "evidence": "No current matching playback verified."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-FRH0335049M035245",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335049M035245",
+        "open-meteo-marine:eea-FRH0335049M035245",
+        "open-meteo-weather:eea-FRH0335049M035245"
+      ],
+      "seaBearing": 97,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335288M035530",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335288M035530",
+        "open-meteo-marine:eea-FRH0335288M035530",
+        "open-meteo-weather:eea-FRH0335288M035530"
+      ],
+      "seaBearing": 269,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0122197M022662",
+      "sourceTargetIds": [
+        "eea:eea-FRH0122197M022662",
+        "open-meteo-marine:eea-FRH0122197M022662",
+        "open-meteo-weather:eea-FRH0122197M022662"
+      ],
+      "seaBearing": 342,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335181M035650",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335181M035650",
+        "open-meteo-marine:eea-FRH0335181M035650",
+        "open-meteo-weather:eea-FRH0335181M035650"
+      ],
+      "seaBearing": 175,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335093M035710",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335093M035710",
+        "open-meteo-marine:eea-FRH0335093M035710",
+        "open-meteo-weather:eea-FRH0335093M035710"
+      ],
+      "seaBearing": 24,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335255M035200",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335255M035200",
+        "open-meteo-marine:eea-FRH0335255M035200",
+        "open-meteo-weather:eea-FRH0335255M035200"
+      ],
+      "seaBearing": 39,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335288M035515",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335288M035515",
+        "open-meteo-marine:eea-FRH0335288M035515",
+        "open-meteo-weather:eea-FRH0335288M035515"
+      ],
+      "seaBearing": 7,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0122094M022010",
+      "sourceTargetIds": [
+        "eea:eea-FRH0122094M022010",
+        "open-meteo-marine:eea-FRH0122094M022010",
+        "open-meteo-weather:eea-FRH0122094M022010"
+      ],
+      "seaBearing": 294,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0122302M022045",
+      "sourceTargetIds": [
+        "eea:eea-FRH0122302M022045",
+        "open-meteo-marine:eea-FRH0122302M022045",
+        "open-meteo-weather:eea-FRH0122302M022045"
+      ],
+      "seaBearing": 248,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0122213M022695",
+      "sourceTargetIds": [
+        "eea:eea-FRH0122213M022695",
+        "open-meteo-marine:eea-FRH0122213M022695",
+        "open-meteo-weather:eea-FRH0122213M022695"
+      ],
+      "seaBearing": 142,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335287M035775",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335287M035775",
+        "open-meteo-marine:eea-FRH0335287M035775",
+        "open-meteo-weather:eea-FRH0335287M035775"
+      ],
+      "seaBearing": 359,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335287M035770",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335287M035770",
+        "open-meteo-marine:eea-FRH0335287M035770",
+        "open-meteo-weather:eea-FRH0335287M035770"
+      ],
+      "seaBearing": 336,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335287M035785",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335287M035785",
+        "open-meteo-marine:eea-FRH0335287M035785",
+        "open-meteo-weather:eea-FRH0335287M035785"
+      ],
+      "seaBearing": 25,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0122302M022025",
+      "sourceTargetIds": [
+        "eea:eea-FRH0122302M022025",
+        "open-meteo-marine:eea-FRH0122302M022025",
+        "open-meteo-weather:eea-FRH0122302M022025"
+      ],
+      "seaBearing": 65,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-FRH0335256M035860",
+      "sourceTargetIds": [
+        "eea:eea-FRH0335256M035860",
+        "open-meteo-marine:eea-FRH0335256M035860",
+        "open-meteo-weather:eea-FRH0335256M035860"
+      ],
+      "seaBearing": 212,
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    }
+  ],
+  "validation": {
+    "tests": "135 passed",
+    "lint": "passed",
+    "build": "passed",
+    "geometries": "558 reproduced against versioned snapshots",
+    "postgres": "Actual fifteen-row import fills15 preserving unrelated metadata; rerun updates0, identical all rows. Existing generic importer regression checks manual0/provenance/name, type/coordinate guards and idempotence.",
+    "browser": "Production L Ecluse selected by persisted exact ID: desktop and390px mobile render without missing-shore note, wind from W classified offshore with conservative avoid-swimming advice. Official Dinard player started; two frames taken5s apart; video time7.45s, duration48s, header Nov20 18:40CET. A current dated finite clip does not establish continuous live stream or exact mount."
+  }
+}

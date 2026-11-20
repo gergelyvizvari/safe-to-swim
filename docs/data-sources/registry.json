@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-18",
-  "nextCountry": "France",
+  "lastRun": "2026-11-20",
+  "nextCountry": "Italy",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -17095,6 +17095,141 @@
       "nextReviewAt": "2026-12-18",
       "evidenceFile": "runs/2026-11-18.json",
       "reason": "Official seasonal quality and temperature sources reviewed; no new dynamic adapter. Exact bay camera source link integrated only at Herrsching."
+    },
+    {
+      "locationId": "eea-FRH0335049M035245",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335288M035530",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0122197M022662",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335181M035650",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335093M035710",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335255M035200",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335288M035515",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0122094M022010",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0122302M022045",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0122213M022695",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335287M035775",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335287M035770",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335287M035785",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0122302M022025",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-FRH0335256M035860",
+      "provider": "osm-shore-orientation",
+      "status": "integrated",
+      "checkedAt": "2026-11-20",
+      "nextReviewAt": "2026-12-20",
+      "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
+      "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
     }
   ]
 }

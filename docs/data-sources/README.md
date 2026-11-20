@@ -624,3 +624,7 @@ Completed the15 sites started November15:15 previously determined shoreline bear
 ## 2026-11-18 — German lake sources and Herrsching camera
 
 15 first-time lake-site reviews. One timestamped refreshing HSC camera linked only to Herrschinger Bucht as an approximate-distance nearby shore view; other Ammersee shores and lakes excluded. GKD returns HTTP200 rejection pages, not measurements. Seasonal quality samples remain historical. No dynamic adapter, schema, scheduling or shoreline-orientation change. See [evidence](runs/2026-11-18.json).
+
+## 2026-11-20 — Côte d’Émeraude batch completion
+
+Completed the fifteen first-time reviews started November19:15 local shore orientations applied to the confirmed catalogue and verified through production details and wind assessment;558 reproducible total. No new dynamic adapter; cameras verified/integrated0/0. Official local camera sources found, but fresh playback and exact mounts remain unverified. Seasonal quality remains unknown for current swimming.135 tests, lint/build and actual fifteen-row PostgreSQL idempotence passed. See [evidence](runs/2026-11-20.json). Next country Italy; unresolved research dueDecember20.

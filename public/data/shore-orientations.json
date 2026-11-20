@@ -18948,6 +18948,514 @@
         "snapshotFile": "2026-11-15-osm.json",
         "reviewNote": "Porto da Areia Sul: local central beach chord vertices428–432, water southwest216°. Neighbouring rocky crenellations excluded. Sampling point independently lies on directed water-right side. Catalogue sampling points can lie slightly landward or seaward of mapped edge; their coordinates are preserved and the local shoreline normal is used, not a coordinate replacement."
       }
+    },
+    {
+      "locationId": "eea-FRH0335049M035245",
+      "latitude": 48.6751,
+      "longitude": -1.84689,
+      "seaBearing": 97,
+      "shoreOrientation": {
+        "distanceMetres": 12,
+        "radiusMetres": 60,
+        "wayIds": [
+          4540806
+        ],
+        "nearestSegment": 68,
+        "nearestWayId": 4540806,
+        "shorePoint": {
+          "latitude": 48.67511869879949,
+          "longitude": -1.8470458859886674
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 4540806,
+            "version": 25
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035530",
+      "latitude": 48.64845,
+      "longitude": -2.02943,
+      "seaBearing": 269,
+      "shoreOrientation": {
+        "wayIds": [
+          52105482
+        ],
+        "reviewedVertexIndices": [
+          83,
+          88
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Bon Secours west-facing beach: local high-water wall/shore chord; catalogue point landward94m retained. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 52105482,
+            "version": 18
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0122197M022662",
+      "latitude": 48.5125,
+      "longitude": -1.97586,
+      "seaBearing": 342,
+      "shoreOrientation": {
+        "wayIds": [
+          632227306
+        ],
+        "reviewedVertexIndices": [
+          275,
+          285
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Mordreuc Rance shore: adjacent projecting slipway excluded from local beach chord, water right northwest. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 632227306,
+            "version": 7
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0335181M035650",
+      "latitude": 48.57654,
+      "longitude": -1.99925,
+      "seaBearing": 175,
+      "shoreOrientation": {
+        "wayIds": [
+          4539806
+        ],
+        "reviewedVertexIndices": [
+          111,
+          125
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Greve de Garel: local central shore chord smooths small crenellations only, water south. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 4539806,
+            "version": 18
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0335093M035710",
+      "latitude": 48.63625,
+      "longitude": -2.05453,
+      "seaBearing": 24,
+      "shoreOrientation": {
+        "distanceMetres": 33,
+        "radiusMetres": 60,
+        "wayIds": [
+          4539785
+        ],
+        "nearestSegment": 418,
+        "nearestWayId": 4539785,
+        "shorePoint": {
+          "latitude": 48.6359811331011,
+          "longitude": -2.054708749003419
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 4539785,
+            "version": 48
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0335255M035200",
+      "latitude": 48.62056,
+      "longitude": -1.84997,
+      "seaBearing": 39,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          58727421
+        ],
+        "nearestSegment": 26,
+        "nearestWayId": 58727421,
+        "shorePoint": {
+          "latitude": 48.62058759647667,
+          "longitude": -1.8499354668443106
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 58727421,
+            "version": 13
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0335288M035515",
+      "latitude": 48.6523,
+      "longitude": -2.02255,
+      "seaBearing": 7,
+      "shoreOrientation": {
+        "wayIds": [
+          142299313
+        ],
+        "reviewedVertexIndices": [
+          2,
+          0
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Eventail named tidal beach polygon: reverse southern promenade boundary so water right north. Outer intertidal coastline200m away is not the local landward beach edge. OSM georeferenced map checked with named beach, castle and promenade; sample is within beach polygon. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 142299313,
+            "version": 18
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0122094M022010",
+      "latitude": 48.61778,
+      "longitude": -2.15095,
+      "seaBearing": 294,
+      "shoreOrientation": {
+        "wayIds": [
+          208364382
+        ],
+        "reviewedVertexIndices": [
+          12,
+          22
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Islet: central west-northwest-facing local shore, not neighbouring point/harbour. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 208364382,
+            "version": 2
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0122302M022045",
+      "latitude": 48.59532,
+      "longitude": -2.19204,
+      "seaBearing": 248,
+      "shoreOrientation": {
+        "distanceMetres": 25,
+        "radiusMetres": 60,
+        "wayIds": [
+          4540056
+        ],
+        "nearestSegment": 544,
+        "nearestWayId": 4540056,
+        "shorePoint": {
+          "latitude": 48.595410107729776,
+          "longitude": -2.191731084104883
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 4540056,
+            "version": 31
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0122213M022695",
+      "latitude": 48.52781,
+      "longitude": -1.98069,
+      "seaBearing": 142,
+      "shoreOrientation": {
+        "wayIds": [
+          48043939
+        ],
+        "reviewedVertexIndices": [
+          198,
+          203
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "La Cale: slipway dogleg excluded; local main bank chord and directed water side southeast reviewed independently. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 48043939,
+            "version": 30
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0335287M035775",
+      "latitude": 48.63398,
+      "longitude": -2.09439,
+      "seaBearing": 359,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          69907146
+        ],
+        "nearestSegment": 162,
+        "nearestWayId": 69907146,
+        "shorePoint": {
+          "latitude": 48.63392146795746,
+          "longitude": -2.094390753902821
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 69907146,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0335287M035770",
+      "latitude": 48.63497,
+      "longitude": -2.086,
+      "seaBearing": 336,
+      "shoreOrientation": {
+        "distanceMetres": 4,
+        "radiusMetres": 60,
+        "wayIds": [
+          69907146
+        ],
+        "nearestSegment": 38,
+        "nearestWayId": 69907146,
+        "shorePoint": {
+          "latitude": 48.63500653821724,
+          "longitude": -2.08602436925303
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 69907146,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0335287M035785",
+      "latitude": 48.63792,
+      "longitude": -2.11055,
+      "seaBearing": 25,
+      "shoreOrientation": {
+        "distanceMetres": 2,
+        "radiusMetres": 60,
+        "wayIds": [
+          69907146
+        ],
+        "nearestSegment": 345,
+        "nearestWayId": 69907146,
+        "shorePoint": {
+          "latitude": 48.63793348906295,
+          "longitude": -2.1105423324060597
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 69907146,
+            "version": 16
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json",
+        "reviewNote": "North-up directed local shore reviewed: land left and water right. Independent local60m normal; no nearby beach orientation copied. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally."
+      }
+    },
+    {
+      "locationId": "eea-FRH0122302M022025",
+      "latitude": 48.59276,
+      "longitude": -2.18377,
+      "seaBearing": 65,
+      "shoreOrientation": {
+        "wayIds": [
+          47577586
+        ],
+        "reviewedVertexIndices": [
+          187,
+          193
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "La Manchette: central northeast-facing shore chord; rocky point north excluded. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 47577586,
+            "version": 12
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
+    },
+    {
+      "locationId": "eea-FRH0335256M035860",
+      "latitude": 48.62642,
+      "longitude": -2.14554,
+      "seaBearing": 212,
+      "shoreOrientation": {
+        "wayIds": [
+          4539795
+        ],
+        "reviewedVertexIndices": [
+          339,
+          342
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Petite Salinette: local southwest-facing beach chord, catalog point slightly landward; retain exact coordinates. Catalogue points slightly landward or seaward of mapped edge retained unchanged; irregular tidal shoreline assessed locally.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-19",
+        "reviewed": true,
+        "estimated": true,
+        "sourceTimestamp": "2026-11-19T09:00:44.567008+00:00",
+        "wayVersions": [
+          {
+            "id": 4539795,
+            "version": 26
+          }
+        ],
+        "snapshotFile": "2026-11-19-osm.json"
+      }
     }
   ]
 }
