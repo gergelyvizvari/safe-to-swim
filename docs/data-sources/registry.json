@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-20",
-  "nextCountry": "Italy",
+  "lastRun": "2026-11-21",
+  "nextCountry": "Croatia",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -17230,6 +17230,141 @@
       "nextReviewAt": "2026-12-20",
       "scope": "Local shore orientation applied and production API verified; camera and dynamic source research remain candidates.",
       "reason": "See runs/2026-11-20.json. Fifteen-site batch started November19, completed November20; not counted twice."
+    },
+    {
+      "locationId": "eea-IT012058070001",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058005002",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058022001",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012056013001",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058070002",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058091003",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058091001",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058013005",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058013003",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058013011",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058013007",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058013009",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058013015",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058005007",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
+    },
+    {
+      "locationId": "eea-IT012058091002",
+      "provider": "arpa-lazio",
+      "status": "candidate",
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "evidenceFile": "runs/2026-11-21.json",
+      "reason": "Shared seasonal workbook verified; September samples stale, changed area IDs need explicit mapping. Camera searches completed; no verified site assignment. Lake bearing not applicable."
     }
   ]
 }

@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-21",
+  "scope": "Fifteen first-time Lazio lake-site reviews from production paged catalogue Italy/lake offsets0,15,30; no duplicate catalogue entries.",
+  "catalogueOrigin": "https://safe-to-swim.vercel.app",
+  "databaseProject": "zpqhqdndaloivnyzoigb",
+  "counts": {
+    "locationsReviewed": 15,
+    "locationsPrepared": 0,
+    "locationsWithNewLiveCoverage": 0,
+    "newCamerasVerified": 1,
+    "newCamerasIntegrated": 0,
+    "shoreOrientationsDetermined": 0,
+    "shoreOrientationsApplied": 0
+  },
+  "operations": {
+    "state": "One active named minute schedule. Weather/marine canaries, UiRaS,LHMT and official wind/temperature advancing. Seasonal storm, quality and EA failures unchanged. No collector/contact called, no cron or DB mutation.",
+    "api": "All15 exact detail identities/lake water types and observations locationIds verified. Initial list request timed out; bounded paged retry succeeded. No global outage inferred.",
+    "architecture": "Existing sourceRegistry/provider collector and webcamSources/WebcamPanel read. No new adapter, camera API, schema or frontend change.",
+    "shoreOrientation": "Not applicable to all15 lakes; no sea-bearing inserted."
+  },
+  "providerResearch": [
+    {
+      "id": "arpa-lazio-bathing-monthly",
+      "sourcePage": "https://www.arpalazio.it/ambiente/acqua/dati-acqua",
+      "dataUrl": "https://www.arpalazio.it/documents/20124/504776/Balneazione_Lazio_Dati_Settembre_2026.xlsx",
+      "probe": "Actual read downloaded46520-byte valid XLSX,1000 sheet rows including empty rows. Only2 exact current catalogue ID matches; multiple Bracciano monitoring areas now use A-containing aggregated IDs. Do not silently map by proximity or similar name.",
+      "exactIdMatches": [
+        "IT012058013015",
+        "IT012058091003"
+      ],
+      "samplingDate": "2026-09-01",
+      "status": "candidate",
+      "kind": "measured historical bathing samples",
+      "variables": "Workbook supplies sample date/time, air/water temperature °C, wind direction/intensity, visual waves, currents and microbiological results with comparator and methods. Blank cells must preserve column coordinates; result inequalities must not become exact values.",
+      "freshness": "September seasonal measurements do not establish November bathing safety. Not imported as fresh observations.",
+      "licenseAuthLimits": "Public read required no key. Machine reuse licence, update contract and rate limits not established; one shared download only."
+    },
+    {
+      "id": "sira-lazio",
+      "url": "https://sira.arpalazio.it/web/guest/home/acqua/",
+      "status": "candidate",
+      "evidence": "Official public data/monitoring interfaces followed from bathing page; season May1–Sep30 and monthly sample programme. No documented timestamped current API established. Lake ecological status and annual class not current clearance."
+    },
+    {
+      "id": "arpa-lazio-lake-monitoring",
+      "url": "https://www.arpalazio.it/web/guest/ambiente/acqua/laghi",
+      "status": "candidate",
+      "evidence": "Official lake network covers Bolsena,Albano,Nemi,Bracciano among14lakes. No current station-specific temperature/algal alert payload verified; no marine source assigned to lakes."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "it-bracciano-oltre-bar-turismometeo",
+      "locationIds": [],
+      "candidateLocationIds": [
+        "eea-IT012058005002",
+        "eea-IT012058091003",
+        "eea-IT012058091001",
+        "eea-IT012058013005",
+        "eea-IT012058013003",
+        "eea-IT012058013011",
+        "eea-IT012058013007",
+        "eea-IT012058013009",
+        "eea-IT012058013015",
+        "eea-IT012058005007",
+        "eea-IT012058091002"
+      ],
+      "operator": "TurismoMeteo / Oltre Bar, Trevignano Romano",
+      "sourcePage": "https://www.turismometeo.it/webcam/trevignano-romano-lago-di-bracciano-rm-vista-da-oltre-bar",
+      "coordinates": null,
+      "type": "video-player-source-link",
+      "status": "candidate",
+      "freshness": "timestamped changing frames verified",
+      "checkedAt": "2026-11-21T10:50:00Z",
+      "imageTimesObserved": [
+        "2026-11-21 11:49:52 Europe/Rome",
+        "2026-11-21 11:50:02 Europe/Rome"
+      ],
+      "fieldOfViewEvidence": "Live frames show a rock-reinforced promenade, string lights and Bracciano lake surface/opposite shore. Date/time advanced10seconds with changing water. This is a Trevignano shore view; exact mount and visibility of selected east/west shore sampling areas unresolved. No same-lake blanket assignment.",
+      "embedding": "Operator policy states tourism/weather purpose, no person recognition. No explicit third-party embed permission assumed; external link only if later site mapping verified. No stream URL committed.",
+      "nextReviewAt": "2026-12-21"
+    },
+    {
+      "cameraId": "it-bolsena-ivo-panorama",
+      "locationIds": [],
+      "candidateLocationIds": [
+        "eea-IT012056013001"
+      ],
+      "operator": "IVO Play / Digital Telecommunication Services S.r.l.",
+      "sourcePage": "https://www.ivoplay.it/webcam/lago-di-bolsena/",
+      "coordinates": null,
+      "type": "operator-video-page",
+      "status": "candidate",
+      "freshness": "unconfirmed capture freshness",
+      "checkedAt": "2026-11-21T10:49:00Z",
+      "fieldOfViewEvidence": "Browser player started, elapsed12seconds observed, distant lake panorama over woodland and lamp pole. Second view appeared unchanged. Page10:49 label/LIVE controls do not independently timestamp captured frames. Exact mount and La Bussola visibility unproven.",
+      "embedding": "not assumed",
+      "nextReviewAt": "2026-12-21"
+    },
+    {
+      "cameraId": "it-albano-meteocastelli",
+      "locationIds": [],
+      "candidateLocationIds": [
+        "eea-IT012058022001"
+      ],
+      "operator": "Meteocastelli",
+      "sourcePage": "https://www.meteocastelli.it/vedute",
+      "coordinates": null,
+      "type": "source-page",
+      "status": "faulty",
+      "freshness": "unconfirmed",
+      "checkedAt": "2026-11-21",
+      "fieldOfViewEvidence": "Operator source discovered; read returned502. No Albano camera assigned to separate Nemi lake.",
+      "embedding": "not assumed",
+      "nextReviewAt": "2026-12-21"
+    }
+  ],
+  "cameraSearches": [
+    {
+      "locationIds": [
+        "eea-IT012058005002",
+        "eea-IT012058091003",
+        "eea-IT012058091001",
+        "eea-IT012058013005",
+        "eea-IT012058013003",
+        "eea-IT012058013011",
+        "eea-IT012058013007",
+        "eea-IT012058013009",
+        "eea-IT012058013015",
+        "eea-IT012058005007",
+        "eea-IT012058091002"
+      ],
+      "queries": [
+        "Bracciano Anguillara Trevignano webcam lago comune turismo",
+        "Anguillara Chiosco Piazzetta Punta Pizzo webcam Vigna Valle Vicarello"
+      ],
+      "result": "Shared local provider found, timestamped playback verified, selected area/mount mapping unresolved. Explicitly exclude distant opposite-shore blanket assignment."
+    },
+    {
+      "locationIds": [
+        "eea-IT012058070001",
+        "eea-IT012058070002",
+        "eea-IT012058022001"
+      ],
+      "queries": [
+        "Nemi lago webcam museo navi Castel Gandolfo Albano webcam",
+        "Nemi Museo Navi lago webcam comune"
+      ],
+      "result": "Museum primary pages confirm place context but no fresh matching camera. Albano and Nemi are different lakes."
+    },
+    {
+      "locationIds": [
+        "eea-IT012056013001"
+      ],
+      "queries": [
+        "Capodimonte Bolsena webcam lago porto comune",
+        "Capodimonte La Bussola webcam lago Bolsena"
+      ],
+      "result": "IVO operator panorama checked; no exact La Bussola view confirmed. Distant elevated Bolsena town and Marta views not substituted."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-IT012058070001",
+      "sourceTargetIds": [
+        "eea:eea-IT012058070001",
+        "open-meteo-weather:eea-IT012058070001"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058005002",
+      "sourceTargetIds": [
+        "eea:eea-IT012058005002",
+        "open-meteo-weather:eea-IT012058005002"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058022001",
+      "sourceTargetIds": [
+        "eea:eea-IT012058022001",
+        "open-meteo-weather:eea-IT012058022001"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012056013001",
+      "sourceTargetIds": [
+        "eea:eea-IT012056013001",
+        "open-meteo-weather:eea-IT012056013001"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058070002",
+      "sourceTargetIds": [
+        "eea:eea-IT012058070002",
+        "open-meteo-weather:eea-IT012058070002"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058091003",
+      "sourceTargetIds": [
+        "eea:eea-IT012058091003",
+        "open-meteo-weather:eea-IT012058091003"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": true,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058091001",
+      "sourceTargetIds": [
+        "eea:eea-IT012058091001",
+        "open-meteo-weather:eea-IT012058091001"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058013005",
+      "sourceTargetIds": [
+        "eea:eea-IT012058013005",
+        "open-meteo-weather:eea-IT012058013005"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058013003",
+      "sourceTargetIds": [
+        "eea:eea-IT012058013003",
+        "open-meteo-weather:eea-IT012058013003"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058013011",
+      "sourceTargetIds": [
+        "eea:eea-IT012058013011",
+        "open-meteo-weather:eea-IT012058013011"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058013007",
+      "sourceTargetIds": [
+        "eea:eea-IT012058013007",
+        "open-meteo-weather:eea-IT012058013007"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058013009",
+      "sourceTargetIds": [
+        "eea:eea-IT012058013009",
+        "open-meteo-weather:eea-IT012058013009"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058013015",
+      "sourceTargetIds": [
+        "eea:eea-IT012058013015",
+        "open-meteo-weather:eea-IT012058013015"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": true,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058005007",
+      "sourceTargetIds": [
+        "eea:eea-IT012058005007",
+        "open-meteo-weather:eea-IT012058005007"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    },
+    {
+      "locationId": "eea-IT012058091002",
+      "sourceTargetIds": [
+        "eea:eea-IT012058091002",
+        "open-meteo-weather:eea-IT012058091002"
+      ],
+      "checkedAt": "2026-11-21",
+      "nextReviewAt": "2026-12-21",
+      "status": "candidate",
+      "dynamicObservations": 0,
+      "exactSeptemberSampleIdMatch": false,
+      "cameraStatus": "no-verified-site-assignment",
+      "shoreOrientationStatus": "not-applicable-lake"
+    }
+  ],
+  "validation": {
+    "npmTest": "135 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "browser": "Chrome operator players inspected; no UI change or camera integration. No secrets sent, no purchases, accounts or provider messages."
+  }
+}

@@ -628,3 +628,7 @@ Completed the15 sites started November15:15 previously determined shoreline bear
 ## 2026-11-20 — Côte d’Émeraude batch completion
 
 Completed the fifteen first-time reviews started November19:15 local shore orientations applied to the confirmed catalogue and verified through production details and wind assessment;558 reproducible total. No new dynamic adapter; cameras verified/integrated0/0. Official local camera sources found, but fresh playback and exact mounts remain unverified. Seasonal quality remains unknown for current swimming.135 tests, lint/build and actual fifteen-row PostgreSQL idempotence passed. See [evidence](runs/2026-11-20.json). Next country Italy; unresolved research dueDecember20.
+
+## 2026-11-21 — Lazio lake research
+
+15 first-time lake reviews; no new live coverage or prepared import. Official September workbook downloaded:2 exact IDs matched, aggregated A-containing area IDs require reviewed mapping. Historical temperatures and microbiology remain stale. One Oltre Bar camera has timestamped changing frames, but no selected-site/mount assignment; cameras verified/integrated1/0. All15 production identities and observation envelopes checked. No lake sea-bearing, marine substitution, DB or schedule changes.135 tests, lint/build passed. [Evidence](runs/2026-11-21.json). Next country Croatia; deferred research dueDecember21.
