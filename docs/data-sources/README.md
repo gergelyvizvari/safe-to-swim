@@ -632,3 +632,7 @@ Completed the fifteen first-time reviews started November19:15 local shore orien
 ## 2026-11-21 — Lazio lake research
 
 15 first-time lake reviews; no new live coverage or prepared import. Official September workbook downloaded:2 exact IDs matched, aggregated A-containing area IDs require reviewed mapping. Historical temperatures and microbiology remain stale. One Oltre Bar camera has timestamped changing frames, but no selected-site/mount assignment; cameras verified/integrated1/0. All15 production identities and observation envelopes checked. No lake sea-bearing, marine substitution, DB or schedule changes.135 tests, lint/build passed. [Evidence](runs/2026-11-21.json). Next country Croatia; deferred research dueDecember21.
+
+## 2026-11-22 — Istrian camping shores
+
+15 first-time coastal reviews;15 local bearings determined/applied and production API verified (573 cumulative). All15 official station identities matched; one sample probe latestOctober2 remains historical. Shared camera searches and actual operator browser checks found no verified beach assignment; cameras0/0.135 tests, lint/build and actual15-row SQL preservation/idempotence passed. No new dynamic adapter, schema or schedule. [Evidence](runs/2026-11-22.json). Next country Greece; unresolved site research dueDecember22.

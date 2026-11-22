@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-22",
+  "scope": "Fifteen first-time Istrian coastal site reviews, paged Croatia coastal catalogue limit15 offsets0,15,30.",
+  "catalogueOrigin": "https://safe-to-swim.vercel.app",
+  "databaseProject": "zpqhqdndaloivnyzoigb",
+  "counts": {
+    "locationsReviewed": 15,
+    "locationsPrepared": 15,
+    "locationsWithNewLiveCoverage": 15,
+    "officialIdentitiesVerified": 15,
+    "dynamicAdaptersAdded": 0,
+    "newCamerasVerified": 0,
+    "newCamerasIntegrated": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "production": {
+    "schema": "Existing metadata fields only. All15 active coastal IDs/coordinates matched and bearings null before application. locations RLS enabled; anon SELECT and authenticated UPDATE denied. No migration or grants changed.",
+    "schedule": "One active named minute cron. Source states advance for official wind/temperature, LHMT,UiRaS and weather/marine model canaries. Existing seasonal storm, quality and EA failures persist, not new incidents. No source-check/contact call or new schedule.",
+    "api": "All15 production detail identities and observation envelope locationIds verified; stored items empty. All15 detail bearings equal proposed values after import.",
+    "import": "supabase/imports/20261122_istria_shore_orientations.sql"
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-22-osm.json",
+    "license": "ODbL-1.0 OpenStreetMap contributors",
+    "method": "Four local weighted60m directed coast normals and eleven individually reviewed chords for scalloped shores, peninsula tips, small engineered outcrops and coves. Directed shoreline keeps land left/water right. Manual records assert catalogue point on water side; no neighbour bearing copied.",
+    "edgeCases": "Mareda catalogue point about172m offshore; retained exact coordinate and independently reviewed local coastline behind it. Koversada opposite cove bank, Medulin opposite peninsula flank and Marina eastern headland excluded. Estimates, not surveyed compass bearings."
+  },
+  "providers": [
+    {
+      "providerId": "izor-croatia",
+      "url": "https://vrtlac.izor.hr/ords/kakvoca/kakvoce_sve_json?p_jezik=en&p_god=2026&p_usif=&p_ciklus=",
+      "status": "candidate",
+      "probe": "One shared1031-marker JSON read; all15 exact station suffixes/name contexts and coordinates match within15m. Year2026 is not measurement freshness.",
+      "identityMatches": [
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7184",
+          "stationId": 7184,
+          "name": "AC Kažela - FKK",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7185",
+          "stationId": 7185,
+          "name": "AC Kažela - FKK III",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7183",
+          "stationId": 7183,
+          "name": "AC Kažela - Textil Strand",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7094",
+          "stationId": 7094,
+          "name": "AC Koversada - Dječja plaža",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7091",
+          "stationId": 7091,
+          "name": "AC Koversada - Pješčana plaža",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7095",
+          "stationId": 7095,
+          "name": "AC Koversada - Rt Fujaga",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7036",
+          "stationId": 7036,
+          "name": "AC Ladin Gaj - FKK (južni dio)",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7243",
+          "stationId": 7243,
+          "name": "AC Lanterna - Plaža Valeta",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7040",
+          "stationId": 7040,
+          "name": "AC Mareda - Ispod restorana",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7203",
+          "stationId": 7203,
+          "name": "AC Marina - Crkvica",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7204",
+          "stationId": 7204,
+          "name": "AC Marina - Pozicija II",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7205",
+          "stationId": 7205,
+          "name": "AC Marina - Uvala",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7176",
+          "stationId": 7176,
+          "name": "AC Medulin - Mali poluotok (punta)",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7178",
+          "stationId": 7178,
+          "name": "AC Medulin - Markovi brigi",
+          "coordinateDifferenceMetres": 0.0
+        },
+        {
+          "locationId": "eea-HRBWC-COAST-HR3-7174",
+          "stationId": 7174,
+          "name": "AC Medulin - Restoran Financa",
+          "coordinateDifferenceMetres": 0.0
+        }
+      ],
+      "detailUrl": "https://vrtlac.izor.hr/ords/kakvoca/lokacija_sve_json?p_lok_id=7183&p_god=2026&p_usif=&p_jezik=en",
+      "detailProbe": "One station7183 sample only. Latest isp record vri2026-10-02 08:22:00, tmo20.5,tzr18.5,slanost38.9. Historical seasonal observation, not current water temperature or quality clearance. Full laboratory metric/comparator semantics, timezone and reuse contract still need validation.",
+      "kind": "measured historical sample, not integrated",
+      "auth": "Public reads worked without key; no purchase/account/message.",
+      "rateLimits": "Not established; one shared catalogue and one station probe, not repeated per location."
+    },
+    {
+      "providerId": "dhmz-xml",
+      "url": "https://www.meteo.hr/proizvodi.php?param=xml_korisnici&section=podaci",
+      "status": "candidate",
+      "license": "Croatia Open Licence, DHMZ attribution required by official page",
+      "evidence": "Official current documentation reviewed: sea-temperature XML and CAP warning feeds reusable. Coastal warnings cover six Adriatic areas and concern maximum wind gusts; not a beach-specific storm-light system. Existing November14 failed probe not repeated within30days without new availability evidence.",
+      "nextReviewAt": "2026-12-14",
+      "limits": "Station representativeness/timezone and regional polygon binding not newly verified. No water-temperature assignment from another bay or island, no fresh algal clearance inferred."
+    }
+  ],
+  "cameraSearches": [
+    {
+      "locationIds": [
+        "eea-HRBWC-COAST-HR3-7184",
+        "eea-HRBWC-COAST-HR3-7185",
+        "eea-HRBWC-COAST-HR3-7183",
+        "eea-HRBWC-COAST-HR3-7176",
+        "eea-HRBWC-COAST-HR3-7178",
+        "eea-HRBWC-COAST-HR3-7174"
+      ],
+      "query": "Arena Kažela FKK Textil Strand Medulin Mali poluotok Markovi brigi Financa webcam",
+      "sourcePage": "https://www.arenagrandkazela.com/en",
+      "evidence": "Official resort and Arena Medulin site plans found; no verified current beach camera. FKK catalogue labels do not prove current clothing policy.",
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22"
+    },
+    {
+      "locationIds": [
+        "eea-HRBWC-COAST-HR3-7094",
+        "eea-HRBWC-COAST-HR3-7091",
+        "eea-HRBWC-COAST-HR3-7095"
+      ],
+      "query": "Koversada Djecja Pjescana Rt Fujaga webcam Maistra",
+      "sourcePage": "https://www.maistra.com/",
+      "evidence": "Resort map identified; no current matching camera verified. Distinct cove banks not interchangeable.",
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22"
+    },
+    {
+      "locationIds": [
+        "eea-HRBWC-COAST-HR3-7036",
+        "eea-HRBWC-COAST-HR3-7243",
+        "eea-HRBWC-COAST-HR3-7040"
+      ],
+      "query": "Ladin Gaj Park Umag Lanterna Valeta Mareda restoran webcam",
+      "sourcePage": "https://umag.hr/webcams",
+      "evidence": "Municipal camera widget opened: town square/church view, no selected beach view. Not assigned to camp beaches.",
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22"
+    },
+    {
+      "locationIds": [
+        "eea-HRBWC-COAST-HR3-7203",
+        "eea-HRBWC-COAST-HR3-7204",
+        "eea-HRBWC-COAST-HR3-7205"
+      ],
+      "query": "Sveta Marina Crkvica Pozicija Uvala camping webcam",
+      "sourcePage": "https://istrastream.com/",
+      "evidence": "Directories refer to iStream/Istrastream; operator root renders blank browser page, no fresh player or timestamp established. No image from nearby Rabac/Cres substituted.",
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22"
+    }
+  ],
+  "cameraCandidates": [
+    {
+      "cameraId": "hr-sveta-marina-istrastream",
+      "candidateLocationIds": [
+        "eea-HRBWC-COAST-HR3-7203",
+        "eea-HRBWC-COAST-HR3-7204",
+        "eea-HRBWC-COAST-HR3-7205"
+      ],
+      "locationIds": [],
+      "operator": "Istrastream/iStream (directory attribution)",
+      "sourcePage": "https://istrastream.com/",
+      "coordinates": null,
+      "type": "operator-link",
+      "status": "faulty",
+      "freshness": "unconfirmed",
+      "fieldOfViewEvidence": "Directory claims panorama toward Kvarner from campsite; actual operator page blank. Exact mount and Crkvica/PozicijaII/Uvala views unverified.",
+      "embedding": "No permission assumed, not integrated",
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22"
+    },
+    {
+      "cameraId": "hr-umag-town-centre-whatsupcams",
+      "candidateLocationIds": [
+        "eea-HRBWC-COAST-HR3-7036"
+      ],
+      "locationIds": [],
+      "operator": "Grad Umag / Whatsupcams",
+      "sourcePage": "https://umag.hr/webcams",
+      "coordinates": null,
+      "type": "municipal-player-link",
+      "status": "rejected-site-assignment",
+      "freshness": "unconfirmed",
+      "fieldOfViewEvidence": "Municipally linked hr_umag3 widget displays church and paved town square, not Ladin Gaj campsite beach. LIVE poster not playback verification.",
+      "embedding": "Not integrated; no rights assumed",
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22"
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7184",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7184",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7184",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7184"
+      ],
+      "status": "integrated",
+      "seaBearing": 209,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7185",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7185",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7185",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7185"
+      ],
+      "status": "integrated",
+      "seaBearing": 186,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7183",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7183",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7183",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7183"
+      ],
+      "status": "integrated",
+      "seaBearing": 133,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7094",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7094",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7094",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7094"
+      ],
+      "status": "integrated",
+      "seaBearing": 235,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7091",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7091",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7091",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7091"
+      ],
+      "status": "integrated",
+      "seaBearing": 265,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7095",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7095",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7095",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7095"
+      ],
+      "status": "integrated",
+      "seaBearing": 216,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7036",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7036",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7036",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7036"
+      ],
+      "status": "integrated",
+      "seaBearing": 282,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7243",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7243",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7243",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7243"
+      ],
+      "status": "integrated",
+      "seaBearing": 229,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7040",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7040",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7040",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7040"
+      ],
+      "status": "integrated",
+      "seaBearing": 247,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7203",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7203",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7203",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7203"
+      ],
+      "status": "integrated",
+      "seaBearing": 195,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7204",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7204",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7204",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7204"
+      ],
+      "status": "integrated",
+      "seaBearing": 217,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7205",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7205",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7205",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7205"
+      ],
+      "status": "integrated",
+      "seaBearing": 239,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7176",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7176",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7176",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7176"
+      ],
+      "status": "integrated",
+      "seaBearing": 146,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7178",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7178",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7178",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7178"
+      ],
+      "status": "integrated",
+      "seaBearing": 130,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    },
+    {
+      "locationId": "eea-HRBWC-COAST-HR3-7174",
+      "sourceTargetIds": [
+        "eea:eea-HRBWC-COAST-HR3-7174",
+        "open-meteo-marine:eea-HRBWC-COAST-HR3-7174",
+        "open-meteo-weather:eea-HRBWC-COAST-HR3-7174"
+      ],
+      "status": "integrated",
+      "seaBearing": 254,
+      "checkedAt": "2026-11-22",
+      "nextReviewAt": "2026-12-22",
+      "cameraStatus": "not-verified",
+      "dynamicObservations": 0
+    }
+  ],
+  "validation": {
+    "npmTest": "135 passed",
+    "npmLint": "passed",
+    "npmBuild": "passed",
+    "geometry": "573 cumulative bearings reproduced from versioned snapshots; previous558 entries unchanged.",
+    "postgres": "Actual15-row fill preserves unrelated metadata, rerun updates0 with identical rows; generic regression verifies manual north0/provenance/name, coordinate/type guards and idempotence.",
+    "browser": "Production exact AC Marina - Uvala selected via picker. Wind from E classified offshore with Use extra caution; missing-shore note absent. Waves0.4m and model time09:00 visible; quality explicitly current unconfirmed. Camera provider root blank; municipal Umag widget shows town square not selected beaches. No UI code changed."
+  }
+}
