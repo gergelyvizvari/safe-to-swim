@@ -636,3 +636,7 @@ Completed the fifteen first-time reviews started November19:15 local shore orien
 ## 2026-11-22 — Istrian camping shores
 
 15 first-time coastal reviews;15 local bearings determined/applied and production API verified (573 cumulative). All15 official station identities matched; one sample probe latestOctober2 remains historical. Shared camera searches and actual operator browser checks found no verified beach assignment; cameras0/0.135 tests, lint/build and actual15-row SQL preservation/idempotence passed. No new dynamic adapter, schema or schedule. [Evidence](runs/2026-11-22.json). Next country Greece; unresolved site research dueDecember22.
+
+## 2026-11-25 — Greek batch completion
+
+Completed the fifteen coastal reviews begun November24:15 local shore bearings applied to the confirmed catalogue and verified through production details, observation identities and wind assessment;588 reproducible total. Previous573 orientation records preserved. Afytos camera timestamped changing frames verified, but mount unresolved: cameras verified/integrated1/0. No dynamic adapter or schedule change. Historical Greek samples and HCMR dataset index are candidates, not fresh beach observations.135 tests, lint/build pass. [Evidence](runs/2026-11-25.json). Next country Cyprus.

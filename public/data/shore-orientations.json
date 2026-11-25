@@ -19963,6 +19963,522 @@
           }
         ]
       }
+    },
+    {
+      "locationId": "eea-ELBW149280430101",
+      "latitude": 35.5573,
+      "longitude": 27.2039,
+      "seaBearing": 45,
+      "shoreOrientation": {
+        "distanceMetres": 18,
+        "radiusMetres": 60,
+        "wayIds": [
+          657097436
+        ],
+        "nearestSegment": 629,
+        "nearestWayId": 657097436,
+        "shorePoint": {
+          "latitude": 35.5571836703377,
+          "longitude": 27.203765512360373
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 657097436,
+            "version": 14
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079154125101",
+      "latitude": 38.8498,
+      "longitude": 24.5347,
+      "seaBearing": 209,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          8886108
+        ],
+        "nearestSegment": 499,
+        "nearestWayId": 8886108,
+        "shorePoint": {
+          "latitude": 38.84985240415631,
+          "longitude": 24.534736084633437
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 8886108,
+            "version": 30
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079104015101",
+      "latitude": 39.0082,
+      "longitude": 22.9589,
+      "seaBearing": 52,
+      "shoreOrientation": {
+        "distanceMetres": 9,
+        "radiusMetres": 60,
+        "wayIds": [
+          140304516
+        ],
+        "nearestSegment": 505,
+        "nearestWayId": 140304516,
+        "shorePoint": {
+          "latitude": 39.00814617949634,
+          "longitude": 22.958821283195707
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 140304516,
+            "version": 13
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079104011101",
+      "latitude": 39.01,
+      "longitude": 22.9578,
+      "seaBearing": 103,
+      "shoreOrientation": {
+        "wayIds": [
+          140304516
+        ],
+        "reviewedVertexIndices": [
+          513,
+          516
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "reviewNote": "Local east-facing curved shore. Catalogue point slightly landward of smoothed chord; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "precision": "estimated",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 140304516,
+            "version": 13
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079154132101",
+      "latitude": 38.868,
+      "longitude": 24.5767,
+      "seaBearing": 346,
+      "shoreOrientation": {
+        "distanceMetres": 5,
+        "radiusMetres": 60,
+        "wayIds": [
+          8886380
+        ],
+        "nearestSegment": 585,
+        "nearestWayId": 8886380,
+        "shorePoint": {
+          "latitude": 38.86795423614517,
+          "longitude": 24.576707891086826
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 8886380,
+            "version": 40
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW139318091101",
+      "latitude": 35.3724,
+      "longitude": 24.5323,
+      "seaBearing": 347,
+      "shoreOrientation": {
+        "distanceMetres": 7,
+        "radiusMetres": 60,
+        "wayIds": [
+          434989703
+        ],
+        "nearestSegment": 1,
+        "nearestWayId": 434989703,
+        "shorePoint": {
+          "latitude": 35.37245801990888,
+          "longitude": 24.53228144315562
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 434989703,
+            "version": 6
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079164149101",
+      "latitude": 38.886,
+      "longitude": 22.8089,
+      "seaBearing": 181,
+      "shoreOrientation": {
+        "distanceMetres": 1,
+        "radiusMetres": 60,
+        "wayIds": [
+          140305431
+        ],
+        "nearestSegment": 17,
+        "nearestWayId": 140305431,
+        "shorePoint": {
+          "latitude": 38.88599308365612,
+          "longitude": 22.808899955880303
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 140305431,
+            "version": 7
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079164151101",
+      "latitude": 38.8869,
+      "longitude": 22.8197,
+      "seaBearing": 145,
+      "shoreOrientation": {
+        "wayIds": [
+          140305431
+        ],
+        "reviewedVertexIndices": [
+          41,
+          45
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "reviewNote": "Local southeast-facing cove corner; separate from Achladi1 and similarly named Evia beaches.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "precision": "estimated",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 140305431,
+            "version": 7
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW079110107101",
+      "latitude": 39.1469,
+      "longitude": 23.4641,
+      "seaBearing": 128,
+      "shoreOrientation": {
+        "distanceMetres": 0,
+        "radiusMetres": 60,
+        "wayIds": [
+          1184681330
+        ],
+        "nearestSegment": 134,
+        "nearestWayId": 1184681330,
+        "shorePoint": {
+          "latitude": 39.14689759863044,
+          "longitude": 23.46410414446815
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 1184681330,
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW139311050101",
+      "latitude": 35.0268,
+      "longitude": 25.8917,
+      "seaBearing": 177,
+      "shoreOrientation": {
+        "wayIds": [
+          435004934
+        ],
+        "reviewedVertexIndices": [
+          78,
+          83
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "reviewNote": "Local near-east-west central bay beach, water south; rocky lateral coves excluded.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "precision": "estimated",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 435004934,
+            "version": 8
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW149261416101",
+      "latitude": 39.0569,
+      "longitude": 26.6022,
+      "seaBearing": 50,
+      "shoreOrientation": {
+        "wayIds": [
+          58808373
+        ],
+        "reviewedVertexIndices": [
+          1,
+          4
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "reviewNote": "Local northeast-facing airport beach. Catalogue point slightly landward of chord; unchanged. No port shoreline substituted.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "precision": "estimated",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 58808373,
+            "version": 16
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW149296245101",
+      "latitude": 36.2916,
+      "longitude": 28.181,
+      "seaBearing": 117,
+      "shoreOrientation": {
+        "distanceMetres": 6,
+        "radiusMetres": 60,
+        "wayIds": [
+          4571543
+        ],
+        "nearestSegment": 117,
+        "nearestWayId": 4571543,
+        "shorePoint": {
+          "latitude": 36.291574390267584,
+          "longitude": 28.181061589397487
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 4571543,
+            "version": 29
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW149296229101",
+      "latitude": 36.2566,
+      "longitude": 28.1678,
+      "seaBearing": 78,
+      "shoreOrientation": {
+        "wayIds": [
+          4571543
+        ],
+        "reviewedVertexIndices": [
+          59,
+          62
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "reviewNote": "Local east-facing shore excluding short engineered dogleg and northern pier.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "precision": "estimated",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 4571543,
+            "version": 29
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW109057045101",
+      "latitude": 40.0997,
+      "longitude": 23.4403,
+      "seaBearing": 85,
+      "shoreOrientation": {
+        "distanceMetres": 11,
+        "radiusMetres": 60,
+        "wayIds": [
+          8815475
+        ],
+        "nearestSegment": 101,
+        "nearestWayId": 8815475,
+        "shorePoint": {
+          "latitude": 40.099703252970905,
+          "longitude": 23.440429441063856
+        },
+        "method": "length-weighted-local-coastline-right-normal",
+        "precision": "estimated",
+        "reviewNote": "Local directed shore north-up reviewed: land left, water right. Independent60m weighted normal, neighbouring shore not copied. Catalogue point may be slightly landward; exact coordinates retained.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 8815475,
+            "version": 37
+          }
+        ]
+      }
+    },
+    {
+      "locationId": "eea-ELBW149273336101",
+      "latitude": 36.6309,
+      "longitude": 24.894,
+      "seaBearing": 217,
+      "shoreOrientation": {
+        "wayIds": [
+          304111895
+        ],
+        "reviewedVertexIndices": [
+          2,
+          6
+        ],
+        "method": "map-reviewed-local-beach-chord-right-normal",
+        "reviewNote": "Local southwest-facing beach flank within Agali bay, not adjacent eastern rocky wall.",
+        "source": "OpenStreetMap contributors",
+        "sourceUrl": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL-1.0",
+        "precision": "estimated",
+        "checkedAt": "2026-11-24",
+        "reviewed": true,
+        "estimated": true,
+        "snapshotFile": "2026-11-24-osm.json",
+        "sourceTimestamp": "2026-11-24T20:00:15.381496+00:00",
+        "wayVersions": [
+          {
+            "id": 304111895,
+            "version": 4
+          }
+        ]
+      }
     }
   ]
 }

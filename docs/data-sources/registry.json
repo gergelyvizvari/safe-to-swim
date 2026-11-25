@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-22",
-  "nextCountry": "Greece",
+  "lastRun": "2026-11-25",
+  "nextCountry": "Cyprus",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -17500,6 +17500,156 @@
       "nextReviewAt": "2026-12-22",
       "evidenceFile": "runs/2026-11-22.json",
       "reason": "Local shore orientation applied and production API verified. Official station matched; historical samples and camera candidates not fresh integration."
+    },
+    {
+      "locationId": "eea-ELBW149280430101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079154125101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079104015101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079104011101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079154132101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW139318091101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079164149101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079164151101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW079110107101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW139311050101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW149261416101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW149296245101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW149296229101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW109057045101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-ELBW149273336101",
+      "country": "Greece",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-24",
+      "nextReviewAt": "2026-12-24",
+      "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
+      "evidence": "runs/2026-11-25.json"
     }
   ]
 }

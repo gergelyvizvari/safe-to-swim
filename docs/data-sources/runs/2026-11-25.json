@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-25",
+  "scope": "Completion of the fifteen Greek coastal site reviews begun November24; no duplicate new daily batch.",
+  "catalogueOrigin": "https://safe-to-swim.vercel.app",
+  "databaseProject": "zpqhqdndaloivnyzoigb",
+  "counts": {
+    "locationsReviewed": 15,
+    "locationsPrepared": 15,
+    "locationsWithNewLiveCoverage": 15,
+    "dynamicAdaptersAdded": 0,
+    "newCamerasVerified": 1,
+    "newCamerasIntegrated": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-24-osm.json",
+    "import": "supabase/imports/20261124_greece_shore_orientations.sql",
+    "license": "ODbL-1.0",
+    "method": "Nine local60m weighted directed-coast normals and six individually map-reviewed local chords. Land left, water right; estimated not surveyed. Small landward catalogue offsets retained and documented. Existing588 bearings reproduce."
+  },
+  "production": {
+    "schema": "Existing metadata fields only; all15 active coastal IDs and exact coordinates verified, all bearings missing before import. RLS enabled, anon read/authenticated update denied.",
+    "schedule": "One active minute source-check job. Wind, temperature, UiRaS, LHMT and model canaries advance. Known seasonal storm/quality and EA/NRW/SEPA failures persist; no duplicate incident or manual collector/contact call.",
+    "api": "Fifteen exact production details and observations verified after application; see validation.",
+    "appliedOn": "2026-11-25"
+  },
+  "providers": [
+    {
+      "id": "greece-bathing-profiles",
+      "url": "https://bathingwaterprofiles.gr/el/monresrv/GRBW079164149101",
+      "status": "candidate",
+      "evidence": "Exact Achladi1 profile and results read November24; latest listed sample18-10-2026 historical, not current safety. One station probe, not fifteen parsed stations."
+    },
+    {
+      "id": "hcmr-erddap",
+      "url": "https://erddap.ath.hcmr.gr/erddap/tabledap/allDatasets.json",
+      "status": "candidate",
+      "evidence": "35 dataset index rows read; NRT titles alone do not prove fresh observations or beach representativeness. No station substitution or adapter activated."
+    },
+    {
+      "id": "emy-marine",
+      "url": "https://www.emy.gr/en/marine",
+      "status": "candidate",
+      "evidence": "Regional marine warning documentation investigated; no exact machine-readable beach alert mapping verified."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "gr-afytos-on-the-rocks-candidate",
+      "locationIds": [
+        "eea-ELBW109057045101"
+      ],
+      "operator": "Northellas.eyes / On The Rocks",
+      "sourcePage": "https://northellaseyes.gr/kameres/afytos/",
+      "coordinates": null,
+      "coverage": "nearby-shore candidate",
+      "status": "candidate",
+      "checkedAt": "2026-11-24T20:03:24Z",
+      "freshness": "Timestamped changing frames24/11/2026 22:03:19 and22:03:24 local Greece observed in ordinary browser after clicking live camera. Moving wave foam; promenade stone parapet/lamps, Toroneos Gulf and opposite coast lights.",
+      "type": "external-source-link candidate",
+      "embedding": "Permission not established; no embed or stream URL committed.",
+      "reason": "Exact host mount not independently resolved. OSM similarly named bar node is insufficient proof; do not use bathing sample coordinates as mount.",
+      "reviewAfter": "2026-12-01"
+    }
+  ],
+  "cameraSearches": [
+    {
+      "sites": [
+        "ACHATA"
+      ],
+      "result": "Karpathos Pigadia camera different bay; not substituted."
+    },
+    {
+      "sites": [
+        "ACHERONES",
+        "ACHILLI"
+      ],
+      "result": "Skyros Linaria harbour references not proof of selected beach view."
+    },
+    {
+      "sites": [
+        "ACHILLEIO NOTIA",
+        "ACHILLEIO VOREIA",
+        "ACHLADI1",
+        "ACHLADI2"
+      ],
+      "result": "No fresh exact-site camera established; similarly named Evia/Crete sites excluded."
+    },
+    {
+      "sites": [
+        "ACHLADIES"
+      ],
+      "result": "Skiathos port camera not proof of Achladies view."
+    },
+    {
+      "sites": [
+        "ACHLADI",
+        "ACHLIA SCHINOKAPSALON"
+      ],
+      "url": "https://www.rethymno.gr/en/e-services/rethymno-live/webcams.html",
+      "result": "Town views not these northern/southern beaches."
+    },
+    {
+      "sites": [
+        "AERODROMIO MYTILINIS"
+      ],
+      "url": "https://mytilene.gr/2020/12/10/live-webcam-dimou-mytilinis/",
+      "result": "Town camera does not establish airport beach field of view."
+    },
+    {
+      "sites": [
+        "AFANTOU",
+        "AFANTOU-KOLIMPIA"
+      ],
+      "url": "https://www.meteology.gr/kamera_rodos_en.html",
+      "result": "Kolymbia operator candidate; actual fresh browser playback and precise mount not established. App-only access not bypassed."
+    },
+    {
+      "sites": [
+        "AGALI"
+      ],
+      "url": "https://www.folegandros.gr/en/list-en/agali/",
+      "result": "Tourism beach description not live camera proof."
+    }
+  ],
+  "locations": [
+    {
+      "locationId": "eea-ELBW149280430101",
+      "name": "ACHATA",
+      "seaBearing": 45,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079154125101",
+      "name": "ACHERONES",
+      "seaBearing": 209,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079104015101",
+      "name": "ACHILLEIO NOTIA",
+      "seaBearing": 52,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079104011101",
+      "name": "ACHILLEIO VOREIA",
+      "seaBearing": 103,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079154132101",
+      "name": "ACHILLI",
+      "seaBearing": 346,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW139318091101",
+      "name": "ACHLADI",
+      "seaBearing": 347,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079164149101",
+      "name": "ACHLADI 1",
+      "seaBearing": 181,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079164151101",
+      "name": "ACHLADI 2",
+      "seaBearing": 145,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW079110107101",
+      "name": "ACHLADIES",
+      "seaBearing": 128,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW139311050101",
+      "name": "ACHLIA SCHINOKAPSALON",
+      "seaBearing": 177,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW149261416101",
+      "name": "AERODROMIO MYTILINIS",
+      "seaBearing": 50,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW149296245101",
+      "name": "AFANTOU",
+      "seaBearing": 117,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW149296229101",
+      "name": "AFANTOU - KOLIMPIA",
+      "seaBearing": 78,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW109057045101",
+      "name": "AFYTOS",
+      "seaBearing": 85,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    },
+    {
+      "locationId": "eea-ELBW149273336101",
+      "name": "AGALI",
+      "seaBearing": 217,
+      "checkedAt": "2026-11-24",
+      "reviewAfter": "2026-12-24"
+    }
+  ],
+  "validation": {
+    "tests": 135,
+    "lint": "passed",
+    "build": "passed",
+    "geometryReproductions": 588,
+    "postgres": "Existing generic manual-north preservation/type/coordinate/idempotence and actual15-row missing-only fixture checks passed November24. No SQL changes since.",
+    "ui": "No UI or camera module change; production detail to wind-assessment metadata verification required."
+  }
+}
