@@ -640,3 +640,7 @@ Completed the fifteen first-time reviews started November19:15 local shore orien
 ## 2026-11-25 — Greek batch completion
 
 Completed the fifteen coastal reviews begun November24:15 local shore bearings applied to the confirmed catalogue and verified through production details, observation identities and wind assessment;588 reproducible total. Previous573 orientation records preserved. Afytos camera timestamped changing frames verified, but mount unresolved: cameras verified/integrated1/0. No dynamic adapter or schedule change. Historical Greek samples and HCMR dataset index are candidates, not fresh beach observations.135 tests, lint/build pass. [Evidence](runs/2026-11-25.json). Next country Cyprus.
+
+## 2026-11-27 — Cyprus coastal shores
+
+15 first-time coastal reviews:15 local estimated bearings applied and production API/wind-assessment verified;603 reproducible total. Historic official BWD CSV access403; current regional sea bulletin is not a beach measurement. Limassol Marina operator browser player fails despite a fresh poster: cameras verified/integrated0/0. No schema, adapter or schedule change.135 tests, lint/build and actual15-row PostgreSQL idempotence pass. [Evidence](runs/2026-11-27.json). Next country Spain; unresolved research dueDecember27.

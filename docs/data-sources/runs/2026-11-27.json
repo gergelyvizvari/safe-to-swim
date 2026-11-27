@@ -1,0 +1,374 @@
+{
+  "date": "2026-11-27",
+  "scope": "Fifteen first-time Cyprus coastal sites; official shared-provider and local camera research, independent shoreline review.",
+  "catalogueOrigin": "https://safe-to-swim.vercel.app",
+  "databaseProject": "zpqhqdndaloivnyzoigb",
+  "counts": {
+    "locationsReviewed": 15,
+    "locationsPrepared": 15,
+    "locationsWithNewLiveCoverage": 15,
+    "dynamicAdaptersAdded": 0,
+    "cameraSourcesBrowserReviewed": 1,
+    "newCamerasVerified": 0,
+    "newCamerasIntegrated": 0,
+    "shoreOrientationsDetermined": 15,
+    "shoreOrientationsApplied": 15
+  },
+  "production": {
+    "schema": "All15 active coastal IDs and exact coordinates matched; bearings null before import. RLS enabled, anon SELECT and authenticated UPDATE denied. No schema/grants changed.",
+    "schedule": "One active minute collector. Official wind/temperature, UiRaS, LHMT and Open-Meteo canaries advance. Known seasonal storm/quality, EA samples and weekly EA/NRW/SEPA failures persist; no new duplicate incident, cron or manual collector/contact call.",
+    "api": "All15 exact detail and observations envelope identities checked before application; stored observation items empty. All15 production bearings verified after import and fed to wind assessment.",
+    "import": "supabase/imports/20261127_cyprus_shore_orientations.sql"
+  },
+  "geometry": {
+    "snapshot": "data/shorelines/2026-11-27-osm.json",
+    "license": "ODbL-1.0, OpenStreetMap contributors",
+    "method": "Seven60m weighted directed-coast right normals and eight individually north-up map-reviewed local chords. Land left/water right. Thekla offshore island excluded; Triada inner cove independently resolved; Alamanou western rocky flank excluded; Frangoudi1/2 distinct beach/groyne contexts; Alykes groyne excluded. Airport catalogue point76m offshore retained. Small landward offsets explicitly noted. All values estimated, not surveyed.",
+    "cumulativeReproduced": 603
+  },
+  "providers": [
+    {
+      "sourceId": "cy-environment-bwd",
+      "url": "https://www.data.gov.cy/en/dataset/bathing-water-directive-monitoring-results-and-classification-bathing-waters",
+      "status": "candidate",
+      "license": "CC BY4.0 as displayed on official portal",
+      "evidence": "Official portal describes measured enterococci/E.coli cfu/100ml, annual reporting, historical2020-2023 consolidated CSV. Actual CSV and DCAT JSON read requests returned403. No parsed samples, no new beach station matching, no claim current water safety.",
+      "probeUrl": "https://www.data.gov.cy/sites/default/files/BWD_CY-MonitoringResults_2020-2023.csv"
+    },
+    {
+      "sourceId": "cy-dom-marine",
+      "url": "https://www.dom.org.cy/FORECAST/sea_d_en.html",
+      "status": "candidate",
+      "evidence": "Actual HTTP200 HTML read, issued26/11/2026; valid0000-2400 27/11/2026 local. Regional forecast uses Beaufort and lists sea surface temperature22C. No measurement station or beach representativeness established; no reuse/rate-limit agreement confirmed. Not ingested as local measured temperature or official beach warning."
+    },
+    {
+      "sourceId": "cy-ucy-cycofos",
+      "url": "https://oceanography.ucy.ac.cy/",
+      "status": "candidate",
+      "evidence": "University primary research/services screened; no verified current machine-readable dataset, publication timestamp, per-site grid mapping or redistribution terms. Historical CYCOFOS descriptions alone are not an operational probe."
+    }
+  ],
+  "cameras": [
+    {
+      "cameraId": "cy-limassol-marina-kitas",
+      "locationIds": [],
+      "consideredLocationIds": [
+        "eea-CY0005000000000099",
+        "eea-CY0005000000000097"
+      ],
+      "operator": "Limassol Marina / Kitasweather",
+      "sourcePage": "https://kitasweather.com/cyprus-weather-camera/limassol-marina-cam/",
+      "coordinates": null,
+      "coverage": "Marina entrance/open sea, PTZ; selected bathing beaches not confirmed visible",
+      "checkedAt": "2026-11-27T00:16:41Z",
+      "status": "candidate",
+      "type": "external-player",
+      "freshness": "Fresh dated poster only; live playback unconfirmed",
+      "embedding": "No embed permission assumed; nothing integrated",
+      "evidence": "Ordinary Chrome operator page shows27-11-2026 Fri02:16:41 poster with rock breakwater and open water. Play click yields Unable to play media; returns to same poster. No two updating frames; LIVE label not proof. Operator July27 article states usual view marina entrance and manual PTZ for weather; does not guarantee selected beaches. No stream URL stored.",
+      "reviewAfter": "2026-12-27"
+    }
+  ],
+  "cameraSearches": [
+    {
+      "locationIds": [
+        "eea-CY0005124000000071"
+      ],
+      "query": "AGIA BARBARA Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0003100000000019"
+      ],
+      "query": "AGIA THEKLA Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0003101000000002"
+      ],
+      "query": "AGIA TRIADA Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005212000000111"
+      ],
+      "query": "AGIOS ERMOGENIS Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0003103000000020"
+      ],
+      "query": "AGIOS EVSTATHIOS Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005127000000067"
+      ],
+      "query": "AGIOS GEORGIOS ALAMANOU Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005012000000092"
+      ],
+      "query": "AGIOS GEORGIOS FRANGOUDI 1 Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005012000000093"
+      ],
+      "query": "AGIOS GEORGIOS FRANGOUDI 2 Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0004000000000050"
+      ],
+      "query": "AIRPORT Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005126000000066"
+      ],
+      "query": "AKTI KYBERNITI Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005000000000099"
+      ],
+      "query": "AKTI OLYMPION A Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005000000000097"
+      ],
+      "query": "AKTI OLYMPION B Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY000410600000024A"
+      ],
+      "query": "ALOUPOTRYPES Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0006000000000129"
+      ],
+      "query": "ALYKES Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationIds": [
+        "eea-CY0005013000000087"
+      ],
+      "query": "AMATHOS Cyprus webcam / κάμερα; operator/tourism/marina context",
+      "result": "No timestamped updating exact-site view established. Similar Greek names and nearby harbour/city cameras not substituted.",
+      "reviewAfter": "2026-12-27"
+    }
+  ],
+  "cameraPrimaryReferences": [
+    "https://www.limassoltourism.com/beaches-2/",
+    "https://www.visitcyprus.com/discover-cyprus/sun-sea/beaches/alykes-beach-blue-flag/",
+    "https://kitasweather.com/news/genika/egkatastasi-peristrefomenis-cameras-apo-ti-marina-lemesou-zontana-i-katastasi-tis-thalassas/"
+  ],
+  "locations": [
+    {
+      "locationId": "eea-CY0005124000000071",
+      "sourceTargetIds": [
+        "eea:eea-CY0005124000000071",
+        "open-meteo-marine:eea-CY0005124000000071",
+        "open-meteo-weather:eea-CY0005124000000071"
+      ],
+      "shoreOrientation": 180,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0003100000000019",
+      "sourceTargetIds": [
+        "eea:eea-CY0003100000000019",
+        "open-meteo-marine:eea-CY0003100000000019",
+        "open-meteo-weather:eea-CY0003100000000019"
+      ],
+      "shoreOrientation": 187,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0003101000000002",
+      "sourceTargetIds": [
+        "eea:eea-CY0003101000000002",
+        "open-meteo-marine:eea-CY0003101000000002",
+        "open-meteo-weather:eea-CY0003101000000002"
+      ],
+      "shoreOrientation": 30,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005212000000111",
+      "sourceTargetIds": [
+        "eea:eea-CY0005212000000111",
+        "open-meteo-marine:eea-CY0005212000000111",
+        "open-meteo-weather:eea-CY0005212000000111"
+      ],
+      "shoreOrientation": 221,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0003103000000020",
+      "sourceTargetIds": [
+        "eea:eea-CY0003103000000020",
+        "open-meteo-marine:eea-CY0003103000000020",
+        "open-meteo-weather:eea-CY0003103000000020"
+      ],
+      "shoreOrientation": 173,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005127000000067",
+      "sourceTargetIds": [
+        "eea:eea-CY0005127000000067",
+        "open-meteo-marine:eea-CY0005127000000067",
+        "open-meteo-weather:eea-CY0005127000000067"
+      ],
+      "shoreOrientation": 170,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005012000000092",
+      "sourceTargetIds": [
+        "eea:eea-CY0005012000000092",
+        "open-meteo-marine:eea-CY0005012000000092",
+        "open-meteo-weather:eea-CY0005012000000092"
+      ],
+      "shoreOrientation": 154,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005012000000093",
+      "sourceTargetIds": [
+        "eea:eea-CY0005012000000093",
+        "open-meteo-marine:eea-CY0005012000000093",
+        "open-meteo-weather:eea-CY0005012000000093"
+      ],
+      "shoreOrientation": 186,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0004000000000050",
+      "sourceTargetIds": [
+        "eea:eea-CY0004000000000050",
+        "open-meteo-marine:eea-CY0004000000000050",
+        "open-meteo-weather:eea-CY0004000000000050"
+      ],
+      "shoreOrientation": 86,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005126000000066",
+      "sourceTargetIds": [
+        "eea:eea-CY0005126000000066",
+        "open-meteo-marine:eea-CY0005126000000066",
+        "open-meteo-weather:eea-CY0005126000000066"
+      ],
+      "shoreOrientation": 111,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005000000000099",
+      "sourceTargetIds": [
+        "eea:eea-CY0005000000000099",
+        "open-meteo-marine:eea-CY0005000000000099",
+        "open-meteo-weather:eea-CY0005000000000099"
+      ],
+      "shoreOrientation": 144,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005000000000097",
+      "sourceTargetIds": [
+        "eea:eea-CY0005000000000097",
+        "open-meteo-marine:eea-CY0005000000000097",
+        "open-meteo-weather:eea-CY0005000000000097"
+      ],
+      "shoreOrientation": 152,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY000410600000024A",
+      "sourceTargetIds": [
+        "eea:eea-CY000410600000024A",
+        "open-meteo-marine:eea-CY000410600000024A",
+        "open-meteo-weather:eea-CY000410600000024A"
+      ],
+      "shoreOrientation": 204,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0006000000000129",
+      "sourceTargetIds": [
+        "eea:eea-CY0006000000000129",
+        "open-meteo-marine:eea-CY0006000000000129",
+        "open-meteo-weather:eea-CY0006000000000129"
+      ],
+      "shoreOrientation": 196,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    },
+    {
+      "locationId": "eea-CY0005013000000087",
+      "sourceTargetIds": [
+        "eea:eea-CY0005013000000087",
+        "open-meteo-marine:eea-CY0005013000000087",
+        "open-meteo-weather:eea-CY0005013000000087"
+      ],
+      "shoreOrientation": 158,
+      "checkedAt": "2026-11-27",
+      "reviewAfter": "2026-12-27"
+    }
+  ],
+  "validation": {
+    "tests": 135,
+    "lint": "passed",
+    "build": "passed",
+    "postgres": "Actual15-row disposable transaction: update15, preserve unrelated metadata, rerun update0 and all rows/updated_at identical. Existing meaningful missing/type/coord/manual/north tests retained.",
+    "geometry": "603 bearings reproduced;588 previous records unchanged.",
+    "ui": "No component change. Actual production details used as wind-assessment input; shoreOrientation missing field absent."
+  }
+}

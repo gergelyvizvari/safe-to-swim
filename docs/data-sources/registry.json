@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastRun": "2026-11-25",
-  "nextCountry": "Cyprus",
+  "lastRun": "2026-11-27",
+  "nextCountry": "Spain",
   "entries": [
     {
       "locationId": "eea-SE0441290000000676",
@@ -17650,6 +17650,156 @@
       "nextReviewAt": "2026-12-24",
       "scope": "Local shore orientation applied November25; dynamic observations and camera mapping remain unintegrated.",
       "evidence": "runs/2026-11-25.json"
+    },
+    {
+      "locationId": "eea-CY0005124000000071",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0003100000000019",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0003101000000002",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005212000000111",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0003103000000020",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005127000000067",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005012000000092",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005012000000093",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0004000000000050",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005126000000066",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005000000000099",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005000000000097",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY000410600000024A",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0006000000000129",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
+    },
+    {
+      "locationId": "eea-CY0005013000000087",
+      "country": "Cyprus",
+      "waterType": "coastal",
+      "status": "integrated",
+      "checkedAt": "2026-11-27",
+      "nextReviewAt": "2026-12-27",
+      "scope": "Local shore orientation applied; new dynamic measurements and cameras not integrated.",
+      "evidence": "runs/2026-11-27.json"
     }
   ]
 }
